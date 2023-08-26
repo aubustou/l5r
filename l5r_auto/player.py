@@ -12,7 +12,7 @@ class Entity:
     id: uuid.UUID = field(default_factory=uuid.uuid4)
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Player:
     name: str
     honor: int

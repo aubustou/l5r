@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from l5r_auto.dataclasses import dataclass, field
-from typing import List, Type
+from dataclasses import dataclass, field
+from typing import Type
 from l5r_auto.card import Ability, Card
 from l5r_auto.cards.followers.common import Follower
 from l5r_auto.cards.personalities.common import Personality, PersonalityEntity
@@ -10,7 +10,10 @@ from l5r_auto.cards.strongholds.common import Stronghold
 from l5r_auto.clans import Unicorn, Clan
 
 
-@dataclass
+# Northern Provinces of the Moto
+
+
+@dataclass(kw_only=True)
 class ProduceGoldForCavalry(Ability):
     """w: When paying for a Cavalry Follower, produce 7 Gold that may only pay for it."""
 
@@ -24,7 +27,7 @@ class ProduceGoldForCavalry(Ability):
             return self.base_gold_amount
 
 
-@dataclass
+@dataclass(kw_only=True)
 class NorthernProvincesBattleAbility(Ability):
     """Repeatable Tireless Battle: Target your two unbowed Cavalry Personalities that this action has not targeted this turn, one of whom may be at any location. Switch their locations."""
 
