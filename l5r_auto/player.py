@@ -5,11 +5,22 @@ import uuid
 
 from l5r_auto.card import Card
 from l5r_auto.cards.strongholds.common import Stronghold
+from l5r_auto.phases import Phase, Step
+
+
+@dataclass(kw_only=True)
+class Game:
+    players: list[Player] = field(default_factory=list)
+
+    current_player: Player | None = None
+    current_phase: Phase | None = None
+    current_step: Step | None = None
 
 
 @dataclass(kw_only=True)
 class Entity:
     id: uuid.UUID = field(default_factory=uuid.uuid4)
+    game: Game
 
 
 @dataclass(kw_only=True)

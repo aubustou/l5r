@@ -5,7 +5,22 @@ from l5r_auto.card import Card, Keyword
 
 
 @dataclass(kw_only=True)
+class Baraunghar(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Bushi(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
 class Cavalry(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Explorer(Keyword):
     pass
 
 

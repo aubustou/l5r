@@ -53,7 +53,7 @@ NorthernProvincesOfTheMoto = Stronghold(
     title="Northern Provinces of the Moto",
     province_strength=7,
     gold_production=5,
-    starting_honor=4,
+    starting_family_honor=4,
     clan=Unicorn,
     abilities=[
         ProduceGoldForCavalry(base_gold_amount=7, gold_amount=7),
