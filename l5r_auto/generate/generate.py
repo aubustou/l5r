@@ -467,6 +467,7 @@ def main():
 
     get_card_modules(cards_by_type["personalities"], "personality")
     get_card_modules(cards_by_type["holdings"], "holding")
+    get_card_modules(cards_by_type["events"], "event")
 
 
 def plural(s: str) -> str:
@@ -492,7 +493,7 @@ class {keyword}(Keyword):
 
 
 def clean_edition(edition: str) -> str:
-    edition = edition.replace(":", "_").replace("&ndash;", "_")
+    edition = edition.replace(":", "_").replace("&ndash;", "_").replace("&amp;", "and")
     return to_snakecase(edition)
 
 

@@ -1096,3 +1096,11 @@ class Village(Keyword):
 @dataclass(kw_only=True)
 class Winter(Keyword):
     pass
+
+
+# Event keywords
+
+
+@dataclass(kw_only=True)
+class Festival(Keyword):
+    pass
