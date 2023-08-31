@@ -9,6 +9,9 @@ from ..common import Stronghold
 The_Fruitful_Port_of_the_Mantis = Stronghold(
     card_id=11299,
     title="The Fruitful Port of the Mantis",
+    gold_production="4",
+    starting_family_honor=2,
+    province_strength=7,
     clan=[MantisClan],
     keywords=[Port],
     traits=[],

@@ -4,9 +4,9 @@ from dataclasses import dataclass
 
 from l5r_auto.card import Ability, Card
 from l5r_auto.cards.strongholds.common import Stronghold
-from l5r_auto.clans import Mantis
+from l5r_auto.clans import MantisClan
 from l5r_auto.keywords import Naval, Port
-from l5r_auto.legality import Diamond, Gold
+from l5r_auto.legality import DiamondEdition, GoldEdition
 from l5r_auto.player import Player
 
 
@@ -28,13 +28,13 @@ class KyudenGoteiAbility(Ability):
 
 
 KyudenGotei = Stronghold(
-    id=4636,
+    card_id=4636,
     title="Kyuden Gotei",
     province_strength=7,
-    gold_production=4,
+    gold_production="4",
     starting_family_honor=3,
-    clan=Mantis,
+    clan=[MantisClan],
     keywords=[Port],
     abilities=[KyudenGoteiAbility()],
-    legality=[Gold, Diamond],
+    legality=[GoldEdition, DiamondEdition],
 )

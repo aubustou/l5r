@@ -428,6 +428,15 @@
         "title": [
             "The Fruitful Port of the Mantis"
         ],
+        "strength": [
+            "7"
+        ],
+        "startinghonor": [
+            "2"
+        ],
+        "production": [
+            "4"
+        ],
         "type": [
             "Stronghold"
         ]
