@@ -7,14 +7,19 @@ from typing import Type
 
 from l5r_auto.card import Ability, DynastyCard, Trait
 from l5r_auto.clans import Clan
+from l5r_auto.legality import Legality
 from l5r_auto.locations import Deck, Location
 from l5r_auto.player import Entity
+from l5r_auto.utils import import_submodules
 
 
 class HasZeroChi(Ability):
     def has_zero_chi(self, personality: PersonalityEntity):
         if personality.chi == 0:
             personality.destroy()
+
+
+PERSONALITIES = []
 
 
 @dataclass(kw_only=True)
@@ -33,6 +38,7 @@ class Personality(DynastyCard):
 
     def __post_init__(self):
         self.entity_type = PersonalityEntity
+        PERSONALITIES.append(self)
 
 
 @dataclass(kw_only=True)
@@ -41,3 +47,10 @@ class PersonalityEntity(Entity, Personality):
 
     def bow(self):
         self.bowed = True
+
+
+def get_personalities(
+    legality: Type[Legality], clan: Type[Clan]
+) -> list[Type[Personality]]:
+    import_submodules(f"l5r_auto.cards.personalities.{clan.module_name()}")
+    return [x for x in PERSONALITIES if legality in x.legality and clan in x.clan]

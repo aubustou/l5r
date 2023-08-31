@@ -3,17 +3,23 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import Type
+from typing import TYPE_CHECKING, Type
 
 from l5r_auto.card import Ability, Card, Trait
-from l5r_auto.clans import Clan
-from l5r_auto.locations import Location
 from l5r_auto.locations import Stronghold as StrongholdLocation
 from l5r_auto.player import Entity
+from l5r_auto.utils import import_submodules
+
+if TYPE_CHECKING:
+    from l5r_auto.clans import Clan
+    from l5r_auto.legality import Legality
+    from l5r_auto.locations import Location
+
+STRONGHOLDS = []
 
 
 @dataclass(kw_only=True)
-class Stronghold(Card):
+class StrongholdStats(Card):
     province_strength: int = field(metadata={"is_written": True})
     gold_production: str = field(metadata={"is_written": True})
     starting_family_honor: int = field(metadata={"is_written": True})
@@ -23,10 +29,21 @@ class Stronghold(Card):
         default_factory=list, metadata={"is_written": True}
     )
 
+
+@dataclass(kw_only=True)
+class Stronghold(StrongholdStats):
     def __post_init__(self):
         self.entity_type = StrongholdEntity
+        STRONGHOLDS.append(self)
 
 
 @dataclass(kw_only=True)
-class StrongholdEntity(Entity, Stronghold):
+class StrongholdEntity(Entity, StrongholdStats):
     location: Type[Location] = StrongholdLocation
+
+
+def get_strongholds(
+    legality: Type[Legality], clan: Type[Clan]
+) -> list[Type[Stronghold]]:
+    import_submodules(f"l5r_auto.cards.strongholds.{clan.module_name()}")
+    return [x for x in STRONGHOLDS if legality in x.legality and clan in x.clan]

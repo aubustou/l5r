@@ -4,8 +4,12 @@ from dataclasses import dataclass, field
 from typing import Type
 
 from l5r_auto.card import Ability, DynastyCard, Keyword, Trait
+from l5r_auto.legality import Legality
 from l5r_auto.locations import Deck, Location
 from l5r_auto.player import Entity
+from l5r_auto.utils import import_submodules
+
+EVENTS: list[Type[Event]] = []
 
 
 @dataclass(kw_only=True)
@@ -22,8 +26,14 @@ class Event(DynastyCard):
 
     def __post_init__(self):
         self.entity_type = EventEntity
+        EVENTS.append(self)
 
 
 @dataclass(kw_only=True)
 class EventEntity(Entity, Event):
     location: Type[Location] = Deck
+
+
+def get_events(legality: Type[Legality]) -> list[Type[Event]]:
+    import_submodules(f"l5r_auto.cards.events")
+    return [x for x in EVENTS if legality in x.legality]

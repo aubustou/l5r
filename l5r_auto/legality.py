@@ -1,68 +1,95 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
 
-
-@dataclass(kw_only=True)
 class Legality:
-    pass
+    name: str
+    acronym: str
+    short: str
 
 
-@dataclass(kw_only=True)
 class ImperialEdition(Legality):
-    pass
+    name = "imperial edition"
+    acronym = "ie"
+    short = "imperial"
 
 
-@dataclass(kw_only=True)
 class JadeEdition(Legality):
-    pass
+    name = "jade edition"
+    acronym = "je"
+    short = "jade"
 
 
-@dataclass(kw_only=True)
 class GoldEdition(Legality):
-    pass
+    name = "gold edition"
+    acronym = "ge"
+    short = "gold"
 
 
-@dataclass(kw_only=True)
 class DiamondEdition(Legality):
-    pass
+    name = "diamond edition"
+    acronym = "de"
+    short = "diamond"
 
 
-@dataclass(kw_only=True)
 class LotusEdition(Legality):
-    pass
+    name = "lotus edition"
+    acronym = "le"
+    short = "lotus"
 
 
-@dataclass(kw_only=True)
 class SamuraiEdition(Legality):
-    pass
+    name = "samurai edition"
+    acronym = "se"
+    short = "samurai"
 
 
-@dataclass(kw_only=True)
 class CelestialEdition(Legality):
-    pass
+    name = "celestial edition"
+    acronym = "ce"
+    short = "celestial"
 
 
-@dataclass(kw_only=True)
 class EmperorEdition(Legality):
-    pass
+    name = "emperor edition"
+    acronym = "ee"
+    short = "emperor"
 
 
-@dataclass(kw_only=True)
 class IvoryEdition(Legality):
-    pass
+    name = "ivory edition"
+    acronym = "ie"
+    short = "ivory"
 
 
-@dataclass(kw_only=True)
 class TwentyFestivalsEdition(Legality):
-    pass
+    name = "twenty festivals edition"
+    acronym = "20f"
+    short = "twenty festivals"
 
 
-@dataclass(kw_only=True)
 class OnyxEdition(Legality):
-    pass
+    name = "onyx edition"
+    acronym = "oe"
+    short = "onyx"
 
 
-@dataclass(kw_only=True)
 class ModernEdition(Legality):
-    pass
+    name = "modern edition"
+    acronym = "me"
+    short = "modern"
+
+
+legalities = [
+    ImperialEdition,
+    JadeEdition,
+    GoldEdition,
+    DiamondEdition,
+    LotusEdition,
+    SamuraiEdition,
+    CelestialEdition,
+    EmperorEdition,
+    IvoryEdition,
+    TwentyFestivalsEdition,
+    OnyxEdition,
+    ModernEdition,
+]
