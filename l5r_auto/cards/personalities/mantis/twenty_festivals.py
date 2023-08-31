@@ -1,19 +1,190 @@
 from __future__ import annotations
-from dataclasses import dataclass
-from l5r_auto.card import Ability, Trait
+
 from l5r_auto.cards.personalities.common import Personality
 from l5r_auto.clans import MantisClan
-from l5r_auto.keywords import Air, Commander, Daimyo, Experienced, Fire, Kensai, Magistrate, Naval, Reserve, Samurai, Shugenja, SoulOf, Thunder, Unique
+from l5r_auto.keywords import (
+    Air,
+    Commander,
+    Daimyo,
+    Experienced,
+    Fire,
+    Kensai,
+    Magistrate,
+    Naval,
+    Reserve,
+    Samurai,
+    Shugenja,
+    SoulOf,
+    Thunder,
+    Unique,
+)
 from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
-Moshi_Ikako_Experienced = Personality(id=12128, title='Moshi Ikako', force=3, chi=5, honor_requirement=4, personal_honor=3, gold_cost=11, clan=[MantisClan], keywords=[Naval, Reserve, Unique, Air, Daimyo, Experienced('1'), Fire, Shugenja], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Moshi_Karuiko = Personality(id=12129, title='Moshi Karuiko', force=3, chi=3, honor_requirement=None, personal_honor=2, gold_cost=5, clan=[MantisClan], keywords=[Shugenja, SoulOf('Moshi Kamiya'), Thunder], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Tsuruchi_Arayo = Personality(id=12130, title='Tsuruchi Arayo', force=2, chi=3, honor_requirement=2, personal_honor=2, gold_cost=7, clan=[MantisClan], keywords=[Samurai, SoulOf('Tsuruchi Amaya')], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Tsuruchi_Jinrai = Personality(id=12131, title='Tsuruchi Jinrai', force=2, chi=2, honor_requirement=0, personal_honor=2, gold_cost=6, clan=[MantisClan], keywords=[Magistrate, Samurai, SoulOf('Tsuruchi Jougo')], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Yoritomo_Juriken = Personality(id=12132, title='Yoritomo Juriken', force=3, chi=2, honor_requirement=None, personal_honor=1, gold_cost=5, clan=[MantisClan], keywords=[Kensai, Naval, Samurai], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Yoritomo_Kuniken = Personality(id=12133, title='Yoritomo Kuniken', force=2, chi=2, honor_requirement=None, personal_honor=0, gold_cost=4, clan=[MantisClan], keywords=[Naval, Samurai], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Yoritomo_Matsuo_Experienced = Personality(id=12134, title='Yoritomo Matsuo', force=4, chi=4, honor_requirement=0, personal_honor=2, gold_cost=10, clan=[MantisClan], keywords=[Kensai, Naval, Unique, Experienced('1'), Samurai], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Yoritomo_Minoro = Personality(id=12135, title='Yoritomo Minoro', force=2, chi=3, honor_requirement=0, personal_honor=1, gold_cost=4, clan=[MantisClan], keywords=[Magistrate, Samurai], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Yoritomo_Nintai = Personality(id=12136, title='Yoritomo Nintai', force=4, chi=2, honor_requirement=None, personal_honor=1, gold_cost=8, clan=[MantisClan], keywords=[Kensai, Naval, Samurai], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Yoritomo_Saitsuko = Personality(id=12137, title='Yoritomo Saitsuko', force=3, chi=2, honor_requirement=None, personal_honor=1, gold_cost=4, clan=[MantisClan], keywords=[Kensai, Naval, Samurai], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Yoritomo_Tsuhime = Personality(id=12138, title='Yoritomo Tsuhime', force=4, chi=3, honor_requirement=4, personal_honor=2, gold_cost=5, clan=[MantisClan], keywords=[Naval, Magistrate, Samurai, SoulOf('Yoritomo Eriko')], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Yoritomo_Waito = Personality(id=12139, title='Yoritomo Waito', force=3, chi=2, honor_requirement=None, personal_honor=1, gold_cost=5, clan=[MantisClan], keywords=[Commander, Samurai, SoulOf('Yoritomo Iwata')], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
+
+Moshi_Ikako_Experienced = Personality(
+    id=12128,
+    title="Moshi Ikako",
+    force=3,
+    chi=5,
+    honor_requirement=4,
+    personal_honor=3,
+    gold_cost=11,
+    clan=[MantisClan],
+    keywords=[Naval, Reserve, Unique, Air, Daimyo, Experienced("1"), Fire, Shugenja],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Moshi_Karuiko = Personality(
+    id=12129,
+    title="Moshi Karuiko",
+    force=3,
+    chi=3,
+    honor_requirement=None,
+    personal_honor=2,
+    gold_cost=5,
+    clan=[MantisClan],
+    keywords=[Shugenja, SoulOf("Moshi Kamiya"), Thunder],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Tsuruchi_Arayo = Personality(
+    id=12130,
+    title="Tsuruchi Arayo",
+    force=2,
+    chi=3,
+    honor_requirement=2,
+    personal_honor=2,
+    gold_cost=7,
+    clan=[MantisClan],
+    keywords=[Samurai, SoulOf("Tsuruchi Amaya")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Tsuruchi_Jinrai = Personality(
+    id=12131,
+    title="Tsuruchi Jinrai",
+    force=2,
+    chi=2,
+    honor_requirement=0,
+    personal_honor=2,
+    gold_cost=6,
+    clan=[MantisClan],
+    keywords=[Magistrate, Samurai, SoulOf("Tsuruchi Jougo")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Yoritomo_Juriken = Personality(
+    id=12132,
+    title="Yoritomo Juriken",
+    force=3,
+    chi=2,
+    honor_requirement=None,
+    personal_honor=1,
+    gold_cost=5,
+    clan=[MantisClan],
+    keywords=[Kensai, Naval, Samurai],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Yoritomo_Kuniken = Personality(
+    id=12133,
+    title="Yoritomo Kuniken",
+    force=2,
+    chi=2,
+    honor_requirement=None,
+    personal_honor=0,
+    gold_cost=4,
+    clan=[MantisClan],
+    keywords=[Naval, Samurai],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Yoritomo_Matsuo_Experienced = Personality(
+    id=12134,
+    title="Yoritomo Matsuo",
+    force=4,
+    chi=4,
+    honor_requirement=0,
+    personal_honor=2,
+    gold_cost=10,
+    clan=[MantisClan],
+    keywords=[Kensai, Naval, Unique, Experienced("1"), Samurai],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Yoritomo_Minoro = Personality(
+    id=12135,
+    title="Yoritomo Minoro",
+    force=2,
+    chi=3,
+    honor_requirement=0,
+    personal_honor=1,
+    gold_cost=4,
+    clan=[MantisClan],
+    keywords=[Magistrate, Samurai],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Yoritomo_Nintai = Personality(
+    id=12136,
+    title="Yoritomo Nintai",
+    force=4,
+    chi=2,
+    honor_requirement=None,
+    personal_honor=1,
+    gold_cost=8,
+    clan=[MantisClan],
+    keywords=[Kensai, Naval, Samurai],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Yoritomo_Saitsuko = Personality(
+    id=12137,
+    title="Yoritomo Saitsuko",
+    force=3,
+    chi=2,
+    honor_requirement=None,
+    personal_honor=1,
+    gold_cost=4,
+    clan=[MantisClan],
+    keywords=[Kensai, Naval, Samurai],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Yoritomo_Tsuhime = Personality(
+    id=12138,
+    title="Yoritomo Tsuhime",
+    force=4,
+    chi=3,
+    honor_requirement=4,
+    personal_honor=2,
+    gold_cost=5,
+    clan=[MantisClan],
+    keywords=[Naval, Magistrate, Samurai, SoulOf("Yoritomo Eriko")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Yoritomo_Waito = Personality(
+    id=12139,
+    title="Yoritomo Waito",
+    force=3,
+    chi=2,
+    honor_requirement=None,
+    personal_honor=1,
+    gold_cost=5,
+    clan=[MantisClan],
+    keywords=[Commander, Samurai, SoulOf("Yoritomo Iwata")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)

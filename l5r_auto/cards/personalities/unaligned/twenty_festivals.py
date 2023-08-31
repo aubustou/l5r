@@ -1,17 +1,167 @@
 from __future__ import annotations
-from dataclasses import dataclass
-from l5r_auto.card import Ability, Trait
+
 from l5r_auto.cards.personalities.common import Personality
 from l5r_auto.clans import ShadowlandsFaction, Unaligned
-from l5r_auto.keywords import Air, Cavalry, Courtier, Dragon, DragonflyClan, Earth, Experienced, Fire, Magistrate, Naval, Nonhuman, Samurai, Shadowlands, Shugenja, SoulOf, Undead, Unique, Void, Water
+from l5r_auto.keywords import (
+    Air,
+    Cavalry,
+    Courtier,
+    Dragon,
+    DragonflyClan,
+    Earth,
+    Experienced,
+    Fire,
+    Magistrate,
+    Naval,
+    Nonhuman,
+    Samurai,
+    Shadowlands,
+    Shugenja,
+    SoulOf,
+    Undead,
+    Unique,
+    Void,
+    Water,
+)
 from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
-Air_Dragon_Experienced_3 = Personality(id=12171, title='Air Dragon', force=7, chi=5, honor_requirement=15, personal_honor=4, gold_cost=15, clan=[Unaligned], keywords=[Cavalry, Experienced('3'), Unique, Air, Dragon, Nonhuman, Shugenja], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Earth_Dragon_Experienced_2 = Personality(id=12172, title='Earth Dragon', force=7, chi=5, honor_requirement=15, personal_honor=4, gold_cost=15, clan=[Unaligned], keywords=[Cavalry, Experienced('2'), Unique, Dragon, Earth, Nonhuman, Shugenja], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Fire_Dragon_Experienced_3 = Personality(id=12173, title='Fire Dragon', force=7, chi=5, honor_requirement=15, personal_honor=4, gold_cost=15, clan=[Unaligned], keywords=[Cavalry, Experienced('3'), Unique, Dragon, Fire, Nonhuman, Shugenja], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Haikitsu = Personality(id=12174, title='Haikitsu', force=3, chi=3, honor_requirement=4, personal_honor=2, gold_cost=5, clan=[Unaligned], keywords=[Magistrate, Samurai], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Kungan = Personality(id=12175, title='Kung-an', force=3, chi=3, honor_requirement=None, personal_honor=1, gold_cost=5, clan=[Unaligned], keywords=[Shugenja, Void], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Moto_Daigoro = Personality(id=12176, title='Moto Daigoro', force=4, chi=4, honor_requirement=None, personal_honor=0, gold_cost=8, clan=[Unaligned, ShadowlandsFaction], keywords=[Cavalry, Nonhuman, Samurai, Shadowlands, Undead], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Otomo_Terumoto = Personality(id=12177, title='Otomo Terumoto', force=0, chi=2, honor_requirement=None, personal_honor=2, gold_cost=3, clan=[Unaligned], keywords=[Courtier, Samurai, SoulOf('Otomo Taneji')], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Tonbo_Jairyu = Personality(id=12178, title='Tonbo Jairyu', force=3, chi=3, honor_requirement=0, personal_honor=1, gold_cost=5, clan=[Unaligned], keywords=[Naval, DragonflyClan, Shugenja, Water], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Void_Dragon_Experienced_3 = Personality(id=12179, title='Void Dragon', force=7, chi=5, honor_requirement=15, personal_honor=4, gold_cost=15, clan=[Unaligned], keywords=[Cavalry, Experienced('3'), Unique, Dragon, Nonhuman, Shugenja, Void], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Water_Dragon_Experienced_3 = Personality(id=12180, title='Water Dragon', force=7, chi=5, honor_requirement=15, personal_honor=4, gold_cost=15, clan=[Unaligned], keywords=[Cavalry, Experienced('3'), Unique, Dragon, Nonhuman, Shugenja, Water], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
+
+Air_Dragon_Experienced_3 = Personality(
+    id=12171,
+    title="Air Dragon",
+    force=7,
+    chi=5,
+    honor_requirement=15,
+    personal_honor=4,
+    gold_cost=15,
+    clan=[Unaligned],
+    keywords=[Cavalry, Experienced("3"), Unique, Air, Dragon, Nonhuman, Shugenja],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Earth_Dragon_Experienced_2 = Personality(
+    id=12172,
+    title="Earth Dragon",
+    force=7,
+    chi=5,
+    honor_requirement=15,
+    personal_honor=4,
+    gold_cost=15,
+    clan=[Unaligned],
+    keywords=[Cavalry, Experienced("2"), Unique, Dragon, Earth, Nonhuman, Shugenja],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Fire_Dragon_Experienced_3 = Personality(
+    id=12173,
+    title="Fire Dragon",
+    force=7,
+    chi=5,
+    honor_requirement=15,
+    personal_honor=4,
+    gold_cost=15,
+    clan=[Unaligned],
+    keywords=[Cavalry, Experienced("3"), Unique, Dragon, Fire, Nonhuman, Shugenja],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Haikitsu = Personality(
+    id=12174,
+    title="Haikitsu",
+    force=3,
+    chi=3,
+    honor_requirement=4,
+    personal_honor=2,
+    gold_cost=5,
+    clan=[Unaligned],
+    keywords=[Magistrate, Samurai],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Kungan = Personality(
+    id=12175,
+    title="Kung-an",
+    force=3,
+    chi=3,
+    honor_requirement=None,
+    personal_honor=1,
+    gold_cost=5,
+    clan=[Unaligned],
+    keywords=[Shugenja, Void],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Moto_Daigoro = Personality(
+    id=12176,
+    title="Moto Daigoro",
+    force=4,
+    chi=4,
+    honor_requirement=None,
+    personal_honor=0,
+    gold_cost=8,
+    clan=[Unaligned, ShadowlandsFaction],
+    keywords=[Cavalry, Nonhuman, Samurai, Shadowlands, Undead],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Otomo_Terumoto = Personality(
+    id=12177,
+    title="Otomo Terumoto",
+    force=0,
+    chi=2,
+    honor_requirement=None,
+    personal_honor=2,
+    gold_cost=3,
+    clan=[Unaligned],
+    keywords=[Courtier, Samurai, SoulOf("Otomo Taneji")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Tonbo_Jairyu = Personality(
+    id=12178,
+    title="Tonbo Jairyu",
+    force=3,
+    chi=3,
+    honor_requirement=0,
+    personal_honor=1,
+    gold_cost=5,
+    clan=[Unaligned],
+    keywords=[Naval, DragonflyClan, Shugenja, Water],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Void_Dragon_Experienced_3 = Personality(
+    id=12179,
+    title="Void Dragon",
+    force=7,
+    chi=5,
+    honor_requirement=15,
+    personal_honor=4,
+    gold_cost=15,
+    clan=[Unaligned],
+    keywords=[Cavalry, Experienced("3"), Unique, Dragon, Nonhuman, Shugenja, Void],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Water_Dragon_Experienced_3 = Personality(
+    id=12180,
+    title="Water Dragon",
+    force=7,
+    chi=5,
+    honor_requirement=15,
+    personal_honor=4,
+    gold_cost=15,
+    clan=[Unaligned],
+    keywords=[Cavalry, Experienced("3"), Unique, Dragon, Nonhuman, Shugenja, Water],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)

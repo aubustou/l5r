@@ -2,12 +2,10 @@
 
 from __future__ import annotations
 
-from copy import copy
 from dataclasses import dataclass, field
 from typing import Type
 
-from l5r_auto.card import Ability, Card, DynastyCard, Keyword, Trait
-from l5r_auto.clans import Clan
+from l5r_auto.card import Ability, DynastyCard, Trait
 from l5r_auto.locations import Deck, Location
 from l5r_auto.player import Entity
 

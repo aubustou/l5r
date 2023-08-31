@@ -1,8 +1,6 @@
 class RuleError(Exception):
     """Base class for exceptions in this module."""
 
-    pass
-
 
 class WrongStateError(RuleError):
     """Exception raised for errors in the input.

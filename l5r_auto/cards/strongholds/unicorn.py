@@ -2,15 +2,14 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 from typing import Type
+
 from l5r_auto.card import Ability, Card
 from l5r_auto.cards.followers.common import Follower
-from l5r_auto.cards.personalities.common import Personality, PersonalityEntity
-
+from l5r_auto.cards.personalities.common import PersonalityEntity
 from l5r_auto.cards.strongholds.common import Stronghold
-from l5r_auto.clans import Unicorn, Clan
+from l5r_auto.clans import Unicorn
 from l5r_auto.keywords import Cavalry
 from l5r_auto.legality import Diamond
-
 
 # Northern Provinces of the Moto
 

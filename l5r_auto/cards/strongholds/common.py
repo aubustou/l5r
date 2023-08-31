@@ -4,10 +4,11 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 from typing import Type
-from l5r_auto.card import Card, Keyword
-from l5r_auto.card import Ability, Trait
+
+from l5r_auto.card import Ability, Card, Trait
 from l5r_auto.clans import Clan
-from l5r_auto.locations import Location, Stronghold as StrongholdLocation
+from l5r_auto.locations import Location
+from l5r_auto.locations import Stronghold as StrongholdLocation
 from l5r_auto.player import Entity
 
 

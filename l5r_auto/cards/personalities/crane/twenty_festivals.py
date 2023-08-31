@@ -1,19 +1,194 @@
 from __future__ import annotations
-from dataclasses import dataclass
-from l5r_auto.card import Ability, Trait
+
 from l5r_auto.cards.personalities.common import Personality
 from l5r_auto.clans import CraneClan
-from l5r_auto.keywords import Air, Artisan, Courtier, Cursed, Daimyo, Duelist, Expendable, Experienced, IronCrane, Jester, Loyal, Magistrate, Poet, Reserve, Samurai, Shugenja, SoulOf, Unique
+from l5r_auto.keywords import (
+    Air,
+    Artisan,
+    Courtier,
+    Cursed,
+    Daimyo,
+    Duelist,
+    Expendable,
+    Experienced,
+    IronCrane,
+    Jester,
+    Loyal,
+    Magistrate,
+    Poet,
+    Reserve,
+    Samurai,
+    Shugenja,
+    SoulOf,
+    Unique,
+)
 from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
-Asahina_Hirakane = Personality(id=12091, title='Asahina Hirakane', force=2, chi=3, honor_requirement=4, personal_honor=3, gold_cost=6, clan=[CraneClan], keywords=[Air, Shugenja, SoulOf('Asahina Minori')], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Daidoji_Hiroteru = Personality(id=12092, title='Daidoji Hiroteru', force=2, chi=2, honor_requirement=6, personal_honor=2, gold_cost=5, clan=[CraneClan], keywords=[IronCrane, Samurai], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Daidoji_Taenaru = Personality(id=12093, title='Daidoji Taenaru', force=3, chi=3, honor_requirement=2, personal_honor=2, gold_cost=8, clan=[CraneClan], keywords=[Samurai, SoulOf('Daidoji Tae')], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Doji_Masachika = Personality(id=12094, title='Doji Masachika', force=2, chi=3, honor_requirement=7, personal_honor=2, gold_cost=4, clan=[CraneClan], keywords=[Expendable, Magistrate, Samurai], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Doji_Norime = Personality(id=12095, title='Doji Norime', force=2, chi=2, honor_requirement=4, personal_honor=3, gold_cost=5, clan=[CraneClan], keywords=[Magistrate, Samurai], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Doji_Senkiku = Personality(id=12096, title='Doji Senkiku', force=3, chi=4, honor_requirement=6, personal_honor=2, gold_cost=7, clan=[CraneClan], keywords=[Magistrate, Samurai, SoulOf('Doji Hitomaro')], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Doji_Tashihime = Personality(id=12097, title='Doji Tashihime', force=0, chi=3, honor_requirement=8, personal_honor=3, gold_cost=7, clan=[CraneClan], keywords=[Artisan, Poet, SoulOf('Doji Nukada')], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Kakita_Akitomo = Personality(id=12098, title='Kakita Akitomo', force=0, chi=4, honor_requirement=6, personal_honor=2, gold_cost=5, clan=[CraneClan], keywords=[Artisan, Courtier, Jester], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Kakita_Hikai = Personality(id=12099, title='Kakita Hikai', force=0, chi=2, honor_requirement=4, personal_honor=1, gold_cost=4, clan=[CraneClan], keywords=[Expendable, Artisan, Courtier, Jester], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Kakita_Ikura = Personality(id=12100, title='Kakita Ikura', force=1, chi=5, honor_requirement=8, personal_honor=3, gold_cost=9, clan=[CraneClan], keywords=[Loyal, Unique, Artisan, Courtier, Cursed, Daimyo], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Kakita_Mitsumichi = Personality(id=12101, title='Kakita Mitsumichi', force=1, chi=4, honor_requirement=5, personal_honor=3, gold_cost=7, clan=[CraneClan], keywords=[Duelist, Samurai, SoulOf('Kakita Yariga')], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Kakita_Ujirou_Experienced = Personality(id=12102, title='Kakita Ujirou', force=4, chi=4, honor_requirement=4, personal_honor=3, gold_cost=11, clan=[CraneClan], keywords=[Duelist, Reserve, Unique, Experienced('1'), Magistrate, Samurai], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
+
+Asahina_Hirakane = Personality(
+    id=12091,
+    title="Asahina Hirakane",
+    force=2,
+    chi=3,
+    honor_requirement=4,
+    personal_honor=3,
+    gold_cost=6,
+    clan=[CraneClan],
+    keywords=[Air, Shugenja, SoulOf("Asahina Minori")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Daidoji_Hiroteru = Personality(
+    id=12092,
+    title="Daidoji Hiroteru",
+    force=2,
+    chi=2,
+    honor_requirement=6,
+    personal_honor=2,
+    gold_cost=5,
+    clan=[CraneClan],
+    keywords=[IronCrane, Samurai],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Daidoji_Taenaru = Personality(
+    id=12093,
+    title="Daidoji Taenaru",
+    force=3,
+    chi=3,
+    honor_requirement=2,
+    personal_honor=2,
+    gold_cost=8,
+    clan=[CraneClan],
+    keywords=[Samurai, SoulOf("Daidoji Tae")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Doji_Masachika = Personality(
+    id=12094,
+    title="Doji Masachika",
+    force=2,
+    chi=3,
+    honor_requirement=7,
+    personal_honor=2,
+    gold_cost=4,
+    clan=[CraneClan],
+    keywords=[Expendable, Magistrate, Samurai],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Doji_Norime = Personality(
+    id=12095,
+    title="Doji Norime",
+    force=2,
+    chi=2,
+    honor_requirement=4,
+    personal_honor=3,
+    gold_cost=5,
+    clan=[CraneClan],
+    keywords=[Magistrate, Samurai],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Doji_Senkiku = Personality(
+    id=12096,
+    title="Doji Senkiku",
+    force=3,
+    chi=4,
+    honor_requirement=6,
+    personal_honor=2,
+    gold_cost=7,
+    clan=[CraneClan],
+    keywords=[Magistrate, Samurai, SoulOf("Doji Hitomaro")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Doji_Tashihime = Personality(
+    id=12097,
+    title="Doji Tashihime",
+    force=0,
+    chi=3,
+    honor_requirement=8,
+    personal_honor=3,
+    gold_cost=7,
+    clan=[CraneClan],
+    keywords=[Artisan, Poet, SoulOf("Doji Nukada")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Kakita_Akitomo = Personality(
+    id=12098,
+    title="Kakita Akitomo",
+    force=0,
+    chi=4,
+    honor_requirement=6,
+    personal_honor=2,
+    gold_cost=5,
+    clan=[CraneClan],
+    keywords=[Artisan, Courtier, Jester],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Kakita_Hikai = Personality(
+    id=12099,
+    title="Kakita Hikai",
+    force=0,
+    chi=2,
+    honor_requirement=4,
+    personal_honor=1,
+    gold_cost=4,
+    clan=[CraneClan],
+    keywords=[Expendable, Artisan, Courtier, Jester],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Kakita_Ikura = Personality(
+    id=12100,
+    title="Kakita Ikura",
+    force=1,
+    chi=5,
+    honor_requirement=8,
+    personal_honor=3,
+    gold_cost=9,
+    clan=[CraneClan],
+    keywords=[Loyal, Unique, Artisan, Courtier, Cursed, Daimyo],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Kakita_Mitsumichi = Personality(
+    id=12101,
+    title="Kakita Mitsumichi",
+    force=1,
+    chi=4,
+    honor_requirement=5,
+    personal_honor=3,
+    gold_cost=7,
+    clan=[CraneClan],
+    keywords=[Duelist, Samurai, SoulOf("Kakita Yariga")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Kakita_Ujirou_Experienced = Personality(
+    id=12102,
+    title="Kakita Ujirou",
+    force=4,
+    chi=4,
+    honor_requirement=4,
+    personal_honor=3,
+    gold_cost=11,
+    clan=[CraneClan],
+    keywords=[Duelist, Reserve, Unique, Experienced("1"), Magistrate, Samurai],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)

@@ -1,17 +1,175 @@
 from __future__ import annotations
-from dataclasses import dataclass
-from l5r_auto.card import Ability, Trait
+
 from l5r_auto.cards.personalities.common import Personality
 from l5r_auto.clans import CrabClan
-from l5r_auto.keywords import Berserker, Commander, Conqueror, Daimyo, Earth, Experienced, Jade, Loyal, Magistrate, Resilient, Samurai, Shugenja, Siege, SoulOf, Tactician, Unique, WitchHunter
+from l5r_auto.keywords import (
+    Berserker,
+    Commander,
+    Conqueror,
+    Daimyo,
+    Earth,
+    Experienced,
+    Jade,
+    Loyal,
+    Magistrate,
+    Resilient,
+    Samurai,
+    Shugenja,
+    Siege,
+    SoulOf,
+    Tactician,
+    Unique,
+    WitchHunter,
+)
 from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
-Hida_Taisho = Personality(id=12081, title='Hida Taisho', force=3, chi=2, honor_requirement=None, personal_honor=2, gold_cost=4, clan=[CrabClan], keywords=[Samurai], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Hida_Zaiburo = Personality(id=12082, title='Hida Zaiburo', force=4, chi=2, honor_requirement=None, personal_honor=0, gold_cost=8, clan=[CrabClan], keywords=[Conqueror, Berserker], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Hiruma_Raikohime = Personality(id=12083, title='Hiruma Raikohime', force=5, chi=3, honor_requirement=0, personal_honor=2, gold_cost=10, clan=[CrabClan], keywords=[Resilient, Magistrate, Samurai], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Kaiu_Burei = Personality(id=12084, title='Kaiu Burei', force=2, chi=2, honor_requirement=3, personal_honor=2, gold_cost=4, clan=[CrabClan], keywords=[Samurai, Siege], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Kaiu_Daikohime = Personality(id=12085, title='Kaiu Daikohime', force=0, chi=3, honor_requirement=3, personal_honor=2, gold_cost=4, clan=[CrabClan], keywords=[Samurai, Siege], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Kaiu_Watsuki_Experienced = Personality(id=12086, title='Kaiu Watsuki', force=3, chi=4, honor_requirement=5, personal_honor=3, gold_cost=10, clan=[CrabClan], keywords=[Loyal, Tactician, Unique, Daimyo, Experienced('1'), Samurai, Siege], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Kuni_Chutsu = Personality(id=12087, title='Kuni Chutsu', force=3, chi=4, honor_requirement=0, personal_honor=1, gold_cost=5, clan=[CrabClan], keywords=[Earth, Shugenja], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Kuni_Harakibi = Personality(id=12088, title='Kuni Harakibi', force=2, chi=3, honor_requirement=0, personal_honor=1, gold_cost=6, clan=[CrabClan], keywords=[Earth, Shugenja, WitchHunter], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Kuni_Renyu_Experienced_3 = Personality(id=12089, title='Kuni Renyu', force=5, chi=5, honor_requirement=None, personal_honor=3, gold_cost=11, clan=[CrabClan], keywords=[Experienced('3'), Loyal, Unique, Daimyo, Earth, Jade, Magistrate, Shugenja, WitchHunter], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
-Kuni_Yairao = Personality(id=12090, title='Kuni Yairao', force=4, chi=3, honor_requirement=None, personal_honor=2, gold_cost=7, clan=[CrabClan], keywords=[Commander, Earth, Shugenja, SoulOf('Kuni Iyedo')], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
+
+Hida_Taisho = Personality(
+    id=12081,
+    title="Hida Taisho",
+    force=3,
+    chi=2,
+    honor_requirement=None,
+    personal_honor=2,
+    gold_cost=4,
+    clan=[CrabClan],
+    keywords=[Samurai],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Hida_Zaiburo = Personality(
+    id=12082,
+    title="Hida Zaiburo",
+    force=4,
+    chi=2,
+    honor_requirement=None,
+    personal_honor=0,
+    gold_cost=8,
+    clan=[CrabClan],
+    keywords=[Conqueror, Berserker],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Hiruma_Raikohime = Personality(
+    id=12083,
+    title="Hiruma Raikohime",
+    force=5,
+    chi=3,
+    honor_requirement=0,
+    personal_honor=2,
+    gold_cost=10,
+    clan=[CrabClan],
+    keywords=[Resilient, Magistrate, Samurai],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Kaiu_Burei = Personality(
+    id=12084,
+    title="Kaiu Burei",
+    force=2,
+    chi=2,
+    honor_requirement=3,
+    personal_honor=2,
+    gold_cost=4,
+    clan=[CrabClan],
+    keywords=[Samurai, Siege],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Kaiu_Daikohime = Personality(
+    id=12085,
+    title="Kaiu Daikohime",
+    force=0,
+    chi=3,
+    honor_requirement=3,
+    personal_honor=2,
+    gold_cost=4,
+    clan=[CrabClan],
+    keywords=[Samurai, Siege],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Kaiu_Watsuki_Experienced = Personality(
+    id=12086,
+    title="Kaiu Watsuki",
+    force=3,
+    chi=4,
+    honor_requirement=5,
+    personal_honor=3,
+    gold_cost=10,
+    clan=[CrabClan],
+    keywords=[Loyal, Tactician, Unique, Daimyo, Experienced("1"), Samurai, Siege],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Kuni_Chutsu = Personality(
+    id=12087,
+    title="Kuni Chutsu",
+    force=3,
+    chi=4,
+    honor_requirement=0,
+    personal_honor=1,
+    gold_cost=5,
+    clan=[CrabClan],
+    keywords=[Earth, Shugenja],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Kuni_Harakibi = Personality(
+    id=12088,
+    title="Kuni Harakibi",
+    force=2,
+    chi=3,
+    honor_requirement=0,
+    personal_honor=1,
+    gold_cost=6,
+    clan=[CrabClan],
+    keywords=[Earth, Shugenja, WitchHunter],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Kuni_Renyu_Experienced_3 = Personality(
+    id=12089,
+    title="Kuni Renyu",
+    force=5,
+    chi=5,
+    honor_requirement=None,
+    personal_honor=3,
+    gold_cost=11,
+    clan=[CrabClan],
+    keywords=[
+        Experienced("3"),
+        Loyal,
+        Unique,
+        Daimyo,
+        Earth,
+        Jade,
+        Magistrate,
+        Shugenja,
+        WitchHunter,
+    ],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)
+Kuni_Yairao = Personality(
+    id=12090,
+    title="Kuni Yairao",
+    force=4,
+    chi=3,
+    honor_requirement=None,
+    personal_honor=2,
+    gold_cost=7,
+    clan=[CrabClan],
+    keywords=[Commander, Earth, Shugenja, SoulOf("Kuni Iyedo")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+)

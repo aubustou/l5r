@@ -1,17 +1,11 @@
 from __future__ import annotations
-import time
-from pathlib import Path
-import json
-import html
-from typing import TypedDict
-import requests
-from pprint import pprint
-
-from itertools import chain
-
 
 import ast
+import json
 import re
+from itertools import chain
+from pathlib import Path
+from typing import TypedDict
 
 ROOT_PATH = Path(__file__).parent.parent
 CARD_PATH = ROOT_PATH / "cards"

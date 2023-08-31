@@ -1,18 +1,190 @@
 from __future__ import annotations
-from dataclasses import dataclass
-from l5r_auto.card import Ability, Trait
+
 from l5r_auto.cards.personalities.common import Personality
 from l5r_auto.clans import BrotherhoodOfShinsei, DragonClan, NagaFaction
-from l5r_auto.keywords import Alchemist, ClanChampion, Duelist, Earth, Experienced, Imperial, Kensai, Loyal, Monk, Naga, Samurai, Shugenja, SoulOf, Tattooed, TheLaughingDragon, Unique
+from l5r_auto.keywords import (
+    Alchemist,
+    ClanChampion,
+    Duelist,
+    Earth,
+    Experienced,
+    Imperial,
+    Kensai,
+    Loyal,
+    Monk,
+    Naga,
+    Samurai,
+    Shugenja,
+    SoulOf,
+    Tattooed,
+    TheLaughingDragon,
+    Unique,
+)
 from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEdition
-Mirumoto_Higaru = Personality(id=11166, title='Mirumoto Higaru', force=3, chi=3, honor_requirement=3, personal_honor=2, gold_cost=4, clan=[DragonClan], keywords=[Kensai, Samurai, SoulOf('Mirumoto Rosanjin')], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Mirumoto_Hikuryo = Personality(id=11167, title='Mirumoto Hikuryo', force=3, chi=3, honor_requirement=3, personal_honor=2, gold_cost=5, clan=[DragonClan], keywords=[Duelist, Samurai], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Mirumoto_Niwa = Personality(id=11168, title='Mirumoto Niwa', force=2, chi=4, honor_requirement=4, personal_honor=3, gold_cost=5, clan=[DragonClan], keywords=[Kensai, Samurai, SoulOf('Mirumoto Kei')], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Mirumoto_Nokkai = Personality(id=11169, title='Mirumoto Nokkai', force=2, chi=4, honor_requirement=5, personal_honor=3, gold_cost=6, clan=[DragonClan], keywords=[Samurai, SoulOf('Mirumoto Tsuge'), Tattooed], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Mirumoto_Shikei_the_Laughing_Dragon_Experienced = Personality(id=11170, title='Mirumoto Shikei, the Laughing Dragon', force=4, chi=5, honor_requirement=9, personal_honor=4, gold_cost=10, clan=[DragonClan, BrotherhoodOfShinsei, NagaFaction], keywords=[Duelist, Kensai, Loyal, Unique, ClanChampion, Experienced('1'), Monk, Naga, Samurai, Tattooed, TheLaughingDragon], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Mirumoto_Tsukazu = Personality(id=11171, title='Mirumoto Tsukazu', force=3, chi=3, honor_requirement=3, personal_honor=2, gold_cost=5, clan=[DragonClan], keywords=[Kensai, Samurai, SoulOf('Mirumoto Minawa')], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Mirumoto_Yasushi = Personality(id=11172, title='Mirumoto Yasushi', force=4, chi=4, honor_requirement=4, personal_honor=2, gold_cost=9, clan=[DragonClan], keywords=[Samurai, SoulOf('Mirumoto Kyuzo')], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Tamori_Katsumi = Personality(id=11173, title='Tamori Katsumi', force=3, chi=3, honor_requirement=None, personal_honor=2, gold_cost=5, clan=[DragonClan], keywords=[Earth, Shugenja, SoulOf('Tamori Shaitung')], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Tamori_Shaisen = Personality(id=11175, title='Tamori Shaisen', force=3, chi=4, honor_requirement=0, personal_honor=3, gold_cost=7, clan=[DragonClan], keywords=[Alchemist, Earth, Imperial, Shugenja, SoulOf('Tamori Shosei')], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Togashi_Ango = Personality(id=11176, title='Togashi Ango', force=1, chi=1, honor_requirement=0, personal_honor=2, gold_cost=4, clan=[DragonClan, BrotherhoodOfShinsei], keywords=[Monk, SoulOf('Togashi Chikato'), Tattooed], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Togashi_Ogure = Personality(id=11177, title='Togashi Ogure', force=3, chi=4, honor_requirement=4, personal_honor=2, gold_cost=6, clan=[DragonClan, BrotherhoodOfShinsei], keywords=[Monk, SoulOf('Hoshi Akiyama')], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
+
+Mirumoto_Higaru = Personality(
+    id=11166,
+    title="Mirumoto Higaru",
+    force=3,
+    chi=3,
+    honor_requirement=3,
+    personal_honor=2,
+    gold_cost=4,
+    clan=[DragonClan],
+    keywords=[Kensai, Samurai, SoulOf("Mirumoto Rosanjin")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Mirumoto_Hikuryo = Personality(
+    id=11167,
+    title="Mirumoto Hikuryo",
+    force=3,
+    chi=3,
+    honor_requirement=3,
+    personal_honor=2,
+    gold_cost=5,
+    clan=[DragonClan],
+    keywords=[Duelist, Samurai],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Mirumoto_Niwa = Personality(
+    id=11168,
+    title="Mirumoto Niwa",
+    force=2,
+    chi=4,
+    honor_requirement=4,
+    personal_honor=3,
+    gold_cost=5,
+    clan=[DragonClan],
+    keywords=[Kensai, Samurai, SoulOf("Mirumoto Kei")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Mirumoto_Nokkai = Personality(
+    id=11169,
+    title="Mirumoto Nokkai",
+    force=2,
+    chi=4,
+    honor_requirement=5,
+    personal_honor=3,
+    gold_cost=6,
+    clan=[DragonClan],
+    keywords=[Samurai, SoulOf("Mirumoto Tsuge"), Tattooed],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Mirumoto_Shikei_the_Laughing_Dragon_Experienced = Personality(
+    id=11170,
+    title="Mirumoto Shikei, the Laughing Dragon",
+    force=4,
+    chi=5,
+    honor_requirement=9,
+    personal_honor=4,
+    gold_cost=10,
+    clan=[DragonClan, BrotherhoodOfShinsei, NagaFaction],
+    keywords=[
+        Duelist,
+        Kensai,
+        Loyal,
+        Unique,
+        ClanChampion,
+        Experienced("1"),
+        Monk,
+        Naga,
+        Samurai,
+        Tattooed,
+        TheLaughingDragon,
+    ],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Mirumoto_Tsukazu = Personality(
+    id=11171,
+    title="Mirumoto Tsukazu",
+    force=3,
+    chi=3,
+    honor_requirement=3,
+    personal_honor=2,
+    gold_cost=5,
+    clan=[DragonClan],
+    keywords=[Kensai, Samurai, SoulOf("Mirumoto Minawa")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Mirumoto_Yasushi = Personality(
+    id=11172,
+    title="Mirumoto Yasushi",
+    force=4,
+    chi=4,
+    honor_requirement=4,
+    personal_honor=2,
+    gold_cost=9,
+    clan=[DragonClan],
+    keywords=[Samurai, SoulOf("Mirumoto Kyuzo")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Tamori_Katsumi = Personality(
+    id=11173,
+    title="Tamori Katsumi",
+    force=3,
+    chi=3,
+    honor_requirement=None,
+    personal_honor=2,
+    gold_cost=5,
+    clan=[DragonClan],
+    keywords=[Earth, Shugenja, SoulOf("Tamori Shaitung")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Tamori_Shaisen = Personality(
+    id=11175,
+    title="Tamori Shaisen",
+    force=3,
+    chi=4,
+    honor_requirement=0,
+    personal_honor=3,
+    gold_cost=7,
+    clan=[DragonClan],
+    keywords=[Alchemist, Earth, Imperial, Shugenja, SoulOf("Tamori Shosei")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Togashi_Ango = Personality(
+    id=11176,
+    title="Togashi Ango",
+    force=1,
+    chi=1,
+    honor_requirement=0,
+    personal_honor=2,
+    gold_cost=4,
+    clan=[DragonClan, BrotherhoodOfShinsei],
+    keywords=[Monk, SoulOf("Togashi Chikato"), Tattooed],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Togashi_Ogure = Personality(
+    id=11177,
+    title="Togashi Ogure",
+    force=3,
+    chi=4,
+    honor_requirement=4,
+    personal_honor=2,
+    gold_cost=6,
+    clan=[DragonClan, BrotherhoodOfShinsei],
+    keywords=[Monk, SoulOf("Hoshi Akiyama")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)

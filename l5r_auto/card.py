@@ -2,9 +2,9 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field, fields
 from typing import Any, Type
+
 from .legality import Legality
 from .locations import DynastyDiscard, RemovedFromGame
-
 from .player import Entity
 
 

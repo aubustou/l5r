@@ -1,16 +1,155 @@
 from __future__ import annotations
-from dataclasses import dataclass
-from l5r_auto.card import Ability, Trait
+
 from l5r_auto.cards.personalities.common import Personality
 from l5r_auto.clans import LionClan
-from l5r_auto.keywords import ClanChampion, Deathseeker, Experienced, Loyal, Paragon, Samurai, Scout, SoulOf, Tactician, TheSteelLion, Unique, WarLeader
+from l5r_auto.keywords import (
+    ClanChampion,
+    Deathseeker,
+    Experienced,
+    Loyal,
+    Paragon,
+    Samurai,
+    Scout,
+    SoulOf,
+    Tactician,
+    TheSteelLion,
+    Unique,
+    WarLeader,
+)
 from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEdition
-Akodo_Dairuko_the_Steel_Lion_Experienced_2 = Personality(id=11178, title='Akodo Dairuko, the Steel Lion', force=4, chi=5, honor_requirement=10, personal_honor=5, gold_cost=10, clan=[LionClan], keywords=[Experienced('2'), Loyal, Tactician, Unique, ClanChampion, Paragon, Samurai, TheSteelLion], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Akodo_Kenaro = Personality(id=11179, title='Akodo Kenaro', force=2, chi=4, honor_requirement=6, personal_honor=3, gold_cost=5, clan=[LionClan], keywords=[Tactician, Samurai, SoulOf('Akodo Ijiasu'), WarLeader], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Ikoma_Ichimoko = Personality(id=11180, title='Ikoma Ichimoko', force=3, chi=2, honor_requirement=7, personal_honor=3, gold_cost=5, clan=[LionClan], keywords=[Samurai, Scout], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Ikoma_Yoshimoko = Personality(id=11181, title='Ikoma Yoshimoko', force=3, chi=2, honor_requirement=5, personal_honor=2, gold_cost=5, clan=[LionClan], keywords=[Samurai, Scout], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Matsu_Agai = Personality(id=11182, title='Matsu Agai', force=2, chi=2, honor_requirement=5, personal_honor=2, gold_cost=4, clan=[LionClan], keywords=[Deathseeker, Samurai, SoulOf('Matsu Agoro')], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Matsu_Choiko = Personality(id=11183, title='Matsu Choiko', force=2, chi=2, honor_requirement=8, personal_honor=2, gold_cost=6, clan=[LionClan], keywords=[Samurai, SoulOf('Matsu Ryoichi')], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Matsu_Morito = Personality(id=11185, title='Matsu Morito', force=4, chi=2, honor_requirement=2, personal_honor=3, gold_cost=7, clan=[LionClan], keywords=[Deathseeker, Samurai, SoulOf('Matsu Sanraku')], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Matsu_Rutaro = Personality(id=11186, title='Matsu Rutaro', force=4, chi=3, honor_requirement=0, personal_honor=2, gold_cost=6, clan=[LionClan], keywords=[Samurai, SoulOf('Matsu Turi')], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Matsu_Tayuko = Personality(id=11187, title='Matsu Tayuko', force=1, chi=3, honor_requirement=6, personal_honor=3, gold_cost=3, clan=[LionClan], keywords=[Samurai, SoulOf('Matsu Aoiko')], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
+
+Akodo_Dairuko_the_Steel_Lion_Experienced_2 = Personality(
+    id=11178,
+    title="Akodo Dairuko, the Steel Lion",
+    force=4,
+    chi=5,
+    honor_requirement=10,
+    personal_honor=5,
+    gold_cost=10,
+    clan=[LionClan],
+    keywords=[
+        Experienced("2"),
+        Loyal,
+        Tactician,
+        Unique,
+        ClanChampion,
+        Paragon,
+        Samurai,
+        TheSteelLion,
+    ],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Akodo_Kenaro = Personality(
+    id=11179,
+    title="Akodo Kenaro",
+    force=2,
+    chi=4,
+    honor_requirement=6,
+    personal_honor=3,
+    gold_cost=5,
+    clan=[LionClan],
+    keywords=[Tactician, Samurai, SoulOf("Akodo Ijiasu"), WarLeader],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Ikoma_Ichimoko = Personality(
+    id=11180,
+    title="Ikoma Ichimoko",
+    force=3,
+    chi=2,
+    honor_requirement=7,
+    personal_honor=3,
+    gold_cost=5,
+    clan=[LionClan],
+    keywords=[Samurai, Scout],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Ikoma_Yoshimoko = Personality(
+    id=11181,
+    title="Ikoma Yoshimoko",
+    force=3,
+    chi=2,
+    honor_requirement=5,
+    personal_honor=2,
+    gold_cost=5,
+    clan=[LionClan],
+    keywords=[Samurai, Scout],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Matsu_Agai = Personality(
+    id=11182,
+    title="Matsu Agai",
+    force=2,
+    chi=2,
+    honor_requirement=5,
+    personal_honor=2,
+    gold_cost=4,
+    clan=[LionClan],
+    keywords=[Deathseeker, Samurai, SoulOf("Matsu Agoro")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Matsu_Choiko = Personality(
+    id=11183,
+    title="Matsu Choiko",
+    force=2,
+    chi=2,
+    honor_requirement=8,
+    personal_honor=2,
+    gold_cost=6,
+    clan=[LionClan],
+    keywords=[Samurai, SoulOf("Matsu Ryoichi")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Matsu_Morito = Personality(
+    id=11185,
+    title="Matsu Morito",
+    force=4,
+    chi=2,
+    honor_requirement=2,
+    personal_honor=3,
+    gold_cost=7,
+    clan=[LionClan],
+    keywords=[Deathseeker, Samurai, SoulOf("Matsu Sanraku")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Matsu_Rutaro = Personality(
+    id=11186,
+    title="Matsu Rutaro",
+    force=4,
+    chi=3,
+    honor_requirement=0,
+    personal_honor=2,
+    gold_cost=6,
+    clan=[LionClan],
+    keywords=[Samurai, SoulOf("Matsu Turi")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Matsu_Tayuko = Personality(
+    id=11187,
+    title="Matsu Tayuko",
+    force=1,
+    chi=3,
+    honor_requirement=6,
+    personal_honor=3,
+    gold_cost=3,
+    clan=[LionClan],
+    keywords=[Samurai, SoulOf("Matsu Aoiko")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)

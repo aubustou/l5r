@@ -1,16 +1,160 @@
 from __future__ import annotations
-from dataclasses import dataclass
-from l5r_auto.card import Ability, Trait
+
 from l5r_auto.cards.personalities.common import Personality
 from l5r_auto.clans import BrotherhoodOfShinsei, ShadowlandsFaction, SpiderClan
-from l5r_auto.keywords import ClanChampion, Conqueror, Courtier, Experienced, Kensai, Loyal, Monk, Orator, Paragon, Samurai, Shadowlands, Shugenja, SoulOf, TheShadowEmperor, Unique
+from l5r_auto.keywords import (
+    ClanChampion,
+    Conqueror,
+    Courtier,
+    Experienced,
+    Kensai,
+    Loyal,
+    Monk,
+    Orator,
+    Paragon,
+    Samurai,
+    Shadowlands,
+    Shugenja,
+    SoulOf,
+    TheShadowEmperor,
+    Unique,
+)
 from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEdition
-Daigotsu_Geiko = Personality(id=11220, title='Daigotsu Geiko', force=4, chi=3, honor_requirement=None, personal_honor=1, gold_cost=7, clan=[SpiderClan], keywords=[Samurai, SoulOf('Daigotsu Keigo')], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Daigotsu_Kanpeki_the_Shadow_Emperor_Experienced_3 = Personality(id=11221, title='Daigotsu Kanpeki, the Shadow Emperor', force=6, chi=5, honor_requirement=None, personal_honor=0, gold_cost=12, clan=[SpiderClan, BrotherhoodOfShinsei], keywords=[Conqueror, Experienced('3'), Kensai, Loyal, Unique, ClanChampion, Monk, Paragon, Samurai, TheShadowEmperor], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Daigotsu_Konishi = Personality(id=11222, title='Daigotsu Konishi', force=3, chi=2, honor_requirement=None, personal_honor=0, gold_cost=4, clan=[SpiderClan, ShadowlandsFaction], keywords=[Samurai, Shadowlands], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Daigotsu_Onosaka = Personality(id=11223, title='Daigotsu Onosaka', force=2, chi=3, honor_requirement=None, personal_honor=0, gold_cost=3, clan=[SpiderClan, ShadowlandsFaction], keywords=[Samurai, Shadowlands], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Daigotsu_Roburo = Personality(id=11224, title='Daigotsu Roburo', force=4, chi=3, honor_requirement=None, personal_honor=0, gold_cost=7, clan=[SpiderClan, ShadowlandsFaction], keywords=[Paragon, Samurai, Shadowlands, SoulOf('Daigotsu Bundoru')], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Hiyamako = Personality(id=11225, title='Hiyamako', force=2, chi=2, honor_requirement=None, personal_honor=0, gold_cost=2, clan=[SpiderClan, BrotherhoodOfShinsei], keywords=[Kensai, Monk], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Susumu_Neya = Personality(id=11226, title='Susumu Neya', force=1, chi=3, honor_requirement=1, personal_honor=2, gold_cost=5, clan=[SpiderClan], keywords=[Courtier, Orator], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Susumu_Yanada = Personality(id=11227, title='Susumu Yanada', force=0, chi=1, honor_requirement=0, personal_honor=2, gold_cost=4, clan=[SpiderClan], keywords=[Courtier], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
-Tairao = Personality(id=11228, title='Tairao', force=3, chi=3, honor_requirement=None, personal_honor=0, gold_cost=5, clan=[SpiderClan, ShadowlandsFaction], keywords=[Shadowlands, Shugenja, SoulOf('Chuda Rintaro')], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
+
+Daigotsu_Geiko = Personality(
+    id=11220,
+    title="Daigotsu Geiko",
+    force=4,
+    chi=3,
+    honor_requirement=None,
+    personal_honor=1,
+    gold_cost=7,
+    clan=[SpiderClan],
+    keywords=[Samurai, SoulOf("Daigotsu Keigo")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Daigotsu_Kanpeki_the_Shadow_Emperor_Experienced_3 = Personality(
+    id=11221,
+    title="Daigotsu Kanpeki, the Shadow Emperor",
+    force=6,
+    chi=5,
+    honor_requirement=None,
+    personal_honor=0,
+    gold_cost=12,
+    clan=[SpiderClan, BrotherhoodOfShinsei],
+    keywords=[
+        Conqueror,
+        Experienced("3"),
+        Kensai,
+        Loyal,
+        Unique,
+        ClanChampion,
+        Monk,
+        Paragon,
+        Samurai,
+        TheShadowEmperor,
+    ],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Daigotsu_Konishi = Personality(
+    id=11222,
+    title="Daigotsu Konishi",
+    force=3,
+    chi=2,
+    honor_requirement=None,
+    personal_honor=0,
+    gold_cost=4,
+    clan=[SpiderClan, ShadowlandsFaction],
+    keywords=[Samurai, Shadowlands],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Daigotsu_Onosaka = Personality(
+    id=11223,
+    title="Daigotsu Onosaka",
+    force=2,
+    chi=3,
+    honor_requirement=None,
+    personal_honor=0,
+    gold_cost=3,
+    clan=[SpiderClan, ShadowlandsFaction],
+    keywords=[Samurai, Shadowlands],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Daigotsu_Roburo = Personality(
+    id=11224,
+    title="Daigotsu Roburo",
+    force=4,
+    chi=3,
+    honor_requirement=None,
+    personal_honor=0,
+    gold_cost=7,
+    clan=[SpiderClan, ShadowlandsFaction],
+    keywords=[Paragon, Samurai, Shadowlands, SoulOf("Daigotsu Bundoru")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Hiyamako = Personality(
+    id=11225,
+    title="Hiyamako",
+    force=2,
+    chi=2,
+    honor_requirement=None,
+    personal_honor=0,
+    gold_cost=2,
+    clan=[SpiderClan, BrotherhoodOfShinsei],
+    keywords=[Kensai, Monk],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Susumu_Neya = Personality(
+    id=11226,
+    title="Susumu Neya",
+    force=1,
+    chi=3,
+    honor_requirement=1,
+    personal_honor=2,
+    gold_cost=5,
+    clan=[SpiderClan],
+    keywords=[Courtier, Orator],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Susumu_Yanada = Personality(
+    id=11227,
+    title="Susumu Yanada",
+    force=0,
+    chi=1,
+    honor_requirement=0,
+    personal_honor=2,
+    gold_cost=4,
+    clan=[SpiderClan],
+    keywords=[Courtier],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)
+Tairao = Personality(
+    id=11228,
+    title="Tairao",
+    force=3,
+    chi=3,
+    honor_requirement=None,
+    personal_honor=0,
+    gold_cost=5,
+    clan=[SpiderClan, ShadowlandsFaction],
+    keywords=[Shadowlands, Shugenja, SoulOf("Chuda Rintaro")],
+    traits=[],
+    abilities=[],
+    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+)

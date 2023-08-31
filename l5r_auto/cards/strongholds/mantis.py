@@ -1,13 +1,11 @@
 from __future__ import annotations
 
-from dataclasses import dataclass, field
-from typing import Type
+from dataclasses import dataclass
+
 from l5r_auto.card import Ability, Card
-
-
 from l5r_auto.cards.strongholds.common import Stronghold
 from l5r_auto.clans import Mantis
-from l5r_auto.keywords import Port, Naval
+from l5r_auto.keywords import Naval, Port
 from l5r_auto.legality import Diamond, Gold
 from l5r_auto.player import Player
 

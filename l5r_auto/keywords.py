@@ -1,10 +1,11 @@
 from __future__ import annotations
-from copy import copy
 
-from dataclasses import dataclass, field
+from copy import copy
+from dataclasses import dataclass
 from typing import Type
-from .card import Card, Keyword
-from .clans import SpiritFaction, NinjaFaction, NagaFaction
+
+from .card import Keyword
+from .clans import NagaFaction, NinjaFaction, SpiritFaction
 
 
 def SoulOf(title: str) -> Type[Keyword]:

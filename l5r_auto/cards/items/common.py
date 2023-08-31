@@ -4,11 +4,10 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 from typing import Type
-from l5r_auto.card import Card, FateCard, Keyword
-from l5r_auto.card import Ability, Trait
+
+from l5r_auto.card import Ability, FateCard, Trait
 from l5r_auto.cards.personalities.common import PersonalityEntity
 from l5r_auto.locations import Deck, Location
-
 from l5r_auto.player import Entity
 
 
