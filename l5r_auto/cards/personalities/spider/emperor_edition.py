@@ -22,7 +22,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Daigotsu_Kendo = Personality(
-    id=1736,
+    card_id=1736,
     title="Daigotsu Kendo",
     force=3,
     chi=2,
@@ -36,7 +36,7 @@ Daigotsu_Kendo = Personality(
     legality=[TwentyFestivalsEdition, EmperorEdition, OnyxEdition, ModernEdition],
 )
 Sandayu = Personality(
-    id=6467,
+    card_id=6467,
     title="Sandayu",
     force=3,
     chi=2,

@@ -21,7 +21,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Daidoji_Kuraou = Personality(
-    id=12290,
+    card_id=12290,
     title="Daidoji Kuraou",
     force=2,
     chi=2,
@@ -35,7 +35,7 @@ Daidoji_Kuraou = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Doji_Buredo = Personality(
-    id=12291,
+    card_id=12291,
     title="Doji Buredo",
     force=2,
     chi=2,
@@ -49,7 +49,7 @@ Doji_Buredo = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Doji_Hoshihana = Personality(
-    id=12292,
+    card_id=12292,
     title="Doji Hoshihana",
     force=1,
     chi=2,
@@ -63,7 +63,7 @@ Doji_Hoshihana = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Doji_Moro = Personality(
-    id=12293,
+    card_id=12293,
     title="Doji Moro",
     force=2,
     chi=3,
@@ -77,7 +77,7 @@ Doji_Moro = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kakita_Iwari = Personality(
-    id=12294,
+    card_id=12294,
     title="Kakita Iwari",
     force=1,
     chi=3,
@@ -91,7 +91,7 @@ Kakita_Iwari = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kakita_Shinichi_Experienced = Personality(
-    id=12295,
+    card_id=12295,
     title="Kakita Shinichi",
     force=3,
     chi=4,

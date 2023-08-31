@@ -22,7 +22,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Moshi_Chiyoko = Personality(
-    id=12464,
+    card_id=12464,
     title="Moshi Chiyoko",
     force=3,
     chi=3,
@@ -36,7 +36,7 @@ Moshi_Chiyoko = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Moshi_Nariko = Personality(
-    id=12465,
+    card_id=12465,
     title="Moshi Nariko",
     force=2,
     chi=2,
@@ -50,7 +50,7 @@ Moshi_Nariko = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Tsuruchi_Kinuyo = Personality(
-    id=12466,
+    card_id=12466,
     title="Tsuruchi Kinuyo",
     force=3,
     chi=2,
@@ -64,7 +64,7 @@ Tsuruchi_Kinuyo = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Tsuruchi_Taito_Experienced = Personality(
-    id=12467,
+    card_id=12467,
     title="Tsuruchi Taito",
     force=4,
     chi=3,
@@ -78,7 +78,7 @@ Tsuruchi_Taito_Experienced = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Yoritomo_Honjo = Personality(
-    id=12468,
+    card_id=12468,
     title="Yoritomo Honjo",
     force=3,
     chi=3,
@@ -92,7 +92,7 @@ Yoritomo_Honjo = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Yoritomo_Tamiya = Personality(
-    id=12469,
+    card_id=12469,
     title="Yoritomo Tamiya",
     force=4,
     chi=2,

@@ -21,7 +21,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Daigotsu_Aimaro = Personality(
-    id=12482,
+    card_id=12482,
     title="Daigotsu Aimaro",
     force=2,
     chi=3,
@@ -35,7 +35,7 @@ Daigotsu_Aimaro = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Daigotsu_Endo_Experienced = Personality(
-    id=12483,
+    card_id=12483,
     title="Daigotsu Endo",
     force=4,
     chi=0,
@@ -49,7 +49,7 @@ Daigotsu_Endo_Experienced = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Daigotsu_Yuhmi_Experienced_2 = Personality(
-    id=12484,
+    card_id=12484,
     title="Daigotsu Yuhmi",
     force=6,
     chi=2,
@@ -63,7 +63,7 @@ Daigotsu_Yuhmi_Experienced_2 = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Goju_Iaitsu = Personality(
-    id=12485,
+    card_id=12485,
     title="Goju Iaitsu",
     force=3,
     chi=2,
@@ -77,7 +77,7 @@ Goju_Iaitsu = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Goju_Toriken = Personality(
-    id=12486,
+    card_id=12486,
     title="Goju Toriken",
     force=4,
     chi=3,
@@ -91,7 +91,7 @@ Goju_Toriken = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Hikayo = Personality(
-    id=12487,
+    card_id=12487,
     title="Hikayo",
     force=5,
     chi=2,

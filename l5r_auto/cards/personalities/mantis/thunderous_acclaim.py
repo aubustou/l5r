@@ -22,7 +22,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Kitsune_Narako = Personality(
-    id=12308,
+    card_id=12308,
     title="Kitsune Narako",
     force=0,
     chi=2,
@@ -36,7 +36,7 @@ Kitsune_Narako = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Moshi_Kyan = Personality(
-    id=12309,
+    card_id=12309,
     title="Moshi Kyan",
     force=3,
     chi=3,
@@ -50,7 +50,7 @@ Moshi_Kyan = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Tsuruchi_Akira = Personality(
-    id=12310,
+    card_id=12310,
     title="Tsuruchi Akira",
     force=2,
     chi=2,
@@ -64,7 +64,7 @@ Tsuruchi_Akira = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Yoritomo_Kinshikirai = Personality(
-    id=12311,
+    card_id=12311,
     title="Yoritomo Kinshikirai",
     force=3,
     chi=4,
@@ -78,7 +78,7 @@ Yoritomo_Kinshikirai = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Yoritomo_Kyunan = Personality(
-    id=12312,
+    card_id=12312,
     title="Yoritomo Kyunan",
     force=2,
     chi=2,
@@ -92,7 +92,7 @@ Yoritomo_Kyunan = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Yoritomo_Minoko = Personality(
-    id=12313,
+    card_id=12313,
     title="Yoritomo Minoko",
     force=3,
     chi=2,

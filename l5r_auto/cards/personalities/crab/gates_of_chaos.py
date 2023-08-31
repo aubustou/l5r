@@ -13,7 +13,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Toritaka_Iabuchi = Personality(
-    id=10621,
+    card_id=10621,
     title="Toritaka Iabuchi",
     force=3,
     chi=2,

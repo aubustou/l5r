@@ -12,7 +12,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Yogo_Honami = Personality(
-    id=9491,
+    card_id=9491,
     title="Yogo Honami",
     force=2,
     chi=4,

@@ -17,7 +17,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Daigotsu_Atsushi = Personality(
-    id=11770,
+    card_id=11770,
     title="Daigotsu Atsushi",
     force=3,
     chi=3,
@@ -31,7 +31,7 @@ Daigotsu_Atsushi = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Daigotsu_Teruo = Personality(
-    id=11771,
+    card_id=11771,
     title="Daigotsu Teruo",
     force=0,
     chi=1,
@@ -45,7 +45,7 @@ Daigotsu_Teruo = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Nao = Personality(
-    id=11772,
+    card_id=11772,
     title="Nao",
     force=2,
     chi=3,
@@ -59,7 +59,7 @@ Nao = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Sora = Personality(
-    id=11773,
+    card_id=11773,
     title="Sora",
     force=3,
     chi=2,
@@ -73,7 +73,7 @@ Sora = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Susumu_Mizuki = Personality(
-    id=11774,
+    card_id=11774,
     title="Susumu Mizuki",
     force=0,
     chi=2,
@@ -87,7 +87,7 @@ Susumu_Mizuki = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Susumu_Takuan = Personality(
-    id=11775,
+    card_id=11775,
     title="Susumu Takuan",
     force=2,
     chi=3,

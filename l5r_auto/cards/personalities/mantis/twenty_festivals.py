@@ -22,7 +22,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Moshi_Ikako_Experienced = Personality(
-    id=12128,
+    card_id=12128,
     title="Moshi Ikako",
     force=3,
     chi=5,
@@ -36,7 +36,7 @@ Moshi_Ikako_Experienced = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Moshi_Karuiko = Personality(
-    id=12129,
+    card_id=12129,
     title="Moshi Karuiko",
     force=3,
     chi=3,
@@ -50,7 +50,7 @@ Moshi_Karuiko = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Tsuruchi_Arayo = Personality(
-    id=12130,
+    card_id=12130,
     title="Tsuruchi Arayo",
     force=2,
     chi=3,
@@ -64,7 +64,7 @@ Tsuruchi_Arayo = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Tsuruchi_Jinrai = Personality(
-    id=12131,
+    card_id=12131,
     title="Tsuruchi Jinrai",
     force=2,
     chi=2,
@@ -78,7 +78,7 @@ Tsuruchi_Jinrai = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Yoritomo_Juriken = Personality(
-    id=12132,
+    card_id=12132,
     title="Yoritomo Juriken",
     force=3,
     chi=2,
@@ -92,7 +92,7 @@ Yoritomo_Juriken = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Yoritomo_Kuniken = Personality(
-    id=12133,
+    card_id=12133,
     title="Yoritomo Kuniken",
     force=2,
     chi=2,
@@ -106,7 +106,7 @@ Yoritomo_Kuniken = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Yoritomo_Matsuo_Experienced = Personality(
-    id=12134,
+    card_id=12134,
     title="Yoritomo Matsuo",
     force=4,
     chi=4,
@@ -120,7 +120,7 @@ Yoritomo_Matsuo_Experienced = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Yoritomo_Minoro = Personality(
-    id=12135,
+    card_id=12135,
     title="Yoritomo Minoro",
     force=2,
     chi=3,
@@ -134,7 +134,7 @@ Yoritomo_Minoro = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Yoritomo_Nintai = Personality(
-    id=12136,
+    card_id=12136,
     title="Yoritomo Nintai",
     force=4,
     chi=2,
@@ -148,7 +148,7 @@ Yoritomo_Nintai = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Yoritomo_Saitsuko = Personality(
-    id=12137,
+    card_id=12137,
     title="Yoritomo Saitsuko",
     force=3,
     chi=2,
@@ -162,7 +162,7 @@ Yoritomo_Saitsuko = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Yoritomo_Tsuhime = Personality(
-    id=12138,
+    card_id=12138,
     title="Yoritomo Tsuhime",
     force=4,
     chi=3,
@@ -176,7 +176,7 @@ Yoritomo_Tsuhime = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Yoritomo_Waito = Personality(
-    id=12139,
+    card_id=12139,
     title="Yoritomo Waito",
     force=3,
     chi=2,

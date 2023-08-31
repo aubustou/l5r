@@ -20,7 +20,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Kitsune_Nakumi = Personality(
-    id=11586,
+    card_id=11586,
     title="Kitsune Nakumi",
     force=0,
     chi=3,
@@ -34,7 +34,7 @@ Kitsune_Nakumi = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kitsune_Satoko = Personality(
-    id=11587,
+    card_id=11587,
     title="Kitsune Satoko",
     force=0,
     chi=4,
@@ -48,7 +48,7 @@ Kitsune_Satoko = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Tsuruchi_Kaitaru = Personality(
-    id=11588,
+    card_id=11588,
     title="Tsuruchi Kaitaru",
     force=2,
     chi=3,
@@ -62,7 +62,7 @@ Tsuruchi_Kaitaru = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Tsuruchi_Taito = Personality(
-    id=11589,
+    card_id=11589,
     title="Tsuruchi Taito",
     force=3,
     chi=3,
@@ -76,7 +76,7 @@ Tsuruchi_Taito = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yoritomo_Dairu = Personality(
-    id=11590,
+    card_id=11590,
     title="Yoritomo Dairu",
     force=3,
     chi=2,
@@ -90,7 +90,7 @@ Yoritomo_Dairu = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yoritomo_Haruna = Personality(
-    id=11591,
+    card_id=11591,
     title="Yoritomo Haruna",
     force=0,
     chi=2,

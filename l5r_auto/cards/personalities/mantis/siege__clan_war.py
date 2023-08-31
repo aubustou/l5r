@@ -18,7 +18,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Yoritomo_Son_of_Storms_ExperiencedCW = Personality(
-    id=12645,
+    card_id=12645,
     title="Yoritomo, Son of Storms",
     force=5,
     chi=4,

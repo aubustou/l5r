@@ -16,7 +16,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Daidoji_Hirota = Personality(
-    id=11568,
+    card_id=11568,
     title="Daidoji Hirota",
     force=2,
     chi=3,
@@ -30,7 +30,7 @@ Daidoji_Hirota = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Daidoji_Natsuki = Personality(
-    id=11569,
+    card_id=11569,
     title="Daidoji Natsuki",
     force=2,
     chi=2,
@@ -44,7 +44,7 @@ Daidoji_Natsuki = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Daidoji_Takeda = Personality(
-    id=11570,
+    card_id=11570,
     title="Daidoji Takeda",
     force=3,
     chi=2,
@@ -58,7 +58,7 @@ Daidoji_Takeda = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kakita_Ariyoshi = Personality(
-    id=11571,
+    card_id=11571,
     title="Kakita Ariyoshi",
     force=1,
     chi=5,
@@ -72,7 +72,7 @@ Kakita_Ariyoshi = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kakita_Mariko = Personality(
-    id=11572,
+    card_id=11572,
     title="Kakita Mariko",
     force=3,
     chi=3,
@@ -86,7 +86,7 @@ Kakita_Mariko = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kakita_Shinichi = Personality(
-    id=11573,
+    card_id=11573,
     title="Kakita Shinichi",
     force=2,
     chi=3,

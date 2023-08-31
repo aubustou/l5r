@@ -13,7 +13,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Minikui_no_Oni = Personality(
-    id=5059,
+    card_id=5059,
     title="Minikui no Oni",
     force=6,
     chi=3,

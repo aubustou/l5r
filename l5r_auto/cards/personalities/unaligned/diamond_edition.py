@@ -25,7 +25,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Fushiki_no_Oni = Personality(
-    id=2749,
+    card_id=2749,
     title="Fushiki no Oni",
     force=5,
     chi=4,
@@ -39,7 +39,7 @@ Fushiki_no_Oni = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, DiamondEdition, ModernEdition],
 )
 Gekido_no_Oni = Personality(
-    id=2786,
+    card_id=2786,
     title="Gekido no Oni",
     force=3,
     chi=3,
@@ -60,7 +60,7 @@ Gekido_no_Oni = Personality(
     ],
 )
 Ogre_Bushi = Personality(
-    id=5675,
+    card_id=5675,
     title="Ogre Bushi",
     force=6,
     chi=4,
@@ -83,7 +83,7 @@ Ogre_Bushi = Personality(
     ],
 )
 Voitagi = Personality(
-    id=9182,
+    card_id=9182,
     title="Voitagi",
     force=3,
     chi=2,

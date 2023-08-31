@@ -23,7 +23,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Hida_Ayahi = Personality(
-    id=11145,
+    card_id=11145,
     title="Hida Ayahi",
     force=4,
     chi=2,
@@ -37,7 +37,7 @@ Hida_Ayahi = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Hida_Kisada_the_Little_Bear_Experienced = Personality(
-    id=11146,
+    card_id=11146,
     title="Hida Kisada, the Little Bear",
     force=5,
     chi=5,
@@ -61,7 +61,7 @@ Hida_Kisada_the_Little_Bear_Experienced = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Hida_Reigoro = Personality(
-    id=11147,
+    card_id=11147,
     title="Hida Reigoro",
     force=4,
     chi=3,
@@ -75,7 +75,7 @@ Hida_Reigoro = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Hida_Saiyuki = Personality(
-    id=11148,
+    card_id=11148,
     title="Hida Saiyuki",
     force=3,
     chi=2,
@@ -89,7 +89,7 @@ Hida_Saiyuki = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Hida_Toranosuke = Personality(
-    id=11149,
+    card_id=11149,
     title="Hida Toranosuke",
     force=3,
     chi=3,
@@ -103,7 +103,7 @@ Hida_Toranosuke = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Hiruma_Fujito = Personality(
-    id=11150,
+    card_id=11150,
     title="Hiruma Fujito",
     force=2,
     chi=1,
@@ -117,7 +117,7 @@ Hiruma_Fujito = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Hiruma_Itta = Personality(
-    id=11151,
+    card_id=11151,
     title="Hiruma Itta",
     force=2,
     chi=3,
@@ -131,7 +131,7 @@ Hiruma_Itta = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Hiruma_Tsurao = Personality(
-    id=11152,
+    card_id=11152,
     title="Hiruma Tsurao",
     force=2,
     chi=4,
@@ -145,7 +145,7 @@ Hiruma_Tsurao = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kaiu_Nakagawa = Personality(
-    id=11153,
+    card_id=11153,
     title="Kaiu Nakagawa",
     force=3,
     chi=3,
@@ -159,7 +159,7 @@ Kaiu_Nakagawa = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kuni_Tomokazu = Personality(
-    id=11154,
+    card_id=11154,
     title="Kuni Tomokazu",
     force=4,
     chi=3,

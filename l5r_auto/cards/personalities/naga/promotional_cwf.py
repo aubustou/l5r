@@ -13,7 +13,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Shabura = Personality(
-    id=6645,
+    card_id=6645,
     title="Shabura",
     force=4,
     chi=2,

@@ -38,7 +38,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Banished = Personality(
-    id=11932,
+    card_id=11932,
     title="Banished",
     force=3,
     chi=3,
@@ -52,7 +52,7 @@ Banished = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Brnn_Experienced = Personality(
-    id=11933,
+    card_id=11933,
     title="Br'nn",
     force=2,
     chi=2,
@@ -66,7 +66,7 @@ Brnn_Experienced = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Iweko_Miaka_the_Princess = Personality(
-    id=11934,
+    card_id=11934,
     title="Iweko Miaka, the Princess",
     force=0,
     chi=5,
@@ -80,7 +80,7 @@ Iweko_Miaka_the_Princess = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Keppo_Experienced = Personality(
-    id=11936,
+    card_id=11936,
     title="Keppo",
     force=4,
     chi=2,
@@ -94,7 +94,7 @@ Keppo_Experienced = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Masajiro = Personality(
-    id=11935,
+    card_id=11935,
     title="Masajiro",
     force=5,
     chi=2,
@@ -108,7 +108,7 @@ Masajiro = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 The_Abbot_Experienced_3 = Personality(
-    id=11937,
+    card_id=11937,
     title="The Abbot",
     force=2,
     chi=4,

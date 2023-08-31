@@ -21,7 +21,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Daigotsu_Takahide = Personality(
-    id=11926,
+    card_id=11926,
     title="Daigotsu Takahide",
     force=3,
     chi=3,
@@ -35,7 +35,7 @@ Daigotsu_Takahide = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Gyushi_Kageto = Personality(
-    id=11927,
+    card_id=11927,
     title="Gyushi Kageto",
     force=2,
     chi=3,
@@ -49,7 +49,7 @@ Gyushi_Kageto = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kokujin_Dairu_Student_of_the_Dark_Lotus = Personality(
-    id=11928,
+    card_id=11928,
     title="Kokujin Dairu, Student of the Dark Lotus",
     force=3,
     chi=2,
@@ -63,7 +63,7 @@ Kokujin_Dairu_Student_of_the_Dark_Lotus = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kokujin_Kuchika_Blood_of_the_Dark_Lotus = Personality(
-    id=11929,
+    card_id=11929,
     title="Kokujin Kuchika, Blood of the Dark Lotus",
     force=3,
     chi=3,
@@ -77,7 +77,7 @@ Kokujin_Kuchika_Blood_of_the_Dark_Lotus = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Susumu_Issei = Personality(
-    id=11930,
+    card_id=11930,
     title="Susumu Issei",
     force=0,
     chi=3,
@@ -91,7 +91,7 @@ Susumu_Issei = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Susumu_Kengo = Personality(
-    id=11931,
+    card_id=11931,
     title="Susumu Kengo",
     force=0,
     chi=2,

@@ -18,7 +18,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Isawa_Genma = Personality(
-    id=11758,
+    card_id=11758,
     title="Isawa Genma",
     force=0,
     chi=2,
@@ -32,7 +32,7 @@ Isawa_Genma = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Isawa_Kaname_Advisor_to_the_Ruby_Champion_Experienced = Personality(
-    id=11759,
+    card_id=11759,
     title="Isawa Kaname, Advisor to the Ruby Champion",
     force=3,
     chi=4,
@@ -46,7 +46,7 @@ Isawa_Kaname_Advisor_to_the_Ruby_Champion_Experienced = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Isawa_Kido = Personality(
-    id=11760,
+    card_id=11760,
     title="Isawa Kido",
     force=0,
     chi=3,
@@ -60,7 +60,7 @@ Isawa_Kido = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Isawa_Muira = Personality(
-    id=11761,
+    card_id=11761,
     title="Isawa Muira",
     force=3,
     chi=2,
@@ -74,7 +74,7 @@ Isawa_Muira = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shiba_Kakei = Personality(
-    id=11762,
+    card_id=11762,
     title="Shiba Kakei",
     force=3,
     chi=2,
@@ -88,7 +88,7 @@ Shiba_Kakei = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shiba_Yuuchi = Personality(
-    id=11763,
+    card_id=11763,
     title="Shiba Yuuchi",
     force=0,
     chi=2,

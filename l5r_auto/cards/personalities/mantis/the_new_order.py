@@ -18,7 +18,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Kitsune_Gorikki = Personality(
-    id=11909,
+    card_id=11909,
     title="Kitsune Gorikki",
     force=0,
     chi=3,
@@ -32,7 +32,7 @@ Kitsune_Gorikki = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kitsune_Yoshioka = Personality(
-    id=11908,
+    card_id=11908,
     title="Kitsune Yoshioka",
     force=0,
     chi=2,
@@ -46,7 +46,7 @@ Kitsune_Yoshioka = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Tsuruchi_Satou = Personality(
-    id=11911,
+    card_id=11911,
     title="Tsuruchi Satou",
     force=2,
     chi=2,
@@ -60,7 +60,7 @@ Tsuruchi_Satou = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yoritomo_Nishigori = Personality(
-    id=11910,
+    card_id=11910,
     title="Yoritomo Nishigori",
     force=3,
     chi=3,
@@ -74,7 +74,7 @@ Yoritomo_Nishigori = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yoritomo_Raiden = Personality(
-    id=11912,
+    card_id=11912,
     title="Yoritomo Raiden",
     force=4,
     chi=2,
@@ -88,7 +88,7 @@ Yoritomo_Raiden = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yoritomo_Yakuwa = Personality(
-    id=11913,
+    card_id=11913,
     title="Yoritomo Yakuwa",
     force=3,
     chi=2,

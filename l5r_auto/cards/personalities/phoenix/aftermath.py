@@ -21,7 +21,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Asako_Misora = Personality(
-    id=10861,
+    card_id=10861,
     title="Asako Misora",
     force=1,
     chi=4,
@@ -42,7 +42,7 @@ Asako_Misora = Personality(
     ],
 )
 Isawa_Ikariya = Personality(
-    id=10862,
+    card_id=10862,
     title="Isawa Ikariya",
     force=4,
     chi=4,

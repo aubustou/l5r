@@ -25,7 +25,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Hida_Taisho = Personality(
-    id=12081,
+    card_id=12081,
     title="Hida Taisho",
     force=3,
     chi=2,
@@ -39,7 +39,7 @@ Hida_Taisho = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Hida_Zaiburo = Personality(
-    id=12082,
+    card_id=12082,
     title="Hida Zaiburo",
     force=4,
     chi=2,
@@ -53,7 +53,7 @@ Hida_Zaiburo = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Hiruma_Raikohime = Personality(
-    id=12083,
+    card_id=12083,
     title="Hiruma Raikohime",
     force=5,
     chi=3,
@@ -67,7 +67,7 @@ Hiruma_Raikohime = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kaiu_Burei = Personality(
-    id=12084,
+    card_id=12084,
     title="Kaiu Burei",
     force=2,
     chi=2,
@@ -81,7 +81,7 @@ Kaiu_Burei = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kaiu_Daikohime = Personality(
-    id=12085,
+    card_id=12085,
     title="Kaiu Daikohime",
     force=0,
     chi=3,
@@ -95,7 +95,7 @@ Kaiu_Daikohime = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kaiu_Watsuki_Experienced = Personality(
-    id=12086,
+    card_id=12086,
     title="Kaiu Watsuki",
     force=3,
     chi=4,
@@ -109,7 +109,7 @@ Kaiu_Watsuki_Experienced = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kuni_Chutsu = Personality(
-    id=12087,
+    card_id=12087,
     title="Kuni Chutsu",
     force=3,
     chi=4,
@@ -123,7 +123,7 @@ Kuni_Chutsu = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kuni_Harakibi = Personality(
-    id=12088,
+    card_id=12088,
     title="Kuni Harakibi",
     force=2,
     chi=3,
@@ -137,7 +137,7 @@ Kuni_Harakibi = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kuni_Renyu_Experienced_3 = Personality(
-    id=12089,
+    card_id=12089,
     title="Kuni Renyu",
     force=5,
     chi=5,
@@ -161,7 +161,7 @@ Kuni_Renyu_Experienced_3 = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kuni_Yairao = Personality(
-    id=12090,
+    card_id=12090,
     title="Kuni Yairao",
     force=4,
     chi=3,

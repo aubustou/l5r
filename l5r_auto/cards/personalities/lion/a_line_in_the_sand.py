@@ -7,7 +7,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Akodo_Niito = Personality(
-    id=11580,
+    card_id=11580,
     title="Akodo Niito",
     force=2,
     chi=3,
@@ -21,7 +21,7 @@ Akodo_Niito = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition],
 )
 Ikoma_Akinari = Personality(
-    id=11581,
+    card_id=11581,
     title="Ikoma Akinari",
     force=3,
     chi=3,
@@ -35,7 +35,7 @@ Ikoma_Akinari = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Ikoma_Genichi = Personality(
-    id=11582,
+    card_id=11582,
     title="Ikoma Genichi",
     force=2,
     chi=2,
@@ -49,7 +49,7 @@ Ikoma_Genichi = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kitsu_Junsuke = Personality(
-    id=11583,
+    card_id=11583,
     title="Kitsu Junsuke",
     force=1,
     chi=4,
@@ -63,7 +63,7 @@ Kitsu_Junsuke = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kitsu_Watanabe = Personality(
-    id=11584,
+    card_id=11584,
     title="Kitsu Watanabe",
     force=1,
     chi=3,
@@ -77,7 +77,7 @@ Kitsu_Watanabe = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Matsu_Rishou = Personality(
-    id=11585,
+    card_id=11585,
     title="Matsu Rishou",
     force=4,
     chi=1,

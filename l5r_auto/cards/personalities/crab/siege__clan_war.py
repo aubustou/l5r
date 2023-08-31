@@ -18,7 +18,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Hida_Yakamo_Seven_Thunder_Experienced_2CW = Personality(
-    id=12640,
+    card_id=12640,
     title="Hida Yakamo, Seven Thunder",
     force=6,
     chi=4,

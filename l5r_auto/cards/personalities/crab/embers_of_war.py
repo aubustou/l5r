@@ -12,7 +12,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Hiruma_Moritoki = Personality(
-    id=3307,
+    card_id=3307,
     title="Hiruma Moritoki",
     force=4,
     chi=3,
@@ -32,7 +32,7 @@ Hiruma_Moritoki = Personality(
     ],
 )
 Yasuki_Makoto = Personality(
-    id=9449,
+    card_id=9449,
     title="Yasuki Makoto",
     force=2,
     chi=3,

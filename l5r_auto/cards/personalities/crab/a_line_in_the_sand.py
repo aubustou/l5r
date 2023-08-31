@@ -24,7 +24,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Hida_Kozan_Voice_of_the_Empress = Personality(
-    id=11562,
+    card_id=11562,
     title="Hida Kozan, Voice of the Empress",
     force=3,
     chi=3,
@@ -47,7 +47,7 @@ Hida_Kozan_Voice_of_the_Empress = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Hida_Kurima = Personality(
-    id=11563,
+    card_id=11563,
     title="Hida Kurima",
     force=5,
     chi=2,
@@ -61,7 +61,7 @@ Hida_Kurima = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Hiruma_Daizen = Personality(
-    id=11564,
+    card_id=11564,
     title="Hiruma Daizen",
     force=3,
     chi=1,
@@ -75,7 +75,7 @@ Hiruma_Daizen = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kuni_Araizen = Personality(
-    id=11565,
+    card_id=11565,
     title="Kuni Araizen",
     force=2,
     chi=3,
@@ -89,7 +89,7 @@ Kuni_Araizen = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yasuki_Hora = Personality(
-    id=11566,
+    card_id=11566,
     title="Yasuki Hora",
     force=0,
     chi=4,
@@ -103,7 +103,7 @@ Yasuki_Hora = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yasuki_Nakura = Personality(
-    id=11567,
+    card_id=11567,
     title="Yasuki Nakura",
     force=0,
     chi=2,

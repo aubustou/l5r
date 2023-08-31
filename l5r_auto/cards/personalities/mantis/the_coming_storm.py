@@ -21,7 +21,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Kitsune_Beiko = Personality(
-    id=11752,
+    card_id=11752,
     title="Kitsune Beiko",
     force=0,
     chi=1,
@@ -35,7 +35,7 @@ Kitsune_Beiko = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Moshi_Raiko = Personality(
-    id=11753,
+    card_id=11753,
     title="Moshi Raiko",
     force=2,
     chi=2,
@@ -49,7 +49,7 @@ Moshi_Raiko = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Tsuruchi_Hikari = Personality(
-    id=11754,
+    card_id=11754,
     title="Tsuruchi Hikari",
     force=2,
     chi=1,
@@ -63,7 +63,7 @@ Tsuruchi_Hikari = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Tsuruchi_Yashiro_Defender_of_the_Obsidian_Blades_Experienced = Personality(
-    id=11755,
+    card_id=11755,
     title="Tsuruchi Yashiro, Defender of the Obsidian Blades",
     force=3,
     chi=2,
@@ -77,7 +77,7 @@ Tsuruchi_Yashiro_Defender_of_the_Obsidian_Blades_Experienced = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yoritomo_Shotsuo = Personality(
-    id=11756,
+    card_id=11756,
     title="Yoritomo Shotsuo",
     force=3,
     chi=2,
@@ -91,7 +91,7 @@ Yoritomo_Shotsuo = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yoritomo_Yusuke = Personality(
-    id=11757,
+    card_id=11757,
     title="Yoritomo Yusuke",
     force=2,
     chi=2,

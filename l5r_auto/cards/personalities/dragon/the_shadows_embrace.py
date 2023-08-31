@@ -12,7 +12,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Togashi_Kasuru = Personality(
-    id=9821,
+    card_id=9821,
     title="Togashi Kasuru",
     force=3,
     chi=3,

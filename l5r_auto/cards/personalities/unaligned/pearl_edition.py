@@ -13,7 +13,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Ninja_Shapeshifter = Personality(
-    id=5579,
+    card_id=5579,
     title="Ninja Shapeshifter",
     force=2,
     chi=2,

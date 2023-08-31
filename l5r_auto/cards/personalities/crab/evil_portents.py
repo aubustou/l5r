@@ -23,7 +23,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Hida_Genda = Personality(
-    id=12440,
+    card_id=12440,
     title="Hida Genda",
     force=4,
     chi=2,
@@ -37,7 +37,7 @@ Hida_Genda = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kaiu_Eichi = Personality(
-    id=12441,
+    card_id=12441,
     title="Kaiu Eichi",
     force=3,
     chi=4,
@@ -51,7 +51,7 @@ Kaiu_Eichi = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kaiu_OTaro = Personality(
-    id=12442,
+    card_id=12442,
     title="Kaiu O-Taro",
     force=4,
     chi=2,
@@ -65,7 +65,7 @@ Kaiu_OTaro = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kuni_Hokinsha = Personality(
-    id=12443,
+    card_id=12443,
     title="Kuni Hokinsha",
     force=3,
     chi=2,
@@ -79,7 +79,7 @@ Kuni_Hokinsha = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kuni_Renyu_Experienced_4 = Personality(
-    id=12444,
+    card_id=12444,
     title="Kuni Renyu",
     force=5,
     chi=5,
@@ -103,7 +103,7 @@ Kuni_Renyu_Experienced_4 = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kuni_Tenba = Personality(
-    id=12445,
+    card_id=12445,
     title="Kuni Tenba",
     force=3,
     chi=3,

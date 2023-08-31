@@ -13,7 +13,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Komori_Taruko = Personality(
-    id=4537,
+    card_id=4537,
     title="Komori Taruko",
     force=3,
     chi=4,

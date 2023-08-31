@@ -13,7 +13,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Chaldera = Personality(
-    id=1289,
+    card_id=1289,
     title="Chaldera",
     force=4,
     chi=2,

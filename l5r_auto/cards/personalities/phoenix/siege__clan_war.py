@@ -17,7 +17,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Isawa_Tadaka_Seven_Thunder_Experienced_2CW = Personality(
-    id=12646,
+    card_id=12646,
     title="Isawa Tadaka, Seven Thunder",
     force=4,
     chi=5,

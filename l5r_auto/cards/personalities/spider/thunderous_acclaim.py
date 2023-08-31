@@ -29,7 +29,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Chuda_Teraiko = Personality(
-    id=12326,
+    card_id=12326,
     title="Chuda Teraiko",
     force=2,
     chi=3,
@@ -43,7 +43,7 @@ Chuda_Teraiko = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Daigotsu_Kanpeki_Unleashed_Experienced_4 = Personality(
-    id=12327,
+    card_id=12327,
     title="Daigotsu Kanpeki, Unleashed",
     force=7,
     chi=5,
@@ -68,7 +68,7 @@ Daigotsu_Kanpeki_Unleashed_Experienced_4 = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Daigotsu_Onita = Personality(
-    id=12328,
+    card_id=12328,
     title="Daigotsu Onita",
     force=1,
     chi=3,
@@ -82,7 +82,7 @@ Daigotsu_Onita = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Daigotsu_Tomiyama = Personality(
-    id=12329,
+    card_id=12329,
     title="Daigotsu Tomiyama",
     force=3,
     chi=3,
@@ -96,7 +96,7 @@ Daigotsu_Tomiyama = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Goju_Kenteiru = Personality(
-    id=12330,
+    card_id=12330,
     title="Goju Kenteiru",
     force=3,
     chi=2,
@@ -110,7 +110,7 @@ Goju_Kenteiru = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Ninube_Aitso = Personality(
-    id=12331,
+    card_id=12331,
     title="Ninube Aitso",
     force=2,
     chi=3,

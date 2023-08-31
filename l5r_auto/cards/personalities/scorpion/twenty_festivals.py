@@ -25,7 +25,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Bayushi_Junko = Personality(
-    id=12151,
+    card_id=12151,
     title="Bayushi Junko",
     force=0,
     chi=4,
@@ -39,7 +39,7 @@ Bayushi_Junko = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Bayushi_Katsue = Personality(
-    id=12152,
+    card_id=12152,
     title="Bayushi Katsue",
     force=3,
     chi=2,
@@ -53,7 +53,7 @@ Bayushi_Katsue = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Bayushi_Manora = Personality(
-    id=12153,
+    card_id=12153,
     title="Bayushi Manora",
     force=3,
     chi=3,
@@ -67,7 +67,7 @@ Bayushi_Manora = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Bayushi_Saikaku = Personality(
-    id=12154,
+    card_id=12154,
     title="Bayushi Saikaku",
     force=3,
     chi=2,
@@ -81,7 +81,7 @@ Bayushi_Saikaku = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Bayushi_Sunetsu = Personality(
-    id=12155,
+    card_id=12155,
     title="Bayushi Sunetsu",
     force=3,
     chi=3,
@@ -95,7 +95,7 @@ Bayushi_Sunetsu = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Bayushi_Toshimo_Experienced = Personality(
-    id=12156,
+    card_id=12156,
     title="Bayushi Toshimo",
     force=4,
     chi=3,
@@ -109,7 +109,7 @@ Bayushi_Toshimo_Experienced = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Shosuro_Longji = Personality(
-    id=12157,
+    card_id=12157,
     title="Shosuro Longji",
     force=2,
     chi=5,
@@ -123,7 +123,7 @@ Shosuro_Longji = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Shosuro_Saigyo = Personality(
-    id=12158,
+    card_id=12158,
     title="Shosuro Saigyo",
     force=2,
     chi=2,
@@ -137,7 +137,7 @@ Shosuro_Saigyo = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Shosuro_Sakura = Personality(
-    id=12159,
+    card_id=12159,
     title="Shosuro Sakura",
     force=3,
     chi=4,
@@ -151,7 +151,7 @@ Shosuro_Sakura = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Soshi_Rei = Personality(
-    id=12160,
+    card_id=12160,
     title="Soshi Rei",
     force=0,
     chi=3,

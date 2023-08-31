@@ -12,7 +12,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Isawa_Hibana = Personality(
-    id=10305,
+    card_id=10305,
     title="Isawa Hibana",
     force=3,
     chi=3,

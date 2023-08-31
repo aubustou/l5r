@@ -21,7 +21,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Hida_Kurabi = Personality(
-    id=10832,
+    card_id=10832,
     title="Hida Kurabi",
     force=3,
     chi=2,
@@ -42,7 +42,7 @@ Hida_Kurabi = Personality(
     ],
 )
 Kaiu_Gorobei = Personality(
-    id=10835,
+    card_id=10835,
     title="Kaiu Gorobei",
     force=3,
     chi=4,

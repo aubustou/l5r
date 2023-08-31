@@ -24,7 +24,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Daigotsu_Jemaru = Personality(
-    id=11604,
+    card_id=11604,
     title="Daigotsu Jemaru",
     force=4,
     chi=2,
@@ -38,7 +38,7 @@ Daigotsu_Jemaru = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Goju_Saido = Personality(
-    id=11605,
+    card_id=11605,
     title="Goju Saido",
     force=3,
     chi=2,
@@ -52,7 +52,7 @@ Goju_Saido = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Marimako = Personality(
-    id=11606,
+    card_id=11606,
     title="Marimako",
     force=3,
     chi=1,
@@ -66,7 +66,7 @@ Marimako = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Susumu_Jaru = Personality(
-    id=11607,
+    card_id=11607,
     title="Susumu Jaru",
     force=1,
     chi=1,
@@ -80,7 +80,7 @@ Susumu_Jaru = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Susumu_Tanjin = Personality(
-    id=11608,
+    card_id=11608,
     title="Susumu Tanjin",
     force=0,
     chi=2,
@@ -94,7 +94,7 @@ Susumu_Tanjin = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yasi = Personality(
-    id=11609,
+    card_id=11609,
     title="Yasi",
     force=4,
     chi=2,

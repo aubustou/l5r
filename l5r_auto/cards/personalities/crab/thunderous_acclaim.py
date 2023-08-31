@@ -17,7 +17,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Hida_Toranosuke_Experienced = Personality(
-    id=12284,
+    card_id=12284,
     title="Hida Toranosuke",
     force=4,
     chi=3,
@@ -31,7 +31,7 @@ Hida_Toranosuke_Experienced = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kaiu_Gizen = Personality(
-    id=12285,
+    card_id=12285,
     title="Kaiu Gizen",
     force=0,
     chi=3,
@@ -45,7 +45,7 @@ Kaiu_Gizen = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kaiu_Otogou = Personality(
-    id=12286,
+    card_id=12286,
     title="Kaiu Otogou",
     force=3,
     chi=3,
@@ -59,7 +59,7 @@ Kaiu_Otogou = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kuni_Igarasu = Personality(
-    id=12287,
+    card_id=12287,
     title="Kuni Igarasu",
     force=2,
     chi=2,
@@ -73,7 +73,7 @@ Kuni_Igarasu = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kuni_Soseki = Personality(
-    id=12288,
+    card_id=12288,
     title="Kuni Soseki",
     force=4,
     chi=3,
@@ -87,7 +87,7 @@ Kuni_Soseki = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Toritaka_Suppon = Personality(
-    id=12289,
+    card_id=12289,
     title="Toritaka Suppon",
     force=2,
     chi=2,

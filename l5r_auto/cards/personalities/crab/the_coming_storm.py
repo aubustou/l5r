@@ -23,7 +23,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Hida_Zaiberu = Personality(
-    id=11728,
+    card_id=11728,
     title="Hida Zaiberu",
     force=4,
     chi=3,
@@ -37,7 +37,7 @@ Hida_Zaiberu = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Hiruma_Maiko = Personality(
-    id=11729,
+    card_id=11729,
     title="Hiruma Maiko",
     force=2,
     chi=2,
@@ -51,7 +51,7 @@ Hiruma_Maiko = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kuni_Shinoda_Advisor_to_the_Jade_Champion_Experienced_2 = Personality(
-    id=11730,
+    card_id=11730,
     title="Kuni Shinoda, Advisor to the Jade Champion",
     force=3,
     chi=3,
@@ -75,7 +75,7 @@ Kuni_Shinoda_Advisor_to_the_Jade_Champion_Experienced_2 = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Toritaka_Isai = Personality(
-    id=11731,
+    card_id=11731,
     title="Toritaka Isai",
     force=3,
     chi=2,
@@ -89,7 +89,7 @@ Toritaka_Isai = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yasuki_Aitoko = Personality(
-    id=11732,
+    card_id=11732,
     title="Yasuki Aitoko",
     force=0,
     chi=3,
@@ -103,7 +103,7 @@ Yasuki_Aitoko = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yasuki_Shairei = Personality(
-    id=11733,
+    card_id=11733,
     title="Yasuki Shairei",
     force=0,
     chi=2,

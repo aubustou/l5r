@@ -12,7 +12,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Seasoned_Ronin = Personality(
-    id=6532,
+    card_id=6532,
     title="Seasoned Ronin",
     force=3,
     chi=3,
@@ -26,7 +26,7 @@ Seasoned_Ronin = Personality(
     legality=[TwentyFestivalsEdition, CelestialEdition, OnyxEdition, ModernEdition],
 )
 Tarui = Personality(
-    id=7821,
+    card_id=7821,
     title="Tarui",
     force=2,
     chi=3,

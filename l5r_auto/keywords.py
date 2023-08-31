@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from copy import copy
-from dataclasses import dataclass
+from dataclasses import dataclass, field, make_dataclass
 from typing import Type
 
 from .card import Keyword
@@ -113,9 +113,14 @@ def Experienced(level: str) -> Type[Keyword]:
     keyword. These may overlay a non-Experienced version as usual, but may not be
     overlaid by a higher level version.
     """
-    klass = copy(Keyword)
-    klass.name = f"Experienced {level}"
-    klass.level = level
+    klass = make_dataclass(
+        f"Experienced{level.replace(' ', '')}",
+        [
+            ("name", str, field(default=f"Experienced {level}")),
+            ("level", str, field(default=level)),
+        ],
+        bases=(Keyword,),
+    )
 
     return klass
 
@@ -987,4 +992,107 @@ class Zealot(Keyword):
 
 @dataclass(kw_only=True)
 class Zombie(Keyword):
+    pass
+
+
+# Holding keywords
+
+
+@dataclass(kw_only=True)
+class Barrack(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Barracks(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Castle(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Dojo(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Farm(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Fortification(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Fudo(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class GeishaHouse(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Library(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Market(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Mine(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Pearl(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class PearlBed(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Retainer(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class SakeHouse(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Stables(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Swamp(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Temple(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Village(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Winter(Keyword):
     pass

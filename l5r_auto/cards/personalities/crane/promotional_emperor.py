@@ -13,7 +13,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Kakita_Izumiko = Personality(
-    id=10576,
+    card_id=10576,
     title="Kakita Izumiko",
     force=2,
     chi=3,

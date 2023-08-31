@@ -25,7 +25,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Bayushi_Aggushi_Bayushi_Janqu = Personality(
-    id=11920,
+    card_id=11920,
     title="Bayushi Aggushi & Bayushi Janqu",
     force=4,
     chi=3,
@@ -39,7 +39,7 @@ Bayushi_Aggushi_Bayushi_Janqu = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Bayushi_Irezu_Experienced = Personality(
-    id=11921,
+    card_id=11921,
     title="Bayushi Irezu",
     force=2,
     chi=2,
@@ -53,7 +53,7 @@ Bayushi_Irezu_Experienced = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Bayushi_Iyashi_Lady_Sorrow = Personality(
-    id=11922,
+    card_id=11922,
     title="Bayushi Iyashi, Lady Sorrow",
     force=3,
     chi=2,
@@ -67,7 +67,7 @@ Bayushi_Iyashi_Lady_Sorrow = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shosuro_Yamazaki_the_Master_Courtier = Personality(
-    id=11923,
+    card_id=11923,
     title="Shosuro Yamazaki, the Master Courtier",
     force=0,
     chi=3,
@@ -81,7 +81,7 @@ Shosuro_Yamazaki_the_Master_Courtier = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yogo_Chijin = Personality(
-    id=11924,
+    card_id=11924,
     title="Yogo Chijin",
     force=0,
     chi=4,
@@ -95,7 +95,7 @@ Yogo_Chijin = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yogo_Gorobei = Personality(
-    id=11925,
+    card_id=11925,
     title="Yogo Gorobei",
     force=2,
     chi=2,

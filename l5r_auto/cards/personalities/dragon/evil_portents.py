@@ -20,7 +20,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Kitsuki_Goshi = Personality(
-    id=12452,
+    card_id=12452,
     title="Kitsuki Goshi",
     force=3,
     chi=3,
@@ -34,7 +34,7 @@ Kitsuki_Goshi = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kitsuki_Goto = Personality(
-    id=12453,
+    card_id=12453,
     title="Kitsuki Goto",
     force=0,
     chi=3,
@@ -48,7 +48,7 @@ Kitsuki_Goto = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Mirumoto_Konoe = Personality(
-    id=12454,
+    card_id=12454,
     title="Mirumoto Konoe",
     force=3,
     chi=3,
@@ -62,7 +62,7 @@ Mirumoto_Konoe = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Sannin = Personality(
-    id=12455,
+    card_id=12455,
     title="Sannin",
     force=3,
     chi=3,
@@ -76,7 +76,7 @@ Sannin = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Tamori_Daiishu_Experienced = Personality(
-    id=12456,
+    card_id=12456,
     title="Tamori Daiishu",
     force=3,
     chi=4,
@@ -90,7 +90,7 @@ Tamori_Daiishu_Experienced = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Tamori_Gaitsuru = Personality(
-    id=12457,
+    card_id=12457,
     title="Tamori Gaitsuru",
     force=2,
     chi=3,

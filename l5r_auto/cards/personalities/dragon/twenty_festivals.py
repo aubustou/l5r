@@ -27,7 +27,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Kitsuki_Einosuke = Personality(
-    id=12103,
+    card_id=12103,
     title="Kitsuki Einosuke",
     force=3,
     chi=2,
@@ -41,7 +41,7 @@ Kitsuki_Einosuke = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kitsuki_Goichi = Personality(
-    id=12104,
+    card_id=12104,
     title="Kitsuki Goichi",
     force=3,
     chi=4,
@@ -55,7 +55,7 @@ Kitsuki_Goichi = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kitsuki_Masamitsu = Personality(
-    id=12105,
+    card_id=12105,
     title="Kitsuki Masamitsu",
     force=2,
     chi=3,
@@ -69,7 +69,7 @@ Kitsuki_Masamitsu = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Mirumoto_Akifumi = Personality(
-    id=12106,
+    card_id=12106,
     title="Mirumoto Akifumi",
     force=3,
     chi=3,
@@ -83,7 +83,7 @@ Mirumoto_Akifumi = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Mirumoto_Eisuke = Personality(
-    id=12107,
+    card_id=12107,
     title="Mirumoto Eisuke",
     force=2,
     chi=4,
@@ -97,7 +97,7 @@ Mirumoto_Eisuke = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Mirumoto_Rikiya = Personality(
-    id=12108,
+    card_id=12108,
     title="Mirumoto Rikiya",
     force=3,
     chi=3,
@@ -111,7 +111,7 @@ Mirumoto_Rikiya = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Mirumoto_Tsuda_Emerald_Champion_Experienced = Personality(
-    id=12109,
+    card_id=12109,
     title="Mirumoto Tsuda, Emerald Champion",
     force=3,
     chi=5,
@@ -133,7 +133,7 @@ Mirumoto_Tsuda_Emerald_Champion_Experienced = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Tamori_Seiken_Experienced = Personality(
-    id=12110,
+    card_id=12110,
     title="Tamori Seiken",
     force=3,
     chi=3,
@@ -155,7 +155,7 @@ Tamori_Seiken_Experienced = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Tamori_Shoko = Personality(
-    id=12111,
+    card_id=12111,
     title="Tamori Shoko",
     force=2,
     chi=3,
@@ -169,7 +169,7 @@ Tamori_Shoko = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Tamori_Tsunemi = Personality(
-    id=12112,
+    card_id=12112,
     title="Tamori Tsunemi",
     force=3,
     chi=2,
@@ -183,7 +183,7 @@ Tamori_Tsunemi = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Togashi_Taiki = Personality(
-    id=12113,
+    card_id=12113,
     title="Togashi Taiki",
     force=2,
     chi=2,

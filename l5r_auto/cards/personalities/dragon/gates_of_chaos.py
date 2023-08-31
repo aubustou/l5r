@@ -13,7 +13,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Tamori_Jinai = Personality(
-    id=10633,
+    card_id=10633,
     title="Tamori Jinai",
     force=3,
     chi=4,

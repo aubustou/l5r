@@ -23,7 +23,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Isawa_Fujigawa = Personality(
-    id=11916,
+    card_id=11916,
     title="Isawa Fujigawa",
     force=3,
     chi=4,
@@ -37,7 +37,7 @@ Isawa_Fujigawa = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Isawa_Nomura = Personality(
-    id=11914,
+    card_id=11914,
     title="Isawa Nomura",
     force=2,
     chi=2,
@@ -51,7 +51,7 @@ Isawa_Nomura = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Isawa_Tenkawa_the_Scholar = Personality(
-    id=11915,
+    card_id=11915,
     title="Isawa Tenkawa, the Scholar",
     force=0,
     chi=5,
@@ -65,7 +65,7 @@ Isawa_Tenkawa_the_Scholar = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kyuji = Personality(
-    id=11917,
+    card_id=11917,
     title="Kyuji",
     force=3,
     chi=4,
@@ -79,7 +79,7 @@ Kyuji = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shiba_Kintaro_the_Remembered = Personality(
-    id=11919,
+    card_id=11919,
     title="Shiba Kintaro, the Remembered",
     force=2,
     chi=3,
@@ -93,7 +93,7 @@ Shiba_Kintaro_the_Remembered = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shiba_Koshiba = Personality(
-    id=11918,
+    card_id=11918,
     title="Shiba Koshiba",
     force=3,
     chi=2,

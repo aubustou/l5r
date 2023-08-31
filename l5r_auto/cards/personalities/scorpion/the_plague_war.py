@@ -13,7 +13,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Shosuro_Orikasa = Personality(
-    id=7149,
+    card_id=7149,
     title="Shosuro Orikasa",
     force=3,
     chi=3,
@@ -27,7 +27,7 @@ Shosuro_Orikasa = Personality(
     legality=[TwentyFestivalsEdition, CelestialEdition, OnyxEdition, ModernEdition],
 )
 Shosuro_Rokujo = Personality(
-    id=7155,
+    card_id=7155,
     title="Shosuro Rokujo",
     force=2,
     chi=3,

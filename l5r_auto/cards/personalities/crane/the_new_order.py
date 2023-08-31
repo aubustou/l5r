@@ -19,7 +19,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Daidoji_Nozomi = Personality(
-    id=11891,
+    card_id=11891,
     title="Daidoji Nozomi",
     force=3,
     chi=3,
@@ -33,7 +33,7 @@ Daidoji_Nozomi = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Daidoji_Tomomi = Personality(
-    id=11890,
+    card_id=11890,
     title="Daidoji Tomomi",
     force=4,
     chi=3,
@@ -47,7 +47,7 @@ Daidoji_Tomomi = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Daidoji_Yurei = Personality(
-    id=11895,
+    card_id=11895,
     title="Daidoji Yurei",
     force=2,
     chi=3,
@@ -61,7 +61,7 @@ Daidoji_Yurei = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Doji_Shimada = Personality(
-    id=11893,
+    card_id=11893,
     title="Doji Shimada",
     force=2,
     chi=3,
@@ -75,7 +75,7 @@ Doji_Shimada = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Doji_Takato_the_Manipulator = Personality(
-    id=11892,
+    card_id=11892,
     title="Doji Takato, the Manipulator",
     force=0,
     chi=4,
@@ -89,7 +89,7 @@ Doji_Takato_the_Manipulator = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kakita_Daitsu = Personality(
-    id=11894,
+    card_id=11894,
     title="Kakita Daitsu",
     force=3,
     chi=2,

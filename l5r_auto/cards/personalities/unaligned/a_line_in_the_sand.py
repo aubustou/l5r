@@ -15,7 +15,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Akenohoshi_the_Dancer = Personality(
-    id=11610,
+    card_id=11610,
     title="Akenohoshi, the Dancer",
     force=0,
     chi=2,
@@ -29,7 +29,7 @@ Akenohoshi_the_Dancer = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition],
 )
 Harukaze_the_Confidant = Personality(
-    id=11611,
+    card_id=11611,
     title="Harukaze, the Confidant",
     force=1,
     chi=3,
@@ -43,7 +43,7 @@ Harukaze_the_Confidant = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Momiji_the_Madam = Personality(
-    id=11612,
+    card_id=11612,
     title="Momiji, the Madam",
     force=1,
     chi=4,
@@ -57,7 +57,7 @@ Momiji_the_Madam = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Natsumi_the_Socialite = Personality(
-    id=11613,
+    card_id=11613,
     title="Natsumi, the Socialite",
     force=0,
     chi=3,
@@ -71,7 +71,7 @@ Natsumi_the_Socialite = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Oboro_the_Liar = Personality(
-    id=11614,
+    card_id=11614,
     title="Oboro, the Liar",
     force=0,
     chi=2,
@@ -85,7 +85,7 @@ Oboro_the_Liar = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Suzune_the_Coy = Personality(
-    id=11615,
+    card_id=11615,
     title="Suzune, the Coy",
     force=0,
     chi=2,

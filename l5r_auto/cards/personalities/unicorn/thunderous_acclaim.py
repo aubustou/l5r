@@ -17,7 +17,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Moto_Baatar = Personality(
-    id=12337,
+    card_id=12337,
     title="Moto Baatar",
     force=3,
     chi=2,
@@ -31,7 +31,7 @@ Moto_Baatar = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Shinjo_Chairei = Personality(
-    id=12338,
+    card_id=12338,
     title="Shinjo Chairei",
     force=2,
     chi=3,
@@ -45,7 +45,7 @@ Shinjo_Chairei = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Shinjo_Tsungmin = Personality(
-    id=12339,
+    card_id=12339,
     title="Shinjo Tsung-min",
     force=3,
     chi=1,
@@ -59,7 +59,7 @@ Shinjo_Tsungmin = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Utaku_Masako = Personality(
-    id=12340,
+    card_id=12340,
     title="Utaku Masako",
     force=2,
     chi=2,
@@ -73,7 +73,7 @@ Utaku_Masako = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Utaku_Sakiko_Experienced = Personality(
-    id=12341,
+    card_id=12341,
     title="Utaku Sakiko",
     force=3,
     chi=3,
@@ -95,7 +95,7 @@ Utaku_Sakiko_Experienced = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Utaku_Zo_Sia = Personality(
-    id=12342,
+    card_id=12342,
     title="Utaku Zo Sia",
     force=1,
     chi=2,

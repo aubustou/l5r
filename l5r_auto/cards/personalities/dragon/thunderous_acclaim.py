@@ -23,7 +23,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Kitsuki_Akito = Personality(
-    id=12296,
+    card_id=12296,
     title="Kitsuki Akito",
     force=1,
     chi=1,
@@ -37,7 +37,7 @@ Kitsuki_Akito = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kitsuki_Mizukabe = Personality(
-    id=12297,
+    card_id=12297,
     title="Kitsuki Mizukabe",
     force=3,
     chi=4,
@@ -51,7 +51,7 @@ Kitsuki_Mizukabe = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Mirumoto_Higaru_Experienced = Personality(
-    id=12298,
+    card_id=12298,
     title="Mirumoto Higaru",
     force=4,
     chi=3,
@@ -65,7 +65,7 @@ Mirumoto_Higaru_Experienced = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Tamori_Hirakura = Personality(
-    id=12299,
+    card_id=12299,
     title="Tamori Hirakura",
     force=3,
     chi=2,
@@ -79,7 +79,7 @@ Tamori_Hirakura = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Tamori_Mabasu = Personality(
-    id=12300,
+    card_id=12300,
     title="Tamori Mabasu",
     force=2,
     chi=2,
@@ -93,7 +93,7 @@ Tamori_Mabasu = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Togashi_Tameko = Personality(
-    id=12301,
+    card_id=12301,
     title="Togashi Tameko",
     force=0,
     chi=2,

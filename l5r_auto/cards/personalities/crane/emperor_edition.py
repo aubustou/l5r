@@ -12,7 +12,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Daidoji_Tametaka = Personality(
-    id=1682,
+    card_id=1682,
     title="Daidoji Tametaka",
     force=4,
     chi=3,

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import uuid
 from dataclasses import dataclass, field, fields
 from typing import Any, Type
 
@@ -27,7 +28,8 @@ class Trait(Action):
 
 @dataclass(kw_only=True)
 class Card:
-    id: int
+    card_id: int
+    id: uuid.UUID = field(default_factory=uuid.uuid4)
     title: str = field(metadata={"is_written": True})
 
     keywords: list[Type[Keyword]] = field(

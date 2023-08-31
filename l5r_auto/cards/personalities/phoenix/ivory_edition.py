@@ -32,7 +32,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Agasha_Kyokuta = Personality(
-    id=11198,
+    card_id=11198,
     title="Agasha Kyokuta",
     force=2,
     chi=4,
@@ -46,7 +46,7 @@ Agasha_Kyokuta = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition],
 )
 Asako_Sadaki = Personality(
-    id=11199,
+    card_id=11199,
     title="Asako Sadaki",
     force=4,
     chi=3,
@@ -60,7 +60,7 @@ Asako_Sadaki = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Isawa_Amihiko = Personality(
-    id=11200,
+    card_id=11200,
     title="Isawa Amihiko",
     force=3,
     chi=3,
@@ -74,7 +74,7 @@ Isawa_Amihiko = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Isawa_Kamiko = Personality(
-    id=11201,
+    card_id=11201,
     title="Isawa Kamiko",
     force=0,
     chi=3,
@@ -88,7 +88,7 @@ Isawa_Kamiko = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Isawa_Kosea = Personality(
-    id=11202,
+    card_id=11202,
     title="Isawa Kosea",
     force=3,
     chi=2,
@@ -102,7 +102,7 @@ Isawa_Kosea = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Isawa_Kouka = Personality(
-    id=11203,
+    card_id=11203,
     title="Isawa Kouka",
     force=2,
     chi=3,
@@ -116,7 +116,7 @@ Isawa_Kouka = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Isawa_Shunryu_the_Infinite_Eye = Personality(
-    id=11204,
+    card_id=11204,
     title="Isawa Shunryu, the Infinite Eye",
     force=2,
     chi=3,
@@ -130,7 +130,7 @@ Isawa_Shunryu_the_Infinite_Eye = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Isawa_Uzuyumi = Personality(
-    id=11205,
+    card_id=11205,
     title="Isawa Uzuyumi",
     force=1,
     chi=3,
@@ -144,7 +144,7 @@ Isawa_Uzuyumi = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition],
 )
 Shiba_Eraki = Personality(
-    id=11206,
+    card_id=11206,
     title="Shiba Eraki",
     force=2,
     chi=3,
@@ -158,7 +158,7 @@ Shiba_Eraki = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shiba_Michiki = Personality(
-    id=11207,
+    card_id=11207,
     title="Shiba Michiki",
     force=3,
     chi=3,
@@ -172,7 +172,7 @@ Shiba_Michiki = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shiba_Myoushi = Personality(
-    id=11208,
+    card_id=11208,
     title="Shiba Myoushi",
     force=2,
     chi=3,
@@ -186,7 +186,7 @@ Shiba_Myoushi = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shiba_Tsukimi_the_Blind_Phoenix_Experienced_5 = Personality(
-    id=11209,
+    card_id=11209,
     title="Shiba Tsukimi, the Blind Phoenix",
     force=4,
     chi=5,

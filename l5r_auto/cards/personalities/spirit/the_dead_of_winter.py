@@ -12,7 +12,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Karyuudo = Personality(
-    id=4284,
+    card_id=4284,
     title="Karyuudo",
     force=2,
     chi=3,

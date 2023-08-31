@@ -17,7 +17,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Mirumoto_Hitomi_Seven_Thunder_Experienced_2CW = Personality(
-    id=12642,
+    card_id=12642,
     title="Mirumoto Hitomi, Seven Thunder",
     force=5,
     chi=4,
@@ -31,7 +31,7 @@ Mirumoto_Hitomi_Seven_Thunder_Experienced_2CW = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Togashi_Yokuni_Kami_Experienced_2CW = Personality(
-    id=12643,
+    card_id=12643,
     title="Togashi Yokuni, Kami",
     force=6,
     chi=6,

@@ -21,7 +21,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Asako_Kazuki = Personality(
-    id=12314,
+    card_id=12314,
     title="Asako Kazuki",
     force=0,
     chi=1,
@@ -35,7 +35,7 @@ Asako_Kazuki = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Asako_Nashimoto = Personality(
-    id=12315,
+    card_id=12315,
     title="Asako Nashimoto",
     force=4,
     chi=3,
@@ -49,7 +49,7 @@ Asako_Nashimoto = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Isawa_Fujisawa = Personality(
-    id=12316,
+    card_id=12316,
     title="Isawa Fujisawa",
     force=2,
     chi=5,
@@ -63,7 +63,7 @@ Isawa_Fujisawa = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Isawa_Hibana_Experienced = Personality(
-    id=12317,
+    card_id=12317,
     title="Isawa Hibana",
     force=4,
     chi=4,
@@ -77,7 +77,7 @@ Isawa_Hibana_Experienced = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Isawa_Nobuo = Personality(
-    id=12318,
+    card_id=12318,
     title="Isawa Nobuo",
     force=2,
     chi=2,
@@ -91,7 +91,7 @@ Isawa_Nobuo = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Shiba_Hano = Personality(
-    id=12319,
+    card_id=12319,
     title="Shiba Hano",
     force=3,
     chi=2,

@@ -13,7 +13,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Sasada = Personality(
-    id=6476,
+    card_id=6476,
     title="Sasada",
     force=3,
     chi=2,

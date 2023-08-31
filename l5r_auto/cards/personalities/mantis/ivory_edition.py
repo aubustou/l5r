@@ -23,7 +23,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Kitsune_Parumba = Personality(
-    id=11188,
+    card_id=11188,
     title="Kitsune Parumba",
     force=0,
     chi=2,
@@ -37,7 +37,7 @@ Kitsune_Parumba = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Moshi_Madohime = Personality(
-    id=11189,
+    card_id=11189,
     title="Moshi Madohime",
     force=2,
     chi=2,
@@ -51,7 +51,7 @@ Moshi_Madohime = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Tsuruchi_Kaito = Personality(
-    id=11190,
+    card_id=11190,
     title="Tsuruchi Kaito",
     force=2,
     chi=2,
@@ -65,7 +65,7 @@ Tsuruchi_Kaito = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Tsuruchi_Natsuki = Personality(
-    id=11191,
+    card_id=11191,
     title="Tsuruchi Natsuki",
     force=4,
     chi=3,
@@ -79,7 +79,7 @@ Tsuruchi_Natsuki = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Tsuruchi_Rin = Personality(
-    id=11192,
+    card_id=11192,
     title="Tsuruchi Rin",
     force=2,
     chi=3,
@@ -93,7 +93,7 @@ Tsuruchi_Rin = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yoritomo_Hiromi_the_Growing_Storm_Experienced_2 = Personality(
-    id=11193,
+    card_id=11193,
     title="Yoritomo Hiromi, the Growing Storm",
     force=4,
     chi=5,
@@ -117,7 +117,7 @@ Yoritomo_Hiromi_the_Growing_Storm_Experienced_2 = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yoritomo_Ichido = Personality(
-    id=11194,
+    card_id=11194,
     title="Yoritomo Ichido",
     force=4,
     chi=3,
@@ -131,7 +131,7 @@ Yoritomo_Ichido = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yoritomo_Matsuo = Personality(
-    id=11195,
+    card_id=11195,
     title="Yoritomo Matsuo",
     force=3,
     chi=4,
@@ -145,7 +145,7 @@ Yoritomo_Matsuo = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yoritomo_Takuya = Personality(
-    id=11196,
+    card_id=11196,
     title="Yoritomo Takuya",
     force=3,
     chi=3,
@@ -159,7 +159,7 @@ Yoritomo_Takuya = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yoritomo_Teihiko = Personality(
-    id=11197,
+    card_id=11197,
     title="Yoritomo Teihiko",
     force=4,
     chi=2,

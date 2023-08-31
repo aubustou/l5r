@@ -19,7 +19,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Ide_Ryou = Personality(
-    id=11616,
+    card_id=11616,
     title="Ide Ryou",
     force=0,
     chi=4,
@@ -33,7 +33,7 @@ Ide_Ryou = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Iuchi_Kalsang = Personality(
-    id=11617,
+    card_id=11617,
     title="Iuchi Kalsang",
     force=3,
     chi=2,
@@ -47,7 +47,7 @@ Iuchi_Kalsang = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Moto_Alani = Personality(
-    id=11618,
+    card_id=11618,
     title="Moto Alani",
     force=3,
     chi=4,
@@ -61,7 +61,7 @@ Moto_Alani = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Moto_KyouakuInu = Personality(
-    id=11619,
+    card_id=11619,
     title="Moto Kyouaku-Inu",
     force=2,
     chi=3,
@@ -75,7 +75,7 @@ Moto_KyouakuInu = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shinjo_Shimikoto = Personality(
-    id=11620,
+    card_id=11620,
     title="Shinjo Shimikoto",
     force=3,
     chi=2,
@@ -89,7 +89,7 @@ Shinjo_Shimikoto = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Utaku_Kimiono = Personality(
-    id=11621,
+    card_id=11621,
     title="Utaku Kimiono",
     force=2,
     chi=3,

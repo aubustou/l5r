@@ -13,7 +13,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Suikotsu = Personality(
-    id=7617,
+    card_id=7617,
     title="Suikotsu",
     force=4,
     chi=2,

@@ -18,7 +18,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Dainiko = Personality(
-    id=11229,
+    card_id=11229,
     title="Dainiko",
     force=0,
     chi=3,
@@ -32,7 +32,7 @@ Dainiko = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Horobei = Personality(
-    id=11230,
+    card_id=11230,
     title="Horobei",
     force=2,
     chi=3,
@@ -46,7 +46,7 @@ Horobei = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Myuken = Personality(
-    id=11231,
+    card_id=11231,
     title="Myuken",
     force=3,
     chi=2,
@@ -60,7 +60,7 @@ Myuken = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yotsu_Shinzai = Personality(
-    id=11232,
+    card_id=11232,
     title="Yotsu Shinzai",
     force=1,
     chi=2,

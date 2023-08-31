@@ -24,7 +24,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Akodo_Eirasu = Personality(
-    id=12114,
+    card_id=12114,
     title="Akodo Eirasu",
     force=4,
     chi=3,
@@ -38,7 +38,7 @@ Akodo_Eirasu = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Akodo_Hio = Personality(
-    id=12115,
+    card_id=12115,
     title="Akodo Hio",
     force=3,
     chi=3,
@@ -52,7 +52,7 @@ Akodo_Hio = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Akodo_Kenaro_Experienced = Personality(
-    id=12116,
+    card_id=12116,
     title="Akodo Kenaro",
     force=3,
     chi=4,
@@ -66,7 +66,7 @@ Akodo_Kenaro_Experienced = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Akodo_Naikiru = Personality(
-    id=12117,
+    card_id=12117,
     title="Akodo Naikiru",
     force=3,
     chi=4,
@@ -80,7 +80,7 @@ Akodo_Naikiru = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Akodo_Shaido = Personality(
-    id=12118,
+    card_id=12118,
     title="Akodo Shaido",
     force=1,
     chi=3,
@@ -94,7 +94,7 @@ Akodo_Shaido = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Akodo_Taiketsu = Personality(
-    id=12119,
+    card_id=12119,
     title="Akodo Taiketsu",
     force=2,
     chi=4,
@@ -108,7 +108,7 @@ Akodo_Taiketsu = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Ikoma_Noritsu = Personality(
-    id=12120,
+    card_id=12120,
     title="Ikoma Noritsu",
     force=3,
     chi=3,
@@ -122,7 +122,7 @@ Ikoma_Noritsu = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Ikoma_Sairei = Personality(
-    id=12121,
+    card_id=12121,
     title="Ikoma Sairei",
     force=4,
     chi=3,
@@ -136,7 +136,7 @@ Ikoma_Sairei = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Matsu_Ataruko = Personality(
-    id=12122,
+    card_id=12122,
     title="Matsu Ataruko",
     force=3,
     chi=2,
@@ -150,7 +150,7 @@ Matsu_Ataruko = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Matsu_Chizuki = Personality(
-    id=12123,
+    card_id=12123,
     title="Matsu Chizuki",
     force=4,
     chi=3,
@@ -164,7 +164,7 @@ Matsu_Chizuki = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Matsu_Iairimi = Personality(
-    id=12124,
+    card_id=12124,
     title="Matsu Iairimi",
     force=3,
     chi=3,
@@ -178,7 +178,7 @@ Matsu_Iairimi = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Matsu_Karoko = Personality(
-    id=12125,
+    card_id=12125,
     title="Matsu Karoko",
     force=3,
     chi=2,
@@ -192,7 +192,7 @@ Matsu_Karoko = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Matsu_Keiasu = Personality(
-    id=12126,
+    card_id=12126,
     title="Matsu Keiasu",
     force=2,
     chi=2,
@@ -206,7 +206,7 @@ Matsu_Keiasu = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Matsu_Seijuko = Personality(
-    id=12127,
+    card_id=12127,
     title="Matsu Seijuko",
     force=3,
     chi=3,

@@ -21,7 +21,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Akuma_no_Obake = Personality(
-    id=12488,
+    card_id=12488,
     title="Akuma no Obake",
     force=4,
     chi=4,
@@ -35,7 +35,7 @@ Akuma_no_Obake = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Keisho = Personality(
-    id=12489,
+    card_id=12489,
     title="Keisho",
     force=3,
     chi=2,
@@ -49,7 +49,7 @@ Keisho = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Tetsuo_Experienced_2 = Personality(
-    id=12490,
+    card_id=12490,
     title="Tetsuo",
     force=4,
     chi=4,
@@ -63,7 +63,7 @@ Tetsuo_Experienced_2 = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 The_Crimson_Mountain_Oni = Personality(
-    id=12491,
+    card_id=12491,
     title="The Crimson Mountain Oni",
     force=7,
     chi=6,
@@ -77,7 +77,7 @@ The_Crimson_Mountain_Oni = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Umikaiju = Personality(
-    id=12492,
+    card_id=12492,
     title="Umikaiju",
     force=3,
     chi=2,

@@ -13,7 +13,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Noekam = Personality(
-    id=5611,
+    card_id=5611,
     title="Noekam",
     force=4,
     chi=3,

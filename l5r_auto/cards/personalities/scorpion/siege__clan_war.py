@@ -15,7 +15,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Bayushi_Kachiko_Seven_Thunder_Experienced_2CW = Personality(
-    id=12647,
+    card_id=12647,
     title="Bayushi Kachiko, Seven Thunder",
     force=1,
     chi=3,

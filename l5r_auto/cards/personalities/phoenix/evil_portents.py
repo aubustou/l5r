@@ -25,7 +25,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Agasha_Dorai = Personality(
-    id=12470,
+    card_id=12470,
     title="Agasha Dorai",
     force=2,
     chi=3,
@@ -39,7 +39,7 @@ Agasha_Dorai = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Asako_Misai = Personality(
-    id=12471,
+    card_id=12471,
     title="Asako Misai",
     force=2,
     chi=4,
@@ -53,7 +53,7 @@ Asako_Misai = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Isawa_Bikaru = Personality(
-    id=12472,
+    card_id=12472,
     title="Isawa Bikaru",
     force=4,
     chi=4,
@@ -67,7 +67,7 @@ Isawa_Bikaru = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Isawa_Hokaiko = Personality(
-    id=12473,
+    card_id=12473,
     title="Isawa Hokaiko",
     force=3,
     chi=3,
@@ -81,7 +81,7 @@ Isawa_Hokaiko = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Isawa_Norimichi_Elemental_Master_Experienced_2 = Personality(
-    id=12474,
+    card_id=12474,
     title="Isawa Norimichi, Elemental Master",
     force=5,
     chi=5,
@@ -95,7 +95,7 @@ Isawa_Norimichi_Elemental_Master_Experienced_2 = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Shiba_Kakei_Experienced = Personality(
-    id=12475,
+    card_id=12475,
     title="Shiba Kakei",
     force=3,
     chi=3,

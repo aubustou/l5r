@@ -27,7 +27,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Air_Dragon_Experienced_3 = Personality(
-    id=12171,
+    card_id=12171,
     title="Air Dragon",
     force=7,
     chi=5,
@@ -41,7 +41,7 @@ Air_Dragon_Experienced_3 = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Earth_Dragon_Experienced_2 = Personality(
-    id=12172,
+    card_id=12172,
     title="Earth Dragon",
     force=7,
     chi=5,
@@ -55,7 +55,7 @@ Earth_Dragon_Experienced_2 = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Fire_Dragon_Experienced_3 = Personality(
-    id=12173,
+    card_id=12173,
     title="Fire Dragon",
     force=7,
     chi=5,
@@ -69,7 +69,7 @@ Fire_Dragon_Experienced_3 = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Haikitsu = Personality(
-    id=12174,
+    card_id=12174,
     title="Haikitsu",
     force=3,
     chi=3,
@@ -83,7 +83,7 @@ Haikitsu = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kungan = Personality(
-    id=12175,
+    card_id=12175,
     title="Kung-an",
     force=3,
     chi=3,
@@ -97,7 +97,7 @@ Kungan = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Moto_Daigoro = Personality(
-    id=12176,
+    card_id=12176,
     title="Moto Daigoro",
     force=4,
     chi=4,
@@ -111,7 +111,7 @@ Moto_Daigoro = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Otomo_Terumoto = Personality(
-    id=12177,
+    card_id=12177,
     title="Otomo Terumoto",
     force=0,
     chi=2,
@@ -125,7 +125,7 @@ Otomo_Terumoto = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Tonbo_Jairyu = Personality(
-    id=12178,
+    card_id=12178,
     title="Tonbo Jairyu",
     force=3,
     chi=3,
@@ -139,7 +139,7 @@ Tonbo_Jairyu = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Void_Dragon_Experienced_3 = Personality(
-    id=12179,
+    card_id=12179,
     title="Void Dragon",
     force=7,
     chi=5,
@@ -153,7 +153,7 @@ Void_Dragon_Experienced_3 = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Water_Dragon_Experienced_3 = Personality(
-    id=12180,
+    card_id=12180,
     title="Water Dragon",
     force=7,
     chi=5,

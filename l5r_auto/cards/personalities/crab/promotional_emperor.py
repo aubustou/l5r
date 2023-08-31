@@ -13,7 +13,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Hida_Iguchi = Personality(
-    id=10575,
+    card_id=10575,
     title="Hida Iguchi",
     force=3,
     chi=1,

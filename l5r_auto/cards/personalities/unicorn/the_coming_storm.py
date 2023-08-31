@@ -17,7 +17,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Ide_Aragaki = Personality(
-    id=11781,
+    card_id=11781,
     title="Ide Aragaki",
     force=1,
     chi=2,
@@ -31,7 +31,7 @@ Ide_Aragaki = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Ide_Kosaka = Personality(
-    id=11782,
+    card_id=11782,
     title="Ide Kosaka",
     force=2,
     chi=2,
@@ -45,7 +45,7 @@ Ide_Kosaka = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Moto_Erdene = Personality(
-    id=11783,
+    card_id=11783,
     title="Moto Erdene",
     force=2,
     chi=1,
@@ -59,7 +59,7 @@ Moto_Erdene = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Moto_Qorin = Personality(
-    id=11784,
+    card_id=11784,
     title="Moto Qorin",
     force=3,
     chi=3,
@@ -73,7 +73,7 @@ Moto_Qorin = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shinjo_Ajasu_Topaz_Champion = Personality(
-    id=11785,
+    card_id=11785,
     title="Shinjo Ajasu, Topaz Champion",
     force=2,
     chi=2,
@@ -87,7 +87,7 @@ Shinjo_Ajasu_Topaz_Champion = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Utaku_Saiken = Personality(
-    id=11786,
+    card_id=11786,
     title="Utaku Saiken",
     force=0,
     chi=2,

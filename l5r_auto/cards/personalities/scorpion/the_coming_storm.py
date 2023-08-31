@@ -19,7 +19,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Bayushi_Akagi = Personality(
-    id=11764,
+    card_id=11764,
     title="Bayushi Akagi",
     force=3,
     chi=3,
@@ -33,7 +33,7 @@ Bayushi_Akagi = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Bayushi_Fuyuko = Personality(
-    id=11765,
+    card_id=11765,
     title="Bayushi Fuyuko",
     force=1,
     chi=3,
@@ -47,7 +47,7 @@ Bayushi_Fuyuko = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Bayushi_JinnJa = Personality(
-    id=11766,
+    card_id=11766,
     title="Bayushi Jinn-Ja",
     force=0,
     chi=3,
@@ -61,7 +61,7 @@ Bayushi_JinnJa = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Bayushi_Kotomuri = Personality(
-    id=11767,
+    card_id=11767,
     title="Bayushi Kotomuri",
     force=3,
     chi=2,
@@ -75,7 +75,7 @@ Bayushi_Kotomuri = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shosuro_Kayo = Personality(
-    id=11768,
+    card_id=11768,
     title="Shosuro Kayo",
     force=2,
     chi=2,
@@ -89,7 +89,7 @@ Shosuro_Kayo = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shosuro_Sadao = Personality(
-    id=11769,
+    card_id=11769,
     title="Shosuro Sadao",
     force=2,
     chi=2,

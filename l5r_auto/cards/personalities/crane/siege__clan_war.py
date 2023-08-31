@@ -7,7 +7,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Doji_Hoturi_Seven_Thunder_Experienced_2CW = Personality(
-    id=12641,
+    card_id=12641,
     title="Doji Hoturi, Seven Thunder",
     force=5,
     chi=6,

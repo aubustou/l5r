@@ -13,7 +13,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Togashi_Korimi = Personality(
-    id=8545,
+    card_id=8545,
     title="Togashi Korimi",
     force=3,
     chi=3,
@@ -33,7 +33,7 @@ Togashi_Korimi = Personality(
     ],
 )
 Togashi_Tsukagi = Personality(
-    id=8591,
+    card_id=8591,
     title="Togashi Tsukagi",
     force=4,
     chi=4,

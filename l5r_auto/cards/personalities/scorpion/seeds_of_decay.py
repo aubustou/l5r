@@ -12,7 +12,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Soshi_Kodanshi = Personality(
-    id=10082,
+    card_id=10082,
     title="Soshi Kodanshi",
     force=4,
     chi=3,

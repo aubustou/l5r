@@ -23,7 +23,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Hida_Ayameko = Personality(
-    id=11884,
+    card_id=11884,
     title="Hida Ayameko",
     force=3,
     chi=3,
@@ -37,7 +37,7 @@ Hida_Ayameko = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Hida_Kenjiro = Personality(
-    id=11888,
+    card_id=11888,
     title="Hida Kenjiro",
     force=3,
     chi=2,
@@ -51,7 +51,7 @@ Hida_Kenjiro = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Hida_OWin = Personality(
-    id=11885,
+    card_id=11885,
     title="Hida O-Win",
     force=3,
     chi=3,
@@ -65,7 +65,7 @@ Hida_OWin = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Hiruma_Toshi = Personality(
-    id=11886,
+    card_id=11886,
     title="Hiruma Toshi",
     force=2,
     chi=3,
@@ -79,7 +79,7 @@ Hiruma_Toshi = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kaiu_Akemi_the_Diplomat = Personality(
-    id=11887,
+    card_id=11887,
     title="Kaiu Akemi, the Diplomat",
     force=3,
     chi=2,
@@ -93,7 +93,7 @@ Kaiu_Akemi_the_Diplomat = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yasuki_Makoto_Imperial_Advisor_Experienced = Personality(
-    id=11889,
+    card_id=11889,
     title="Yasuki Makoto, Imperial Advisor",
     force=2,
     chi=3,

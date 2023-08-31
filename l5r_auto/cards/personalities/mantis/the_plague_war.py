@@ -12,7 +12,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Sarassa = Personality(
-    id=6475,
+    card_id=6475,
     title="Sarassa",
     force=4,
     chi=3,

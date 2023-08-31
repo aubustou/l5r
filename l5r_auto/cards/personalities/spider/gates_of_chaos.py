@@ -21,7 +21,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Daigotsu_Ryuko = Personality(
-    id=10660,
+    card_id=10660,
     title="Daigotsu Ryuko",
     force=3,
     chi=2,
@@ -42,7 +42,7 @@ Daigotsu_Ryuko = Personality(
     ],
 )
 Laoshe = Personality(
-    id=10663,
+    card_id=10663,
     title="Lao-she",
     force=2,
     chi=2,

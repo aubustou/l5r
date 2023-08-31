@@ -13,7 +13,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Ratling_Raider = Personality(
-    id=6175,
+    card_id=6175,
     title="Ratling Raider",
     force=2,
     chi=2,

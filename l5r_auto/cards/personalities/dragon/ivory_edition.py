@@ -24,7 +24,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Mirumoto_Higaru = Personality(
-    id=11166,
+    card_id=11166,
     title="Mirumoto Higaru",
     force=3,
     chi=3,
@@ -38,7 +38,7 @@ Mirumoto_Higaru = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Mirumoto_Hikuryo = Personality(
-    id=11167,
+    card_id=11167,
     title="Mirumoto Hikuryo",
     force=3,
     chi=3,
@@ -52,7 +52,7 @@ Mirumoto_Hikuryo = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Mirumoto_Niwa = Personality(
-    id=11168,
+    card_id=11168,
     title="Mirumoto Niwa",
     force=2,
     chi=4,
@@ -66,7 +66,7 @@ Mirumoto_Niwa = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Mirumoto_Nokkai = Personality(
-    id=11169,
+    card_id=11169,
     title="Mirumoto Nokkai",
     force=2,
     chi=4,
@@ -80,7 +80,7 @@ Mirumoto_Nokkai = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Mirumoto_Shikei_the_Laughing_Dragon_Experienced = Personality(
-    id=11170,
+    card_id=11170,
     title="Mirumoto Shikei, the Laughing Dragon",
     force=4,
     chi=5,
@@ -106,7 +106,7 @@ Mirumoto_Shikei_the_Laughing_Dragon_Experienced = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Mirumoto_Tsukazu = Personality(
-    id=11171,
+    card_id=11171,
     title="Mirumoto Tsukazu",
     force=3,
     chi=3,
@@ -120,7 +120,7 @@ Mirumoto_Tsukazu = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Mirumoto_Yasushi = Personality(
-    id=11172,
+    card_id=11172,
     title="Mirumoto Yasushi",
     force=4,
     chi=4,
@@ -134,7 +134,7 @@ Mirumoto_Yasushi = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Tamori_Katsumi = Personality(
-    id=11173,
+    card_id=11173,
     title="Tamori Katsumi",
     force=3,
     chi=3,
@@ -148,7 +148,7 @@ Tamori_Katsumi = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Tamori_Shaisen = Personality(
-    id=11175,
+    card_id=11175,
     title="Tamori Shaisen",
     force=3,
     chi=4,
@@ -162,7 +162,7 @@ Tamori_Shaisen = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Togashi_Ango = Personality(
-    id=11176,
+    card_id=11176,
     title="Togashi Ango",
     force=1,
     chi=1,
@@ -176,7 +176,7 @@ Togashi_Ango = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Togashi_Ogure = Personality(
-    id=11177,
+    card_id=11177,
     title="Togashi Ogure",
     force=3,
     chi=4,

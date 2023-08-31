@@ -13,7 +13,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Matsu_Misato = Personality(
-    id=4956,
+    card_id=4956,
     title="Matsu Misato",
     force=3,
     chi=3,

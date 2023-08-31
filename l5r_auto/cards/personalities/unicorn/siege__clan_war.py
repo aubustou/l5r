@@ -16,7 +16,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Otaku_Kamoko_Seven_Thunder_Experienced_2CW = Personality(
-    id=12649,
+    card_id=12649,
     title="Otaku Kamoko, Seven Thunder",
     force=5,
     chi=4,

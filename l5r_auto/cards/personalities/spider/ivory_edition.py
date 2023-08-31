@@ -23,7 +23,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Daigotsu_Geiko = Personality(
-    id=11220,
+    card_id=11220,
     title="Daigotsu Geiko",
     force=4,
     chi=3,
@@ -37,7 +37,7 @@ Daigotsu_Geiko = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Daigotsu_Kanpeki_the_Shadow_Emperor_Experienced_3 = Personality(
-    id=11221,
+    card_id=11221,
     title="Daigotsu Kanpeki, the Shadow Emperor",
     force=6,
     chi=5,
@@ -62,7 +62,7 @@ Daigotsu_Kanpeki_the_Shadow_Emperor_Experienced_3 = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Daigotsu_Konishi = Personality(
-    id=11222,
+    card_id=11222,
     title="Daigotsu Konishi",
     force=3,
     chi=2,
@@ -76,7 +76,7 @@ Daigotsu_Konishi = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Daigotsu_Onosaka = Personality(
-    id=11223,
+    card_id=11223,
     title="Daigotsu Onosaka",
     force=2,
     chi=3,
@@ -90,7 +90,7 @@ Daigotsu_Onosaka = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Daigotsu_Roburo = Personality(
-    id=11224,
+    card_id=11224,
     title="Daigotsu Roburo",
     force=4,
     chi=3,
@@ -104,7 +104,7 @@ Daigotsu_Roburo = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Hiyamako = Personality(
-    id=11225,
+    card_id=11225,
     title="Hiyamako",
     force=2,
     chi=2,
@@ -118,7 +118,7 @@ Hiyamako = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Susumu_Neya = Personality(
-    id=11226,
+    card_id=11226,
     title="Susumu Neya",
     force=1,
     chi=3,
@@ -132,7 +132,7 @@ Susumu_Neya = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Susumu_Yanada = Personality(
-    id=11227,
+    card_id=11227,
     title="Susumu Yanada",
     force=0,
     chi=1,
@@ -146,7 +146,7 @@ Susumu_Yanada = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Tairao = Personality(
-    id=11228,
+    card_id=11228,
     title="Tairao",
     force=3,
     chi=3,

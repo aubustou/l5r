@@ -23,7 +23,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Aikiren = Personality(
-    id=11776,
+    card_id=11776,
     title="Aikiren",
     force=0,
     chi=1,
@@ -37,7 +37,7 @@ Aikiren = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition],
 )
 Oneiyara = Personality(
-    id=11777,
+    card_id=11777,
     title="Oneiyara",
     force=3,
     chi=3,
@@ -51,7 +51,7 @@ Oneiyara = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Patairaku_no_Oni = Personality(
-    id=11778,
+    card_id=11778,
     title="Patairaku no Oni",
     force=5,
     chi=3,
@@ -65,7 +65,7 @@ Patairaku_no_Oni = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Seppun_Teshan = Personality(
-    id=11779,
+    card_id=11779,
     title="Seppun Teshan",
     force=1,
     chi=3,
@@ -79,7 +79,7 @@ Seppun_Teshan = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Zenathaar = Personality(
-    id=11780,
+    card_id=11780,
     title="Zenathaar",
     force=3,
     chi=3,

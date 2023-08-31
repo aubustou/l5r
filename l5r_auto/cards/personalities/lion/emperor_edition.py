@@ -12,7 +12,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Ikoma_Shika = Personality(
-    id=3636,
+    card_id=3636,
     title="Ikoma Shika",
     force=2,
     chi=2,
@@ -32,7 +32,7 @@ Ikoma_Shika = Personality(
     ],
 )
 Kitsu_Suki = Personality(
-    id=4396,
+    card_id=4396,
     title="Kitsu Suki",
     force=0,
     chi=4,

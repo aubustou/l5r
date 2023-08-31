@@ -30,7 +30,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Daigotsu_Atsushi_Experienced = Personality(
-    id=12161,
+    card_id=12161,
     title="Daigotsu Atsushi",
     force=4,
     chi=4,
@@ -44,7 +44,7 @@ Daigotsu_Atsushi_Experienced = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Daigotsu_Hachiko = Personality(
-    id=12162,
+    card_id=12162,
     title="Daigotsu Hachiko",
     force=3,
     chi=4,
@@ -58,7 +58,7 @@ Daigotsu_Hachiko = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Daigotsu_Hayigi = Personality(
-    id=12163,
+    card_id=12163,
     title="Daigotsu Hayigi",
     force=3,
     chi=4,
@@ -72,7 +72,7 @@ Daigotsu_Hayigi = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Daigotsu_Shaoru = Personality(
-    id=12164,
+    card_id=12164,
     title="Daigotsu Shaoru",
     force=3,
     chi=3,
@@ -86,7 +86,7 @@ Daigotsu_Shaoru = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Goju_Kumoru = Personality(
-    id=12165,
+    card_id=12165,
     title="Goju Kumoru",
     force=3,
     chi=3,
@@ -100,7 +100,7 @@ Goju_Kumoru = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Goju_Mitsuru = Personality(
-    id=12166,
+    card_id=12166,
     title="Goju Mitsuru",
     force=2,
     chi=2,
@@ -114,7 +114,7 @@ Goju_Mitsuru = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Goju_Yurishi_Experienced_2 = Personality(
-    id=12167,
+    card_id=12167,
     title="Goju Yurishi",
     force=4,
     chi=4,
@@ -128,7 +128,7 @@ Goju_Yurishi_Experienced_2 = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kokujin_Gunjao = Personality(
-    id=12168,
+    card_id=12168,
     title="Kokujin Gunjao",
     force=2,
     chi=2,
@@ -142,7 +142,7 @@ Kokujin_Gunjao = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Naibu = Personality(
-    id=12169,
+    card_id=12169,
     title="Naibu",
     force=3,
     chi=3,
@@ -156,7 +156,7 @@ Naibu = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 The_Twisted_One = Personality(
-    id=12170,
+    card_id=12170,
     title="The Twisted One",
     force=3,
     chi=3,

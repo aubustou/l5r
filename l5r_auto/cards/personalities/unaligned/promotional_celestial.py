@@ -12,7 +12,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Enomoto = Personality(
-    id=2348,
+    card_id=2348,
     title="Enomoto",
     force=3,
     chi=2,

@@ -15,7 +15,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Toturi_Seven_Thunder_Experienced_2CW = Personality(
-    id=12644,
+    card_id=12644,
     title="Toturi, Seven Thunder",
     force=6,
     chi=5,

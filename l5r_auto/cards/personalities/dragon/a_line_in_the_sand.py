@@ -21,7 +21,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Mirumoto_Futoro = Personality(
-    id=11574,
+    card_id=11574,
     title="Mirumoto Futoro",
     force=2,
     chi=2,
@@ -35,7 +35,7 @@ Mirumoto_Futoro = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Mirumoto_Jaikei = Personality(
-    id=11575,
+    card_id=11575,
     title="Mirumoto Jaikei",
     force=3,
     chi=1,
@@ -49,7 +49,7 @@ Mirumoto_Jaikei = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Mirumoto_Saiko = Personality(
-    id=11576,
+    card_id=11576,
     title="Mirumoto Saiko",
     force=2,
     chi=3,
@@ -63,7 +63,7 @@ Mirumoto_Saiko = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Tamori_Ginrao = Personality(
-    id=11577,
+    card_id=11577,
     title="Tamori Ginrao",
     force=2,
     chi=3,
@@ -77,7 +77,7 @@ Tamori_Ginrao = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Tamori_Wataru = Personality(
-    id=11578,
+    card_id=11578,
     title="Tamori Wataru",
     force=1,
     chi=5,
@@ -91,7 +91,7 @@ Tamori_Wataru = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Togashi_Shao = Personality(
-    id=11579,
+    card_id=11579,
     title="Togashi Shao",
     force=2,
     chi=4,

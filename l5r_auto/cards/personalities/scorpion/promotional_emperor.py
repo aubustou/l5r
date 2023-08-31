@@ -13,7 +13,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Bayushi_Aibako = Personality(
-    id=10581,
+    card_id=10581,
     title="Bayushi Aibako",
     force=3,
     chi=3,

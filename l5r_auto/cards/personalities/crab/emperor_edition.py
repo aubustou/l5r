@@ -12,7 +12,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Yasuki_Tono = Personality(
-    id=9467,
+    card_id=9467,
     title="Yasuki Tono",
     force=0,
     chi=3,

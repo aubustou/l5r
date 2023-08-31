@@ -12,7 +12,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Otomo_Demiyah = Personality(
-    id=5812,
+    card_id=5812,
     title="Otomo Demiyah",
     force=2,
     chi=3,

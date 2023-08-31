@@ -31,7 +31,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Ide_Kotono = Personality(
-    id=11233,
+    card_id=11233,
     title="Ide Kotono",
     force=3,
     chi=3,
@@ -45,7 +45,7 @@ Ide_Kotono = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Ide_Okinomi = Personality(
-    id=11234,
+    card_id=11234,
     title="Ide Okinomi",
     force=0,
     chi=3,
@@ -59,7 +59,7 @@ Ide_Okinomi = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Iuchi_Chiwa = Personality(
-    id=11235,
+    card_id=11235,
     title="Iuchi Chiwa",
     force=1,
     chi=3,
@@ -73,7 +73,7 @@ Iuchi_Chiwa = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Iuchi_Honma = Personality(
-    id=11236,
+    card_id=11236,
     title="Iuchi Honma",
     force=4,
     chi=3,
@@ -87,7 +87,7 @@ Iuchi_Honma = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Moto_Alagh = Personality(
-    id=11237,
+    card_id=11237,
     title="Moto Alagh",
     force=4,
     chi=2,
@@ -101,7 +101,7 @@ Moto_Alagh = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Moto_Chinua = Personality(
-    id=11238,
+    card_id=11238,
     title="Moto Chinua",
     force=2,
     chi=3,
@@ -115,7 +115,7 @@ Moto_Chinua = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Moto_Naleesh_the_Living_Goddess_Experienced = Personality(
-    id=11239,
+    card_id=11239,
     title="Moto Naleesh, the Living Goddess",
     force=4,
     chi=5,
@@ -142,7 +142,7 @@ Moto_Naleesh_the_Living_Goddess_Experienced = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Moto_Okano = Personality(
-    id=11240,
+    card_id=11240,
     title="Moto Okano",
     force=3,
     chi=3,
@@ -156,7 +156,7 @@ Moto_Okano = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Moto_Ulagan = Personality(
-    id=11241,
+    card_id=11241,
     title="Moto Ulagan",
     force=2,
     chi=4,
@@ -170,7 +170,7 @@ Moto_Ulagan = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shinjo_Okiau = Personality(
-    id=11242,
+    card_id=11242,
     title="Shinjo Okiau",
     force=3,
     chi=2,
@@ -184,7 +184,7 @@ Shinjo_Okiau = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shinjo_Tobita = Personality(
-    id=11243,
+    card_id=11243,
     title="Shinjo Tobita",
     force=4,
     chi=3,
@@ -198,7 +198,7 @@ Shinjo_Tobita = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Utaku_HyoYeon = Personality(
-    id=11244,
+    card_id=11244,
     title="Utaku Hyo-Yeon",
     force=3,
     chi=2,
@@ -212,7 +212,7 @@ Utaku_HyoYeon = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Utaku_Izimi = Personality(
-    id=11245,
+    card_id=11245,
     title="Utaku Izimi",
     force=4,
     chi=3,

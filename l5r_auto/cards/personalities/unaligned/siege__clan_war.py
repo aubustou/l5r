@@ -15,7 +15,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 The_Hooded_Ronin_Descendant_of_Shinsei_ExperiencedCW = Personality(
-    id=12648,
+    card_id=12648,
     title="The Hooded Ronin, Descendant of Shinsei",
     force=2,
     chi=5,

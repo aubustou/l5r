@@ -26,7 +26,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Asahina_Hirakane = Personality(
-    id=12091,
+    card_id=12091,
     title="Asahina Hirakane",
     force=2,
     chi=3,
@@ -40,7 +40,7 @@ Asahina_Hirakane = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Daidoji_Hiroteru = Personality(
-    id=12092,
+    card_id=12092,
     title="Daidoji Hiroteru",
     force=2,
     chi=2,
@@ -54,7 +54,7 @@ Daidoji_Hiroteru = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Daidoji_Taenaru = Personality(
-    id=12093,
+    card_id=12093,
     title="Daidoji Taenaru",
     force=3,
     chi=3,
@@ -68,7 +68,7 @@ Daidoji_Taenaru = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Doji_Masachika = Personality(
-    id=12094,
+    card_id=12094,
     title="Doji Masachika",
     force=2,
     chi=3,
@@ -82,7 +82,7 @@ Doji_Masachika = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Doji_Norime = Personality(
-    id=12095,
+    card_id=12095,
     title="Doji Norime",
     force=2,
     chi=2,
@@ -96,7 +96,7 @@ Doji_Norime = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Doji_Senkiku = Personality(
-    id=12096,
+    card_id=12096,
     title="Doji Senkiku",
     force=3,
     chi=4,
@@ -110,7 +110,7 @@ Doji_Senkiku = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Doji_Tashihime = Personality(
-    id=12097,
+    card_id=12097,
     title="Doji Tashihime",
     force=0,
     chi=3,
@@ -124,7 +124,7 @@ Doji_Tashihime = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kakita_Akitomo = Personality(
-    id=12098,
+    card_id=12098,
     title="Kakita Akitomo",
     force=0,
     chi=4,
@@ -138,7 +138,7 @@ Kakita_Akitomo = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kakita_Hikai = Personality(
-    id=12099,
+    card_id=12099,
     title="Kakita Hikai",
     force=0,
     chi=2,
@@ -152,7 +152,7 @@ Kakita_Hikai = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kakita_Ikura = Personality(
-    id=12100,
+    card_id=12100,
     title="Kakita Ikura",
     force=1,
     chi=5,
@@ -166,7 +166,7 @@ Kakita_Ikura = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kakita_Mitsumichi = Personality(
-    id=12101,
+    card_id=12101,
     title="Kakita Mitsumichi",
     force=1,
     chi=4,
@@ -180,7 +180,7 @@ Kakita_Mitsumichi = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kakita_Ujirou_Experienced = Personality(
-    id=12102,
+    card_id=12102,
     title="Kakita Ujirou",
     force=4,
     chi=4,

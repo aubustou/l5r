@@ -20,7 +20,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Mirumoto_Touya = Personality(
-    id=11897,
+    card_id=11897,
     title="Mirumoto Touya",
     force=3,
     chi=4,
@@ -34,7 +34,7 @@ Mirumoto_Touya = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Mirumoto_Tsukino = Personality(
-    id=11901,
+    card_id=11901,
     title="Mirumoto Tsukino",
     force=2,
     chi=2,
@@ -48,7 +48,7 @@ Mirumoto_Tsukino = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Mirumoto_Yoritama = Personality(
-    id=11896,
+    card_id=11896,
     title="Mirumoto Yoritama",
     force=3,
     chi=3,
@@ -62,7 +62,7 @@ Mirumoto_Yoritama = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Tamori_Chikyu = Personality(
-    id=11898,
+    card_id=11898,
     title="Tamori Chikyu",
     force=2,
     chi=3,
@@ -76,7 +76,7 @@ Tamori_Chikyu = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Tamori_Daiishu = Personality(
-    id=11899,
+    card_id=11899,
     title="Tamori Daiishu",
     force=3,
     chi=4,
@@ -90,7 +90,7 @@ Tamori_Daiishu = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Togashi_Gozato_the_Wise_Monk = Personality(
-    id=11900,
+    card_id=11900,
     title="Togashi Gozato, the Wise Monk",
     force=3,
     chi=5,

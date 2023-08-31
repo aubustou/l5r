@@ -3,7 +3,6 @@ from __future__ import annotations
 import ast
 import json
 import re
-from itertools import chain
 from pathlib import Path
 from typing import TypedDict
 
@@ -178,11 +177,11 @@ def to_ast(
 
     keywords, ast_keywords = get_keywords(card.get("keywords", []))
 
-    clans = get_clans(card, keywords)
+    clans = get_clans(card, keywords) if "clan" in card else None
 
     attributes = [
         ast.keyword(
-            arg="id",
+            arg="card_id",
             value=ast.Constant(
                 value=card["cardid"],
             ),
@@ -194,18 +193,20 @@ def to_ast(
             ),
         ),
     ]
-    for key, attribute in [
-        ("force", "force"),
-        ("chi", "chi"),
-        ("ph", "personal_honor"),
-        ("cost", "gold_cost"),
+    for key, attribute, type_ in [
+        ("force", "force", "int"),
+        ("chi", "chi", "int"),
+        ("ph", "personal_honor", "int"),
+        ("cost", "gold_cost", "int"),
+        ("production", "gold_production", "str"),
     ]:
         if key in card:
+            value = int(card[key][0]) if type_ == "int" else card[key][0]
             attributes.append(
                 ast.keyword(
                     arg=attribute,
                     value=ast.Constant(
-                        value=int(card[key][0]),
+                        value=value,
                     ),
                 ),
             )
@@ -464,20 +465,23 @@ def main():
 
         json.dump(cards_, open(save_path / f"{type_}.json", "w"), indent=4)
 
-    get_card_modules(cards_by_type["personalities"])
+    get_card_modules(cards_by_type["personalities"], "personality")
+    get_card_modules(cards_by_type["holdings"], "holding")
 
 
 def plural(s: str) -> str:
     return s[:-1] + "ies" if s.endswith("y") else s + "s"
 
 
-def check_keywords(keywords: list[str] | dict[str, list[str]]) -> None:
+def check_keywords(keywords: dict[str, dict[str, set[str]]]) -> None:
     from l5r_auto import keywords as keywords_module
 
-    if isinstance(keywords, dict):
-        keywords = list(chain.from_iterable(keywords.values()))
+    keywords_: set[str] = set()
+    for first in keywords.values():
+        for second in first.values():
+            keywords_.update(second)
 
-    for keyword in sorted(set(keywords)):
+    for keyword in sorted(keywords_):
         if not hasattr(keywords_module, keyword):
             print(
                 f"""@dataclass(kw_only=True)
@@ -497,15 +501,12 @@ def to_snakecase(s: str) -> str:
 
 
 def get_module(type_folder, clan_folder, edition) -> Path:
+    type_folder = plural(type_folder)
+    module_name = f"{edition.replace(':', '_').lower()}.py"
     if clan_folder:
-        return (
-            CARD_PATH
-            / type_folder
-            / clan_folder.lower()
-            / f'{edition.replace(":", "_").lower()}.py'
-        )
+        return CARD_PATH / type_folder / clan_folder.lower() / module_name
     else:
-        return CARD_PATH / type_folder / f'{edition.replace(":", "_").lower()}.py'
+        return CARD_PATH / type_folder / module_name
 
 
 COMMON_IMPORTS = [
@@ -522,7 +523,7 @@ COMMON_IMPORTS = [
 ]
 
 
-def get_card_modules(cards: list[Card]) -> None:
+def get_card_modules(cards: list[Card], type_: str) -> None:
     cards = sorted(cards, key=lambda card: card["formattedtitle"])
 
     assigns_by_clan: dict[str, dict[str, list[ast.Assign]]] = {}
@@ -550,26 +551,11 @@ def get_card_modules(cards: list[Card]) -> None:
                 legalities
             )
 
-    imports = [
-        *COMMON_IMPORTS,
-        ast.ImportFrom(
-            module="l5r_auto.card",
-            names=[
-                ast.alias(name="Ability", asname=None),
-                ast.alias(name="Trait", asname=None),
-            ],
-            level=0,
-        ),
-        ast.ImportFrom(
-            module="common",
-            names=[ast.alias(name="Personality", asname=None)],
-            level=2,
-        ),
-    ]
+    check_keywords(import_keywords)
+
     get_module_ast(
-        "personalities",
+        type_,
         assigns_by_clan,
-        imports,
         import_clans,
         import_keywords,
         import_legalities,
@@ -579,7 +565,6 @@ def get_card_modules(cards: list[Card]) -> None:
 def get_module_ast(
     type_: str,
     ast_objects: dict[str, dict[str, list[ast.Assign]]],
-    imports: list[ast.ImportFrom],
     import_clans: dict[str, dict[str, set[str]]],
     import_keywords: dict[str, dict[str, set[str]]],
     import_legalities: dict[str, dict[str, set[str]]],
@@ -592,7 +577,12 @@ def get_module_ast(
                 module_path.parent.mkdir(exist_ok=True, parents=True)
                 module_ast = ast.Module(
                     body=[
-                        *imports,
+                        *COMMON_IMPORTS,
+                        ast.ImportFrom(
+                            module="common",
+                            names=[ast.alias(name=types_to_ast[type_], asname=None)],
+                            level=2 if clan else 1,
+                        ),
                     ],
                     type_ignores=[],
                 )
@@ -600,7 +590,12 @@ def get_module_ast(
             (module_path.parent / "__init__.py").touch()
             module_ast = ast.Module(
                 body=[
-                    *imports,
+                    *COMMON_IMPORTS,
+                    ast.ImportFrom(
+                        module="common",
+                        names=[ast.alias(name=types_to_ast[type_], asname=None)],
+                        level=2 if clan else 1,
+                    ),
                 ],
                 type_ignores=[],
             )

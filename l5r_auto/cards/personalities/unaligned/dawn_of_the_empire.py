@@ -13,7 +13,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Hatsu_Suru_no_Oni = Personality(
-    id=5734,
+    card_id=5734,
     title="Hatsu Suru no Oni",
     force=4,
     chi=3,

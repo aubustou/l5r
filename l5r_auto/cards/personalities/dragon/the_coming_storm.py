@@ -18,7 +18,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Kitsuki_Kira = Personality(
-    id=11740,
+    card_id=11740,
     title="Kitsuki Kira",
     force=0,
     chi=3,
@@ -32,7 +32,7 @@ Kitsuki_Kira = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Mirumoto_Reiji = Personality(
-    id=11741,
+    card_id=11741,
     title="Mirumoto Reiji",
     force=4,
     chi=3,
@@ -46,7 +46,7 @@ Mirumoto_Reiji = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Mirumoto_Takanori = Personality(
-    id=11742,
+    card_id=11742,
     title="Mirumoto Takanori",
     force=3,
     chi=2,
@@ -60,7 +60,7 @@ Mirumoto_Takanori = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Tamori_Junya = Personality(
-    id=11743,
+    card_id=11743,
     title="Tamori Junya",
     force=2,
     chi=3,
@@ -74,7 +74,7 @@ Tamori_Junya = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Tamori_Touya = Personality(
-    id=11744,
+    card_id=11744,
     title="Tamori Touya",
     force=1,
     chi=3,
@@ -88,7 +88,7 @@ Tamori_Touya = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Togashi_Yayoi = Personality(
-    id=11745,
+    card_id=11745,
     title="Togashi Yayoi",
     force=3,
     chi=3,

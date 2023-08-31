@@ -13,7 +13,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Doji_Dainagon = Personality(
-    id=2070,
+    card_id=2070,
     title="Doji Dainagon",
     force=1,
     chi=3,

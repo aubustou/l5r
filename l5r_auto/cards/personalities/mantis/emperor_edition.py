@@ -22,7 +22,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Kitsune_Kohaki = Personality(
-    id=4467,
+    card_id=4467,
     title="Kitsune Kohaki",
     force=3,
     chi=4,
@@ -42,7 +42,7 @@ Kitsune_Kohaki = Personality(
     ],
 )
 Moshi_Yokohime = Personality(
-    id=5290,
+    card_id=5290,
     title="Moshi Yokohime",
     force=3,
     chi=3,

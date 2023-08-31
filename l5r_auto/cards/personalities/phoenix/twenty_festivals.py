@@ -28,7 +28,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Agasha_Shikeno = Personality(
-    id=12140,
+    card_id=12140,
     title="Agasha Shikeno",
     force=3,
     chi=4,
@@ -42,7 +42,7 @@ Agasha_Shikeno = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Agasha_Tameko = Personality(
-    id=12141,
+    card_id=12141,
     title="Agasha Tameko",
     force=3,
     chi=4,
@@ -56,7 +56,7 @@ Agasha_Tameko = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Asako_Hiribe = Personality(
-    id=12142,
+    card_id=12142,
     title="Asako Hiribe",
     force=2,
     chi=4,
@@ -70,7 +70,7 @@ Asako_Hiribe = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Asako_Tsunefusa_Experienced = Personality(
-    id=12143,
+    card_id=12143,
     title="Asako Tsunefusa",
     force=3,
     chi=4,
@@ -93,7 +93,7 @@ Asako_Tsunefusa_Experienced = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Isawa_Akime = Personality(
-    id=12144,
+    card_id=12144,
     title="Isawa Akime",
     force=1,
     chi=3,
@@ -107,7 +107,7 @@ Isawa_Akime = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Isawa_Haruge = Personality(
-    id=12145,
+    card_id=12145,
     title="Isawa Haruge",
     force=3,
     chi=3,
@@ -121,7 +121,7 @@ Isawa_Haruge = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Isawa_Kageharu = Personality(
-    id=12146,
+    card_id=12146,
     title="Isawa Kageharu",
     force=1,
     chi=2,
@@ -135,7 +135,7 @@ Isawa_Kageharu = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Isawa_Mochiko = Personality(
-    id=12147,
+    card_id=12147,
     title="Isawa Mochiko",
     force=3,
     chi=3,
@@ -149,7 +149,7 @@ Isawa_Mochiko = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Isawa_Uzuyumi_Experienced = Personality(
-    id=12148,
+    card_id=12148,
     title="Isawa Uzuyumi",
     force=3,
     chi=4,
@@ -163,7 +163,7 @@ Isawa_Uzuyumi_Experienced = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Shiba_Danjiro = Personality(
-    id=12149,
+    card_id=12149,
     title="Shiba Danjiro",
     force=2,
     chi=2,
@@ -177,7 +177,7 @@ Shiba_Danjiro = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Shiba_Kiyomichi = Personality(
-    id=12150,
+    card_id=12150,
     title="Shiba Kiyomichi",
     force=2,
     chi=3,

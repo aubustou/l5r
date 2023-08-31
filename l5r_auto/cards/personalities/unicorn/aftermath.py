@@ -20,7 +20,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Moto_Paikao = Personality(
-    id=10887,
+    card_id=10887,
     title="Moto Paikao",
     force=3,
     chi=3,
@@ -41,7 +41,7 @@ Moto_Paikao = Personality(
     ],
 )
 Utaku_Sakiko = Personality(
-    id=10890,
+    card_id=10890,
     title="Utaku Sakiko",
     force=3,
     chi=3,

@@ -24,7 +24,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Iuchi_Daitoru = Personality(
-    id=12181,
+    card_id=12181,
     title="Iuchi Daitoru",
     force=1,
     chi=4,
@@ -38,7 +38,7 @@ Iuchi_Daitoru = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Moto_Aikenro = Personality(
-    id=12182,
+    card_id=12182,
     title="Moto Aikenro",
     force=3,
     chi=2,
@@ -52,7 +52,7 @@ Moto_Aikenro = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Moto_Taigo_Shogun_Experienced_2 = Personality(
-    id=12183,
+    card_id=12183,
     title="Moto Taigo, Shogun",
     force=4,
     chi=4,
@@ -75,7 +75,7 @@ Moto_Taigo_Shogun_Experienced_2 = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Moto_Yaotsu = Personality(
-    id=12184,
+    card_id=12184,
     title="Moto Yao-tsu",
     force=4,
     chi=3,
@@ -89,7 +89,7 @@ Moto_Yaotsu = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Moto_Zaitsuta = Personality(
-    id=12185,
+    card_id=12185,
     title="Moto Zaitsuta",
     force=5,
     chi=3,
@@ -103,7 +103,7 @@ Moto_Zaitsuta = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Shinjo_Hamura = Personality(
-    id=12186,
+    card_id=12186,
     title="Shinjo Hamura",
     force=3,
     chi=3,
@@ -117,7 +117,7 @@ Shinjo_Hamura = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Shinjo_Jalendu = Personality(
-    id=12187,
+    card_id=12187,
     title="Shinjo Jalendu",
     force=4,
     chi=2,
@@ -131,7 +131,7 @@ Shinjo_Jalendu = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Shinjo_Jaoshen = Personality(
-    id=12188,
+    card_id=12188,
     title="Shinjo Jao-shen",
     force=0,
     chi=2,
@@ -145,7 +145,7 @@ Shinjo_Jaoshen = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Shinjo_Nobunaga = Personality(
-    id=12189,
+    card_id=12189,
     title="Shinjo Nobunaga",
     force=3,
     chi=3,
@@ -159,7 +159,7 @@ Shinjo_Nobunaga = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Shinjo_Taehyun_Experienced = Personality(
-    id=12190,
+    card_id=12190,
     title="Shinjo Tae-hyun",
     force=3,
     chi=3,
@@ -173,7 +173,7 @@ Shinjo_Taehyun_Experienced = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Shinjo_Zhitae = Personality(
-    id=12191,
+    card_id=12191,
     title="Shinjo Zhi-tae",
     force=4,
     chi=3,
@@ -187,7 +187,7 @@ Shinjo_Zhitae = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Utaku_Kazue = Personality(
-    id=12192,
+    card_id=12192,
     title="Utaku Kazue",
     force=3,
     chi=2,

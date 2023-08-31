@@ -13,7 +13,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Ninube_Shiho = Personality(
-    id=5591,
+    card_id=5591,
     title="Ninube Shiho",
     force=3,
     chi=3,

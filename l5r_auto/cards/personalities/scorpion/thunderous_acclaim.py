@@ -19,7 +19,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Bayushi_Chizuken = Personality(
-    id=12320,
+    card_id=12320,
     title="Bayushi Chizuken",
     force=2,
     chi=2,
@@ -33,7 +33,7 @@ Bayushi_Chizuken = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Bayushi_Fuyuko_Experienced = Personality(
-    id=12321,
+    card_id=12321,
     title="Bayushi Fuyuko",
     force=1,
     chi=3,
@@ -47,7 +47,7 @@ Bayushi_Fuyuko_Experienced = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Bayushi_Tenburo = Personality(
-    id=12322,
+    card_id=12322,
     title="Bayushi Tenburo",
     force=3,
     chi=3,
@@ -61,7 +61,7 @@ Bayushi_Tenburo = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Shosuro_Kanako = Personality(
-    id=12323,
+    card_id=12323,
     title="Shosuro Kanako",
     force=3,
     chi=3,
@@ -75,7 +75,7 @@ Shosuro_Kanako = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Shosuro_Wayari = Personality(
-    id=12324,
+    card_id=12324,
     title="Shosuro Wayari",
     force=4,
     chi=3,
@@ -89,7 +89,7 @@ Shosuro_Wayari = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Soshi_Mumoshi = Personality(
-    id=12325,
+    card_id=12325,
     title="Soshi Mumoshi",
     force=3,
     chi=3,

@@ -20,7 +20,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Akodo_Dairuko_the_Steel_Lion_Experienced_2 = Personality(
-    id=11178,
+    card_id=11178,
     title="Akodo Dairuko, the Steel Lion",
     force=4,
     chi=5,
@@ -43,7 +43,7 @@ Akodo_Dairuko_the_Steel_Lion_Experienced_2 = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition],
 )
 Akodo_Kenaro = Personality(
-    id=11179,
+    card_id=11179,
     title="Akodo Kenaro",
     force=2,
     chi=4,
@@ -57,7 +57,7 @@ Akodo_Kenaro = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition],
 )
 Ikoma_Ichimoko = Personality(
-    id=11180,
+    card_id=11180,
     title="Ikoma Ichimoko",
     force=3,
     chi=2,
@@ -71,7 +71,7 @@ Ikoma_Ichimoko = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Ikoma_Yoshimoko = Personality(
-    id=11181,
+    card_id=11181,
     title="Ikoma Yoshimoko",
     force=3,
     chi=2,
@@ -85,7 +85,7 @@ Ikoma_Yoshimoko = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Matsu_Agai = Personality(
-    id=11182,
+    card_id=11182,
     title="Matsu Agai",
     force=2,
     chi=2,
@@ -99,7 +99,7 @@ Matsu_Agai = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Matsu_Choiko = Personality(
-    id=11183,
+    card_id=11183,
     title="Matsu Choiko",
     force=2,
     chi=2,
@@ -113,7 +113,7 @@ Matsu_Choiko = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Matsu_Morito = Personality(
-    id=11185,
+    card_id=11185,
     title="Matsu Morito",
     force=4,
     chi=2,
@@ -127,7 +127,7 @@ Matsu_Morito = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Matsu_Rutaro = Personality(
-    id=11186,
+    card_id=11186,
     title="Matsu Rutaro",
     force=4,
     chi=3,
@@ -141,7 +141,7 @@ Matsu_Rutaro = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Matsu_Tayuko = Personality(
-    id=11187,
+    card_id=11187,
     title="Matsu Tayuko",
     force=1,
     chi=3,

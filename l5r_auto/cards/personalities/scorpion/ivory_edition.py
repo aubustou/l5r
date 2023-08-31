@@ -23,7 +23,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Bayushi_Akane = Personality(
-    id=11210,
+    card_id=11210,
     title="Bayushi Akane",
     force=0,
     chi=3,
@@ -37,7 +37,7 @@ Bayushi_Akane = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Bayushi_Dakatsu = Personality(
-    id=11211,
+    card_id=11211,
     title="Bayushi Dakatsu",
     force=3,
     chi=3,
@@ -51,7 +51,7 @@ Bayushi_Dakatsu = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Bayushi_Masashi = Personality(
-    id=11212,
+    card_id=11212,
     title="Bayushi Masashi",
     force=3,
     chi=2,
@@ -65,7 +65,7 @@ Bayushi_Masashi = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Bayushi_Meiko = Personality(
-    id=11213,
+    card_id=11213,
     title="Bayushi Meiko",
     force=4,
     chi=3,
@@ -79,7 +79,7 @@ Bayushi_Meiko = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Bayushi_Nitoshi_the_Poison_Mask_Experienced_2 = Personality(
-    id=11214,
+    card_id=11214,
     title="Bayushi Nitoshi, the Poison Mask",
     force=5,
     chi=5,
@@ -104,7 +104,7 @@ Bayushi_Nitoshi_the_Poison_Mask_Experienced_2 = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Bayushi_Shizuka = Personality(
-    id=11215,
+    card_id=11215,
     title="Bayushi Shizuka",
     force=2,
     chi=3,
@@ -118,7 +118,7 @@ Bayushi_Shizuka = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shosuro_Hotaka = Personality(
-    id=11216,
+    card_id=11216,
     title="Shosuro Hotaka",
     force=0,
     chi=3,
@@ -132,7 +132,7 @@ Shosuro_Hotaka = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shosuro_Keiichi = Personality(
-    id=11217,
+    card_id=11217,
     title="Shosuro Keiichi",
     force=3,
     chi=4,
@@ -146,7 +146,7 @@ Shosuro_Keiichi = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shosuro_Tagiso = Personality(
-    id=11218,
+    card_id=11218,
     title="Shosuro Tagiso",
     force=3,
     chi=4,
@@ -160,7 +160,7 @@ Shosuro_Tagiso = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shosuro_Tosaku = Personality(
-    id=11219,
+    card_id=11219,
     title="Shosuro Tosaku",
     force=3,
     chi=4,

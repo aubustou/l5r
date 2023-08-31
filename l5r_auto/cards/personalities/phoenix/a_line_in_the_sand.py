@@ -17,7 +17,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Agasha_Beiru = Personality(
-    id=11592,
+    card_id=11592,
     title="Agasha Beiru",
     force=1,
     chi=3,
@@ -31,7 +31,7 @@ Agasha_Beiru = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition],
 )
 Isawa_Kaisei = Personality(
-    id=11593,
+    card_id=11593,
     title="Isawa Kaisei",
     force=0,
     chi=3,
@@ -45,7 +45,7 @@ Isawa_Kaisei = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Isawa_Orinoko = Personality(
-    id=11594,
+    card_id=11594,
     title="Isawa Orinoko",
     force=2,
     chi=2,
@@ -59,7 +59,7 @@ Isawa_Orinoko = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Isawa_Waiko = Personality(
-    id=11595,
+    card_id=11595,
     title="Isawa Waiko",
     force=3,
     chi=3,
@@ -73,7 +73,7 @@ Isawa_Waiko = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shiba_Tuoko = Personality(
-    id=11596,
+    card_id=11596,
     title="Shiba Tuoko",
     force=3,
     chi=3,
@@ -87,7 +87,7 @@ Shiba_Tuoko = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shiba_Yinfuo = Personality(
-    id=11597,
+    card_id=11597,
     title="Shiba Yinfuo",
     force=2,
     chi=2,

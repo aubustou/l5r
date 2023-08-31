@@ -12,7 +12,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Tamori_Seiken = Personality(
-    id=7790,
+    card_id=7790,
     title="Tamori Seiken",
     force=2,
     chi=3,

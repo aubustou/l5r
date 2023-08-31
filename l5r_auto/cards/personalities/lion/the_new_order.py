@@ -27,7 +27,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 from ..common import Personality
 
 Akodo_Raikitsu = Personality(
-    id=11902,
+    card_id=11902,
     title="Akodo Raikitsu",
     force=2,
     chi=3,
@@ -41,7 +41,7 @@ Akodo_Raikitsu = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition],
 )
 Akodo_Yuyama = Personality(
-    id=11905,
+    card_id=11905,
     title="Akodo Yuyama",
     force=2,
     chi=2,
@@ -55,7 +55,7 @@ Akodo_Yuyama = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition],
 )
 Ikoma_Ayumi_Experienced = Personality(
-    id=11903,
+    card_id=11903,
     title="Ikoma Ayumi",
     force=4,
     chi=3,
@@ -69,7 +69,7 @@ Ikoma_Ayumi_Experienced = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kitsu_Suzaki = Personality(
-    id=11904,
+    card_id=11904,
     title="Kitsu Suzaki",
     force=0,
     chi=4,
@@ -83,7 +83,7 @@ Kitsu_Suzaki = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Matsu_Hachiro_Experienced = Personality(
-    id=11906,
+    card_id=11906,
     title="Matsu Hachiro",
     force=2,
     chi=3,
@@ -97,7 +97,7 @@ Matsu_Hachiro_Experienced = Personality(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Matsu_Misato_the_Hatamoto = Personality(
-    id=11907,
+    card_id=11907,
     title="Matsu Misato, the Hatamoto",
     force=3,
     chi=3,

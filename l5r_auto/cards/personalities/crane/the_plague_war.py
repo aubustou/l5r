@@ -12,7 +12,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Shune = Personality(
-    id=7236,
+    card_id=7236,
     title="Shune",
     force=1,
     chi=4,

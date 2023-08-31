@@ -20,7 +20,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Moto_Chinua_Experienced = Personality(
-    id=12493,
+    card_id=12493,
     title="Moto Chinua",
     force=3,
     chi=3,
@@ -34,7 +34,7 @@ Moto_Chinua_Experienced = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Moto_Daiketsu = Personality(
-    id=12494,
+    card_id=12494,
     title="Moto Dai-ketsu",
     force=3,
     chi=3,
@@ -48,7 +48,7 @@ Moto_Daiketsu = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Moto_Jengzan = Personality(
-    id=12495,
+    card_id=12495,
     title="Moto Jengzan",
     force=3,
     chi=2,
@@ -62,7 +62,7 @@ Moto_Jengzan = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Shinjo_Dogenda = Personality(
-    id=12496,
+    card_id=12496,
     title="Shinjo Dogenda",
     force=2,
     chi=4,
@@ -76,7 +76,7 @@ Shinjo_Dogenda = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Shinjo_Megura = Personality(
-    id=12497,
+    card_id=12497,
     title="Shinjo Megura",
     force=2,
     chi=2,
@@ -90,7 +90,7 @@ Shinjo_Megura = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Utaku_Yabusame = Personality(
-    id=12498,
+    card_id=12498,
     title="Utaku Yabusame",
     force=3,
     chi=3,

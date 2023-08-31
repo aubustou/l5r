@@ -20,7 +20,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 from ..common import Personality
 
 Ashigaru_Gunso = Personality(
-    id=12332,
+    card_id=12332,
     title="Ashigaru Gunso",
     force=2,
     chi=2,
@@ -34,7 +34,7 @@ Ashigaru_Gunso = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Banished_Experienced = Personality(
-    id=12333,
+    card_id=12333,
     title="Banished",
     force=3,
     chi=4,
@@ -48,7 +48,7 @@ Banished_Experienced = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Kenturo = Personality(
-    id=12334,
+    card_id=12334,
     title="Kenturo",
     force=2,
     chi=2,
@@ -62,7 +62,7 @@ Kenturo = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Seppun_Omihiru = Personality(
-    id=12335,
+    card_id=12335,
     title="Seppun Omihiru",
     force=3,
     chi=3,
@@ -76,7 +76,7 @@ Seppun_Omihiru = Personality(
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Venerable_Spirit = Personality(
-    id=12336,
+    card_id=12336,
     title="Venerable Spirit",
     force=3,
     chi=3,

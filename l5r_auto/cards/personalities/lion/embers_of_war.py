@@ -12,7 +12,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Kitsu_Miro = Personality(
-    id=4386,
+    card_id=4386,
     title="Kitsu Miro",
     force=3,
     chi=3,

@@ -12,7 +12,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Tsuruchi_Gosho = Personality(
-    id=8833,
+    card_id=8833,
     title="Tsuruchi Gosho",
     force=3,
     chi=3,

@@ -13,7 +13,7 @@ from l5r_auto.legality import (
 from ..common import Personality
 
 Daigotsu_Meguro = Personality(
-    id=1745,
+    card_id=1745,
     title="Daigotsu Meguro",
     force=3,
     chi=2,
