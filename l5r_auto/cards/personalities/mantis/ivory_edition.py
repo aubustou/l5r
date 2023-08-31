@@ -33,7 +33,7 @@ Kitsune_Parumba = Personality(
     keywords=[Earth, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Moshi_Madohime = Personality(
     id=11189,
@@ -47,7 +47,7 @@ Moshi_Madohime = Personality(
     keywords=[Naval, Scout, Shugenja, Thunder],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Tsuruchi_Kaito = Personality(
     id=11190,
@@ -61,7 +61,7 @@ Tsuruchi_Kaito = Personality(
     keywords=[Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Tsuruchi_Natsuki = Personality(
     id=11191,
@@ -75,7 +75,7 @@ Tsuruchi_Natsuki = Personality(
     keywords=[Magistrate, Samurai, SoulOf("Tsuruchi Masako")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Tsuruchi_Rin = Personality(
     id=11192,
@@ -89,7 +89,7 @@ Tsuruchi_Rin = Personality(
     keywords=[BountyHunter, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Yoritomo_Hiromi_the_Growing_Storm_Experienced_2 = Personality(
     id=11193,
@@ -113,7 +113,7 @@ Yoritomo_Hiromi_the_Growing_Storm_Experienced_2 = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Yoritomo_Ichido = Personality(
     id=11194,
@@ -127,7 +127,7 @@ Yoritomo_Ichido = Personality(
     keywords=[Naval, Samurai, SoulOf("Kindari")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Yoritomo_Matsuo = Personality(
     id=11195,
@@ -141,7 +141,7 @@ Yoritomo_Matsuo = Personality(
     keywords=[Kensai, Naval, Samurai, SoulOf("Seppun Matsuo")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Yoritomo_Takuya = Personality(
     id=11196,
@@ -155,7 +155,7 @@ Yoritomo_Takuya = Personality(
     keywords=[Naval, Samurai, SoulOf("Yoritomo Bussho")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Yoritomo_Teihiko = Personality(
     id=11197,
@@ -169,5 +169,5 @@ Yoritomo_Teihiko = Personality(
     keywords=[Naval, Samurai, SoulOf("Yoritomo Mie")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )

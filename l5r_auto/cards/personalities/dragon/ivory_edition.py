@@ -34,7 +34,7 @@ Mirumoto_Higaru = Personality(
     keywords=[Kensai, Samurai, SoulOf("Mirumoto Rosanjin")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Mirumoto_Hikuryo = Personality(
     id=11167,
@@ -48,7 +48,7 @@ Mirumoto_Hikuryo = Personality(
     keywords=[Duelist, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Mirumoto_Niwa = Personality(
     id=11168,
@@ -62,7 +62,7 @@ Mirumoto_Niwa = Personality(
     keywords=[Kensai, Samurai, SoulOf("Mirumoto Kei")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Mirumoto_Nokkai = Personality(
     id=11169,
@@ -76,7 +76,7 @@ Mirumoto_Nokkai = Personality(
     keywords=[Samurai, SoulOf("Mirumoto Tsuge"), Tattooed],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Mirumoto_Shikei_the_Laughing_Dragon_Experienced = Personality(
     id=11170,
@@ -102,7 +102,7 @@ Mirumoto_Shikei_the_Laughing_Dragon_Experienced = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Mirumoto_Tsukazu = Personality(
     id=11171,
@@ -116,7 +116,7 @@ Mirumoto_Tsukazu = Personality(
     keywords=[Kensai, Samurai, SoulOf("Mirumoto Minawa")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Mirumoto_Yasushi = Personality(
     id=11172,
@@ -130,7 +130,7 @@ Mirumoto_Yasushi = Personality(
     keywords=[Samurai, SoulOf("Mirumoto Kyuzo")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Tamori_Katsumi = Personality(
     id=11173,
@@ -144,7 +144,7 @@ Tamori_Katsumi = Personality(
     keywords=[Earth, Shugenja, SoulOf("Tamori Shaitung")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Tamori_Shaisen = Personality(
     id=11175,
@@ -158,7 +158,7 @@ Tamori_Shaisen = Personality(
     keywords=[Alchemist, Earth, Imperial, Shugenja, SoulOf("Tamori Shosei")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Togashi_Ango = Personality(
     id=11176,
@@ -172,7 +172,7 @@ Togashi_Ango = Personality(
     keywords=[Monk, SoulOf("Togashi Chikato"), Tattooed],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Togashi_Ogure = Personality(
     id=11177,
@@ -186,5 +186,5 @@ Togashi_Ogure = Personality(
     keywords=[Monk, SoulOf("Hoshi Akiyama")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )

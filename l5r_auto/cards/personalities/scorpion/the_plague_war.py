@@ -23,7 +23,7 @@ Shosuro_Orikasa = Personality(
     keywords=[Courtier, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition, CelestialEdition],
+    legality=[TwentyFestivalsEdition, CelestialEdition, ModernEdition, OnyxEdition],
 )
 Shosuro_Rokujo = Personality(
     id=7155,
@@ -37,5 +37,5 @@ Shosuro_Rokujo = Personality(
     keywords=[Courtier, Goryo, Nonhuman, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition, CelestialEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, CelestialEdition, ModernEdition],
 )

@@ -22,5 +22,5 @@ Yasuki_Tono = Personality(
     keywords=[Courtier, Merchant],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, EmperorEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition, EmperorEdition],
 )

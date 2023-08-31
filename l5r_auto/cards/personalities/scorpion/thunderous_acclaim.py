@@ -29,7 +29,7 @@ Bayushi_Chizuken = Personality(
     keywords=[Resilient, Tactician, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Bayushi_Fuyuko_Experienced = Personality(
     id=12321,
@@ -43,7 +43,7 @@ Bayushi_Fuyuko_Experienced = Personality(
     keywords=[Courtier, Experienced("1")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Bayushi_Tenburo = Personality(
     id=12322,
@@ -57,7 +57,7 @@ Bayushi_Tenburo = Personality(
     keywords=[Kensai, BitterLies, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Shosuro_Kanako = Personality(
     id=12323,
@@ -71,7 +71,7 @@ Shosuro_Kanako = Personality(
     keywords=[Duelist, Resilient, Ninja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Shosuro_Wayari = Personality(
     id=12324,
@@ -85,7 +85,7 @@ Shosuro_Wayari = Personality(
     keywords=[Kensai, BitterLies, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Soshi_Mumoshi = Personality(
     id=12325,
@@ -99,5 +99,5 @@ Soshi_Mumoshi = Personality(
     keywords=[Air, Ninja, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

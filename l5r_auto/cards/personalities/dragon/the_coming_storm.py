@@ -28,7 +28,7 @@ Kitsuki_Kira = Personality(
     keywords=[Courtier, Magistrate],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Mirumoto_Reiji = Personality(
     id=11741,
@@ -42,7 +42,7 @@ Mirumoto_Reiji = Personality(
     keywords=[Cavalry, Kensai, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Mirumoto_Takanori = Personality(
     id=11742,
@@ -56,7 +56,7 @@ Mirumoto_Takanori = Personality(
     keywords=[Kensai, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Tamori_Junya = Personality(
     id=11743,
@@ -70,7 +70,7 @@ Tamori_Junya = Personality(
     keywords=[Earth, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Tamori_Touya = Personality(
     id=11744,
@@ -84,7 +84,7 @@ Tamori_Touya = Personality(
     keywords=[BlessedByBenten, Earth, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Togashi_Yayoi = Personality(
     id=11745,
@@ -98,5 +98,5 @@ Togashi_Yayoi = Personality(
     keywords=[Monk, Tattooed],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )

@@ -37,7 +37,7 @@ Kitsuki_Einosuke = Personality(
     keywords=[Expendable, Courtier, Magistrate],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kitsuki_Goichi = Personality(
     id=12104,
@@ -51,7 +51,7 @@ Kitsuki_Goichi = Personality(
     keywords=[Magistrate, Samurai, SoulOf("Kitsuki Berii")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kitsuki_Masamitsu = Personality(
     id=12105,
@@ -65,7 +65,7 @@ Kitsuki_Masamitsu = Personality(
     keywords=[Air, Courtier, Magistrate, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Mirumoto_Akifumi = Personality(
     id=12106,
@@ -79,7 +79,7 @@ Mirumoto_Akifumi = Personality(
     keywords=[Samurai, Void],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Mirumoto_Eisuke = Personality(
     id=12107,
@@ -93,7 +93,7 @@ Mirumoto_Eisuke = Personality(
     keywords=[Samurai, SoulOf("Mirumoto Daini")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Mirumoto_Rikiya = Personality(
     id=12108,
@@ -107,7 +107,7 @@ Mirumoto_Rikiya = Personality(
     keywords=[Duelist, Samurai, SoulOf("Mirumoto Washizuka")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Mirumoto_Tsuda_Emerald_Champion_Experienced = Personality(
     id=12109,
@@ -129,7 +129,7 @@ Mirumoto_Tsuda_Emerald_Champion_Experienced = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Tamori_Seiken_Experienced = Personality(
     id=12110,
@@ -151,7 +151,7 @@ Tamori_Seiken_Experienced = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Tamori_Shoko = Personality(
     id=12111,
@@ -165,7 +165,7 @@ Tamori_Shoko = Personality(
     keywords=[Commander, Earth, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Tamori_Tsunemi = Personality(
     id=12112,
@@ -179,7 +179,7 @@ Tamori_Tsunemi = Personality(
     keywords=[Conqueror, Commander, Earth, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Togashi_Taiki = Personality(
     id=12113,
@@ -193,5 +193,5 @@ Togashi_Taiki = Personality(
     keywords=[Monk, Tattooed],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

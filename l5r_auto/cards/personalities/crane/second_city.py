@@ -24,10 +24,10 @@ Doji_Dainagon = Personality(
     traits=[],
     abilities=[],
     legality=[
+        CelestialEdition,
         ModernEdition,
         IvoryEdition,
-        EmperorEdition,
         TwentyFestivalsEdition,
-        CelestialEdition,
+        EmperorEdition,
     ],
 )

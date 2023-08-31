@@ -33,7 +33,7 @@ Hida_Genda = Personality(
     keywords=[Tactician, Commander, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kaiu_Eichi = Personality(
     id=12441,
@@ -47,7 +47,7 @@ Kaiu_Eichi = Personality(
     keywords=[Resilient, Samurai, Siege],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kaiu_OTaro = Personality(
     id=12442,
@@ -61,7 +61,7 @@ Kaiu_OTaro = Personality(
     keywords=[Reserve, Samurai, Siege],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kuni_Hokinsha = Personality(
     id=12443,
@@ -75,7 +75,7 @@ Kuni_Hokinsha = Personality(
     keywords=[Earth, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kuni_Renyu_Experienced_4 = Personality(
     id=12444,
@@ -99,7 +99,7 @@ Kuni_Renyu_Experienced_4 = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kuni_Tenba = Personality(
     id=12445,
@@ -113,5 +113,5 @@ Kuni_Tenba = Personality(
     keywords=[Earth, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

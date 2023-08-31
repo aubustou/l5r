@@ -27,7 +27,7 @@ Agasha_Beiru = Personality(
     keywords=[Earth, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Isawa_Kaisei = Personality(
     id=11593,
@@ -41,7 +41,7 @@ Isawa_Kaisei = Personality(
     keywords=[Cavalry, Destined, Air, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Isawa_Orinoko = Personality(
     id=11594,
@@ -55,7 +55,7 @@ Isawa_Orinoko = Personality(
     keywords=[Fire, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Isawa_Waiko = Personality(
     id=11595,
@@ -69,7 +69,7 @@ Isawa_Waiko = Personality(
     keywords=[Resilient, Fire, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Shiba_Tuoko = Personality(
     id=11596,
@@ -83,7 +83,7 @@ Shiba_Tuoko = Personality(
     keywords=[Resilient, Samurai, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Shiba_Yinfuo = Personality(
     id=11597,
@@ -97,5 +97,5 @@ Shiba_Yinfuo = Personality(
     keywords=[Samurai, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )

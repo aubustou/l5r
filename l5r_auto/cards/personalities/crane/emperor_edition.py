@@ -22,5 +22,5 @@ Daidoji_Tametaka = Personality(
     keywords=[Commander, IronCrane, Samurai, Scout, SoulOf("Daidoji Zoushi")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, EmperorEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition, EmperorEdition],
 )

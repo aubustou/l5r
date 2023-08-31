@@ -29,7 +29,7 @@ Doji_Ikei = Personality(
     keywords=[Resilient, Magistrate, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Doji_Natsuyo_Experienced = Personality(
     id=12447,
@@ -43,7 +43,7 @@ Doji_Natsuyo_Experienced = Personality(
     keywords=[Courtier, Experienced("1")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Doji_Soeka_Experienced = Personality(
     id=12448,
@@ -57,7 +57,7 @@ Doji_Soeka_Experienced = Personality(
     keywords=[Courtier, Experienced("1"), Magistrate],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kakita_Daitsu_Experienced = Personality(
     id=12449,
@@ -71,7 +71,7 @@ Kakita_Daitsu_Experienced = Personality(
     keywords=[Duelist, Kensai, Experienced("1"), Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kakita_Inaka = Personality(
     id=12450,
@@ -85,7 +85,7 @@ Kakita_Inaka = Personality(
     keywords=[Artisan, Courtier, Jester],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kakita_Oshaberi = Personality(
     id=12451,
@@ -99,5 +99,5 @@ Kakita_Oshaberi = Personality(
     keywords=[Expendable, Artisan, Courtier, TheMaskedCrane],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

@@ -22,5 +22,5 @@ Sarassa = Personality(
     keywords=[Naval, Ningyo, Nonhuman, Shugenja, Thunder],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition, CelestialEdition],
+    legality=[TwentyFestivalsEdition, CelestialEdition, ModernEdition, OnyxEdition],
 )

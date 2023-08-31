@@ -48,7 +48,7 @@ Banished = Personality(
     keywords=[Resilient, Ishiken, Ronin, Shugenja, Void],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Brnn_Experienced = Personality(
     id=11933,
@@ -62,7 +62,7 @@ Brnn_Experienced = Personality(
     keywords=[Experienced("1"), Nonhuman, OneTribe, Ratling, Scavenger, Scout],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Iweko_Miaka_the_Princess = Personality(
     id=11934,
@@ -76,7 +76,7 @@ Iweko_Miaka_the_Princess = Personality(
     keywords=[Unique, Heir, Imperial, LoveLetter],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Keppo_Experienced = Personality(
     id=11936,
@@ -90,7 +90,7 @@ Keppo_Experienced = Personality(
     keywords=[Experienced("1"), Goblin, Nonhuman, Scout, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Masajiro = Personality(
     id=11935,
@@ -104,7 +104,7 @@ Masajiro = Personality(
     keywords=[Nonhuman, Ogre, Shadowlands, Sinner, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 The_Abbot_Experienced_3 = Personality(
     id=11937,
@@ -126,5 +126,5 @@ The_Abbot_Experienced_3 = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )

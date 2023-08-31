@@ -25,5 +25,5 @@ The_Hooded_Ronin_Descendant_of_Shinsei_ExperiencedCW = Personality(
     keywords=[Duelist, Unique, Ashigaru, Experienced("1"), Monk, Ronin, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

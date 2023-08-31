@@ -24,10 +24,10 @@ Noekam = Personality(
     traits=[],
     abilities=[],
     legality=[
-        ModernEdition,
         GoldEdition,
-        JadeEdition,
+        ModernEdition,
         IvoryEdition,
+        JadeEdition,
         TwentyFestivalsEdition,
     ],
 )

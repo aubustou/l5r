@@ -22,5 +22,5 @@ Enomoto = Personality(
     keywords=[Ronin, Shugenja, Void],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition, CelestialEdition],
+    legality=[TwentyFestivalsEdition, CelestialEdition, ModernEdition, OnyxEdition],
 )

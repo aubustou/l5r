@@ -32,11 +32,11 @@ Hida_Kurabi = Personality(
     traits=[],
     abilities=[],
     legality=[
-        OnyxEdition,
         ModernEdition,
         IvoryEdition,
-        EmperorEdition,
         TwentyFestivalsEdition,
+        EmperorEdition,
+        OnyxEdition,
     ],
 )
 Kaiu_Gorobei = Personality(
@@ -52,10 +52,10 @@ Kaiu_Gorobei = Personality(
     traits=[],
     abilities=[],
     legality=[
-        OnyxEdition,
         ModernEdition,
         IvoryEdition,
-        EmperorEdition,
         TwentyFestivalsEdition,
+        EmperorEdition,
+        OnyxEdition,
     ],
 )

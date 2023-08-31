@@ -32,7 +32,7 @@ Moshi_Ikako_Experienced = Personality(
     keywords=[Naval, Reserve, Unique, Air, Daimyo, Experienced("1"), Fire, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Moshi_Karuiko = Personality(
     id=12129,
@@ -46,7 +46,7 @@ Moshi_Karuiko = Personality(
     keywords=[Shugenja, SoulOf("Moshi Kamiya"), Thunder],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Tsuruchi_Arayo = Personality(
     id=12130,
@@ -60,7 +60,7 @@ Tsuruchi_Arayo = Personality(
     keywords=[Samurai, SoulOf("Tsuruchi Amaya")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Tsuruchi_Jinrai = Personality(
     id=12131,
@@ -74,7 +74,7 @@ Tsuruchi_Jinrai = Personality(
     keywords=[Magistrate, Samurai, SoulOf("Tsuruchi Jougo")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Yoritomo_Juriken = Personality(
     id=12132,
@@ -88,7 +88,7 @@ Yoritomo_Juriken = Personality(
     keywords=[Kensai, Naval, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Yoritomo_Kuniken = Personality(
     id=12133,
@@ -102,7 +102,7 @@ Yoritomo_Kuniken = Personality(
     keywords=[Naval, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Yoritomo_Matsuo_Experienced = Personality(
     id=12134,
@@ -116,7 +116,7 @@ Yoritomo_Matsuo_Experienced = Personality(
     keywords=[Kensai, Naval, Unique, Experienced("1"), Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Yoritomo_Minoro = Personality(
     id=12135,
@@ -130,7 +130,7 @@ Yoritomo_Minoro = Personality(
     keywords=[Magistrate, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Yoritomo_Nintai = Personality(
     id=12136,
@@ -144,7 +144,7 @@ Yoritomo_Nintai = Personality(
     keywords=[Kensai, Naval, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Yoritomo_Saitsuko = Personality(
     id=12137,
@@ -158,7 +158,7 @@ Yoritomo_Saitsuko = Personality(
     keywords=[Kensai, Naval, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Yoritomo_Tsuhime = Personality(
     id=12138,
@@ -172,7 +172,7 @@ Yoritomo_Tsuhime = Personality(
     keywords=[Naval, Magistrate, Samurai, SoulOf("Yoritomo Eriko")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Yoritomo_Waito = Personality(
     id=12139,
@@ -186,5 +186,5 @@ Yoritomo_Waito = Personality(
     keywords=[Commander, Samurai, SoulOf("Yoritomo Iwata")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

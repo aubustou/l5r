@@ -29,7 +29,7 @@ Bayushi_Atsuto = Personality(
     keywords=[Conqueror, Courtier, Samurai, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Bayushi_Yasunari = Personality(
     id=11599,
@@ -43,7 +43,7 @@ Bayushi_Yasunari = Personality(
     keywords=[Samurai, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Shosuro_Kiyofumi = Personality(
     id=11600,
@@ -57,7 +57,7 @@ Shosuro_Kiyofumi = Personality(
     keywords=[Resilient, Ninja, Scout],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Shosuro_Yasumasa = Personality(
     id=11601,
@@ -71,7 +71,7 @@ Shosuro_Yasumasa = Personality(
     keywords=[Courtier],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Soshi_Kitaiko = Personality(
     id=11602,
@@ -85,7 +85,7 @@ Soshi_Kitaiko = Personality(
     keywords=[Air, Courtier, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Yogo_Gingo = Personality(
     id=11603,
@@ -99,5 +99,5 @@ Yogo_Gingo = Personality(
     keywords=[Cavalry, Reserve, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )

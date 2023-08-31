@@ -22,5 +22,5 @@ Shune = Personality(
     keywords=[Duelist, Kenku, Nonhuman],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition, CelestialEdition],
+    legality=[TwentyFestivalsEdition, CelestialEdition, ModernEdition, OnyxEdition],
 )

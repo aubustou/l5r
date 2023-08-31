@@ -28,7 +28,7 @@ Kitsune_Gorikki = Personality(
     keywords=[Expendable, Earth, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Kitsune_Yoshioka = Personality(
     id=11908,
@@ -42,7 +42,7 @@ Kitsune_Yoshioka = Personality(
     keywords=[Earth, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Tsuruchi_Satou = Personality(
     id=11911,
@@ -56,7 +56,7 @@ Tsuruchi_Satou = Personality(
     keywords=[Samurai, Scout, TheMaskedWasp],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Yoritomo_Nishigori = Personality(
     id=11910,
@@ -70,7 +70,7 @@ Yoritomo_Nishigori = Personality(
     keywords=[Naval, Magistrate, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Yoritomo_Raiden = Personality(
     id=11912,
@@ -84,7 +84,7 @@ Yoritomo_Raiden = Personality(
     keywords=[Naval, Kolat, Pirate],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Yoritomo_Yakuwa = Personality(
     id=11913,
@@ -98,5 +98,5 @@ Yoritomo_Yakuwa = Personality(
     keywords=[Naval, Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )

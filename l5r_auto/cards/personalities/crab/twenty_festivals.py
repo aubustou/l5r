@@ -35,7 +35,7 @@ Hida_Taisho = Personality(
     keywords=[Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Hida_Zaiburo = Personality(
     id=12082,
@@ -49,7 +49,7 @@ Hida_Zaiburo = Personality(
     keywords=[Conqueror, Berserker],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Hiruma_Raikohime = Personality(
     id=12083,
@@ -63,7 +63,7 @@ Hiruma_Raikohime = Personality(
     keywords=[Resilient, Magistrate, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kaiu_Burei = Personality(
     id=12084,
@@ -77,7 +77,7 @@ Kaiu_Burei = Personality(
     keywords=[Samurai, Siege],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kaiu_Daikohime = Personality(
     id=12085,
@@ -91,7 +91,7 @@ Kaiu_Daikohime = Personality(
     keywords=[Samurai, Siege],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kaiu_Watsuki_Experienced = Personality(
     id=12086,
@@ -105,7 +105,7 @@ Kaiu_Watsuki_Experienced = Personality(
     keywords=[Loyal, Tactician, Unique, Daimyo, Experienced("1"), Samurai, Siege],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kuni_Chutsu = Personality(
     id=12087,
@@ -119,7 +119,7 @@ Kuni_Chutsu = Personality(
     keywords=[Earth, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kuni_Harakibi = Personality(
     id=12088,
@@ -133,7 +133,7 @@ Kuni_Harakibi = Personality(
     keywords=[Earth, Shugenja, WitchHunter],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kuni_Renyu_Experienced_3 = Personality(
     id=12089,
@@ -157,7 +157,7 @@ Kuni_Renyu_Experienced_3 = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kuni_Yairao = Personality(
     id=12090,
@@ -171,5 +171,5 @@ Kuni_Yairao = Personality(
     keywords=[Commander, Earth, Shugenja, SoulOf("Kuni Iyedo")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

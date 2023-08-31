@@ -38,7 +38,7 @@ Agasha_Shikeno = Personality(
     keywords=[Air, Alchemist, Fire, Shugenja, SoulOf("Asako Hoshimi")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Agasha_Tameko = Personality(
     id=12141,
@@ -52,7 +52,7 @@ Agasha_Tameko = Personality(
     keywords=[Commander, Shugenja, SoulOf("Agasha Tomioko"), Water],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Asako_Hiribe = Personality(
     id=12142,
@@ -66,7 +66,7 @@ Asako_Hiribe = Personality(
     keywords=[Earth, Inquisitor, Magistrate, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Asako_Tsunefusa_Experienced = Personality(
     id=12143,
@@ -89,7 +89,7 @@ Asako_Tsunefusa_Experienced = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Isawa_Akime = Personality(
     id=12144,
@@ -103,7 +103,7 @@ Isawa_Akime = Personality(
     keywords=[Air, Artisan, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Isawa_Haruge = Personality(
     id=12145,
@@ -117,7 +117,7 @@ Isawa_Haruge = Personality(
     keywords=[Earth, Shugenja, SoulOf("Isawa Itsuoko")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Isawa_Kageharu = Personality(
     id=12146,
@@ -131,7 +131,7 @@ Isawa_Kageharu = Personality(
     keywords=[Loyal, Naval, Shugenja, SoulOf("Isawa Mizuhiko"), Water],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Isawa_Mochiko = Personality(
     id=12147,
@@ -145,7 +145,7 @@ Isawa_Mochiko = Personality(
     keywords=[Cavalry, Shugenja, SoulOf("Isawa Tanaka"), Water],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Isawa_Uzuyumi_Experienced = Personality(
     id=12148,
@@ -159,7 +159,7 @@ Isawa_Uzuyumi_Experienced = Personality(
     keywords=[Naval, Unique, Commander, Experienced("1"), Shugenja, Water],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Shiba_Danjiro = Personality(
     id=12149,
@@ -173,7 +173,7 @@ Shiba_Danjiro = Personality(
     keywords=[Samurai, SoulOf("Shiba Morihiko"), Yojimbo],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Shiba_Kiyomichi = Personality(
     id=12150,
@@ -187,5 +187,5 @@ Shiba_Kiyomichi = Personality(
     keywords=[Duelist, Samurai, SoulOf("Shiba Sakishi"), Yojimbo],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

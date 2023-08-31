@@ -27,7 +27,7 @@ Ide_Aragaki = Personality(
     keywords=[Courtier, Merchant],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Ide_Kosaka = Personality(
     id=11782,
@@ -41,7 +41,7 @@ Ide_Kosaka = Personality(
     keywords=[Courtier, Merchant],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Moto_Erdene = Personality(
     id=11783,
@@ -55,7 +55,7 @@ Moto_Erdene = Personality(
     keywords=[Expendable, DeathPriest, Shugenja, Water],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Moto_Qorin = Personality(
     id=11784,
@@ -69,7 +69,7 @@ Moto_Qorin = Personality(
     keywords=[Cavalry, DeathPriest, Shugenja, Water],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Shinjo_Ajasu_Topaz_Champion = Personality(
     id=11785,
@@ -83,7 +83,7 @@ Shinjo_Ajasu_Topaz_Champion = Personality(
     keywords=[Cavalry, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Utaku_Saiken = Personality(
     id=11786,
@@ -97,5 +97,5 @@ Utaku_Saiken = Personality(
     keywords=[Samurai, StableMaster],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )

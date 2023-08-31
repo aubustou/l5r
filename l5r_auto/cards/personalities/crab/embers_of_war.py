@@ -22,7 +22,7 @@ Hiruma_Moritoki = Personality(
     keywords=[Samurai, Scholar, Scout],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, EmperorEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition, EmperorEdition],
 )
 Yasuki_Makoto = Personality(
     id=9449,
@@ -36,5 +36,5 @@ Yasuki_Makoto = Personality(
     keywords=[Courtier, Kolat, Merchant],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, EmperorEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition, EmperorEdition],
 )

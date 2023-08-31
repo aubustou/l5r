@@ -24,10 +24,10 @@ Sasada = Personality(
     traits=[],
     abilities=[],
     legality=[
-        ModernEdition,
         SamuraiEdition,
+        ModernEdition,
         IvoryEdition,
-        TwentyFestivalsEdition,
         LotusEdition,
+        TwentyFestivalsEdition,
     ],
 )

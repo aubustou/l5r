@@ -27,7 +27,7 @@ Hida_Toranosuke_Experienced = Personality(
     keywords=[Resilient, Experienced("1"), Jade, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kaiu_Gizen = Personality(
     id=12285,
@@ -41,7 +41,7 @@ Kaiu_Gizen = Personality(
     keywords=[Destined, Samurai, Siege],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kaiu_Otogou = Personality(
     id=12286,
@@ -55,7 +55,7 @@ Kaiu_Otogou = Personality(
     keywords=[Samurai, Siege],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kuni_Igarasu = Personality(
     id=12287,
@@ -69,7 +69,7 @@ Kuni_Igarasu = Personality(
     keywords=[Earth, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kuni_Soseki = Personality(
     id=12288,
@@ -83,7 +83,7 @@ Kuni_Soseki = Personality(
     keywords=[Resilient, Earth, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Toritaka_Suppon = Personality(
     id=12289,
@@ -97,5 +97,5 @@ Toritaka_Suppon = Personality(
     keywords=[Samurai, TheMaskedTortoise],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

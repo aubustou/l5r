@@ -23,7 +23,7 @@ Togashi_Korimi = Personality(
     keywords=[Earth, Monk, SoulOf("Togashi Oki"), Tattooed],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, EmperorEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition, EmperorEdition],
 )
 Togashi_Tsukagi = Personality(
     id=8591,
@@ -37,5 +37,5 @@ Togashi_Tsukagi = Personality(
     keywords=[Monk, SoulOf("Togashi Akagi"), Tattooed, Void],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, EmperorEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, EmperorEdition, OnyxEdition],
 )

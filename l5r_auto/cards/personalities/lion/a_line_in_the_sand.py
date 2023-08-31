@@ -17,7 +17,7 @@ Akodo_Niito = Personality(
     keywords=[Resilient, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Ikoma_Akinari = Personality(
     id=11581,
@@ -31,7 +31,7 @@ Ikoma_Akinari = Personality(
     keywords=[Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Ikoma_Genichi = Personality(
     id=11582,
@@ -45,7 +45,7 @@ Ikoma_Genichi = Personality(
     keywords=[Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Kitsu_Junsuke = Personality(
     id=11583,
@@ -59,7 +59,7 @@ Kitsu_Junsuke = Personality(
     keywords=[Shugenja, Water],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Kitsu_Watanabe = Personality(
     id=11584,
@@ -73,7 +73,7 @@ Kitsu_Watanabe = Personality(
     keywords=[Shugenja, Water],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Matsu_Rishou = Personality(
     id=11585,
@@ -87,5 +87,5 @@ Matsu_Rishou = Personality(
     keywords=[Deathseeker, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )

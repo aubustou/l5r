@@ -35,7 +35,7 @@ Agasha_Dorai = Personality(
     keywords=[Air, Alchemist, Shugenja, Void],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Asako_Misai = Personality(
     id=12471,
@@ -49,7 +49,7 @@ Asako_Misai = Personality(
     keywords=[Earth, Inquisitor, Magistrate, Shugenja, TheMaskedPhoenix],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Isawa_Bikaru = Personality(
     id=12472,
@@ -63,7 +63,7 @@ Isawa_Bikaru = Personality(
     keywords=[Resilient, Shugenja, Water],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Isawa_Hokaiko = Personality(
     id=12473,
@@ -77,7 +77,7 @@ Isawa_Hokaiko = Personality(
     keywords=[Shugenja, Water],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Isawa_Norimichi_Elemental_Master_Experienced_2 = Personality(
     id=12474,
@@ -91,7 +91,7 @@ Isawa_Norimichi_Elemental_Master_Experienced_2 = Personality(
     keywords=[Experienced("2"), Loyal, Unique, Earth, Jade, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Shiba_Kakei_Experienced = Personality(
     id=12475,
@@ -105,5 +105,5 @@ Shiba_Kakei_Experienced = Personality(
     keywords=[Cavalry, Experienced("1"), Samurai, Void, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

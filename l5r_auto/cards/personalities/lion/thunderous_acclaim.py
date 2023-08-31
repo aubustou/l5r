@@ -29,7 +29,7 @@ Akodo_Kano_Master_Tactician_Experienced_2 = Personality(
     keywords=[Experienced("2"), Tactician, Unique, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Akodo_Naotaka = Personality(
     id=12303,
@@ -43,7 +43,7 @@ Akodo_Naotaka = Personality(
     keywords=[Duelist, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Akodo_Toshigure = Personality(
     id=12304,
@@ -57,7 +57,7 @@ Akodo_Toshigure = Personality(
     keywords=[Duelist, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Ikoma_Kiyomako = Personality(
     id=12305,
@@ -71,7 +71,7 @@ Ikoma_Kiyomako = Personality(
     keywords=[Resilient, Magistrate, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Matsu_Hideyuki = Personality(
     id=12306,
@@ -85,7 +85,7 @@ Matsu_Hideyuki = Personality(
     keywords=[Reserve, Beastmaster, Commander, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Matsu_Kaori = Personality(
     id=12307,
@@ -99,5 +99,5 @@ Matsu_Kaori = Personality(
     keywords=[Beastmaster, Commander, Samurai, ScionOfStone],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

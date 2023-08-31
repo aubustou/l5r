@@ -32,7 +32,7 @@ Kitsune_Narako = Personality(
     keywords=[Destined, Earth, Prophetess, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Moshi_Kyan = Personality(
     id=12309,
@@ -46,7 +46,7 @@ Moshi_Kyan = Personality(
     keywords=[Resilient, Shugenja, Thunder],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Tsuruchi_Akira = Personality(
     id=12310,
@@ -60,7 +60,7 @@ Tsuruchi_Akira = Personality(
     keywords=[Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Yoritomo_Kinshikirai = Personality(
     id=12311,
@@ -74,7 +74,7 @@ Yoritomo_Kinshikirai = Personality(
     keywords=[Naval, Magistrate, Samurai, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Yoritomo_Kyunan = Personality(
     id=12312,
@@ -88,7 +88,7 @@ Yoritomo_Kyunan = Personality(
     keywords=[Kensai, Reserve, Artisan, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Yoritomo_Minoko = Personality(
     id=12313,
@@ -102,5 +102,5 @@ Yoritomo_Minoko = Personality(
     keywords=[Kensai, Naga, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

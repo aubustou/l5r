@@ -34,7 +34,7 @@ Iuchi_Daitoru = Personality(
     keywords=[Magistrate, Shugenja, Water],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Moto_Aikenro = Personality(
     id=12182,
@@ -48,7 +48,7 @@ Moto_Aikenro = Personality(
     keywords=[Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Moto_Taigo_Shogun_Experienced_2 = Personality(
     id=12183,
@@ -71,7 +71,7 @@ Moto_Taigo_Shogun_Experienced_2 = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Moto_Yaotsu = Personality(
     id=12184,
@@ -85,7 +85,7 @@ Moto_Yaotsu = Personality(
     keywords=[Cavalry, Commander, Samurai, SoulOf("Moto Qu Yuan")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Moto_Zaitsuta = Personality(
     id=12185,
@@ -99,7 +99,7 @@ Moto_Zaitsuta = Personality(
     keywords=[Cavalry, Chieftain, Samurai, SoulOf("Moto Zhijuan")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Shinjo_Hamura = Personality(
     id=12186,
@@ -113,7 +113,7 @@ Shinjo_Hamura = Personality(
     keywords=[Magistrate, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Shinjo_Jalendu = Personality(
     id=12187,
@@ -127,7 +127,7 @@ Shinjo_Jalendu = Personality(
     keywords=[Cavalry, Samurai, Scout, SoulOf("Shinjo Jalair")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Shinjo_Jaoshen = Personality(
     id=12188,
@@ -141,7 +141,7 @@ Shinjo_Jaoshen = Personality(
     keywords=[Cavalry, Loyal, Magistrate, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Shinjo_Nobunaga = Personality(
     id=12189,
@@ -155,7 +155,7 @@ Shinjo_Nobunaga = Personality(
     keywords=[Cavalry, SoulOf("Shinjo Xushen")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Shinjo_Taehyun_Experienced = Personality(
     id=12190,
@@ -169,7 +169,7 @@ Shinjo_Taehyun_Experienced = Personality(
     keywords=[Cavalry, Unique, Experienced("1"), Magistrate, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Shinjo_Zhitae = Personality(
     id=12191,
@@ -183,7 +183,7 @@ Shinjo_Zhitae = Personality(
     keywords=[Cavalry, Commander, Samurai, SoulOf("Shinjo Ji-tae")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Utaku_Kazue = Personality(
     id=12192,
@@ -197,5 +197,5 @@ Utaku_Kazue = Personality(
     keywords=[Cavalry, BattleMaiden, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

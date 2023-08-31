@@ -25,7 +25,7 @@ Akenohoshi_the_Dancer = Personality(
     keywords=[Artisan, Geisha, MaiMaster],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Harukaze_the_Confidant = Personality(
     id=11611,
@@ -39,7 +39,7 @@ Harukaze_the_Confidant = Personality(
     keywords=[Artisan, Geisha],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Momiji_the_Madam = Personality(
     id=11612,
@@ -53,7 +53,7 @@ Momiji_the_Madam = Personality(
     keywords=[Artisan, Geisha, Merchant],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Natsumi_the_Socialite = Personality(
     id=11613,
@@ -67,7 +67,7 @@ Natsumi_the_Socialite = Personality(
     keywords=[Artisan, Courtier, Geisha],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Oboro_the_Liar = Personality(
     id=11614,
@@ -81,7 +81,7 @@ Oboro_the_Liar = Personality(
     keywords=[Artisan, Geisha, Kolat, SilkenSect],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Suzune_the_Coy = Personality(
     id=11615,
@@ -95,5 +95,5 @@ Suzune_the_Coy = Personality(
     keywords=[Artisan, Geisha],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )

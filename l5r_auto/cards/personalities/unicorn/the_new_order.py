@@ -32,7 +32,7 @@ Ide_Hideshi_Topaz_Champion = Personality(
     keywords=[Cavalry, Courtier, Merchant],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Ide_Igo = Personality(
     id=11939,
@@ -46,7 +46,7 @@ Ide_Igo = Personality(
     keywords=[Courtier, Merchant],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Moto_Chizura = Personality(
     id=11942,
@@ -60,7 +60,7 @@ Moto_Chizura = Personality(
     keywords=[Conqueror, DeathPriest, Hatamoto, Shugenja, Water],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Moto_Nergui = Personality(
     id=11940,
@@ -74,7 +74,7 @@ Moto_Nergui = Personality(
     keywords=[Cavalry, DeathPriest, ScionOfTheVoid, Shugenja, Void, Water],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Moto_Tadasu = Personality(
     id=11941,
@@ -88,7 +88,7 @@ Moto_Tadasu = Personality(
     keywords=[Cavalry, Commander, Samurai, Zealot],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Shinjo_Saeki = Personality(
     id=11943,
@@ -102,5 +102,5 @@ Shinjo_Saeki = Personality(
     keywords=[Cavalry, Magistrate, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )

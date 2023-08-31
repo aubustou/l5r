@@ -27,7 +27,7 @@ Mirumoto_Hitomi_Seven_Thunder_Experienced_2CW = Personality(
     keywords=[Duelist, Experienced("2CW"), Loyal, Unique, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Togashi_Yokuni_Kami_Experienced_2CW = Personality(
     id=12643,
@@ -50,5 +50,5 @@ Togashi_Yokuni_Kami_Experienced_2CW = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

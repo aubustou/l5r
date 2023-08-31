@@ -31,7 +31,7 @@ Kitsune_Beiko = Personality(
     keywords=[Earth, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Moshi_Raiko = Personality(
     id=11753,
@@ -45,7 +45,7 @@ Moshi_Raiko = Personality(
     keywords=[Naval, LadyOfTheSun, Shugenja, Thunder],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Tsuruchi_Hikari = Personality(
     id=11754,
@@ -59,7 +59,7 @@ Tsuruchi_Hikari = Personality(
     keywords=[Reserve, Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Tsuruchi_Yashiro_Defender_of_the_Obsidian_Blades_Experienced = Personality(
     id=11755,
@@ -73,7 +73,7 @@ Tsuruchi_Yashiro_Defender_of_the_Obsidian_Blades_Experienced = Personality(
     keywords=[Unique, Experienced("1"), Jade, Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Yoritomo_Shotsuo = Personality(
     id=11756,
@@ -87,7 +87,7 @@ Yoritomo_Shotsuo = Personality(
     keywords=[Naval, Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Yoritomo_Yusuke = Personality(
     id=11757,
@@ -101,5 +101,5 @@ Yoritomo_Yusuke = Personality(
     keywords=[Kolat, Magistrate, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )

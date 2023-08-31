@@ -22,5 +22,5 @@ Tsuruchi_Gosho = Personality(
     keywords=[Naval, Reserve, Samurai, Scout, Thunder],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition, CelestialEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, CelestialEdition, ModernEdition],
 )

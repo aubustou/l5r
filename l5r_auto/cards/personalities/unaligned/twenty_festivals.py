@@ -37,7 +37,7 @@ Air_Dragon_Experienced_3 = Personality(
     keywords=[Cavalry, Experienced("3"), Unique, Air, Dragon, Nonhuman, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Earth_Dragon_Experienced_2 = Personality(
     id=12172,
@@ -51,7 +51,7 @@ Earth_Dragon_Experienced_2 = Personality(
     keywords=[Cavalry, Experienced("2"), Unique, Dragon, Earth, Nonhuman, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Fire_Dragon_Experienced_3 = Personality(
     id=12173,
@@ -65,7 +65,7 @@ Fire_Dragon_Experienced_3 = Personality(
     keywords=[Cavalry, Experienced("3"), Unique, Dragon, Fire, Nonhuman, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Haikitsu = Personality(
     id=12174,
@@ -79,7 +79,7 @@ Haikitsu = Personality(
     keywords=[Magistrate, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kungan = Personality(
     id=12175,
@@ -93,7 +93,7 @@ Kungan = Personality(
     keywords=[Shugenja, Void],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Moto_Daigoro = Personality(
     id=12176,
@@ -107,7 +107,7 @@ Moto_Daigoro = Personality(
     keywords=[Cavalry, Nonhuman, Samurai, Shadowlands, Undead],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Otomo_Terumoto = Personality(
     id=12177,
@@ -121,7 +121,7 @@ Otomo_Terumoto = Personality(
     keywords=[Courtier, Samurai, SoulOf("Otomo Taneji")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Tonbo_Jairyu = Personality(
     id=12178,
@@ -135,7 +135,7 @@ Tonbo_Jairyu = Personality(
     keywords=[Naval, DragonflyClan, Shugenja, Water],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Void_Dragon_Experienced_3 = Personality(
     id=12179,
@@ -149,7 +149,7 @@ Void_Dragon_Experienced_3 = Personality(
     keywords=[Cavalry, Experienced("3"), Unique, Dragon, Nonhuman, Shugenja, Void],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Water_Dragon_Experienced_3 = Personality(
     id=12180,
@@ -163,5 +163,5 @@ Water_Dragon_Experienced_3 = Personality(
     keywords=[Cavalry, Experienced("3"), Unique, Dragon, Nonhuman, Shugenja, Water],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

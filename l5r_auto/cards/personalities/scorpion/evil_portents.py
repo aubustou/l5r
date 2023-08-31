@@ -34,7 +34,7 @@ Bayushi_Chiyoda = Personality(
     keywords=[Kensai, BitterLies, Samurai, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Bayushi_Kanihime = Personality(
     id=12477,
@@ -48,7 +48,7 @@ Bayushi_Kanihime = Personality(
     keywords=[Duelist, Resilient, Ninja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Bayushi_Shenlao = Personality(
     id=12478,
@@ -62,7 +62,7 @@ Bayushi_Shenlao = Personality(
     keywords=[Kensai, Resilient, BitterLies, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Shosuro_Kayo_Experienced = Personality(
     id=12479,
@@ -76,7 +76,7 @@ Shosuro_Kayo_Experienced = Personality(
     keywords=[Experienced("1"), Ninja, Samurai, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Shosuro_Ozu = Personality(
     id=12480,
@@ -90,7 +90,7 @@ Shosuro_Ozu = Personality(
     keywords=[Duelist, Expendable, Ninja, Spy],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Yogo_Mizoguchi = Personality(
     id=12481,
@@ -104,5 +104,5 @@ Yogo_Mizoguchi = Personality(
     keywords=[Air, Courtier, Kuroiban, Magistrate, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

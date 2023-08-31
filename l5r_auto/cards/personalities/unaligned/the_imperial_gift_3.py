@@ -22,7 +22,7 @@ Seasoned_Ronin = Personality(
     keywords=[Ronin, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition, CelestialEdition],
+    legality=[TwentyFestivalsEdition, CelestialEdition, ModernEdition, OnyxEdition],
 )
 Tarui = Personality(
     id=7821,
@@ -36,5 +36,5 @@ Tarui = Personality(
     keywords=[Duelist, Ronin, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition, CelestialEdition],
+    legality=[TwentyFestivalsEdition, CelestialEdition, ModernEdition, OnyxEdition],
 )

@@ -33,7 +33,7 @@ Kitsuki_Akito = Personality(
     keywords=[Expendable, Courtier, Magistrate],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kitsuki_Mizukabe = Personality(
     id=12297,
@@ -47,7 +47,7 @@ Kitsuki_Mizukabe = Personality(
     keywords=[Resilient, Courtier, Magistrate],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Mirumoto_Higaru_Experienced = Personality(
     id=12298,
@@ -61,7 +61,7 @@ Mirumoto_Higaru_Experienced = Personality(
     keywords=[Duelist, Kensai, Experienced("1"), Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Tamori_Hirakura = Personality(
     id=12299,
@@ -75,7 +75,7 @@ Tamori_Hirakura = Personality(
     keywords=[Resilient, Commander, Earth, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Tamori_Mabasu = Personality(
     id=12300,
@@ -89,7 +89,7 @@ Tamori_Mabasu = Personality(
     keywords=[Tactician, Commander, Earth, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Togashi_Tameko = Personality(
     id=12301,
@@ -103,5 +103,5 @@ Togashi_Tameko = Personality(
     keywords=[Fire, Monk, Tattooed],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

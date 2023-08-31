@@ -22,5 +22,5 @@ Soshi_Kodanshi = Personality(
     keywords=[Ninja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, EmperorEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, EmperorEdition, OnyxEdition],
 )

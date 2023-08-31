@@ -33,7 +33,7 @@ Hida_Ayameko = Personality(
     keywords=[Tactician, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Hida_Kenjiro = Personality(
     id=11888,
@@ -47,7 +47,7 @@ Hida_Kenjiro = Personality(
     keywords=[Kensai, LordOfBlades, Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Hida_OWin = Personality(
     id=11885,
@@ -61,7 +61,7 @@ Hida_OWin = Personality(
     keywords=[Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Hiruma_Toshi = Personality(
     id=11886,
@@ -75,7 +75,7 @@ Hiruma_Toshi = Personality(
     keywords=[Ninja, Samurai, Scout, TheMaskedCrab],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Kaiu_Akemi_the_Diplomat = Personality(
     id=11887,
@@ -89,7 +89,7 @@ Kaiu_Akemi_the_Diplomat = Personality(
     keywords=[Courtier, LoveLetter, Samurai, Siege],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Yasuki_Makoto_Imperial_Advisor_Experienced = Personality(
     id=11889,
@@ -103,5 +103,5 @@ Yasuki_Makoto_Imperial_Advisor_Experienced = Personality(
     keywords=[Unique, Courtier, Experienced("1"), Imperial, Kolat, Merchant],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )

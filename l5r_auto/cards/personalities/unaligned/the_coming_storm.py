@@ -33,7 +33,7 @@ Aikiren = Personality(
     keywords=[Ronin],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Oneiyara = Personality(
     id=11777,
@@ -47,7 +47,7 @@ Oneiyara = Personality(
     keywords=[Duelist, Kensai, Ronin],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Patairaku_no_Oni = Personality(
     id=11778,
@@ -61,7 +61,7 @@ Patairaku_no_Oni = Personality(
     keywords=[Nonhuman, Oni, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Seppun_Teshan = Personality(
     id=11779,
@@ -75,7 +75,7 @@ Seppun_Teshan = Personality(
     keywords=[Air, Courtier, HiddenGuard, Imperial, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Zenathaar = Personality(
     id=11780,
@@ -89,5 +89,5 @@ Zenathaar = Personality(
     keywords=[Naga, Nonhuman, Savior, Scout, WarriorOfTheBrightEye],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )

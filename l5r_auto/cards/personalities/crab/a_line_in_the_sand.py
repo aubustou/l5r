@@ -43,7 +43,7 @@ Hida_Kozan_Voice_of_the_Empress = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Hida_Kurima = Personality(
     id=11563,
@@ -57,7 +57,7 @@ Hida_Kurima = Personality(
     keywords=[Conqueror, Resilient, Berserker],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Hiruma_Daizen = Personality(
     id=11564,
@@ -71,7 +71,7 @@ Hiruma_Daizen = Personality(
     keywords=[Resilient, Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Kuni_Araizen = Personality(
     id=11565,
@@ -85,7 +85,7 @@ Kuni_Araizen = Personality(
     keywords=[Earth, Jade, Scout, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Yasuki_Hora = Personality(
     id=11566,
@@ -99,7 +99,7 @@ Yasuki_Hora = Personality(
     keywords=[Courtier, Merchant],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Yasuki_Nakura = Personality(
     id=11567,
@@ -113,5 +113,5 @@ Yasuki_Nakura = Personality(
     keywords=[Courtier, Merchant],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )

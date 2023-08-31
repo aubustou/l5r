@@ -33,7 +33,7 @@ Bayushi_Akane = Personality(
     keywords=[Courtier, SoulOf("Bayushi Kurumi")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Bayushi_Dakatsu = Personality(
     id=11211,
@@ -47,7 +47,7 @@ Bayushi_Dakatsu = Personality(
     keywords=[Magistrate, Samurai, SoulOf("Shosuro Takagi"), Yojimbo],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Bayushi_Masashi = Personality(
     id=11212,
@@ -61,7 +61,7 @@ Bayushi_Masashi = Personality(
     keywords=[Samurai, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Bayushi_Meiko = Personality(
     id=11213,
@@ -75,7 +75,7 @@ Bayushi_Meiko = Personality(
     keywords=[Courtier, Samurai, SoulOf("Bayushi Maemi")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Bayushi_Nitoshi_the_Poison_Mask_Experienced_2 = Personality(
     id=11214,
@@ -100,7 +100,7 @@ Bayushi_Nitoshi_the_Poison_Mask_Experienced_2 = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Bayushi_Shizuka = Personality(
     id=11215,
@@ -114,7 +114,7 @@ Bayushi_Shizuka = Personality(
     keywords=[Courtier, Samurai, SoulOf("Bayushi Saya")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Shosuro_Hotaka = Personality(
     id=11216,
@@ -128,7 +128,7 @@ Shosuro_Hotaka = Personality(
     keywords=[Destined, Courtier],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Shosuro_Keiichi = Personality(
     id=11217,
@@ -142,7 +142,7 @@ Shosuro_Keiichi = Personality(
     keywords=[Ninja, Samurai, SoulOf("Shosuro Osamito")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Shosuro_Tagiso = Personality(
     id=11218,
@@ -156,7 +156,7 @@ Shosuro_Tagiso = Personality(
     keywords=[Ninja, Samurai, SoulOf("Shosuro Hihiko")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Shosuro_Tosaku = Personality(
     id=11219,
@@ -170,5 +170,5 @@ Shosuro_Tosaku = Personality(
     keywords=[Samurai, SoulOf("Bayushi Tai"), Spy],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )

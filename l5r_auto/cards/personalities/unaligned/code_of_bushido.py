@@ -24,10 +24,10 @@ Minikui_no_Oni = Personality(
     traits=[],
     abilities=[],
     legality=[
-        ModernEdition,
         DiamondEdition,
+        ModernEdition,
         IvoryEdition,
-        TwentyFestivalsEdition,
         LotusEdition,
+        TwentyFestivalsEdition,
     ],
 )

@@ -17,5 +17,5 @@ Doji_Hoturi_Seven_Thunder_Experienced_2CW = Personality(
     keywords=[Duelist, Experienced("2CW"), Loyal, Unique, ClanChampion, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

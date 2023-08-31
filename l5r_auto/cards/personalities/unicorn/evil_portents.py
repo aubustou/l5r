@@ -30,7 +30,7 @@ Moto_Chinua_Experienced = Personality(
     keywords=[Cavalry, Experienced("1"), Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Moto_Daiketsu = Personality(
     id=12494,
@@ -44,7 +44,7 @@ Moto_Daiketsu = Personality(
     keywords=[Cavalry, Naval, DeathPriest, Shugenja, Water],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Moto_Jengzan = Personality(
     id=12495,
@@ -58,7 +58,7 @@ Moto_Jengzan = Personality(
     keywords=[Resilient, Commander, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Shinjo_Dogenda = Personality(
     id=12496,
@@ -72,7 +72,7 @@ Shinjo_Dogenda = Personality(
     keywords=[Magistrate, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Shinjo_Megura = Personality(
     id=12497,
@@ -86,7 +86,7 @@ Shinjo_Megura = Personality(
     keywords=[Cavalry, Destined, Magistrate, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Utaku_Yabusame = Personality(
     id=12498,
@@ -100,5 +100,5 @@ Utaku_Yabusame = Personality(
     keywords=[Cavalry, BattleMaiden, Commander, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

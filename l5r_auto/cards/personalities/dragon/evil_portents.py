@@ -30,7 +30,7 @@ Kitsuki_Goshi = Personality(
     keywords=[Destined, Courtier, Magistrate],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kitsuki_Goto = Personality(
     id=12453,
@@ -44,7 +44,7 @@ Kitsuki_Goto = Personality(
     keywords=[Resilient, Courtier, Magistrate],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Mirumoto_Konoe = Personality(
     id=12454,
@@ -58,7 +58,7 @@ Mirumoto_Konoe = Personality(
     keywords=[Duelist, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Sannin = Personality(
     id=12455,
@@ -72,7 +72,7 @@ Sannin = Personality(
     keywords=[Monk, Tattooed],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Tamori_Daiishu_Experienced = Personality(
     id=12456,
@@ -86,7 +86,7 @@ Tamori_Daiishu_Experienced = Personality(
     keywords=[Commander, Earth, Experienced("1"), Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Tamori_Gaitsuru = Personality(
     id=12457,
@@ -100,5 +100,5 @@ Tamori_Gaitsuru = Personality(
     keywords=[Destined, Resilient, Commander, Earth, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

@@ -31,7 +31,7 @@ Akuma_no_Obake = Personality(
     keywords=[Nonhuman, Oni, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Keisho = Personality(
     id=12489,
@@ -45,7 +45,7 @@ Keisho = Personality(
     keywords=[Resilient, Ashigaru, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Tetsuo_Experienced_2 = Personality(
     id=12490,
@@ -59,7 +59,7 @@ Tetsuo_Experienced_2 = Personality(
     keywords=[Conqueror, Experienced("2"), Kensai, Unique, Monk],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 The_Crimson_Mountain_Oni = Personality(
     id=12491,
@@ -73,7 +73,7 @@ The_Crimson_Mountain_Oni = Personality(
     keywords=[Resilient, Nonhuman, Oni, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Umikaiju = Personality(
     id=12492,
@@ -87,5 +87,5 @@ Umikaiju = Personality(
     keywords=[Naval, Nonhuman, Oni, Shadowlands, Water],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

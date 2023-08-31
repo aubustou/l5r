@@ -29,7 +29,7 @@ Daidoji_Ryushi = Personality(
     keywords=[Reserve, Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Daidoji_Sutebo = Personality(
     id=11735,
@@ -43,7 +43,7 @@ Daidoji_Sutebo = Personality(
     keywords=[Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Doji_Natsuyo = Personality(
     id=11736,
@@ -57,7 +57,7 @@ Doji_Natsuyo = Personality(
     keywords=[Courtier],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Kakita_Burei = Personality(
     id=11737,
@@ -71,7 +71,7 @@ Kakita_Burei = Personality(
     keywords=[Duelist, Artisan, Braggart, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Kakita_Jikeru = Personality(
     id=11738,
@@ -85,7 +85,7 @@ Kakita_Jikeru = Personality(
     keywords=[Artisan, Courtier, Jester],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Kakita_Mitohime = Personality(
     id=11739,
@@ -99,5 +99,5 @@ Kakita_Mitohime = Personality(
     keywords=[Destined, Duelist, Imperial, Magistrate, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )

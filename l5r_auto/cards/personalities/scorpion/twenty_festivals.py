@@ -35,7 +35,7 @@ Bayushi_Junko = Personality(
     keywords=[Courtier, Intimidator, SoulOf("Bayushi Jou")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Bayushi_Katsue = Personality(
     id=12152,
@@ -49,7 +49,7 @@ Bayushi_Katsue = Personality(
     keywords=[Courtier, Samurai, SoulOf("Bayushi Shigeru")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Bayushi_Manora = Personality(
     id=12153,
@@ -63,7 +63,7 @@ Bayushi_Manora = Personality(
     keywords=[Kensai, BitterLies, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Bayushi_Saikaku = Personality(
     id=12154,
@@ -77,7 +77,7 @@ Bayushi_Saikaku = Personality(
     keywords=[Kensai, BitterLies, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Bayushi_Sunetsu = Personality(
     id=12155,
@@ -91,7 +91,7 @@ Bayushi_Sunetsu = Personality(
     keywords=[Samurai, SoulOf("Bayushi Sunetra")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Bayushi_Toshimo_Experienced = Personality(
     id=12156,
@@ -105,7 +105,7 @@ Bayushi_Toshimo_Experienced = Personality(
     keywords=[Kensai, Unique, BitterLies, Experienced("1"), Samurai, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Shosuro_Longji = Personality(
     id=12157,
@@ -119,7 +119,7 @@ Shosuro_Longji = Personality(
     keywords=[Duelist, Ninja, SoulOf("Shosuro Aroru")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Shosuro_Saigyo = Personality(
     id=12158,
@@ -133,7 +133,7 @@ Shosuro_Saigyo = Personality(
     keywords=[Duelist, Ninja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Shosuro_Sakura = Personality(
     id=12159,
@@ -147,7 +147,7 @@ Shosuro_Sakura = Personality(
     keywords=[Duelist, Loyal, Unique, Alchemist, Ninja, PoisonMaster, Seductress],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Soshi_Rei = Personality(
     id=12160,
@@ -161,5 +161,5 @@ Soshi_Rei = Personality(
     keywords=[Air, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

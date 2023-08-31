@@ -31,7 +31,7 @@ Daidoji_Kuraou = Personality(
     keywords=[IronCrane, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Doji_Buredo = Personality(
     id=12291,
@@ -45,7 +45,7 @@ Doji_Buredo = Personality(
     keywords=[Magistrate, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Doji_Hoshihana = Personality(
     id=12292,
@@ -59,7 +59,7 @@ Doji_Hoshihana = Personality(
     keywords=[Artisan, Courtier, Poet, Storyteller],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Doji_Moro = Personality(
     id=12293,
@@ -73,7 +73,7 @@ Doji_Moro = Personality(
     keywords=[Resilient, Magistrate, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kakita_Iwari = Personality(
     id=12294,
@@ -87,7 +87,7 @@ Kakita_Iwari = Personality(
     keywords=[Expendable, Artisan, Courtier, Spy],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kakita_Shinichi_Experienced = Personality(
     id=12295,
@@ -101,5 +101,5 @@ Kakita_Shinichi_Experienced = Personality(
     keywords=[Duelist, Resilient, Experienced("1"), Samurai, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

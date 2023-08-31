@@ -32,11 +32,11 @@ Asako_Misora = Personality(
     traits=[],
     abilities=[],
     legality=[
-        OnyxEdition,
         ModernEdition,
         IvoryEdition,
-        EmperorEdition,
         TwentyFestivalsEdition,
+        EmperorEdition,
+        OnyxEdition,
     ],
 )
 Isawa_Ikariya = Personality(
@@ -52,10 +52,10 @@ Isawa_Ikariya = Personality(
     traits=[],
     abilities=[],
     legality=[
-        OnyxEdition,
         ModernEdition,
         IvoryEdition,
-        EmperorEdition,
         TwentyFestivalsEdition,
+        EmperorEdition,
+        OnyxEdition,
     ],
 )

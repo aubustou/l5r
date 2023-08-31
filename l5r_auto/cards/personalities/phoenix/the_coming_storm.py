@@ -28,7 +28,7 @@ Isawa_Genma = Personality(
     keywords=[Cavalry, Air, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Isawa_Kaname_Advisor_to_the_Ruby_Champion_Experienced = Personality(
     id=11759,
@@ -42,7 +42,7 @@ Isawa_Kaname_Advisor_to_the_Ruby_Champion_Experienced = Personality(
     keywords=[Unique, Experienced("1"), Fire, Magistrate, Shugenja, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Isawa_Kido = Personality(
     id=11760,
@@ -56,7 +56,7 @@ Isawa_Kido = Personality(
     keywords=[Air, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Isawa_Muira = Personality(
     id=11761,
@@ -70,7 +70,7 @@ Isawa_Muira = Personality(
     keywords=[Conqueror, Fire, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Shiba_Kakei = Personality(
     id=11762,
@@ -84,7 +84,7 @@ Shiba_Kakei = Personality(
     keywords=[Cavalry, Samurai, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Shiba_Yuuchi = Personality(
     id=11763,
@@ -98,5 +98,5 @@ Shiba_Yuuchi = Personality(
     keywords=[Samurai, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )

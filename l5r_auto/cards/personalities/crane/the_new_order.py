@@ -29,7 +29,7 @@ Daidoji_Nozomi = Personality(
     keywords=[Cavalry, Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Daidoji_Tomomi = Personality(
     id=11890,
@@ -43,7 +43,7 @@ Daidoji_Tomomi = Personality(
     keywords=[Conqueror, Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Daidoji_Yurei = Personality(
     id=11895,
@@ -57,7 +57,7 @@ Daidoji_Yurei = Personality(
     keywords=[Duelist, Samurai, ScourgeOfDarkness],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Doji_Shimada = Personality(
     id=11893,
@@ -71,7 +71,7 @@ Doji_Shimada = Personality(
     keywords=[Magistrate, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Doji_Takato_the_Manipulator = Personality(
     id=11892,
@@ -85,7 +85,7 @@ Doji_Takato_the_Manipulator = Personality(
     keywords=[Courtier, LoveLetter, Orator],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Kakita_Daitsu = Personality(
     id=11894,
@@ -99,5 +99,5 @@ Kakita_Daitsu = Personality(
     keywords=[Duelist, Kensai, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )

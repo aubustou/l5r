@@ -31,7 +31,7 @@ Asako_Kazuki = Personality(
     keywords=[Resilient, Earth, Inquisitor, Magistrate, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Asako_Nashimoto = Personality(
     id=12315,
@@ -45,7 +45,7 @@ Asako_Nashimoto = Personality(
     keywords=[Resilient, Earth, Inquisitor, Magistrate, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Isawa_Fujisawa = Personality(
     id=12316,
@@ -59,7 +59,7 @@ Isawa_Fujisawa = Personality(
     keywords=[Reserve, Scholar, Shugenja, Water],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Isawa_Hibana_Experienced = Personality(
     id=12317,
@@ -73,7 +73,7 @@ Isawa_Hibana_Experienced = Personality(
     keywords=[Experienced("1"), Fire, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Isawa_Nobuo = Personality(
     id=12318,
@@ -87,7 +87,7 @@ Isawa_Nobuo = Personality(
     keywords=[Expendable, Shugenja, Water],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Shiba_Hano = Personality(
     id=12319,
@@ -101,5 +101,5 @@ Shiba_Hano = Personality(
     keywords=[Samurai, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

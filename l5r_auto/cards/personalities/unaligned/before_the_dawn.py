@@ -24,10 +24,10 @@ Komori_Taruko = Personality(
     traits=[],
     abilities=[],
     legality=[
+        CelestialEdition,
         ModernEdition,
         IvoryEdition,
-        EmperorEdition,
         TwentyFestivalsEdition,
-        CelestialEdition,
+        EmperorEdition,
     ],
 )

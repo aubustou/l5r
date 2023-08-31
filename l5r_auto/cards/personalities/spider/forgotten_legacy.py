@@ -24,10 +24,10 @@ Ninube_Shiho = Personality(
     traits=[],
     abilities=[],
     legality=[
+        CelestialEdition,
         ModernEdition,
         IvoryEdition,
-        EmperorEdition,
         TwentyFestivalsEdition,
-        CelestialEdition,
+        EmperorEdition,
     ],
 )

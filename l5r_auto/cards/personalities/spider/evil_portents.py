@@ -31,7 +31,7 @@ Daigotsu_Aimaro = Personality(
     keywords=[Duelist, Samurai, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Daigotsu_Endo_Experienced = Personality(
     id=12483,
@@ -45,7 +45,7 @@ Daigotsu_Endo_Experienced = Personality(
     keywords=[Destined, Experienced("1"), Nonhuman, Samurai, Shadowlands, Undead],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Daigotsu_Yuhmi_Experienced_2 = Personality(
     id=12484,
@@ -59,7 +59,7 @@ Daigotsu_Yuhmi_Experienced_2 = Personality(
     keywords=[Experienced("2"), Unique, Infiltrator, Nonhuman, Samurai, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Goju_Iaitsu = Personality(
     id=12485,
@@ -73,7 +73,7 @@ Goju_Iaitsu = Personality(
     keywords=[Ninja, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Goju_Toriken = Personality(
     id=12486,
@@ -87,7 +87,7 @@ Goju_Toriken = Personality(
     keywords=[Conqueror, Ninja, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Hikayo = Personality(
     id=12487,
@@ -101,5 +101,5 @@ Hikayo = Personality(
     keywords=[Resilient, Nonhuman, Ogre, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

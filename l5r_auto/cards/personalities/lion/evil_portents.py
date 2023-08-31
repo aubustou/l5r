@@ -28,7 +28,7 @@ Akodo_Misaka = Personality(
     keywords=[Duelist, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Ikoma_Morita = Personality(
     id=12459,
@@ -42,7 +42,7 @@ Ikoma_Morita = Personality(
     keywords=[Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Matsu_Akio = Personality(
     id=12460,
@@ -56,7 +56,7 @@ Matsu_Akio = Personality(
     keywords=[Duelist, Tactician, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Matsu_Takeuchi = Personality(
     id=12461,
@@ -70,7 +70,7 @@ Matsu_Takeuchi = Personality(
     keywords=[Cavalry, Beastmaster, Commander, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Matsu_Tayuko_Experienced = Personality(
     id=12462,
@@ -84,7 +84,7 @@ Matsu_Tayuko_Experienced = Personality(
     keywords=[Experienced("1"), Paragon, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Matsu_Yamamura = Personality(
     id=12463,
@@ -98,5 +98,5 @@ Matsu_Yamamura = Personality(
     keywords=[Beastmaster, Commander, Samurai, ScionOfTheWind],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

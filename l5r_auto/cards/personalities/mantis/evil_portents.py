@@ -32,7 +32,7 @@ Moshi_Chiyoko = Personality(
     keywords=[Fire, Shugenja, Thunder],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Moshi_Nariko = Personality(
     id=12465,
@@ -46,7 +46,7 @@ Moshi_Nariko = Personality(
     keywords=[Naval, Air, Shugenja, Thunder],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Tsuruchi_Kinuyo = Personality(
     id=12466,
@@ -60,7 +60,7 @@ Tsuruchi_Kinuyo = Personality(
     keywords=[Destined, Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Tsuruchi_Taito_Experienced = Personality(
     id=12467,
@@ -74,7 +74,7 @@ Tsuruchi_Taito_Experienced = Personality(
     keywords=[Naval, BountyHunter, Experienced("1"), Magistrate, Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Yoritomo_Honjo = Personality(
     id=12468,
@@ -88,7 +88,7 @@ Yoritomo_Honjo = Personality(
     keywords=[Kensai, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Yoritomo_Tamiya = Personality(
     id=12469,
@@ -102,5 +102,5 @@ Yoritomo_Tamiya = Personality(
     keywords=[Kensai, Naval, Mercenary, Samurai, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

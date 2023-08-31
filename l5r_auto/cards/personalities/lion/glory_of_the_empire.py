@@ -24,10 +24,10 @@ Matsu_Misato = Personality(
     traits=[],
     abilities=[],
     legality=[
-        ModernEdition,
         SamuraiEdition,
+        CelestialEdition,
+        ModernEdition,
         IvoryEdition,
         TwentyFestivalsEdition,
-        CelestialEdition,
     ],
 )

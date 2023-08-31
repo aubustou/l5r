@@ -32,7 +32,7 @@ Kitsune_Kohaki = Personality(
     keywords=[Earth, Kitsune, Nonhuman, Shugenja, Spirit],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, EmperorEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition, EmperorEdition],
 )
 Moshi_Yokohime = Personality(
     id=5290,
@@ -46,5 +46,5 @@ Moshi_Yokohime = Personality(
     keywords=[Naval, Shugenja, SoulOf("Moshi Yuriko"), Thunder],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, EmperorEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, EmperorEdition, OnyxEdition],
 )

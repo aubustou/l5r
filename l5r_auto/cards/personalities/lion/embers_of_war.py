@@ -22,5 +22,5 @@ Kitsu_Miro = Personality(
     keywords=[Shugenja, SodanSenzo, Water],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, EmperorEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition, EmperorEdition],
 )

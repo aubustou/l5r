@@ -24,10 +24,10 @@ Chaldera = Personality(
     traits=[],
     abilities=[],
     legality=[
-        OnyxEdition,
-        ModernEdition,
         GoldEdition,
-        TwentyFestivalsEdition,
         DiamondEdition,
+        ModernEdition,
+        TwentyFestivalsEdition,
+        OnyxEdition,
     ],
 )

@@ -33,7 +33,7 @@ Daigotsu_Geiko = Personality(
     keywords=[Samurai, SoulOf("Daigotsu Keigo")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Daigotsu_Kanpeki_the_Shadow_Emperor_Experienced_3 = Personality(
     id=11221,
@@ -58,7 +58,7 @@ Daigotsu_Kanpeki_the_Shadow_Emperor_Experienced_3 = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Daigotsu_Konishi = Personality(
     id=11222,
@@ -72,7 +72,7 @@ Daigotsu_Konishi = Personality(
     keywords=[Samurai, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Daigotsu_Onosaka = Personality(
     id=11223,
@@ -86,7 +86,7 @@ Daigotsu_Onosaka = Personality(
     keywords=[Samurai, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Daigotsu_Roburo = Personality(
     id=11224,
@@ -100,7 +100,7 @@ Daigotsu_Roburo = Personality(
     keywords=[Paragon, Samurai, Shadowlands, SoulOf("Daigotsu Bundoru")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Hiyamako = Personality(
     id=11225,
@@ -114,7 +114,7 @@ Hiyamako = Personality(
     keywords=[Kensai, Monk],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Susumu_Neya = Personality(
     id=11226,
@@ -128,7 +128,7 @@ Susumu_Neya = Personality(
     keywords=[Courtier, Orator],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Susumu_Yanada = Personality(
     id=11227,
@@ -142,7 +142,7 @@ Susumu_Yanada = Personality(
     keywords=[Courtier],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Tairao = Personality(
     id=11228,
@@ -156,5 +156,5 @@ Tairao = Personality(
     keywords=[Shadowlands, Shugenja, SoulOf("Chuda Rintaro")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )

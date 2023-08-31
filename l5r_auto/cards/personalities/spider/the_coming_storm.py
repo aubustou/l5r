@@ -27,7 +27,7 @@ Daigotsu_Atsushi = Personality(
     keywords=[Duelist, Expendable, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Daigotsu_Teruo = Personality(
     id=11771,
@@ -41,7 +41,7 @@ Daigotsu_Teruo = Personality(
     keywords=[Expendable, Samurai, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Nao = Personality(
     id=11772,
@@ -55,7 +55,7 @@ Nao = Personality(
     keywords=[Kensai, Monk],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Sora = Personality(
     id=11773,
@@ -69,7 +69,7 @@ Sora = Personality(
     keywords=[Kensai, Monk],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Susumu_Mizuki = Personality(
     id=11774,
@@ -83,7 +83,7 @@ Susumu_Mizuki = Personality(
     keywords=[Reserve, Courtier],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Susumu_Takuan = Personality(
     id=11775,
@@ -97,5 +97,5 @@ Susumu_Takuan = Personality(
     keywords=[Courtier, Imperial],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )

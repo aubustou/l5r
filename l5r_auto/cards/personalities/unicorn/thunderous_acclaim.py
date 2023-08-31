@@ -27,7 +27,7 @@ Moto_Baatar = Personality(
     keywords=[Cavalry, Reserve, Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Shinjo_Chairei = Personality(
     id=12338,
@@ -41,7 +41,7 @@ Shinjo_Chairei = Personality(
     keywords=[Magistrate, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Shinjo_Tsungmin = Personality(
     id=12339,
@@ -55,7 +55,7 @@ Shinjo_Tsungmin = Personality(
     keywords=[Cavalry, Reserve, Commander, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Utaku_Masako = Personality(
     id=12340,
@@ -69,7 +69,7 @@ Utaku_Masako = Personality(
     keywords=[Cavalry, BattleMaiden, Commander, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Utaku_Sakiko_Experienced = Personality(
     id=12341,
@@ -91,7 +91,7 @@ Utaku_Sakiko_Experienced = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Utaku_Zo_Sia = Personality(
     id=12342,
@@ -105,5 +105,5 @@ Utaku_Zo_Sia = Personality(
     keywords=[Cavalry],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

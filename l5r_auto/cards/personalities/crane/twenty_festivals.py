@@ -36,7 +36,7 @@ Asahina_Hirakane = Personality(
     keywords=[Air, Shugenja, SoulOf("Asahina Minori")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Daidoji_Hiroteru = Personality(
     id=12092,
@@ -50,7 +50,7 @@ Daidoji_Hiroteru = Personality(
     keywords=[IronCrane, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Daidoji_Taenaru = Personality(
     id=12093,
@@ -64,7 +64,7 @@ Daidoji_Taenaru = Personality(
     keywords=[Samurai, SoulOf("Daidoji Tae")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Doji_Masachika = Personality(
     id=12094,
@@ -78,7 +78,7 @@ Doji_Masachika = Personality(
     keywords=[Expendable, Magistrate, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Doji_Norime = Personality(
     id=12095,
@@ -92,7 +92,7 @@ Doji_Norime = Personality(
     keywords=[Magistrate, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Doji_Senkiku = Personality(
     id=12096,
@@ -106,7 +106,7 @@ Doji_Senkiku = Personality(
     keywords=[Magistrate, Samurai, SoulOf("Doji Hitomaro")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Doji_Tashihime = Personality(
     id=12097,
@@ -120,7 +120,7 @@ Doji_Tashihime = Personality(
     keywords=[Artisan, Poet, SoulOf("Doji Nukada")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kakita_Akitomo = Personality(
     id=12098,
@@ -134,7 +134,7 @@ Kakita_Akitomo = Personality(
     keywords=[Artisan, Courtier, Jester],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kakita_Hikai = Personality(
     id=12099,
@@ -148,7 +148,7 @@ Kakita_Hikai = Personality(
     keywords=[Expendable, Artisan, Courtier, Jester],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kakita_Ikura = Personality(
     id=12100,
@@ -162,7 +162,7 @@ Kakita_Ikura = Personality(
     keywords=[Loyal, Unique, Artisan, Courtier, Cursed, Daimyo],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kakita_Mitsumichi = Personality(
     id=12101,
@@ -176,7 +176,7 @@ Kakita_Mitsumichi = Personality(
     keywords=[Duelist, Samurai, SoulOf("Kakita Yariga")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kakita_Ujirou_Experienced = Personality(
     id=12102,
@@ -190,5 +190,5 @@ Kakita_Ujirou_Experienced = Personality(
     keywords=[Duelist, Reserve, Unique, Experienced("1"), Magistrate, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

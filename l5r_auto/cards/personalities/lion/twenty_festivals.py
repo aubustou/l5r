@@ -34,7 +34,7 @@ Akodo_Eirasu = Personality(
     keywords=[Deathseeker, Hero, Samurai, SoulOf("Akodo Ebiro")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Akodo_Hio = Personality(
     id=12115,
@@ -48,7 +48,7 @@ Akodo_Hio = Personality(
     keywords=[Beastmaster, Samurai, SoulOf("Akodo Michio")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Akodo_Kenaro_Experienced = Personality(
     id=12116,
@@ -62,7 +62,7 @@ Akodo_Kenaro_Experienced = Personality(
     keywords=[Duelist, Tactician, Unique, Experienced("1"), Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Akodo_Naikiru = Personality(
     id=12117,
@@ -76,7 +76,7 @@ Akodo_Naikiru = Personality(
     keywords=[Tactician, Governor, Samurai, SoulOf("Akodo Nakama")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Akodo_Shaido = Personality(
     id=12118,
@@ -90,7 +90,7 @@ Akodo_Shaido = Personality(
     keywords=[Duelist, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Akodo_Taiketsu = Personality(
     id=12119,
@@ -104,7 +104,7 @@ Akodo_Taiketsu = Personality(
     keywords=[Duelist, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Ikoma_Noritsu = Personality(
     id=12120,
@@ -118,7 +118,7 @@ Ikoma_Noritsu = Personality(
     keywords=[Tactician, Samurai, SoulOf("Ikoma Tatsunori")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Ikoma_Sairei = Personality(
     id=12121,
@@ -132,7 +132,7 @@ Ikoma_Sairei = Personality(
     keywords=[Paragon, Samurai, SoulOf("Ikoma Sido")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Matsu_Ataruko = Personality(
     id=12122,
@@ -146,7 +146,7 @@ Matsu_Ataruko = Personality(
     keywords=[Beastmaster, Commander, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Matsu_Chizuki = Personality(
     id=12123,
@@ -160,7 +160,7 @@ Matsu_Chizuki = Personality(
     keywords=[Conqueror, Loyal, Unique, Beastmaster, Commander, Daimyo, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Matsu_Iairimi = Personality(
     id=12124,
@@ -174,7 +174,7 @@ Matsu_Iairimi = Personality(
     keywords=[Hero, Samurai, SoulOf("Matsu Mari")],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Matsu_Karoko = Personality(
     id=12125,
@@ -188,7 +188,7 @@ Matsu_Karoko = Personality(
     keywords=[Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Matsu_Keiasu = Personality(
     id=12126,
@@ -202,7 +202,7 @@ Matsu_Keiasu = Personality(
     keywords=[Cavalry, Beastmaster, Commander, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Matsu_Seijuko = Personality(
     id=12127,
@@ -216,5 +216,5 @@ Matsu_Seijuko = Personality(
     keywords=[Duelist, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

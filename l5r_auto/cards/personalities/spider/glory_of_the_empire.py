@@ -24,10 +24,10 @@ Daigotsu_Zenshi = Personality(
     traits=[],
     abilities=[],
     legality=[
-        OnyxEdition,
-        ModernEdition,
         SamuraiEdition,
-        TwentyFestivalsEdition,
         CelestialEdition,
+        ModernEdition,
+        TwentyFestivalsEdition,
+        OnyxEdition,
     ],
 )

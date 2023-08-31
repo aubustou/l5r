@@ -24,10 +24,10 @@ Toritaka_Iabuchi = Personality(
     traits=[],
     abilities=[],
     legality=[
-        OnyxEdition,
         ModernEdition,
         IvoryEdition,
-        EmperorEdition,
         TwentyFestivalsEdition,
+        EmperorEdition,
+        OnyxEdition,
     ],
 )

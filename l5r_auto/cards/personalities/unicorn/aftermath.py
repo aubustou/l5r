@@ -31,11 +31,11 @@ Moto_Paikao = Personality(
     traits=[],
     abilities=[],
     legality=[
-        OnyxEdition,
         ModernEdition,
         IvoryEdition,
-        EmperorEdition,
         TwentyFestivalsEdition,
+        EmperorEdition,
+        OnyxEdition,
     ],
 )
 Utaku_Sakiko = Personality(
@@ -51,10 +51,10 @@ Utaku_Sakiko = Personality(
     traits=[],
     abilities=[],
     legality=[
-        OnyxEdition,
         ModernEdition,
         IvoryEdition,
-        EmperorEdition,
         TwentyFestivalsEdition,
+        EmperorEdition,
+        OnyxEdition,
     ],
 )

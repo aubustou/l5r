@@ -22,5 +22,5 @@ Isawa_Hibana = Personality(
     keywords=[Fire, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, EmperorEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition, EmperorEdition],
 )

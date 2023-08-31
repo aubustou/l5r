@@ -30,7 +30,7 @@ Ashigaru_Gunso = Personality(
     keywords=[Ashigaru, Commander],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Banished_Experienced = Personality(
     id=12333,
@@ -44,7 +44,7 @@ Banished_Experienced = Personality(
     keywords=[Resilient, Experienced("1"), Ishiken, Ronin, Shugenja, Void],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kenturo = Personality(
     id=12334,
@@ -58,7 +58,7 @@ Kenturo = Personality(
     keywords=[Ashigaru, Scout],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Seppun_Omihiru = Personality(
     id=12335,
@@ -72,7 +72,7 @@ Seppun_Omihiru = Personality(
     keywords=[Imperial, Magistrate, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Venerable_Spirit = Personality(
     id=12336,
@@ -86,5 +86,5 @@ Venerable_Spirit = Personality(
     keywords=[Ashigaru, Spirit],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

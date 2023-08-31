@@ -40,7 +40,7 @@ Daigotsu_Atsushi_Experienced = Personality(
     keywords=[Duelist, Unique, Experienced("1"), Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Daigotsu_Hachiko = Personality(
     id=12162,
@@ -54,7 +54,7 @@ Daigotsu_Hachiko = Personality(
     keywords=[Duelist, Reserve, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Daigotsu_Hayigi = Personality(
     id=12163,
@@ -68,7 +68,7 @@ Daigotsu_Hayigi = Personality(
     keywords=[BogHag, Infiltrator, Nonhuman, Shadowlands, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Daigotsu_Shaoru = Personality(
     id=12164,
@@ -82,7 +82,7 @@ Daigotsu_Shaoru = Personality(
     keywords=[Duelist, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Goju_Kumoru = Personality(
     id=12165,
@@ -96,7 +96,7 @@ Goju_Kumoru = Personality(
     keywords=[Ninja, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Goju_Mitsuru = Personality(
     id=12166,
@@ -110,7 +110,7 @@ Goju_Mitsuru = Personality(
     keywords=[Reserve, Ninja, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Goju_Yurishi_Experienced_2 = Personality(
     id=12167,
@@ -124,7 +124,7 @@ Goju_Yurishi_Experienced_2 = Personality(
     keywords=[Experienced("2"), Unique, Daimyo, DragonChild, Ninja, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Kokujin_Gunjao = Personality(
     id=12168,
@@ -138,7 +138,7 @@ Kokujin_Gunjao = Personality(
     keywords=[Duelist, Monk, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Naibu = Personality(
     id=12169,
@@ -152,7 +152,7 @@ Naibu = Personality(
     keywords=[Expendable, Commander, Goblin, Nonhuman, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 The_Twisted_One = Personality(
     id=12170,
@@ -166,5 +166,5 @@ The_Twisted_One = Personality(
     keywords=[Ninja, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

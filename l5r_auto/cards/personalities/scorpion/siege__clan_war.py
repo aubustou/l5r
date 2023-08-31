@@ -33,5 +33,5 @@ Bayushi_Kachiko_Seven_Thunder_Experienced_2CW = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

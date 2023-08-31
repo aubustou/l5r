@@ -39,7 +39,7 @@ Chuda_Teraiko = Personality(
     keywords=[Shadowlands, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Daigotsu_Kanpeki_Unleashed_Experienced_4 = Personality(
     id=12327,
@@ -64,7 +64,7 @@ Daigotsu_Kanpeki_Unleashed_Experienced_4 = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Daigotsu_Onita = Personality(
     id=12328,
@@ -78,7 +78,7 @@ Daigotsu_Onita = Personality(
     keywords=[Duelist, Samurai, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Daigotsu_Tomiyama = Personality(
     id=12329,
@@ -92,7 +92,7 @@ Daigotsu_Tomiyama = Personality(
     keywords=[Duelist, Expendable, Samurai, Shadowlands, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Goju_Kenteiru = Personality(
     id=12330,
@@ -106,7 +106,7 @@ Goju_Kenteiru = Personality(
     keywords=[Cavalry, Ninja, Shadowlands, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )
 Ninube_Aitso = Personality(
     id=12331,
@@ -120,5 +120,5 @@ Ninube_Aitso = Personality(
     keywords=[Ninja, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
 )

@@ -506,6 +506,20 @@ def get_module(type_folder, clan_folder, edition) -> Path:
         return CARD_PATH / type_folder / f'{edition.replace(":", "_").lower()}.py'
 
 
+COMMON_IMPORTS = [
+    ast.ImportFrom(
+        module="__future__",
+        names=[ast.alias(name="annotations", asname=None)],
+        level=0,
+    ),
+    ast.ImportFrom(
+        module="dataclasses",
+        names=[ast.alias(name="dataclass", asname=None)],
+        level=0,
+    ),
+]
+
+
 def get_personalities(cards: list[Card]) -> None:
     personalities = sorted(cards, key=lambda card: card["formattedtitle"])
     assigns_by_clan: dict[str, dict[str, list[ast.Assign]]] = {}
@@ -533,47 +547,64 @@ def get_personalities(cards: list[Card]) -> None:
                 legalities
             )
 
-    for clan, editions in assigns_by_clan.items():
+    imports = [
+        *COMMON_IMPORTS,
+        ast.ImportFrom(
+            module="l5r_auto.card",
+            names=[
+                ast.alias(name="Ability", asname=None),
+                ast.alias(name="Trait", asname=None),
+            ],
+            level=0,
+        ),
+        ast.ImportFrom(
+            module="l5r_auto.cards.personalities.common",
+            names=[ast.alias(name="Personality", asname=None)],
+            level=0,
+        ),
+    ]
+    get_module_ast(
+        "personalities",
+        assigns_by_clan,
+        imports,
+        import_clans,
+        import_keywords,
+        import_legalities,
+    )
+
+
+def get_module_ast(
+    type_: str,
+    ast_objects: dict[str, dict[str, list[ast.Assign]]],
+    imports: list[ast.ImportFrom],
+    import_clans: dict[str, dict[str, set[str]]],
+    import_keywords: dict[str, dict[str, set[str]]],
+    import_legalities: dict[str, dict[str, set[str]]],
+):
+    for clan, editions in ast_objects.items():
         for edition, assigns in editions.items():
-            if (module_path := get_module("personalities", clan, edition)).exists():
+            if (module_path := get_module(type_, clan, edition)).exists():
                 module_ast = ast.parse(module_path.read_text())
             else:
                 module_path.parent.mkdir(exist_ok=True, parents=True)
                 module_ast = ast.Module(
                     body=[
-                        ast.ImportFrom(
-                            module="__future__",
-                            names=[ast.alias(name="annotations", asname=None)],
-                            level=0,
-                        ),
-                        ast.ImportFrom(
-                            module="dataclasses",
-                            names=[ast.alias(name="dataclass", asname=None)],
-                            level=0,
-                        ),
-                        ast.ImportFrom(
-                            module="l5r_auto.card",
-                            names=[
-                                ast.alias(name="Ability", asname=None),
-                                ast.alias(name="Trait", asname=None),
-                            ],
-                            level=0,
-                        ),
-                        ast.ImportFrom(
-                            module="l5r_auto.cards.personalities.common",
-                            names=[ast.alias(name="Personality", asname=None)],
-                            level=0,
-                        ),
+                        *imports,
                     ],
                     type_ignores=[],
                 )
+            module_path.parent.mkdir(exist_ok=True, parents=True)
+            module_ast = ast.Module(
+                body=[
+                    *imports,
+                ],
+                type_ignores=[],
+            )
             if clans := import_clans.get(clan, {}).get(edition, []):
                 module_ast.body.append(
                     ast.ImportFrom(
                         module="l5r_auto.clans",
-                        names=[
-                            ast.alias(name=clan, asname=None) for clan in sorted(clans)
-                        ],
+                        names=[ast.alias(name=clan, asname=None) for clan in clans],
                         level=0,
                     )
                 )
@@ -582,8 +613,7 @@ def get_personalities(cards: list[Card]) -> None:
                     ast.ImportFrom(
                         module="l5r_auto.keywords",
                         names=[
-                            ast.alias(name=keyword, asname=None)
-                            for keyword in sorted(keywords)
+                            ast.alias(name=keyword, asname=None) for keyword in keywords
                         ],
                         level=0,
                     )
@@ -594,7 +624,7 @@ def get_personalities(cards: list[Card]) -> None:
                         module="l5r_auto.legality",
                         names=[
                             ast.alias(name=legality, asname=None)
-                            for legality in sorted(legalities)
+                            for legality in legalities
                         ],
                         level=0,
                     )
@@ -606,7 +636,7 @@ def get_personalities(cards: list[Card]) -> None:
 
             module_path.write_text(ast.unparse(module_ast))
 
-        print(f"Saved {clan} personalities")
+        print(f"Saved {clan} {type_}")
 
 
 if __name__ == "__main__":

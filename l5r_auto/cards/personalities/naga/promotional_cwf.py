@@ -25,9 +25,9 @@ Shabura = Personality(
     abilities=[],
     legality=[
         ModernEdition,
-        JadeEdition,
-        ImperialEdition,
         IvoryEdition,
+        JadeEdition,
         TwentyFestivalsEdition,
+        ImperialEdition,
     ],
 )

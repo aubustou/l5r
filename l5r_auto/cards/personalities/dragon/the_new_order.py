@@ -30,7 +30,7 @@ Mirumoto_Touya = Personality(
     keywords=[Duelist, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Mirumoto_Tsukino = Personality(
     id=11901,
@@ -44,7 +44,7 @@ Mirumoto_Tsukino = Personality(
     keywords=[Destined, Kensai, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Mirumoto_Yoritama = Personality(
     id=11896,
@@ -58,7 +58,7 @@ Mirumoto_Yoritama = Personality(
     keywords=[Kensai, Samurai],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Tamori_Chikyu = Personality(
     id=11898,
@@ -72,7 +72,7 @@ Tamori_Chikyu = Personality(
     keywords=[Courtier, Earth, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Tamori_Daiishu = Personality(
     id=11899,
@@ -86,7 +86,7 @@ Tamori_Daiishu = Personality(
     keywords=[Commander, Earth, Shugenja],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )
 Togashi_Gozato_the_Wise_Monk = Personality(
     id=11900,
@@ -100,5 +100,5 @@ Togashi_Gozato_the_Wise_Monk = Personality(
     keywords=[LoveLetter, Monk, Samurai, Tattooed, Void],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
 )

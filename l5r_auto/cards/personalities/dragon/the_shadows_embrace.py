@@ -22,5 +22,5 @@ Togashi_Kasuru = Personality(
     keywords=[Tactician, Monk, Tattooed, Void],
     traits=[],
     abilities=[],
-    legality=[ModernEdition, EmperorEdition, OnyxEdition, TwentyFestivalsEdition],
+    legality=[TwentyFestivalsEdition, ModernEdition, EmperorEdition, OnyxEdition],
 )
