@@ -130,6 +130,35 @@ class Card(TypedDict):
     clan: list[str]
 
 
+TYPES_TO_AST = {
+    "personality": "Personality",
+    "holding": "Holding",
+    "event": "Event",
+    "stronghold": "Stronghold",
+    "region": "Region",
+    "strategy": "Strategy",
+    "follower": "Follower",
+    "item": "Item",
+    "sensei": "Sensei",
+    "spell": "Spell",
+    "ring": "Ring",
+    "celestial": "Celestial",
+}
+LEGALITY_TO_AST = {
+    "A Brother's Destiny (Ivory Edition)": "IvoryEdition",
+    "A Brother's Destiny (Twenty Festivals)": "TwentyFestivalsEdition",
+    "Age of Conquest (Emperor)": "EmperorEdition",
+    "Age of Enlightenment (Lotus)": "LotusEdition",
+    "Clan Wars (Imperial)": "ImperialEdition",
+    "Destroyer War (Celestial)": "CelestialEdition",
+    "Four Winds (Gold)": "GoldEdition",
+    "Hidden Emperor (Jade)": "JadeEdition",
+    "Race for the Throne (Samurai)": "SamuraiEdition",
+    "Rain of Blood (Diamond)": "DiamondEdition",
+    "Modern": "ModernEdition",
+    "Onyx Edition": "OnyxEdition",
+}
+
 CLAN_KEYWORDS = {
     "Crab": "CrabClan",
     "Crane": "CraneClan",
@@ -148,6 +177,18 @@ FACTION_KEYWORDS = {
     "Spirit": "SpiritFaction",
     "Naga": "NagaFaction",
     "Ratling": "RatlingFaction",
+}
+
+KEYWORDS_TO_REMOVE = {
+    "Crab Clan",
+    "Crane Clan",
+    "Dragon Clan",
+    "Lion Clan",
+    "Mantis Clan",
+    "Phoenix Clan",
+    "Scorpion Clan",
+    "Spider Clan",
+    "Unicorn Clan",
 }
 
 
@@ -169,7 +210,7 @@ def get_clans(card: Card, keywords: list[str] | None) -> list[str]:
 def to_ast(
     card: Card,
 ) -> tuple[ast.Assign | None, list[str] | None, list[str] | None, list[str] | None]:
-    if not (type_to_ast := types_to_ast[card["type"][0].lower()]):
+    if not (type_to_ast := TYPES_TO_AST[card["type"][0].lower()]):
         return None, None, None, None
 
     class_name = to_valid_var_name(card["formattedtitle"])
@@ -199,6 +240,8 @@ def to_ast(
         ("ph", "personal_honor", "int"),
         ("cost", "gold_cost", "int"),
         ("production", "gold_production", "str"),
+        ("startinghonor", "starting_family_honor", "int"),
+        ("strength", "province_strength", "int"),
     ]:
         if key in card:
             value = int(card[key][0]) if type_ == "int" else card[key][0]
@@ -317,30 +360,13 @@ def remove_bold(text: str) -> str:
     return text.replace("<b>", "").replace("</b>", "")
 
 
-types_to_ast = {"personality": "Personality", "holding": "Holding", "event": "Event"}
-legality_to_ast = {
-    "A Brother's Destiny (Ivory Edition)": "IvoryEdition",
-    "A Brother's Destiny (Twenty Festivals)": "TwentyFestivalsEdition",
-    "Age of Conquest (Emperor)": "EmperorEdition",
-    "Age of Enlightenment (Lotus)": "LotusEdition",
-    "Clan Wars (Imperial)": "ImperialEdition",
-    "Destroyer War (Celestial)": "CelestialEdition",
-    "Four Winds (Gold)": "GoldEdition",
-    "Hidden Emperor (Jade)": "JadeEdition",
-    "Race for the Throne (Samurai)": "SamuraiEdition",
-    "Rain of Blood (Diamond)": "DiamondEdition",
-    "Modern": "ModernEdition",
-    "Onyx Edition": "OnyxEdition",
-}
-
-
 def get_legalities(legalities: list[str]) -> list[str]:
     found_legalities = []
     for legality in legalities:
         if legality in found_legalities:
             continue
         found_legalities.append(
-            legality_to_ast[legality],
+            LEGALITY_TO_AST[legality],
         )
     return found_legalities
 
@@ -351,19 +377,6 @@ def get_honor(honor: str) -> int | None:
 
 def to_import(name: str) -> str:
     return "".join(word.capitalize().replace("'", "") for word in name.split(" "))
-
-
-KEYWORDS_TO_REMOVE = {
-    "Crab Clan",
-    "Crane Clan",
-    "Dragon Clan",
-    "Lion Clan",
-    "Mantis Clan",
-    "Phoenix Clan",
-    "Scorpion Clan",
-    "Spider Clan",
-    "Unicorn Clan",
-}
 
 
 def get_keywords(keywords: list[str]) -> tuple[list[str], list[ast.AST]]:
@@ -468,6 +481,7 @@ def main():
     get_card_modules(cards_by_type["personalities"], "personality")
     get_card_modules(cards_by_type["holdings"], "holding")
     get_card_modules(cards_by_type["events"], "event")
+    get_card_modules(cards_by_type["strongholds"], "stronghold")
 
 
 def plural(s: str) -> str:
@@ -581,7 +595,7 @@ def get_module_ast(
                         *COMMON_IMPORTS,
                         ast.ImportFrom(
                             module="common",
-                            names=[ast.alias(name=types_to_ast[type_], asname=None)],
+                            names=[ast.alias(name=TYPES_TO_AST[type_], asname=None)],
                             level=2 if clan else 1,
                         ),
                     ],
@@ -594,7 +608,7 @@ def get_module_ast(
                     *COMMON_IMPORTS,
                     ast.ImportFrom(
                         module="common",
-                        names=[ast.alias(name=types_to_ast[type_], asname=None)],
+                        names=[ast.alias(name=TYPES_TO_AST[type_], asname=None)],
                         level=2 if clan else 1,
                     ),
                 ],

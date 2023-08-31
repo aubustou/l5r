@@ -15,9 +15,9 @@ from l5r_auto.player import Entity
 @dataclass(kw_only=True)
 class Stronghold(Card):
     province_strength: int = field(metadata={"is_written": True})
-    gold_production: int = field(metadata={"is_written": True})
+    gold_production: str = field(metadata={"is_written": True})
     starting_family_honor: int = field(metadata={"is_written": True})
-    clan: type[Clan] = field(metadata={"is_written": True})
+    clan: list[type[Clan]] = field(metadata={"is_written": True})
     traits: list[Trait] = field(default_factory=list, metadata={"is_written": True})
     abilities: list[Ability] = field(
         default_factory=list, metadata={"is_written": True}
