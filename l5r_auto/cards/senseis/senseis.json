@@ -1,0 +1,3797 @@
+[
+    {
+        "playtestname": [
+            "Mahatsu Sensei"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>A Grand Master of the Elements is the rarest and most exceptional of sensei. Those who accept students from the clans are an incredible boon to the entire Empire.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "258"
+                ],
+                "artnumber": [
+                    "17000256"
+                ],
+                "set": [
+                    "Ivory Edition"
+                ],
+                "artist": [
+                    "Diego Gisbert Llorens"
+                ],
+                "printedwithset": [
+                    "Ivory Edition"
+                ],
+                "printimagehash": [
+                    "f6/a0"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "keywords": [
+                    "All Clans"
+                ],
+                "artist": [
+                    "Diego Gisbert Llorens"
+                ],
+                "printimagehash": [
+                    "27/05"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "title": [
+                    "Mahatsu Sensei"
+                ],
+                "type": [
+                    "Sensei"
+                ],
+                "flavor": [
+                    "\"Balance is the essence of all that is. All success, all knowledge, all victory&#8230; it comes from balance.\""
+                ],
+                "number": [
+                    "358"
+                ],
+                "artnumber": [
+                    "17400395"
+                ],
+                "text": [
+                    "Limited, [bow]: Bow your Stronghold to search your discard pile and Fate deck for a Ring, show it, and put it in your hand. Discard a card."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "2",
+        "text": [
+            "<b>Limited, :bow::</b> Bow your Stronghold to search your discard pile and Fate deck for a Ring, show it, and put it in your hand. Discard a card."
+        ],
+        "formattedtitle": "Mahatsu Sensei",
+        "cardid": 11270,
+        "imagehash": "4f/88",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "All Clans"
+        ],
+        "title": [
+            "Mahatsu Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "Kobi Sensei"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"There is much you must learn, if you survive.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "104"
+                ],
+                "artnumber": [
+                    "17200104"
+                ],
+                "set": [
+                    "A Line in the Sand"
+                ],
+                "artist": [
+                    "Steve Argyle"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "4b/41"
+                ],
+                "designer": [
+                    "Jeremy"
+                ],
+                "designernotes": [
+                    "Art - Akodo Kobi, her daisho and Lion Armor set aside, brush in hand, writing cryptic messages on scrolls, while shadowy figures watch in the background, awaiting orders."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Kolat cards have <b>Expendable</b>. Before another player's turn ends, gain a <b>Conspiracy</b> token if he controls no unbowed Personalities. You win the game if you ever have ten Conspiracy tokens.<br>After a Personality is Recruited, you may bow this Sensei to <i>kidnap him</i>; bow him and after the next turn begins, straighten him."
+        ],
+        "story": [
+            "2013 A New Master  - Aaron Barto"
+        ],
+        "strength": [
+            "+0"
+        ],
+        "formattedtitle": "Kobi Sensei",
+        "cardid": 11647,
+        "imagehash": "4b/41",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "All Clans"
+        ],
+        "startinghonor": [
+            "-2"
+        ],
+        "production": [
+            "+0"
+        ],
+        "title": [
+            "Kobi Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Sachina Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Stand proud, my pretties. Tonight you serve the Mantis.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "105"
+                ],
+                "artnumber": [
+                    "17200105"
+                ],
+                "set": [
+                    "A Line in the Sand"
+                ],
+                "artist": [
+                    "Steve Argyle"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "1a/b0"
+                ],
+                "designer": [
+                    "Julien"
+                ],
+                "designernotes": [
+                    "Art Notes - Yoritomo Sachina, lounging on a some fancy silken pillow, surrounded by various geisha in an opulent Geisha house. Should be hanging out with Geisha from Mai Star."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Stronghold has no abilities. Your Geisha enter play for 1 less Gold. <br><b>Interrupt, :bow::</b> After the action shows cards in another player's hand, choose one of them. He may discard it; if he doesn't, he cannot play cards with that title this turn."
+        ],
+        "strength": [
+            "+1"
+        ],
+        "formattedtitle": "Sachina Sensei",
+        "cardid": 11648,
+        "imagehash": "1a/b0",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Crane",
+            "Mantis",
+            "Scorpion"
+        ],
+        "startinghonor": [
+            "+0"
+        ],
+        "production": [
+            "+0"
+        ],
+        "title": [
+            "Sachina Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Versatility Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Certainty will always trump hesitation. Act instantly, before your opponent has the opportunity to do so, and victory is assured.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "106"
+                ],
+                "artnumber": [
+                    "17200106"
+                ],
+                "set": [
+                    "A Line in the Sand"
+                ],
+                "artist": [
+                    "Shen Fei"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "ff/02"
+                ],
+                "designer": [
+                    "Loki"
+                ],
+                "designernotes": [
+                    "Art notes: A Sensei whose teachings focus on the element of surprise."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Increase Fear strength bonuses and penalties from your Courage actions by 1.<br><b>Battle, :bow::</b> Fear 0."
+        ],
+        "strength": [
+            "-1"
+        ],
+        "formattedtitle": "Tanizaki Sensei",
+        "cardid": 11649,
+        "imagehash": "ff/02",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Crab",
+            "Lion",
+            "Spider",
+            "Unicorn"
+        ],
+        "startinghonor": [
+            "-1"
+        ],
+        "production": [
+            "+0"
+        ],
+        "title": [
+            "Tanizaki Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Yung Sensei]"
+        ],
+        "printing": [
+            {
+                "printingid": "1",
+                "number": [
+                    "107"
+                ],
+                "artnumber": [
+                    "17200107"
+                ],
+                "set": [
+                    "A Line in the Sand"
+                ],
+                "artist": [
+                    "Jason Behnke"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "e2/f2"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "Yung Sensei, teaching that everything is part of the Kharmic Wheel."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "The rulebook Kharmic ability is <b>Battle/Open</b> for you, and you may put cards at the bottom of your deck instead of discarding them from that ability. Your Personalities in and out of play have <b>Kharmic</b>.<br><b>Open, :bow::</b> Ignore the Gold cost of your next Kharmic action."
+        ],
+        "strength": [
+            "+0"
+        ],
+        "formattedtitle": "Yung Sensei",
+        "cardid": 11650,
+        "imagehash": "e2/f2",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Dragon",
+            "Phoenix"
+        ],
+        "startinghonor": [
+            "+0"
+        ],
+        "production": [
+            "-1"
+        ],
+        "title": [
+            "Yung Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Kagako Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Draw back the veil between the worlds, cousins, and let our blessed ancestors walk forth.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "157"
+                ],
+                "artnumber": [
+                    "17200157"
+                ],
+                "set": [
+                    "A Line in the Sand"
+                ],
+                "artist": [
+                    "Jason Behnke"
+                ],
+                "printimagehash": [
+                    "46/02"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Ancestors have -1F while attacking. <br><b>Interrupt, :bow:, :g3::</b> After the action Recruits your Lion Clan Shugenja, create a 2F/2C/3PH <b>Lion Clan &#149; Ancestor &#149; Samurai &#149; Spirit</b> Personality and gain 1 Honor."
+        ],
+        "strength": [
+            "-1"
+        ],
+        "formattedtitle": "Kagako Sensei",
+        "cardid": 11700,
+        "imagehash": "46/02",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Lion Clan"
+        ],
+        "startinghonor": [
+            "+0"
+        ],
+        "production": [
+            "+0"
+        ],
+        "title": [
+            "Kagako Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Koiso Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Only fools think they know the truth of fire. Fire is without limit, without consequence.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "158"
+                ],
+                "artnumber": [
+                    "17200158"
+                ],
+                "set": [
+                    "A Line in the Sand"
+                ],
+                "artist": [
+                    "Sam Flegal"
+                ],
+                "printimagehash": [
+                    "56/3a"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "You may only Recruit Personalities and Equip Spells that are Fire.<br><b>Battle, :bow::</b> Destroy your target Fire card. Ranged 3 Attack."
+        ],
+        "strength": [
+            "+0"
+        ],
+        "formattedtitle": "Koiso Sensei",
+        "cardid": 11701,
+        "imagehash": "56/3a",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Phoenix Clan"
+        ],
+        "startinghonor": [
+            "+0"
+        ],
+        "production": [
+            "+0"
+        ],
+        "title": [
+            "Koiso Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Kuroko Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"What does history teach about underestimation?\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "159"
+                ],
+                "artnumber": [
+                    "17200159"
+                ],
+                "set": [
+                    "A Line in the Sand"
+                ],
+                "artist": [
+                    "Glen Osterberger"
+                ],
+                "printimagehash": [
+                    "ae/53"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After a card attacks you or one of its actions resolves, you may discard a Clout token from it to gain 2 Honor.<br><b>Political Open, :bow::</b> Bow your target unbowed Courtier. Give another player's target card a <b>Clout </b>token."
+        ],
+        "strength": [
+            "+0"
+        ],
+        "formattedtitle": "Kuroko Sensei",
+        "cardid": 11702,
+        "imagehash": "ae/53",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Spider Clan"
+        ],
+        "startinghonor": [
+            "+2"
+        ],
+        "production": [
+            "-1"
+        ],
+        "title": [
+            "Kuroko Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Ohsuki Sensei]"
+        ],
+        "printing": [
+            {
+                "printingid": "1",
+                "number": [
+                    "160"
+                ],
+                "artnumber": [
+                    "17200160"
+                ],
+                "set": [
+                    "A Line in the Sand"
+                ],
+                "artist": [
+                    "CalderonStudio"
+                ],
+                "printimagehash": [
+                    "bc/9e"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After your action creates a Spirit, once per turn you may target and bow your unbowed Shugenja to gain 1 Honor.<br><b>Absent Battle, :bow::</b> If there are any attacking enemy units at the current battlefield, bow your target unbowed Shugenja at any location to move your target Spirit Personality at any location there. Straighten him as he moves."
+        ],
+        "strength": [
+            "+0"
+        ],
+        "formattedtitle": "Ohsuki Sensei",
+        "cardid": 11703,
+        "imagehash": "bc/9e",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Mantis Clan"
+        ],
+        "startinghonor": [
+            "+2"
+        ],
+        "production": [
+            "-1"
+        ],
+        "title": [
+            "Ohsuki Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Shibata Sensei 1]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Know the secrets of the land and you shall prosper.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "161"
+                ],
+                "artnumber": [
+                    "17200161"
+                ],
+                "set": [
+                    "A Line in the Sand"
+                ],
+                "artist": [
+                    "Sam Flegal"
+                ],
+                "printimagehash": [
+                    "03/dd"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Recruiting Personalities has a minimum Gold Cost of 5 for you. You may bow your target unbowed Courtier instead of discarding the Imperial Favor for Favor actions."
+        ],
+        "strength": [
+            "+0"
+        ],
+        "formattedtitle": "Shibata Sensei",
+        "cardid": 11704,
+        "imagehash": "03/dd",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Scorpion Clan"
+        ],
+        "startinghonor": [
+            "+0"
+        ],
+        "production": [
+            "+0"
+        ],
+        "title": [
+            "Shibata Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Tadanobu Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The duel is the one truth of the universe. Nothing is as pure as steel.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "162"
+                ],
+                "artnumber": [
+                    "17200162"
+                ],
+                "set": [
+                    "A Line in the Sand"
+                ],
+                "artist": [
+                    "Mark Poole"
+                ],
+                "printimagehash": [
+                    "fe/67"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "You cannot gain Honor from Holdings. After another player refuses your challenge, gain 1 Honor.<br><b>Interrupt, :bow::</b> After you win the action's duel, draw a card."
+        ],
+        "strength": [
+            "+0"
+        ],
+        "formattedtitle": "Tadanobu Sensei",
+        "cardid": 11705,
+        "imagehash": "fe/67",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Crane Clan"
+        ],
+        "startinghonor": [
+            "+0"
+        ],
+        "production": [
+            "+0"
+        ],
+        "title": [
+            "Tadanobu Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Takeru Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Disdain for money is refusing to understand what can be a powerful enemy.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "163"
+                ],
+                "artnumber": [
+                    "17200163"
+                ],
+                "set": [
+                    "A Line in the Sand"
+                ],
+                "artist": [
+                    "Shen Fei"
+                ],
+                "printimagehash": [
+                    "ab/32"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Stronghold has no abilities. After another player resolves an action or trait, or produces gold, from his Holding with a Wealth token, you gain 1 Honor and he may discard the token. <br><b>Economic Open, :bow::</b> Give another player's target Holding a +1GP <b>Wealth </b>token."
+        ],
+        "strength": [
+            "+0"
+        ],
+        "formattedtitle": "Takeru Sensei",
+        "cardid": 11706,
+        "imagehash": "ab/32",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Unicorn Clan"
+        ],
+        "startinghonor": [
+            "+0"
+        ],
+        "production": [
+            "+0"
+        ],
+        "erratum": [
+            "Errata effective 19th May 2015"
+        ],
+        "title": [
+            "Takeru Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Tamoko Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Let them misunderstand us. The earth knows.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "164"
+                ],
+                "artnumber": [
+                    "17200164"
+                ],
+                "set": [
+                    "A Line in the Sand"
+                ],
+                "artist": [
+                    "Llyn Hunter"
+                ],
+                "printimagehash": [
+                    "97/a3"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "You may only Proclaim Shugenja. Your Earth Personalities have +1F while defending.<br><b>Open, :bow::</b> If it is another player's turn and he controls a Personality, gain 2 Honor before this turn ends if you did not lose any Provinces between now and then."
+        ],
+        "strength": [
+            "+2"
+        ],
+        "formattedtitle": "Tamoko Sensei",
+        "cardid": 11707,
+        "imagehash": "97/a3",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Dragon Clan"
+        ],
+        "startinghonor": [
+            "+0"
+        ],
+        "production": [
+            "-1"
+        ],
+        "title": [
+            "Tamoko Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Tsujiken Sensei 1]"
+        ],
+        "printing": [
+            {
+                "printingid": "1",
+                "number": [
+                    "165"
+                ],
+                "artnumber": [
+                    "17200165"
+                ],
+                "set": [
+                    "A Line in the Sand"
+                ],
+                "artist": [
+                    "Mark Poole"
+                ],
+                "printimagehash": [
+                    "70/da"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Stronghold has no abilities or traits. Your non-Courtier Personalities enter play for 1 more Gold. Your Political abilities in and out of play have <b>Economic</b>. Your Iron Mines in and out of play have <b>Market</b>.<br><b>Economic Open, :bow::</b> Target a Holding. After the next time this turn it bows, its controller loses 1 Honor."
+        ],
+        "strength": [
+            "+0"
+        ],
+        "formattedtitle": "Tsujiken Sensei",
+        "cardid": 11708,
+        "imagehash": "70/da",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Crab Clan"
+        ],
+        "startinghonor": [
+            "+0"
+        ],
+        "production": [
+            "+1"
+        ],
+        "erratum": [
+            "Erratum effective 1st October 2014"
+        ],
+        "title": [
+            "Tsujiken Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "updatelog": [
+            {
+                "newdata": {
+                    "legality": [
+                        "A&nbsp;Brother's&nbsp;Destiny&nbsp;(Ivory&nbsp;Edition)",
+                        "A&nbsp;Brother's&nbsp;Destiny&nbsp;(Twenty&nbsp;Festivals)",
+                        "Modern"
+                    ]
+                },
+                "op": "update",
+                "uid": 21069,
+                "uname": "Don Eisele",
+                "olddata": {
+                    "legality": [
+                        "A&nbsp;Brother's&nbsp;Destiny&nbsp;(Ivory&nbsp;Edition)",
+                        "A&nbsp;Brother's&nbsp;Destiny&nbsp;(Twenty&nbsp;Festivals)",
+                        "Modern",
+                        "Modern"
+                    ]
+                },
+                "timestamp": 1634265306528
+            }
+        ],
+        "playtestname": [
+            "[Aranai Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Some choose to call me 'warlord.' I know only that I have seen much of the Colonies, things that few others have seen.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "102"
+                ],
+                "artnumber": [
+                    "17100102"
+                ],
+                "set": [
+                    "The Coming Storm"
+                ],
+                "artist": [
+                    "Jonathan Moore"
+                ],
+                "printimagehash": [
+                    "b3/4a"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Personalities with 3 or more Chi have <b>Tactician</b>. Unless they have the printed Tactician keyword, they do not have the Tactical Advantage ability."
+        ],
+        "strength": [
+            "-1"
+        ],
+        "formattedtitle": "Aranai Sensei",
+        "cardid": 11810,
+        "imagehash": "b3/4a",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Crab",
+            "Lion",
+            "Mantis",
+            "Spider",
+            "Unicorn"
+        ],
+        "startinghonor": [
+            "-1"
+        ],
+        "production": [
+            "+0"
+        ],
+        "title": [
+            "Aranai Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Suikihime Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Those who embrace the Governor's methods possess significant influence.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "103"
+                ],
+                "artnumber": [
+                    "17100103"
+                ],
+                "set": [
+                    "The Coming Storm"
+                ],
+                "artist": [
+                    "Jonathan Moore"
+                ],
+                "printimagehash": [
+                    "d3/61"
+                ],
+                "designer": [
+                    "Loki"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Political Dynasty, :bow::</b> Target a non-Unique Courtier in your Province with a Clan Alignment you do not control. Permanently give him your Clan Alignment. Ignore his Honor Requirement <i>(this turn)</i>."
+        ],
+        "strength": [
+            "+0"
+        ],
+        "formattedtitle": "Suikihime Sensei",
+        "cardid": 11811,
+        "imagehash": "d3/61",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Crane",
+            "Dragon",
+            "Phoenix",
+            "Scorpion"
+        ],
+        "startinghonor": [
+            "+0"
+        ],
+        "production": [
+            "-1"
+        ],
+        "title": [
+            "Suikihime Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "Shika Sensei"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Keep your weapons close at hand. Be mindful of your surroundings. Never lower your guard and you will not fall.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "156"
+                ],
+                "artnumber": [
+                    "173000104"
+                ],
+                "set": [
+                    "The New Order"
+                ],
+                "artist": [
+                    "Rebekah Norris"
+                ],
+                "printedwithset": [
+                    "The New Order"
+                ],
+                "printimagehash": [
+                    "d5/d9"
+                ],
+                "designer": [
+                    "Julien"
+                ],
+                "designernotes": [
+                    "A well known Lion Scout from the Age of exploration."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Interrupt, :bow::</b> After the action Recruits a Ninja or Scout from a Province, refill it face-up."
+        ],
+        "strength": [
+            "-1"
+        ],
+        "formattedtitle": "Shika Sensei",
+        "cardid": 12019,
+        "imagehash": "d5/d9",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Crab",
+            "Crane",
+            "Lion",
+            "Mantis",
+            "Scorpion"
+        ],
+        "startinghonor": [
+            "-1"
+        ],
+        "production": [
+            "+0"
+        ],
+        "title": [
+            "Shika Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "Seppun Tasuke Sensei"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Cloak yourself in honor and no blade can touch you.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "155"
+                ],
+                "artnumber": [
+                    "173000105"
+                ],
+                "set": [
+                    "The New Order"
+                ],
+                "artist": [
+                    "Andy Hepworth"
+                ],
+                "printedwithset": [
+                    "The New Order"
+                ],
+                "printimagehash": [
+                    "3f/3f"
+                ],
+                "designer": [
+                    "Jeremy"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Love Letter Personalities in and out of play have your Clan Alignment and you ignore their Honor Requirement. After your Iweko Miaka is destroyed, you lose the game.<br><b>Open, :bow::</b> Name a number and target another player. After each time his <i>(non-Focused)</i> card with that Focus Value is discarded from hand, gain an Affection token."
+        ],
+        "strength": [
+            "+0"
+        ],
+        "formattedtitle": "Seppun Tasuke",
+        "cardid": 12020,
+        "imagehash": "3f/3f",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "All Clans"
+        ],
+        "startinghonor": [
+            "+0"
+        ],
+        "production": [
+            "-1"
+        ],
+        "erratum": [
+            "Technical erratum to match redefinition of \"discard a card\"."
+        ],
+        "title": [
+            "Seppun Tasuke"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "Temple Sensei"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The wisdom of Shinsei is eternal.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "154"
+                ],
+                "artnumber": [
+                    "173000106"
+                ],
+                "set": [
+                    "The New Order"
+                ],
+                "artist": [
+                    "Llyn Hunter"
+                ],
+                "printedwithset": [
+                    "The New Order"
+                ],
+                "printimagehash": [
+                    "c4/e6"
+                ],
+                "designer": [
+                    "Loki"
+                ],
+                "designernotes": [
+                    "A sensei depicting a monk praying in a temple."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your maximum hand size is equal to 6 plus the number of Temples you control, to a maximum of 10.<br><b>Battle/Open, :bow::</b> Straighten your target Monk or Shugenja."
+        ],
+        "strength": [
+            "+0"
+        ],
+        "formattedtitle": "Brotherhood Sensei",
+        "cardid": 12021,
+        "imagehash": "c4/e6",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Dragon",
+            "Phoenix",
+            "Spider",
+            "Unicorn"
+        ],
+        "startinghonor": [
+            "+0"
+        ],
+        "production": [
+            "-1"
+        ],
+        "title": [
+            "Brotherhood Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "Aroru Sensei"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Nature provides all that we require.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "351"
+                ],
+                "artnumber": [
+                    "17400361"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Jason Juta"
+                ],
+                "printedwithset": [
+                    "Twenty Festivals"
+                ],
+                "printimagehash": [
+                    "04/a1"
+                ],
+                "designer": [
+                    "Jeremy"
+                ],
+                "designernotes": [
+                    "Shosuro Aroru"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Iaijutsu actions you take are Ninja instead. Reduce your Honor losses from your Ninja cards by 2.<br><b>Interrupt, :bow::</b> After another player refuses a challenge or loses a duel from an action that targeted his Personality and your Ninja, give a -1F/-1C Poison token to his Personality."
+        ],
+        "strength": [
+            "+0"
+        ],
+        "formattedtitle": "Aroru Sensei",
+        "cardid": 12245,
+        "imagehash": "04/a1",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Scorpion Clan"
+        ],
+        "startinghonor": [
+            "-1"
+        ],
+        "production": [
+            "-1"
+        ],
+        "title": [
+            "Aroru Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Chukage Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"I met a challenge that I could not overcome <br>because I was not prepared. Let me help you avoid such a fate.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "352"
+                ],
+                "artnumber": [
+                    "17400362"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Shen Fei"
+                ],
+                "printedwithset": [
+                    "Twenty Festivals"
+                ],
+                "printimagehash": [
+                    "9e/5b"
+                ],
+                "designer": [
+                    "Loki"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "You Equip non-Water Spells for 1 more Gold. After your Water card moves a Personality, give your target Water Shugenja +1F. You may Equip Water Spells to your unbowed opposed Shugenja as a Battle action."
+        ],
+        "strength": [
+            "+0"
+        ],
+        "formattedtitle": "Chukage Sensei",
+        "cardid": 12246,
+        "imagehash": "9e/5b",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Phoenix Clan"
+        ],
+        "startinghonor": [
+            "+0"
+        ],
+        "production": [
+            "+0"
+        ],
+        "title": [
+            "Chukage Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Chuuna Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The Thunder Dragon is our link to the power of the Heavens and the mortal realm. Give it your reverence, and receive power undreamt of.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "353"
+                ],
+                "artnumber": [
+                    "17400363"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Storn A. Cook"
+                ],
+                "printedwithset": [
+                    "Twenty Festivals"
+                ],
+                "printimagehash": [
+                    "bf/23"
+                ],
+                "designer": [
+                    "Julien"
+                ],
+                "designernotes": [
+                    "Moshi Chuuna, older than she were. She's surrounded by lightning, some coming out of her eyes."
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Stronghold has no abilities.<br><b>Limited, :bow::</b> Target your unbowed Thunder Personality. Bow a target card in a unit; the card's attachments, if any, must be bowed. If this bowed a Personality, bow your Thunder Personality."
+        ],
+        "strength": [
+            "+0"
+        ],
+        "formattedtitle": "Chuuna Sensei",
+        "cardid": 12247,
+        "imagehash": "bf/23",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Mantis Clan"
+        ],
+        "startinghonor": [
+            "+0"
+        ],
+        "production": [
+            "+0"
+        ],
+        "title": [
+            "Chuuna Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Daigo Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Any student of mine who ever embraces the darkness, for any reason, I will hunt and kill myself.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "354"
+                ],
+                "artnumber": [
+                    "17400364"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Albert Tavira"
+                ],
+                "printedwithset": [
+                    "Twenty Festivals"
+                ],
+                "printimagehash": [
+                    "b4/2c"
+                ],
+                "designer": [
+                    "Chris"
+                ],
+                "designernotes": [
+                    "nger alive) in full Witch hunter gear angrily staring towards the \"camera.\" His eyes glow with a pure Jade green light."
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "You may not bring Shadowlands cards into play.<br><b>Interrupt, :bow::</b> If the action targeted your Shugenja with an attached Earth Spell, the action's player discards a card after it resolves."
+        ],
+        "strength": [
+            "-1"
+        ],
+        "formattedtitle": "Daigo Sensei",
+        "cardid": 12248,
+        "imagehash": "b4/2c",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Crab Clan"
+        ],
+        "startinghonor": [
+            "-1"
+        ],
+        "production": [
+            "+0"
+        ],
+        "title": [
+            "Daigo Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Dijuro Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Act in haste and you will fail. Patience wins the day. Patience is strength.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "355"
+                ],
+                "artnumber": [
+                    "17400365"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Albert Tavira"
+                ],
+                "printedwithset": [
+                    "Twenty Festivals"
+                ],
+                "use": [
+                    "Defensive Sensei"
+                ],
+                "printimagehash": [
+                    "3d/a7"
+                ],
+                "designer": [
+                    "Chris"
+                ],
+                "designernotes": [
+                    "Art: Seppun Ritisharu, the Imperial Treasurer, sitting at her desk reading some tax documents. Meticulously sorted Koku and papers are stacked on her desk along with writing implements. She is clearly VERY well organized."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your non-Fortification Holdings enter play for 1 more Gold. Each Province you assigned a Personality to defend or with a Cavalry unit attacking it has +1 strength for each Fortification attached to it, and has a maximum strength equal to its printed strength +4."
+        ],
+        "strength": [
+            "+0"
+        ],
+        "formattedtitle": "Dijuro Sensei",
+        "cardid": 12249,
+        "imagehash": "3d/a7",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Crane",
+            "Dragon",
+            "Phoenix",
+            "Scorpion"
+        ],
+        "startinghonor": [
+            "+0"
+        ],
+        "production": [
+            "+0"
+        ],
+        "title": [
+            "Dijuro Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Hakuseki Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Hakuseki-sama is lost to us, but we honor her by remembering her teachings in the dojo that now bears her name.\" - Kakita Ujirou</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "356"
+                ],
+                "artnumber": [
+                    "17400366"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Marcel Mercado"
+                ],
+                "printedwithset": [
+                    "Twenty Festivals"
+                ],
+                "printimagehash": [
+                    "77/c0"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Stronghold has no abilities. Your Magistrates have +1F while opposing any dishonorable Personalities. After each time your Battle action bows or destroys a dishonorable Personality, gain 1 Honor."
+        ],
+        "strength": [
+            "+0"
+        ],
+        "formattedtitle": "Hakuseki Sensei",
+        "cardid": 12250,
+        "imagehash": "77/c0",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Crane Clan"
+        ],
+        "startinghonor": [
+            "+0"
+        ],
+        "production": [
+            "+0"
+        ],
+        "title": [
+            "Hakuseki Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Kiyoteru Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"You wish to learn more of the great dragons, that is true. The reasons you give are lies. But lies will not matter. I will teach you.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "357"
+                ],
+                "artnumber": [
+                    "17400368"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Gong Studios"
+                ],
+                "printedwithset": [
+                    "Twenty Festivals"
+                ],
+                "use": [
+                    "DAGRON SENSEI!!!"
+                ],
+                "printimagehash": [
+                    "74/51"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "Kiyoteru is the Oracle of the Void, so seems perfect for an Elemental Dragons Sensei."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Stronghold has no abilities. When Recruiting Dragons, you may Proclaim them, and may compare their Honor Requirement to the total Force of your non-Shadowlands Personalities instead of to your Honor."
+        ],
+        "strength": [
+            "+0"
+        ],
+        "formattedtitle": "Kiyoteru Sensei",
+        "cardid": 12251,
+        "imagehash": "74/51",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "All Clans"
+        ],
+        "startinghonor": [
+            "+0"
+        ],
+        "production": [
+            "+0"
+        ],
+        "title": [
+            "Kiyoteru Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Sahara Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The banner you fly, the burdens you bear&#8230; all that matters is what actions you take. Define yourself.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "359"
+                ],
+                "artnumber": [
+                    "17400369"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Kim Sokol"
+                ],
+                "printedwithset": [
+                    "Twenty Festivals"
+                ],
+                "printimagehash": [
+                    "14/9f"
+                ],
+                "designer": [
+                    "Chris"
+                ],
+                "designernotes": [
+                    "Art: Daigotsu Sahara in a refined and nearly perfect Iaijutsu stance, ready to begin a duel."
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Reduce your Honor losses from your Duelists by 2.<br><b>Interrupt, :bow::</b> If the action creates a duel, after your Personality wins, give him \"<b>Battle:</b> Fear equal to this Personality's Force.\""
+        ],
+        "strength": [
+            "-1"
+        ],
+        "formattedtitle": "Sahara Sensei",
+        "cardid": 12252,
+        "imagehash": "14/9f",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Spider Clan"
+        ],
+        "startinghonor": [
+            "+0"
+        ],
+        "production": [
+            "+0"
+        ],
+        "title": [
+            "Sahara Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Seijuro Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The great Matsu Seijuro was lost to us years ago, but we are fortunate that his son continues to teach his brilliant methods to a new generation.\" - Akodo Dairuko</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "360"
+                ],
+                "artnumber": [
+                    "17400370"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Florian Stitz"
+                ],
+                "printedwithset": [
+                    "Twenty Festivals"
+                ],
+                "printimagehash": [
+                    "eb/5d"
+                ],
+                "designer": [
+                    "Randy"
+                ],
+                "designernotes": [
+                    "Matsu Seijuro."
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Interrupt, :bow::</b> If the action is Battle and creates a duel, after your Personality wins it, give him a Force bonus equal to his Personal Honor."
+        ],
+        "strength": [
+            "-1"
+        ],
+        "formattedtitle": "Seijuro Sensei",
+        "cardid": 12253,
+        "imagehash": "eb/5d",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Lion Clan"
+        ],
+        "startinghonor": [
+            "+0"
+        ],
+        "production": [
+            "+0"
+        ],
+        "title": [
+            "Seijuro Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Hotaitaka Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Seppun Taitaken is a great man, descended from a hero of the Clan War. His line has served the Hantei, the Toturi, and now the Iweko. To be his student is a great honor.\" - Iweko Setai</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "361"
+                ],
+                "artnumber": [
+                    "17400367"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Marcel Mercado"
+                ],
+                "printedwithset": [
+                    "Twenty Festivals"
+                ],
+                "use": [
+                    "Military Sensei"
+                ],
+                "printimagehash": [
+                    "94/6b"
+                ],
+                "designernotes": [
+                    "http://imperialassembly.com/oracle/#cardid=6600,#hashid=a340a66054be0473fd6c87a1f1987fbc,#cardcount=0"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Battle, :bow::</b> Bow your target unbowed Follower or Weapon. Melee Attack with strength equal to its Force <i>(An Item's Force is its Force Modifier)</i>."
+        ],
+        "strength": [
+            "-1"
+        ],
+        "formattedtitle": "Taitaken Sensei",
+        "cardid": 12254,
+        "imagehash": "94/6b",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Crab",
+            "Lion",
+            "Mantis",
+            "Spider",
+            "Unicorn"
+        ],
+        "startinghonor": [
+            "-1"
+        ],
+        "production": [
+            "+0"
+        ],
+        "title": [
+            "Taitaken Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Tselu Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The Unicorn have few heroes greater than the first Ivory Champion,<br> the savior of the Colonies.\" - Seppun Ritisharu</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "362"
+                ],
+                "artnumber": [
+                    "17400371"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Marcel Mercado"
+                ],
+                "printedwithset": [
+                    "Twenty Festivals"
+                ],
+                "printimagehash": [
+                    "5f/d8"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Open, :bow::</b> Bow your target unbowed Magistrate. Rehonor and bow another player's target dishonorable Personality. Gain Honor equal to the second target's Personal Honor if his controller has more Honor than you."
+        ],
+        "strength": [
+            "-1"
+        ],
+        "formattedtitle": "Tselu Sensei",
+        "cardid": 12255,
+        "imagehash": "5f/d8",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Unicorn Clan"
+        ],
+        "startinghonor": [
+            "+0"
+        ],
+        "production": [
+            "+0"
+        ],
+        "title": [
+            "Tselu Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "Yodo Sensei"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Long has my family served the Dragon, and many are our secrets. For my lord, I will teach these secrets to you. Do not disappoint me.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "363"
+                ],
+                "artnumber": [
+                    "17400372"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Jason Behnke"
+                ],
+                "printedwithset": [
+                    "Twenty Festivals"
+                ],
+                "printimagehash": [
+                    "bb/fb"
+                ],
+                "designer": [
+                    "Jeremy"
+                ],
+                "designernotes": [
+                    "Kitsuki Yodo"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Stronghold has no abilities.<br>After your action dishonors another player's Personality, gain 1 Honor."
+        ],
+        "strength": [
+            "+2"
+        ],
+        "formattedtitle": "Yodo Sensei",
+        "cardid": 12256,
+        "imagehash": "bb/fb",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Dragon Clan"
+        ],
+        "startinghonor": [
+            "+0"
+        ],
+        "production": [
+            "+0"
+        ],
+        "title": [
+            "Yodo Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Forward! Show them the steel of our souls!\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "153"
+                ],
+                "artnumber": [
+                    "17500155"
+                ],
+                "set": [
+                    "Thunderous Acclaim"
+                ],
+                "artist": [
+                    "Andrew Sonea"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "c1/cf"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "With 90 days of Festivals, it has been a good time for the Peasants, illustrated with this Sensei (which does not strictly have to be Sachika)"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "You may include four copies of each non-Unique Ashigaru Personality in your deck. Your non-Ashigaru Personalities in and out of play have +1 Gold Cost. You can not play Oath of Fealty.<br><b>Open, :bow:, :g2::</b> If you control an Ashigaru Personality, create a 0F/1C/0PH <b>Ashigaru &#149; Conscript</b> Personality."
+        ],
+        "strength": [
+            "+0"
+        ],
+        "formattedtitle": "Hikahime Sensei",
+        "cardid": 12417,
+        "imagehash": "c1/cf",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "All Clans"
+        ],
+        "startinghonor": [
+            "-2"
+        ],
+        "production": [
+            "-1"
+        ],
+        "title": [
+            "Hikahime Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"I set aside worldly concerns to find peace <br>within the Tao. I can find no peace with this mystery. I must have answers.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "154"
+                ],
+                "artnumber": [
+                    "17500154"
+                ],
+                "set": [
+                    "Thunderous Acclaim"
+                ],
+                "artist": [
+                    "Doug Shuler"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "b7/62"
+                ],
+                "designer": [
+                    "Chris"
+                ],
+                "designernotes": [
+                    "Asahina Hira, aware that something is up, is headed back into the world to figure out this disturbance in the Force."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "You may not take more than six actions from Events per game.<br><b>Open, :bow::</b> If you have taken an action from an Event in your Province this turn, turn a card in your Provinces face-up."
+        ],
+        "strength": [
+            "-1"
+        ],
+        "formattedtitle": "Hira Sensei",
+        "cardid": 12418,
+        "imagehash": "b7/62",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Crane",
+            "Mantis",
+            "Phoenix"
+        ],
+        "startinghonor": [
+            "+0"
+        ],
+        "production": [
+            "+0"
+        ],
+        "title": [
+            "Hira Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"My Emperor, I am the master sensei of the Seppun Tactical Dojo. It will be my great honor to advise you in any matter you require. Call upon me at any time, for any reason.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "155"
+                ],
+                "artnumber": [
+                    "17500156"
+                ],
+                "set": [
+                    "Thunderous Acclaim"
+                ],
+                "artist": [
+                    "Shen Fei"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "70/2b"
+                ],
+                "designer": [
+                    "Jeremy"
+                ],
+                "designernotes": [
+                    "A Sensei for the new Imperial line, now that Iweko has stepped down."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After an enemy card is destroyed during a battle, if the destruction was not from another player's card effect, gain 1 Honor."
+        ],
+        "strength": [
+            "-1"
+        ],
+        "formattedtitle": "Ichigo Sensei",
+        "cardid": 12419,
+        "imagehash": "70/2b",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Crab",
+            "Dragon",
+            "Lion",
+            "Scorpion",
+            "Unicorn"
+        ],
+        "startinghonor": [
+            "+0"
+        ],
+        "production": [
+            "+0"
+        ],
+        "title": [
+            "Ichigo Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The Empire has forgotten me. Unacceptable.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "156"
+                ],
+                "artnumber": [
+                    "17500157"
+                ],
+                "set": [
+                    "Thunderous Acclaim"
+                ],
+                "artist": [
+                    "Sam Flegal"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "7b/1d"
+                ],
+                "designer": [
+                    "Jeremy"
+                ],
+                "designernotes": [
+                    "Spider have gone into full on Fuck the Empire mode."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "You may only Recruit Shadowlands Personalities. You do not lose Honor from your Shadowlands Followers and Human Shadowlands Personalities. Fear actions from your Spider Clan Personalities and Stronghold destroy attachments after bowing them."
+        ],
+        "strength": [
+            "-1"
+        ],
+        "formattedtitle": "Yajinden Sensei",
+        "cardid": 12420,
+        "imagehash": "7b/1d",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Spider"
+        ],
+        "startinghonor": [
+            "-2"
+        ],
+        "production": [
+            "+0"
+        ],
+        "title": [
+            "Yajinden Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Benika Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Men fear truth more than they fear lies.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "156"
+                ],
+                "artnumber": [
+                    "17600156"
+                ],
+                "set": [
+                    "Evil Portents"
+                ],
+                "artist": [
+                    "Jason Engle"
+                ],
+                "printimagehash": [
+                    "a1/a3"
+                ],
+                "designer": [
+                    "Julien"
+                ],
+                "designernotes": [
+                    "Benika old with her cats, jade hand flashing."
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Personalities cannot Equip Shadowlands Followers. <br><b>Battle/Engage, :bow::</b> Fear equal to the Force of your target Nonhuman Follower, which must be a Cat attached to a Beastmaster if this is an Engage action."
+        ],
+        "formattedtitle": "Benika Sensei",
+        "cardid": 12576,
+        "imagehash": "a1/a3",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Lion Clan"
+        ],
+        "title": [
+            "Benika Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Bukita Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"No man is truly selfless.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "157"
+                ],
+                "artnumber": [
+                    "17600157"
+                ],
+                "set": [
+                    "Evil Portents"
+                ],
+                "artist": [
+                    "Albert Tavira"
+                ],
+                "printimagehash": [
+                    "49/fe"
+                ],
+                "designer": [
+                    "Jeremy"
+                ],
+                "designernotes": [
+                    "Doji Bukita"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Before you gain Honor, reduce the gain to 1. Your Artisans have -5HR.<br><b>Political Interrupt, :bow::</b> Target a dishonorable Personality. Before your first Honor gain from the action, negate the gain, and the target's controller loses 1 Honor, or 2 Honor if the target has 3 or more printed Personal Honor."
+        ],
+        "formattedtitle": "Bukita Sensei",
+        "cardid": 12577,
+        "imagehash": "49/fe",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Crane Clan"
+        ],
+        "title": [
+            "Bukita Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Goju Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"An empty dojo, you say? Or simply Nothing there...?\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "158"
+                ],
+                "artnumber": [
+                    "17600158"
+                ],
+                "set": [
+                    "Evil Portents"
+                ],
+                "artist": [
+                    "John Donahue"
+                ],
+                "printimagehash": [
+                    "57/45"
+                ],
+                "designer": [
+                    "Randy"
+                ],
+                "designernotes": [
+                    "An empty, desolate room at night, very eerie, cast in shadows. items are scattered around as if the people inside were there one minute, then vanished the next."
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Reduce your Honor losses from your Ninja cards by 2. You Recruit non-Ninja Personalities for 1 more Gold. After a Fear effect from your Stronghold bows a card without abilities, destroy it.<br><b>Open, :bow::</b> Remove your Stronghold's ability. Remove the ability of a target card in a unit."
+        ],
+        "formattedtitle": "Goju Sensei",
+        "cardid": 12578,
+        "imagehash": "57/45",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Spider Clan"
+        ],
+        "title": [
+            "Goju Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Hisako Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Abandon your doubts, and all will fall before The Dark Sword of Bitter Lies!\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "159"
+                ],
+                "artnumber": [
+                    "17600159"
+                ],
+                "set": [
+                    "Evil Portents"
+                ],
+                "artist": [
+                    "Albert Tavira"
+                ],
+                "printimagehash": [
+                    "9e/8c"
+                ],
+                "designer": [
+                    "Chris"
+                ],
+                "designernotes": [
+                    "Art: Bayushi Hisako, Sensei of the Bitter Lies school, striking a deadly stance and starting directly at the \"camera.\" She now carries two swords, and clearly knows how to use them"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "You may not take Political Actions. After your Bitter Lies Personality Equips a Weapon, if it has a non-boldface keyword that is not on other cards in the unit, give him or her a Madness token.<br><b>Battle/Open, :bow::</b> Discard a Madness token from your Personality to give him or her Conqueror or +2F."
+        ],
+        "formattedtitle": "Hisako Sensei",
+        "cardid": 12579,
+        "imagehash": "9e/8c",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Scorpion Clan"
+        ],
+        "title": [
+            "Hisako Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Kaiu Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Any man can destroy. Destruction is easy. But all respect the man who protects and creates.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "160"
+                ],
+                "artnumber": [
+                    "17600162"
+                ],
+                "set": [
+                    "Evil Portents"
+                ],
+                "artist": [
+                    "Jonathan Moore"
+                ],
+                "printimagehash": [
+                    "fd/87"
+                ],
+                "designer": [
+                    "Loki"
+                ],
+                "designernotes": [
+                    "Kaiu Sensei"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Negate your current and new Province Strength bonuses unless a Cavalry unit is attacking the Province or your unit has defended the Province this turn. Your Stronghold has no abilities.<br><b>Dynasty, :bow:, :g*::</b> Recruit a target non-Gold-producing Fortification for 2 less Gold. Refill the Province face-up."
+        ],
+        "formattedtitle": "Iemasa Sensei",
+        "cardid": 12580,
+        "imagehash": "fd/87",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Crab Clan"
+        ],
+        "title": [
+            "Iemasa Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Oni Summoner Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Man is most loyal, not to his clan or lord, but to his own suffering.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "161"
+                ],
+                "artnumber": [
+                    "17600165"
+                ],
+                "set": [
+                    "Evil Portents"
+                ],
+                "artist": [
+                    "Alberto Tavira"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "d6/4c"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "[Art Note: He was a former Crane, he was tainted against his will (something that should be impossible if the Empress' deal with Daigotsu is in place), he insisted his innocence and ran away instead of committing seppuku. He has a vendetta against his old clan and wants to bring both the Crane and Mantis down.]"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Stronghold has a maximum of 3GP. Your Oni may attach Shadowlands Followers. You do not lose Honor from your cards. You cannot gain Honor, issue challenges, or take Political actions. Before you lose Honor from another player's card, reduce the loss to 1.<br><b>Battle, :bow::</b> Straighten your target Oni. Give it Conqueror."
+        ],
+        "formattedtitle": "Ikikashi Sensei",
+        "cardid": 12581,
+        "imagehash": "d6/4c",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "All Clans"
+        ],
+        "title": [
+            "Ikikashi Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "updatelog": [
+            {
+                "newdata": {
+                    "text": [
+                        "<b>Open :bow::</b> <i>You suspect a secret most foul!</i> Another player's target Personality has Shadowlands while you are taking actions this turn. The player must declare an attack and assign the target, if possible <i>(this turn)</i>. Straighten him or her before this phase ends."
+                    ]
+                },
+                "op": "update",
+                "uid": 20431,
+                "uname": "Brook Cunningham",
+                "olddata": {
+                    "text": [
+                        "Open b: You suspect a secret most foul! Another player's target Personality has <b>Shadowlands</b> while you are taking actions this turn. The player must declare an attack and assign the target, if possible <i>(this turn)</i>. Straighten him or her before this phase ends."
+                    ]
+                },
+                "timestamp": 1642542328187
+            }
+        ],
+        "playtestname": [
+            "[Izuna Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Shadows are not hidden, merely overlooked.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "162"
+                ],
+                "artnumber": [
+                    "17600160"
+                ],
+                "set": [
+                    "Evil Portents"
+                ],
+                "artist": [
+                    "Nora Brisotti"
+                ],
+                "printimagehash": [
+                    "c5/36"
+                ],
+                "designer": [
+                    "Randy"
+                ],
+                "designernotes": [
+                    "Notes: Asako Izuna."
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Open :bow::</b> <i>You suspect a secret most foul!</i> Another player's target Personality has Shadowlands while you are taking actions this turn. The player must declare an attack and assign the target, if possible <i>(this turn)</i>. Straighten him or her before this phase ends."
+        ],
+        "formattedtitle": "Izuna Sensei",
+        "cardid": 12582,
+        "imagehash": "c5/36",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Phoenix Clan"
+        ],
+        "title": [
+            "Izuna Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Jinai Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"All the forms that life can take are myriad and ever-changing. I have found that spirits, however, are all the same.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "163"
+                ],
+                "artnumber": [
+                    "17600161"
+                ],
+                "set": [
+                    "Evil Portents"
+                ],
+                "artist": [
+                    "Albert Tavira"
+                ],
+                "printimagehash": [
+                    "4a/3d"
+                ],
+                "designer": [
+                    "Julien"
+                ],
+                "designernotes": [
+                    "Tamori Jinai surrounded by his Earth spirits. Should not be wild animals, the Tamori bind Earth Spirits to themselves, not animal spirits."
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "The Ring you start with must be Earth.<br><b>Interrupt, :bow:, :g*::</b> After the action Equips your Spell, create a 2F/3GC <b>Earth &#149; Nonhuman &#149; Spirit</b> Follower and Equip it <i>(paying its 3 Gold Cost)</i> to the same Personality, paying 1 more gold if the Spell is not Earth."
+        ],
+        "formattedtitle": "Jinai Sensei",
+        "cardid": 12583,
+        "imagehash": "4a/3d",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Dragon Clan"
+        ],
+        "title": [
+            "Jinai Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Khan Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"You, my student, will learn by doing.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "164"
+                ],
+                "artnumber": [
+                    "17600163"
+                ],
+                "set": [
+                    "Evil Portents"
+                ],
+                "artist": [
+                    "Shen Fei"
+                ],
+                "printimagehash": [
+                    "b4/25"
+                ],
+                "designer": [
+                    "Chris"
+                ],
+                "designernotes": [
+                    "Art: A more aged and weathered Shinjo Min-Hee atop her steed, riding across the line of her troops during an inspection. She is battle hardened from her experiences fighting with the Yodotai, but no less fierce."
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Personalities will not move to battlefields without enemy units. You gain 1 more Honor for each card you destroy during battle resolution. <br><b>Battle, :bow::</b> Straighten your target Follower. If you have the highest Family Honor, you may take an additional action."
+        ],
+        "formattedtitle": "Min-Hee Sensei",
+        "cardid": 12584,
+        "imagehash": "b4/25",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Unicorn Clan"
+        ],
+        "title": [
+            "Min-Hee Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Minori Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"I have never required the respect of others to fulfill my duties.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "165"
+                ],
+                "artnumber": [
+                    "17600164"
+                ],
+                "set": [
+                    "Evil Portents"
+                ],
+                "artist": [
+                    "Edwin David"
+                ],
+                "printimagehash": [
+                    "da/4f"
+                ],
+                "designer": [
+                    "Jeremy"
+                ],
+                "designernotes": [
+                    "Yoritomo Minori"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Stronghold has no abilities. Your Peasant Weapons do not dishonor Personalities for attaching them.<br><b>Economic Battle/Open, :bow:, :g*::</b> Equip a target Weapon in your discard pile to your target Kensai, paying 2 more Gold unless it is a Peasant Weapon."
+        ],
+        "formattedtitle": "Minori Sensei",
+        "cardid": 12585,
+        "imagehash": "da/4f",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Mantis Clan"
+        ],
+        "title": [
+            "Minori Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Benika Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Men fear truth more than they fear lies.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "156"
+                ],
+                "artnumber": [
+                    "17600156"
+                ],
+                "set": [
+                    "Evil Portents"
+                ],
+                "artist": [
+                    "Jason Engle"
+                ],
+                "printimagehash": [
+                    "a1/a3"
+                ],
+                "designer": [
+                    "Julien"
+                ],
+                "designernotes": [
+                    "Benika old with her cats, jade hand flashing."
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Personalities cannot Equip Shadowlands Followers. <br><b>Battle/Engage, :bow::</b> Fear equal to the Force of your target Nonhuman Follower, which must be a Cat attached to a Beastmaster if this is an Engage action."
+        ],
+        "formattedtitle": "Benika Sensei",
+        "cardid": 12576,
+        "imagehash": "a1/a3",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Lion Clan"
+        ],
+        "title": [
+            "Benika Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Bukita Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"No man is truly selfless.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "157"
+                ],
+                "artnumber": [
+                    "17600157"
+                ],
+                "set": [
+                    "Evil Portents"
+                ],
+                "artist": [
+                    "Albert Tavira"
+                ],
+                "printimagehash": [
+                    "49/fe"
+                ],
+                "designer": [
+                    "Jeremy"
+                ],
+                "designernotes": [
+                    "Doji Bukita"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Before you gain Honor, reduce the gain to 1. Your Artisans have -5HR.<br><b>Political Interrupt, :bow::</b> Target a dishonorable Personality. Before your first Honor gain from the action, negate the gain, and the target's controller loses 1 Honor, or 2 Honor if the target has 3 or more printed Personal Honor."
+        ],
+        "formattedtitle": "Bukita Sensei",
+        "cardid": 12577,
+        "imagehash": "49/fe",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Crane Clan"
+        ],
+        "title": [
+            "Bukita Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Goju Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"An empty dojo, you say? Or simply Nothing there...?\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "158"
+                ],
+                "artnumber": [
+                    "17600158"
+                ],
+                "set": [
+                    "Evil Portents"
+                ],
+                "artist": [
+                    "John Donahue"
+                ],
+                "printimagehash": [
+                    "57/45"
+                ],
+                "designer": [
+                    "Randy"
+                ],
+                "designernotes": [
+                    "An empty, desolate room at night, very eerie, cast in shadows. items are scattered around as if the people inside were there one minute, then vanished the next."
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Reduce your Honor losses from your Ninja cards by 2. You Recruit non-Ninja Personalities for 1 more Gold. After a Fear effect from your Stronghold bows a card without abilities, destroy it.<br><b>Open, :bow::</b> Remove your Stronghold's ability. Remove the ability of a target card in a unit."
+        ],
+        "formattedtitle": "Goju Sensei",
+        "cardid": 12578,
+        "imagehash": "57/45",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Spider Clan"
+        ],
+        "title": [
+            "Goju Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Hisako Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Abandon your doubts, and all will fall before The Dark Sword of Bitter Lies!\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "159"
+                ],
+                "artnumber": [
+                    "17600159"
+                ],
+                "set": [
+                    "Evil Portents"
+                ],
+                "artist": [
+                    "Albert Tavira"
+                ],
+                "printimagehash": [
+                    "9e/8c"
+                ],
+                "designer": [
+                    "Chris"
+                ],
+                "designernotes": [
+                    "Art: Bayushi Hisako, Sensei of the Bitter Lies school, striking a deadly stance and starting directly at the \"camera.\" She now carries two swords, and clearly knows how to use them"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "You may not take Political Actions. After your Bitter Lies Personality Equips a Weapon, if it has a non-boldface keyword that is not on other cards in the unit, give him or her a Madness token.<br><b>Battle/Open, :bow::</b> Discard a Madness token from your Personality to give him or her Conqueror or +2F."
+        ],
+        "formattedtitle": "Hisako Sensei",
+        "cardid": 12579,
+        "imagehash": "9e/8c",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Scorpion Clan"
+        ],
+        "title": [
+            "Hisako Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Kaiu Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Any man can destroy. Destruction is easy. But all respect the man who protects and creates.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "160"
+                ],
+                "artnumber": [
+                    "17600162"
+                ],
+                "set": [
+                    "Evil Portents"
+                ],
+                "artist": [
+                    "Jonathan Moore"
+                ],
+                "printimagehash": [
+                    "fd/87"
+                ],
+                "designer": [
+                    "Loki"
+                ],
+                "designernotes": [
+                    "Kaiu Sensei"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Negate your current and new Province Strength bonuses unless a Cavalry unit is attacking the Province or your unit has defended the Province this turn. Your Stronghold has no abilities.<br><b>Dynasty, :bow:, :g*::</b> Recruit a target non-Gold-producing Fortification for 2 less Gold. Refill the Province face-up."
+        ],
+        "formattedtitle": "Iemasa Sensei",
+        "cardid": 12580,
+        "imagehash": "fd/87",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Crab Clan"
+        ],
+        "title": [
+            "Iemasa Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Oni Summoner Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Man is most loyal, not to his clan or lord, but to his own suffering.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "161"
+                ],
+                "artnumber": [
+                    "17600165"
+                ],
+                "set": [
+                    "Evil Portents"
+                ],
+                "artist": [
+                    "Alberto Tavira"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "d6/4c"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "[Art Note: He was a former Crane, he was tainted against his will (something that should be impossible if the Empress' deal with Daigotsu is in place), he insisted his innocence and ran away instead of committing seppuku. He has a vendetta against his old clan and wants to bring both the Crane and Mantis down.]"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Stronghold has a maximum of 3GP. Your Oni may attach Shadowlands Followers. You do not lose Honor from your cards. You cannot gain Honor, issue challenges, or take Political actions. Before you lose Honor from another player's card, reduce the loss to 1.<br><b>Battle, :bow::</b> Straighten your target Oni. Give it Conqueror."
+        ],
+        "formattedtitle": "Ikikashi Sensei",
+        "cardid": 12581,
+        "imagehash": "d6/4c",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "All Clans"
+        ],
+        "title": [
+            "Ikikashi Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "updatelog": [
+            {
+                "newdata": {
+                    "text": [
+                        "<b>Open :bow::</b> <i>You suspect a secret most foul!</i> Another player's target Personality has Shadowlands while you are taking actions this turn. The player must declare an attack and assign the target, if possible <i>(this turn)</i>. Straighten him or her before this phase ends."
+                    ]
+                },
+                "op": "update",
+                "uid": 20431,
+                "uname": "Brook Cunningham",
+                "olddata": {
+                    "text": [
+                        "Open b: You suspect a secret most foul! Another player's target Personality has <b>Shadowlands</b> while you are taking actions this turn. The player must declare an attack and assign the target, if possible <i>(this turn)</i>. Straighten him or her before this phase ends."
+                    ]
+                },
+                "timestamp": 1642542328187
+            }
+        ],
+        "playtestname": [
+            "[Izuna Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Shadows are not hidden, merely overlooked.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "162"
+                ],
+                "artnumber": [
+                    "17600160"
+                ],
+                "set": [
+                    "Evil Portents"
+                ],
+                "artist": [
+                    "Nora Brisotti"
+                ],
+                "printimagehash": [
+                    "c5/36"
+                ],
+                "designer": [
+                    "Randy"
+                ],
+                "designernotes": [
+                    "Notes: Asako Izuna."
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Open :bow::</b> <i>You suspect a secret most foul!</i> Another player's target Personality has Shadowlands while you are taking actions this turn. The player must declare an attack and assign the target, if possible <i>(this turn)</i>. Straighten him or her before this phase ends."
+        ],
+        "formattedtitle": "Izuna Sensei",
+        "cardid": 12582,
+        "imagehash": "c5/36",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Phoenix Clan"
+        ],
+        "title": [
+            "Izuna Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Jinai Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"All the forms that life can take are myriad and ever-changing. I have found that spirits, however, are all the same.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "163"
+                ],
+                "artnumber": [
+                    "17600161"
+                ],
+                "set": [
+                    "Evil Portents"
+                ],
+                "artist": [
+                    "Albert Tavira"
+                ],
+                "printimagehash": [
+                    "4a/3d"
+                ],
+                "designer": [
+                    "Julien"
+                ],
+                "designernotes": [
+                    "Tamori Jinai surrounded by his Earth spirits. Should not be wild animals, the Tamori bind Earth Spirits to themselves, not animal spirits."
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "The Ring you start with must be Earth.<br><b>Interrupt, :bow:, :g*::</b> After the action Equips your Spell, create a 2F/3GC <b>Earth &#149; Nonhuman &#149; Spirit</b> Follower and Equip it <i>(paying its 3 Gold Cost)</i> to the same Personality, paying 1 more gold if the Spell is not Earth."
+        ],
+        "formattedtitle": "Jinai Sensei",
+        "cardid": 12583,
+        "imagehash": "4a/3d",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Dragon Clan"
+        ],
+        "title": [
+            "Jinai Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Khan Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"You, my student, will learn by doing.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "164"
+                ],
+                "artnumber": [
+                    "17600163"
+                ],
+                "set": [
+                    "Evil Portents"
+                ],
+                "artist": [
+                    "Shen Fei"
+                ],
+                "printimagehash": [
+                    "b4/25"
+                ],
+                "designer": [
+                    "Chris"
+                ],
+                "designernotes": [
+                    "Art: A more aged and weathered Shinjo Min-Hee atop her steed, riding across the line of her troops during an inspection. She is battle hardened from her experiences fighting with the Yodotai, but no less fierce."
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Personalities will not move to battlefields without enemy units. You gain 1 more Honor for each card you destroy during battle resolution. <br><b>Battle, :bow::</b> Straighten your target Follower. If you have the highest Family Honor, you may take an additional action."
+        ],
+        "formattedtitle": "Min-Hee Sensei",
+        "cardid": 12584,
+        "imagehash": "b4/25",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Unicorn Clan"
+        ],
+        "title": [
+            "Min-Hee Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Minori Sensei]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"I have never required the respect of others to fulfill my duties.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "165"
+                ],
+                "artnumber": [
+                    "17600164"
+                ],
+                "set": [
+                    "Evil Portents"
+                ],
+                "artist": [
+                    "Edwin David"
+                ],
+                "printimagehash": [
+                    "da/4f"
+                ],
+                "designer": [
+                    "Jeremy"
+                ],
+                "designernotes": [
+                    "Yoritomo Minori"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Stronghold has no abilities. Your Peasant Weapons do not dishonor Personalities for attaching them.<br><b>Economic Battle/Open, :bow:, :g*::</b> Equip a target Weapon in your discard pile to your target Kensai, paying 2 more Gold unless it is a Peasant Weapon."
+        ],
+        "formattedtitle": "Minori Sensei",
+        "cardid": 12585,
+        "imagehash": "da/4f",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Mantis Clan"
+        ],
+        "title": [
+            "Minori Sensei"
+        ],
+        "type": [
+            "Sensei"
+        ]
+    }
+]

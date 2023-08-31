@@ -27,7 +27,6 @@ class HasZeroChi(Ability):
 
 @dataclass(kw_only=True)
 class Personality(DynastyCard):
-    title: str = field(metadata={"is_written": True})
     force: int = field(metadata={"is_written": True})
     chi: int = field(metadata={"is_written": True})
     honor_requirement: int | None = field(metadata={"is_written": True})
@@ -35,9 +34,6 @@ class Personality(DynastyCard):
     gold_cost: int = field(metadata={"is_written": True})
     clan: list[Type[Clan]] = field(metadata={"is_written": True})
 
-    keywords: list[Type[Keyword]] = field(
-        default_factory=list, metadata={"is_written": True}
-    )
     traits: list[Trait] = field(default_factory=list, metadata={"is_written": True})
     abilities: list[Ability] = field(
         default_factory=list, metadata={"is_written": True}

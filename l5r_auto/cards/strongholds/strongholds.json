@@ -1,0 +1,1096 @@
+[
+    {
+        "playtestname": [
+            "[New Draft Stronghold]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"This is where honor dies.\" - Kuni Renyu</i>",
+                    "<i>Opportunity, and treachery, await within.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "27"
+                ],
+                "artnumber": [
+                    "17000446"
+                ],
+                "set": [
+                    "Ivory Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printedwithset": [
+                    "Ivory Edition"
+                ],
+                "printimagehash": [
+                    "96/cf",
+                    "f0/98"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Ivory"
+                ],
+                "notes": [
+                    "Released in the 2014 L5R Tournament Draft Kit"
+                ],
+                "cost": [
+                    "8"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "3d/f5",
+                    "64/d5"
+                ],
+                "personalhonor": [
+                    "8"
+                ],
+                "title": [
+                    "Gates of the Second City"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "flavor": [
+                    "\"Let us see what sort of man the Shogun is, then.\" -<br>Otomo Suikihime, Imperial Governor of the Colonies"
+                ],
+                "clan": [
+                    "Unaligned"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "(Use this side when going first.)<br>Limited, [4]: Gain 2 Honor.<br>Tireless Battle: Discard a card to make a Fear effect with strength equal to the card's Focus Value."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            },
+            {
+                "printingid": "3",
+                "set": [
+                    "The Coming Storm"
+                ],
+                "cost": [
+                    "8"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "77/4d",
+                    "c7/db"
+                ],
+                "personalhonor": [
+                    "8"
+                ],
+                "title": [
+                    "Gates of the Second City"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "flavor": [
+                    "Opportunity, and treachery, await within."
+                ],
+                "number": [
+                    "33"
+                ],
+                "clan": [
+                    "Unaligned"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "(This card should be used when going first. It has +1PS and +2GP if you are going second.)<br>Limited, [4]: Gain 2 Honor.<br>Tireless Battle: Discard a card to make a Fear effect with strength equal to the card's Focus Value."
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            },
+            {
+                "printingid": "4",
+                "set": [
+                    "A Line in the Sand"
+                ],
+                "cost": [
+                    "8"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "62/54",
+                    "6d/81"
+                ],
+                "personalhonor": [
+                    "8"
+                ],
+                "title": [
+                    "Gates of the Second City"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "flavor": [
+                    "Opportunity, and treachery, await within."
+                ],
+                "number": [
+                    "46"
+                ],
+                "clan": [
+                    "Unaligned"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "(This card should be used when going first. It has +1PS and +2GP if you are going second.)<br>Limited, [4]: Gain 2 Honor.<br>Tireless Battle: Discard a card to make a Fear effect with strength equal to the card's Focus Value."
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"As long as the gates of my beloved Second City stand, the city itself will persevere forever.\" - Otomo Suikihime",
+                    "<i>\"Not even an attack by the Dark Naga could destroy the gates. Sadly, much in the city was not as strongly built.\" - Shinjo Tselu</i>"
+                ],
+                "printingid": "5",
+                "number": [
+                    "391"
+                ],
+                "artnumber": [
+                    "17400390"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printedwithset": [
+                    "Twenty Festivals"
+                ],
+                "printimagehash": [
+                    "a5/8a",
+                    "dc/e5"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "rarity": [
+                    "Premium"
+                ]
+            }
+        ],
+        "printingprimary": "5",
+        "text": [
+            "<i>(This card has +1PS and +2GP if you didn't go first.)</i><br><b>Limited, :g4::</b> Gain 2 Honor. <br><b>Tireless Battle:</b> Discard a card to make a Fear effect with strength equal to the card's Focus Value. <i>(Tireless actions may be taken even while bowed.)</i>"
+        ],
+        "clan": [
+            "Unaligned"
+        ],
+        "story": [
+            "Chris Medico",
+            "New Hampshire Playtest Team"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Gates of the Second City",
+        "cardid": 11142,
+        "imagehash": "ee/aa",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "8"
+        ],
+        "production": [
+            "8"
+        ],
+        "title": [
+            "Gates of the Second City"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "playtestname": [
+            "The Fruitful Port of the Mantis (1st)"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>From the Island of Broken Waves, the Mantis ferry their cargos to all corners of the Empire, expanding their wealth with every turn.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "368"
+                ],
+                "artnumber": [
+                    "17000372"
+                ],
+                "set": [
+                    "Ivory Edition"
+                ],
+                "artist": [
+                    "Alayna Lemmer"
+                ],
+                "printedwithset": [
+                    "Ivory Edition"
+                ],
+                "printimagehash": [
+                    "03/44",
+                    "4d/0e"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Ivory"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "keywords": [
+                    "Port"
+                ],
+                "artist": [
+                    "Alayna Lemmer"
+                ],
+                "printimagehash": [
+                    "31/16",
+                    "c7/5f"
+                ],
+                "personalhonor": [
+                    "2"
+                ],
+                "title": [
+                    "The Fruitful Port of the Mantis"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "flavor": [
+                    "\"Insult us with snide comments if you wish, but first consider&#8230; where did this food I eat come from?\" - Yoritomo Hiromi"
+                ],
+                "artnumber": [
+                    "17000372"
+                ],
+                "clan": [
+                    "Mantis"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "Limited, (3): Draw a card.<br>(When going second, you may, once per game, Produce 2 Gold.)"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            },
+            {
+                "printingid": "3",
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "keywords": [
+                    "Port"
+                ],
+                "artist": [
+                    "Alayna Lemmer"
+                ],
+                "printimagehash": [
+                    "62/3c",
+                    "79/b0"
+                ],
+                "title": [
+                    "The Fruitful Port of the Mantis"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "flavor": [
+                    "\"My brother's temperament notwithstanding, the best way to ensure that we are not crossed is to ensure that no clan can afford to alienate our mercantile interests.\" - Yoritomo Harumi"
+                ],
+                "number": [
+                    "368"
+                ],
+                "artnumber": [
+                    "17400381"
+                ],
+                "clan": [
+                    "Mantis"
+                ],
+                "text": [
+                    "Limited, [3]: Draw a card.<br>(When going second, you may, once per game, produce 2 Gold)"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "4",
+                "set": [
+                    "The Currency of War"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "keywords": [
+                    "Port"
+                ],
+                "artist": [
+                    "Alayna Lemmer"
+                ],
+                "printimagehash": [
+                    "a2/07",
+                    "ff/8e"
+                ],
+                "personalhonor": [
+                    "2"
+                ],
+                "title": [
+                    "The Fruitful Port of the Mantis"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "flavor": [
+                    "\"Let the Empire look down upon commerce all they wish. When the Mantis can fund an army to defeat any foe, they will reconsider their ludicrous ideas.\" - Yoritomo Hiromi"
+                ],
+                "number": [
+                    "58"
+                ],
+                "clan": [
+                    "Mantis"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "Limited, (3): Draw a card."
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "3",
+        "text": [
+            "<b>Limited, :g3::</b> Draw a card.<br><i>(When going second, you may, once per game, produce 2 Gold)</i>"
+        ],
+        "clan": [
+            "Mantis"
+        ],
+        "formattedtitle": "The Fruitful Port of the Mantis",
+        "cardid": 11299,
+        "imagehash": "c5/64",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Port"
+        ],
+        "title": [
+            "The Fruitful Port of the Mantis"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "playtestname": [
+            "The Shadowed Estate of the Scorpion (1st)"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>For many families, such a dreadful place would be an empty threat. With the Scorpion, it is a false comfort for their guests.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "370"
+                ],
+                "artnumber": [
+                    "17000376"
+                ],
+                "set": [
+                    "Ivory Edition"
+                ],
+                "artist": [
+                    "Alayna Lemmer"
+                ],
+                "printedwithset": [
+                    "Ivory Edition"
+                ],
+                "printimagehash": [
+                    "6a/dd",
+                    "fd/f8"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Ivory"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "artist": [
+                    "Alayna Lemmer"
+                ],
+                "printimagehash": [
+                    "58/70",
+                    "d2/e1"
+                ],
+                "personalhonor": [
+                    "1"
+                ],
+                "title": [
+                    "The Shadowed Estate of the Scorpion"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "flavor": [
+                    "\"Underestimate us. Dismiss us. Insult us. Your anguish will be all the sweeter for it.\" - Bayushi Nitoshi"
+                ],
+                "artnumber": [
+                    "17000376"
+                ],
+                "clan": [
+                    "Scorpion"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "Tireless Open: Name a Fate card, or name a Dynasty card in play. Negate the effects of the next action from a card with that title.<br>(This Stronghold has +1 Province Strength and other players have -1 Maximum Hand Size when going second)"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            },
+            {
+                "flavor": [
+                    "\"Welcome our guests. Provide all that they need. Learn everything you can. They will be ours.\" - Bayushi Nitoshi"
+                ],
+                "printingid": "3",
+                "number": [
+                    "370"
+                ],
+                "artnumber": [
+                    "17400385"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Alayna Lemmer"
+                ],
+                "printimagehash": [
+                    "97/12",
+                    "dd/77"
+                ],
+                "clan": [
+                    "Scorpion"
+                ],
+                "text": [
+                    "Tireless Open: Name a Fate card, or name a Dynasty card in play. Negate the effects of the next action from a card with that title.<br>(When going second, you get +1PS and other players have -1 maximum hand size)"
+                ],
+                "title": [
+                    "The Shadowed Estate of the Scorpion"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "3",
+        "text": [
+            "<b>Tireless Open:</b> Name a Fate card, or name a Dynasty card in play. Negate the effects of the next action from a card with that title.<br><i>(When going second, you get +1PS and other players have -1 maximum hand size)</i>"
+        ],
+        "clan": [
+            "Scorpion"
+        ],
+        "formattedtitle": "The Shadowed Estate of the Scorpion",
+        "cardid": 11303,
+        "imagehash": "47/df",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "notes": [
+            "This Stronghold may not be used in Twenty Festivals Extended formats."
+        ],
+        "title": [
+            "The Shadowed Estate of the Scorpion"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "playtestname": [
+            "Crab Stronghold (1st)"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>What was once merely a watchtower has grown in size and scope. Now it truly stands watch over the Crab lands, like a sentry that never falters.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "364"
+                ],
+                "artnumber": [
+                    "17400373"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Alayna Lemmer"
+                ],
+                "printedwithset": [
+                    "Twenty Festivals"
+                ],
+                "printimagehash": [
+                    "2f/14",
+                    "c5/ff"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Battle:</b> Straighten your target opposed Personality. Straighten his attachments if your army has fewer units than the opposing army.<br><i>(When going second, you get +2PS and your Stronghold ability gains Tireless)</i>"
+        ],
+        "clan": [
+            "Crab"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "The Unassailable Fortress of the Crab",
+        "cardid": 12257,
+        "imagehash": "2f/14",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "3"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "The Unassailable Fortress of the Crab"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "playtestname": [
+            "Crane Stronghold (1st)"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The Crane excel at many things. One among them is the gift of finding beauty and exploiting it for political advantage.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "365"
+                ],
+                "artnumber": [
+                    "17400375"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Alayna Lemmer"
+                ],
+                "printedwithset": [
+                    "Twenty Festivals"
+                ],
+                "printimagehash": [
+                    "4c/34",
+                    "d2/54"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "The Currency of War"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "artist": [
+                    "Alayna Lemmer"
+                ],
+                "printimagehash": [
+                    "3a/02",
+                    "b9/c3"
+                ],
+                "personalhonor": [
+                    "6"
+                ],
+                "title": [
+                    "The Esteemed Palace of the Crane"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "flavor": [
+                    "\"It is unfortunate that the Mantis have chosen to force our hand in this matter. We will have no choice but to teach them a lesson.\" - Doji Makoto"
+                ],
+                "number": [
+                    "56"
+                ],
+                "clan": [
+                    "Crane"
+                ],
+                "force": [
+                    "6"
+                ],
+                "text": [
+                    "Open, [bow]: If you control a Personality, gain 2 Honor."
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Political Open, :bow::</b> If you control a Personality, gain 2 Honor.<br><i>(When going second, you get +1PS and a +5 Lobby bonus)</i>"
+        ],
+        "clan": [
+            "Crane"
+        ],
+        "strength": [
+            "6"
+        ],
+        "formattedtitle": "The Esteemed Palace of the Crane",
+        "cardid": 12258,
+        "imagehash": "d2/54",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "6"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "The Esteemed Palace of the Crane"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "playtestname": [
+            "Dragon Stronghold (1st)"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Many think of the Dragon as being cold and impassive, like the mountains. But both have warmth and beauty undreamt of.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "366"
+                ],
+                "artnumber": [
+                    "17400377"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Alayna Lemmer"
+                ],
+                "printedwithset": [
+                    "Twenty Festivals"
+                ],
+                "printimagehash": [
+                    "12/36",
+                    "b6/3f"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After all players reveal Strongholds, search your Fate deck for a non-Void Ring, and put it into play; Sensei effects that remove abilities also remove this trait.<br><i>(When going second, you get +1PS, +1 maximum hand size, and begin with an extra card in your hand.)</i>"
+        ],
+        "clan": [
+            "Dragon"
+        ],
+        "strength": [
+            "6"
+        ],
+        "formattedtitle": "The Fortified Monastery of the Dragon",
+        "cardid": 12259,
+        "imagehash": "b6/3f",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "notes": [
+            "This Stronghold may not be used in Twenty Festivals Extended formats."
+        ],
+        "startinghonor": [
+            "5"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "The Fortified Monastery of the Dragon"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "playtestname": [
+            "The Honorable Garrison of the Lion (1st)"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The samurai of the Lion Clan do not press the issue that theirs is the greatest and most glorious army in the Empire. They assume that all others know and accept this. Only when it is called into question is the wrath of the Lion unleashed.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "367"
+                ],
+                "artnumber": [
+                    "17400379"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Alayna Lemmer"
+                ],
+                "printedwithset": [
+                    "Twenty Festivals"
+                ],
+                "printimagehash": [
+                    "68/cd",
+                    "6b/4c"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Battle:</b> Give your target opposed Samurai a Force bonus equal to his Personal Honor.<br><i>(When going second, you get +2PS and your Stronghold ability gains Tireless)</i>"
+        ],
+        "clan": [
+            "Lion"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "The Grand Halls of the Lion",
+        "cardid": 12260,
+        "imagehash": "68/cd",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "7"
+        ],
+        "production": [
+            "3"
+        ],
+        "title": [
+            "The Grand Halls of the Lion"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "playtestname": [
+            "The Eternal Temple of the Phoenix (1st)"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"There is no death or life in this world. We are but spirits who pass from one realm to the next before finding our ultimate home.\" - Phoenix teaching</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "369"
+                ],
+                "artnumber": [
+                    "17400383"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Alayna Lemmer"
+                ],
+                "printedwithset": [
+                    "Twenty Festivals"
+                ],
+                "printimagehash": [
+                    "24/76",
+                    "e9/86"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Dynasty, :g*::</b> Recruit your target dead <i>(not discarded)</i> Phoenix Clan Personality; you may Proclaim him. Gain 1 Honor.<br><i>(When going second, you get +1PS and Personalities you Proclaim enter play for two less Gold.)</i>"
+        ],
+        "clan": [
+            "Phoenix"
+        ],
+        "strength": [
+            "6"
+        ],
+        "formattedtitle": "The Majestic Temple of the Phoenix",
+        "cardid": 12261,
+        "imagehash": "e9/86",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Temple"
+        ],
+        "startinghonor": [
+            "6"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "The Majestic Temple of the Phoenix"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "playtestname": [
+            "The Sinister Citadel of the Spider (1st)"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"A new Emperor will soon sit upon the throne, and we shall see what promises are kept and what promises are broken. The Empire should remember that they are not the only ones with promises to keep, however.\" - Daigotsu Kanpeki</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "371"
+                ],
+                "artnumber": [
+                    "17400387"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Alayna Lemmer"
+                ],
+                "printedwithset": [
+                    "Twenty Festivals"
+                ],
+                "printimagehash": [
+                    "21/c5",
+                    "ad/de"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Tireless Battle:</b> Fear 3. <i>(Bow a target enemy Follower or Personality without Followers with 3 or lower Force)</i><br><i>(When going second, you have +1 Province Strength, your Fear has +1 strength, and you may, if any of your Provinces have been destroyed, refill the first Province during your Dynasty Phase face-up)</i>"
+        ],
+        "clan": [
+            "Spider"
+        ],
+        "strength": [
+            "8"
+        ],
+        "formattedtitle": "The Hidden Bastion of the Spider",
+        "cardid": 12262,
+        "imagehash": "21/c5",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "0"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "The Hidden Bastion of the Spider"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "playtestname": [
+            "The Golden Plains of the Unicorn (1st)"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"No one who threatens this place can be allowed to live. We stand to lose too much.\" - Shinjo Min-hee</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "372"
+                ],
+                "artnumber": [
+                    "17400391"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Alayna Lemmer"
+                ],
+                "printedwithset": [
+                    "Twenty Festivals"
+                ],
+                "printimagehash": [
+                    "02/f7",
+                    "8b/28"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "This Stronghold produces 4 Gold on your first turn.<br><b>Battle/Engage:</b> If he would be opposed, move your target unbowed Personality in a Cavalry unit at any location to the current battlefield.<br><i>(When going second, you get +1PS and a second use of Cycle on any turn)</i>"
+        ],
+        "clan": [
+            "Unicorn"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "The Endless Plains of the Unicorn",
+        "cardid": 12263,
+        "imagehash": "8b/28",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "4"
+        ],
+        "production": [
+            "5"
+        ],
+        "title": [
+            "The Endless Plains of the Unicorn"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    }
+]

@@ -8,6 +8,8 @@ from l5r_auto.cards.personalities.common import Personality, PersonalityEntity
 
 from l5r_auto.cards.strongholds.common import Stronghold
 from l5r_auto.clans import Unicorn, Clan
+from l5r_auto.keywords import Cavalry
+from l5r_auto.legality import Diamond
 
 
 # Northern Provinces of the Moto
@@ -21,7 +23,7 @@ class ProduceGoldForCavalry(Ability):
     gold_amount: int
 
     def on_pay(self, type_: Type[Card], keywords: list[str]) -> int:
-        if type_ is Follower and "Cavalry" in keywords:
+        if type_ is Follower and Cavalry in keywords:
             return self.gold_amount
         else:
             return self.base_gold_amount
@@ -56,7 +58,8 @@ NorthernProvincesOfTheMoto = Stronghold(
     starting_family_honor=4,
     clan=Unicorn,
     abilities=[
-        ProduceGoldForCavalry(base_gold_amount=7, gold_amount=7),
+        ProduceGoldForCavalry(base_gold_amount=5, gold_amount=7),
         NorthernProvincesBattleAbility(),
     ],
+    legality=[Diamond],
 )

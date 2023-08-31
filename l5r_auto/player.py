@@ -3,7 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 import uuid
 
-from l5r_auto.card import Card
+from l5r_auto.card import Ability, Card
 from l5r_auto.cards.strongholds.common import Stronghold
 from l5r_auto.phases import Phase, Step
 
@@ -39,3 +39,7 @@ class Player:
     stronghold: Stronghold | None = None
 
     entities: list[Entity] = field(default_factory=list)
+
+    available_abilities: list[Ability] = field(default_factory=list)
+
+    battle_actions: int = 1

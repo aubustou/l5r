@@ -1,0 +1,3398 @@
+[
+    {
+        "playtestname": [
+            "A New Year"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The Empress declared a great celebration to mark the victory, and the Champions of the Great Clans were honored with invitations to her court.\" - The Chronicles of Empress Iweko, Part V</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "1"
+                ],
+                "artnumber": [
+                    "9850"
+                ],
+                "set": [
+                    "Celestial Edition"
+                ],
+                "artist": [
+                    "IFS"
+                ],
+                "printimagehash": [
+                    "93/f6"
+                ],
+                "text": [
+                    "Discard zero to two cards; each other player in turn order may discard a card. Each player then draws as many cards as he discarded."
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "keywords": [
+                    "Festival"
+                ],
+                "artist": [
+                    "IFS"
+                ],
+                "use": [
+                    "Story card"
+                ],
+                "printimagehash": [
+                    "aa/10"
+                ],
+                "title": [
+                    "A New Year"
+                ],
+                "type": [
+                    "Event"
+                ],
+                "flavor": [
+                    "With each new year come new challenges and celebrations, but few years see the ascension of a new Emperor. When it occurs, a series of twenty festivals is held to commemorate the occasion."
+                ],
+                "number": [
+                    "1"
+                ],
+                "artnumber": [
+                    "17400454"
+                ],
+                "text": [
+                    "Open: Discard zero to two cards; each other player in turn order may discard a card. Each player then draws as many cards as he discarded."
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "2",
+        "text": [
+            "<b>Open:</b> Discard zero to two cards; each other player in turn order may discard a card. Each player then draws as many cards as he discarded."
+        ],
+        "formattedtitle": "A New Year",
+        "cardid": 59,
+        "imagehash": "38/bf",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Destroyer War (Celestial)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "Festival"
+        ],
+        "title": [
+            "A New Year"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "6f/5a",
+        "legality": [
+            "Race for the Throne (Samurai)",
+            "Modern",
+            "Onyx Edition",
+            "A Brother's Destiny (Twenty Festivals)"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"You have come to take me to the islands, then?\" \"No my lady,\" Okame replied. \"We have come to defend your home.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "2"
+                ],
+                "artnumber": [
+                    "8202"
+                ],
+                "set": [
+                    "Honor's Veil"
+                ],
+                "artist": [
+                    "Jon Hodgson"
+                ],
+                "printimagehash": [
+                    "c9/ec"
+                ],
+                "text": [
+                    "Until the end of the game, after any action resolves that produced a Ranged Attack, if any target of the Ranged Attack is still in play, straighten any cards that performed the action."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Twenty Festivals"
+                ],
+                "notes": [
+                    "Legal July 1st, 2015 &#149; Thunderous Acclaim Pre-release Promo"
+                ],
+                "keywords": [
+                    "Unique"
+                ],
+                "artist": [
+                    "Veronica V. Jones"
+                ],
+                "printimagehash": [
+                    "aa/b9"
+                ],
+                "title": [
+                    "A Prophet Revealed"
+                ],
+                "type": [
+                    "Event"
+                ],
+                "flavor": [
+                    "\"All over the Empire, there are others now experiencing the same visions. But only you have had this gift for so long, and at last, I have found you, Kitsune Narako.\" - Hira, formerly Asahina Hira, Keeper of the Void"
+                ],
+                "number": [
+                    "392"
+                ],
+                "artnumber": [
+                    "17400455"
+                ],
+                "text": [
+                    "After your action resolves, if any targets of its Ranged Attacks are still in play, straighten any of your cards that the action and combining abilities bowed.<br>Open: Put this Event into play."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "2",
+        "text": [
+            "After your action resolves, if any targets of its Ranged Attacks are still in play, straighten any of your cards that the action and combining abilities bowed.<br><b>Open:</b> Put this Event into play."
+        ],
+        "formattedtitle": "A Prophet Revealed",
+        "cardid": 66,
+        "title": [
+            "A Prophet Revealed"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "updatelog": [
+            {
+                "newdata": {
+                    "legality": [
+                        "A&nbsp;Brother's&nbsp;Destiny&nbsp;(Ivory&nbsp;Edition)",
+                        "A&nbsp;Brother's&nbsp;Destiny&nbsp;(Twenty&nbsp;Festivals)",
+                        "Destroyer&nbsp;War&nbsp;(Celestial)",
+                        "Four&nbsp;Winds&nbsp;(Gold)",
+                        "Modern"
+                    ]
+                },
+                "op": "update",
+                "uid": 21069,
+                "uname": "Don Eisele",
+                "olddata": {
+                    "legality": [
+                        "A&nbsp;Brother's&nbsp;Destiny&nbsp;(Ivory&nbsp;Edition)",
+                        "A&nbsp;Brother's&nbsp;Destiny&nbsp;(Twenty&nbsp;Festivals)",
+                        "Destroyer&nbsp;War&nbsp;(Celestial)",
+                        "Four&nbsp;Winds&nbsp;(Gold)",
+                        "Modern",
+                        "Modern"
+                    ]
+                },
+                "timestamp": 1634264667912
+            }
+        ],
+        "imagehash": "5e/9c",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Destroyer War (Celestial)",
+            "Four Winds (Gold)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"From east to west the samurai of the Empire girded themselves for war, and answered the Empress's call to do great deeds in her name. The skies were filled with the banners of the Great Clans.\" - The Chronicles of Empress Iweko, Part II</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "2"
+                ],
+                "artnumber": [
+                    "9851"
+                ],
+                "set": [
+                    "Celestial Edition"
+                ],
+                "artist": [
+                    "Jason Juta"
+                ],
+                "printimagehash": [
+                    "64/79"
+                ],
+                "text": [
+                    "Each player with more than 20 Family Honor loses 5 Honor."
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"Hachi and the Anvil had come to an agreement at last. Ironically, it was then that the Horde attacked Otosan Uchi.\"</i>"
+                ],
+                "printingid": "2",
+                "number": [
+                    "1"
+                ],
+                "set": [
+                    "Broken Blades"
+                ],
+                "artist": [
+                    "April Lee"
+                ],
+                "printimagehash": [
+                    "8b/b7"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "\"Because the battle has ended, you think that we should grow comfortable? There is never a better time for action than when it is not yet needed. Now is the time for preparation.\""
+                ],
+                "printingid": "3",
+                "number": [
+                    "1"
+                ],
+                "artnumber": [
+                    "17000599"
+                ],
+                "set": [
+                    "Ivory Edition"
+                ],
+                "artist": [
+                    "Jason Juta"
+                ],
+                "printimagehash": [
+                    "ce/df"
+                ],
+                "text": [
+                    "Open: Each player with 21 or more Family Honor loses 5 Honor."
+                ],
+                "title": [
+                    "A Time for Action"
+                ],
+                "type": [
+                    "Event"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "3",
+        "text": [
+            "<b>Open:</b> Each player with 21 or more Family Honor loses 5 Honor."
+        ],
+        "formattedtitle": "A Time for Action",
+        "cardid": 89,
+        "title": [
+            "A Time for Action"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "updatelog": [
+            {
+                "newdata": {
+                    "legality": [
+                        "A&nbsp;Brother's&nbsp;Destiny&nbsp;(Ivory&nbsp;Edition)",
+                        "A&nbsp;Brother's&nbsp;Destiny&nbsp;(Twenty&nbsp;Festivals)",
+                        "Clan&nbsp;Wars&nbsp;(Imperial)",
+                        "Four&nbsp;Winds&nbsp;(Gold)",
+                        "Hidden&nbsp;Emperor&nbsp;(Jade)",
+                        "Modern"
+                    ]
+                },
+                "op": "update",
+                "uid": 21069,
+                "uname": "Don Eisele",
+                "olddata": {
+                    "legality": [
+                        "A&nbsp;Brother's&nbsp;Destiny&nbsp;(Ivory&nbsp;Edition)",
+                        "A&nbsp;Brother's&nbsp;Destiny&nbsp;(Twenty&nbsp;Festivals)",
+                        "Clan&nbsp;Wars&nbsp;(Imperial)",
+                        "Four&nbsp;Winds&nbsp;(Gold)",
+                        "Hidden&nbsp;Emperor&nbsp;(Jade)",
+                        "Modern",
+                        "Modern"
+                    ]
+                },
+                "timestamp": 1634265102992
+            }
+        ],
+        "imagehash": "66/a5",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Clan Wars (Imperial)",
+            "Four Winds (Gold)",
+            "Hidden Emperor (Jade)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>When Naseru brokered the alliance between the Lion and the Phoenix, his plan was for Lion might and Isawa magic to smash the Shadowlands once and for all. Unfortunately, the Dragon refugees crossing both Lion and Phoenix borders only further unified the two clans against a common threat.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "9"
+                ],
+                "set": [
+                    "Gold Edition"
+                ],
+                "artist": [
+                    "William O'Connor"
+                ],
+                "printimagehash": [
+                    "c8/c7"
+                ],
+                "text": [
+                    "Select a Faction other than your own. For the rest of the game, you can bring Personalities of that Faction into play for 2 less Gold."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Imperial Edition"
+                ],
+                "artist": [
+                    "Eric David Anderson"
+                ],
+                "printimagehash": [
+                    "f5/54"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "printingid": "3",
+                "set": [
+                    "Emerald Edition"
+                ],
+                "artist": [
+                    "Eric David Anderson"
+                ],
+                "printimagehash": [
+                    "6f/a7"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "printingid": "4",
+                "set": [
+                    "Battle of Beiden Pass"
+                ],
+                "artist": [
+                    "Eric David Anderson"
+                ],
+                "printimagehash": [
+                    "c4/cb"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"Any man who does not consider me an ally is an enemy.\" - Hida Kisada</i>"
+                ],
+                "printingid": "5",
+                "set": [
+                    "Obsidian Edition"
+                ],
+                "artist": [
+                    "Eric David Anderson"
+                ],
+                "printimagehash": [
+                    "7e/69"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>Two men can brave what one man cannot.</i>"
+                ],
+                "printingid": "6",
+                "set": [
+                    "Jade Edition"
+                ],
+                "artist": [
+                    "Eric David Anderson"
+                ],
+                "printimagehash": [
+                    "e5/49"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>Two men can brave what one man cannot.</i>"
+                ],
+                "printingid": "7",
+                "set": [
+                    "Pearl Edition"
+                ],
+                "artist": [
+                    "Eric David Anderson"
+                ],
+                "printimagehash": [
+                    "9f/d8"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "\"Our clans have shared both friendship and enmity. We must now ask ourselves, which one brought greater benefit to us both?\""
+                ],
+                "printingid": "8",
+                "number": [
+                    "2"
+                ],
+                "artnumber": [
+                    "17000002"
+                ],
+                "set": [
+                    "Ivory Edition"
+                ],
+                "artist": [
+                    "Sergio Camarena"
+                ],
+                "printimagehash": [
+                    "5c/49"
+                ],
+                "text": [
+                    "You do not pay the extra two Gold for bringing Personalities with the named Clan Alignment into play.<br>Open: Put this Event into play. Name a Clan Alignment other than your own."
+                ],
+                "title": [
+                    "Alliance"
+                ],
+                "type": [
+                    "Event"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "8",
+        "text": [
+            "You do not pay the extra two Gold for bringing Personalities with the named Clan Alignment into play.<br><b>Open:</b> Put this Event into play. Name a Clan Alignment other than your own."
+        ],
+        "formattedtitle": "Alliance",
+        "cardid": 331,
+        "title": [
+            "Alliance"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "33/6e",
+        "legality": [
+            "Destroyer War (Celestial)",
+            "Race for the Throne (Samurai)",
+            "Modern",
+            "Onyx Edition",
+            "A Brother's Destiny (Twenty Festivals)"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "printingid": "1",
+                "number": [
+                    "6"
+                ],
+                "artnumber": [
+                    "9855"
+                ],
+                "set": [
+                    "Celestial Edition"
+                ],
+                "artist": [
+                    "IFS"
+                ],
+                "printimagehash": [
+                    "0d/d4"
+                ],
+                "text": [
+                    "Before a player's turn ends this game, if the player, during that turn, destroyed a province in battle resolution, put at least two Rings into play by their own text, and gained 7 or more Honor, he may, as costs, discard the Imperial Favor and pay 10 Gold. If he does so, he wins the game."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>Who shall be worthy?</i>"
+                ],
+                "printingid": "2",
+                "number": [
+                    "1"
+                ],
+                "set": [
+                    "The Heaven's Will"
+                ],
+                "artist": [
+                    "IFS"
+                ],
+                "printimagehash": [
+                    "0a/3e"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "printingid": "3",
+                "number": [
+                    "393"
+                ],
+                "artnumber": [
+                    "17400393"
+                ],
+                "set": [
+                    "Promotional&ndash;Twenty Festivals"
+                ],
+                "notes": [
+                    "Legal April 1st, 2015 &#149; Twenty Festivals Pre-release Promo"
+                ],
+                "keywords": [
+                    "Unique"
+                ],
+                "artist": [
+                    "Jason Engle"
+                ],
+                "printimagehash": [
+                    "9f/f1"
+                ],
+                "text": [
+                    "Players have the ability, \"Dynasty: If you, this turn, destroyed a Province in battle resolution, put two Rings into play by their own text, and gained 7 Honor, you may discard the Imperial Favor and pay 10 Gold to win the game.\"<br>Open: Put this Event into play."
+                ],
+                "title": [
+                    "Claiming the Throne"
+                ],
+                "type": [
+                    "Event"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "3",
+        "text": [
+            "Players have the ability, \"Dynasty: If you, this turn, destroyed a Province in battle resolution, put two Rings into play by their own text, and gained 7 Honor, you may discard the Imperial Favor and pay 10 Gold to win the game.\"<br><b>Open:</b> Put this Event into play."
+        ],
+        "formattedtitle": "Claiming the Throne",
+        "cardid": 1400,
+        "title": [
+            "Claiming the Throne"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "c2/97",
+        "legality": [
+            "Clan Wars (Imperial)",
+            "Rain of Blood (Diamond)",
+            "Onyx Edition",
+            "A Brother's Destiny (Twenty Festivals)"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "printingid": "1",
+                "number": [
+                    "8"
+                ],
+                "set": [
+                    "Diamond Edition"
+                ],
+                "artist": [
+                    "Ben Peck"
+                ],
+                "printimagehash": [
+                    "c2/97"
+                ],
+                "text": [
+                    "Until you are eliminated, all players draw an additional Fate card during their End Phases, and each time a player needs to draw a Fate card but cannot because his Fate deck is empty, destroy his rightmost Province."
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Imperial"
+                ],
+                "artist": [
+                    "Ron Spencer"
+                ],
+                "printimagehash": [
+                    "7e/90"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            },
+            {
+                "printingid": "3",
+                "number": [
+                    "Lion 43"
+                ],
+                "set": [
+                    "Training Grounds"
+                ],
+                "artist": [
+                    "Ben Peck"
+                ],
+                "printimagehash": [
+                    "47/de"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"Defeated and cast out from his city, the Dark Lord would nevertheless return stronger than ever.\" - Chronicle of the Spider Clan</i>"
+                ],
+                "printingid": "4",
+                "number": [
+                    "1"
+                ],
+                "set": [
+                    "Celestial Edition 15th Anniversary"
+                ],
+                "artist": [
+                    "Ben Peck"
+                ],
+                "printimagehash": [
+                    "ca/f0"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            },
+            {
+                "printingid": "5",
+                "set": [
+                    "Promotional&ndash;Twenty Festivals"
+                ],
+                "notes": [
+                    "Legal January 1st, 2016 &#149; The Blackest Storm Pre-release Promo"
+                ],
+                "keywords": [
+                    "Unique"
+                ],
+                "artist": [
+                    "Luis NCT"
+                ],
+                "printimagehash": [
+                    "12/1f"
+                ],
+                "title": [
+                    "Doom of the Dark Lord"
+                ],
+                "type": [
+                    "Event"
+                ],
+                "flavor": [
+                    "The soul of Goju Kyoden has returned from death yet again. But does this bode ill for the enemies of Kanpeki, or for the son of Daigotsu himself?"
+                ],
+                "number": [
+                    "394"
+                ],
+                "artnumber": [
+                    "17400456"
+                ],
+                "text": [
+                    "Each player draws an additional card at the end of his turn. After each time a player must draw a card but cannot because his deck is empty, destroy his rightmost Province.<br>Open: Put this Event into play."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "5",
+        "text": [
+            "Each player draws an additional card at the end of his turn. After each time a player must draw a card but cannot because his deck is empty, destroy his rightmost Province.<br><b>Open:</b> Put this Event into play."
+        ],
+        "formattedtitle": "Doom of the Dark Lord",
+        "cardid": 2191,
+        "title": [
+            "Doom of the Dark Lord"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "playtestname": [
+            "Enlistment"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The lords of the Empire gather weapons and men, preparing for the conflicts they can see on the horizon.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "4"
+                ],
+                "set": [
+                    "Samurai Edition"
+                ],
+                "artist": [
+                    "Malcolm McClinton"
+                ],
+                "printimagehash": [
+                    "8c/26"
+                ],
+                "text": [
+                    "Until the game ends, during each player's End Phase, he may draw an additional card if he brought any Followers into play from his hand that turn."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"Your life is owed to the Emperor, peasant. Serve him, or I will collect that debt.\"</i>"
+                ],
+                "printingid": "2",
+                "number": [
+                    "481"
+                ],
+                "set": [
+                    "Lotus Edition"
+                ],
+                "artist": [
+                    "Malcolm McClinton"
+                ],
+                "printimagehash": [
+                    "6e/01"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>Your place is not in the fields of rice, but fields of battle!</i>"
+                ],
+                "printingid": "3",
+                "set": [
+                    "Time of the Void"
+                ],
+                "artist": [
+                    "Mark Poole"
+                ],
+                "printimagehash": [
+                    "6b/b7"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"To arms, you filthy dogs! The time has come to teach the Scorpion a lesson!\"</i>"
+                ],
+                "printingid": "4",
+                "number": [
+                    "3"
+                ],
+                "set": [
+                    "War of Honor"
+                ],
+                "artist": [
+                    "Malcolm McClinton"
+                ],
+                "printimagehash": [
+                    "3e/51"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "5",
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "keywords": [
+                    "Unique"
+                ],
+                "artist": [
+                    "Malcolm McClinton"
+                ],
+                "use": [
+                    "Attachments"
+                ],
+                "printimagehash": [
+                    "a0/67"
+                ],
+                "title": [
+                    "Enlistment"
+                ],
+                "type": [
+                    "Event"
+                ],
+                "flavor": [
+                    "Even among the loyal people of Rokugan, there are some who do not wish to serve unless forced."
+                ],
+                "number": [
+                    "2"
+                ],
+                "artnumber": [
+                    "17400457"
+                ],
+                "text": [
+                    "Each player may draw an additional card before his turn ends if he Equipped any Followers from his hand since his last turn ended.<br>Open: Put this Event into play."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "5",
+        "text": [
+            "Each player may draw an additional card before his turn ends if he Equipped any Followers from his hand since his last turn ended.<br><b>Open:</b> Put this Event into play."
+        ],
+        "formattedtitle": "Enlistment",
+        "cardid": 2346,
+        "imagehash": "5e/79",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Age of Enlightenment (Lotus)",
+            "Clan Wars (Imperial)",
+            "Onyx Edition",
+            "Race for the Throne (Samurai)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "Enlistment"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "89/ef",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Clan Wars (Imperial)",
+            "Four Winds (Gold)",
+            "Hidden Emperor (Jade)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Some variants of the Pearl Edition version of this card were printed with a different text alignment."
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Three hundred years ago, a sandalwood fan convinced the Court that the Unicorn Clan was indeed Shinjo's people returned from their quest.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "152"
+                ],
+                "set": [
+                    "Gold Edition"
+                ],
+                "artist": [
+                    "KC Lancaster"
+                ],
+                "printimagehash": [
+                    "04/9c"
+                ],
+                "text": [
+                    "Draw an extra card during your End Phase this turn."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>She was a sign of good luck, foretelling fortune in our future.</i>"
+                ],
+                "printingid": "2",
+                "set": [
+                    "Imperial Edition"
+                ],
+                "artist": [
+                    "Sandra Everingham"
+                ],
+                "printimagehash": [
+                    "80/91"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>She was a sign of good luck, foretelling fortune in our future.</i>"
+                ],
+                "printingid": "3",
+                "set": [
+                    "Emerald Edition"
+                ],
+                "artist": [
+                    "Sandra Everingham"
+                ],
+                "printimagehash": [
+                    "fb/50"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>She was a sign of good luck, foretelling fortune in our future.</i>"
+                ],
+                "printingid": "4",
+                "set": [
+                    "Battle of Beiden Pass"
+                ],
+                "artist": [
+                    "Sandra Evenngham"
+                ],
+                "printimagehash": [
+                    "ee/cc"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>She was a sign of good luck, foretelling fortune in our future.</i>"
+                ],
+                "printingid": "5",
+                "set": [
+                    "Obsidian Edition"
+                ],
+                "artist": [
+                    "Sandra Everingham"
+                ],
+                "printimagehash": [
+                    "8c/a9"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>Fortune favors the bold.</i>"
+                ],
+                "printingid": "6",
+                "set": [
+                    "Jade Edition"
+                ],
+                "artist": [
+                    "Sandra Everingham"
+                ],
+                "printimagehash": [
+                    "cc/2a"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>Fortune favors the bold.</i>"
+                ],
+                "printingid": "7",
+                "set": [
+                    "Pearl Edition"
+                ],
+                "artist": [
+                    "Sandra Everingham"
+                ],
+                "printimagehash": [
+                    "36/3e",
+                    "e6/4b"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"All things are necessary - war, peace, the edge of the sword, and the sound of a poem. With understanding, all things are one.\" - from the True Tao of Shinsei</i>"
+                ],
+                "printingid": "8",
+                "number": [
+                    "Unicorn 09"
+                ],
+                "set": [
+                    "Storms Over Matsu Palace"
+                ],
+                "artist": [
+                    "Sandra Everingham"
+                ],
+                "printimagehash": [
+                    "79/91"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>Three hundred years ago, a sandalwood fan convinced the Court that the Unicorn Clan was indeed Shinjo's people returned from their quest.</i>"
+                ],
+                "printingid": "9",
+                "number": [
+                    "1"
+                ],
+                "set": [
+                    "L5R Experience"
+                ],
+                "artist": [
+                    "K.C. Lancaster"
+                ],
+                "printimagehash": [
+                    "aa/26"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "flavor": [
+                    "The ki-rin is an ancient and sacred creature of legend. It appears in the mortal realm perhaps once each generation, and those who see it are blessed."
+                ],
+                "printingid": "10",
+                "number": [
+                    "3"
+                ],
+                "artnumber": [
+                    "17000006"
+                ],
+                "set": [
+                    "Ivory Edition"
+                ],
+                "artist": [
+                    "KC Lancaster"
+                ],
+                "printimagehash": [
+                    "25/c3"
+                ],
+                "text": [
+                    "Dynasty: Draw a card. (You may only take Dynasty actions during your Dynasty Phase.)"
+                ],
+                "title": [
+                    "Glimpse of the Unicorn"
+                ],
+                "type": [
+                    "Event"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "10",
+        "text": [
+            "<b>Dynasty:</b> Draw a card. <i>(You may only take Dynasty actions during your Dynasty Phase.)</i>"
+        ],
+        "formattedtitle": "Glimpse of the Unicorn",
+        "cardid": 2818,
+        "title": [
+            "Glimpse of the Unicorn"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "9b/d5",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Destroyer War (Celestial)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Your efforts are a great boon to the alliance, noble warrior. You honor us all with your prowess.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "4"
+                ],
+                "artnumber": [
+                    "8658"
+                ],
+                "set": [
+                    "The Imperial Gift 2"
+                ],
+                "artist": [
+                    "Raymond Gaustadnes"
+                ],
+                "printimagehash": [
+                    "93/e1"
+                ],
+                "text": [
+                    "Until the game ends, after each time a player destroys a province by winning a battle, he gains 3 Honor."
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"The Lion respect the Phoenix, my lord, but your intervention in this matter is unwelcome. Stand aside, or our alliance will suffer for it.\"</i>"
+                ],
+                "printingid": "2",
+                "number": [
+                    "5"
+                ],
+                "set": [
+                    "War of Honor"
+                ],
+                "artist": [
+                    "Raymond Gaustadnes"
+                ],
+                "printimagehash": [
+                    "52/b8"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "flavor": [
+                    "\"I bring you a gift, the head of the man who shamed both our houses. Perhaps now we can grow in strength together once again.\""
+                ],
+                "printingid": "3",
+                "number": [
+                    "4"
+                ],
+                "artnumber": [
+                    "17000007"
+                ],
+                "set": [
+                    "Ivory Edition"
+                ],
+                "keywords": [
+                    "Unique"
+                ],
+                "artist": [
+                    "Raymond Gaustadnes"
+                ],
+                "printimagehash": [
+                    "ed/c6"
+                ],
+                "text": [
+                    "After each time an Attacker destroys a province by winning a battle, he gains 3 Honor. <br>Open: Put this Event into play."
+                ],
+                "title": [
+                    "Military Alliance"
+                ],
+                "type": [
+                    "Event"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "3",
+        "text": [
+            "After each time an Attacker destroys a province by winning a battle, he gains 3 Honor. <br><b>Open:</b> Put this Event into play."
+        ],
+        "formattedtitle": "Military Alliance",
+        "cardid": 5054,
+        "title": [
+            "Military Alliance"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "49/a3",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Hidden Emperor (Jade)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "playtestname": [
+            "Return of Myth"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>One by one, each star in the Celestial Heavens awakened, following the light of a golden colt.</i>"
+                ],
+                "printingid": "1",
+                "set": [
+                    "Fire &amp; Shadow"
+                ],
+                "artist": [
+                    "William O'Connor"
+                ],
+                "printimagehash": [
+                    "3d/ac"
+                ],
+                "text": [
+                    "Each Nonhuman Personality gains +1F/+1C. Each Nonhuman Follower gains +1F."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "\"Tales of spirits, wondrous events, even sightings of the elemental dragons.\" The Phoenix shugenja's eyes were alight. \"The Heavens are clear in their blessings of the Iweko Dynasty.\""
+                ],
+                "printingid": "2",
+                "number": [
+                    "4"
+                ],
+                "artnumber": [
+                    "17400003"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Llyn Hunter"
+                ],
+                "use": [
+                    "Story card"
+                ],
+                "printimagehash": [
+                    "4f/ec"
+                ],
+                "text": [
+                    "Open: Give each Nonhuman Personality +1F/+1C and give each Nonhuman Follower +1F."
+                ],
+                "title": [
+                    "Return of Myth"
+                ],
+                "type": [
+                    "Event"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "2",
+        "text": [
+            "<b>Open:</b> Give each Nonhuman Personality +1F/+1C and give each Nonhuman Follower +1F."
+        ],
+        "formattedtitle": "Return of Myth",
+        "cardid": 6292,
+        "title": [
+            "Return of Myth"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "fc/e7",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Age of Enlightenment (Lotus)",
+            "Clan Wars (Imperial)",
+            "Race for the Throne (Samurai)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Foreigners are seldom welcomed in the Empire.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "9"
+                ],
+                "artnumber": [
+                    "7811"
+                ],
+                "set": [
+                    "Samurai Edition"
+                ],
+                "artist": [
+                    "Leonardo Borazio"
+                ],
+                "printimagehash": [
+                    "43/fc"
+                ],
+                "text": [
+                    "Discard the Imperial Favor if you control it.<br>Until the game ends, you cannot win an Honor<br>Victory, lobby, or control the Imperial Favor, and you<br>have the ability, \"Reaction: Any number of times per<br>turn, after an action with a base cost of discarding<br>the Favor targets one of your cards: Lose 5 Honor.<br>Negate the action's effects.\""
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Crimson and Jade"
+                ],
+                "artist": [
+                    "Ellym Sirac"
+                ],
+                "printimagehash": [
+                    "7b/32"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "printingid": "3",
+                "number": [
+                    "2"
+                ],
+                "set": [
+                    "Lotus Edition"
+                ],
+                "artist": [
+                    "Veronica V. Jones"
+                ],
+                "printimagehash": [
+                    "7c/3b"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "flavor": [
+                    "\"The Colonies have their purpose, certainly, but respectable? There are gaijin living there.\" - Bayushi Nitoshi"
+                ],
+                "printingid": "4",
+                "number": [
+                    "6"
+                ],
+                "artnumber": [
+                    "17000015"
+                ],
+                "set": [
+                    "Ivory Edition"
+                ],
+                "artist": [
+                    "Leonardo Borazio"
+                ],
+                "printimagehash": [
+                    "71/d8"
+                ],
+                "text": [
+                    "You cannot win an Honor Victory or control the Imperial Favor. You have the ability, \"Repeatable Interrupt: Negate a Favor action after it targets your cards (the Imperial Favor is still discarded). Lose 5 Honor.\"<br>Open: Put this Event into play. Discard the Imperial Favor if you control it."
+                ],
+                "title": [
+                    "Severed from the Emperor"
+                ],
+                "type": [
+                    "Event"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "4",
+        "text": [
+            "You cannot win an Honor Victory or control the Imperial Favor. You have the ability, \"<b>Repeatable Interrupt:</b> Negate a Favor action after it targets your cards <i>(the Imperial Favor is still discarded)</i>. Lose 5 Honor.\"<br><b>Open:</b> Put this Event into play. Discard the Imperial Favor if you control it."
+        ],
+        "formattedtitle": "Severed from the Emperor",
+        "cardid": 6636,
+        "title": [
+            "Severed from the Emperor"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "bb/c0",
+        "legality": [
+            "Clan Wars (Imperial)",
+            "Rain of Blood (Diamond)",
+            "Onyx Edition",
+            "A Brother's Destiny (Twenty Festivals)"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The Lost are slaves to corruption, mere pawns of the power of Fu Leng. Powerful Bloodspeakers such as Iuchiban and myself have learned to use outside magic to control the Taint. We are the true masters of darkness.\" - Yajinden's Journals</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "25"
+                ],
+                "set": [
+                    "Diamond Edition"
+                ],
+                "artist": [
+                    "Brad Williams"
+                ],
+                "printimagehash": [
+                    "bb/c0"
+                ],
+                "text": [
+                    "Permanently lower the strength of each Province by 1."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"The gibbering things marched openly through the streets, wearing the colors of the Hantei. None dared show themselves for fear of joining their ranks.\" - The Fall of the Hantei, Volume I</i>"
+                ],
+                "printingid": "2",
+                "set": [
+                    "Crimson and Jade"
+                ],
+                "artist": [
+                    "Anson Maddocks"
+                ],
+                "printimagehash": [
+                    "3e/4e"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "printingid": "3",
+                "set": [
+                    "Promotional&ndash;Twenty Festivals"
+                ],
+                "notes": [
+                    "Legal October 1st, 2015 &#149; Evil Portents Pre-release Promo"
+                ],
+                "keywords": [
+                    "Unique"
+                ],
+                "artist": [
+                    "Nikolay Stoyanov"
+                ],
+                "printimagehash": [
+                    "77/e0"
+                ],
+                "title": [
+                    "Shadow of the Dark God"
+                ],
+                "type": [
+                    "Event"
+                ],
+                "flavor": [
+                    "Shadows grow ever longer as the sun sets... and, some say, this shadow bears a pair of horns."
+                ],
+                "number": [
+                    "395"
+                ],
+                "artnumber": [
+                    "17400458"
+                ],
+                "text": [
+                    "Provinces have -1 strength.<br>Open: Put this Event into play."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "3",
+        "text": [
+            "Provinces have -1 strength.<br><b>Open:</b> Put this Event into play."
+        ],
+        "formattedtitle": "Shadow of the Dark God",
+        "cardid": 6658,
+        "title": [
+            "Shadow of the Dark God"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "b9/20",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Four Winds (Gold)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "playtestname": [
+            "Short Season"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"It seems as if winter comes sooner every year.\" - Satoshi</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "43"
+                ],
+                "set": [
+                    "Dark Allies"
+                ],
+                "artist": [
+                    "Heather Bruton"
+                ],
+                "printimagehash": [
+                    "4c/00"
+                ],
+                "text": [
+                    "Until the beginning of your next turn, each player may take only one Limited or Open action during each Action Phase. (This does not affect battles.)"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "flavor": [
+                    "The winter season was short and quite mild, beginning with the Empress's announcement and ending with a coronation."
+                ],
+                "printingid": "2",
+                "number": [
+                    "5"
+                ],
+                "artnumber": [
+                    "17400004"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Heather Bruton"
+                ],
+                "use": [
+                    "Control meta"
+                ],
+                "printimagehash": [
+                    "32/fb"
+                ],
+                "text": [
+                    "Each player may take only one Limited or Open action per turn (after this Event enters play).<br>Open: If you have not taken an action this phase, put this Event into play. Discard it after the current active player's next Action Phase begins."
+                ],
+                "title": [
+                    "Short Season"
+                ],
+                "type": [
+                    "Event"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "2",
+        "text": [
+            "Each player may take only one Limited or Open action per turn <i>(after this Event enters play)</i>.<br><b>Open:</b> If you have not taken an action this phase, put this Event into play. Discard it after the current active player's next Action Phase begins."
+        ],
+        "formattedtitle": "Short Season",
+        "cardid": 7082,
+        "title": [
+            "Short Season"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "ae/09",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Race for the Throne (Samurai)",
+            "Modern"
+        ],
+        "playtestname": [
+            "The Heavens Are Watching"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The realm of man erupted once more into war. The representatives of the Celestial Heavens took note of the chaos, and their disapproval grew.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "4"
+                ],
+                "artnumber": [
+                    "8003"
+                ],
+                "set": [
+                    "Stronger Than Steel"
+                ],
+                "artist": [
+                    "Drew Baker"
+                ],
+                "printimagehash": [
+                    "51/3b"
+                ],
+                "text": [
+                    "After your next Action Phase begins, turn<br>all cards in provinces face up, except the<br>province from which this Event resolved."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "Throughout the Empire, the shugenja of Rokugan were unanimous in their finding that the Celestial Heavens were greatly pleased with the selection of the new Emperor."
+                ],
+                "printingid": "2",
+                "number": [
+                    "6"
+                ],
+                "artnumber": [
+                    "17400006"
+                ],
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Drew Baker"
+                ],
+                "use": [
+                    "Story card"
+                ],
+                "printimagehash": [
+                    "b3/07"
+                ],
+                "text": [
+                    "Open: Turn all cards in other Provinces face-up (including other players' Provinces)."
+                ],
+                "title": [
+                    "The Heavens Are Watching"
+                ],
+                "type": [
+                    "Event"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "2",
+        "text": [
+            "<b>Open:</b> Turn all cards in other Provinces face-up <i>(including other players' Provinces)</i>."
+        ],
+        "formattedtitle": "The Heavens Are Watching",
+        "cardid": 8123,
+        "title": [
+            "The Heavens Are Watching"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "playtestname": [
+            "The New Order"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The Emerald Legions moved throughout the Empire, ensuring that the Empress's commands were obeyed. Foolish was the lord who tried to defy a legion commander.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "16"
+                ],
+                "artnumber": [
+                    "9865"
+                ],
+                "set": [
+                    "Celestial Edition"
+                ],
+                "artist": [
+                    "David Horne"
+                ],
+                "printimagehash": [
+                    "f9/a2"
+                ],
+                "text": [
+                    "You may destroy your rightmost Province; if you do so, permanently increase the amount of Honor needed to achieve an Honor Victory by 10."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"The time has come for the Empire to be reunited,\" Tsai said to the Legionnaires. \"All will bow. Either by choice or before the Emperor's sword.\"</i>"
+                ],
+                "printingid": "2",
+                "number": [
+                    "1"
+                ],
+                "set": [
+                    "Winds of Change"
+                ],
+                "artist": [
+                    "David Horne"
+                ],
+                "printimagehash": [
+                    "69/b2"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "printingid": "3",
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "keywords": [
+                    "Unique"
+                ],
+                "artist": [
+                    "David Horne"
+                ],
+                "use": [
+                    "Honor meta"
+                ],
+                "printimagehash": [
+                    "1d/a7"
+                ],
+                "title": [
+                    "The New Order"
+                ],
+                "type": [
+                    "Event"
+                ],
+                "flavor": [
+                    "Whenever power changes hands, there are those who seek opportunity."
+                ],
+                "number": [
+                    "7"
+                ],
+                "artnumber": [
+                    "17400007"
+                ],
+                "text": [
+                    "This Event may not be discarded from play (though its Open action may be negated normally). Players need 10 more Honor to win an Honor Victory.<br>Political Open: Destroy your rightmost Province. Put this Event into play."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "3",
+        "text": [
+            "This Event may not be discarded from play <i>(though its Open action may be negated normally)</i>. Players need 10 more Honor to win an Honor Victory.<br><b>Political Open:</b> Destroy your rightmost Province. Put this Event into play."
+        ],
+        "formattedtitle": "The New Order",
+        "cardid": 8235,
+        "imagehash": "4a/ed",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Destroyer War (Celestial)",
+            "Four Winds (Gold)",
+            "Onyx Edition",
+            "Rain of Blood (Diamond)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "The New Order"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "a9/5e",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Age of Conquest (Emperor)",
+            "Age of Enlightenment (Lotus)",
+            "Destroyer War (Celestial)",
+            "Hidden Emperor (Jade)",
+            "Race for the Throne (Samurai)",
+            "Rain of Blood (Diamond)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"In twenty years of relative peace and exploration, we have learned so much. We must be ever vigilant to ensure that wisdom is not forsaken for war.\" - Shiba Tsukimi</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "25"
+                ],
+                "artnumber": [
+                    "10040024"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Raymond Gaustadnes"
+                ],
+                "printimagehash": [
+                    "de/f9"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"It may take some time to gain admission to the Empress,\" Taiko said. \"We should learn as much as we can in the meantime.\" Hideo nodded. \"Agreed, Little Hummingbird.\""
+                ],
+                "printingid": "2",
+                "number": [
+                    "17"
+                ],
+                "set": [
+                    "Celestial Edition"
+                ],
+                "artist": [
+                    "Raymond Gaustadnes"
+                ],
+                "printimagehash": [
+                    "c5/57"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"I saw terrible things within the Shadowlands, my lord, but I cannot speak of it to you, or it could bring ruination to you, and to the clan. If for this you wish my seppuku, I will gladly grant it.\" - Akodo Shunori</i>"
+                ],
+                "printingid": "3",
+                "number": [
+                    "5"
+                ],
+                "set": [
+                    "Battle of Kyuden Tonbo"
+                ],
+                "artist": [
+                    "Raymond Gaustadnes"
+                ],
+                "printimagehash": [
+                    "64/41"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"The Brothers of Shinsei are the custodians of the prophet's wisdom.\" - Togashi Mitsu</i>"
+                ],
+                "printingid": "4",
+                "number": [
+                    "26"
+                ],
+                "set": [
+                    "Diamond Edition"
+                ],
+                "artist": [
+                    "Steve Snyder"
+                ],
+                "printimagehash": [
+                    "57/b2"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>It was the wisdom of a simple man that saved an Empire. The Keepers are sworn to uphold his legacy.</i>"
+                ],
+                "printingid": "5",
+                "number": [
+                    "13"
+                ],
+                "set": [
+                    "Lotus Edition"
+                ],
+                "artist": [
+                    "Steve Snyder"
+                ],
+                "printimagehash": [
+                    "11/c7"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"Remember. Think. Feel. Act. Simple things upon which the fate of the Empire turns.\" - Mirumoto Masae</i>"
+                ],
+                "printingid": "6",
+                "number": [
+                    "16"
+                ],
+                "set": [
+                    "Samurai Edition"
+                ],
+                "artist": [
+                    "Steve Snyder"
+                ],
+                "printimagehash": [
+                    "ce/c7"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>It was the wisdom of a simple man that saved an Empire. The Keepers are sworn to uphold his legacy.</i>"
+                ],
+                "printingid": "7",
+                "number": [
+                    "Dragon 17"
+                ],
+                "set": [
+                    "Training Grounds 2"
+                ],
+                "artist": [
+                    "Steve Snyder"
+                ],
+                "printimagehash": [
+                    "5e/ed"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"There is little wisdom to be gained in the keeping of secrets, brother Lion. It was the Scorpion who took the papers&#8230; and who laid the blame at your feet.\"</i>"
+                ],
+                "printingid": "8",
+                "number": [
+                    "7"
+                ],
+                "set": [
+                    "War of Honor"
+                ],
+                "artist": [
+                    "Raymond Gaustadnes"
+                ],
+                "printimagehash": [
+                    "b3/ad"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"I saw terrible things within the Shadowlands, my lord, but I cannot speak of it to you, or it could bring ruination to you, and to the clan. If for this you wish my seppuku, I will gladly grant it.\" - Akodo Shunori</i>"
+                ],
+                "printingid": "9",
+                "number": [
+                    "17"
+                ],
+                "set": [
+                    "Celestial Edition 15th Anniversary"
+                ],
+                "artist": [
+                    "Raymond Gaustadnes"
+                ],
+                "printimagehash": [
+                    "9b/7b"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>The only truth you find in distant lands is the truth you carry with you.</i>"
+                ],
+                "printingid": "10",
+                "set": [
+                    "Hidden Emperor 6"
+                ],
+                "artist": [
+                    "Heather Bruton (Miscredited to Rob Alexander)"
+                ],
+                "printimagehash": [
+                    "dc/33"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "Some seek the wisdom of the universe within monasteries, severing themselves from all outside influences. Others immerse themselves in the natural world in hopes of becoming one with it."
+                ],
+                "printingid": "11",
+                "number": [
+                    "7"
+                ],
+                "artnumber": [
+                    "17000024"
+                ],
+                "set": [
+                    "Ivory Edition"
+                ],
+                "keywords": [
+                    "Unique"
+                ],
+                "artist": [
+                    "David Horne"
+                ],
+                "printimagehash": [
+                    "3b/34"
+                ],
+                "text": [
+                    "Open: Starting with you, each player may search his discard pile and Fate deck for a Ring, show it, and put it in his hand."
+                ],
+                "title": [
+                    "Wisdom Gained"
+                ],
+                "type": [
+                    "Event"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "printingid": "12",
+                "number": [
+                    "1"
+                ],
+                "artnumber": [
+                    "10040024"
+                ],
+                "set": [
+                    "Emperor Edition Demo Decks"
+                ],
+                "keywords": [
+                    "Unique"
+                ],
+                "artist": [
+                    "Raymond Gaustadses"
+                ],
+                "printimagehash": [
+                    "9f/1b"
+                ],
+                "text": [
+                    "Starting with you, each player may search his discard pile and Fate deck for a Ring, show it, and put it in his hand."
+                ],
+                "title": [
+                    "Wisdom Gained"
+                ],
+                "type": [
+                    "Event"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "11",
+        "text": [
+            "<b>Open:</b> Starting with you, each player may search his discard pile and Fate deck for a Ring, show it, and put it in his hand."
+        ],
+        "formattedtitle": "Wisdom Gained",
+        "cardid": 9356,
+        "title": [
+            "Wisdom Gained"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "09/20",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern",
+            "Modern"
+        ],
+        "playtestname": [
+            "Into the Wastes"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The Mantis viewed the whole of the Colonies as their domain, regardless of the feelings of the other clans. With certain hidden threats eliminated, the Mantis turned their attention toward threats long forgotten, and began seeking a northern route to distant Medinaat al-Salaam.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "5"
+                ],
+                "artnumber": [
+                    "10150005"
+                ],
+                "set": [
+                    "Aftermath"
+                ],
+                "artist": [
+                    "Nikolay Stoyanov"
+                ],
+                "use": [
+                    "In which the Mantis begin searching for the northern route to Medinaat al-Salaam."
+                ],
+                "printimagehash": [
+                    "7c/59"
+                ],
+                "designer": [
+                    "Duncan"
+                ],
+                "designernotes": [
+                    "Art: Mantis Scouts exploring the Northern Wastes.<br>Design: Intentionally non-Unique."
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Twenty Festivals"
+                ],
+                "artist": [
+                    "Nikolay Stoyanov"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "9a/22"
+                ],
+                "designer": [
+                    "Duncan"
+                ],
+                "title": [
+                    "Into the Wastes"
+                ],
+                "type": [
+                    "Event"
+                ],
+                "flavor": [
+                    "\"It matters not what the others think,\" Yoritomo Hiromi said indignantly. \"The Colonies are Mantis territory and I wish to know what lies beyond our borders. If there is a threat, we must know.\""
+                ],
+                "number": [
+                    "3"
+                ],
+                "artnumber": [
+                    "17400481"
+                ],
+                "text": [
+                    "Engage: You have the first opportunity in this battle to pass or take a Battle action, which must come from a card in a unit."
+                ],
+                "designernotes": [
+                    "Art: Mantis Scouts exploring the Northern Wastes.<br>Design: Intentionally non-Unique."
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "2",
+        "text": [
+            "<b>Engage:</b> You have the first opportunity in this battle to pass or take a Battle action, which must come from a card in a unit."
+        ],
+        "formattedtitle": "Into the Wastes",
+        "cardid": 10820,
+        "title": [
+            "Into the Wastes"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Political Warfare]"
+        ],
+        "printing": [
+            {
+                "printingid": "1",
+                "number": [
+                    "5"
+                ],
+                "artnumber": [
+                    "17000011"
+                ],
+                "set": [
+                    "Ivory Edition"
+                ],
+                "artist": [
+                    "Shen Fei"
+                ],
+                "printedwithset": [
+                    "Ivory Edition"
+                ],
+                "printimagehash": [
+                    "39/14"
+                ],
+                "designer": [
+                    "Jeremy"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After a player gains Honor, or any of his opponents lose Honor from the rulebook or cards they do not own, give him an equal number of <b>Influence</b> tokens. A player who begins his turn with 50 or more Influence tokens wins the game. This Event will not be discarded from play, nor have its effects prevented. <br><b>Political Open:</b> If no player controls a copy of Political Standoff, put this Event into play."
+        ],
+        "formattedtitle": "Political Standoff",
+        "cardid": 11139,
+        "imagehash": "39/14",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Kharmic</b>"
+        ],
+        "erratum": [
+            "Tech errata to clarify the scope of its prevention trait, via Oracle."
+        ],
+        "title": [
+            "Political Standoff"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "updatelog": [
+            {
+                "newdata": {
+                    "legality": [
+                        "A&nbsp;Brother's&nbsp;Destiny&nbsp;(Ivory&nbsp;Edition)",
+                        "A&nbsp;Brother's&nbsp;Destiny&nbsp;(Twenty&nbsp;Festivals)",
+                        "Modern"
+                    ]
+                },
+                "op": "update",
+                "uid": 21069,
+                "uname": "Don Eisele",
+                "olddata": {
+                    "legality": [
+                        "A&nbsp;Brother's&nbsp;Destiny&nbsp;(Ivory&nbsp;Edition)",
+                        "A&nbsp;Brother's&nbsp;Destiny&nbsp;(Twenty&nbsp;Festivals)",
+                        "Modern",
+                        "Modern"
+                    ]
+                },
+                "timestamp": 1634264701933
+            }
+        ],
+        "playtestname": [
+            "[Retirement]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Though it has been long months since she stepped down, the abdication of the Jade Champion remains a matter of brisk discussion.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "1"
+                ],
+                "artnumber": [
+                    "17200002"
+                ],
+                "set": [
+                    "A Line in the Sand"
+                ],
+                "artist": [
+                    "Danielle Storey"
+                ],
+                "use": [
+                    "This is the forced Retirement of the Jade Champion"
+                ],
+                "printimagehash": [
+                    "3f/25"
+                ],
+                "designer": [
+                    "Julien"
+                ],
+                "designernotes": [
+                    "Asahina Nanae resignating from the Jade Champion position, looking both angry and ashamed."
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Reduce all Honor gains and losses from Holdings by 1 <i>(minimum zero)</i>.<br><b>Open:</b> Put this Event into play. Discard it before your next turn ends. You may target and dishonor a Crane Clan Personality."
+        ],
+        "formattedtitle": "Abdication",
+        "cardid": 11544,
+        "imagehash": "3f/25",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Kharmic</b>"
+        ],
+        "title": [
+            "Abdication"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "6d/a5",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "playtestname": [
+            "[Pick a Side]"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Although the two sons of the Divine Empress did not sanction action against one another, their followers were happy to take that initiative on their own.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "2"
+                ],
+                "artnumber": [
+                    "17200001"
+                ],
+                "set": [
+                    "A Line in the Sand"
+                ],
+                "artist": [
+                    "David Horne"
+                ],
+                "use": [
+                    "An Event that interacts with the \"Support\" cards below, should deal with violence breaking out in the Second City and clans picking a side"
+                ],
+                "printimagehash": [
+                    "6d/a5"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "When violence breaks out in the Second City, samurai have to choose whom they support"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Political Open:</b> Search your Fate deck for an Allegiance card, show it, and put it in your hand.<br><b>Political Open:</b> Discard a target Allegiance card in play. Refill this Province face-up."
+        ],
+        "formattedtitle": "The Samurai Caste Divides",
+        "cardid": 11545,
+        "title": [
+            "The Samurai Caste Divides"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "72/8c",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "playtestname": [
+            "[The Final Assault]"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The forces of the Dark Naga, mistakenly believed dead, emerged from the wilderness to lay siege to the Second City. The blood of man and Naga alike flooded the streets.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "3"
+                ],
+                "artnumber": [
+                    "17200003"
+                ],
+                "set": [
+                    "A Line in the Sand"
+                ],
+                "artist": [
+                    "Luis NCT"
+                ],
+                "use": [
+                    "The Dark Naga wages war on the Colonies"
+                ],
+                "printimagehash": [
+                    "72/8c"
+                ],
+                "designer": [
+                    "Jeremy"
+                ],
+                "designernotes": [
+                    "Art Notes - The Dark Naga and the Shakash leading a massive army of naga from the seas to assault a waiting army of samurai. Should feel epic and desperate."
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Open:</b> Permanently give your target Personality <b>Resilient</b>. If you have fewer Provinces than each other player, permanently give him <b>Conqueror </b>and refill this Province face-up."
+        ],
+        "formattedtitle": "The Serpent War",
+        "cardid": 11546,
+        "title": [
+            "The Serpent War"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "09/a6",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "playtestname": [
+            "[The Arrival]"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The arrival of an Imperial heir is cause for circumstance for every city.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "1"
+                ],
+                "artnumber": [
+                    "17100003"
+                ],
+                "set": [
+                    "The Coming Storm"
+                ],
+                "artist": [
+                    "Chris Ostrowski"
+                ],
+                "printimagehash": [
+                    "09/a6"
+                ],
+                "designer": [
+                    "Trevor"
+                ],
+                "designernotes": [
+                    "Artwork has Seiken disembarking from a boat."
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Political Battle/Open:</b> Take the Imperial Favor."
+        ],
+        "formattedtitle": "Auspicious Arrival",
+        "cardid": 11709,
+        "title": [
+            "Auspicious Arrival"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "34/3c",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "playtestname": [
+            "[I don't play your games]"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"It does not matter if you think you do not play the game,\" she said, smiling. \"Everyone plays. Those who claim to avoid it simply lose.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "2"
+                ],
+                "artnumber": [
+                    "17100002"
+                ],
+                "set": [
+                    "The Coming Storm"
+                ],
+                "artist": [
+                    "Albert Tavira"
+                ],
+                "use": [
+                    "This should have something to do with Seiken's attitude towards the Governess"
+                ],
+                "printimagehash": [
+                    "34/3c"
+                ],
+                "designer": [
+                    "Loki"
+                ],
+                "designernotes": [
+                    "Seiken rebuking the Governess."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After a player's Favor action resolves, he loses 2 Honor.<br><b>Open:</b> Put this Event into play. Discard it after your second turn from now begins."
+        ],
+        "formattedtitle": "Denial",
+        "cardid": 11710,
+        "title": [
+            "Denial"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "72/c0",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "playtestname": [
+            "[A Gift]"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The Emperor's Blessing will help the needy rebuild their homes, restoring them to their former glory.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "3"
+                ],
+                "artnumber": [
+                    "17100001"
+                ],
+                "set": [
+                    "The Coming Storm"
+                ],
+                "artist": [
+                    "A.C. Swedberg"
+                ],
+                "use": [
+                    "This should do something with Iweko being presented with the Blood of the Preserver"
+                ],
+                "printimagehash": [
+                    "72/c0"
+                ],
+                "designer": [
+                    "Randy"
+                ],
+                "designernotes": [
+                    "Notes: Shows the positive effects that the Blood has on the earth, as mentioned on the Kotei pack cards. It's bountiful."
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Economic Open:</b> Target your Holding. After your next turn begins, give it a +1 Gold Production <b>Wealth</b> token."
+        ],
+        "formattedtitle": "The Blessing",
+        "cardid": 11711,
+        "title": [
+            "The Blessing"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "2b/fc",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "playtestname": [
+            "Betrayal"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The military force of the traditionalists was vastly larger than their opponents', and a swift victory was anticipated. They reckoned without the duplicity of the Scorpion, however.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "1"
+                ],
+                "artnumber": [
+                    "173000001"
+                ],
+                "set": [
+                    "The New Order"
+                ],
+                "artist": [
+                    "David Horne"
+                ],
+                "printedwithset": [
+                    "The New Order"
+                ],
+                "printimagehash": [
+                    "2b/fc"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "[Note: The traditionalists suffer a rout when the Scorpion betray them.]"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Interrupt:</b> You may choose a different one of your <i>(legal)</i> Personalities for the action to target instead of the one chosen by another player, now or after he chooses the target."
+        ],
+        "formattedtitle": "Devastating Betrayal",
+        "cardid": 11866,
+        "title": [
+            "Devastating Betrayal"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "24/b3",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "A Brother's Destiny (Twenty Festivals)",
+            "Modern",
+            "Modern"
+        ],
+        "playtestname": [
+            "Seclusion"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Throughout Rokugan's history, there have been occasions when Emperors have retired to their personal chambers for an extensive period of time in order to contemplate matters of great importance.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "2"
+                ],
+                "artnumber": [
+                    "173000002"
+                ],
+                "set": [
+                    "The New Order"
+                ],
+                "artist": [
+                    "Mario Wibisono"
+                ],
+                "printedwithset": [
+                    "The New Order"
+                ],
+                "printimagehash": [
+                    "24/b3"
+                ],
+                "designer": [
+                    "Randy"
+                ],
+                "designernotes": [
+                    "Notes - Seclusion and protection. Iweko alone at a shrine meditating. This is Iweko going into seclusion to determine who the heir should be."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Open:</b> Remove your target Personality from the game. Search your Dynasty deck for a Personality with equal or lower Gold Cost and refill this Province with him face-up."
+        ],
+        "formattedtitle": "Seclusion",
+        "cardid": 11867,
+        "title": [
+            "Seclusion"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "10/88",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The certainty of the Heavens rained down upon the mortal mind of a man named Enomoto, and he was shattered by it. Far away, the aged monk Hira felt something stir within him. \"What&#8230; what is this I see?\" he wondered idly. \"What is happening?\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "1"
+                ],
+                "artnumber": [
+                    "17500001"
+                ],
+                "set": [
+                    "Thunderous Acclaim"
+                ],
+                "artist": [
+                    "Felipe Gaona"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "10/88"
+                ],
+                "designer": [
+                    "Jeremy"
+                ],
+                "designernotes": [
+                    "Asahina Hira knows something just happened to the world. Enomoto gets crazy visions, writes them down, then dies. Not sure which should be depicted here, maybe both? Either way, this is about the same Prophecy"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "You have the ability, \"<b>Open:</b> Give a target face-up card in your Province Kharmic.\"<br><b>Open:</b> Put this Event into play."
+        ],
+        "formattedtitle": "A Vision Imparted",
+        "cardid": 12265,
+        "title": [
+            "A Vision Imparted"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "f4/27",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Kharmic</b>",
+            "Festival"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The season of festivals ended finally in a week of merriment before the coronation of Iweko II.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "2"
+                ],
+                "artnumber": [
+                    "17500002"
+                ],
+                "set": [
+                    "Thunderous Acclaim"
+                ],
+                "artist": [
+                    "Damien Mammoliti"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "f4/27"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "[Note: This is the end of the 90 days of Festivals. I figure this could be the last one, signaling the end. Makes it so being down on Provinces does not also mean you are down on the number of cards you can buy.]"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "You have the ability, \"<b>Open:</b> If you have fewer Provinces than one other player, then a number of times per turn equal to the difference <i>(now)</i>, you may refill one of your Provinces face-up.\"<br><b>Open:</b> If you have not resolved a Coronation Festival this game, put this Event into play."
+        ],
+        "formattedtitle": "Coronation Festival",
+        "cardid": 12266,
+        "title": [
+            "Coronation Festival"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "09/21",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Kanpeki looked at the burning banner, then back to his men. \"We have kept our oaths, and they have broken theirs. You know, as I know, what this means. I will not have my father's name slandered. The Empire must burn.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "3"
+                ],
+                "artnumber": [
+                    "17500003"
+                ],
+                "set": [
+                    "Thunderous Acclaim"
+                ],
+                "artist": [
+                    "Jessada Sutthi"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "09/21"
+                ],
+                "designer": [
+                    "Chris"
+                ],
+                "designernotes": [
+                    "Art - Kanpeki and the Spider Clan Court delegates look on as the Spider Clan is disbanded by Imperial Decree."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "You have the ability, \"<b>Battle:</b> If your current army is opposed, discard a card to draw a card.\"<br><b>Open:</b> Put this Event into play."
+        ],
+        "formattedtitle": "Exodus of the Spider",
+        "cardid": 12267,
+        "title": [
+            "Exodus of the Spider"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "ec/12",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "playtestname": [
+            "[Thar she blows]"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The Spider's unholy army outnumbered the temple's defenders more than fifty to one. The samurai fought with honor, but they could not hold back the dark tide. Renyu and Norimichi's magic tore the world asunder, but when Norimichi fell, their defeat was inevitable.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "1"
+                ],
+                "artnumber": [
+                    "17600003"
+                ],
+                "set": [
+                    "Evil Portents"
+                ],
+                "artist": [
+                    "Carlos NCT"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "ec/12"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "[Art Note: The First Seal is destroyed.]"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Open:</b> Dark times are coming. Personalities with 3 or more Personal Honor have -1F. Personalities with 0 Personal Honor have +1F."
+        ],
+        "formattedtitle": "Battle of the First Seal",
+        "cardid": 12421,
+        "title": [
+            "Battle of the First Seal"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "90/ee",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "playtestname": [
+            "[Dont Sweat Its Cool]"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The crowd fell silent as Kozan continued. \"The Dark Lord has chosen to renege on his agreement with the Empress. The Taint endures&#8230; it has only remained hidden.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "2"
+                ],
+                "artnumber": [
+                    "17600002"
+                ],
+                "set": [
+                    "Evil Portents"
+                ],
+                "artist": [
+                    "Jonathan Moore"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "90/ee"
+                ],
+                "designer": [
+                    "Chris"
+                ],
+                "designernotes": [
+                    "Art: Hida Kozan (Voice of the Emperor) reading an official decree in the Imperial Court. The surrounding courtiers look confused and angry. This is Kozan letting people know that Iweko has been suppressing the taint."
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Invest :g2::</b> The Event may be Unique.<br><b>Political Open:</b> Search your Dynasty deck for a non-Unique Event not named Ominous Revelation and refill this Province with it, face-up."
+        ],
+        "formattedtitle": "Ominous Revelation",
+        "cardid": 12422,
+        "title": [
+            "Ominous Revelation"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "5d/08",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "playtestname": [
+            "[Attack the Tombs]"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>As the ancestral guardians shimmered into existence, the samurai-ko licked her lips anxiously. \"This was not in the intelligence,\" she whispered. Then the air shimmered again, and the hungry dead spilled forth. \"The Kwanchai's daughter will not be harmed!\" they hissed.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "3"
+                ],
+                "artnumber": [
+                    "17600001"
+                ],
+                "set": [
+                    "Evil Portents"
+                ],
+                "artist": [
+                    "J. Edwin Stevens"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "5d/08"
+                ],
+                "designer": [
+                    "Jeremy"
+                ],
+                "designernotes": [
+                    "Disguised as Mantis, a force of Scorpion ninja infiltrate the libraries of Kyuden Miya and Shiro Ikoma to remove any hint of the Three Seals that they might find, possibly planting false evidence in the process. This is an attempt to stop the prophecy from coming to be fulfilled. While the heist at Kyuden Miya goes off without a hitch, the one in the Lion lands does not. The Scorpion are able to deftly avoid the Lion's attention, but the Kitsu have employed the aide of their ancestral spirits to protect major Lion fortifications during the war, and the spirits raise the alarm. When this happens, the leader of the team and the greatest ninja of the Scorpion (also Bayushi Kwanchai's daughter) inadvertently sets off her own legacy and the spirits of gaki-do rush to her defense. Shiro Ikoma quickly becomes the site of a battle between the spirit armies of the blessed ancestors and the hungry dead, giving the Scorpion time to escape and confusing the Lion to no end."
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Ninja Open, :g2::</b> You may target and bow a Spell. Search your Fate deck for a Ninja Strategy, show it, and put it in your hand. Lose 2 Honor."
+        ],
+        "formattedtitle": "War of the Spirit Realms",
+        "cardid": 12423,
+        "title": [
+            "War of the Spirit Realms"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "fb/0b",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Enough of death. Enough of war. Let there be peace at last.\" - Toturi, the Black Lion</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "17610071"
+                ],
+                "set": [
+                    "Promotional&ndash;Twenty Festivals"
+                ],
+                "artist": [
+                    "Alberto Tavira Espinar"
+                ],
+                "printedwithset": [
+                    "Siege: Clan War"
+                ],
+                "printimagehash": [
+                    "fb/0b"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "This Event may not have its effects negated or be discarded from play. After a turn begins, if the active player controls seven Seven Thunder Personalities with no Clan Alignments in common, he or she wins the game.<br><b>Open:</b> Put this Event into play."
+        ],
+        "formattedtitle": "Victory of the Thunders",
+        "cardid": 12586,
+        "title": [
+            "Victory of the Thunders"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "fb/0b",
+        "legality": [
+            "A Brother's Destiny (Twenty Festivals)",
+            "Onyx Edition",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Enough of death. Enough of war. Let there be peace at last.\" - Toturi, the Black Lion</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "17610071"
+                ],
+                "set": [
+                    "Promotional&ndash;Twenty Festivals"
+                ],
+                "artist": [
+                    "Alberto Tavira Espinar"
+                ],
+                "printedwithset": [
+                    "Siege: Clan War"
+                ],
+                "printimagehash": [
+                    "fb/0b"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "This Event may not have its effects negated or be discarded from play. After a turn begins, if the active player controls seven Seven Thunder Personalities with no Clan Alignments in common, he or she wins the game.<br><b>Open:</b> Put this Event into play."
+        ],
+        "formattedtitle": "Victory of the Thunders",
+        "cardid": 12586,
+        "title": [
+            "Victory of the Thunders"
+        ],
+        "type": [
+            "Event"
+        ]
+    }
+]

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field, fields, Field
 from typing import Any, Type
+from l5r_auto.legality import Legality
 from l5r_auto.locations import DynastyDiscard, RemovedFromGame
 
 from l5r_auto.player import Entity
@@ -27,6 +28,14 @@ class Trait(Action):
 @dataclass(kw_only=True)
 class Card:
     id: int
+    title: str = field(metadata={"is_written": True})
+
+    keywords: list[Type[Keyword]] = field(
+        default_factory=list, metadata={"is_written": True}
+    )
+    legality: list[Type[Legality]] = field(
+        default_factory=list, metadata={"is_written": True}
+    )
 
     entity_type: Type[Entity] = field(init=False)
 
@@ -57,7 +66,8 @@ class DynastyCard(Card):
 
 @dataclass(kw_only=True)
 class FateCard(Card):
-    pass
+    gold_cost: int = field(metadata={"is_written": True})
+    focus_value: int = field(metadata={"is_written": True})
 
 
 @dataclass(kw_only=True)

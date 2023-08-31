@@ -14,10 +14,6 @@ from l5r_auto.clans import Clan
 
 @dataclass(kw_only=True)
 class Region(DynastyCard):
-    title: str = field(metadata={"is_written": True})
-    keywords: list[Type[Keyword]] = field(
-        default_factory=list, metadata={"is_written": True}
-    )
     traits: list[Trait] = field(default_factory=list, metadata={"is_written": True})
     abilities: list[Ability] = field(
         default_factory=list, metadata={"is_written": True}

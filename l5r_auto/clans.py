@@ -102,3 +102,9 @@ class Unaligned(Clan):
 class Unicorn(Clan):
     id: int = 16
     name: str = "Unicorn"
+
+
+@dataclass
+class Ninja(Clan):
+    id: int = 17
+    name: str = "Ninja"
