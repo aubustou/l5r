@@ -15,73 +15,73 @@ class BrotherhoodOfShinsei(Clan):
 
 
 @dataclass
-class Crab(Clan):
+class CrabClan(Clan):
     id: int = 2
     name: str = "Crab"
 
 
 @dataclass
-class Crane(Clan):
+class CraneClan(Clan):
     id: int = 3
     name: str = "Crane"
 
 
 @dataclass
-class Dragon(Clan):
+class DragonClan(Clan):
     id: int = 4
     name: str = "Dragon"
 
 
 @dataclass
-class Lion(Clan):
+class LionClan(Clan):
     id: int = 5
     name: str = "Lion"
 
 
 @dataclass
-class Mantis(Clan):
+class MantisClan(Clan):
     id: int = 6
     name: str = "Mantis"
 
 
 @dataclass
-class Naga(Clan):
+class NagaFaction(Clan):
     id: int = 7
     name: str = "Naga"
 
 
 @dataclass
-class Phoenix(Clan):
+class PhoenixClan(Clan):
     id: int = 8
     name: str = "Phoenix"
 
 
 @dataclass
-class Ratling(Clan):
+class RatlingFaction(Clan):
     id: int = 9
     name: str = "Ratling"
 
 
 @dataclass
-class Scorpion(Clan):
+class ScorpionClan(Clan):
     id: int = 10
     name: str = "Scorpion"
 
 
 @dataclass
-class Shadowlands(Clan):
+class ShadowlandsFaction(Clan):
     id: int = 11
     name: str = "Shadowlands"
 
 
 @dataclass
-class Spider(Clan):
+class SpiderClan(Clan):
     id: int = 12
     name: str = "Spider"
 
 
 @dataclass
-class Spirit(Clan):
+class SpiritFaction(Clan):
     id: int = 13
     name: str = "Spirit"
 
@@ -99,12 +99,12 @@ class Unaligned(Clan):
 
 
 @dataclass
-class Unicorn(Clan):
+class UnicornClan(Clan):
     id: int = 16
     name: str = "Unicorn"
 
 
 @dataclass
-class Ninja(Clan):
+class NinjaFaction(Clan):
     id: int = 17
     name: str = "Ninja"

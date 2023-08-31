@@ -9,60 +9,60 @@ class Legality:
 
 
 @dataclass(kw_only=True)
-class Imperial(Legality):
+class ImperialEdition(Legality):
     pass
 
 
 @dataclass(kw_only=True)
-class Jade(Legality):
+class JadeEdition(Legality):
     pass
 
 
 @dataclass(kw_only=True)
-class Gold(Legality):
+class GoldEdition(Legality):
     pass
 
 
 @dataclass(kw_only=True)
-class Diamond(Legality):
+class DiamondEdition(Legality):
     pass
 
 
 @dataclass(kw_only=True)
-class Lotus(Legality):
+class LotusEdition(Legality):
     pass
 
 
 @dataclass(kw_only=True)
-class Samurai(Legality):
+class SamuraiEdition(Legality):
     pass
 
 
 @dataclass(kw_only=True)
-class Celestial(Legality):
+class CelestialEdition(Legality):
     pass
 
 
 @dataclass(kw_only=True)
-class Emperor(Legality):
+class EmperorEdition(Legality):
     pass
 
 
 @dataclass(kw_only=True)
-class Ivory(Legality):
+class IvoryEdition(Legality):
     pass
 
 
 @dataclass(kw_only=True)
-class TwentyFestivals(Legality):
+class TwentyFestivalsEdition(Legality):
     pass
 
 
 @dataclass(kw_only=True)
-class Onyx(Legality):
+class OnyxEdition(Legality):
     pass
 
 
 @dataclass(kw_only=True)
-class Modern(Legality):
+class ModernEdition(Legality):
     pass

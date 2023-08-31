@@ -1,11 +1,13 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+from typing import TYPE_CHECKING
 import uuid
 
-from l5r_auto.card import Ability, Card
-from l5r_auto.cards.strongholds.common import Stronghold
-from l5r_auto.phases import Phase, Step
+if TYPE_CHECKING:
+    from .card import Ability, Card
+    from .cards.strongholds.common import Stronghold
+    from .phases import Phase, Step
 
 
 @dataclass(kw_only=True)

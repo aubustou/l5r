@@ -1,7 +1,7 @@
 from __future__ import annotations
 from typing import Callable
 
-from l5r_auto.errors import WrongStateError
+from .errors import WrongStateError
 
 
 def pay_cost(actions: Callable[[], None] | list[Callable[[], None]]) -> bool:

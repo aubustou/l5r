@@ -1,11 +1,11 @@
 from __future__ import annotations
 
-from dataclasses import dataclass, field, fields, Field
+from dataclasses import dataclass, field, fields
 from typing import Any, Type
-from l5r_auto.legality import Legality
-from l5r_auto.locations import DynastyDiscard, RemovedFromGame
+from .legality import Legality
+from .locations import DynastyDiscard, RemovedFromGame
 
-from l5r_auto.player import Entity
+from .player import Entity
 
 
 @dataclass(kw_only=True)

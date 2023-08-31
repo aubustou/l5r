@@ -1,7 +1,17 @@
 from __future__ import annotations
+from copy import copy
 
 from dataclasses import dataclass, field
-from l5r_auto.card import Card, Keyword
+from typing import Type
+from .card import Card, Keyword
+from .clans import SpiritFaction, NinjaFaction, NagaFaction
+
+
+def SoulOf(title: str) -> Type[Keyword]:
+    klass = copy(Keyword)
+    klass.name = f"Soul of {title}"
+
+    return klass
 
 
 @dataclass(kw_only=True)
@@ -80,8 +90,7 @@ class Expendable(Keyword):
     """
 
 
-@dataclass(kw_only=True)
-class Experienced(Keyword):
+def Experienced(level: str) -> Type[Keyword]:
     """Some Personality cards have the Experienced keyword, which is sometimes followed
     by a number representing the Personality’s experience level. A Personality with
     Experienced and no number has experience level of one. A Personality without
@@ -103,6 +112,11 @@ class Experienced(Keyword):
     keyword. These may overlay a non-Experienced version as usual, but may not be
     overlaid by a higher level version.
     """
+    klass = copy(Keyword)
+    klass.name = f"Experienced {level}"
+    klass.level = level
+
+    return klass
 
 
 @dataclass(kw_only=True)
@@ -206,3 +220,770 @@ class Unique(Keyword):
     controls, discard the new attachment.
     The Unique keyword also restricts deck construction.
     """
+
+
+# Elements
+
+
+@dataclass(kw_only=True)
+class Air(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Earth(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Fire(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Void(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Water(Keyword):
+    pass
+
+
+# Minor clans and factions
+
+
+@dataclass(kw_only=True)
+class BatClan(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class DragonflyClan(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Naga(Keyword, NagaFaction):
+    pass
+
+
+@dataclass(kw_only=True)
+class Ninja(Keyword, NinjaFaction):
+    pass
+
+
+@dataclass(kw_only=True)
+class Spirit(Keyword, SpiritFaction):
+    pass
+
+
+# Other keywords
+@dataclass(kw_only=True)
+class Actor(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Alchemist(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Ancestor(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Artisan(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Ashigaru(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Assassin(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class BattleMaiden(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Beastmaster(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Berserker(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class BitterLies(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class BlessedByBenten(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Bloodspeaker(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class BogHag(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class BountyHunter(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Braggart(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Bully(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Chieftain(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class ChildOfProphecy(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class ClanChampion(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Commander(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Constrictor(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Courtier(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Cursed(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Daimyo(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class DeathPriest(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Deathseeker(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Dog(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Dragon(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class DragonChild(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Drunkard(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class ElementalMaster(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Empress(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Engineer(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Fallen(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Geisha(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Goblin(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Goryo(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Governor(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Guard(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Hatamoto(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Heir(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Hero(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class HiddenGuard(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Hunter(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Imperial(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Infiltrator(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Inquisitor(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Intimidator(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class IronCrane(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Ishiken(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Jade(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Jester(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Junshin(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Kami(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Kenku(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Kitsune(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Kolat(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Kuroiban(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class LadyOfTheSun(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class LordOfBlades(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class LoveLetter(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Magistrate(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class MaiMaster(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Martyr(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class MasterCoin(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Mastermind(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Mercenary(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Merchant(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Monk(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Mountaineer(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Musician(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Ningyo(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Nonhuman(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Ogre(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class OneTribe(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Oni(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Orator(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class OrderOfTheSpider(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class OrderOfVenom(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Orochi(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Paragon(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Pirate(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Poet(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class PoisonMaster(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Prophetess(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Ratling(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class RitualMaster(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Ronin(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class SakeAddict(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Savior(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Scavenger(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Scholar(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class ScionOfFlame(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class ScionOfStone(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class ScionOfTheSea(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class ScionOfTheVoid(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class ScionOfTheWind(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class ScourgeOfDarkness(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Scout(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Seductress(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Shadowlands(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class ShibasSoul(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class ShojusSoul(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Shugenja(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Siege(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class SilkenSect(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Sinner(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Smith(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Sociopath(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class SodanSenzo(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Spy(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class StableMaster(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class StormRider(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Storyteller(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Tattooed(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class TheBlindPhoenix(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class TheGrowingStorm(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class TheInfiniteEye(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class TheLaughingDragon(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class TheLittleBear(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class TheLivingGoddess(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class TheMaskedCrab(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class TheMaskedCrane(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class TheMaskedLion(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class TheMaskedMonkey(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class TheMaskedPhoenix(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class TheMaskedTortoise(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class TheMaskedWasp(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class ThePoisonMask(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class TheShadowEmperor(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class TheSmilingBlade(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class TheSteelLion(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Thunder(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Undead(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Unmaker(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class VoiceOfTheEmpress(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class WarLeader(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class WarriorOfTheBrightEye(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class WitchHunter(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Yojimbo(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Zealot(Keyword):
+    pass
+
+
+@dataclass(kw_only=True)
+class Zombie(Keyword):
+    pass

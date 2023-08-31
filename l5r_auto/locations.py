@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+from typing import TYPE_CHECKING
 
-from l5r_auto.card import DynastyCard, FateCard
+if TYPE_CHECKING:
+    from .card import DynastyCard, FateCard
 
 
 @dataclass(kw_only=True)

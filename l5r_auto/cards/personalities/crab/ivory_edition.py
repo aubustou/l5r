@@ -1,0 +1,17 @@
+from __future__ import annotations
+from dataclasses import dataclass
+from l5r_auto.card import Ability, Trait
+from l5r_auto.cards.personalities.common import Personality
+from l5r_auto.clans import CrabClan
+from l5r_auto.keywords import Berserker, ClanChampion, Earth, Engineer, Experienced, Kensai, Loyal, Samurai, Scout, Shugenja, Siege, SoulOf, Tactician, TheLittleBear, Unique
+from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEdition
+Hida_Ayahi = Personality(id=11145, title='Hida Ayahi', force=4, chi=2, honor_requirement=None, personal_honor=1, gold_cost=7, clan=[CrabClan], keywords=[Berserker, Samurai, SoulOf('Hida Kashin')], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
+Hida_Kisada_the_Little_Bear_Experienced = Personality(id=11146, title='Hida Kisada, the Little Bear', force=5, chi=5, honor_requirement=5, personal_honor=3, gold_cost=12, clan=[CrabClan], keywords=[Kensai, Loyal, Tactician, Unique, ClanChampion, Experienced('1'), Samurai, Siege, TheLittleBear], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
+Hida_Reigoro = Personality(id=11147, title='Hida Reigoro', force=4, chi=3, honor_requirement=None, personal_honor=1, gold_cost=7, clan=[CrabClan], keywords=[Samurai, SoulOf('Hida Renga')], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
+Hida_Saiyuki = Personality(id=11148, title='Hida Saiyuki', force=3, chi=2, honor_requirement=None, personal_honor=1, gold_cost=4, clan=[CrabClan], keywords=[Samurai, SoulOf('Kaiu Hisayuki')], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
+Hida_Toranosuke = Personality(id=11149, title='Hida Toranosuke', force=3, chi=3, honor_requirement=0, personal_honor=3, gold_cost=5, clan=[CrabClan], keywords=[Samurai], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
+Hiruma_Fujito = Personality(id=11150, title='Hiruma Fujito', force=2, chi=1, honor_requirement=0, personal_honor=2, gold_cost=4, clan=[CrabClan], keywords=[Samurai, Scout], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
+Hiruma_Itta = Personality(id=11151, title='Hiruma Itta', force=2, chi=3, honor_requirement=4, personal_honor=2, gold_cost=5, clan=[CrabClan], keywords=[Samurai], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
+Hiruma_Tsurao = Personality(id=11152, title='Hiruma Tsurao', force=2, chi=4, honor_requirement=3, personal_honor=2, gold_cost=5, clan=[CrabClan], keywords=[Samurai, Scout, SoulOf('Hiruma Todori')], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
+Kaiu_Nakagawa = Personality(id=11153, title='Kaiu Nakagawa', force=3, chi=3, honor_requirement=5, personal_honor=2, gold_cost=5, clan=[CrabClan], keywords=[Engineer, Samurai, Siege, SoulOf('Kaiu Shoichi')], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])
+Kuni_Tomokazu = Personality(id=11154, title='Kuni Tomokazu', force=4, chi=3, honor_requirement=None, personal_honor=1, gold_cost=7, clan=[CrabClan], keywords=[Earth, Shugenja, SoulOf('Kuni Takaniro')], traits=[], abilities=[], legality=[ModernEdition, IvoryEdition, TwentyFestivalsEdition])

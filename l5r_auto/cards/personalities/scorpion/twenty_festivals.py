@@ -1,0 +1,17 @@
+from __future__ import annotations
+from dataclasses import dataclass
+from l5r_auto.card import Ability, Trait
+from l5r_auto.cards.personalities.common import Personality
+from l5r_auto.clans import NinjaFaction, ScorpionClan
+from l5r_auto.keywords import Air, Alchemist, BitterLies, Courtier, Duelist, Experienced, Intimidator, Kensai, Loyal, Ninja, PoisonMaster, Samurai, Seductress, Shugenja, SoulOf, Unique, Yojimbo
+from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
+Bayushi_Junko = Personality(id=12151, title='Bayushi Junko', force=0, chi=4, honor_requirement=None, personal_honor=1, gold_cost=6, clan=[ScorpionClan], keywords=[Courtier, Intimidator, SoulOf('Bayushi Jou')], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
+Bayushi_Katsue = Personality(id=12152, title='Bayushi Katsue', force=3, chi=2, honor_requirement=0, personal_honor=2, gold_cost=6, clan=[ScorpionClan], keywords=[Courtier, Samurai, SoulOf('Bayushi Shigeru')], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
+Bayushi_Manora = Personality(id=12153, title='Bayushi Manora', force=3, chi=3, honor_requirement=None, personal_honor=1, gold_cost=4, clan=[ScorpionClan], keywords=[Kensai, BitterLies, Samurai], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
+Bayushi_Saikaku = Personality(id=12154, title='Bayushi Saikaku', force=3, chi=2, honor_requirement=None, personal_honor=1, gold_cost=6, clan=[ScorpionClan], keywords=[Kensai, BitterLies, Samurai], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
+Bayushi_Sunetsu = Personality(id=12155, title='Bayushi Sunetsu', force=3, chi=3, honor_requirement=0, personal_honor=2, gold_cost=7, clan=[ScorpionClan], keywords=[Samurai, SoulOf('Bayushi Sunetra')], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
+Bayushi_Toshimo_Experienced = Personality(id=12156, title='Bayushi Toshimo', force=4, chi=3, honor_requirement=None, personal_honor=1, gold_cost=9, clan=[ScorpionClan], keywords=[Kensai, Unique, BitterLies, Experienced('1'), Samurai, Yojimbo], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
+Shosuro_Longji = Personality(id=12157, title='Shosuro Longji', force=2, chi=5, honor_requirement=None, personal_honor=0, gold_cost=8, clan=[ScorpionClan, NinjaFaction], keywords=[Duelist, Ninja, SoulOf('Shosuro Aroru')], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
+Shosuro_Saigyo = Personality(id=12158, title='Shosuro Saigyo', force=2, chi=2, honor_requirement=None, personal_honor=0, gold_cost=3, clan=[ScorpionClan, NinjaFaction], keywords=[Duelist, Ninja], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
+Shosuro_Sakura = Personality(id=12159, title='Shosuro Sakura', force=3, chi=4, honor_requirement=None, personal_honor=0, gold_cost=8, clan=[ScorpionClan, NinjaFaction], keywords=[Duelist, Loyal, Unique, Alchemist, Ninja, PoisonMaster, Seductress], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
+Soshi_Rei = Personality(id=12160, title='Soshi Rei', force=0, chi=3, honor_requirement=None, personal_honor=1, gold_cost=5, clan=[ScorpionClan], keywords=[Air, Shugenja], traits=[], abilities=[], legality=[ModernEdition, OnyxEdition, TwentyFestivalsEdition])
