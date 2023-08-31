@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-from l5r_auto.cards.personalities.common import Personality
 from l5r_auto.clans import CrabClan
 from l5r_auto.keywords import (
     ClanChampion,
@@ -16,14 +15,16 @@ from l5r_auto.keywords import (
 )
 from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 
+from ..common import Personality
+
 Hida_Yakamo_Seven_Thunder_Experienced_2CW = Personality(
     id=12640,
     title="Hida Yakamo, Seven Thunder",
     force=6,
     chi=4,
-    honor_requirement=6,
     personal_honor=4,
     gold_cost=14,
+    honor_requirement=6,
     clan=[CrabClan],
     keywords=[
         Experienced("2CW"),
@@ -39,5 +40,5 @@ Hida_Yakamo_Seven_Thunder_Experienced_2CW = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
+    legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )

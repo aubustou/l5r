@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-from l5r_auto.cards.personalities.common import Personality
 from l5r_auto.clans import (
     BrotherhoodOfShinsei,
     NinjaFaction,
@@ -27,28 +26,30 @@ from l5r_auto.keywords import (
 )
 from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 
+from ..common import Personality
+
 Chuda_Teraiko = Personality(
     id=12326,
     title="Chuda Teraiko",
     force=2,
     chi=3,
-    honor_requirement=None,
     personal_honor=0,
     gold_cost=4,
+    honor_requirement=None,
     clan=[SpiderClan, ShadowlandsFaction],
     keywords=[Shadowlands, Shugenja],
     traits=[],
     abilities=[],
-    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
+    legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Daigotsu_Kanpeki_Unleashed_Experienced_4 = Personality(
     id=12327,
     title="Daigotsu Kanpeki, Unleashed",
     force=7,
     chi=5,
-    honor_requirement=None,
     personal_honor=0,
     gold_cost=15,
+    honor_requirement=None,
     clan=[SpiderClan, BrotherhoodOfShinsei, ShadowlandsFaction],
     keywords=[
         Conqueror,
@@ -64,61 +65,61 @@ Daigotsu_Kanpeki_Unleashed_Experienced_4 = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
+    legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Daigotsu_Onita = Personality(
     id=12328,
     title="Daigotsu Onita",
     force=1,
     chi=3,
-    honor_requirement=None,
     personal_honor=0,
     gold_cost=4,
+    honor_requirement=None,
     clan=[SpiderClan, ShadowlandsFaction],
     keywords=[Duelist, Samurai, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
+    legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Daigotsu_Tomiyama = Personality(
     id=12329,
     title="Daigotsu Tomiyama",
     force=3,
     chi=3,
-    honor_requirement=None,
     personal_honor=0,
     gold_cost=6,
+    honor_requirement=None,
     clan=[SpiderClan, ShadowlandsFaction],
     keywords=[Duelist, Expendable, Samurai, Shadowlands, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
+    legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Goju_Kenteiru = Personality(
     id=12330,
     title="Goju Kenteiru",
     force=3,
     chi=2,
-    honor_requirement=None,
     personal_honor=0,
     gold_cost=4,
+    honor_requirement=None,
     clan=[SpiderClan, NinjaFaction, ShadowlandsFaction],
     keywords=[Cavalry, Ninja, Shadowlands, Shugenja],
     traits=[],
     abilities=[],
-    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
+    legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
 Ninube_Aitso = Personality(
     id=12331,
     title="Ninube Aitso",
     force=2,
     chi=3,
-    honor_requirement=None,
     personal_honor=0,
     gold_cost=6,
+    honor_requirement=None,
     clan=[SpiderClan, NinjaFaction, ShadowlandsFaction],
     keywords=[Ninja, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
+    legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )

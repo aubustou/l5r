@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-from l5r_auto.cards.personalities.common import Personality
 from l5r_auto.clans import MantisClan
 from l5r_auto.keywords import (
     ClanChampion,
@@ -16,14 +15,16 @@ from l5r_auto.keywords import (
 )
 from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 
+from ..common import Personality
+
 Yoritomo_Son_of_Storms_ExperiencedCW = Personality(
     id=12645,
     title="Yoritomo, Son of Storms",
     force=5,
     chi=4,
-    honor_requirement=4,
     personal_honor=3,
     gold_cost=14,
+    honor_requirement=4,
     clan=[MantisClan],
     keywords=[
         Conqueror,
@@ -39,5 +40,5 @@ Yoritomo_Son_of_Storms_ExperiencedCW = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
+    legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )

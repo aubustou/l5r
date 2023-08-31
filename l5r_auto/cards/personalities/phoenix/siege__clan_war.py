@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-from l5r_auto.cards.personalities.common import Personality
 from l5r_auto.clans import PhoenixClan
 from l5r_auto.keywords import (
     Earth,
@@ -15,14 +14,16 @@ from l5r_auto.keywords import (
 )
 from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 
+from ..common import Personality
+
 Isawa_Tadaka_Seven_Thunder_Experienced_2CW = Personality(
     id=12646,
     title="Isawa Tadaka, Seven Thunder",
     force=4,
     chi=5,
-    honor_requirement=0,
     personal_honor=3,
     gold_cost=12,
+    honor_requirement=0,
     clan=[PhoenixClan],
     keywords=[
         Experienced("2CW"),
@@ -37,5 +38,5 @@ Isawa_Tadaka_Seven_Thunder_Experienced_2CW = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[TwentyFestivalsEdition, ModernEdition, OnyxEdition],
+    legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )

@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-from l5r_auto.cards.personalities.common import Personality
 from l5r_auto.clans import LionClan
 from l5r_auto.keywords import Shugenja, SodanSenzo, Water
 from l5r_auto.legality import (
@@ -10,17 +9,19 @@ from l5r_auto.legality import (
     TwentyFestivalsEdition,
 )
 
+from ..common import Personality
+
 Kitsu_Miro = Personality(
     id=4386,
     title="Kitsu Miro",
     force=3,
     chi=3,
-    honor_requirement=6,
     personal_honor=3,
     gold_cost=5,
+    honor_requirement=6,
     clan=[LionClan],
     keywords=[Shugenja, SodanSenzo, Water],
     traits=[],
     abilities=[],
-    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition, EmperorEdition],
+    legality=[IvoryEdition, EmperorEdition, TwentyFestivalsEdition, ModernEdition],
 )

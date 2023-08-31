@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-from l5r_auto.cards.personalities.common import Personality
 from l5r_auto.clans import DragonClan
 from l5r_auto.keywords import Cavalry, Earth, Mountaineer, Shugenja
 from l5r_auto.legality import (
@@ -10,17 +9,19 @@ from l5r_auto.legality import (
     TwentyFestivalsEdition,
 )
 
+from ..common import Personality
+
 Tamori_Seiken = Personality(
     id=7790,
     title="Tamori Seiken",
     force=2,
     chi=3,
-    honor_requirement=8,
     personal_honor=3,
     gold_cost=4,
+    honor_requirement=8,
     clan=[DragonClan],
     keywords=[Cavalry, Earth, Mountaineer, Shugenja],
     traits=[],
     abilities=[],
-    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition, EmperorEdition],
+    legality=[IvoryEdition, EmperorEdition, TwentyFestivalsEdition, ModernEdition],
 )

@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-from l5r_auto.cards.personalities.common import Personality
 from l5r_auto.clans import ScorpionClan
 from l5r_auto.keywords import BitterLies, Conqueror, Samurai
 from l5r_auto.legality import (
@@ -11,23 +10,25 @@ from l5r_auto.legality import (
     TwentyFestivalsEdition,
 )
 
+from ..common import Personality
+
 Bayushi_Aibako = Personality(
     id=10581,
     title="Bayushi Aibako",
     force=3,
     chi=3,
-    honor_requirement=None,
     personal_honor=2,
     gold_cost=5,
+    honor_requirement=None,
     clan=[ScorpionClan],
     keywords=[Conqueror, BitterLies, Samurai],
     traits=[],
     abilities=[],
     legality=[
-        ModernEdition,
         IvoryEdition,
-        TwentyFestivalsEdition,
-        EmperorEdition,
         OnyxEdition,
+        TwentyFestivalsEdition,
+        ModernEdition,
+        EmperorEdition,
     ],
 )

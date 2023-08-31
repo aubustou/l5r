@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-from l5r_auto.cards.personalities.common import Personality
 from l5r_auto.clans import (
     BrotherhoodOfShinsei,
     RatlingFaction,
@@ -36,84 +35,86 @@ from l5r_auto.keywords import (
 )
 from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEdition
 
+from ..common import Personality
+
 Banished = Personality(
     id=11932,
     title="Banished",
     force=3,
     chi=3,
-    honor_requirement=None,
     personal_honor=1,
     gold_cost=5,
+    honor_requirement=None,
     clan=[Unaligned],
     keywords=[Resilient, Ishiken, Ronin, Shugenja, Void],
     traits=[],
     abilities=[],
-    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
+    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
 )
 Brnn_Experienced = Personality(
     id=11933,
     title="Br'nn",
     force=2,
     chi=2,
-    honor_requirement=None,
     personal_honor=1,
     gold_cost=4,
+    honor_requirement=None,
     clan=[Unaligned, RatlingFaction],
     keywords=[Experienced("1"), Nonhuman, OneTribe, Ratling, Scavenger, Scout],
     traits=[],
     abilities=[],
-    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
+    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
 )
 Iweko_Miaka_the_Princess = Personality(
     id=11934,
     title="Iweko Miaka, the Princess",
     force=0,
     chi=5,
-    honor_requirement=12,
     personal_honor=4,
     gold_cost=6,
+    honor_requirement=12,
     clan=[Unaligned],
     keywords=[Unique, Heir, Imperial, LoveLetter],
     traits=[],
     abilities=[],
-    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
+    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
 )
 Keppo_Experienced = Personality(
     id=11936,
     title="Keppo",
     force=4,
     chi=2,
-    honor_requirement=None,
     personal_honor=0,
     gold_cost=6,
+    honor_requirement=None,
     clan=[Unaligned, ShadowlandsFaction],
     keywords=[Experienced("1"), Goblin, Nonhuman, Scout, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
+    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
 )
 Masajiro = Personality(
     id=11935,
     title="Masajiro",
     force=5,
     chi=2,
-    honor_requirement=None,
     personal_honor=0,
     gold_cost=9,
+    honor_requirement=None,
     clan=[Unaligned, ShadowlandsFaction],
     keywords=[Nonhuman, Ogre, Shadowlands, Sinner, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
+    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
 )
 The_Abbot_Experienced_3 = Personality(
     id=11937,
     title="The Abbot",
     force=2,
     chi=4,
-    honor_requirement=None,
     personal_honor=1,
     gold_cost=7,
+    honor_requirement=None,
     clan=[Unaligned, BrotherhoodOfShinsei],
     keywords=[
         Experienced("3 Yasuki Jinn-Kuen"),
@@ -126,5 +127,5 @@ The_Abbot_Experienced_3 = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition],
+    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
 )

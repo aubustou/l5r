@@ -180,6 +180,94 @@ def to_ast(
 
     clans = get_clans(card, keywords)
 
+    attributes = [
+        ast.keyword(
+            arg="id",
+            value=ast.Constant(
+                value=card["cardid"],
+            ),
+        ),
+        ast.keyword(
+            arg="title",
+            value=ast.Constant(
+                value=card["title"][0],
+            ),
+        ),
+    ]
+    for key, attribute in [
+        ("force", "force"),
+        ("chi", "chi"),
+        ("ph", "personal_honor"),
+        ("cost", "gold_cost"),
+    ]:
+        if key in card:
+            attributes.append(
+                ast.keyword(
+                    arg=attribute,
+                    value=ast.Constant(
+                        value=int(card[key][0]),
+                    ),
+                ),
+            )
+
+    if "honor" in card:
+        attributes.append(
+            ast.keyword(
+                arg="honor_requirement",
+                value=ast.Constant(
+                    value=get_honor(card["honor"][0]),
+                ),
+            ),
+        )
+
+    if clans:
+        attributes.append(
+            ast.keyword(
+                arg="clan",
+                value=ast.List(
+                    elts=[ast.Name(id=clan, ctx=ast.Load()) for clan in clans],
+                    ctx=ast.Load(),
+                ),
+            ),
+        )
+    if ast_keywords:
+        attributes.append(
+            ast.keyword(
+                arg="keywords",
+                value=ast.List(
+                    elts=ast_keywords,
+                    ctx=ast.Load(),
+                ),
+            ),
+        )
+    attributes.extend(
+        [
+            ast.keyword(
+                arg="traits",
+                value=ast.List(
+                    elts=[],
+                    ctx=ast.Load(),
+                ),
+            ),
+            ast.keyword(
+                arg="abilities",
+                value=ast.List(
+                    elts=[],
+                    ctx=ast.Load(),
+                ),
+            ),
+            ast.keyword(
+                arg="legality",
+                value=ast.List(
+                    elts=[
+                        ast.Name(id=legality, ctx=ast.Load()) for legality in legalities
+                    ],
+                    ctx=ast.Load(),
+                ),
+            ),
+        ]
+    )
+
     return (
         ast.Assign(
             targets=[
@@ -195,95 +283,7 @@ def to_ast(
                     ctx=ast.Load(),
                 ),
                 keywords=[
-                    ast.keyword(
-                        arg="id",
-                        value=ast.Constant(
-                            value=card["cardid"],
-                        ),
-                    ),
-                    ast.keyword(
-                        arg="title",
-                        value=ast.Constant(
-                            value=card["title"][0],
-                        ),
-                    ),
-                    ast.keyword(
-                        arg="force",
-                        value=ast.Constant(
-                            value=int(card["force"][0]),
-                        ),
-                    ),
-                    ast.keyword(
-                        arg="chi",
-                        value=ast.Constant(
-                            value=int(card["chi"][0]),
-                        ),
-                    ),
-                    ast.keyword(
-                        arg="honor_requirement",
-                        value=ast.Constant(
-                            value=get_honor(card["honor"][0]),
-                        ),
-                    ),
-                    ast.keyword(
-                        arg="personal_honor",
-                        value=ast.Constant(
-                            value=int(card["ph"][0]),
-                        ),
-                    ),
-                    ast.keyword(
-                        arg="gold_cost",
-                        value=ast.Constant(
-                            value=int(card["cost"][0]),
-                        ),
-                    ),
-                    ast.keyword(
-                        arg="clan",
-                        value=ast.List(
-                            elts=[
-                                ast.Name(
-                                    id=clan,
-                                    ctx=ast.Load(),
-                                )
-                                for clan in clans
-                            ],
-                            ctx=ast.Load(),
-                        ),
-                    ),
-                    ast.keyword(
-                        arg="keywords",
-                        value=ast.List(
-                            elts=ast_keywords,
-                            ctx=ast.Load(),
-                        ),
-                    ),
-                    ast.keyword(
-                        arg="traits",
-                        value=ast.List(
-                            elts=[],
-                            ctx=ast.Load(),
-                        ),
-                    ),
-                    ast.keyword(
-                        arg="abilities",
-                        value=ast.List(
-                            elts=[],
-                            ctx=ast.Load(),
-                        ),
-                    ),
-                    ast.keyword(
-                        arg="legality",
-                        value=ast.List(
-                            elts=[
-                                ast.Name(
-                                    id=legality,
-                                    ctx=ast.Load(),
-                                )
-                                for legality in legalities
-                            ],
-                            ctx=ast.Load(),
-                        ),
-                    ),
+                    *attributes,
                 ],
             ),
             lineno=0,
@@ -316,7 +316,7 @@ def remove_bold(text: str) -> str:
     return text.replace("<b>", "").replace("</b>", "")
 
 
-types_to_ast = {"personality": "Personality"}
+types_to_ast = {"personality": "Personality", "holding": "Holding", "event": "Event"}
 legality_to_ast = {
     "A Brother's Destiny (Ivory Edition)": "IvoryEdition",
     "A Brother's Destiny (Twenty Festivals)": "TwentyFestivalsEdition",
@@ -462,7 +462,7 @@ def main():
 
         json.dump(cards_, open(save_path / f"{type_}.json", "w"), indent=4)
 
-    get_personalities(cards_by_type["personalities"])
+    get_card_modules(cards_by_type["personalities"])
 
 
 def plural(s: str) -> str:
@@ -520,20 +520,21 @@ COMMON_IMPORTS = [
 ]
 
 
-def get_personalities(cards: list[Card]) -> None:
-    personalities = sorted(cards, key=lambda card: card["formattedtitle"])
+def get_card_modules(cards: list[Card]) -> None:
+    cards = sorted(cards, key=lambda card: card["formattedtitle"])
+
     assigns_by_clan: dict[str, dict[str, list[ast.Assign]]] = {}
     import_clans: dict[str, dict[str, set[str]]] = {}
     import_keywords: dict[str, dict[str, set[str]]] = {}
     import_legalities: dict[str, dict[str, set[str]]] = {}
 
-    for personality in personalities:
-        ast_, legalities, keywords, clans = to_ast(personality)
+    for card in cards:
+        ast_, legalities, keywords, clans = to_ast(card)
         if ast_ is None:
             continue
 
-        clan = personality["clan"][0]
-        edition = clean_edition(personality["printing"][0]["set"][0])
+        clan = card["clan"][0] if "clan" in card else ""
+        edition = clean_edition(card["printing"][0]["set"][0])
 
         assigns_by_clan.setdefault(clan, {}).setdefault(edition, []).append(ast_)
         if clans:
@@ -558,9 +559,9 @@ def get_personalities(cards: list[Card]) -> None:
             level=0,
         ),
         ast.ImportFrom(
-            module="l5r_auto.cards.personalities.common",
+            module="common",
             names=[ast.alias(name="Personality", asname=None)],
-            level=0,
+            level=2,
         ),
     ]
     get_module_ast(
@@ -594,6 +595,7 @@ def get_module_ast(
                     type_ignores=[],
                 )
             module_path.parent.mkdir(exist_ok=True, parents=True)
+            (module_path.parent / "__init__.py").touch()
             module_ast = ast.Module(
                 body=[
                     *imports,

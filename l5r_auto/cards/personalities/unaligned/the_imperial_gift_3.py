@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-from l5r_auto.cards.personalities.common import Personality
 from l5r_auto.clans import Unaligned
 from l5r_auto.keywords import Duelist, Ronin, Samurai
 from l5r_auto.legality import (
@@ -10,31 +9,33 @@ from l5r_auto.legality import (
     TwentyFestivalsEdition,
 )
 
+from ..common import Personality
+
 Seasoned_Ronin = Personality(
     id=6532,
     title="Seasoned Ronin",
     force=3,
     chi=3,
-    honor_requirement=1,
     personal_honor=2,
     gold_cost=5,
+    honor_requirement=1,
     clan=[Unaligned],
     keywords=[Ronin, Samurai],
     traits=[],
     abilities=[],
-    legality=[TwentyFestivalsEdition, CelestialEdition, ModernEdition, OnyxEdition],
+    legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition, CelestialEdition],
 )
 Tarui = Personality(
     id=7821,
     title="Tarui",
     force=2,
     chi=3,
-    honor_requirement=None,
     personal_honor=0,
     gold_cost=3,
+    honor_requirement=None,
     clan=[Unaligned],
     keywords=[Duelist, Ronin, Samurai],
     traits=[],
     abilities=[],
-    legality=[TwentyFestivalsEdition, CelestialEdition, ModernEdition, OnyxEdition],
+    legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition, CelestialEdition],
 )

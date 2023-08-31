@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-from l5r_auto.cards.personalities.common import Personality
 from l5r_auto.clans import ScorpionClan, SpiritFaction
 from l5r_auto.keywords import Courtier, Shugenja, Spirit
 from l5r_auto.legality import (
@@ -10,17 +9,19 @@ from l5r_auto.legality import (
     TwentyFestivalsEdition,
 )
 
+from ..common import Personality
+
 Yogo_Honami = Personality(
     id=9491,
     title="Yogo Honami",
     force=2,
     chi=4,
-    honor_requirement=None,
     personal_honor=2,
     gold_cost=7,
+    honor_requirement=None,
     clan=[ScorpionClan, SpiritFaction, SpiritFaction],
     keywords=[Courtier, Shugenja, Spirit],
     traits=[],
     abilities=[],
-    legality=[TwentyFestivalsEdition, IvoryEdition, ModernEdition, SamuraiEdition],
+    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition, SamuraiEdition],
 )
