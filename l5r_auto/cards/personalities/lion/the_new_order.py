@@ -38,7 +38,7 @@ Akodo_Raikitsu = Personality(
     keywords=[Duelist, Tactician, Samurai],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition],
 )
 Akodo_Yuyama = Personality(
     id=11905,
@@ -52,7 +52,7 @@ Akodo_Yuyama = Personality(
     keywords=[Destined, Ancestor, Samurai, Scout, Spirit, TheMaskedLion],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition],
 )
 Ikoma_Ayumi_Experienced = Personality(
     id=11903,
@@ -66,7 +66,7 @@ Ikoma_Ayumi_Experienced = Personality(
     keywords=[Cavalry, Naval, Experienced("1"), Hero, Magistrate, Samurai],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kitsu_Suzaki = Personality(
     id=11904,
@@ -80,7 +80,7 @@ Kitsu_Suzaki = Personality(
     keywords=[ChildOfProphecy, Shugenja, Water],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Matsu_Hachiro_Experienced = Personality(
     id=11906,
@@ -94,7 +94,7 @@ Matsu_Hachiro_Experienced = Personality(
     keywords=[Cavalry, Commander, Experienced("1"), Paragon, Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Matsu_Misato_the_Hatamoto = Personality(
     id=11907,
@@ -108,5 +108,5 @@ Matsu_Misato_the_Hatamoto = Personality(
     keywords=[LoveLetter, Samurai],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )

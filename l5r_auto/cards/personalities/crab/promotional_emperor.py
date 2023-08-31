@@ -26,9 +26,10 @@ Hida_Iguchi = Personality(
     abilities=[],
     legality=[
         IvoryEdition,
-        OnyxEdition,
         TwentyFestivalsEdition,
-        ModernEdition,
         EmperorEdition,
+        OnyxEdition,
+        ModernEdition,
+        ModernEdition,
     ],
 )

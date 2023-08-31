@@ -335,7 +335,9 @@ legality_to_ast = {
 
 def get_legalities(legalities: list[str]) -> list[str]:
     found_legalities = []
-    for legality in set(legalities):
+    for legality in legalities:
+        if legality in found_legalities:
+            continue
         found_legalities.append(
             legality_to_ast[legality],
         )
@@ -606,7 +608,9 @@ def get_module_ast(
                 module_ast.body.append(
                     ast.ImportFrom(
                         module="l5r_auto.clans",
-                        names=[ast.alias(name=clan, asname=None) for clan in clans],
+                        names=[
+                            ast.alias(name=clan, asname=None) for clan in sorted(clans)
+                        ],
                         level=0,
                     )
                 )
@@ -615,7 +619,8 @@ def get_module_ast(
                     ast.ImportFrom(
                         module="l5r_auto.keywords",
                         names=[
-                            ast.alias(name=keyword, asname=None) for keyword in keywords
+                            ast.alias(name=keyword, asname=None)
+                            for keyword in sorted(keywords)
                         ],
                         level=0,
                     )
@@ -626,7 +631,7 @@ def get_module_ast(
                         module="l5r_auto.legality",
                         names=[
                             ast.alias(name=legality, asname=None)
-                            for legality in legalities
+                            for legality in sorted(legalities)
                         ],
                         level=0,
                     )

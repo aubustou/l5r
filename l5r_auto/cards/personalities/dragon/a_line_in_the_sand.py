@@ -32,7 +32,7 @@ Mirumoto_Futoro = Personality(
     keywords=[Cavalry, Duelist, Samurai],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Mirumoto_Jaikei = Personality(
     id=11575,
@@ -46,7 +46,7 @@ Mirumoto_Jaikei = Personality(
     keywords=[Kensai, Reserve, Resilient, Samurai],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Mirumoto_Saiko = Personality(
     id=11576,
@@ -60,7 +60,7 @@ Mirumoto_Saiko = Personality(
     keywords=[Kensai, Samurai],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Tamori_Ginrao = Personality(
     id=11577,
@@ -74,7 +74,7 @@ Tamori_Ginrao = Personality(
     keywords=[Earth, Magistrate, Shugenja],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Tamori_Wataru = Personality(
     id=11578,
@@ -88,7 +88,7 @@ Tamori_Wataru = Personality(
     keywords=[Alchemist, Earth, Shugenja],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Togashi_Shao = Personality(
     id=11579,
@@ -102,5 +102,5 @@ Togashi_Shao = Personality(
     keywords=[Resilient, Monk, Tattooed, Void],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )

@@ -25,10 +25,10 @@ Ratling_Raider = Personality(
     traits=[],
     abilities=[],
     legality=[
+        TwentyFestivalsEdition,
+        LotusEdition,
         OnyxEdition,
         DiamondEdition,
-        TwentyFestivalsEdition,
         ModernEdition,
-        LotusEdition,
     ],
 )

@@ -23,5 +23,11 @@ Otomo_Demiyah = Personality(
     keywords=[Courtier, Imperial],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, EmperorEdition, TwentyFestivalsEdition, ModernEdition],
+    legality=[
+        IvoryEdition,
+        TwentyFestivalsEdition,
+        EmperorEdition,
+        ModernEdition,
+        ModernEdition,
+    ],
 )

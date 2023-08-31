@@ -28,7 +28,7 @@ Akodo_Iketsu = Personality(
     keywords=[Tactician, Commander, Samurai],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition],
 )
 Ikoma_Keisuke = Personality(
     id=11747,
@@ -42,7 +42,7 @@ Ikoma_Keisuke = Personality(
     keywords=[Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Ikoma_Shungo = Personality(
     id=11748,
@@ -56,7 +56,7 @@ Ikoma_Shungo = Personality(
     keywords=[Cavalry, Reserve, Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kitsu_Asato = Personality(
     id=11749,
@@ -70,7 +70,7 @@ Kitsu_Asato = Personality(
     keywords=[Shugenja, Water],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kitsu_Leiko = Personality(
     id=11750,
@@ -84,7 +84,7 @@ Kitsu_Leiko = Personality(
     keywords=[Shugenja, Water],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Matsu_Marii = Personality(
     id=11751,
@@ -98,5 +98,5 @@ Matsu_Marii = Personality(
     keywords=[Beastmaster, Commander, Samurai],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )

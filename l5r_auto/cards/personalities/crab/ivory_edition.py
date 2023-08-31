@@ -34,7 +34,7 @@ Hida_Ayahi = Personality(
     keywords=[Berserker, Samurai, SoulOf("Hida Kashin")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Hida_Kisada_the_Little_Bear_Experienced = Personality(
     id=11146,
@@ -58,7 +58,7 @@ Hida_Kisada_the_Little_Bear_Experienced = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Hida_Reigoro = Personality(
     id=11147,
@@ -72,7 +72,7 @@ Hida_Reigoro = Personality(
     keywords=[Samurai, SoulOf("Hida Renga")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Hida_Saiyuki = Personality(
     id=11148,
@@ -86,7 +86,7 @@ Hida_Saiyuki = Personality(
     keywords=[Samurai, SoulOf("Kaiu Hisayuki")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Hida_Toranosuke = Personality(
     id=11149,
@@ -100,7 +100,7 @@ Hida_Toranosuke = Personality(
     keywords=[Samurai],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Hiruma_Fujito = Personality(
     id=11150,
@@ -114,7 +114,7 @@ Hiruma_Fujito = Personality(
     keywords=[Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Hiruma_Itta = Personality(
     id=11151,
@@ -128,7 +128,7 @@ Hiruma_Itta = Personality(
     keywords=[Samurai],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Hiruma_Tsurao = Personality(
     id=11152,
@@ -142,7 +142,7 @@ Hiruma_Tsurao = Personality(
     keywords=[Samurai, Scout, SoulOf("Hiruma Todori")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kaiu_Nakagawa = Personality(
     id=11153,
@@ -156,7 +156,7 @@ Kaiu_Nakagawa = Personality(
     keywords=[Engineer, Samurai, Siege, SoulOf("Kaiu Shoichi")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kuni_Tomokazu = Personality(
     id=11154,
@@ -170,5 +170,5 @@ Kuni_Tomokazu = Personality(
     keywords=[Earth, Shugenja, SoulOf("Kuni Takaniro")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )

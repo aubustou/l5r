@@ -40,7 +40,7 @@ Akodo_Dairuko_the_Steel_Lion_Experienced_2 = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition],
 )
 Akodo_Kenaro = Personality(
     id=11179,
@@ -54,7 +54,7 @@ Akodo_Kenaro = Personality(
     keywords=[Tactician, Samurai, SoulOf("Akodo Ijiasu"), WarLeader],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition],
 )
 Ikoma_Ichimoko = Personality(
     id=11180,
@@ -68,7 +68,7 @@ Ikoma_Ichimoko = Personality(
     keywords=[Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Ikoma_Yoshimoko = Personality(
     id=11181,
@@ -82,7 +82,7 @@ Ikoma_Yoshimoko = Personality(
     keywords=[Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Matsu_Agai = Personality(
     id=11182,
@@ -96,7 +96,7 @@ Matsu_Agai = Personality(
     keywords=[Deathseeker, Samurai, SoulOf("Matsu Agoro")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Matsu_Choiko = Personality(
     id=11183,
@@ -110,7 +110,7 @@ Matsu_Choiko = Personality(
     keywords=[Samurai, SoulOf("Matsu Ryoichi")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Matsu_Morito = Personality(
     id=11185,
@@ -124,7 +124,7 @@ Matsu_Morito = Personality(
     keywords=[Deathseeker, Samurai, SoulOf("Matsu Sanraku")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Matsu_Rutaro = Personality(
     id=11186,
@@ -138,7 +138,7 @@ Matsu_Rutaro = Personality(
     keywords=[Samurai, SoulOf("Matsu Turi")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Matsu_Tayuko = Personality(
     id=11187,
@@ -152,5 +152,5 @@ Matsu_Tayuko = Personality(
     keywords=[Samurai, SoulOf("Matsu Aoiko")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )

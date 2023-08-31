@@ -27,7 +27,7 @@ Daidoji_Hirota = Personality(
     keywords=[Courtier, Merchant],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Daidoji_Natsuki = Personality(
     id=11569,
@@ -41,7 +41,7 @@ Daidoji_Natsuki = Personality(
     keywords=[Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Daidoji_Takeda = Personality(
     id=11570,
@@ -55,7 +55,7 @@ Daidoji_Takeda = Personality(
     keywords=[Resilient, Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kakita_Ariyoshi = Personality(
     id=11571,
@@ -69,7 +69,7 @@ Kakita_Ariyoshi = Personality(
     keywords=[Artisan, Courtier],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kakita_Mariko = Personality(
     id=11572,
@@ -83,7 +83,7 @@ Kakita_Mariko = Personality(
     keywords=[Duelist, Samurai],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kakita_Shinichi = Personality(
     id=11573,
@@ -97,5 +97,5 @@ Kakita_Shinichi = Personality(
     keywords=[Duelist, Resilient, Samurai, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )

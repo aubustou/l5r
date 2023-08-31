@@ -26,9 +26,10 @@ Kakita_Izumiko = Personality(
     abilities=[],
     legality=[
         IvoryEdition,
-        OnyxEdition,
         TwentyFestivalsEdition,
-        ModernEdition,
         EmperorEdition,
+        OnyxEdition,
+        ModernEdition,
+        ModernEdition,
     ],
 )

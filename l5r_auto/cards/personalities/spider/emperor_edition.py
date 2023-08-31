@@ -33,7 +33,7 @@ Daigotsu_Kendo = Personality(
     keywords=[Conqueror, Commander, Samurai, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[TwentyFestivalsEdition, OnyxEdition, EmperorEdition, ModernEdition],
+    legality=[TwentyFestivalsEdition, EmperorEdition, OnyxEdition, ModernEdition],
 )
 Sandayu = Personality(
     id=6467,
@@ -47,5 +47,11 @@ Sandayu = Personality(
     keywords=[Kensai, Monk, OrderOfTheSpider, SoulOf("Torao")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, EmperorEdition, TwentyFestivalsEdition, ModernEdition],
+    legality=[
+        IvoryEdition,
+        TwentyFestivalsEdition,
+        EmperorEdition,
+        ModernEdition,
+        ModernEdition,
+    ],
 )

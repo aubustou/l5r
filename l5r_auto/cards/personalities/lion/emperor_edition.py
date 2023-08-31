@@ -23,7 +23,13 @@ Ikoma_Shika = Personality(
     keywords=[Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, EmperorEdition, TwentyFestivalsEdition, ModernEdition],
+    legality=[
+        IvoryEdition,
+        TwentyFestivalsEdition,
+        EmperorEdition,
+        ModernEdition,
+        ModernEdition,
+    ],
 )
 Kitsu_Suki = Personality(
     id=4396,
@@ -37,5 +43,11 @@ Kitsu_Suki = Personality(
     keywords=[Shugenja, Water],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, EmperorEdition, TwentyFestivalsEdition, ModernEdition],
+    legality=[
+        IvoryEdition,
+        TwentyFestivalsEdition,
+        EmperorEdition,
+        ModernEdition,
+        ModernEdition,
+    ],
 )

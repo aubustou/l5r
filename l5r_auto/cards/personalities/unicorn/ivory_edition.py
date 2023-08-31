@@ -42,7 +42,7 @@ Ide_Kotono = Personality(
     keywords=[Cavalry, Courtier, Guard, Imperial, Samurai, SoulOf("Shinjo Haruko")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Ide_Okinomi = Personality(
     id=11234,
@@ -56,7 +56,7 @@ Ide_Okinomi = Personality(
     keywords=[Loyal, Courtier, Merchant],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Iuchi_Chiwa = Personality(
     id=11235,
@@ -70,7 +70,7 @@ Iuchi_Chiwa = Personality(
     keywords=[Cavalry, Shugenja, SoulOf("Iuchi Eiji")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Iuchi_Honma = Personality(
     id=11236,
@@ -84,7 +84,7 @@ Iuchi_Honma = Personality(
     keywords=[Cavalry, Shugenja, Water],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Moto_Alagh = Personality(
     id=11237,
@@ -98,7 +98,7 @@ Moto_Alagh = Personality(
     keywords=[Cavalry, Conqueror, Samurai, SoulOf("Moto Yuudai")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Moto_Chinua = Personality(
     id=11238,
@@ -112,7 +112,7 @@ Moto_Chinua = Personality(
     keywords=[Cavalry, Samurai, SoulOf("Shinjo Genya")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Moto_Naleesh_the_Living_Goddess_Experienced = Personality(
     id=11239,
@@ -139,7 +139,7 @@ Moto_Naleesh_the_Living_Goddess_Experienced = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Moto_Okano = Personality(
     id=11240,
@@ -153,7 +153,7 @@ Moto_Okano = Personality(
     keywords=[Samurai],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Moto_Ulagan = Personality(
     id=11241,
@@ -167,7 +167,7 @@ Moto_Ulagan = Personality(
     keywords=[Shugenja, Water],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shinjo_Okiau = Personality(
     id=11242,
@@ -181,7 +181,7 @@ Shinjo_Okiau = Personality(
     keywords=[Cavalry, Samurai, Scout, SoulOf("Shinjo Aniji")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shinjo_Tobita = Personality(
     id=11243,
@@ -195,7 +195,7 @@ Shinjo_Tobita = Personality(
     keywords=[Samurai],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Utaku_HyoYeon = Personality(
     id=11244,
@@ -209,7 +209,7 @@ Utaku_HyoYeon = Personality(
     keywords=[Cavalry, Loyal, Reserve, Samurai, Scout, SoulOf("Shinjo Hee-Young")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Utaku_Izimi = Personality(
     id=11245,
@@ -223,5 +223,5 @@ Utaku_Izimi = Personality(
     keywords=[Cavalry, BattleMaiden, Samurai, SoulOf("Utaku Etsuko")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )

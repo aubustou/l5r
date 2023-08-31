@@ -34,7 +34,7 @@ Hida_Zaiberu = Personality(
     keywords=[Drunkard, Samurai],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Hiruma_Maiko = Personality(
     id=11729,
@@ -48,7 +48,7 @@ Hiruma_Maiko = Personality(
     keywords=[Reserve, Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kuni_Shinoda_Advisor_to_the_Jade_Champion_Experienced_2 = Personality(
     id=11730,
@@ -72,7 +72,7 @@ Kuni_Shinoda_Advisor_to_the_Jade_Champion_Experienced_2 = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Toritaka_Isai = Personality(
     id=11731,
@@ -86,7 +86,7 @@ Toritaka_Isai = Personality(
     keywords=[Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yasuki_Aitoko = Personality(
     id=11732,
@@ -100,7 +100,7 @@ Yasuki_Aitoko = Personality(
     keywords=[Destined, Courtier, Merchant],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yasuki_Shairei = Personality(
     id=11733,
@@ -114,5 +114,5 @@ Yasuki_Shairei = Personality(
     keywords=[Courtier, Merchant],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )

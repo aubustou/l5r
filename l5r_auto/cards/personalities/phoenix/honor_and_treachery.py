@@ -23,5 +23,5 @@ Isawa_Nairuko = Personality(
     keywords=[Earth, Shugenja, SoulOf("Isawa Mariko")],
     traits=[],
     abilities=[],
-    legality=[TwentyFestivalsEdition, OnyxEdition, EmperorEdition, ModernEdition],
+    legality=[TwentyFestivalsEdition, EmperorEdition, OnyxEdition, ModernEdition],
 )

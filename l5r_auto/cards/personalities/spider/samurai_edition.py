@@ -26,9 +26,10 @@ Daigotsu_Meguro = Personality(
     abilities=[],
     legality=[
         IvoryEdition,
-        DiamondEdition,
         TwentyFestivalsEdition,
         SamuraiEdition,
+        DiamondEdition,
+        ModernEdition,
         ModernEdition,
     ],
 )

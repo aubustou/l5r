@@ -25,10 +25,10 @@ Ninja_Shapeshifter = Personality(
     traits=[],
     abilities=[],
     legality=[
-        OnyxEdition,
-        ImperialEdition,
         TwentyFestivalsEdition,
+        ImperialEdition,
         JadeEdition,
+        OnyxEdition,
         ModernEdition,
     ],
 )

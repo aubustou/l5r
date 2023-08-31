@@ -43,7 +43,7 @@ Agasha_Kyokuta = Personality(
     keywords=[Alchemist, Fire, Shugenja, SoulOf("Agasha Yuhiko"), Void],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition],
 )
 Asako_Sadaki = Personality(
     id=11199,
@@ -57,7 +57,7 @@ Asako_Sadaki = Personality(
     keywords=[Monk, SoulOf("Asako Suda"), Void],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Isawa_Amihiko = Personality(
     id=11200,
@@ -71,7 +71,7 @@ Isawa_Amihiko = Personality(
     keywords=[Earth, Mountaineer, Shugenja, SoulOf("Isawa Wakasa")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Isawa_Kamiko = Personality(
     id=11201,
@@ -85,7 +85,7 @@ Isawa_Kamiko = Personality(
     keywords=[Cavalry, Air, Shugenja],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Isawa_Kosea = Personality(
     id=11202,
@@ -99,7 +99,7 @@ Isawa_Kosea = Personality(
     keywords=[Earth, Shugenja],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Isawa_Kouka = Personality(
     id=11203,
@@ -113,7 +113,7 @@ Isawa_Kouka = Personality(
     keywords=[Shugenja, SoulOf("Isawa Kimi"), Void],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Isawa_Shunryu_the_Infinite_Eye = Personality(
     id=11204,
@@ -127,7 +127,7 @@ Isawa_Shunryu_the_Infinite_Eye = Personality(
     keywords=[Loyal, Unique, ElementalMaster, Shugenja, TheInfiniteEye, Void],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Isawa_Uzuyumi = Personality(
     id=11205,
@@ -141,7 +141,7 @@ Isawa_Uzuyumi = Personality(
     keywords=[Shugenja, SoulOf("Isawa Riake"), Water],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition],
 )
 Shiba_Eraki = Personality(
     id=11206,
@@ -155,7 +155,7 @@ Shiba_Eraki = Personality(
     keywords=[RitualMaster, Samurai, SoulOf("Shiba Yoma"), Yojimbo],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shiba_Michiki = Personality(
     id=11207,
@@ -169,7 +169,7 @@ Shiba_Michiki = Personality(
     keywords=[Samurai, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shiba_Myoushi = Personality(
     id=11208,
@@ -183,7 +183,7 @@ Shiba_Myoushi = Personality(
     keywords=[Samurai, SoulOf("Shiba Yobei"), Yojimbo],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shiba_Tsukimi_the_Blind_Phoenix_Experienced_5 = Personality(
     id=11209,
@@ -207,5 +207,5 @@ Shiba_Tsukimi_the_Blind_Phoenix_Experienced_5 = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )

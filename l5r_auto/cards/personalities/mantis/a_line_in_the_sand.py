@@ -31,7 +31,7 @@ Kitsune_Nakumi = Personality(
     keywords=[Earth, Nonhuman, Shugenja],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kitsune_Satoko = Personality(
     id=11587,
@@ -45,7 +45,7 @@ Kitsune_Satoko = Personality(
     keywords=[Earth, Shugenja],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Tsuruchi_Kaitaru = Personality(
     id=11588,
@@ -59,7 +59,7 @@ Tsuruchi_Kaitaru = Personality(
     keywords=[Naval, Resilient, Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Tsuruchi_Taito = Personality(
     id=11589,
@@ -73,7 +73,7 @@ Tsuruchi_Taito = Personality(
     keywords=[Naval, Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yoritomo_Dairu = Personality(
     id=11590,
@@ -87,7 +87,7 @@ Yoritomo_Dairu = Personality(
     keywords=[Kensai, Naval, Artisan, Samurai, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yoritomo_Haruna = Personality(
     id=11591,
@@ -101,5 +101,5 @@ Yoritomo_Haruna = Personality(
     keywords=[Courtier, Merchant],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )

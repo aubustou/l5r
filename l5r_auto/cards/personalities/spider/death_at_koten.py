@@ -26,9 +26,10 @@ Suikotsu = Personality(
     abilities=[],
     legality=[
         IvoryEdition,
-        CelestialEdition,
         TwentyFestivalsEdition,
+        CelestialEdition,
         SamuraiEdition,
+        ModernEdition,
         ModernEdition,
     ],
 )

@@ -35,7 +35,7 @@ Daigotsu_Jemaru = Personality(
     keywords=[Reserve, Resilient, Samurai, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Goju_Saido = Personality(
     id=11605,
@@ -49,7 +49,7 @@ Goju_Saido = Personality(
     keywords=[Assassin, Ninja, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Marimako = Personality(
     id=11606,
@@ -63,7 +63,7 @@ Marimako = Personality(
     keywords=[Conqueror, Kensai, Naval, Monk],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Susumu_Jaru = Personality(
     id=11607,
@@ -77,7 +77,7 @@ Susumu_Jaru = Personality(
     keywords=[Courtier],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Susumu_Tanjin = Personality(
     id=11608,
@@ -91,7 +91,7 @@ Susumu_Tanjin = Personality(
     keywords=[Courtier],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yasi = Personality(
     id=11609,
@@ -105,5 +105,5 @@ Yasi = Personality(
     keywords=[Kensai, Resilient, Monk],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )

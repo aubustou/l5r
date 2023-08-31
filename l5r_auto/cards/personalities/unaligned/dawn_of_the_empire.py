@@ -26,9 +26,10 @@ Hatsu_Suru_no_Oni = Personality(
     abilities=[],
     legality=[
         IvoryEdition,
-        DiamondEdition,
         TwentyFestivalsEdition,
-        ModernEdition,
         LotusEdition,
+        DiamondEdition,
+        ModernEdition,
+        ModernEdition,
     ],
 )

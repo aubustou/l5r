@@ -36,7 +36,7 @@ Fushiki_no_Oni = Personality(
     keywords=[Fire, Nonhuman, Oni, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[DiamondEdition, TwentyFestivalsEdition, OnyxEdition, ModernEdition],
+    legality=[TwentyFestivalsEdition, OnyxEdition, DiamondEdition, ModernEdition],
 )
 Gekido_no_Oni = Personality(
     id=2786,
@@ -52,9 +52,10 @@ Gekido_no_Oni = Personality(
     abilities=[],
     legality=[
         IvoryEdition,
-        DiamondEdition,
         TwentyFestivalsEdition,
         JadeEdition,
+        DiamondEdition,
+        ModernEdition,
         ModernEdition,
     ],
 )
@@ -72,11 +73,12 @@ Ogre_Bushi = Personality(
     abilities=[],
     legality=[
         IvoryEdition,
-        ImperialEdition,
-        DiamondEdition,
         TwentyFestivalsEdition,
+        ImperialEdition,
         GoldEdition,
         JadeEdition,
+        DiamondEdition,
+        ModernEdition,
         ModernEdition,
     ],
 )
@@ -93,10 +95,10 @@ Voitagi = Personality(
     traits=[],
     abilities=[],
     legality=[
-        OnyxEdition,
-        DiamondEdition,
         TwentyFestivalsEdition,
         GoldEdition,
+        OnyxEdition,
+        DiamondEdition,
         ModernEdition,
     ],
 )

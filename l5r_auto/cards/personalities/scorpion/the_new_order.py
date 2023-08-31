@@ -36,7 +36,7 @@ Bayushi_Aggushi_Bayushi_Janqu = Personality(
     keywords=[Courtier, Samurai],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Bayushi_Irezu_Experienced = Personality(
     id=11921,
@@ -50,7 +50,7 @@ Bayushi_Irezu_Experienced = Personality(
     keywords=[Kensai, BitterLies, Commander, Experienced("1"), Martyr],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Bayushi_Iyashi_Lady_Sorrow = Personality(
     id=11922,
@@ -64,7 +64,7 @@ Bayushi_Iyashi_Lady_Sorrow = Personality(
     keywords=[Loyal, Magistrate, Musician, Paragon, Samurai, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shosuro_Yamazaki_the_Master_Courtier = Personality(
     id=11923,
@@ -78,7 +78,7 @@ Shosuro_Yamazaki_the_Master_Courtier = Personality(
     keywords=[Courtier, LoveLetter],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yogo_Chijin = Personality(
     id=11924,
@@ -92,7 +92,7 @@ Yogo_Chijin = Personality(
     keywords=[Air, Bloodspeaker, Shugenja],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yogo_Gorobei = Personality(
     id=11925,
@@ -106,5 +106,5 @@ Yogo_Gorobei = Personality(
     keywords=[Magistrate, Samurai, TheMaskedMonkey, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )

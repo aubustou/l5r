@@ -34,7 +34,7 @@ Isawa_Fujigawa = Personality(
     keywords=[Fire, Shugenja],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Isawa_Nomura = Personality(
     id=11914,
@@ -48,7 +48,7 @@ Isawa_Nomura = Personality(
     keywords=[Fire, ScionOfFlame, Shugenja],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Isawa_Tenkawa_the_Scholar = Personality(
     id=11915,
@@ -62,7 +62,7 @@ Isawa_Tenkawa_the_Scholar = Personality(
     keywords=[Air, LoveLetter, Shugenja],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kyuji = Personality(
     id=11917,
@@ -76,7 +76,7 @@ Kyuji = Personality(
     keywords=[Cavalry, Naval, Nonhuman, Orochi, ScionOfTheSea, Shugenja, Water],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shiba_Kintaro_the_Remembered = Personality(
     id=11919,
@@ -90,7 +90,7 @@ Shiba_Kintaro_the_Remembered = Personality(
     keywords=[Destined, Duelist, Samurai, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shiba_Koshiba = Personality(
     id=11918,
@@ -104,5 +104,5 @@ Shiba_Koshiba = Personality(
     keywords=[Samurai, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )

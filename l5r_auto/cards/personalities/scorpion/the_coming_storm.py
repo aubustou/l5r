@@ -30,7 +30,7 @@ Bayushi_Akagi = Personality(
     keywords=[Kensai, BitterLies, Samurai],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Bayushi_Fuyuko = Personality(
     id=11765,
@@ -44,7 +44,7 @@ Bayushi_Fuyuko = Personality(
     keywords=[Courtier],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Bayushi_JinnJa = Personality(
     id=11766,
@@ -58,7 +58,7 @@ Bayushi_JinnJa = Personality(
     keywords=[Courtier, Mastermind, SakeAddict],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Bayushi_Kotomuri = Personality(
     id=11767,
@@ -72,7 +72,7 @@ Bayushi_Kotomuri = Personality(
     keywords=[Expendable, Junshin, Samurai, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shosuro_Kayo = Personality(
     id=11768,
@@ -86,7 +86,7 @@ Shosuro_Kayo = Personality(
     keywords=[Samurai, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shosuro_Sadao = Personality(
     id=11769,
@@ -100,5 +100,5 @@ Shosuro_Sadao = Personality(
     keywords=[Ninja, Samurai, Spy],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )

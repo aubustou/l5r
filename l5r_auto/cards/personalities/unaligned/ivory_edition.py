@@ -29,7 +29,7 @@ Dainiko = Personality(
     keywords=[Fire, Monk, Ronin, SoulOf("Nakadai")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Horobei = Personality(
     id=11230,
@@ -43,7 +43,7 @@ Horobei = Personality(
     keywords=[Duelist, Kensai, Ronin, Samurai, Yojimbo],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Myuken = Personality(
     id=11231,
@@ -57,7 +57,7 @@ Myuken = Personality(
     keywords=[Actor, Ronin, SoulOf("Kyogen")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Yotsu_Shinzai = Personality(
     id=11232,
@@ -71,5 +71,5 @@ Yotsu_Shinzai = Personality(
     keywords=[Shugenja, SoulOf("Yotsu Seiki")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )

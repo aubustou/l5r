@@ -32,7 +32,7 @@ Daigotsu_Takahide = Personality(
     keywords=[Duelist, Magistrate, Samurai],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Gyushi_Kageto = Personality(
     id=11927,
@@ -46,7 +46,7 @@ Gyushi_Kageto = Personality(
     keywords=[Artisan, Fire, Shugenja, Smith],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kokujin_Dairu_Student_of_the_Dark_Lotus = Personality(
     id=11928,
@@ -60,7 +60,7 @@ Kokujin_Dairu_Student_of_the_Dark_Lotus = Personality(
     keywords=[Destined, Kensai, Monk, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kokujin_Kuchika_Blood_of_the_Dark_Lotus = Personality(
     id=11929,
@@ -74,7 +74,7 @@ Kokujin_Kuchika_Blood_of_the_Dark_Lotus = Personality(
     keywords=[Kensai, Monk, Shadowlands],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Susumu_Issei = Personality(
     id=11930,
@@ -88,7 +88,7 @@ Susumu_Issei = Personality(
     keywords=[Courtier],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Susumu_Kengo = Personality(
     id=11931,
@@ -102,5 +102,5 @@ Susumu_Kengo = Personality(
     keywords=[Expendable, Courtier],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )

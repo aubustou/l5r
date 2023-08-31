@@ -30,7 +30,7 @@ Ide_Ryou = Personality(
     keywords=[Courtier, Merchant],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Iuchi_Kalsang = Personality(
     id=11617,
@@ -44,7 +44,7 @@ Iuchi_Kalsang = Personality(
     keywords=[Cavalry, DeathPriest, Shugenja, Water],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Moto_Alani = Personality(
     id=11618,
@@ -58,7 +58,7 @@ Moto_Alani = Personality(
     keywords=[Destined, Resilient, DeathPriest, Shugenja, Water],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Moto_KyouakuInu = Personality(
     id=11619,
@@ -72,7 +72,7 @@ Moto_KyouakuInu = Personality(
     keywords=[Cavalry, Kensai, Samurai],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Shinjo_Shimikoto = Personality(
     id=11620,
@@ -86,7 +86,7 @@ Shinjo_Shimikoto = Personality(
     keywords=[Resilient, Bully, Samurai],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Utaku_Kimiono = Personality(
     id=11621,
@@ -100,5 +100,5 @@ Utaku_Kimiono = Personality(
     keywords=[Courtier, Samurai],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )

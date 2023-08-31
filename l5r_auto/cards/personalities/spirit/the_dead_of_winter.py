@@ -23,5 +23,11 @@ Karyuudo = Personality(
     keywords=[Cavalry, Dog, Hunter, Nonhuman, Scout, Spirit],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition, CelestialEdition],
+    legality=[
+        IvoryEdition,
+        TwentyFestivalsEdition,
+        CelestialEdition,
+        ModernEdition,
+        ModernEdition,
+    ],
 )

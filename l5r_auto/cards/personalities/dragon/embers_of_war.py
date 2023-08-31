@@ -23,5 +23,11 @@ Tamori_Seiken = Personality(
     keywords=[Cavalry, Earth, Mountaineer, Shugenja],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, EmperorEdition, TwentyFestivalsEdition, ModernEdition],
+    legality=[
+        IvoryEdition,
+        TwentyFestivalsEdition,
+        EmperorEdition,
+        ModernEdition,
+        ModernEdition,
+    ],
 )

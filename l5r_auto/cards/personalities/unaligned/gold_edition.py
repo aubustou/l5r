@@ -30,5 +30,6 @@ Noekam = Personality(
         GoldEdition,
         JadeEdition,
         ModernEdition,
+        ModernEdition,
     ],
 )

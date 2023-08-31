@@ -35,7 +35,7 @@ Asahina_Umeko = Personality(
     keywords=[Air, Shugenja, SoulOf("Asahina Kimita")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Daidoji_Kinta = Personality(
     id=11156,
@@ -49,7 +49,7 @@ Daidoji_Kinta = Personality(
     keywords=[Samurai, SoulOf("Daidoji Gudeta")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Daidoji_Tanshi = Personality(
     id=11157,
@@ -63,7 +63,7 @@ Daidoji_Tanshi = Personality(
     keywords=[Samurai, Scout],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Daidoji_Ujirou = Personality(
     id=11158,
@@ -77,7 +77,7 @@ Daidoji_Ujirou = Personality(
     keywords=[Samurai, Scout, SoulOf("Daidoji Gempachi")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Doji_Etsuki = Personality(
     id=11159,
@@ -91,7 +91,7 @@ Doji_Etsuki = Personality(
     keywords=[Governor, Magistrate, Samurai, SoulOf("Doji Numata")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Doji_Katata = Personality(
     id=11160,
@@ -105,7 +105,7 @@ Doji_Katata = Personality(
     keywords=[Courtier],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Doji_Makoto_the_Smiling_Blade_Experienced = Personality(
     id=11161,
@@ -128,7 +128,7 @@ Doji_Makoto_the_Smiling_Blade_Experienced = Personality(
     ],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Doji_Shirarou = Personality(
     id=11162,
@@ -142,7 +142,7 @@ Doji_Shirarou = Personality(
     keywords=[Artisan, Samurai, SoulOf("Doji Bukita")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Doji_Soeka = Personality(
     id=11163,
@@ -156,7 +156,7 @@ Doji_Soeka = Personality(
     keywords=[Courtier, Magistrate, Seductress, SoulOf("Doji Nenkai")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kakita_Amiki = Personality(
     id=11164,
@@ -170,7 +170,7 @@ Kakita_Amiki = Personality(
     keywords=[Duelist, Courtier, Samurai, SoulOf("Kakita Funaki")],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
 Kakita_Ibara = Personality(
     id=11165,
@@ -184,5 +184,5 @@ Kakita_Ibara = Personality(
     keywords=[Duelist, Samurai],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition],
+    legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )

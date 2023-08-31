@@ -27,8 +27,9 @@ Sasada = Personality(
     legality=[
         IvoryEdition,
         TwentyFestivalsEdition,
+        LotusEdition,
         SamuraiEdition,
         ModernEdition,
-        LotusEdition,
+        ModernEdition,
     ],
 )

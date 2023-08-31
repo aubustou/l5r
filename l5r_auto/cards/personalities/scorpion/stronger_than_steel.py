@@ -23,5 +23,11 @@ Yogo_Honami = Personality(
     keywords=[Courtier, Shugenja, Spirit],
     traits=[],
     abilities=[],
-    legality=[IvoryEdition, ModernEdition, TwentyFestivalsEdition, SamuraiEdition],
+    legality=[
+        IvoryEdition,
+        TwentyFestivalsEdition,
+        SamuraiEdition,
+        ModernEdition,
+        ModernEdition,
+    ],
 )
