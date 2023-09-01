@@ -20,6 +20,8 @@ class Strategy(FateCard):
     def __post_init__(self):
         self.entity_type = StrategyEntity
 
+        super().__post_init__()
+
 
 @dataclass(kw_only=True)
 class StrategyEntity(Entity, Strategy):

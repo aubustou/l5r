@@ -9,7 +9,7 @@ from l5r_auto.locations import Deck, Location
 from l5r_auto.player import Entity
 from l5r_auto.utils import import_submodules
 
-EVENTS: list[Type[Event]] = []
+EVENTS: list[Event] = []
 
 
 @dataclass(kw_only=True)
@@ -28,12 +28,14 @@ class Event(DynastyCard):
         self.entity_type = EventEntity
         EVENTS.append(self)
 
+        super().__post_init__()
+
 
 @dataclass(kw_only=True)
 class EventEntity(Entity, Event):
     location: Type[Location] = Deck
 
 
-def get_events(legality: Type[Legality]) -> list[Type[Event]]:
+def get_events(legality: Type[Legality]) -> list[Event]:
     import_submodules(f"l5r_auto.cards.events")
     return [x for x in EVENTS if legality in x.legality]

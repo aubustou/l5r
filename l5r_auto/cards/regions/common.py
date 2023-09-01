@@ -17,6 +17,11 @@ class Region(DynastyCard):
         default_factory=list, metadata={"is_written": True}
     )
 
+    def __post_init__(self):
+        self.entity_type = RegionEntity
+
+        super().__post_init__()
+
 
 @dataclass(kw_only=True)
 class RegionEntity(Entity, Region):

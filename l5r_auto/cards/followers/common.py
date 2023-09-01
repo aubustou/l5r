@@ -26,6 +26,8 @@ class Follower(FateCard):
     def __post_init__(self):
         self.entity_type = FollowerEntity
 
+        super().__post_init__()
+
 
 @dataclass(kw_only=True)
 class FollowerEntity(Entity, Follower):

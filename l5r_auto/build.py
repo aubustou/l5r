@@ -2,81 +2,30 @@ from __future__ import annotations
 
 import logging
 import random
-from dataclasses import dataclass, field
-from operator import attrgetter
-from typing import TYPE_CHECKING, Type
+from pathlib import Path
+from typing import TYPE_CHECKING, Sequence, Type
 
-from l5r_auto.cards.events.common import Event, get_events
-from l5r_auto.cards.holdings.common import Holding, get_holdings
+from l5r_auto.cards.events.common import get_events
+from l5r_auto.cards.holdings.common import get_holdings
 
-from .cards.personalities.common import Personality, get_personalities
+from .card import Card
+from .cards.personalities.common import get_personalities
 from .cards.strongholds.common import get_strongholds
 from .clans import Clan, clans
+from .deck import Deck
 from .legality import Legality, legalities
 
 if TYPE_CHECKING:
-    from l5r_auto.card import Card
-
-    from .cards.strongholds.common import Stronghold
+    pass
 
 
-@dataclass(kw_only=True)
-class Deck:
-    clan: Type[Clan]
-    legality: Type[Legality]
-
-    stronghold: Type[Stronghold] = field(init=False)
-    personalities: list[Type[Personality]] = field(default_factory=list)
-    holdings: list[Type[Holding]] = field(default_factory=list)
-    events: list[Type[Event]] = field(default_factory=list)
-
-    def to_list(self) -> list[Type[Card]]:
-        if not self.stronghold:
-            raise ValueError("Deck must have a stronghold")
-        return [self.stronghold]
-
-    def __str__(self) -> str:
-        return f"Deck with {self.stronghold.title}"
-
-    def add(self, card: Type[Card]):
-        match card.__class__.__name__:
-            case "Personality":
-                self.personalities.append(card)
-            case "Holding":
-                self.holdings.append(card)
-            case "Event":
-                self.events.append(card)
-            case _:
-                raise ValueError(f"Unknown card type: {card.__name__}")
-
-    def show(self):
-        logging.info("Deck %s %s", self.clan.name, self.legality.name)
-        logging.info("Stronghold: %s", self.stronghold.title)
-        logging.info("Personalities: %s", len(self.personalities))
-        for personality in sorted(self.personalities, key=attrgetter("title")):
-            logging.info("\t%s", personality.title)
-        logging.info(
-            "Average personality cost: %1.2f", self.average_personalities_cost()
-        )
-        logging.info("Holdings: %s", len(self.holdings))
-        for holding in sorted(self.holdings, key=attrgetter("title")):
-            logging.info("\t%s", holding.title)
-        logging.info("Average holding cost: %1.2f", self.average_holdings_cost())
-        logging.info("Events: %s", len(self.events))
-        for event in sorted(self.events, key=attrgetter("title")):
-            logging.info("\t%s", event.title)
-
-    def average_personalities_cost(self) -> float:
-        return sum(x.gold_cost for x in self.personalities) / len(self.personalities)
-
-    def average_holdings_cost(self) -> float:
-        return sum(x.gold_cost for x in self.holdings) / len(self.holdings)
+DECK_FOLDER = Path(__file__).parent / "decks"
 
 
 def fetch_cards(
     deck: Deck, legality: Type[Legality], clan: Type[Clan], type_: str, number: int
 ):
-    cards: list[Type[Card]]
+    cards: Sequence[Card]
     match type_:
         case "personalities":
             cards = get_personalities(legality, clan)
@@ -88,6 +37,11 @@ def fetch_cards(
             raise ValueError(f"Unknown card type: {type_}")
 
     for _ in range(number):
+        # TODO: check if card is unique
+        # TODO: check if card is restricted
+        # TODO: check if less than 3 copies of card
+        # TODO: manage card gold cost distribution (gaussian distribution)
+        # TODO: manage unaligned cards
         card = random.choice(cards)
         deck.add(card)
 
@@ -147,8 +101,24 @@ def build_deck(legality: str, clan: str) -> Deck:
 def main():
     logging.basicConfig(level=logging.DEBUG)
 
-    deck = build_deck("20f", "dragon")
-    deck.show()
+    for _ in range(20):
+        for clan in [
+            "crab",
+            "crane",
+            "dragon",
+            "lion",
+            "phoenix",
+            "scorpion",
+            "spider",
+            "unicorn",
+        ]:
+            deck = build_deck("20f", clan)
+            deck.show()
+
+            folder = DECK_FOLDER / deck.legality.name.lower() / deck.clan.name.lower()
+            folder.mkdir(parents=True, exist_ok=True)
+
+            (folder / f"{deck.id}.json").write_text(deck.to_json())
 
 
 if __name__ == "__main__":

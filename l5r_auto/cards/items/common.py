@@ -27,6 +27,8 @@ class Item(FateCard):
     def __post_init__(self):
         self.entity_type = ItemEntity
 
+        super().__post_init__()
+
 
 @dataclass(kw_only=True)
 class ItemEntity(Entity, Item):

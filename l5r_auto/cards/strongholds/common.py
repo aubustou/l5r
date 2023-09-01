@@ -36,6 +36,8 @@ class Stronghold(StrongholdStats):
         self.entity_type = StrongholdEntity
         STRONGHOLDS.append(self)
 
+        super().__post_init__()
+
 
 @dataclass(kw_only=True)
 class StrongholdEntity(Entity, StrongholdStats):

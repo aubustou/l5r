@@ -21,6 +21,7 @@ dev = [
 [project.scripts]
 generate_code = "l5r_auto.generate.generate:main"
 build_deck = "l5r_auto.build:main"
+play = "l5r_auto.play:main"
 
 [tool.setuptools]
 packages = ["l5r_auto"]

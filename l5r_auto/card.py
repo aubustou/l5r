@@ -41,6 +41,11 @@ class Card:
 
     entity_type: Type[Entity] = field(init=False)
 
+    def __post_init__(self):
+        from .cards import CARDS
+
+        CARDS[self.card_id] = self
+
     def written(self) -> dict[str, Any]:
         return {
             f.name: getattr(self, f.name)

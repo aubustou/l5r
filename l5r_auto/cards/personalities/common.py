@@ -19,7 +19,7 @@ class HasZeroChi(Ability):
             personality.destroy()
 
 
-PERSONALITIES = []
+PERSONALITIES: list[Personality] = []
 
 
 @dataclass(kw_only=True)
@@ -40,6 +40,8 @@ class Personality(DynastyCard):
         self.entity_type = PersonalityEntity
         PERSONALITIES.append(self)
 
+        super().__post_init__()
+
 
 @dataclass(kw_only=True)
 class PersonalityEntity(Entity, Personality):
@@ -49,8 +51,6 @@ class PersonalityEntity(Entity, Personality):
         self.bowed = True
 
 
-def get_personalities(
-    legality: Type[Legality], clan: Type[Clan]
-) -> list[Type[Personality]]:
+def get_personalities(legality: Type[Legality], clan: Type[Clan]) -> list[Personality]:
     import_submodules(f"l5r_auto.cards.personalities.{clan.module_name()}")
     return [x for x in PERSONALITIES if legality in x.legality and clan in x.clan]
