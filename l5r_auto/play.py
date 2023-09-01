@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import itertools
 import logging
 import random
 import uuid
@@ -11,15 +12,12 @@ from l5r_auto.player import Game, Player
 DECK_PATH = Path(__file__).parent / "decks"
 
 
-def create_player(deck: Deck | None) -> Player:
+def create_player(deck: Deck) -> Player:
     return Player(name=f"robotor-{uuid.uuid4()}", deck=deck)
 
 
 def create_game(players: list[Player]) -> Game:
-    game = Game(players=players)
-    for player in players:
-        player.prepare(game)
-    return game
+    return Game(players=players)
 
 
 def load_deck(deck_path: Path) -> Deck:
@@ -34,18 +32,23 @@ def main():
     logging.info("Found %d decks", len(deck_paths))
     random.shuffle(deck_paths)
 
-    for path in deck_paths:
-        logging.info("Loading deck: %s", path)
-        deck = load_deck(path)
-        logging.info("Loaded deck %s:", deck.id)
-        logging.info("\tDeck version: %s", deck.version)
-        logging.info("\tDeck stronghold: %s", deck.stronghold.title)
+    for paths in itertools.pairwise(deck_paths):
+        players = []
+        for path in paths:
+            logging.info("Loading deck: %s", path)
+            deck = load_deck(path)
+            logging.info("Loaded deck %s:", deck.id)
+            logging.info("\tDeck version: %s", deck.version)
+            logging.info("\tDeck stronghold: %s", deck.stronghold.title)
 
-        player = create_player(deck)
-        logging.info("Created player: %s", player.name)
+            player = create_player(deck)
+            logging.info("Created player: %s", player.name)
+            players.append(player)
 
-        game = create_game([player])
+        game = create_game(players)
         logging.info("Created game: %s", game.id)
+
+        game.start()
 
 
 if __name__ == "__main__":
