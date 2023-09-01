@@ -51,10 +51,8 @@ class PersonalityEntity(Entity, Personality):
 
 
 def get_cards(legality: Type[Legality], clan: Type[Clan]) -> list[Personality]:
-    from .. import CARDS
+    from .. import get_cards as get_cards_
 
     return [
-        x
-        for x in CARDS.get(Personality, {}).values()
-        if legality in x.legality and clan in x.clan
+        x for x in get_cards_(Personality) if legality in x.legality and clan in x.clan
     ]

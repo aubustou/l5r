@@ -48,7 +48,7 @@ class Card:
     def __post_init__(self):
         from .cards import CARDS
 
-        CARDS[self.card_id] = self
+        CARDS.setdefault(self.__class__, {})[self.card_id] = self
 
     def written(self) -> dict[str, Any]:
         return {

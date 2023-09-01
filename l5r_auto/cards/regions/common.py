@@ -30,6 +30,6 @@ class RegionEntity(Entity, Region):
 
 
 def get_cards(legality: Type[Legality]) -> list[Region]:
-    from .. import CARDS
+    from .. import get_cards as get_cards_
 
-    return [x for x in CARDS.get(Region, {}).values() if legality in x.legality]
+    return [x for x in get_cards_(Region) if legality in x.legality]

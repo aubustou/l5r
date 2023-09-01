@@ -7,6 +7,7 @@ from typing import Type
 
 from l5r_auto.card import Ability, FateCard, Trait
 from l5r_auto.cards.personalities.common import PersonalityEntity
+from l5r_auto.legality import Legality
 from l5r_auto.locations import Deck, Location
 from l5r_auto.player import Entity
 
@@ -33,3 +34,9 @@ class Follower(FateCard):
 class FollowerEntity(Entity, Follower):
     location: Type[Location] = Deck
     attached_to: PersonalityEntity | None = None
+
+
+def get_cards(legality: Type[Legality]) -> list[Follower]:
+    from .. import get_cards as get_cards_
+
+    return [x for x in get_cards_(Follower) if legality in x.legality]

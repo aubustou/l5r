@@ -30,6 +30,6 @@ class RingEntity(Entity, Ring):
 
 
 def get_cards(legality: Type[Legality]) -> list[Ring]:
-    from .. import CARDS
+    from .. import get_cards as get_cards_
 
-    return [x for x in CARDS.get(Ring, {}).values() if legality in x.legality]
+    return [x for x in get_cards_(Ring) if legality in x.legality]

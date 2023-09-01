@@ -36,6 +36,6 @@ class EventEntity(Entity, Event):
 
 
 def get_cards(legality: Type[Legality]) -> list[Event]:
-    from .. import CARDS
+    from .. import get_cards as get_cards_
 
-    return [x for x in CARDS.get(Event, {}).values() if legality in x.legality]
+    return [x for x in get_cards_(Event) if legality in x.legality]

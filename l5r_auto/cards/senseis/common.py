@@ -26,10 +26,6 @@ class SenseiEntity(Entity, StrongholdStats):
 
 
 def get_cards(legality: Type[Legality], clan: Type[Clan]) -> list[Sensei]:
-    from .. import CARDS
+    from .. import get_cards as get_cards_
 
-    return [
-        x
-        for x in CARDS.get(Sensei, {}).values()
-        if legality in x.legality and clan in x.clan
-    ]
+    return [x for x in get_cards_(Sensei) if legality in x.legality and clan in x.clan]

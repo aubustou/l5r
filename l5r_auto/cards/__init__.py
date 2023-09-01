@@ -26,6 +26,7 @@ ALL_CARDS: dict[int, Card] = {}
 def load_cards():
     import_submodules("l5r_auto.cards")
     global ALL_CARDS
+
     ALL_CARDS = {x.card_id: x for y in CARDS.values() for x in y.values()}
 
 

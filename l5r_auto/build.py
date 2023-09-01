@@ -101,18 +101,14 @@ def build_deck(legality: str, clan: str) -> Deck:
 def main():
     logging.basicConfig(level=logging.DEBUG)
 
-    for _ in range(20):
-        for clan in [
-            "crab",
-            "crane",
-            "dragon",
-            "lion",
-            "phoenix",
-            "scorpion",
-            "spider",
-            "unicorn",
-        ]:
-            deck = build_deck("20f", clan)
+    for _ in range(1):
+        for clan in clans:
+            try:
+                deck = build_deck("20f", clan.name)
+            except ValueError:
+                logging.info("No stronghold found for %s", clan.name)
+                continue
+
             deck.show()
 
             folder = DECK_FOLDER / deck.legality.name.lower() / deck.clan.name.lower()
