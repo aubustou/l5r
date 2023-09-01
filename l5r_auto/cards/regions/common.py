@@ -6,6 +6,7 @@ from dataclasses import dataclass, field
 from typing import Type
 
 from l5r_auto.card import Ability, DynastyCard, Trait
+from l5r_auto.legality import Legality
 from l5r_auto.locations import Deck, Location
 from l5r_auto.player import Entity
 
@@ -26,3 +27,9 @@ class Region(DynastyCard):
 @dataclass(kw_only=True)
 class RegionEntity(Entity, Region):
     location: Type[Location] = Deck
+
+
+def get_cards(legality: Type[Legality]) -> list[Region]:
+    from .. import CARDS
+
+    return [x for x in CARDS.get(Region, {}).values() if legality in x.legality]

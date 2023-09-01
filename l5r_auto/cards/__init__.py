@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, Type
 
 from ..utils import import_submodules
 from .events.common import Event  # noqa
@@ -19,15 +19,25 @@ if TYPE_CHECKING:
     from ..card import Card
 
 
-CARDS: dict[int, Card] = {}
+CARDS: dict[Type[Card], dict[int, Card]] = {}
+ALL_CARDS: dict[int, Card] = {}
 
 
 def load_cards():
     import_submodules("l5r_auto.cards")
+    global ALL_CARDS
+    ALL_CARDS = {x.card_id: x for y in CARDS.values() for x in y.values()}
 
 
 def get_card(card_id: int) -> Card | None:
     if not CARDS:
         load_cards()
 
-    return CARDS.get(card_id)
+    return ALL_CARDS.get(card_id)
+
+
+def get_cards(card_type: Type[Card]) -> list[Card]:
+    if not CARDS:
+        load_cards()
+
+    return list(CARDS[card_type].values())

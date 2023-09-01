@@ -4,8 +4,15 @@ from copy import copy
 from dataclasses import dataclass, field, make_dataclass
 from typing import Type
 
-from .card import Keyword
 from .clans import NagaFaction, NinjaFaction, SpiritFaction
+
+
+@dataclass(kw_only=True)
+class Keyword:
+    name: str = field(init=False)
+
+    def __post_init__(self):
+        self.name = self.__class__.__name__
 
 
 def SoulOf(title: str) -> Type[Keyword]:

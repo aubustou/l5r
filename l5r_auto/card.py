@@ -1,12 +1,16 @@
 from __future__ import annotations
 
+import logging
 import uuid
 from dataclasses import dataclass, field, fields
-from typing import Any, Type
+from typing import TYPE_CHECKING, Any, Type
 
-from .legality import Legality
-from .locations import DynastyDiscard, RemovedFromGame
-from .player import Entity
+from l5r_auto.keywords import Keyword
+
+if TYPE_CHECKING:
+    from .legality import Legality
+    from .locations import DynastyDiscard, RemovedFromGame
+    from .player import Entity
 
 
 @dataclass(kw_only=True)
@@ -28,7 +32,7 @@ class Trait(Action):
 
 @dataclass(kw_only=True)
 class Card:
-    card_id: int
+    card_id: int = field(metadata={"is_written": True})
     id: uuid.UUID = field(default_factory=uuid.uuid4)
     title: str = field(metadata={"is_written": True})
 
@@ -54,6 +58,7 @@ class Card:
         }
 
     def __call__(self, *args: Any, **kwds: Any) -> Entity:
+        logging.debug(f"Creating {self.__class__.__name__} with {self.written()}")
         return self.entity_type(*args, **kwds, **self.written())
 
     def target(self):
@@ -75,11 +80,3 @@ class DynastyCard(Card):
 class FateCard(Card):
     gold_cost: int = field(metadata={"is_written": True})
     focus_value: int = field(metadata={"is_written": True})
-
-
-@dataclass(kw_only=True)
-class Keyword:
-    name: str = field(init=False)
-
-    def __post_init__(self):
-        self.name = self.__class__.__name__

@@ -3,9 +3,10 @@ from __future__ import annotations
 import json
 import logging
 import uuid
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, fields
+from functools import cached_property
 from operator import attrgetter
-from typing import TYPE_CHECKING, Type, TypedDict
+from typing import TYPE_CHECKING, Sequence, Type, TypedDict
 
 from l5r_auto.cards import get_card
 
@@ -14,10 +15,19 @@ from .clans import Clan, clans
 from .legality import Legality, legalities
 
 if TYPE_CHECKING:
-    from .cards.events.common import Event
-    from .cards.holdings.common import Holding
-    from .cards.personalities.common import Personality
-    from .cards.strongholds.common import Stronghold
+    from .cards import (
+        Event,
+        Follower,
+        Holding,
+        Item,
+        Personality,
+        Region,
+        Ring,
+        Sensei,
+        Spell,
+        Strategy,
+        Stronghold,
+    )
 
 
 class DeckEncoder(json.JSONEncoder):
@@ -57,15 +67,39 @@ class Deck:
     id: uuid.UUID = field(default_factory=uuid.uuid4)
     former_version_id: uuid.UUID | None = None
 
-    stronghold: Stronghold = field(init=False)
-    personalities: list[Personality] = field(default_factory=list)
-    holdings: list[Holding] = field(default_factory=list)
-    events: list[Event] = field(default_factory=list)
+    stronghold: Stronghold = field(init=False, metadata={"are_cards": True})
+    sensei: Sensei | None = field(
+        default=None, init=False, metadata={"are_cards": True}
+    )
+    # Dynasty
+    events: list[Event] = field(default_factory=list, metadata={"are_cards": True})
+    holdings: list[Holding] = field(default_factory=list, metadata={"are_cards": True})
+    personalities: list[Personality] = field(
+        default_factory=list, metadata={"are_cards": True}
+    )
+    regions: list[Region] = field(default_factory=list, metadata={"are_cards": True})
+    # Fate
+    followers: list[Follower] = field(
+        default_factory=list, metadata={"are_cards": True}
+    )
+    items: list[Item] = field(default_factory=list, metadata={"are_cards": True})
+    rings: list[Ring] = field(default_factory=list, metadata={"are_cards": True})
+    spells: list[Spell] = field(default_factory=list, metadata={"are_cards": True})
+    strategies: list[Strategy] = field(
+        default_factory=list, metadata={"are_cards": True}
+    )
 
-    def to_list(self) -> list[Card]:
-        if not self.stronghold:
-            raise ValueError("Deck must have a stronghold")
-        return [self.stronghold]
+    @cached_property
+    def cards(self) -> Sequence[Card]:
+        cards: Sequence[Card] = []
+        for field in fields(self):
+            if field.metadata.get("are_cards"):
+                if isinstance(value := getattr(self, field.name), list):
+                    cards.extend(value)
+                elif value is not None:
+                    cards.append(value)
+
+        return cards
 
     def to_dict(self) -> DeckDict:
         return {

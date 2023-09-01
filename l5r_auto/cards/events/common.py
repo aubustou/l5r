@@ -7,7 +7,6 @@ from l5r_auto.card import Ability, DynastyCard, Keyword, Trait
 from l5r_auto.legality import Legality
 from l5r_auto.locations import Deck, Location
 from l5r_auto.player import Entity
-from l5r_auto.utils import import_submodules
 
 EVENTS: list[Event] = []
 
@@ -36,6 +35,7 @@ class EventEntity(Entity, Event):
     location: Type[Location] = Deck
 
 
-def get_events(legality: Type[Legality]) -> list[Event]:
-    import_submodules(f"l5r_auto.cards.events")
-    return [x for x in EVENTS if legality in x.legality]
+def get_cards(legality: Type[Legality]) -> list[Event]:
+    from .. import CARDS
+
+    return [x for x in CARDS.get(Event, {}).values() if legality in x.legality]

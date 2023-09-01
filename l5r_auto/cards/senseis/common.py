@@ -2,21 +2,18 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import Type
 
-from l5r_auto.card import Ability, FateCard, Trait
-from l5r_auto.locations import Deck, Location
+from l5r_auto.cards.strongholds.common import StrongholdStats
+from l5r_auto.clans import Clan
+from l5r_auto.legality import Legality
+from l5r_auto.locations import Location, Stronghold
 from l5r_auto.player import Entity
 
 
 @dataclass(kw_only=True)
-class Sensei(FateCard):
-    traits: list[Trait] = field(default_factory=list, metadata={"is_written": True})
-    abilities: list[Ability] = field(
-        default_factory=list, metadata={"is_written": True}
-    )
-
+class Sensei(StrongholdStats):
     def __post_init__(self):
         self.entity_type = SenseiEntity
 
@@ -24,5 +21,15 @@ class Sensei(FateCard):
 
 
 @dataclass(kw_only=True)
-class SenseiEntity(Entity, Sensei):
-    location: Type[Location] = Deck
+class SenseiEntity(Entity, StrongholdStats):
+    location: Type[Location] = Stronghold
+
+
+def get_cards(legality: Type[Legality], clan: Type[Clan]) -> list[Sensei]:
+    from .. import CARDS
+
+    return [
+        x
+        for x in CARDS.get(Sensei, {}).values()
+        if legality in x.legality and clan in x.clan
+    ]

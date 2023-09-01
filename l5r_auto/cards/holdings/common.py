@@ -7,7 +7,6 @@ from l5r_auto.card import Ability, DynastyCard, Trait
 from l5r_auto.legality import Legality
 from l5r_auto.locations import Deck, Location
 from l5r_auto.player import Entity
-from l5r_auto.utils import import_submodules
 
 HOLDINGS: list[Holding] = []
 
@@ -35,6 +34,7 @@ class HoldingEntity(Entity, Holding):
     location: Type[Location] = Deck
 
 
-def get_holdings(legality: Type[Legality]) -> list[Holding]:
-    import_submodules(f"l5r_auto.cards.holdings")
-    return [x for x in HOLDINGS if legality in x.legality]
+def get_cards(legality: Type[Legality]) -> list[Holding]:
+    from .. import CARDS
+
+    return [x for x in CARDS.get(Holding, {}).values() if legality in x.legality]

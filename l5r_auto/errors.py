@@ -11,3 +11,15 @@ class WrongStateError(RuleError):
 
     def __init__(self, message: str) -> None:
         self.message = message
+
+
+class EndOfGame(Exception):
+    """Base class for all end of game exceptions."""
+
+
+class EndOfFateDeckError(EndOfGame):
+    """Exception raised when the fate deck is empty."""
+
+
+class EndOfDynastyDeckError(EndOfGame):
+    """Exception raised when the dynasty deck is empty."""

@@ -10,7 +10,6 @@ from l5r_auto.clans import Clan
 from l5r_auto.legality import Legality
 from l5r_auto.locations import Deck, Location
 from l5r_auto.player import Entity
-from l5r_auto.utils import import_submodules
 
 
 class HasZeroChi(Ability):
@@ -51,6 +50,11 @@ class PersonalityEntity(Entity, Personality):
         self.bowed = True
 
 
-def get_personalities(legality: Type[Legality], clan: Type[Clan]) -> list[Personality]:
-    import_submodules(f"l5r_auto.cards.personalities.{clan.module_name()}")
-    return [x for x in PERSONALITIES if legality in x.legality and clan in x.clan]
+def get_cards(legality: Type[Legality], clan: Type[Clan]) -> list[Personality]:
+    from .. import CARDS
+
+    return [
+        x
+        for x in CARDS.get(Personality, {}).values()
+        if legality in x.legality and clan in x.clan
+    ]

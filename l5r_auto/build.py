@@ -5,12 +5,12 @@ import random
 from pathlib import Path
 from typing import TYPE_CHECKING, Sequence, Type
 
-from l5r_auto.cards.events.common import get_events
-from l5r_auto.cards.holdings.common import get_holdings
+from l5r_auto.cards.events.common import get_cards as get_events
+from l5r_auto.cards.holdings.common import get_cards as get_holdings
 
 from .card import Card
-from .cards.personalities.common import get_personalities
-from .cards.strongholds.common import get_strongholds
+from .cards.personalities.common import get_cards as get_personalities
+from .cards.strongholds.common import get_cards as get_strongholds
 from .clans import Clan, clans
 from .deck import Deck
 from .legality import Legality, legalities
@@ -79,7 +79,7 @@ def build_deck(legality: str, clan: str) -> Deck:
 
     if strongholds := get_strongholds(legality_, clan_):
         logging.info("Found %s strongholds", len(strongholds))
-        stronghold = random.choice(get_strongholds(legality_, clan_))
+        stronghold = random.choice(strongholds)
     else:
         raise ValueError("No strongholds found")
 

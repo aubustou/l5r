@@ -6,6 +6,7 @@ from dataclasses import dataclass, field
 from typing import Type
 
 from l5r_auto.card import Ability, FateCard, Trait
+from l5r_auto.legality import Legality
 from l5r_auto.locations import Deck, Location
 from l5r_auto.player import Entity
 
@@ -26,3 +27,9 @@ class Spell(FateCard):
 @dataclass(kw_only=True)
 class SpellEntity(Entity, Spell):
     location: Type[Location] = Deck
+
+
+def get_cards(legality: Type[Legality]) -> list[Spell]:
+    from .. import CARDS
+
+    return [x for x in CARDS.get(Spell, {}).values() if legality in x.legality]

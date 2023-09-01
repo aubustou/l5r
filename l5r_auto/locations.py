@@ -4,7 +4,8 @@ from dataclasses import dataclass, field
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from .card import DynastyCard, FateCard
+    from .card import FateCard
+    from .player import DynastyCardEntity
 
 
 @dataclass(kw_only=True)
@@ -23,8 +24,9 @@ class Hand(Location):
 
 
 @dataclass(kw_only=True)
-class Province(Location):
-    attachments: list[DynastyCard] = field(default_factory=list)
+class ProvinceLocation(Location):
+    dynasty_cards: list[DynastyCardEntity] = field(default_factory=list)
+    attachments: list[DynastyCardEntity] = field(default_factory=list)
 
 
 @dataclass(kw_only=True)
