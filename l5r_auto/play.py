@@ -11,9 +11,22 @@ from l5r_auto.player import Game, Player
 
 DECK_PATH = Path(__file__).parent / "decks"
 
+NAMES = [
+    "Simon",
+    "Manu",
+    "Pierre",
+    "François",
+    "Vincent",
+    "Picasso",
+    "c'est pas dans l'environnement",
+    "le rat",
+    "immonde bâtard",
+    "Michel Muller",
+]
+
 
 def create_player(deck: Deck) -> Player:
-    return Player(name=f"robotor-{uuid.uuid4()}", deck=deck)
+    return Player(name=f"{random.choice(NAMES)}-{str(uuid.uuid4())[:4]}", deck=deck)
 
 
 def create_game(players: list[Player]) -> Game:

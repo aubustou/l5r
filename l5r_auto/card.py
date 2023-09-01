@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import logging
 import uuid
 from dataclasses import dataclass, field, fields
 from typing import TYPE_CHECKING, Any, Type
@@ -58,7 +57,7 @@ class Card:
         }
 
     def __call__(self, *args: Any, **kwds: Any) -> Entity:
-        logging.debug(f"Creating {self.__class__.__name__} with {self.written()}")
+        # logging.debug(f"Creating {self.__class__.__name__} with {self.written()}")
         return self.entity_type(*args, **kwds, **self.written())
 
     def target(self):
