@@ -5,11 +5,11 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Type
 
+from l5r_auto.card import Entity
 from l5r_auto.cards.strongholds.common import StrongholdStats
 from l5r_auto.clans import Clan
 from l5r_auto.legality import Legality
 from l5r_auto.locations import Location, Stronghold
-from l5r_auto.player import Entity
 
 
 @dataclass(kw_only=True)

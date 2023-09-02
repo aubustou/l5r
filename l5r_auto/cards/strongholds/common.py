@@ -5,9 +5,8 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Type
 
-from l5r_auto.card import Ability, Card, Trait
+from l5r_auto.card import Ability, Card, Entity, Trait
 from l5r_auto.locations import Stronghold as StrongholdLocation
-from l5r_auto.player import Entity
 
 if TYPE_CHECKING:
     from l5r_auto.clans import Clan

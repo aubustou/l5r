@@ -4,12 +4,11 @@ import uuid
 from dataclasses import dataclass, field, fields
 from typing import TYPE_CHECKING, Any, Type
 
-from l5r_auto.keywords import Keyword
-from l5r_auto.play import Game
-
 if TYPE_CHECKING:
+    from .keywords import Keyword
     from .legality import Legality
     from .locations import DynastyDiscard, RemovedFromGame
+    from .play import Game
 
 
 @dataclass(kw_only=True)

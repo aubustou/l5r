@@ -6,8 +6,7 @@ import uuid
 from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Sequence
 
-from l5r_auto.errors import EndOfDynastyDeckError, EndOfFateDeckError
-
+from .errors import EndOfDynastyDeckError, EndOfFateDeckError
 from .locations import ProvinceLocation
 
 if TYPE_CHECKING:
