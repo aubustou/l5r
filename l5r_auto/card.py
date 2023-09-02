@@ -84,6 +84,7 @@ class FateCard(Card):
 class Entity:
     id: uuid.UUID = field(default_factory=uuid.uuid4)
     game: Game
+    title: str = field(metadata={"is_written": True})
 
     def __repr__(self):
         return self.to_string()

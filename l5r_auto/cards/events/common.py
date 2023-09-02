@@ -3,7 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Type
 
-from l5r_auto.card import Ability, DynastyCard, Entity, Keyword, Trait
+from l5r_auto.card import Ability, DynastyCard, Entity, Trait
 from l5r_auto.legality import Legality
 from l5r_auto.locations import Deck, Location
 
@@ -14,9 +14,6 @@ EVENTS: list[Event] = []
 class Event(DynastyCard):
     title: str = field(metadata={"is_written": True})
 
-    keywords: list[Type[Keyword]] = field(
-        default_factory=list, metadata={"is_written": True}
-    )
     traits: list[Trait] = field(default_factory=list, metadata={"is_written": True})
     abilities: list[Ability] = field(
         default_factory=list, metadata={"is_written": True}

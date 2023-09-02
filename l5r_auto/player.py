@@ -6,11 +6,12 @@ import uuid
 from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Sequence
 
+from .card import DynastyCard, FateCard
 from .errors import EndOfDynastyDeckError, EndOfFateDeckError
 from .locations import ProvinceLocation
 
 if TYPE_CHECKING:
-    from .card import Ability, DynastyCard, Entity, FateCard
+    from .card import Ability, Entity
     from .cards import Sensei, Stronghold
     from .deck import Deck
     from .models import PlayerReport
