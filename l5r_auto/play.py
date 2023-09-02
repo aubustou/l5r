@@ -3,43 +3,92 @@ from __future__ import annotations
 import itertools
 import logging
 import random
+import time
 import uuid
+from dataclasses import dataclass, field
 from pathlib import Path
+from typing import TYPE_CHECKING
 
-from l5r_auto.deck import Deck
-from l5r_auto.player import Game, Player
+from .deck import Deck
+from .phases import StartOfGame, Turn, TurnSequences
+from .player import Player
+
+if TYPE_CHECKING:
+    from .models import GameReport
+    from .phases import Phase, Step
 
 DECK_PATH = Path(__file__).parent / "decks"
-
-NAMES = [
-    "Simon",
-    "Manu",
-    "Pierre",
-    "François",
-    "Vincent",
-    "Picasso",
-    "c'est pas dans l'environnement",
-    "le rat",
-    "immonde bâtard",
-    "Michel Muller",
-]
+REPORT_FOLDER = Path(__file__).parent / "reports"
 
 
-def create_player(deck: Deck) -> Player:
-    return Player(name=f"{random.choice(NAMES)}-{str(uuid.uuid4())[:4]}", deck=deck)
+@dataclass(kw_only=True)
+class Game:
+    id: uuid.UUID = field(default_factory=uuid.uuid4)
+    players: list[Player]
 
+    current_player: Player | None = None
+    current_phase: Phase | None = None
+    current_step: Step | None = None
 
-def create_game(players: list[Player]) -> Game:
-    return Game(players=players)
+    starting_player: Player | None = field(init=False)
 
+    phases: list[Phase] = field(default_factory=list)
+    turns: list[Turn] = field(default_factory=list)
 
-def load_deck(deck_path: Path) -> Deck:
-    return Deck.from_json(deck_path.read_text())
+    steps = [
+        StartOfGame,
+        TurnSequences,
+    ]
+
+    def __post_init__(self):
+        if len(self.players) > 1:
+            # Placing players
+            for left, right in itertools.cycle(itertools.pairwise(self.players)):
+                if left.right_to is None:
+                    left.right_to = right
+                else:
+                    break
+
+        for player in self.players:
+            # Generate card entities before starting game
+            player.create_entities(game=self)
+
+    @property
+    def current_turn(self) -> Turn:
+        return self.turns[-1]
+
+    def start(self):
+        logging.info("Starting game: %s", self.id)
+        for step in self.steps:
+            self.current_step = step(game=self)
+            self.current_step.start()
+
+    def take_turn(self, number: int, active_player: Player):
+        turn = Turn(game=self, number=len(self.turns) + 1, active_player=active_player)
+        self.turns.append(turn)
+        turn.start()
+
+    def report(self):
+        id = str(self.id)
+        report_folder = REPORT_FOLDER / id[:2]
+        report_folder.mkdir(parents=True, exist_ok=True)
+        report_file = report_folder / f"{id}.json"
+
+        report = GameReport(
+            id=self.id,
+            players=[x.report() for x in self.players],
+        )
+        report_file.write_text(self.to_json())
 
 
 def main():
     logging.basicConfig(level=logging.DEBUG)
     logging.info("Starting L5R Auto")
+    start_time = time.time()
+
+    # TODO: Add command line arguments
+    # TODO: Add name handling
+    name = None
 
     deck_paths = list(DECK_PATH.rglob("*.json"))
     logging.info("Found %d decks", len(deck_paths))
@@ -49,19 +98,21 @@ def main():
         players = []
         for path in paths:
             logging.info("Loading deck: %s", path)
-            deck = load_deck(path)
+            deck = Deck.from_json(path.read_text())
             logging.info("Loaded deck %s:", deck.id)
             logging.info("\tDeck version: %s", deck.version)
             logging.info("\tDeck stronghold: %s", deck.stronghold.title)
 
-            player = create_player(deck)
+            player = Player(name=name or "", deck=deck)
             logging.info("Created player: %s", player.name)
             players.append(player)
 
-        game = create_game(players)
+        game = Game(players=players)
         logging.info("Created game: %s", game.id)
 
         game.start()
+
+    logging.info("Finished in %1.2f seconds", time.time() - start_time)
 
 
 if __name__ == "__main__":

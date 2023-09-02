@@ -7,7 +7,8 @@ from dataclasses import dataclass, field
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from .player import Game, Player
+    from .play import Game
+    from .player import Player
 
 
 @dataclass(kw_only=True)
@@ -111,7 +112,7 @@ class StartOfGame(Step):
         """
 
         def start(self):
-            logging.info("Starting turn: %s", self.game.id)
+            logging.info("Finished start of game: %s", self.game.id)
 
     steps = [
         ShowStrongholds,
@@ -148,10 +149,38 @@ class Phase(Step):
     turn: Turn
     active_player: Player
 
+    def start(self):
+        logging.info(
+            "%s: Starting phase: %s", self.active_player.name, self.__class__.__name__
+        )
+
+
+# Turn Sequence
+# Start Phase - Straighten Phase - Event Phase - Action Phase - Attack/Battle Phase (optional) - Dynasty Phase - Discard Phase - Draw Phase - End Phase
+@dataclass(kw_only=True)
+class StartPhase(Phase):
+    pass
+
+
+@dataclass(kw_only=True)
+class StraightenPhase(Phase):
+    pass
+
+
+@dataclass(kw_only=True)
+class EventPhase(Phase):
+    pass
+
 
 @dataclass(kw_only=True)
 class ActionPhase(Phase):
     pass
+
+
+@dataclass(kw_only=True)
+class AttackPhase(Phase):
+    optional: bool = field(default=True, init=False)
+    current_segment: AttackPhaseSegment | None = field(default=None, init=False)
 
 
 @dataclass(kw_only=True)
@@ -160,9 +189,51 @@ class DynastyPhase(Phase):
 
 
 @dataclass(kw_only=True)
-class AttackPhase(Phase):
-    optional: bool = field(default=True, init=False)
-    current_segment: AttackPhaseSegment | None = field(default=None, init=False)
+class DiscardPhase(Phase):
+    pass
+
+
+@dataclass(kw_only=True)
+class DrawPhase(Phase):
+    pass
+
+
+@dataclass(kw_only=True)
+class EndPhase(Phase):
+    pass
+
+
+@dataclass(kw_only=True)
+class Turn:
+    game: Game
+    number: int
+    active_player: Player
+
+    phases = [
+        StartPhase,
+        StraightenPhase,
+        EventPhase,
+        ActionPhase,
+        AttackPhase,
+        DynastyPhase,
+        DiscardPhase,
+        DrawPhase,
+        EndPhase,
+    ]
+
+    def start(self):
+        logging.info("%s: Starting turn #%d", self.active_player.name, self.number)
+        for phase in self.phases:
+            self.game.current_phase = phase(
+                game=self.game, turn=self, active_player=self.active_player
+            )
+            self.game.current_phase.start()
+
+    def to_dict(self):
+        return {
+            "number": self.number,
+            "active_player": self.active_player.name,
+        }
 
 
 # Attack phase
@@ -210,15 +281,3 @@ class ResolutionSegment(BattlePhase):
 @dataclass(kw_only=True)
 class AftermathSegment(BattlePhase):
     pass
-
-
-@dataclass(kw_only=True)
-class Turn:
-    number: int
-    active_player: Player
-
-    phases = [
-        ActionPhase,
-        AttackPhase,
-        DynastyPhase,
-    ]

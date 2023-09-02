@@ -5,11 +5,11 @@ from dataclasses import dataclass, field, fields
 from typing import TYPE_CHECKING, Any, Type
 
 from l5r_auto.keywords import Keyword
+from l5r_auto.play import Game
 
 if TYPE_CHECKING:
     from .legality import Legality
     from .locations import DynastyDiscard, RemovedFromGame
-    from .player import Entity
 
 
 @dataclass(kw_only=True)
@@ -79,3 +79,15 @@ class DynastyCard(Card):
 class FateCard(Card):
     gold_cost: int = field(metadata={"is_written": True})
     focus_value: int = field(metadata={"is_written": True})
+
+
+@dataclass(kw_only=True)
+class Entity:
+    id: uuid.UUID = field(default_factory=uuid.uuid4)
+    game: Game
+
+    def __repr__(self):
+        return self.to_string()
+
+    def to_string(self):
+        return f"{self.title} ({self.id})"
