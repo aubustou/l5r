@@ -13,7 +13,7 @@ from typing_extensions import Required
 from l5r_auto.errors import EndOfDynastyDeckError, EndOfFateDeckError
 from l5r_auto.phases import StartOfGame, Turn, TurnSequences
 
-from ..card import DynastyCard, FateCard
+from ..cards import DynastyCard, FateCard
 from ..locations import ProvinceLocation
 
 if TYPE_CHECKING:

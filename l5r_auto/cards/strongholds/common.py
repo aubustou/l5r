@@ -5,7 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Type
 
-from l5r_auto.card import Card, Entity
+from l5r_auto.cards import Card, Entity
 from l5r_auto.locations import Stronghold as StrongholdLocation
 
 if TYPE_CHECKING:

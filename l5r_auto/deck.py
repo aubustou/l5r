@@ -10,7 +10,7 @@ from typing import TYPE_CHECKING, Sequence, Type, TypedDict
 
 from l5r_auto.cards import get_card
 
-from .card import Card
+from .cards import Card
 from .clans import Clan, clans
 from .legality import Legality, legalities
 

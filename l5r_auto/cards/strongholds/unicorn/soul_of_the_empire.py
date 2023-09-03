@@ -4,7 +4,7 @@ from dataclasses import dataclass, field
 from typing import Type
 
 from l5r_auto.abilities import Ability
-from l5r_auto.card import Card
+from l5r_auto.cards import Card
 from l5r_auto.cards.followers.common import Follower
 from l5r_auto.cards.personalities.common import PersonalityEntity
 from l5r_auto.cards.strongholds.common import Stronghold

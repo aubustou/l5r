@@ -5,10 +5,11 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Type
 
-from l5r_auto.card import Entity, FateCard
-from l5r_auto.cards.personalities.common import PersonalityEntity
+from l5r_auto.cards import Entity, FateCard
 from l5r_auto.legality import Legality
 from l5r_auto.locations import Deck, Location
+
+from ..personalities.common import PersonalityEntity
 
 
 @dataclass(kw_only=True)

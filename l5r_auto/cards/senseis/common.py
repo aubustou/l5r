@@ -5,7 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Type
 
-from l5r_auto.card import Entity
+from l5r_auto.cards import Entity
 from l5r_auto.cards.strongholds.common import StrongholdStats
 from l5r_auto.clans import Clan
 from l5r_auto.legality import Legality

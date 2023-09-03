@@ -6,7 +6,7 @@ from dataclasses import dataclass, field
 from typing import Type
 
 from l5r_auto.abilities import Ability
-from l5r_auto.card import DynastyCard, Entity
+from l5r_auto.cards import DynastyCard, Entity
 from l5r_auto.clans import Clan
 from l5r_auto.legality import Legality
 from l5r_auto.locations import Deck, Location
@@ -16,9 +16,6 @@ class HasZeroChi(Ability):
     def has_zero_chi(self, personality: PersonalityEntity):
         if personality.chi == 0:
             personality.destroy()
-
-
-PERSONALITIES: list[Personality] = []
 
 
 @dataclass(kw_only=True)
@@ -32,7 +29,6 @@ class Personality(DynastyCard):
 
     def __post_init__(self):
         self.entity_type = PersonalityEntity
-        PERSONALITIES.append(self)
 
         super().__post_init__()
 

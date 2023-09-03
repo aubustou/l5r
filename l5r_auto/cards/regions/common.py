@@ -5,7 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Type
 
-from l5r_auto.card import DynastyCard, Entity
+from l5r_auto.cards import DynastyCard, Entity
 from l5r_auto.legality import Legality
 from l5r_auto.locations import Deck, Location
 

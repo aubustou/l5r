@@ -3,7 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 
 from l5r_auto.abilities import Ability
-from l5r_auto.card import Card
+from l5r_auto.cards import Card
 from l5r_auto.cards.strongholds.common import Stronghold
 from l5r_auto.clans import MantisClan
 from l5r_auto.keywords import Naval, Port
