@@ -5,27 +5,11 @@ from dataclasses import dataclass, field, fields
 from typing import TYPE_CHECKING, Any, Type
 
 if TYPE_CHECKING:
+    from .abilities import Ability, Trait
     from .keywords import Keyword
     from .legality import Legality
     from .locations import DynastyDiscard, RemovedFromGame
     from .play import Game
-
-
-@dataclass(kw_only=True)
-class Action:
-    pass
-
-
-@dataclass(kw_only=True)
-class Ability(Action):
-    repeatable: bool = False
-    tireless: bool = False
-    battle: bool = False
-
-
-@dataclass(kw_only=True)
-class Trait(Action):
-    pass
 
 
 @dataclass(kw_only=True)
@@ -35,6 +19,10 @@ class Card:
     title: str = field(metadata={"is_written": True})
 
     keywords: list[Type[Keyword]] = field(
+        default_factory=list, metadata={"is_written": True}
+    )
+    traits: list[Trait] = field(default_factory=list, metadata={"is_written": True})
+    abilities: list[Ability] = field(
         default_factory=list, metadata={"is_written": True}
     )
     legality: list[Type[Legality]] = field(
@@ -59,8 +47,8 @@ class Card:
         # logging.debug(f"Creating {self.__class__.__name__} with {self.written()}")
         return self.entity_type(*args, **kwds, **self.written())
 
-    def target(self):
-        pass
+    def to_string(self):
+        return f"{self.title} ({self.id})"
 
 
 @dataclass(kw_only=True)
@@ -91,3 +79,27 @@ class Entity:
 
     def to_string(self):
         return f"{self.title} ({self.id})"
+
+    def target(self):
+        pass
+
+    def bow(self):
+        pass
+
+    def straighten(self):
+        pass
+
+    def dishonor(self):
+        pass
+
+    def rehonor(self):
+        pass
+
+    def discard(self):
+        pass
+
+    def remove_from_game(self):
+        pass
+
+    def destroy(self):
+        pass

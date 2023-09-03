@@ -17,7 +17,7 @@ from ..card import DynastyCard, FateCard
 from ..locations import ProvinceLocation
 
 if TYPE_CHECKING:
-    from ..card import Ability
+    from ..abilities import Ability, Trait
     from ..cards import Sensei, Stronghold
     from ..deck import Deck
     from ..phases import Phase, Step

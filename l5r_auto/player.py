@@ -11,7 +11,8 @@ from .errors import EndOfDynastyDeckError, EndOfFateDeckError
 from .locations import ProvinceLocation
 
 if TYPE_CHECKING:
-    from .card import Ability, Entity
+    from .abilities import Ability
+    from .card import Entity
     from .cards import Sensei, Stronghold
     from .deck import Deck
     from .models import PlayerReport
@@ -114,12 +115,16 @@ class Player:
         for card in self.dynasty_deck:
             logging.debug("\t%s", card.to_string())
 
+    def create_province(self):
+        logging.debug("%s: Creating province", self.name)
+        self.provinces.append(
+            ProvinceLocation(dynasty_cards=[self.draw_dynasty_card()])
+        )
+
     def create_provinces(self):
         logging.debug("%s: Creating provinces", self.name)
-        self.provinces = [
-            ProvinceLocation(dynasty_cards=[self.draw_dynasty_card()])
-            for _ in range(self.number_of_provinces)
-        ]
+        for _ in range(self.number_of_provinces):
+            self.create_province()
 
     def draw_hand(self):
         logging.debug("%s: Drawing hand", self.name)

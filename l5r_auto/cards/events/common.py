@@ -1,9 +1,9 @@
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import Type
 
-from l5r_auto.card import Ability, DynastyCard, Entity, Trait
+from l5r_auto.card import DynastyCard, Entity
 from l5r_auto.legality import Legality
 from l5r_auto.locations import Deck, Location
 
@@ -12,13 +12,6 @@ EVENTS: list[Event] = []
 
 @dataclass(kw_only=True)
 class Event(DynastyCard):
-    title: str = field(metadata={"is_written": True})
-
-    traits: list[Trait] = field(default_factory=list, metadata={"is_written": True})
-    abilities: list[Ability] = field(
-        default_factory=list, metadata={"is_written": True}
-    )
-
     def __post_init__(self):
         self.entity_type = EventEntity
         EVENTS.append(self)
