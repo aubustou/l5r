@@ -13,10 +13,10 @@ class Holding(DynastyCard):
     gold_cost: int = field(metadata={"is_written": True})
     gold_production: str | None = field(default=None, metadata={"is_written": True})
 
-    def __post_init__(self):
+    def __post_init__(self, *args, **kwargs):
         self.entity_type = HoldingEntity
 
-        super().__post_init__()
+        super().__post_init__(*args, **kwargs)
 
 
 @dataclass(kw_only=True)

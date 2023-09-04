@@ -14,10 +14,10 @@ from l5r_auto.locations import Location, Stronghold
 
 @dataclass(kw_only=True)
 class Sensei(StrongholdStats):
-    def __post_init__(self):
+    def __post_init__(self, *args, **kwargs):
         self.entity_type = SenseiEntity
 
-        super().__post_init__()
+        super().__post_init__(*args, **kwargs)
 
 
 @dataclass(kw_only=True)

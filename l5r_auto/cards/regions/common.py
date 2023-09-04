@@ -12,10 +12,10 @@ from l5r_auto.locations import Deck, Location
 
 @dataclass(kw_only=True)
 class Region(DynastyCard):
-    def __post_init__(self):
+    def __post_init__(self, *args, **kwargs):
         self.entity_type = RegionEntity
 
-        super().__post_init__()
+        super().__post_init__(*args, **kwargs)
 
 
 @dataclass(kw_only=True)

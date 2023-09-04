@@ -6,6 +6,8 @@ import random
 from dataclasses import dataclass, field
 from typing import TYPE_CHECKING
 
+from l5r_auto.abilities import Ability, RecruitAction
+
 if TYPE_CHECKING:
     from .play import Game
     from .player import Player
@@ -149,6 +151,8 @@ class Phase(Step):
     turn: Turn
     active_player: Player
 
+    abilities: list[Ability] = field(default_factory=list)
+
     def start(self):
         logging.info(
             "%s: Starting phase: %s", self.active_player.name, self.__class__.__name__
@@ -185,7 +189,12 @@ class AttackPhase(Phase):
 
 @dataclass(kw_only=True)
 class DynastyPhase(Phase):
-    pass
+    abilities = [
+        RecruitAction(),
+    ]
+
+    def __post_init__(self, *args, **kwargs):
+        self.abilities.extend([RecruitAction()])
 
 
 @dataclass(kw_only=True)

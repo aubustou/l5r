@@ -24,10 +24,10 @@ class StrongholdStats(Card):
 
 @dataclass(kw_only=True)
 class Stronghold(StrongholdStats):
-    def __post_init__(self):
+    def __post_init__(self, *args, **kwargs):
         self.entity_type = StrongholdEntity
 
-        super().__post_init__()
+        super().__post_init__(*args, **kwargs)
 
 
 @dataclass(kw_only=True)

@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import uuid
-from dataclasses import dataclass, field, fields
+from dataclasses import InitVar, dataclass, field, fields
 from typing import TYPE_CHECKING, Any, Type
+
+from l5r_auto.locations import FateDiscard, Location
 
 from ..utils import import_submodules
 
@@ -12,6 +14,7 @@ if TYPE_CHECKING:
     from ..legality import Legality
     from ..locations import DynastyDiscard, RemovedFromGame
     from ..play import Game
+    from ..player import Player
 
 
 CARDS: dict[Type[Card], dict[int, Card]] = {}
@@ -71,7 +74,7 @@ class Card:
 
     def __call__(self, *args: Any, **kwds: Any) -> Entity:
         # logging.debug(f"Creating {self.__class__.__name__} with {self.written()}")
-        return self.entity_type(*args, **kwds, **self.written())
+        return self.entity_type(base_card=self, *args, **kwds, **self.written())
 
     def to_string(self):
         return f"{self.title} ({self.id})"
@@ -79,13 +82,7 @@ class Card:
 
 @dataclass(kw_only=True)
 class DynastyCard(Card):
-    bowed: bool = False
-
-    def destroy(self):
-        self.location = DynastyDiscard
-
-    def remove_from_game(self):
-        self.location = RemovedFromGame
+    pass
 
 
 @dataclass(kw_only=True)
@@ -98,7 +95,19 @@ class FateCard(Card):
 class Entity:
     id: uuid.UUID = field(default_factory=uuid.uuid4)
     game: Game
+    base_card: Type[Card]
+    owner: Player
+
+    current_legality: InitVar[Type[Legality]] | None = None
+
     title: str = field(metadata={"is_written": True})
+    # States
+    bowed: bool = False
+    location: Type[Location] = field(init=False)
+
+    def __post_init__(self, current_legality: Type[Legality] | None = None):
+        if current_legality and hasattr(self, "clan"):
+            self.clan = [x for x in self.clan if x in current_legality.legal_clans]
 
     def __repr__(self):
         return self.to_string()
@@ -110,25 +119,22 @@ class Entity:
         pass
 
     def bow(self):
-        pass
+        self.bowed = True
 
     def straighten(self):
-        pass
-
-    def dishonor(self):
-        pass
-
-    def rehonor(self):
-        pass
+        self.bowed = False
 
     def discard(self):
-        pass
+        self.bowed = False
+        self.location = DynastyDiscard if isinstance(self, DynastyCard) else FateDiscard
 
     def remove_from_game(self):
-        pass
+        self.bowed = False
+        self.location = RemovedFromGame
 
     def destroy(self):
-        pass
+        self.bowed = False
+        self.location = DynastyDiscard if isinstance(self, DynastyCard) else FateDiscard
 
 
 from .events.common import Event  # noqa

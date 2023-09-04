@@ -12,10 +12,10 @@ from l5r_auto.locations import Deck, Location
 
 @dataclass(kw_only=True)
 class Ring(FateCard):
-    def __post_init__(self):
+    def __post_init__(self, *args, **kwargs):
         self.entity_type = RingEntity
 
-        super().__post_init__()
+        super().__post_init__(*args, **kwargs)
 
 
 @dataclass(kw_only=True)

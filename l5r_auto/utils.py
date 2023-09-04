@@ -1,6 +1,13 @@
+from __future__ import annotations
+
 import importlib
 import logging
 import pkgutil
+import typing
+from typing import TYPE_CHECKING, Type, TypeGuard, TypeVar
+
+if TYPE_CHECKING:
+    from .cards import Entity
 
 
 def import_submodules(package_name):
@@ -11,3 +18,10 @@ def import_submodules(package_name):
             import_submodules(f"{package_name}.{name}")
         else:
             importlib.import_module(f"{package_name}.{name}")
+
+
+T = TypeVar("T")
+
+
+def is_entity_of_type(entity: Entity, entity_type: Type[T]) -> TypeGuard[T]:
+    return isinstance(entity, typing.get_args(entity_type))

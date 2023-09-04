@@ -27,18 +27,27 @@ class Personality(DynastyCard):
     gold_cost: int = field(metadata={"is_written": True})
     clan: list[Type[Clan]] = field(metadata={"is_written": True})
 
-    def __post_init__(self):
+    def __post_init__(self, *args, **kwargs):
         self.entity_type = PersonalityEntity
 
-        super().__post_init__()
+        super().__post_init__(*args, **kwargs)
 
 
 @dataclass(kw_only=True)
 class PersonalityEntity(Entity, Personality):
     location: Type[Location] = Deck
+    base_card: Type[Personality]
 
-    def bow(self):
-        self.bowed = True
+    # States
+    dishonored: bool = False
+
+    def dishonor(self):
+        self.dishonored = True
+        self.personal_honor = 0
+
+    def rehonor(self):
+        self.dishonored = False
+        self.personal_honor = self.base_card.personal_honor
 
 
 def get_cards(legality: Type[Legality], clan: Type[Clan]) -> list[Personality]:

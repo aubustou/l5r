@@ -43,8 +43,8 @@ class Player:
 
     right_to: Player | None = None
 
-    stronghold: Stronghold | None = None
-    sensei: Sensei | None = None
+    stronghold: Stronghold = field(init=False)
+    sensei: Sensei | None = field(init=False)
 
     hand: list[FateCard] = field(default_factory=list)
     provinces: list[ProvinceLocation] = field(default_factory=list)
@@ -88,7 +88,10 @@ class Player:
         )
 
     def create_entities(self, game: Game):
-        self.entities = [x(game=game) for x in self.deck.cards]
+        self.entities = [
+            x(game=game, current_legality=game.legality, owner=self)
+            for x in self.deck.cards
+        ]
         self.fate_deck = [x for x in self.entities if isinstance(x, FateCard)]
         self.dynasty_deck = [x for x in self.entities if isinstance(x, DynastyCard)]
 

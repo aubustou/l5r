@@ -7,15 +7,16 @@ import time
 import uuid
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, Type
 
 from .deck import Deck
+from .legality import Legality
 from .phases import StartOfGame, Turn, TurnSequences
-from .player import Player
 
 if TYPE_CHECKING:
     from .models import GameReport
     from .phases import Phase, Step
+    from .player import Player
 
 DECK_PATH = Path(__file__).parent / "decks"
 REPORT_FOLDER = Path(__file__).parent / "reports"
@@ -25,6 +26,7 @@ REPORT_FOLDER = Path(__file__).parent / "reports"
 class Game:
     id: uuid.UUID = field(default_factory=uuid.uuid4)
     players: list[Player]
+    legality: Type[Legality]
 
     current_player: Player | None = None
     current_phase: Phase | None = None
@@ -94,12 +96,25 @@ def main():
     logging.info("Found %d decks", len(deck_paths))
     random.shuffle(deck_paths)
 
+    from .player import Player
+
     for paths in itertools.pairwise(deck_paths):
         players = []
+        decks = []
+        legalities = set()
+
         for path in paths:
             logging.info("Loading deck: %s", path)
             deck = Deck.from_json(path.read_text())
             logging.info("Loaded deck %s:", deck.id)
+            decks.append(deck)
+            legalities.add(deck.legality)
+
+        if len(legalities) > 1:
+            raise ValueError("Decks must have the same legality")
+        legality = legalities.pop()
+
+        for deck in decks:
             logging.info("\tDeck version: %s", deck.version)
             logging.info("\tDeck stronghold: %s", deck.stronghold.title)
 
@@ -107,10 +122,11 @@ def main():
             logging.info("Created player: %s", player.name)
             players.append(player)
 
-        game = Game(players=players)
+        game = Game(players=players, legality=legality)
         logging.info("Created game: %s", game.id)
 
         game.start()
+        logging.info("Finished game: %s", game.id)
 
     logging.info("Finished in %1.2f seconds", time.time() - start_time)
 
