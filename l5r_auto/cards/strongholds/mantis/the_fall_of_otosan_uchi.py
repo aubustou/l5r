@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
-
 from l5r_auto.abilities import Ability
 from l5r_auto.cards import Card
 from l5r_auto.cards.strongholds.common import Stronghold
@@ -9,9 +7,10 @@ from l5r_auto.clans import MantisClan
 from l5r_auto.keywords import Naval, Port
 from l5r_auto.legality import DiamondEdition, GoldEdition
 from l5r_auto.player import Player
+from l5r_auto.utils import dataclass_ as dataclass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class KyudenGoteiBattleAbility(Ability):
     """Battle: Once per battle, bow your target performing Naval card to take two additional Battle actions."""
 
@@ -22,7 +21,7 @@ class KyudenGoteiBattleAbility(Ability):
             player.battle_actions += 2
 
 
-@dataclass(kw_only=True)
+@dataclass
 class KyudenGoteiAbility(Ability):
     def at_start(self, player: Player):
         player.available_abilities.append(KyudenGoteiBattleAbility())

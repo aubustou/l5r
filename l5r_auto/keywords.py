@@ -1,13 +1,15 @@
 from __future__ import annotations
 
 from copy import copy
-from dataclasses import dataclass, field, make_dataclass
+from dataclasses import field, make_dataclass
 from typing import Type
+
+from l5r_auto.utils import dataclass_ as dataclass
 
 from .clans import NagaFaction, NinjaFaction, SpiritFaction
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Keyword:
     name: str = field(init=False)
 
@@ -22,38 +24,38 @@ def SoulOf(title: str) -> Type[Keyword]:
     return klass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Baraunghar(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Bushi(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Explorer(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Port(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Samurai(Keyword):
     pass
 
 
 # Boldface keywords
-@dataclass(kw_only=True)
+@dataclass
 class Armor(Keyword):
     """A keyword found on some Items. A Personality cannot attach more than one Armor."""
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Cavalry(Keyword):
     """The Cavalry keyword is relevant to the following player ability which all players have:
     Absent Engage: Target your unbowed Personality in a Cavalry unit at any location.
@@ -62,14 +64,14 @@ class Cavalry(Keyword):
     the Cavalry keyword (see Unit keywords)."""
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Conqueror(Keyword):
     """Cards in a Conqueror Personality’s unit do not bow prior to returning home after a
     battle’s resolution.
     """
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Courage(Keyword):
     """All players have the following ability relevant to the Courage keyword.
     Repeatable Courage Interrupt: Discard a Courage card from your hand to give one
@@ -77,21 +79,21 @@ class Courage(Keyword):
     """
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Destined(Keyword):
     """After a player’s card with the Destined keyword enters play, he or she draws a Fate
     card.
     """
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Duelist(Keyword):
     """If a Personality in a duel has the Duelist keyword then, if scores are tied in the duel’s
     resolution, and the other Personality is not a Duelist, the Duelist wins.
     """
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Expendable(Keyword):
     """After a card with the Expendable keyword is destroyed, the player who controlled it
     draws a card. “Expendable” status is checked just before being destroyed.
@@ -132,7 +134,7 @@ def Experienced(level: str) -> Type[Keyword]:
     return klass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Fortication(Keyword):
     """When brought into play, Holdings with the Fortication keyword are attached to the
     Province they entered play from, or to any of their player’s Provinces if they were not
@@ -144,17 +146,17 @@ class Fortication(Keyword):
     """
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Inexperienced(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Kensai(Keyword):
     """A Kensai Personality can attach two Weapons if neither of them is Two-handed."""
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Kharmic(Keyword):
     """A keyword that can appear on Dynasty or Fate cards.
 
@@ -164,7 +166,7 @@ class Kharmic(Keyword):
     """
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Legacy(Keyword):
     """A keyword on Holdings that refers to the following player ability:
 
@@ -173,7 +175,7 @@ class Legacy(Keyword):
     """
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Loyal(Keyword):
     """A Personality with the Loyal keyword will not be controlled by a player who does not
     share a Clan Alignment with the Personality. This restricts entering play as well as
@@ -181,7 +183,7 @@ class Loyal(Keyword):
     """
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Naval(Keyword):
     """Players have the following ability relevant to Naval cards, known as Naval Invasion:
     NAVAL INVASION #
@@ -191,7 +193,7 @@ class Naval(Keyword):
     """
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Reserve(Keyword):
     """The following player abilities are relevant to the Reserve keyword:
     Absent Repeatable Battle, : If he would be opposed, Recruit your target Reserve
@@ -200,7 +202,7 @@ class Reserve(Keyword):
     target Personality (at the current battleeld)."""
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Resilient(Keyword):
     """The Resilient keyword means that, once per game per card, the card is not destroyed
     by the rulebook effects of battle resolution; that is, if its side loses or it ties. Its
@@ -209,7 +211,7 @@ class Resilient(Keyword):
     card” restriction."""
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Tactician(Keyword):
     """All Tactician Personalities have the following ability, known as “Tactical Advantage”.
     This ability is not printed on the Tactician and cannot be removed or copied from him
@@ -220,12 +222,12 @@ class Tactician(Keyword):
     """
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Weapon(Keyword):
     """A Personality can have only one Weapon Item attached. Exception: Kensai."""
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Unique(Keyword):
     """A player will not bring into play or take control of a Unique card if he or she already
     controls a Unique card with the same title (but see Experienced for exceptions). If a
@@ -238,27 +240,27 @@ class Unique(Keyword):
 # Elements
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Air(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Earth(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Fire(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Void(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Water(Keyword):
     pass
 
@@ -266,738 +268,738 @@ class Water(Keyword):
 # Minor clans and factions
 
 
-@dataclass(kw_only=True)
+@dataclass
 class BatClan(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class DragonflyClan(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Naga(Keyword, NagaFaction):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Ninja(Keyword, NinjaFaction):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Spirit(Keyword, SpiritFaction):
     pass
 
 
 # Other keywords
-@dataclass(kw_only=True)
+@dataclass
 class Actor(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Alchemist(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Ancestor(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Artisan(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Ashigaru(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Assassin(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class BattleMaiden(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Beastmaster(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Berserker(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class BitterLies(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class BlessedByBenten(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Bloodspeaker(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class BogHag(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class BountyHunter(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Braggart(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Bully(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Chieftain(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class ChildOfProphecy(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class ClanChampion(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Commander(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Constrictor(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Courtier(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Cursed(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Daimyo(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class DeathPriest(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Deathseeker(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Dog(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Dragon(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class DragonChild(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Drunkard(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class ElementalMaster(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Empress(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Engineer(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Fallen(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Geisha(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Goblin(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Goryo(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Governor(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Guard(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Hatamoto(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Heir(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Hero(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class HiddenGuard(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Hunter(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Imperial(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Infiltrator(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Inquisitor(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Intimidator(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class IronCrane(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Ishiken(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Jade(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Jester(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Junshin(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Kami(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Kenku(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Kitsune(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Kolat(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Kuroiban(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class LadyOfTheSun(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class LordOfBlades(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class LoveLetter(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Magistrate(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class MaiMaster(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Martyr(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class MasterCoin(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Mastermind(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Mercenary(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Merchant(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Monk(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Mountaineer(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Musician(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Ningyo(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Nonhuman(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Ogre(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class OneTribe(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Oni(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Orator(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class OrderOfTheSpider(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class OrderOfVenom(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Orochi(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Paragon(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Pirate(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Poet(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class PoisonMaster(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Prophetess(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Ratling(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class RitualMaster(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Ronin(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class SakeAddict(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Savior(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Scavenger(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Scholar(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class ScionOfFlame(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class ScionOfStone(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class ScionOfTheSea(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class ScionOfTheVoid(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class ScionOfTheWind(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class ScourgeOfDarkness(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Scout(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Seductress(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Shadowlands(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class ShibasSoul(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class ShojusSoul(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Shugenja(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Siege(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class SilkenSect(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Sinner(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Smith(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Sociopath(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class SodanSenzo(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Spy(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class StableMaster(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class StormRider(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Storyteller(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Tattooed(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class TheBlindPhoenix(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class TheGrowingStorm(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class TheInfiniteEye(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class TheLaughingDragon(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class TheLittleBear(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class TheLivingGoddess(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class TheMaskedCrab(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class TheMaskedCrane(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class TheMaskedLion(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class TheMaskedMonkey(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class TheMaskedPhoenix(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class TheMaskedTortoise(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class TheMaskedWasp(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class ThePoisonMask(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class TheShadowEmperor(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class TheSmilingBlade(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class TheSteelLion(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Thunder(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Undead(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Unmaker(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class VoiceOfTheEmpress(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class WarLeader(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class WarriorOfTheBrightEye(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class WitchHunter(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Yojimbo(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Zealot(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Zombie(Keyword):
     pass
 
@@ -1005,102 +1007,102 @@ class Zombie(Keyword):
 # Holding keywords
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Barrack(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Barracks(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Castle(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Dojo(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Farm(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Fortification(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Fudo(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class GeishaHouse(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Library(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Market(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Mine(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Pearl(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class PearlBed(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Retainer(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class SakeHouse(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Stables(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Swamp(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Temple(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Village(Keyword):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Winter(Keyword):
     pass
 
@@ -1108,6 +1110,6 @@ class Winter(Keyword):
 # Event keywords
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Festival(Keyword):
     pass

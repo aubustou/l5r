@@ -3,12 +3,13 @@ from __future__ import annotations
 import json
 import logging
 import uuid
-from dataclasses import dataclass, field, fields
+from dataclasses import field, fields
 from functools import cached_property
 from operator import attrgetter
 from typing import TYPE_CHECKING, Sequence, Type, TypedDict
 
 from l5r_auto.cards import get_card
+from l5r_auto.utils import dataclass_ as dataclass
 
 from .cards import Card
 from .clans import Clan, clans
@@ -59,7 +60,7 @@ class DeckJSON(TypedDict):
     events: list[int]
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Deck:
     clan: Type[Clan]
     legality: Type[Legality]

@@ -1,14 +1,15 @@
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import field
 from typing import Type
 
 from l5r_auto.cards import DynastyCard, Entity
 from l5r_auto.legality import Legality
 from l5r_auto.locations import Deck, Location
+from l5r_auto.utils import dataclass_ as dataclass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Holding(DynastyCard):
     gold_cost: int = field(metadata={"is_written": True})
     gold_production: str | None = field(default=None, metadata={"is_written": True})
@@ -19,7 +20,7 @@ class Holding(DynastyCard):
         super().__post_init__(*args, **kwargs)
 
 
-@dataclass(kw_only=True)
+@dataclass
 class HoldingEntity(Entity, Holding):
     location: Type[Location] = Deck
 

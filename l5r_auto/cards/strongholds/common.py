@@ -2,11 +2,12 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import field
 from typing import TYPE_CHECKING, Type
 
 from l5r_auto.cards import Card, Entity
-from l5r_auto.locations import Stronghold as StrongholdLocation
+from l5r_auto.locations import StrongholdLocation
+from l5r_auto.utils import dataclass_ as dataclass
 
 if TYPE_CHECKING:
     from l5r_auto.clans import Clan
@@ -14,7 +15,7 @@ if TYPE_CHECKING:
     from l5r_auto.locations import Location
 
 
-@dataclass(kw_only=True)
+@dataclass
 class StrongholdStats(Card):
     province_strength: int = field(metadata={"is_written": True})
     gold_production: str = field(metadata={"is_written": True})
@@ -22,7 +23,7 @@ class StrongholdStats(Card):
     clan: list[type[Clan]] = field(metadata={"is_written": True})
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Stronghold(StrongholdStats):
     def __post_init__(self, *args, **kwargs):
         self.entity_type = StrongholdEntity
@@ -30,7 +31,7 @@ class Stronghold(StrongholdStats):
         super().__post_init__(*args, **kwargs)
 
 
-@dataclass(kw_only=True)
+@dataclass
 class StrongholdEntity(Entity, StrongholdStats):
     location: Type[Location] = StrongholdLocation
 

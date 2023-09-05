@@ -3,7 +3,7 @@ from __future__ import annotations
 import importlib
 import logging
 import pkgutil
-import typing
+from dataclasses import dataclass
 from typing import TYPE_CHECKING, Type, TypeGuard, TypeVar
 
 if TYPE_CHECKING:
@@ -24,4 +24,7 @@ T = TypeVar("T")
 
 
 def is_entity_of_type(entity: Entity, entity_type: Type[T]) -> TypeGuard[T]:
-    return isinstance(entity, typing.get_args(entity_type))
+    return isinstance(entity, entity_type)
+
+
+dataclass_ = dataclass(repr=False, kw_only=True)

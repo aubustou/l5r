@@ -2,17 +2,18 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import field
 from typing import Type
 
 from l5r_auto.cards import Entity, FateCard
 from l5r_auto.legality import Legality
 from l5r_auto.locations import Deck, Location
+from l5r_auto.utils import dataclass_ as dataclass
 
 from ..personalities.common import PersonalityEntity
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Follower(FateCard):
     force: str = field(metadata={"is_written": True})
     chi: str = field(metadata={"is_written": True})
@@ -25,7 +26,7 @@ class Follower(FateCard):
         super().__post_init__(*args, **kwargs)
 
 
-@dataclass(kw_only=True)
+@dataclass
 class FollowerEntity(Entity, Follower):
     location: Type[Location] = Deck
     attached_to: PersonalityEntity | None = None

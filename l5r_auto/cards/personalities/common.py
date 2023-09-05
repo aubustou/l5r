@@ -2,14 +2,15 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass, field
 from typing import Type
 
 from l5r_auto.abilities import Ability
-from l5r_auto.cards import DynastyCard, Entity
+from l5r_auto.cards import DynastyCard, Entity, log_state_change
 from l5r_auto.clans import Clan
 from l5r_auto.legality import Legality
 from l5r_auto.locations import Deck, Location
+from l5r_auto.utils import dataclass_ as dataclass
+from l5r_auto.utils import field
 
 
 class HasZeroChi(Ability):
@@ -18,7 +19,7 @@ class HasZeroChi(Ability):
             personality.destroy()
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Personality(DynastyCard):
     force: int = field(metadata={"is_written": True})
     chi: int = field(metadata={"is_written": True})
@@ -33,7 +34,7 @@ class Personality(DynastyCard):
         super().__post_init__(*args, **kwargs)
 
 
-@dataclass(kw_only=True)
+@dataclass
 class PersonalityEntity(Entity, Personality):
     location: Type[Location] = Deck
     base_card: Type[Personality]
@@ -41,10 +42,12 @@ class PersonalityEntity(Entity, Personality):
     # States
     dishonored: bool = False
 
+    @log_state_change
     def dishonor(self):
         self.dishonored = True
         self.personal_honor = 0
 
+    @log_state_change
     def rehonor(self):
         self.dishonored = False
         self.personal_honor = self.base_card.personal_honor

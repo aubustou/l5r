@@ -1,19 +1,24 @@
 from __future__ import annotations
 
 import abc
+import itertools
 import logging
 import random
-from dataclasses import dataclass, field
+from dataclasses import field
 from typing import TYPE_CHECKING
 
-from l5r_auto.abilities import Ability, RecruitAction
+from l5r_auto.abilities import ABILITIES, Ability, RecruitAction
+from l5r_auto.cards.events.common import Event
+from l5r_auto.utils import dataclass_ as dataclass
 
 if TYPE_CHECKING:
     from .play import Game
     from .player import Player
 
+MAX_NUMBER_OF_TURNS = 5
 
-@dataclass(kw_only=True)
+
+@dataclass
 class Step:
     game: Game
 
@@ -26,7 +31,7 @@ class Step:
         pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class StartOfGame(Step):
     """After a game of L5R starts, follow steps A through F in sequence."""
 
@@ -40,6 +45,9 @@ class StartOfGame(Step):
 
         def start(self):
             for player in self.game.players:
+                player.show_stronghold()
+                player.show_sensei()
+
                 player.set_starting_honor()
 
     class DetermineStartingPlayer(Step):
@@ -130,7 +138,7 @@ class StartOfGame(Step):
             step(game=self.game).start()
 
 
-@dataclass(kw_only=True)
+@dataclass
 class TurnSequences(Step):
     """A game of L5R is divided into turns.
 
@@ -141,12 +149,17 @@ class TurnSequences(Step):
     """
 
     def start(self):
-        for player in self.game.players:
+        for turn_number, player in enumerate(
+            itertools.cycle(self.game.players), start=1
+        ):
+            if turn_number >= MAX_NUMBER_OF_TURNS:
+                logging.info("Reached maximum number of turns: %d", turn_number)
+                break
             self.game.current_player = player
-            self.game.take_turn(number=1, active_player=player)
+            self.game.take_turn(number=turn_number, active_player=player)
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Phase(Step):
     turn: Turn
     active_player: Player
@@ -157,37 +170,68 @@ class Phase(Step):
         logging.info(
             "%s: Starting phase: %s", self.active_player.name, self.__class__.__name__
         )
+        self._start()
+
+    def _start(self):
+        pass
 
 
 # Turn Sequence
 # Start Phase - Straighten Phase - Event Phase - Action Phase - Attack/Battle Phase (optional) - Dynasty Phase - Discard Phase - Draw Phase - End Phase
-@dataclass(kw_only=True)
+@dataclass
 class StartPhase(Phase):
-    pass
+    def _start(self):
+        for ability in ABILITIES.values():
+            ability.on_start_phase(self.game)
+
+        logging.info("%s: Revealing provinces", self.active_player.name)
+        for province in self.active_player.provinces:
+            for card in province.dynasty_cards:
+                if card.face_down:
+                    card.turn_face_up()
 
 
-@dataclass(kw_only=True)
+@dataclass
 class StraightenPhase(Phase):
-    pass
+    def _start(self):
+        logging.info(
+            "%s: Straightening cards in play.",
+            self.active_player.name,
+        )
+        for card in self.active_player.play_area:
+            card.straighten()
 
 
-@dataclass(kw_only=True)
+@dataclass
 class EventPhase(Phase):
-    pass
+    def _start(self):
+        for province in self.active_player.provinces:
+            for card in province.dynasty_cards[:]:
+                if isinstance(card, Event) and card.face_up:
+                    logging.info(
+                        "%s: Activating event: %s",
+                        self.active_player.name,
+                        card.title,
+                    )
+                    card.location = self.active_player.dynasty_discard
+                    province.dynasty_cards.remove(card)
+
+            if not province.dynasty_cards:
+                province.fill()
 
 
-@dataclass(kw_only=True)
+@dataclass
 class ActionPhase(Phase):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class AttackPhase(Phase):
     optional: bool = field(default=True, init=False)
     current_segment: AttackPhaseSegment | None = field(default=None, init=False)
 
 
-@dataclass(kw_only=True)
+@dataclass
 class DynastyPhase(Phase):
     abilities = [
         RecruitAction(),
@@ -196,23 +240,28 @@ class DynastyPhase(Phase):
     def __post_init__(self, *args, **kwargs):
         self.abilities.extend([RecruitAction()])
 
+    def _start(self):
+        for ability in self.abilities:
+            for entity in ability.legal(self.game, self.active_player):
+                ability.do(self.game, entity)
 
-@dataclass(kw_only=True)
+
+@dataclass
 class DiscardPhase(Phase):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class DrawPhase(Phase):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class EndPhase(Phase):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Turn:
     game: Game
     number: int
@@ -246,47 +295,47 @@ class Turn:
 
 
 # Attack phase
-@dataclass(kw_only=True)
+@dataclass
 class AttackPhaseSegment(Phase):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Declaration(AttackPhaseSegment):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Maneuver(AttackPhaseSegment):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Fight(AttackPhaseSegment):
     pass
 
 
 # Battles
-@dataclass(kw_only=True)
+@dataclass
 class BattlePhase(Phase):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class EngageSegment(BattlePhase):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class CombatSegment(BattlePhase):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class ResolutionSegment(BattlePhase):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class AftermathSegment(BattlePhase):
     pass

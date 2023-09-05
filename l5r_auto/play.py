@@ -5,15 +5,19 @@ import logging
 import random
 import time
 import uuid
-from dataclasses import dataclass, field
+from dataclasses import field
 from pathlib import Path
 from typing import TYPE_CHECKING, Type
+
+from l5r_auto.locations import PlayArea
+from l5r_auto.utils import dataclass_ as dataclass
 
 from .deck import Deck
 from .legality import Legality
 from .phases import StartOfGame, Turn, TurnSequences
 
 if TYPE_CHECKING:
+    from .cards import Entity
     from .models import GameReport
     from .phases import Phase, Step
     from .player import Player
@@ -22,7 +26,7 @@ DECK_PATH = Path(__file__).parent / "decks"
 REPORT_FOLDER = Path(__file__).parent / "reports"
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Game:
     id: uuid.UUID = field(default_factory=uuid.uuid4)
     players: list[Player]
@@ -59,6 +63,10 @@ class Game:
     def current_turn(self) -> Turn:
         return self.turns[-1]
 
+    @property
+    def entities(self) -> list[Entity]:
+        return [x for player in self.players for x in player.entities]
+
     def start(self):
         logging.info("Starting game: %s", self.id)
         for step in self.steps:
@@ -66,7 +74,7 @@ class Game:
             self.current_step.start()
 
     def take_turn(self, number: int, active_player: Player):
-        turn = Turn(game=self, number=len(self.turns) + 1, active_player=active_player)
+        turn = Turn(game=self, number=number, active_player=active_player)
         self.turns.append(turn)
         turn.start()
 
@@ -81,6 +89,23 @@ class Game:
             players=[x.report() for x in self.players],
         )
         report_file.write_text(self.to_json())
+
+    def end_report(self):
+        for player in self.players:
+            logging.info("Cards on play area:")
+            for entity in sorted(player.entities, key=lambda x: x.__class__.__name__):
+                if entity.location is PlayArea:
+                    logging.info("\t%s", entity.title)
+            logging.info("Total force on play area:")
+            logging.info(
+                "\t%s: %d",
+                player.name,
+                sum(
+                    x.force
+                    for x in player.entities
+                    if x.location is PlayArea and x.face_up and hasattr(x, "force")
+                ),
+            )
 
 
 def main():
@@ -127,6 +152,8 @@ def main():
 
         game.start()
         logging.info("Finished game: %s", game.id)
+        game.end_report()
+        break
 
     logging.info("Finished in %1.2f seconds", time.time() - start_time)
 

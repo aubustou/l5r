@@ -499,7 +499,7 @@ def check_keywords(keywords: dict[str, dict[str, set[str]]]) -> None:
     for keyword in sorted(keywords_):
         if not hasattr(keywords_module, keyword):
             print(
-                f"""@dataclass(kw_only=True)
+                f"""@dataclass
 class {keyword}(Keyword):
     pass
 """

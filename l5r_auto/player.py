@@ -3,12 +3,13 @@ from __future__ import annotations
 import logging
 import random
 import uuid
-from dataclasses import dataclass, field
+from dataclasses import field
 from typing import TYPE_CHECKING, Sequence
 
-from .cards import DynastyCard, FateCard
+from .cards import DynastyCard, FateCard, SenseiEntity, StrongholdEntity
 from .errors import EndOfDynastyDeckError, EndOfFateDeckError
-from .locations import ProvinceLocation
+from .locations import Hand, ProvinceLocation, StrongholdLocation
+from .utils import dataclass_ as dataclass
 
 if TYPE_CHECKING:
     from .abilities import Ability
@@ -36,7 +37,7 @@ STARTING_NUMBER_OF_PROVINCES = 4
 SUCCESSIVE_BATTLE_ACTIONS = 1
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Player:
     name: str = field(default="")
     deck: Deck
@@ -48,6 +49,9 @@ class Player:
 
     hand: list[FateCard] = field(default_factory=list)
     provinces: list[ProvinceLocation] = field(default_factory=list)
+
+    stronghold_entity: StrongholdEntity = field(init=False)
+    sensei_entity: SenseiEntity | None = field(init=False)
 
     dynasty_deck: list[DynastyCard] = field(default_factory=list)
     fate_deck: list[FateCard] = field(default_factory=list)
@@ -67,7 +71,9 @@ class Player:
 
     def __post_init__(self):
         if not self.name:
-            self.name = f"{random.choice(NAMES)}-{str(uuid.uuid4())[:4]}"
+            chosen_name = random.choice(NAMES)
+            NAMES.remove(chosen_name)
+            self.name = f"{chosen_name}-{str(uuid.uuid4())[:4]}"
         self.stronghold = self.deck.stronghold
         self.sensei = self.deck.sensei
 
@@ -92,8 +98,28 @@ class Player:
             x(game=game, current_legality=game.legality, owner=self)
             for x in self.deck.cards
         ]
+        self.stronghold_entity = next(
+            x for x in self.entities if isinstance(x, StrongholdEntity)
+        )
+        if self.sensei:
+            self.sensei_entity = next(
+                x for x in self.entities if isinstance(x, SenseiEntity)
+            )
+        else:
+            self.sensei_entity = None
         self.fate_deck = [x for x in self.entities if isinstance(x, FateCard)]
         self.dynasty_deck = [x for x in self.entities if isinstance(x, DynastyCard)]
+
+    def show_stronghold(self):
+        logging.info("%s: Showing stronghold", self.name)
+        self.stronghold_entity.turn_face_up()
+        self.stronghold_entity.location = StrongholdLocation
+
+    def show_sensei(self):
+        if self.sensei:
+            logging.info("%s: Showing sensei", self.name)
+            self.sensei_entity.turn_face_up()
+            self.sensei_entity.location = StrongholdLocation
 
     def set_starting_honor(self):
         self.honor = self.deck.stronghold.starting_family_honor + (
@@ -119,9 +145,7 @@ class Player:
 
     def create_province(self):
         logging.debug("%s: Creating province", self.name)
-        self.provinces.append(
-            ProvinceLocation(dynasty_cards=[self.draw_dynasty_card()])
-        )
+        self.provinces.append(ProvinceLocation(player=self))
 
     def create_provinces(self):
         logging.debug("%s: Creating provinces", self.name)
@@ -138,6 +162,8 @@ class Player:
             card = self.fate_deck.pop()
         except IndexError:
             raise EndOfFateDeckError
+        card.location = Hand
+
         return card
 
     def draw_dynasty_card(self) -> DynastyCard:
@@ -146,5 +172,6 @@ class Player:
             card = self.dynasty_deck.pop()
         except IndexError:
             raise EndOfDynastyDeckError
+        card.location = ProvinceLocation
 
         return card

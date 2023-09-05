@@ -1,74 +1,89 @@
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+import logging
+from dataclasses import field
 from typing import TYPE_CHECKING
 
+from .utils import dataclass_ as dataclass
+
 if TYPE_CHECKING:
-    from .card import FateCard
-    from .player import DynastyCardEntity
+    from .cards import DynastyCard, FateCard
+    from .player import Player
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Location:
-    pass
+    player: Player
+
+    def __repr__(self) -> str:
+        return self.__class__.__name__
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Deck(Location):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Hand(Location):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class ProvinceLocation(Location):
-    dynasty_cards: list[DynastyCardEntity] = field(default_factory=list)
-    attachments: list[DynastyCardEntity] = field(default_factory=list)
+    dynasty_cards: list[DynastyCard] = field(default_factory=list)
+    attachments: list[DynastyCard] = field(default_factory=list)
+
+    def __post_init__(self, *args, **kwargs):
+        self.fill()
+
+    def fill(self):
+        logging.info("%s: Filling province: %s", self.player.name, self)
+        card = self.player.draw_dynasty_card()
+        card.province = self
+        self.dynasty_cards.append(card)
 
 
-@dataclass(kw_only=True)
+@dataclass
 class PlayArea(Location):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Discard(Location):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class RemovedFromGame(Location):
     pass
 
 
-@dataclass(kw_only=True)
-class Stronghold(Location):
+@dataclass
+class StrongholdLocation(Location):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class DynastyDeck(Deck):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class FateDeck(Deck):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class DynastyDiscard(Discard):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class FateDiscard(Discard):
     pass
 
 
-@dataclass(kw_only=True)
+@dataclass
 class Battlefield(Location):
     terrain: FateCard = field(init=False)
