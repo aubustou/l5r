@@ -20,6 +20,7 @@ Blessed_Dojo = Holding(
     traits=[],
     abilities=[],
     legality=[TwentyFestivalsEdition, GoldEdition, OnyxEdition, ModernEdition],
+    gold_production="2",
 )
 "<b>:bow::</b> Produce 1 Gold. <br><b>Open, :bow::</b> Transfer your target Follower from one of your unbowed Personalities to another."
 Hida_Advisor = Holding(
@@ -36,6 +37,7 @@ Hida_Advisor = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="1",
 )
 "This Holding has +2GP when it pays for a single Shugenja only."
 Mystic_Dojo = Holding(
@@ -46,4 +48,5 @@ Mystic_Dojo = Holding(
     traits=[],
     abilities=[],
     legality=[TwentyFestivalsEdition, GoldEdition, OnyxEdition, ModernEdition],
+    gold_production="2*",
 )

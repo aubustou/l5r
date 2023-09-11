@@ -23,6 +23,7 @@ Collapsing_Bridge = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )
 "<b>:bow::</b> Produce 2 Gold.<br><b>Limited:</b> Give your target Personality +2F. Destroy this Holding."
 Frontline_Encampment = Holding(
@@ -38,4 +39,5 @@ Frontline_Encampment = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )

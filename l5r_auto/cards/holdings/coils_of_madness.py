@@ -27,4 +27,5 @@ Colonial_Temple = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2*",
 )

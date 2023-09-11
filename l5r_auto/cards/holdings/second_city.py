@@ -27,4 +27,5 @@ Slanderer = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="5",
 )

@@ -44,6 +44,7 @@ Suana_Dojo = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="4*",
 )
 "<b>Open, :bow::</b> A target Holding's abilities may not be used."
 Yukihimes_Hot_Springs = Holding(
@@ -60,4 +61,5 @@ Yukihimes_Hot_Springs = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="1",
 )

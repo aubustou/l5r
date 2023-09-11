@@ -25,4 +25,5 @@ Yasuki_Trader = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )

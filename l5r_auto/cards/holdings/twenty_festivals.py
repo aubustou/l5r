@@ -81,6 +81,7 @@ KaiuBuilt_Defenses = Holding(
     traits=[],
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
+    gold_production=None,
 )
 "<i>(Fortifications attach, bowed, to the Province from which they entered play.)</i> <br><b>Interrupt, :bow::</b> Negate the movement into an attacking army of a target Personality at any location."
 Labor_Crew = Holding(

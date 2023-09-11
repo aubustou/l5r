@@ -31,6 +31,7 @@ Jade_Works = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="3*",
 )
 "<i>(Fortifications attach to the Province from which they entered play.)</i><br>Enters play unbowed. <br><b>Limited, :bow::</b> Gain 2 Honor."
 Poorly_Placed_Garden = Holding(
@@ -48,4 +49,5 @@ Poorly_Placed_Garden = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production=None,
 )

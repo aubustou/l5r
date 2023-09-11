@@ -20,6 +20,7 @@ Temple_Fortress = Holding(
     traits=[],
     abilities=[],
     legality=[TwentyFestivalsEdition, EmperorEdition, OnyxEdition, ModernEdition],
+    gold_production="2",
 )
 "<b>:bow::</b> Produce 5 Gold. <br><b>Open:</b> Give your target Monk or Shugenja <b>Air</b>, <b>Earth</b>, <b>Fire</b>, or <b>Water</b>."
 Temple_to_the_Elements = Holding(
@@ -36,4 +37,5 @@ Temple_to_the_Elements = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="5",
 )

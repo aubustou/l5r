@@ -30,6 +30,7 @@ House_of_the_Red_Lotus = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )
 "<b>:bow::</b> Produce 2 Gold.<br><b>Battle, :bow::</b> Bow a target enemy attacking Follower. Destroy this Holding."
 Rice_Paddy = Holding(
@@ -48,6 +49,7 @@ Rice_Paddy = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )
 "This Holding has +3GP when it pays for a single Holding only."
 Trading_Grounds = Holding(
@@ -65,4 +67,5 @@ Trading_Grounds = Holding(
         DiamondEdition,
         ModernEdition,
     ],
+    gold_production="1*",
 )

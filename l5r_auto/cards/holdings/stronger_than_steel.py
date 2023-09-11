@@ -23,4 +23,5 @@ Haiku_School = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2*",
 )

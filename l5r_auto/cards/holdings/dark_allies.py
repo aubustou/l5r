@@ -25,6 +25,7 @@ Clear_Water_Village = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )
 "<b>:bow::</b> Produce 2 Gold. <br><b>Battle, :bow::</b> Target another player's Personality at any location who was moved home from the current battlefield. Straighten his unit and move him there."
 Roaming_Caravan = Holding(
@@ -41,4 +42,5 @@ Roaming_Caravan = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )

@@ -28,6 +28,7 @@ Ashigaru_Fort = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )
 "<b>Interrupt, :bow::</b> If the action is another player's, before it destroys one of your Personalities at the current battlefield, create a 0F/1C/1PH Personality and transfer your first Personality's Followers to him. Destroy this Holding."
 Reserve_Commander = Holding(
@@ -44,4 +45,5 @@ Reserve_Commander = Holding(
         DiamondEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )

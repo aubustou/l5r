@@ -29,4 +29,5 @@ Kabuki_Theater_Troupe = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )

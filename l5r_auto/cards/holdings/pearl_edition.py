@@ -25,4 +25,5 @@ School_of_Wizardry = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production=None,
 )

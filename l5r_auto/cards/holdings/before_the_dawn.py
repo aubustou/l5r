@@ -26,4 +26,5 @@ Beautiful_Host = Holding(
         OnyxEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )

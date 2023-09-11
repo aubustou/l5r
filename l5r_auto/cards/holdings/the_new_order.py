@@ -27,6 +27,7 @@ Contemplative_Shrine = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="3",
 )
 "<b>:bow::</b> Produce 2 Gold.<br><b>Open, :bow::</b> Put a target Armor or Weapon in your discard pile into your hand. Destroy this Holding."
 Delicate_Forge = Holding(
@@ -37,6 +38,7 @@ Delicate_Forge = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="2",
 )
 "After this Holding enters play, give it three +1F Masterwork tokens.<br><b>:bow::</b> Produce 2 Gold.<br><b>Open, :bow::</b> Transfer a Masterwork token from this Holding to a target Armor or Weapon without a Masterwork token."
 Developed_Quarry = Holding(
@@ -47,6 +49,7 @@ Developed_Quarry = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="2",
 )
 "<b>:bow::</b> Produce 2 Gold.<br><b>Battle/Open:</b> Give your target Monk or Shugenja +1F if he shares an element keyword with one of his Spells or your Rings."
 Earthborn_Temple = Holding(
@@ -57,6 +60,7 @@ Earthborn_Temple = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="2",
 )
 "This Fortification enters play bowed. Add 1 to the Honor required for an Honor Victory and -1 to the Honor required for a Dishonor Victory <i>(while this Holding is in play)</i>, or 2 and -2 respectively if you have Courtesy.<br><b>:bow::</b> Produce 2 Gold."
 House_of_No_Tomorrow = Holding(
@@ -67,6 +71,7 @@ House_of_No_Tomorrow = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="2",
 )
 "Courtesy: After you Recruit this Holding from a Province, refill the Province face-up. <i>(Courtesy traits do not take effect if you went first.)</i><br><b>:bow::</b> Produce 4 Gold."
 Jade_Bazaar = Holding(
@@ -77,6 +82,7 @@ Jade_Bazaar = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="4",
 )
 "After you Recruit this Holding, lose 1 Honor.<br><b>:bow::</b> Produce 2 Gold and lose 1 Honor."
 Lane_of_Immorality = Holding(
@@ -87,6 +93,7 @@ Lane_of_Immorality = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="2",
 )
 "This Holding <i>(in and out of play)</i> has every non-boldface keyword on your face-up Holdings.<br><b>:bow::</b> Produce 2 Gold."
 Missing_Caravan = Holding(
@@ -96,6 +103,7 @@ Missing_Caravan = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="2",
 )
 "<b>:bow::</b> Produce 5 Gold.<br><b>Political Tireless Interrupt:</b> Choose an Honor gain or loss from another player's action and reduce it to 2."
 Otomo_Bureaucrat = Holding(
@@ -106,6 +114,7 @@ Otomo_Bureaucrat = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="5",
 )
 "This Fortification enters play bowed.<br><b>:bow::</b> Produce 3 Gold. <br><b>Interrupt:</b> After you Recruit this Holding, look at the top three cards of your Fate deck. Place zero to two of them at the bottom of your deck."
 Plain_Library = Holding(
@@ -116,6 +125,7 @@ Plain_Library = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="3",
 )
 "<i>(Fortifications attach to the Province from which they entered play.)</i><br>This Fortification enters play bowed and, if your Sensei is Brotherhood Sensei, for 2 less Gold.<br><b>:bow::</b> Produce 4 Gold."
 Protected_Temple = Holding(
@@ -126,6 +136,7 @@ Protected_Temple = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="4",
 )
 "<b>:bow::</b> Produce 1 Gold.<br><b>Open, :bow::</b> Search your Fate deck for a Ring. Show it. Put it into your hand. Discard a card. Destroy this Holding."
 Remote_Temple = Holding(
@@ -136,6 +147,7 @@ Remote_Temple = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="1",
 )
 "<b>:bow::</b> Produce 3 Gold.<br><b>Interrupt:</b> After you Recruit this Holding from a Province, look at the top three cards of your Dynasty deck. If one of them is a Mine, you may refill the Province with it, face-up."
 Rich_Vein = Holding(
@@ -146,6 +158,7 @@ Rich_Vein = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="3",
 )
 "Reduce all Honor losses from your cards by 1, to a minimum of 1.<br><b>:bow::</b> Produce 2 Gold."
 Shrine_of_the_Colonies = Holding(
@@ -156,6 +169,7 @@ Shrine_of_the_Colonies = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="2",
 )
 "<b>:bow::</b> Produce 1 Gold.<br><b>:bow::</b> Produce 2 Gold, which can only pay for a single Armor, Mine, or Weapon."
 The_Toil_of_Zokujin = Holding(
@@ -166,6 +180,7 @@ The_Toil_of_Zokujin = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="1",
 )
 "<b>:bow::</b> Produce 6 Gold.<br><b>Open, :bow::</b> Create a +2F/+1C <b>One-Handed &#149; Sword &#149; Weapon</b> Item and attach it to your target Personality."
 Weapon_Artist = Holding(
@@ -176,4 +191,5 @@ Weapon_Artist = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="6",
 )

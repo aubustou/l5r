@@ -24,6 +24,7 @@ Coastal_Lane = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="5",
 )
 "This Holding enters play for 2 less Gold if you control any Port Holdings.<br><b>:bow::</b> Produce 3 Gold.<br>Once per turn, produce 1 Gold that can only pay for a single action from your card in play."
 Colonial_Market = Holding(
@@ -34,6 +35,7 @@ Colonial_Market = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="3",
 )
 "<b>:bow::</b> Produce 2 Gold. <br><b>Economic Open, :g2::</b> Choose a player with three or more Holdings in play. Give his target Holding -2GP <i>(this turn)</i>."
 Contested_Market = Holding(
@@ -44,6 +46,7 @@ Contested_Market = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="2",
 )
 "<i>(<b>Repeatable Limited, :g2::</b> Discard a Kharmic card from your Province and refill it face-up.)</i> <br>This Holding enters play for 1 less Gold for each Geisha <i>(not Geisha House)</i> you control.<br><b>:bow::</b> Produce 3 Gold."
 Hanamachi = Holding(
@@ -54,6 +57,7 @@ Hanamachi = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="3",
 )
 '<b>:bow::</b> Produce 3 Gold.<br><b>Open, :bow::</b> Create a 0F/1C/0PH Geisha Personality under another player\'s control with the trait "You have -1 maximum hand size." Destroy this Holding.'
 House_of_Floating_Petals = Holding(
@@ -64,6 +68,7 @@ House_of_Floating_Petals = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="3",
 )
 "<b>:bow::</b> Produce 5 Gold. <br>After a Personality is Recruited, you may bow and destroy this Holding to bow him, and you gain a Conspiracy token if his controller has no unbowed Personalities in play."
 House_of_Loose_Silk = Holding(
@@ -74,6 +79,7 @@ House_of_Loose_Silk = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="5",
 )
 "<b>:bow::</b> Produce 2 Gold, or 4 Gold if you control two or more other Geisha Houses."
 House_of_the_Floating_Lotus = Holding(
@@ -84,6 +90,7 @@ House_of_the_Floating_Lotus = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="2",
 )
 "<b>:bow::</b> Produce 2 Gold.<br><b>:bow::</b> Produce 2 Gold that can only pay for a single Kharmic action. Straighten this Holding after your next Dynasty Phase begins."
 Kumite_Grounds = Holding(
@@ -94,6 +101,7 @@ Kumite_Grounds = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="2",
 )
 "<i>(<b>Repeatable Limited, :g2::</b> Discard a Kharmic card from your Province and refill it face-up.)</i> <br>After you Equip a Follower paying 1 or more Gold, give this Holding +1GP <i>(this turn)</i>.<br><b>:bow::</b> Produce 2 Gold."
 Lonely_Dojo = Holding(
@@ -104,6 +112,7 @@ Lonely_Dojo = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="2",
 )
 "<b>:bow::</b> Produce 1 Gold.<br><b>Open, :bow::</b> A target player shows a random card in his hand.<br><b>Open, :bow::</b> Turn a target card in another player's Province face-up."
 Momijis_Chambers = Holding(
@@ -114,6 +123,7 @@ Momijis_Chambers = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="1",
 )
 "This Fortification enters play bowed. This Province has +1 strength for each other Fortification attached to it, up to 3.<br><b>:bow::</b> Produce 3 Gold."
 MushaGaeshi = Holding(
@@ -124,6 +134,7 @@ MushaGaeshi = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="3",
 )
 "<b>:bow::</b> Produce 2 Gold.<br>You may use this Holding's printed ability one additional time per turn for each of your Markets in play. <br><b>Economic Battle, :g2::</b> Give a target enemy Personality -1F."
 Second_City_Harbor = Holding(
@@ -134,6 +145,7 @@ Second_City_Harbor = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="2",
 )
 "<b>:bow::</b> Produce 1 Gold.<br><b>Open, :bow:, :gstar::</b> Search your Dynasty deck for a Market or Port. Recruit it <i>(bowed)</i>. Destroy this Holding."
 Second_City_Market = Holding(
@@ -144,6 +156,7 @@ Second_City_Market = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="1",
 )
 "This Fortification enters play bowed. Your Fear effects during battles at this Province have +1 strength.<br><b>:bow::</b> Produce 2 Gold."
 The_Inner_Ring = Holding(
@@ -154,6 +167,7 @@ The_Inner_Ring = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="2",
 )
 "After this Holding enters play, take the Imperial Favor and rehonor one of your Personalities <i>(if able)</i>. You may Recruit this Holding as a <b>Political Open</b> action.<br><b>:bow::</b> Produce 2 Gold."
 The_Ivory_Courtroom = Holding(
@@ -164,4 +178,5 @@ The_Ivory_Courtroom = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="2",
 )

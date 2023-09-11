@@ -27,6 +27,7 @@ Coastal_Pearl_Bed = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )
 "<b>Open, :bow::</b> Give a target Personality and each of his Followers Cavalry."
 Fudoist_Temple = Holding(
@@ -44,6 +45,7 @@ Fudoist_Temple = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="3",
 )
 "When this Holding produces Gold, you may give it +1GP <i>(this turn)</i>; if you do, it will not straighten until after your next Action Phase."
 Jade_Mine = Holding(
@@ -61,6 +63,7 @@ Jade_Mine = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )
 "Courtesy: When this Holding produces Gold, you may give it +1GP <i>(this turn)</i> and lose 2 Honor. <i>(Courtesy traits do not take effect if you went first.)</i>"
 Slave_Pits = Holding(
@@ -78,4 +81,5 @@ Slave_Pits = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )

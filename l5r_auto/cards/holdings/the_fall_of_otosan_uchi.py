@@ -27,6 +27,7 @@ Carrions_Breath = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )
 "<b>:bow::</b> Produce 2 Gold. <br><b>:bow::</b> When paying for an action on a Strategy, it costs 3 less Gold."
 Kaeru_Contractor = Holding(
@@ -43,4 +44,5 @@ Kaeru_Contractor = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )

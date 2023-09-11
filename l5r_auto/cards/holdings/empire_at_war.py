@@ -19,4 +19,5 @@ Fortified_Docks = Holding(
     traits=[],
     abilities=[],
     legality=[TwentyFestivalsEdition, CelestialEdition, OnyxEdition, ModernEdition],
+    gold_production="2",
 )

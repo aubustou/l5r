@@ -23,4 +23,5 @@ Tea_House = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="1",
 )

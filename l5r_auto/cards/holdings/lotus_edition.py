@@ -28,6 +28,7 @@ Honored_Sensei = Holding(
         DiamondEdition,
         ModernEdition,
     ],
+    gold_production="2*",
 )
 "<b>Political Open, :bow::</b> If the active player has 11 or more Family Honor, he loses 1 Honor."
 Puppet_Theater_Troupe = Holding(
@@ -44,4 +45,5 @@ Puppet_Theater_Troupe = Holding(
         DiamondEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )

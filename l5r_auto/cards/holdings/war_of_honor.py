@@ -27,4 +27,5 @@ Temple_of_Harmony = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )

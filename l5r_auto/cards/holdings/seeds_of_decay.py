@@ -26,6 +26,7 @@ Farmers_Market = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )
 "After this Holding enters play from a Province, refill the Province face-up."
 Small_Library = Holding(
@@ -36,4 +37,5 @@ Small_Library = Holding(
     traits=[],
     abilities=[],
     legality=[TwentyFestivalsEdition, EmperorEdition, OnyxEdition, ModernEdition],
+    gold_production="4",
 )

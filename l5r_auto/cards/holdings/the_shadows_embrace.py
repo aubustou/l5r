@@ -37,4 +37,5 @@ SmallTime_Bully = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )

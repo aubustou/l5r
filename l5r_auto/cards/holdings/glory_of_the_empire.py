@@ -23,4 +23,5 @@ House_of_Exotic_Goods = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )

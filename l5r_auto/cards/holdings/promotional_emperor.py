@@ -25,6 +25,7 @@ Jiramus_Court = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )
 Traveling_Market = Holding(
     card_id=10571,
@@ -41,4 +42,5 @@ Traveling_Market = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="3",
 )

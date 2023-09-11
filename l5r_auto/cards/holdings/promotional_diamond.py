@@ -25,4 +25,5 @@ Vengeful_Populace = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )

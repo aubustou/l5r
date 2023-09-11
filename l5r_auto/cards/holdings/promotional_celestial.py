@@ -27,6 +27,7 @@ Heavy_Infantry_Dojo = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="3",
 )
 "<b>:bow::</b> Produce 2 Gold. <br><b>Limited, :bow::</b> Give a target Personality a +1F <b>Sake </b>token. Remove it after your next turn begins."
 Humble_House = Holding(
@@ -43,6 +44,7 @@ Humble_House = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )
 "Your Provinces have +1 strength. <br><b>:bow::</b> Produce 5 Gold."
 Merchant_Atoll = Holding(
@@ -60,4 +62,5 @@ Merchant_Atoll = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="5",
 )

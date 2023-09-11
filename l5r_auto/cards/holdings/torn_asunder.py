@@ -19,6 +19,7 @@ Miryoku_no_Shima = Holding(
     traits=[],
     abilities=[],
     legality=[TwentyFestivalsEdition, EmperorEdition, OnyxEdition, ModernEdition],
+    gold_production="5",
 )
 "<b>:bow::</b> Produce 2 Gold. If you bowed this Holding while paying to Recruit a Farm Holding, refill the Province face-up."
 Vast_Paddy_Fields = Holding(
@@ -35,4 +36,5 @@ Vast_Paddy_Fields = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )

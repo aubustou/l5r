@@ -26,6 +26,7 @@ Counting_House = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )
 "After you Recruit this Holding from a Province, refill the Province face-up.<br><b>:bow::</b> Produce 2 Gold."
 Famous_Bazaar = Holding(
@@ -43,6 +44,7 @@ Famous_Bazaar = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )
 "<b>:bow::</b> Produce 4 Gold.<br><b>Tireless Interrupt, :gstar::</b> If this Holding bowed to produce Gold to Recruit a Personality, Equip an attachment to him from your hand for 4 less Gold after he enters play."
 Secluded_Outpost = Holding(
@@ -59,4 +61,5 @@ Secluded_Outpost = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="4",
 )

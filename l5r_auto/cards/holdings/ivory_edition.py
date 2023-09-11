@@ -14,6 +14,7 @@ Brilliant_Cascade_Inn = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="1",
 )
 "<b>:bow::</b> Produce 1 Gold. <br><b>:bow::</b> When paying for a Holding, it enters play for 2 less Gold."
 Deep_Harbor = Holding(
@@ -24,6 +25,7 @@ Deep_Harbor = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="1*",
 )
 ":bow:: Produce 1 Gold. <br><b>Limited:</b> If you have not lost Honor from cards you own this game and your Family Honor is below your starting Honor, gain 1 Honor."
 Secluded_Shrine = Holding(
@@ -34,4 +36,5 @@ Secluded_Shrine = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
+    gold_production="1",
 )

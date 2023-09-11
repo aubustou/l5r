@@ -27,6 +27,7 @@ City_of_Night_Experienced = Holding(
     traits=[],
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
+    gold_production="1",
 )
 "You may take this Holding's actions during a battle at any battlefield where you control a Siege Personality. <br><b>Battle, :bow::</b> Ranged 2 Attack. <br><b>Interrupt, :bow::</b> Give the action's Ranged Attacks +2 strength."
 Defensive_Fortification = Holding(
@@ -37,6 +38,7 @@ Defensive_Fortification = Holding(
     traits=[],
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
+    gold_production="3",
 )
 "You may Recruit this Holding as an Open. <br>After you Recruit this Holding, you may target and straighten a Duelist."
 Dojo_of_the_Dauntless = Holding(
@@ -47,6 +49,7 @@ Dojo_of_the_Dauntless = Holding(
     traits=[],
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
+    gold_production="2",
 )
 "This Holding enters play unbowed if you control any Siege Personalities.<br><b>Open, :bow::</b> If you control any Personalities, gain 1 Honor."
 Erected_Watchtower = Holding(
@@ -57,6 +60,7 @@ Erected_Watchtower = Holding(
     traits=[],
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
+    gold_production=None,
 )
 "After a Kharmic action puts this Holding into a discard pile, draw a card and remove this Holding from the game.<br>This Holding has +1GP when it pays for a single Kharmic action only."
 KiRins_Shrine_Experienced_2 = Holding(
@@ -67,6 +71,7 @@ KiRins_Shrine_Experienced_2 = Holding(
     traits=[],
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
+    gold_production="1*",
 )
 "<b>Interrupt, :bow::</b> After the action Equips a Spell from your hand, draw a card. You may not use abilities on any Libraries of Kyuden Isawa again this turn."
 Libraries_of_Kyuden_Isawa = Holding(
@@ -77,6 +82,7 @@ Libraries_of_Kyuden_Isawa = Holding(
     traits=[],
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
+    gold_production="5",
 )
 "This Holding enters play for 1 less Gold if another of your Dojos entered play this turn."
 Master_of_Clear_Water_Dojo = Holding(
@@ -87,6 +93,7 @@ Master_of_Clear_Water_Dojo = Holding(
     traits=[],
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
+    gold_production="3",
 )
 "This Holding has +1GP when it pays to Recruit or Equip a single Library or Spell only."
 Retired_Scholar = Holding(
@@ -97,6 +104,7 @@ Retired_Scholar = Holding(
     traits=[],
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
+    gold_production="2",
 )
 "<b>Battle/Open, :bow::</b> Target your Duelist who has not been targeted by a Shadowless Strike Dojo this turn. Your Duelist has +1F while opposed. After he or she enters a duel facing a Personality with higher Chi, give your Duelist +1C in the duel's resolution."
 Shadowless_Strike_Dojo = Holding(
@@ -107,6 +115,7 @@ Shadowless_Strike_Dojo = Holding(
     traits=[],
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
+    gold_production="1",
 )
 "<b>Battle, :bow::</b> Give a target enemy Follower or Personality -2F. If the target is Shadowlands and attacking, give it -4F instead and bow it if its Force is now 0."
 Shinseis_Last_Hope_Experienced = Holding(
@@ -117,6 +126,7 @@ Shinseis_Last_Hope_Experienced = Holding(
     traits=[],
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
+    gold_production="4",
 )
 "After this Holding enters play from a Province, refill the Province face-up."
 Spirits_Essence_Dojo = Holding(
@@ -127,6 +137,7 @@ Spirits_Essence_Dojo = Holding(
     traits=[],
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
+    gold_production="3",
 )
 "<b>Interrupt, :bow::</b> Give one of the action's Fear effects +1 strength."
 Temple_of_the_First_Seal = Holding(
@@ -137,6 +148,7 @@ Temple_of_the_First_Seal = Holding(
     traits=[],
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
+    gold_production="2",
 )
 "After this Holding enters play, lose 3 Honor. This Holding enters play for 1 less Gold for each Shadowlands Follower and Personality you control. After you bow this Holding, lose 1 Honor.<br><b>Open, :bow::</b> Straighten your target Oni."
 The_Feeding_Hills = Holding(
@@ -147,6 +159,7 @@ The_Feeding_Hills = Holding(
     traits=[],
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
+    gold_production="3",
 )
 "<i>(Draw a card after you Recruit a Destined card.)</i><br>After you draw a card for bringing this Holding into play, if you then have four or more cards in your hand, discard a card."
 The_Ikoma_Halls = Holding(
@@ -157,6 +170,7 @@ The_Ikoma_Halls = Holding(
     traits=[],
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
+    gold_production="3",
 )
 "<b>Open:</b> Once per game, create and attach a +2F/+1C One-<b>Handed &#149; Sword &#149; Weapon</b> Item to your target Duelist."
 The_Iron_Mountain_School = Holding(
@@ -167,6 +181,7 @@ The_Iron_Mountain_School = Holding(
     traits=[],
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
+    gold_production="5",
 )
 "<b>Open, :bow::</b> Transfer your target Spell <i>(in play)</i> to your target Shugenja."
 The_Miya_Records = Holding(
@@ -177,4 +192,5 @@ The_Miya_Records = Holding(
     traits=[],
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
+    gold_production="2",
 )

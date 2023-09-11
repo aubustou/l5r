@@ -25,4 +25,5 @@ Imperial_Dojo = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2",
 )

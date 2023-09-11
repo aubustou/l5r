@@ -19,4 +19,5 @@ Akodo_Dojo = Holding(
     traits=[],
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, DiamondEdition, ModernEdition],
+    gold_production="2*",
 )

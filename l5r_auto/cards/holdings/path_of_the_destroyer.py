@@ -25,4 +25,5 @@ Wandering_Caravan = Holding(
         ModernEdition,
         ModernEdition,
     ],
+    gold_production="2*",
 )
