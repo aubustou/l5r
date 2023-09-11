@@ -5,9 +5,8 @@ import uuid
 from dataclasses import field
 from typing import TYPE_CHECKING, Generator
 
-from l5r_auto.utils import dataclass_ as dataclass
-
 from .locations import PlayArea, ProvinceLocation
+from .utils import dataclass_ as dataclass
 from .utils import is_entity_of_type
 
 if TYPE_CHECKING:
@@ -39,19 +38,37 @@ class Ability(Action):
     def __post_init__(self, *args, **kwargs):
         ABILITIES[self.id] = self
 
-    def do(self, *args, **kwargs):
+    def gather_legal_target_entities(
+        self, game: Game, active_player: Player
+    ) -> Generator[Entity, None, None]:
         raise NotImplementedError(f"{self.__class__.__name__} is not implemented.")
 
-    def legal(self, game: Game, active_player: Player) -> Generator[Entity, None, None]:
+    def get_effect(self, *args, **kwargs):
+        raise NotImplementedError(f"{self.__class__.__name__} is not implemented.")
+
+    def pay_cost(self, game: Game, entity: PersonalityEntity | HoldingEntity) -> bool:
         raise NotImplementedError(f"{self.__class__.__name__} is not implemented.")
 
     def on_start_phase(self, game: Game):
         self.done_once_per_turn = False
 
+    def on_pay(self, entity: Entity) -> int:
+        return 0
+
 
 @dataclass
 class Trait(Action):
     pass
+
+
+@dataclass
+class ProduceGold(Ability):
+    """Bow: Produce X Gold."""
+
+    base_gold_amount: str
+
+    def on_pay(self, entity: Entity) -> int:
+        return int(self.base_gold_amount)
 
 
 @dataclass
@@ -64,7 +81,9 @@ class RecruitAction(Ability):
     repeatable: bool = field(default=True, init=False)
     dynasty: bool = field(default=True, init=False)
 
-    def legal(self, game: Game, active_player: Player) -> Generator[Entity, None, None]:
+    def gather_legal_target_entities(
+        self, game: Game, active_player: Player
+    ) -> Generator[Entity, None, None]:
         for entity in game.entities:
             if (
                 entity.owner == active_player
@@ -73,22 +92,62 @@ class RecruitAction(Ability):
             ):
                 yield entity
 
+    def pay_cost(self, game: Game, entity: PersonalityEntity | HoldingEntity) -> bool:
+        gold_cost = entity.gold_cost
+
+        if hasattr(entity, "clan") and entity.owner.clan not in entity.clan:
+            # Managent of out-of-clan personalities and unaligned personalities
+            gold_cost += 2
+
+        gold_producing_entities = [
+            x for x in game.current_player.entities if x.can_produce
+        ]
+        gold_producing_entities.sort(key=lambda x: x.gold_production, reverse=True)
+
+        produced_gold = 0
+        bowed_entities = []
+        try:
+            while produced_gold < gold_cost:
+                if not gold_producing_entities:
+                    raise ValueError("Not enough gold to pay cost.")
+                gold_producing_entity = gold_producing_entities.pop()
+                produced_gold += sum(gold_producing_entity.on_pay(entity))
+                bowed_entities.append(gold_producing_entity)
+        except ValueError:
+            logging.info(
+                "%s: Not enough gold to pay cost (%s) of %s.",
+                game.current_player.name,
+                gold_cost,
+                entity,
+            )
+            return False
+        else:
+            logging.info(
+                "%s: Paying %d gold for %s.",
+                game.current_player.name,
+                produced_gold,
+                entity,
+            )
+            for gold_producing_entity in bowed_entities:
+                gold_producing_entity.bow()
+            return True
+
     def _recruit_personality(self, game: Game, personality: PersonalityEntity):
         logging.info(
             "%s: Recruiting personality %s into play.",
             personality.owner.name,
             personality,
         )
-        personality.location = PlayArea
+        personality.move_to(PlayArea)
 
     def _recruit_holding(self, game: Game, holding: HoldingEntity):
         logging.info(
             "%s: Recruiting holding %s into play.", holding.owner.name, holding
         )
-        holding.location = PlayArea
+        holding.move_to(PlayArea)
         holding.bow()
 
-    def do(self, game: Game, entity: PersonalityEntity | HoldingEntity):
+    def get_effect(self, game: Game, entity: PersonalityEntity | HoldingEntity):
         from .cards import HoldingEntity, PersonalityEntity
 
         province = entity.province
@@ -123,7 +182,9 @@ class ProclaimAction(Ability):
     Province, add his Personal Honor to
     your Family Honor after he enters play."""
 
-    def legal(self, game: Game, active_player: Player) -> Generator[Entity, None, None]:
+    def gather_legal_target_entities(
+        self, game: Game, active_player: Player
+    ) -> Generator[Entity, None, None]:
         if self.done_once_per_turn:
             raise StopIteration
 
@@ -152,11 +213,17 @@ class DynastyDiscardAction(Ability):
     repeatable: bool = field(default=True, init=False)
     dynasty: bool = field(default=True, init=False)
 
-    def legal(self, game: Game, active_player: Player) -> Generator[Entity, None, None]:
+    def gather_legal_target_entities(
+        self, game: Game, active_player: Player
+    ) -> Generator[Entity, None, None]:
         for province in active_player.provinces:
             for card in province.dynasty_cards:
-                yield card
+                if card.face_up:
+                    yield card
 
-    def do(self, game: Game, card: PersonalityEntity | HoldingEntity):
+    def pay_cost(self, game: Game, entity: Entity) -> bool:
+        return True
+
+    def get_effect(self, game: Game, card: Entity):
         logging.info("%s: Discarding %s.", game.current_player, card)
         card.discard()

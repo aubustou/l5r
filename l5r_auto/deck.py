@@ -8,12 +8,10 @@ from functools import cached_property
 from operator import attrgetter
 from typing import TYPE_CHECKING, Sequence, Type, TypedDict
 
-from l5r_auto.cards import get_card
-from l5r_auto.utils import dataclass_ as dataclass
-
-from .cards import Card
+from .cards import Card, get_card
 from .clans import Clan, clans
 from .legality import Legality, legalities
+from .utils import dataclass_ as dataclass
 
 if TYPE_CHECKING:
     from .cards import (

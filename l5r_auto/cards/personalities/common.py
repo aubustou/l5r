@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from dataclasses import field
 from typing import Type
 
 from l5r_auto.abilities import Ability
@@ -10,7 +11,6 @@ from l5r_auto.clans import Clan
 from l5r_auto.legality import Legality
 from l5r_auto.locations import Deck, Location
 from l5r_auto.utils import dataclass_ as dataclass
-from l5r_auto.utils import field
 
 
 class HasZeroChi(Ability):

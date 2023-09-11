@@ -7,7 +7,7 @@ import random
 from dataclasses import field
 from typing import TYPE_CHECKING
 
-from l5r_auto.abilities import ABILITIES, Ability, RecruitAction
+from l5r_auto.abilities import ABILITIES, Ability, DynastyDiscardAction, RecruitAction
 from l5r_auto.cards.events.common import Event
 from l5r_auto.utils import dataclass_ as dataclass
 
@@ -15,7 +15,7 @@ if TYPE_CHECKING:
     from .play import Game
     from .player import Player
 
-MAX_NUMBER_OF_TURNS = 5
+MAX_NUMBER_OF_TURNS = 50
 
 
 @dataclass
@@ -80,6 +80,9 @@ class StartOfGame(Step):
                 # Stop if we have looped back to the start
                 if current_player == self.game.starting_player:
                     break
+
+            if len(sorted_list) != len(self.game.players):
+                raise ValueError("Player list is not the same length as the game.")
 
             self.game.players = sorted_list
             logging.info("Player order:")
@@ -198,6 +201,9 @@ class StraightenPhase(Phase):
             "%s: Straightening cards in play.",
             self.active_player.name,
         )
+        self.active_player.stronghold_entity.straighten()
+        if self.active_player.sensei_entity:
+            self.active_player.sensei_entity.straighten()
         for card in self.active_player.play_area:
             card.straighten()
 
@@ -213,7 +219,7 @@ class EventPhase(Phase):
                         self.active_player.name,
                         card.title,
                     )
-                    card.location = self.active_player.dynasty_discard
+                    card.discard()
                     province.dynasty_cards.remove(card)
 
             if not province.dynasty_cards:
@@ -235,15 +241,22 @@ class AttackPhase(Phase):
 class DynastyPhase(Phase):
     abilities = [
         RecruitAction(),
+        DynastyDiscardAction(),
     ]
 
     def __post_init__(self, *args, **kwargs):
         self.abilities.extend([RecruitAction()])
 
     def _start(self):
+        # TODO: Here to add some IA logic
         for ability in self.abilities:
-            for entity in ability.legal(self.game, self.active_player):
-                ability.do(self.game, entity)
+            for entity in ability.gather_legal_target_entities(
+                self.game, self.active_player
+            ):
+                if not ability.pay_cost(self.game, entity):
+                    continue
+
+                ability.get_effect(self.game, entity)
 
 
 @dataclass

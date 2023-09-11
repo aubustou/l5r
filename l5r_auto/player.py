@@ -4,11 +4,14 @@ import logging
 import random
 import uuid
 from dataclasses import field
-from typing import TYPE_CHECKING, Sequence
+from typing import TYPE_CHECKING, Sequence, Type
+
+from l5r_auto.cards.holdings.common import HoldingEntity
+from l5r_auto.clans import Clan
 
 from .cards import DynastyCard, FateCard, SenseiEntity, StrongholdEntity
 from .errors import EndOfDynastyDeckError, EndOfFateDeckError
-from .locations import Hand, ProvinceLocation, StrongholdLocation
+from .locations import Hand, PlayArea, ProvinceLocation, StrongholdLocation
 from .utils import dataclass_ as dataclass
 
 if TYPE_CHECKING:
@@ -31,6 +34,7 @@ NAMES = [
     "immonde bâtard",
     "Michel Muller",
 ]
+NAMES_BACKUP = NAMES.copy()
 MINIMUM_HONOR = -20
 STARTING_HAND_SIZE = 0
 STARTING_NUMBER_OF_PROVINCES = 4
@@ -44,6 +48,7 @@ class Player:
 
     right_to: Player | None = None
 
+    clan: Type[Clan] = field(init=False)
     stronghold: Stronghold = field(init=False)
     sensei: Sensei | None = field(init=False)
 
@@ -71,11 +76,16 @@ class Player:
 
     def __post_init__(self):
         if not self.name:
+            global NAMES
+            if not NAMES:
+                NAMES = NAMES_BACKUP.copy()
+
             chosen_name = random.choice(NAMES)
             NAMES.remove(chosen_name)
             self.name = f"{chosen_name}-{str(uuid.uuid4())[:4]}"
         self.stronghold = self.deck.stronghold
         self.sensei = self.deck.sensei
+        self.clan = self.deck.clan
 
     def report(self):
         return PlayerReport(
@@ -162,7 +172,7 @@ class Player:
             card = self.fate_deck.pop()
         except IndexError:
             raise EndOfFateDeckError
-        card.location = Hand
+        card.move_to(Hand)
 
         return card
 
@@ -172,6 +182,14 @@ class Player:
             card = self.dynasty_deck.pop()
         except IndexError:
             raise EndOfDynastyDeckError
-        card.location = ProvinceLocation
+        card.move_to(ProvinceLocation)
 
         return card
+
+    @property
+    def holdings(self) -> list[HoldingEntity]:
+        return [
+            x
+            for x in self.entities
+            if isinstance(x, HoldingEntity) and x.location is PlayArea
+        ]

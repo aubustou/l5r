@@ -15,6 +15,10 @@ if TYPE_CHECKING:
 class Location:
     player: Player
 
+    @classmethod
+    def get_name(cls) -> str:
+        return cls.__name__
+
     def __repr__(self) -> str:
         return self.__class__.__name__
 

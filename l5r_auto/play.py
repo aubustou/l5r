@@ -9,6 +9,7 @@ from dataclasses import field
 from pathlib import Path
 from typing import TYPE_CHECKING, Type
 
+from l5r_auto.errors import EndOfDynastyDeckError
 from l5r_auto.locations import PlayArea
 from l5r_auto.utils import dataclass_ as dataclass
 
@@ -32,11 +33,11 @@ class Game:
     players: list[Player]
     legality: Type[Legality]
 
-    current_player: Player | None = None
-    current_phase: Phase | None = None
-    current_step: Step | None = None
+    current_player: Player = field(init=False)
+    current_phase: Phase = field(init=False)
+    current_step: Step = field(init=False)
 
-    starting_player: Player | None = field(init=False)
+    starting_player: Player = field(init=False)
 
     phases: list[Phase] = field(default_factory=list)
     turns: list[Turn] = field(default_factory=list)
@@ -47,13 +48,12 @@ class Game:
     ]
 
     def __post_init__(self):
-        if len(self.players) > 1:
-            # Placing players
-            for left, right in itertools.cycle(itertools.pairwise(self.players)):
-                if left.right_to is None:
-                    left.right_to = right
-                else:
-                    break
+        # Placing players
+        first = self.players[0]
+        for left, right in itertools.pairwise(self.players):
+            if left.right_to is None:
+                left.right_to = right
+        self.players[-1].right_to = first
 
         for player in self.players:
             # Generate card entities before starting game
@@ -124,6 +124,8 @@ def main():
     from .player import Player
 
     for paths in itertools.pairwise(deck_paths):
+        if len(paths) != 2:
+            raise ValueError("Only 2 players are supported")
         players = []
         decks = []
         legalities = set()
@@ -150,10 +152,12 @@ def main():
         game = Game(players=players, legality=legality)
         logging.info("Created game: %s", game.id)
 
-        game.start()
-        logging.info("Finished game: %s", game.id)
-        game.end_report()
-        break
+        try:
+            game.start()
+        except EndOfDynastyDeckError:
+            logging.info("Finished game: %s", game.id)
+            game.end_report()
+            break
 
     logging.info("Finished in %1.2f seconds", time.time() - start_time)
 

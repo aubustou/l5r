@@ -3,10 +3,19 @@ from __future__ import annotations
 import logging
 import uuid
 from dataclasses import InitVar, field, fields
-from typing import TYPE_CHECKING, Any, Type
+from typing import TYPE_CHECKING, Any, Generator, Type
 
+from ..abilities import ProduceGold
 from ..clans import Clan
-from ..locations import FateDiscard, Location, ProvinceLocation
+from ..locations import (
+    DynastyDiscard,
+    FateDiscard,
+    Location,
+    PlayArea,
+    ProvinceLocation,
+    RemovedFromGame,
+    StrongholdLocation,
+)
 from ..utils import dataclass_ as dataclass
 from ..utils import import_submodules
 
@@ -14,7 +23,6 @@ if TYPE_CHECKING:
     from ..abilities import Ability, Trait
     from ..keywords import Keyword
     from ..legality import Legality
-    from ..locations import DynastyDiscard, RemovedFromGame
     from ..play import Game
     from ..player import Player
 
@@ -45,8 +53,7 @@ def get_cards(card_type: Type[Card]) -> list[Card]:
 
 
 @dataclass
-class Card:
-    card_id: int = field(metadata={"is_written": True})
+class BaseCard:
     id: uuid.UUID = field(default_factory=uuid.uuid4)
     title: str = field(metadata={"is_written": True})
 
@@ -57,6 +64,13 @@ class Card:
     abilities: list[Ability] = field(
         default_factory=list, metadata={"is_written": True}
     )
+
+
+@dataclass
+class Card(BaseCard):
+    card_id: int = field(metadata={"is_written": True})
+    id: uuid.UUID = field(default_factory=uuid.uuid4)
+    title: str = field(metadata={"is_written": True})
 
     legality: list[Type[Legality]] = field(
         default_factory=list, metadata={"is_written": True}
@@ -107,15 +121,12 @@ def log_state_change(method):
 
 
 @dataclass
-class Entity:
-    id: uuid.UUID = field(default_factory=uuid.uuid4)
+class Entity(BaseCard):
     game: Game
     base_card: Type[Card]
     owner: Player
 
     current_legality: InitVar[Type[Legality]] | None = None
-
-    title: str = field(metadata={"is_written": True})
 
     # States
     bowed: bool = False
@@ -126,6 +137,9 @@ class Entity:
     def __post_init__(self, current_legality: Type[Legality] | None = None):
         if current_legality and hasattr(self, "clan"):
             self.clan = [x for x in self.clan if x in current_legality.legal_clans]
+
+        if (gold_production := getattr(self, "gold_production", None)) is not None:
+            self.abilities.append(ProduceGold(base_gold_amount=gold_production))
 
     def __repr__(self):
         return self.to_string()
@@ -140,6 +154,58 @@ class Entity:
     @property
     def face_up(self) -> bool:
         return not self.face_down
+
+    def move_to(self, to_location: Type[Location]):
+        from_location = self.location
+        self.location = to_location
+        from_location_name = from_location.get_name()
+        to_location_name = to_location.get_name()
+        logging.debug(
+            "%s: Moving %s from %s to %s",
+            self.owner.name,
+            self.title,
+            from_location_name,
+            to_location_name,
+        )
+
+        match from_location_name:
+            case "PlayArea":
+                self.owner.play_area.remove(self)
+            case "DynastyDiscard":
+                self.owner.dynasty_discard.remove(self)
+            case "FateDiscard":
+                self.owner.fate_discard.remove(self)
+            case "RemovedFromGame":
+                self.owner.removed_from_game.remove(self)
+            case "DynastyDeck":
+                self.owner.dynasty_deck.remove(self)
+            case "FateDeck":
+                self.owner.fate_deck.remove(self)
+            case "Hand":
+                self.owner.hand.remove(self)
+            case "ProvinceLocation" | "StrongholdLocation" | "Deck":
+                pass
+            case _:
+                logging.warning("Unknown location %s", from_location)
+        match to_location_name:
+            case "PlayArea":
+                self.owner.play_area.append(self)
+            case "DynastyDiscard":
+                self.owner.dynasty_discard.append(self)
+            case "FateDiscard":
+                self.owner.fate_discard.append(self)
+            case "RemovedFromGame":
+                self.owner.removed_from_game.append(self)
+            case "DynastyDeck":
+                self.owner.dynasty_deck.append(self)
+            case "FateDeck":
+                self.owner.fate_deck.append(self)
+            case "Hand":
+                self.owner.hand.append(self)
+            case "ProvinceLocation" | "StrongholdLocation" | "Deck":
+                pass
+            case _:
+                logging.warning("Unknown location %s", to_location)
 
     @log_state_change
     def target(self):
@@ -156,17 +222,17 @@ class Entity:
     @log_state_change
     def discard(self):
         self.bowed = False
-        self.location = DynastyDiscard if isinstance(self, DynastyCard) else FateDiscard
+        self.move_to(DynastyDiscard if isinstance(self, DynastyCard) else FateDiscard)
 
     @log_state_change
     def remove_from_game(self):
         self.bowed = False
-        self.location = RemovedFromGame
+        self.move_to(RemovedFromGame)
 
     @log_state_change
     def destroy(self):
         self.bowed = False
-        self.location = DynastyDiscard if isinstance(self, DynastyCard) else FateDiscard
+        self.move_to(DynastyDiscard if isinstance(self, DynastyCard) else FateDiscard)
 
     @log_state_change
     def turn_face_down(self):
@@ -175,6 +241,20 @@ class Entity:
     @log_state_change
     def turn_face_up(self):
         self.face_down = False
+
+    def on_pay(self, entity: Entity) -> Generator[int, None, None]:
+        yield from (x.on_pay(entity) for x in self.abilities)
+
+    gold_amount: int = 0
+
+    @property
+    def can_produce(self) -> bool:
+        return (
+            self.location in {PlayArea, StrongholdLocation}
+            and getattr(self, "gold_production", None) is not None
+            and self.face_up
+            and not self.bowed
+        )
 
 
 from .events.common import Event, EventEntity  # noqa

@@ -24,6 +24,9 @@ class Holding(DynastyCard):
 class HoldingEntity(Entity, Holding):
     location: Type[Location] = Deck
 
+    def __post_init__(self, *args, **kwargs):
+        super().__post_init__(*args, **kwargs)
+
 
 def get_cards(legality: Type[Legality]) -> list[Holding]:
     from .. import get_cards as get_cards_
