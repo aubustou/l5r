@@ -12,6 +12,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<i>(Duelists win tied duels versus non-Duelists.)</i><br>After Izumiko wins a duel, gain 1 Honor."
 Kakita_Izumiko = Personality(
     card_id=10576,
     title="Kakita Izumiko",

@@ -15,6 +15,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 
 from .common import Holding
 
+"Your minimum Dynasty deck size is increased by two.<br><b>:bow::</b> Produce 5 Gold."
 Coastal_Lane = Holding(
     card_id=11547,
     title="Coastal Lane",
@@ -24,6 +25,7 @@ Coastal_Lane = Holding(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"This Holding enters play for 2 less Gold if you control any Port Holdings.<br><b>:bow::</b> Produce 3 Gold.<br>Once per turn, produce 1 Gold that can only pay for a single action from your card in play."
 Colonial_Market = Holding(
     card_id=11548,
     title="Colonial Market",
@@ -33,6 +35,7 @@ Colonial_Market = Holding(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>:bow::</b> Produce 2 Gold. <br><b>Economic Open, :g2::</b> Choose a player with three or more Holdings in play. Give his target Holding -2GP <i>(this turn)</i>."
 Contested_Market = Holding(
     card_id=11549,
     title="Contested Market",
@@ -42,6 +45,7 @@ Contested_Market = Holding(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(<b>Repeatable Limited, :g2::</b> Discard a Kharmic card from your Province and refill it face-up.)</i> <br>This Holding enters play for 1 less Gold for each Geisha <i>(not Geisha House)</i> you control.<br><b>:bow::</b> Produce 3 Gold."
 Hanamachi = Holding(
     card_id=11550,
     title="Hanamachi",
@@ -51,6 +55,7 @@ Hanamachi = Holding(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+'<b>:bow::</b> Produce 3 Gold.<br><b>Open, :bow::</b> Create a 0F/1C/0PH Geisha Personality under another player\'s control with the trait "You have -1 maximum hand size." Destroy this Holding.'
 House_of_Floating_Petals = Holding(
     card_id=11551,
     title="House of Floating Petals",
@@ -60,6 +65,7 @@ House_of_Floating_Petals = Holding(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>:bow::</b> Produce 5 Gold. <br>After a Personality is Recruited, you may bow and destroy this Holding to bow him, and you gain a Conspiracy token if his controller has no unbowed Personalities in play."
 House_of_Loose_Silk = Holding(
     card_id=11552,
     title="House of Loose Silk",
@@ -69,6 +75,7 @@ House_of_Loose_Silk = Holding(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>:bow::</b> Produce 2 Gold, or 4 Gold if you control two or more other Geisha Houses."
 House_of_the_Floating_Lotus = Holding(
     card_id=11553,
     title="House of the Floating Lotus",
@@ -78,6 +85,7 @@ House_of_the_Floating_Lotus = Holding(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>:bow::</b> Produce 2 Gold.<br><b>:bow::</b> Produce 2 Gold that can only pay for a single Kharmic action. Straighten this Holding after your next Dynasty Phase begins."
 Kumite_Grounds = Holding(
     card_id=11554,
     title="Kumite Grounds",
@@ -87,6 +95,7 @@ Kumite_Grounds = Holding(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(<b>Repeatable Limited, :g2::</b> Discard a Kharmic card from your Province and refill it face-up.)</i> <br>After you Equip a Follower paying 1 or more Gold, give this Holding +1GP <i>(this turn)</i>.<br><b>:bow::</b> Produce 2 Gold."
 Lonely_Dojo = Holding(
     card_id=11555,
     title="Lonely Dojo",
@@ -96,6 +105,7 @@ Lonely_Dojo = Holding(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>:bow::</b> Produce 1 Gold.<br><b>Open, :bow::</b> A target player shows a random card in his hand.<br><b>Open, :bow::</b> Turn a target card in another player's Province face-up."
 Momijis_Chambers = Holding(
     card_id=11556,
     title="Momiji's Chambers",
@@ -105,6 +115,7 @@ Momijis_Chambers = Holding(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"This Fortification enters play bowed. This Province has +1 strength for each other Fortification attached to it, up to 3.<br><b>:bow::</b> Produce 3 Gold."
 MushaGaeshi = Holding(
     card_id=11557,
     title="Musha-Gaeshi",
@@ -114,6 +125,7 @@ MushaGaeshi = Holding(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>:bow::</b> Produce 2 Gold.<br>You may use this Holding's printed ability one additional time per turn for each of your Markets in play. <br><b>Economic Battle, :g2::</b> Give a target enemy Personality -1F."
 Second_City_Harbor = Holding(
     card_id=11558,
     title="Second City Harbor",
@@ -123,6 +135,7 @@ Second_City_Harbor = Holding(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>:bow::</b> Produce 1 Gold.<br><b>Open, :bow:, :gstar::</b> Search your Dynasty deck for a Market or Port. Recruit it <i>(bowed)</i>. Destroy this Holding."
 Second_City_Market = Holding(
     card_id=11559,
     title="Second City Market",
@@ -132,6 +145,7 @@ Second_City_Market = Holding(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"This Fortification enters play bowed. Your Fear effects during battles at this Province have +1 strength.<br><b>:bow::</b> Produce 2 Gold."
 The_Inner_Ring = Holding(
     card_id=11560,
     title="The Inner Ring",
@@ -141,6 +155,7 @@ The_Inner_Ring = Holding(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"After this Holding enters play, take the Imperial Favor and rehonor one of your Personalities <i>(if able)</i>. You may Recruit this Holding as a <b>Political Open</b> action.<br><b>:bow::</b> Produce 2 Gold."
 The_Ivory_Courtroom = Holding(
     card_id=11561,
     title="The Ivory Courtroom",

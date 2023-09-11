@@ -18,6 +18,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 
 from ..common import Personality
 
+"<i>(You may Recruit a Reserve Personality, if they would be opposed, as an <b>Absent Battle</b> action.)</i><br><b>Absent Interrupt:</b> After you Recruit Ryushi, give him +2F."
 Daidoji_Ryushi = Personality(
     card_id=11734,
     title="Daidoji Ryushi",
@@ -32,6 +33,7 @@ Daidoji_Ryushi = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Battle:</b> Give a target Personality that has moved or entered play this battle +2F or -2F."
 Daidoji_Sutebo = Personality(
     card_id=11735,
     title="Daidoji Sutebo",
@@ -46,6 +48,7 @@ Daidoji_Sutebo = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"Natsuyo enters play for 1 less Gold if another player is Scorpion Clan.<br><b>Favor Political Open, :bow::</b> Discard the Imperial Favor to gain 1 Honor."
 Doji_Natsuyo = Personality(
     card_id=11736,
     title="Doji Natsuyo",
@@ -60,6 +63,7 @@ Doji_Natsuyo = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Interrupt:</b> If the action creates a duel involving Burei, ignore Items' Chi Modifiers in the duel's resolution.<br><b>Iaijutsu Battle:</b> Give a target enemy Personality -3F."
 Kakita_Burei = Personality(
     card_id=11737,
     title="Kakita Burei",
@@ -74,6 +78,7 @@ Kakita_Burei = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Political Open, :bow::</b> Target a Personality. After the next time he assigns to attack a Province with a Fortification, target a player who gains or loses 1 Honor."
 Kakita_Jikeru = Personality(
     card_id=11738,
     title="Kakita Jikeru",
@@ -88,6 +93,7 @@ Kakita_Jikeru = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Draw a card after you Recruit a Destined card. Duelists win tied duels versus non-Duelists.)</i>"
 Kakita_Mitohime = Personality(
     card_id=11739,
     title="Kakita Mitohime",

@@ -5,6 +5,7 @@ from l5r_auto.legality import ModernEdition, TwentyFestivalsEdition
 
 from ..common import Stronghold
 
+"This Stronghold produces 4 Gold on your first turn.<br><b>Battle/Engage:</b> If he would be opposed, move your target unbowed Personality in a Cavalry unit at any location to the current battlefield.<br><i>(When going second, you get +1PS and a second use of Cycle on any turn)</i>"
 The_Endless_Plains_of_the_Unicorn = Stronghold(
     card_id=12263,
     title="The Endless Plains of the Unicorn",

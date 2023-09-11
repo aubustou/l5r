@@ -18,6 +18,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 
 from ..common import Personality
 
+"Atsuto has <b>Resilient</b> while opposing a dishonorable Personality. <i>(Once per game per card, a Resilient card does not die in battle resolution.)</i>"
 Bayushi_Atsuto = Personality(
     card_id=11598,
     title="Bayushi Atsuto",
@@ -32,6 +33,7 @@ Bayushi_Atsuto = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Home Battle:</b> If he would be opposed, move Yasunari to the current battlefield."
 Bayushi_Yasunari = Personality(
     card_id=11599,
     title="Bayushi Yasunari",
@@ -46,6 +48,7 @@ Bayushi_Yasunari = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Once per game per card, a Resilient card does not die in battle resolution.)</i><br>Kiyofumi has Destined while you control a Geisha <i>(Geisha Houses are not Geisha; Draw a card after you Recruit a Destined card)</i>."
 Shosuro_Kiyofumi = Personality(
     card_id=11600,
     title="Shosuro Kiyofumi",
@@ -60,6 +63,7 @@ Shosuro_Kiyofumi = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Interrupt:</b> Increase each Honor loss from the Battle action by 1."
 Shosuro_Yasumasa = Personality(
     card_id=11601,
     title="Shosuro Yasumasa",
@@ -74,6 +78,7 @@ Shosuro_Yasumasa = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Interrupt, :bow::</b> After the action Equips your Spell to Kitaiko, draw a card. <br><b>Air Tireless Open:</b> If Kitaiko has an Air Spell, straighten her."
 Soshi_Kitaiko = Personality(
     card_id=11602,
     title="Soshi Kitaiko",
@@ -88,6 +93,7 @@ Soshi_Kitaiko = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+'Gingo enters play for 1 less Gold if your Allegiance is Traditionalist.<br>Invest :g10:: Give Gingo two +1F/+1C tokens, and permanently give him <b>Conqueror </b>and the ability, "<b>Battle:</b> Move a target Personality home." This Invest cost cannot be reduced.'
 Yogo_Gingo = Personality(
     card_id=11603,
     title="Yogo Gingo",

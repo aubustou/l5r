@@ -16,6 +16,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 
 from ..common import Personality
 
+"<i>(Duelists win tied duels versus non-Duelists. Draw a card after your Expendable card dies.)</i><br><b>Battle:</b> Fear 2."
 Daigotsu_Atsushi = Personality(
     card_id=11770,
     title="Daigotsu Atsushi",
@@ -30,6 +31,7 @@ Daigotsu_Atsushi = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Draw a card after your Expendable card dies.)</i><br><b>Open, :bow::</b> Look at the top five cards of your Fate deck. You may rearrange them. Draw a card. Destroy Teruo."
 Daigotsu_Teruo = Personality(
     card_id=11771,
     title="Daigotsu Teruo",
@@ -44,6 +46,7 @@ Daigotsu_Teruo = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Kensai may attach two Weapons, as long as neither is Two-Handed.)</i><br>After a Fear effect from a card in Nao's unit, or from your action that targeted Nao, bows a Follower, destroy it."
 Nao = Personality(
     card_id=11772,
     title="Nao",
@@ -58,6 +61,7 @@ Nao = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"Before one of Sora's Weapons is destroyed, draw a card.<br><b>Battle, :bow::</b> Melee 2 Attack. You may bow Sora's Weapon to straighten him."
 Sora = Personality(
     card_id=11773,
     title="Sora",
@@ -72,6 +76,7 @@ Sora = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(You may Recruit a Reserve Personality, if they would be opposed, as an <b>Absent Battle</b> action.)</i><br>Mizuki's Reserve may be used as <b>Absent Battle/Engage</b>.<br>Invest :g1:: Take the Imperial Favor."
 Susumu_Mizuki = Personality(
     card_id=11774,
     title="Susumu Mizuki",
@@ -86,6 +91,7 @@ Susumu_Mizuki = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"After your Spider Clan Personality is destroyed, gain 1 Honor.<br><b>Home Political Battle, :bow::</b> Destroy your target Spider Clan Personality to destroy a target enemy card without attachments."
 Susumu_Takuan = Personality(
     card_id=11775,
     title="Susumu Takuan",

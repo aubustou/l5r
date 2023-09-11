@@ -17,6 +17,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 
 from ..common import Personality
 
+"<b>Political Battle, :bow::</b> Dishonor a target enemy Personality and give him -2F. If this targeted a Crab Clan Personality, you may target another Personality and give him -2F."
 Kitsuki_Kira = Personality(
     card_id=11740,
     title="Kitsuki Kira",
@@ -31,6 +32,7 @@ Kitsuki_Kira = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Once per turn, as an Absent Engage, move your unbowed Personality in a Cavalry unit to this battle. Kensai may attach two Weapons, as long as neither is Two-Handed.)</i>"
 Mirumoto_Reiji = Personality(
     card_id=11741,
     title="Mirumoto Reiji",
@@ -45,6 +47,7 @@ Mirumoto_Reiji = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"Takanori has +1C while he has a Weapon.<br><b>Battle:</b> Fear equal to Takanori's Chi."
 Mirumoto_Takanori = Personality(
     card_id=11742,
     title="Mirumoto Takanori",
@@ -59,6 +62,7 @@ Mirumoto_Takanori = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Shugenja may attach and cast Spells.)</i><br>Your Provinces with one or more Fortifications attached have +1 strength."
 Tamori_Junya = Personality(
     card_id=11743,
     title="Tamori Junya",
@@ -73,6 +77,7 @@ Tamori_Junya = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Shugenja may attach and cast Spells.)</i><br><b>Battle:</b> Bow or destroy Touya's target Spell to reduce a target enemy Follower or Personality's Force by the Spell's Focus Value. If the Spell was Earth, gain 1 Honor."
 Tamori_Touya = Personality(
     card_id=11744,
     title="Tamori Touya",
@@ -87,6 +92,7 @@ Tamori_Touya = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Battle, :bow::</b> Destroy a target enemy attachment with Force less than or equal to Yayoi's Chi."
 Togashi_Yayoi = Personality(
     card_id=11745,
     title="Togashi Yayoi",

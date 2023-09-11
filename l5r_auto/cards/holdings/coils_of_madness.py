@@ -11,6 +11,7 @@ from l5r_auto.legality import (
 
 from .common import Holding
 
+"This Holding has +2GP when it pays for a single attachment only."
 Colonial_Temple = Holding(
     card_id=10433,
     title="Colonial Temple",

@@ -11,6 +11,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<i>(Once a turn, the Attacker gets the first Battle action, if it's from a Naval Personality's unit.)</i> <br><b>Thunder Battle, :g*::</b> Equip a target Spell to Sarassa. You may take an additional action to use one of the Spell's Battle abilities."
 Sarassa = Personality(
     card_id=6475,
     title="Sarassa",

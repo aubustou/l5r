@@ -11,6 +11,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<i>(Shugenja may attach and cast Spells.)</i><br><b>Political Interrupt, :bow::</b> Increase any Honor loss from the action by 1."
 Yogo_Honami = Personality(
     card_id=9491,
     title="Yogo Honami",

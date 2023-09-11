@@ -12,6 +12,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<i>(A Conqueror's unit doesn't bow after battle.)</i>"
 Bayushi_Aibako = Personality(
     card_id=10581,
     title="Bayushi Aibako",

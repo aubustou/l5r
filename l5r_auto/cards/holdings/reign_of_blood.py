@@ -10,6 +10,7 @@ from l5r_auto.legality import (
 
 from .common import Holding
 
+"<b>:bow::</b> Produce 2 Gold. <br><b>Limited, :bow::</b> Shuffle an Item in your discard pile into your deck."
 Yasuki_Trader = Holding(
     card_id=9468,
     title="Yasuki Trader",

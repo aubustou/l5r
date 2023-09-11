@@ -37,6 +37,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 
 from ..common import Personality
 
+'<i>(Once per game per card, a Resilient card does not die in battle resolution. Shugenja may attach and cast Spells.)</i> <br>Will not gain the "Phoenix Clan" Clan Alignment.'
 Banished = Personality(
     card_id=11932,
     title="Banished",
@@ -51,6 +52,7 @@ Banished = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"Br'nn has +1F while he has an attachment. Br'nn has +1F while an attachment is in another player's discard pile. Br'nn has +1F while another player controls an Ashalan card."
 Brnn_Experienced = Personality(
     card_id=11933,
     title="Br'nn",
@@ -65,6 +67,7 @@ Brnn_Experienced = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"Will not gain a Clan Alignment. After your turn begins, if you control six other Love Letter cards with different titles and six Affection tokens, you win the game.<br><b>Favor Political Open, :bow::</b> Discard the Imperial Favor to draw a card."
 Iweko_Miaka_the_Princess = Personality(
     card_id=11934,
     title="Iweko Miaka, the Princess",
@@ -79,6 +82,7 @@ Iweko_Miaka_the_Princess = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"After Keppo enters play, lose 3 Honor. <br><b>Interrupt, [*]:</b> If the action Recruits Keppo or is his printed Battle action, after it resolves, Equip a target attachment from another player's discard pile to him.<br><b>Battle:</b> Destroy a target enemy attachment with 4 Gold Cost or less."
 Keppo_Experienced = Personality(
     card_id=11936,
     title="Keppo",
@@ -93,6 +97,7 @@ Keppo_Experienced = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"After Masajiro enters play, lose 2 Honor. <br><b>Home Battle:</b> If he would be opposed, move Masajiro to the current battlefield. After he moves, straighten his attachments if there is another Nonhuman or Unique Personality in his army."
 Masajiro = Personality(
     card_id=11935,
     title="Masajiro",
@@ -107,6 +112,7 @@ Masajiro = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"Other players' actions targeting The Abbot cost 2 more Gold <i>(even actions without Gold costs)</i>. <br>Invest :g1:: Gain a Conspiracy Token. You may give a target card you do not control a Clout Token. <br><b>Kolat Political Open:</b> Straighten a target Holding."
 The_Abbot_Experienced_3 = Personality(
     card_id=11937,
     title="The Abbot",

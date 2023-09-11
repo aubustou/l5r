@@ -11,6 +11,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<i>(You may Recruit a Reserve Personality, if he would be opposed, as an Absent Battle action.)</i> <br><b>Thunder Absent Interrupt:</b> After you Recruit Gosho at this battlefield, Ranged 3 Attack."
 Tsuruchi_Gosho = Personality(
     card_id=8833,
     title="Tsuruchi Gosho",

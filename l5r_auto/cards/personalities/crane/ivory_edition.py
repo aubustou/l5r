@@ -23,6 +23,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 
 from ..common import Personality
 
+"<i><i>(Shugenja may attach and cast Spells.)</i></i>"
 Asahina_Umeko = Personality(
     card_id=11155,
     title="Asahina Umeko",
@@ -37,6 +38,7 @@ Asahina_Umeko = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Battle, :bow::</b> Ranged 4 Attack <i>(Destroy a target enemy Follower, or Personality without Followers, with 4 or lower Force)</i>."
 Daidoji_Kinta = Personality(
     card_id=11156,
     title="Daidoji Kinta",
@@ -65,6 +67,7 @@ Daidoji_Tanshi = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Engage:</b> Raise Ujirou's Force, and the Force of a target Personality in his army, to equal the Force of a target enemy card."
 Daidoji_Ujirou = Personality(
     card_id=11158,
     title="Daidoji Ujirou",
@@ -79,6 +82,7 @@ Daidoji_Ujirou = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Battle:</b> Bow a target enemy dishonorable Personality. Raise or lower this Province's strength by Etsuki's Personal Honor."
 Doji_Etsuki = Personality(
     card_id=11159,
     title="Doji Etsuki",
@@ -93,6 +97,7 @@ Doji_Etsuki = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"Katata cannot attack or defend. You may take Favor Battle actions one additional time per turn. <br><b>Political Home Battle/Open, :bow::</b> Take the Imperial Favor."
 Doji_Katata = Personality(
     card_id=11160,
     title="Doji Katata",
@@ -107,6 +112,7 @@ Doji_Katata = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"Your other Crane Clan Personalities have +1PH.<br><b>Favor Political Limited:</b> Discard the Imperial Favor to draw a card."
 Doji_Makoto_the_Smiling_Blade_Experienced = Personality(
     card_id=11161,
     title="Doji Makoto, the Smiling Blade",
@@ -130,6 +136,7 @@ Doji_Makoto_the_Smiling_Blade_Experienced = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Limited:</b> Discard the top card of your Fate deck. Target another player, who may choose to lose 2 Honor. If he does not choose this, gain Honor equal to the card's Focus Value."
 Doji_Shirarou = Personality(
     card_id=11162,
     title="Doji Shirarou",
@@ -144,6 +151,7 @@ Doji_Shirarou = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Open:</b> Target a Personality with lower Personal Honor than Soeka's Chi. Set his Force equal to his own Chi."
 Doji_Soeka = Personality(
     card_id=11163,
     title="Doji Soeka",
@@ -158,6 +166,7 @@ Doji_Soeka = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Duelists win tied duels versus non-Duelists.)</i><br><b>Political Limited, :bow::</b> Another player's target Personality may challenge Amiki. If he does not, his abilities may not be used until your next turn begins. Destroy the duel's loser."
 Kakita_Amiki = Personality(
     card_id=11164,
     title="Kakita Amiki",
@@ -172,6 +181,7 @@ Kakita_Amiki = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Duelists win tied duels versus non-Duelists.)</i><br><b>Battle:</b> Fear 1, with +1 strength if Ibara has challenged a Personality this turn."
 Kakita_Ibara = Personality(
     card_id=11165,
     title="Kakita Ibara",

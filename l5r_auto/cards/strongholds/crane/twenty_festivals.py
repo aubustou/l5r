@@ -5,6 +5,7 @@ from l5r_auto.legality import ModernEdition, TwentyFestivalsEdition
 
 from ..common import Stronghold
 
+"<b>Political Open, :bow::</b> If you control a Personality, gain 2 Honor.<br><i>(When going second, you get +1PS and a +5 Lobby bonus)</i>"
 The_Esteemed_Palace_of_the_Crane = Stronghold(
     card_id=12258,
     title="The Esteemed Palace of the Crane",

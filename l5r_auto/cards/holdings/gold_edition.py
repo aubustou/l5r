@@ -13,6 +13,7 @@ from l5r_auto.legality import (
 
 from .common import Holding
 
+"<b>:bow::</b> Produce 3 Gold. <br><b>:bow::</b> Produce 5 Gold, which can only pay for a single Jade card."
 Jade_Works = Holding(
     card_id=4036,
     title="Jade Works",
@@ -31,6 +32,7 @@ Jade_Works = Holding(
         ModernEdition,
     ],
 )
+"<i>(Fortifications attach to the Province from which they entered play.)</i><br>Enters play unbowed. <br><b>Limited, :bow::</b> Gain 2 Honor."
 Poorly_Placed_Garden = Holding(
     card_id=6021,
     title="Poorly Placed Garden",

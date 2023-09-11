@@ -21,6 +21,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 
 from ..common import Personality
 
+"Your other Moshi Personalities in Ikako's army have +1F. After Ikako enters play, you may take an additional action.<br><b>Fire Battle:</b> Ranged Attack equal to 2 plus the number of other Personalities in this army."
 Moshi_Ikako_Experienced = Personality(
     card_id=12128,
     title="Moshi Ikako",
@@ -35,6 +36,7 @@ Moshi_Ikako_Experienced = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Shugenja may attach and cast Spells.)</i>"
 Moshi_Karuiko = Personality(
     card_id=12129,
     title="Moshi Karuiko",
@@ -49,6 +51,7 @@ Moshi_Karuiko = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Battle, :bow::</b> Ranged 4 Attack. Bow the target if it is still in play."
 Tsuruchi_Arayo = Personality(
     card_id=12130,
     title="Tsuruchi Arayo",
@@ -63,6 +66,7 @@ Tsuruchi_Arayo = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Battle, :bow::</b> Ranged 3 Attack. You may target a Mantis Clan Personality in one of your Provinces and reduce his Gold Cost by 2 <i>(this turn)</i>, to a minimum of 3."
 Tsuruchi_Jinrai = Personality(
     card_id=12131,
     title="Tsuruchi Jinrai",
@@ -77,6 +81,7 @@ Tsuruchi_Jinrai = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Kensai may attach two One-Handed Weapons. Once a turn, the Attacker gets the first Battle action, if it's from a Naval Personality's unit.)</i><br><b>Battle:</b> Give a target enemy Personality -2F, or -3F if Juriken has a Gaijin or Peasant Weapon attached."
 Yoritomo_Juriken = Personality(
     card_id=12132,
     title="Yoritomo Juriken",
@@ -91,6 +96,7 @@ Yoritomo_Juriken = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Once a turn, the Attacker gets the first Battle action, if it's from a Naval Personality's unit.)</i><br>While opposed, Kuniken has +1F for each of your Port Holdings, up to three Ports."
 Yoritomo_Kuniken = Personality(
     card_id=12133,
     title="Yoritomo Kuniken",
@@ -105,6 +111,7 @@ Yoritomo_Kuniken = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"Equipping Weapons is Battle/Open for you.<br><b>Battle:</b> Bow your target unbowed Weapon, then straighten it if it is Gaijin or Peasant. Destroy a target enemy attachment."
 Yoritomo_Matsuo_Experienced = Personality(
     card_id=12134,
     title="Yoritomo Matsuo",
@@ -119,6 +126,7 @@ Yoritomo_Matsuo_Experienced = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Economic Home Interrupt, :g2::</b> Give the action's Ranged Attacks +2 or -2 strength."
 Yoritomo_Minoro = Personality(
     card_id=12135,
     title="Yoritomo Minoro",
@@ -133,6 +141,7 @@ Yoritomo_Minoro = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Kensai may attach two One-Handed Weapons.)</i> <br><b>Battle:</b> Fear 2, with +2 strength if Nintai has a Gaijin or Peasant Weapon attached, and with +1 strength if her army has fewer units than the enemy army."
 Yoritomo_Nintai = Personality(
     card_id=12136,
     title="Yoritomo Nintai",
@@ -147,6 +156,7 @@ Yoritomo_Nintai = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Kensai may attach two One-Handed Weapons. Once a turn, the Attacker gets the first Battle action, if it's from a Naval Personality's unit.)</i>"
 Yoritomo_Saitsuko = Personality(
     card_id=12137,
     title="Yoritomo Saitsuko",
@@ -161,6 +171,7 @@ Yoritomo_Saitsuko = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Once a turn, the Attacker gets the first Battle action, if it's from a Naval Personality's unit.)</i>"
 Yoritomo_Tsuhime = Personality(
     card_id=12138,
     title="Yoritomo Tsuhime",
@@ -175,6 +186,7 @@ Yoritomo_Tsuhime = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Interrupt:</b> If the action is a Ranged Attack action, after it resolves, give your target Personality +2F."
 Yoritomo_Waito = Personality(
     card_id=12139,
     title="Yoritomo Waito",

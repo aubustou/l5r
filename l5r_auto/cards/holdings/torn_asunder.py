@@ -11,6 +11,7 @@ from l5r_auto.legality import (
 
 from .common import Holding
 
+"<b>Open:</b> Target two of your Personalities. A lesson is taught. One copies Commander, Duelist, Kensai, Magistrate, Paragon, Scout, or Yojimbo from the other."
 Miryoku_no_Shima = Holding(
     card_id=10268,
     title="Miryoku no Shima",
@@ -19,6 +20,7 @@ Miryoku_no_Shima = Holding(
     abilities=[],
     legality=[TwentyFestivalsEdition, EmperorEdition, OnyxEdition, ModernEdition],
 )
+"<b>:bow::</b> Produce 2 Gold. If you bowed this Holding while paying to Recruit a Farm Holding, refill the Province face-up."
 Vast_Paddy_Fields = Holding(
     card_id=10271,
     title="Vast Paddy Fields",

@@ -23,6 +23,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 
 from ..common import Personality
 
+"<i>(Shugenja may attach and cast Spells.)</i>"
 Iuchi_Daitoru = Personality(
     card_id=12181,
     title="Iuchi Daitoru",
@@ -37,6 +38,7 @@ Iuchi_Daitoru = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Battle, :bow::</b> Ranged 3 Attack. Straighten Aikenro if you have moved your Cavalry Personality to Aikenro's battlefield this turn."
 Moto_Aikenro = Personality(
     card_id=12182,
     title="Moto Aikenro",
@@ -51,6 +53,7 @@ Moto_Aikenro = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Battle:</b> Fear equal to your target Follower's Force, with +1 strength if the Fear targets an enemy Infantry card."
 Moto_Taigo_Shogun_Experienced_2 = Personality(
     card_id=12183,
     title="Moto Taigo, Shogun",
@@ -74,6 +77,7 @@ Moto_Taigo_Shogun_Experienced_2 = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Once per turn, as an Absent Engage, move your unbowed Personality in a Cavalry unit to the battle.)</i><br>After an action resolves, straighten each unit it moved into Yao-tsu's army."
 Moto_Yaotsu = Personality(
     card_id=12184,
     title="Moto Yao-tsu",
@@ -88,6 +92,7 @@ Moto_Yaotsu = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Once per turn, as an Absent Engage, move your unbowed Personality in a Cavalry unit to the battle.)</i>"
 Moto_Zaitsuta = Personality(
     card_id=12185,
     title="Moto Zaitsuta",
@@ -102,6 +107,7 @@ Moto_Zaitsuta = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Battle:</b> Fear 3 that may target a dishonorable Personality with Followers. If this bowed a dishonorable Personality, you may rehonor him to gain 1 Honor."
 Shinjo_Hamura = Personality(
     card_id=12186,
     title="Shinjo Hamura",
@@ -116,6 +122,7 @@ Shinjo_Hamura = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Interrupt:</b> After your Battle action Recruits your Personality, take an additional action."
 Shinjo_Jalendu = Personality(
     card_id=12187,
     title="Shinjo Jalendu",
@@ -130,6 +137,7 @@ Shinjo_Jalendu = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Once per turn, as an Absent Engage, move your unbowed Personality in a Cavalry unit to the battle. Loyal Personalities will not join other Clans.)</i><br><b>Political Open, :bow::</b> Target a Personality. After the next time this turn he attacks you, dishonor him."
 Shinjo_Jaoshen = Personality(
     card_id=12188,
     title="Shinjo Jao-shen",
@@ -144,6 +152,7 @@ Shinjo_Jaoshen = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"During an Attack Phase, if Nobunaga has not moved that phase, he has +1F and his printed Ranged Attack has +1 strength.<br><b>Battle, :bow::</b> Ranged 3 Attack."
 Shinjo_Nobunaga = Personality(
     card_id=12189,
     title="Shinjo Nobunaga",
@@ -158,6 +167,7 @@ Shinjo_Nobunaga = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"Other players' effects will not move dishonorable Personalities to oppose your Magistrates.<br><b>Battle:</b> Dishonor a target enemy Personality. You may take an additional action printed on your Magistrate or a card in his unit."
 Shinjo_Taehyun_Experienced = Personality(
     card_id=12190,
     title="Shinjo Tae-hyun",
@@ -172,6 +182,7 @@ Shinjo_Taehyun_Experienced = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Battle:</b> Move home your target Personality."
 Shinjo_Zhitae = Personality(
     card_id=12191,
     title="Shinjo Zhi-tae",
@@ -186,6 +197,7 @@ Shinjo_Zhitae = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Battle:</b> Give a target enemy Follower or Personality a Force penalty equal to Kazue's Personal Honor. Gain 1 Honor."
 Utaku_Kazue = Personality(
     card_id=12192,
     title="Utaku Kazue",

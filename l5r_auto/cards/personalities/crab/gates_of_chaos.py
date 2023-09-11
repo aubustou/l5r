@@ -12,6 +12,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<i>(Draw a card after you Recruit a Destined card.)</i><br><b>Battle, :bow::</b> Ranged 2 Attack <i>(Destroy a target enemy Follower or Personality without Followers with 2 or lower Force)</i>."
 Toritaka_Iabuchi = Personality(
     card_id=10621,
     title="Toritaka Iabuchi",

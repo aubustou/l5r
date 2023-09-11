@@ -11,6 +11,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<i><i>(Once per turn, as an Absent Engage, move your unbowed Personality in a Cavalry unit to this battle. Shugenja may attach and cast Spells.)</i></i>"
 Tamori_Seiken = Personality(
     card_id=7790,
     title="Tamori Seiken",

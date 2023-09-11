@@ -12,6 +12,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<i>(Once a turn, the Attacker gets the first Battle action, if it's from a Naval Personality's unit.)</i><br><b>Tireless Battle/Open:</b> Bow your target unbowed Port. Straighten Sasada."
 Sasada = Personality(
     card_id=6476,
     title="Sasada",

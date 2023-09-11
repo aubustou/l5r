@@ -24,6 +24,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"After Fushiki enters play, lose 4 Honor.<br><b>Fire Battle:</b> Destroy a target Fortification at this battlefield with Gold Cost lower than Fushiki's Force. Give Fushiki a +1F token."
 Fushiki_no_Oni = Personality(
     card_id=2749,
     title="Fushiki no Oni",
@@ -38,6 +39,7 @@ Fushiki_no_Oni = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, DiamondEdition, ModernEdition],
 )
+"After you Recruit Gekido, lose 3 Honor. Cannot attach Followers or Items. <br><b>Battle/Open:</b> Give Gekido +2F/+3C until this phase ends. After the phase ends, give Gekido -2F/-2C until your next turn ends."
 Gekido_no_Oni = Personality(
     card_id=2786,
     title="Gekido no Oni",
@@ -59,6 +61,7 @@ Gekido_no_Oni = Personality(
         ModernEdition,
     ],
 )
+"Cannot attach Armor or Followers."
 Ogre_Bushi = Personality(
     card_id=5675,
     title="Ogre Bushi",
@@ -82,6 +85,7 @@ Ogre_Bushi = Personality(
         ModernEdition,
     ],
 )
+"After Voitagi enters play, lose 3 Honor.<br><b>Battle:</b> Fear 3 <i>(Bow a target enemy Follower or Personality without Followers with 3 or lower Force)</i>."
 Voitagi = Personality(
     card_id=9182,
     title="Voitagi",

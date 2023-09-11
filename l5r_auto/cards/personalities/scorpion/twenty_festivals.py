@@ -24,6 +24,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 
 from ..common import Personality
 
+"<b>Political Interrupt:</b> If the action targets Junko and is another player's, he may choose to lose 2 Honor. If he did not choose this, negate the action.<br><b>Tireless Battle:</b> Move Junko home."
 Bayushi_Junko = Personality(
     card_id=12151,
     title="Bayushi Junko",
@@ -38,6 +39,7 @@ Bayushi_Junko = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Political Interrupt:</b> After Katsue enters play, a target player loses 1 Honor."
 Bayushi_Katsue = Personality(
     card_id=12152,
     title="Bayushi Katsue",
@@ -52,6 +54,7 @@ Bayushi_Katsue = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Kensai may attach two One-Handed Weapons.)</i>"
 Bayushi_Manora = Personality(
     card_id=12153,
     title="Bayushi Manora",
@@ -66,6 +69,7 @@ Bayushi_Manora = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Kensai may attach two One-Handed Weapons.)</i><br><b>Battle, :bow::</b> Fear 4. You may bow Saikaku's Weapon or destroy a Madness token on him to straighten him."
 Bayushi_Saikaku = Personality(
     card_id=12154,
     title="Bayushi Saikaku",
@@ -80,6 +84,7 @@ Bayushi_Saikaku = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"Sunetsu's Items must be Armor or Weapons.<br><b>Battle:</b> If Sunetsu has one or no Followers, move her to an unresolved battlefield."
 Bayushi_Sunetsu = Personality(
     card_id=12155,
     title="Bayushi Sunetsu",
@@ -94,6 +99,7 @@ Bayushi_Sunetsu = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Battle:</b> Fear equal to the Force of your target unbowed Kensai. You may destroy a Madness token on Toshimo to have this destroy cards after it bows them."
 Bayushi_Toshimo_Experienced = Personality(
     card_id=12156,
     title="Bayushi Toshimo",
@@ -108,6 +114,7 @@ Bayushi_Toshimo_Experienced = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Duelists win tied duels versus non-Duelists.)</i><br>Longji's Followers must be Ninja. Personalities cannot refuse a challenge from Longji unless they bow first. Your actions targeting Longji that create challenges are Unstoppable. <i>(Other players cannot Interrupt Unstoppable actions.)</i>"
 Shosuro_Longji = Personality(
     card_id=12157,
     title="Shosuro Longji",
@@ -122,6 +129,7 @@ Shosuro_Longji = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Duelists win tied duels versus non-Duelists.)</i><br>After Saigyo enters play, lose 2 Honor.<br><b>Ninja Battle:</b> A target enemy Personality challenges Saigyo. Give the winner +2F."
 Shosuro_Saigyo = Personality(
     card_id=12158,
     title="Shosuro Saigyo",
@@ -136,6 +144,7 @@ Shosuro_Saigyo = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Ninja Open, :bow::</b> Your other target unbowed Ninja Personality challenges another player's target Personality. He may refuse; if he does, give him a -1F/-1C Poison token. Bow the loser."
 Shosuro_Sakura = Personality(
     card_id=12159,
     title="Shosuro Sakura",
@@ -150,6 +159,7 @@ Shosuro_Sakura = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"After an action from Rei's unit dishonors another player's Personality, his controller loses 1 Honor. After the first time each turn her own Spell bows Rei, straighten her."
 Soshi_Rei = Personality(
     card_id=12160,
     title="Soshi Rei",

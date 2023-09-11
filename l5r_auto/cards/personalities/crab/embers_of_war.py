@@ -31,6 +31,7 @@ Hiruma_Moritoki = Personality(
         ModernEdition,
     ],
 )
+"Your Holdings enter play for 1 less Gold. <br><b>Economic Home Battle, :bow::</b> Target an enemy Personality. His controller may pay 4 Gold. If he does, he loses 1 Honor. If he does not, dishonor the target and move him home."
 Yasuki_Makoto = Personality(
     card_id=9449,
     title="Yasuki Makoto",

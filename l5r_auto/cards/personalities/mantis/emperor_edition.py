@@ -41,6 +41,7 @@ Kitsune_Kohaki = Personality(
         ModernEdition,
     ],
 )
+"<i>(Once a turn, the Attacker gets the first Battle action, if it's from a Naval Personality's unit. Shugenja may attach and cast Spells.)</i><br><b>Thunder Battle:</b> Bow a target enemy card without attachments."
 Moshi_Yokohime = Personality(
     card_id=5290,
     title="Moshi Yokohime",

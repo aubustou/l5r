@@ -11,6 +11,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<b>Battle:</b> Give each Ronin Follower and Ronin Personality in Seasoned Ronin's army +1F."
 Seasoned_Ronin = Personality(
     card_id=6532,
     title="Seasoned Ronin",
@@ -25,6 +26,7 @@ Seasoned_Ronin = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, CelestialEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Duelists win tied duels versus non-Duelists.)</i>"
 Tarui = Personality(
     card_id=7821,
     title="Tarui",

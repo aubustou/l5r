@@ -21,6 +21,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<i>(A Conqueror's unit doesn't bow after battle.)</i>"
 Daigotsu_Kendo = Personality(
     card_id=1736,
     title="Daigotsu Kendo",
@@ -35,6 +36,7 @@ Daigotsu_Kendo = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, EmperorEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Kensai may attach two Weapons, as long as neither is Two-Handed.)</i> <br><b>Battle/Open:</b> Straighten a target Personality with a Weapon."
 Sandayu = Personality(
     card_id=6467,
     title="Sandayu",

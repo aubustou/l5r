@@ -12,6 +12,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"After you Recruit Minikui, lose 5 Honor.<br><b>Battle:</b> Fear with a strength equal to your target Oni's Chi."
 Minikui_no_Oni = Personality(
     card_id=5059,
     title="Minikui no Oni",

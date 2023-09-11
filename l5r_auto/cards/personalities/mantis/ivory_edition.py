@@ -22,6 +22,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 
 from ..common import Personality
 
+'<i>(Shugenja may attach and cast Spells.)</i><br><b>Earth Interrupt:</b> After you Recruit Parumba, create a 3F/2C/3PH <b>Mantis Clan &#149; Boar &#149; Nonhuman &#149; Spirit</b> Personality with the ability, "<b>Battle:</b> Melee 2 Attack."'
 Kitsune_Parumba = Personality(
     card_id=11188,
     title="Kitsune Parumba",
@@ -36,6 +37,7 @@ Kitsune_Parumba = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Once a turn, the Attacker gets the first Battle action, if it's from a Naval Personality's unit. Shugenja may attach and cast Spells.)</i><br><b>Thunder Battle:</b> Fear 2."
 Moshi_Madohime = Personality(
     card_id=11189,
     title="Moshi Madohime",
@@ -50,6 +52,7 @@ Moshi_Madohime = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Battle, :bow::</b> Ranged 3 Attack.<br><b>Tireless Battle:</b> Move Kaito home."
 Tsuruchi_Kaito = Personality(
     card_id=11190,
     title="Tsuruchi Kaito",
@@ -64,6 +67,7 @@ Tsuruchi_Kaito = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Interrupt:</b> Give one of the action's Ranged Attacks +1 strength."
 Tsuruchi_Natsuki = Personality(
     card_id=11191,
     title="Tsuruchi Natsuki",
@@ -78,6 +82,7 @@ Tsuruchi_Natsuki = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Battle, :bow::</b> Ranged 2 Attack. If this destroys a card, produce 1 Gold <i>(which can be used later this phase)</i>."
 Tsuruchi_Rin = Personality(
     card_id=11192,
     title="Tsuruchi Rin",
@@ -92,6 +97,7 @@ Tsuruchi_Rin = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"Personalities opposing Hiromi have -1F if you took the first Battle action in this battle <i>(including during that action)</i>.<br><b>Thunder Engage:</b> Your Ranged Attacks during this battle have +1 strength."
 Yoritomo_Hiromi_the_Growing_Storm_Experienced_2 = Personality(
     card_id=11193,
     title="Yoritomo Hiromi, the Growing Storm",
@@ -116,6 +122,7 @@ Yoritomo_Hiromi_the_Growing_Storm_Experienced_2 = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Once a turn, the Attacker gets the first Battle action, if it's from a Naval Personality's unit.)</i><br><b>Battle, :bow::</b> Move a target enemy non-Naval Personality home and bow his unit as he moves."
 Yoritomo_Ichido = Personality(
     card_id=11194,
     title="Yoritomo Ichido",
@@ -130,6 +137,7 @@ Yoritomo_Ichido = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Kensai may attach two Weapons, as long as neither is Two-Handed.)</i> <br>Equipping Weapons to Matsuo is a <b>Battle/Open</b> action for you."
 Yoritomo_Matsuo = Personality(
     card_id=11195,
     title="Yoritomo Matsuo",
@@ -144,6 +152,7 @@ Yoritomo_Matsuo = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Once a turn, the Attacker gets the first Battle action, if it's from a Naval Personality's unit.)</i> <br><b>Battle:</b> Personalities that did not assign to this battlefield cannot move here."
 Yoritomo_Takuya = Personality(
     card_id=11196,
     title="Yoritomo Takuya",
@@ -158,6 +167,7 @@ Yoritomo_Takuya = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i><i>(Once a turn, the Attacker gets the first Battle action, if it's from a Naval Personality's unit.)</i></i>"
 Yoritomo_Teihiko = Personality(
     card_id=11197,
     title="Yoritomo Teihiko",

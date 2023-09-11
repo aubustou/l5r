@@ -5,6 +5,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 
 from ..common import Stronghold
 
+"<i>(This card has +1PS and +2GP if you didn't go first.)</i><br><b>Limited, :g4::</b> Gain 2 Honor. <br><b>Tireless Battle:</b> Discard a card to make a Fear effect with strength equal to the card's Focus Value. <i>(Tireless actions may be taken even while bowed.)</i>"
 Gates_of_the_Second_City = Stronghold(
     card_id=11142,
     title="Gates of the Second City",

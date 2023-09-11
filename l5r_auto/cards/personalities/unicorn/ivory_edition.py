@@ -30,6 +30,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 
 from ..common import Personality
 
+"<i>(Once per turn, as an Absent Engage, move your unbowed Personality in a Cavalry unit to this battle.)</i><br><b>Political Interrupt, :bow::</b> If the action is Lobby, it does not give the Imperial Favor, and its player may Lobby once more this turn."
 Ide_Kotono = Personality(
     card_id=11233,
     title="Ide Kotono",
@@ -44,6 +45,7 @@ Ide_Kotono = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Economic Open, :bow::</b> If it is another player's turn, he may pay 2 Gold. If he did not, gain 2 Honor."
 Ide_Okinomi = Personality(
     card_id=11234,
     title="Ide Okinomi",
@@ -58,6 +60,7 @@ Ide_Okinomi = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Shugenja may attach and cast Spells.)</i> <br><b>Absent Home Battle, :bow::</b> If he would be opposed, move your target Personality at home to the current battlefield. If he is defending, straighten him as he moves."
 Iuchi_Chiwa = Personality(
     card_id=11235,
     title="Iuchi Chiwa",
@@ -72,6 +75,7 @@ Iuchi_Chiwa = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i><i>(Once per turn, as an Absent Engage, move your unbowed Personality in a Cavalry unit to this battlefield. Shugenja may attach and cast spells.)</i></i>"
 Iuchi_Honma = Personality(
     card_id=11236,
     title="Iuchi Honma",
@@ -86,6 +90,7 @@ Iuchi_Honma = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i><i>(Once per turn, as an Absent Engage, move your unbowed Personality in a Cavalry unit to this battlefield. A Conqueror's unit doesn't bow after battle.)</i></i>"
 Moto_Alagh = Personality(
     card_id=11237,
     title="Moto Alagh",
@@ -100,6 +105,7 @@ Moto_Alagh = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Once per turn, as an Absent Engage, move your unbowed Personality in a Cavalry unit to this battle.)</i><br><b>Battle:</b> Bow a target non-Unique enemy Personality with no attachments and higher Force."
 Moto_Chinua = Personality(
     card_id=11238,
     title="Moto Chinua",
@@ -114,6 +120,7 @@ Moto_Chinua = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"Infantry Personalities opposing Naleesh have -1F. After you Recruit a Personality during battle, gain 1 Honor.<br><b>Engage:</b> Give <b>Reserve</b> to a target face-up Unicorn Clan Personality in your Province."
 Moto_Naleesh_the_Living_Goddess_Experienced = Personality(
     card_id=11239,
     title="Moto Naleesh, the Living Goddess",
@@ -141,6 +148,7 @@ Moto_Naleesh_the_Living_Goddess_Experienced = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Battle:</b> Give a target enemy Personality or Follower -3F."
 Moto_Okano = Personality(
     card_id=11240,
     title="Moto Okano",
@@ -155,6 +163,7 @@ Moto_Okano = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Shugenja may attach and cast Spells.)</i><br><b>Water Limited:</b> A target Personality in a discard pile becomes honorably dead."
 Moto_Ulagan = Personality(
     card_id=11241,
     title="Moto Ulagan",
@@ -169,6 +178,7 @@ Moto_Ulagan = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i><i>(Once per turn, as an Absent Engage, move your unbowed Personality in a Cavalry unit to this battle.)</i></i>"
 Shinjo_Okiau = Personality(
     card_id=11242,
     title="Shinjo Okiau",
@@ -183,6 +193,7 @@ Shinjo_Okiau = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Battle:</b> Fear 3 <i>(Bow a target enemy Follower, or Personality without Followers, with 3 or lower Force)</i>."
 Shinjo_Tobita = Personality(
     card_id=11243,
     title="Shinjo Tobita",
@@ -197,6 +208,7 @@ Shinjo_Tobita = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i><i>(You may Recruit a Reserve Personality, if he would be opposed, as an Absent Battle action.)</i></i>"
 Utaku_HyoYeon = Personality(
     card_id=11244,
     title="Utaku Hyo-Yeon",
@@ -211,6 +223,7 @@ Utaku_HyoYeon = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Once per turn, as an Absent Engage, move your unbowed Personality in a Cavalry unit to this battle.)</i> <br><b>Battle:</b> Bow a target enemy Infantry Personality with no Followers and lower Force."
 Utaku_Izimi = Personality(
     card_id=11245,
     title="Utaku Izimi",

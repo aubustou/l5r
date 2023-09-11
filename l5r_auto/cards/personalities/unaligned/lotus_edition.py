@@ -12,6 +12,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"After Ratling Raider enters play, create two 2F/2C/2PH <b>Nonhuman &#149; Ratling</b> Personalities <i>(at his location)</i>."
 Ratling_Raider = Personality(
     card_id=6175,
     title="Ratling Raider",

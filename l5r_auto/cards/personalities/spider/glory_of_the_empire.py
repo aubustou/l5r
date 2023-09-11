@@ -12,6 +12,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"After Zenshi enters play, lose 4 Honor. <br><b>Battle:</b> Give each Undead card in Zenshi's army +1F."
 Daigotsu_Zenshi = Personality(
     card_id=1786,
     title="Daigotsu Zenshi",

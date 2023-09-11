@@ -11,6 +11,7 @@ from l5r_auto.legality import (
 
 from .common import Holding
 
+"<b>:bow::</b> Produce 2 Gold. <br><b>Open, :bow::</b> Straighten your target Courtier."
 Jiramus_Court = Holding(
     card_id=10189,
     title="Jiramu's Court",

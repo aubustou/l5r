@@ -5,6 +5,7 @@ from l5r_auto.legality import ModernEdition, TwentyFestivalsEdition
 
 from ..common import Stronghold
 
+"<b>Battle:</b> Give your target opposed Samurai a Force bonus equal to his Personal Honor.<br><i>(When going second, you get +2PS and your Stronghold ability gains Tireless)</i>"
 The_Grand_Halls_of_the_Lion = Stronghold(
     card_id=12260,
     title="The Grand Halls of the Lion",

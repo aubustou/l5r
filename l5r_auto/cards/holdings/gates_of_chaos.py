@@ -11,6 +11,7 @@ from l5r_auto.legality import (
 
 from .common import Holding
 
+"<b>Open, :bow::</b> A target Holding's abilities may not be used."
 Coastal_Pearl_Bed = Holding(
     card_id=10615,
     title="Coastal Pearl Bed",
@@ -27,6 +28,7 @@ Coastal_Pearl_Bed = Holding(
         ModernEdition,
     ],
 )
+"<b>Open, :bow::</b> Give a target Personality and each of his Followers Cavalry."
 Fudoist_Temple = Holding(
     card_id=10609,
     title="Fudoist Temple",
@@ -43,6 +45,7 @@ Fudoist_Temple = Holding(
         ModernEdition,
     ],
 )
+"When this Holding produces Gold, you may give it +1GP <i>(this turn)</i>; if you do, it will not straighten until after your next Action Phase."
 Jade_Mine = Holding(
     card_id=10614,
     title="Jade Mine",
@@ -59,6 +62,7 @@ Jade_Mine = Holding(
         ModernEdition,
     ],
 )
+"Courtesy: When this Holding produces Gold, you may give it +1GP <i>(this turn)</i> and lose 2 Honor. <i>(Courtesy traits do not take effect if you went first.)</i>"
 Slave_Pits = Holding(
     card_id=10611,
     title="Slave Pits",

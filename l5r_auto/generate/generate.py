@@ -209,12 +209,23 @@ def get_clans(card: Card, keywords: list[str] | None) -> list[str]:
 
 def to_ast(
     card: Card,
-) -> tuple[ast.Assign | None, list[str] | None, list[str] | None, list[str] | None]:
+) -> tuple[
+    ast.Assign | None,
+    ast.Expr | None,
+    list[str] | None,
+    list[str] | None,
+    list[str] | None,
+]:
     if not (type_to_ast := TYPES_TO_AST[card["type"][0].lower()]):
-        return None, None, None, None
+        return None, None, None, None, None
 
     class_name = to_valid_var_name(card["formattedtitle"])
     legalities = get_legalities(card.get("legality", []))
+
+    if _text := card.get("text"):
+        text = ast.Expr(value=ast.Constant(value=_text[0]))
+    else:
+        text = None
 
     keywords, ast_keywords = get_keywords(card.get("keywords", []))
 
@@ -332,6 +343,7 @@ def to_ast(
             ),
             lineno=0,
         ),
+        text,
         legalities,
         keywords,
         clans,
@@ -530,31 +542,28 @@ COMMON_IMPORTS = [
         names=[ast.alias(name="annotations", asname=None)],
         level=0,
     ),
-    ast.ImportFrom(
-        module="dataclasses",
-        names=[ast.alias(name="dataclass", asname=None)],
-        level=0,
-    ),
 ]
 
 
 def get_card_modules(cards: list[Card], type_: str) -> None:
     cards = sorted(cards, key=lambda card: card["formattedtitle"])
 
-    assigns_by_clan: dict[str, dict[str, list[ast.Assign]]] = {}
+    assigns_by_clan: dict[str, dict[str, list[tuple[ast.Assign, ast.Expr | None]]]] = {}
     import_clans: dict[str, dict[str, set[str]]] = {}
     import_keywords: dict[str, dict[str, set[str]]] = {}
     import_legalities: dict[str, dict[str, set[str]]] = {}
 
     for card in cards:
-        ast_, legalities, keywords, clans = to_ast(card)
+        ast_, text_, legalities, keywords, clans = to_ast(card)
         if ast_ is None:
             continue
 
         clan = card["clan"][0] if "clan" in card else ""
         edition = clean_edition(card["printing"][0]["set"][0])
 
-        assigns_by_clan.setdefault(clan, {}).setdefault(edition, []).append(ast_)
+        assigns_by_clan.setdefault(clan, {}).setdefault(edition, []).append(
+            (ast_, text_)
+        )
         if clans:
             import_clans.setdefault(clan, {}).setdefault(edition, set()).update(clans)
         if keywords:
@@ -579,13 +588,15 @@ def get_card_modules(cards: list[Card], type_: str) -> None:
 
 def get_module_ast(
     type_: str,
-    ast_objects: dict[str, dict[str, list[ast.Assign]]],
+    ast_objects_per_edition_per_clan: dict[
+        str, dict[str, list[tuple[ast.Assign, ast.Expr | None]]]
+    ],
     import_clans: dict[str, dict[str, set[str]]],
     import_keywords: dict[str, dict[str, set[str]]],
     import_legalities: dict[str, dict[str, set[str]]],
 ):
-    for clan, editions in ast_objects.items():
-        for edition, assigns in editions.items():
+    for clan, editions in ast_objects_per_edition_per_clan.items():
+        for edition, ast_objects in editions.items():
             if (module_path := get_module(type_, clan, edition)).exists():
                 module_ast = ast.parse(module_path.read_text())
             else:
@@ -647,7 +658,10 @@ def get_module_ast(
                     )
                 )
 
-            module_ast.body.extend(assigns)
+            for assign, text in ast_objects:
+                if text:
+                    module_ast.body.append(text)
+                module_ast.body.append(assign)
 
             module_ast = ast.fix_missing_locations(module_ast)
 

@@ -12,6 +12,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<b>Battle:</b> Bow a target enemy Personality with lower Force and with either no unbowed Followers or Shadowlands."
 Chaldera = Personality(
     card_id=1289,
     title="Chaldera",

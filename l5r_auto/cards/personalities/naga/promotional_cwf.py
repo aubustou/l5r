@@ -12,6 +12,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<b>Open, [bow]:</b> Give Shabura a -2F/+3C <b>Change </b>token if she does not have one, or remove one if she does."
 Shabura = Personality(
     card_id=6645,
     title="Shabura",

@@ -11,6 +11,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<b>Battle:</b> Give a target enemy Follower or Personality -4F. You may target your Personality and move him home."
 Daidoji_Tametaka = Personality(
     card_id=1682,
     title="Daidoji Tametaka",

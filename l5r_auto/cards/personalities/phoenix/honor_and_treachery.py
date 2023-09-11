@@ -11,6 +11,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<i>(Shugenja may attach and cast Spells.)</i><br>Nairuko has +2F while she has a Spell."
 Isawa_Nairuko = Personality(
     card_id=10242,
     title="Isawa Nairuko",

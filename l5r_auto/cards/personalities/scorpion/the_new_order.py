@@ -24,6 +24,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 
 from ..common import Personality
 
+"This counts as two cards when destroyed during battle resolution.<br><b>Tireless Open:</b> If you have targeted Aggushi & Janqu with a Political action this turn, straighten them.<br><b>Battle, :bow::</b> Melee 3 Attack."
 Bayushi_Aggushi_Bayushi_Janqu = Personality(
     card_id=11920,
     title="Bayushi Aggushi & Bayushi Janqu",
@@ -38,6 +39,7 @@ Bayushi_Aggushi_Bayushi_Janqu = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"Irezu has +1C if another player is Lion Clan.<br><b>Battle:</b> Move home a target unit whose total Force is less than or equal to Irezu's Chi."
 Bayushi_Irezu_Experienced = Personality(
     card_id=11921,
     title="Bayushi Irezu",
@@ -52,6 +54,7 @@ Bayushi_Irezu_Experienced = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"Iyashi has Courtier while you control The Sorrow.<br><b>Battle, :bow::</b> Melee 2 Attack, or Melee 4 Attack if you control The Sorrow or the target is Shadowlands."
 Bayushi_Iyashi_Lady_Sorrow = Personality(
     card_id=11922,
     title="Bayushi Iyashi, Lady Sorrow",
@@ -66,6 +69,7 @@ Bayushi_Iyashi_Lady_Sorrow = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Interrupt:</b> After you Recruit Yamazaki, show a random card in another player's hand.<br><b>Political Open, :bow::</b> Rehonor and bow a target dishonorable Personality."
 Shosuro_Yamazaki_the_Master_Courtier = Personality(
     card_id=11923,
     title="Shosuro Yamazaki, the Master Courtier",
@@ -80,6 +84,7 @@ Shosuro_Yamazaki_the_Master_Courtier = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"After a dishonorable Personality is destroyed, his controller loses 1 Honor.<br><b>:bow::</b> Produce Gold equal to Chijin's Chi which can only pay for a single Air or Maho Spell."
 Yogo_Chijin = Personality(
     card_id=11924,
     title="Yogo Chijin",
@@ -94,6 +99,7 @@ Yogo_Chijin = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"Courtesy: Gorobei has <b>Conqueror</b>. <i>(Courtesy traits do not take effect if you went first.)</i><br>Gorobei has +1F while in an army with a Crab Clan Personality."
 Yogo_Gorobei = Personality(
     card_id=11925,
     title="Yogo Gorobei",

@@ -22,6 +22,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 
 from ..common import Personality
 
+"Ranged Attacks targeting Fujigawa have -1 strength if another player is Mantis Clan.<br>Courtesy: Abilities on Fujigawa's Spells have <b>Unstoppable</b>. <i>(Courtesy traits do not take effect if you went first. Other players cannot Interrupt Unstoppable actions.)</i>"
 Isawa_Fujigawa = Personality(
     card_id=11916,
     title="Isawa Fujigawa",
@@ -36,6 +37,7 @@ Isawa_Fujigawa = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Fire Interrupt:</b> After the action resolves, if it was Fire and bowed or destroyed any enemy cards, give your target Shugenja +2F."
 Isawa_Nomura = Personality(
     card_id=11914,
     title="Isawa Nomura",
@@ -50,6 +52,7 @@ Isawa_Nomura = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Air Open, :bow::</b> After the next time this phase another player's action targets one of your cards, negate its <i>(remaining)</i> effects."
 Isawa_Tenkawa_the_Scholar = Personality(
     card_id=11915,
     title="Isawa Tenkawa, the Scholar",
@@ -64,6 +67,7 @@ Isawa_Tenkawa_the_Scholar = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"Kyuji may only move to a battlefield if any enemy units are there. <i>(Assigning isn't moving.)</i><br><b>Water Battle:</b> If Kyuji has not moved to a battlefield this turn, give it +2F/-2C."
 Kyuji = Personality(
     card_id=11917,
     title="Kyuji",
@@ -78,6 +82,7 @@ Kyuji = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Draw a card after you Recruit a Destined card. Duelists win tied duels versus non-Duelists.)</i>"
 Shiba_Kintaro_the_Remembered = Personality(
     card_id=11919,
     title="Shiba Kintaro, the Remembered",
@@ -92,6 +97,7 @@ Shiba_Kintaro_the_Remembered = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Unstoppable Battle:</b> Give a target enemy Follower or Personality -1F, or -3F if you control a Lion Clan Personality or your Stronghold's Gold Production is 3. <i>(Other players cannot Interrupt Unstoppable actions.)</i>"
 Shiba_Koshiba = Personality(
     card_id=11918,
     title="Shiba Koshiba",

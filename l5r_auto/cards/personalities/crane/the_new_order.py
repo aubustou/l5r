@@ -18,6 +18,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 
 from ..common import Personality
 
+"<b>Engage:</b> If Nozomi moved this battle, give her <b>Naval</b>. <br><b>Battle:</b> Fear equal to Nozomi's Force, or 2 if she is Naval."
 Daidoji_Nozomi = Personality(
     card_id=11891,
     title="Daidoji Nozomi",
@@ -32,6 +33,7 @@ Daidoji_Nozomi = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"Tomomi enters play for 1 less Gold if you are a Mantis Clan player."
 Daidoji_Tomomi = Personality(
     card_id=11890,
     title="Daidoji Tomomi",
@@ -46,6 +48,7 @@ Daidoji_Tomomi = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"Yurei will not enter play if you control a Fallen or Shadowlands Personality. Yurei has +1F for each Personality with 0 Personal Honor opposing him.<br><b>Battle:</b> Fear equal to Yurei's Force."
 Daidoji_Yurei = Personality(
     card_id=11895,
     title="Daidoji Yurei",
@@ -74,6 +77,7 @@ Doji_Shimada = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"Courtesy: After you Recruit Takato, gain 1 Honor. <i>(Courtesy traits do not take effect if you went first.)</i><br><b>Interrupt:</b> After you Recruit Takato, discard a card to make a target player discard a random card. Each of you may put the other's card in your hand."
 Doji_Takato_the_Manipulator = Personality(
     card_id=11892,
     title="Doji Takato, the Manipulator",
@@ -88,6 +92,7 @@ Doji_Takato_the_Manipulator = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"Daitsu has +1C while you control Kakita Shinichi. Daitsu will only attach one Weapon.<br><b>Unstoppable Battle, :bow::</b> Melee 2 Attack. <i>(Other players cannot Interrupt Unstoppable actions.)</i>"
 Kakita_Daitsu = Personality(
     card_id=11894,
     title="Kakita Daitsu",

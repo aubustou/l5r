@@ -20,6 +20,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<i>(Draw a card after you Recruit a Destined card.)</i><br>After Ryuko enters play, lose 1 Honor.<br><b>Battle, :bow::</b> Melee 2 Attack."
 Daigotsu_Ryuko = Personality(
     card_id=10660,
     title="Daigotsu Ryuko",
@@ -41,6 +42,7 @@ Daigotsu_Ryuko = Personality(
         ModernEdition,
     ],
 )
+"<i>(Kensai may attach two One-Handed Weapons.)</i><br><b>Home Battle:</b> If Lao-she would be opposed, move him to the current battlefield. <i>(Home actions may be taken from home.)</i>"
 Laoshe = Personality(
     card_id=10663,
     title="Lao-she",

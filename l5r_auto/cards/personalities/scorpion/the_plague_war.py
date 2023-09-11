@@ -12,6 +12,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<b>Tireless Interrupt:</b> If the action is yours and Political, straighten Orikasa after it resolves."
 Shosuro_Orikasa = Personality(
     card_id=7149,
     title="Shosuro Orikasa",

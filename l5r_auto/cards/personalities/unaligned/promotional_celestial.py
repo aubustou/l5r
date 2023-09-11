@@ -11,6 +11,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<i>(Shugenja may attach and cast Spells.)</i><br>Enomoto has +1F/+2C while he has a Spell."
 Enomoto = Personality(
     card_id=2348,
     title="Enomoto",

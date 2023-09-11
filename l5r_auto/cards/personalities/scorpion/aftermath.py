@@ -12,6 +12,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<b>Battle:</b> Give a target enemy Personality -3F."
 Bayushi_Mifuyu = Personality(
     card_id=10869,
     title="Bayushi Mifuyu",

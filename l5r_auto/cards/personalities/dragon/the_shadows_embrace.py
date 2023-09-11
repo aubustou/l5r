@@ -11,6 +11,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<i>(Battle: Discard a card to give this Tactician a Force bonus equal to the card's Focus Value.)</i> <br><b>Battle, :bow::</b> If Kasuru is attacking, draw a card. You may discard a card to straighten Kasuru."
 Togashi_Kasuru = Personality(
     card_id=9821,
     title="Togashi Kasuru",

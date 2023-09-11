@@ -12,6 +12,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<i>(Shugenja may attach and cast Spells.)</i><br><b>Earth Battle:</b> Bow a target enemy card without attachments."
 Tamori_Jinai = Personality(
     card_id=10633,
     title="Tamori Jinai",

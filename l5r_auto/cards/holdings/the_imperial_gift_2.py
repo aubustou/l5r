@@ -9,6 +9,7 @@ from l5r_auto.legality import (
 
 from .common import Holding
 
+"<b>:bow::</b> Produce 2 Gold. <br><b>Open:</b> Give a Province +3 strength. Destroy this Holding."
 Collapsing_Bridge = Holding(
     card_id=1429,
     title="Collapsing Bridge",
@@ -23,6 +24,7 @@ Collapsing_Bridge = Holding(
         ModernEdition,
     ],
 )
+"<b>:bow::</b> Produce 2 Gold.<br><b>Limited:</b> Give your target Personality +2F. Destroy this Holding."
 Frontline_Encampment = Holding(
     card_id=2706,
     title="Frontline Encampment",

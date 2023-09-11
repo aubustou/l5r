@@ -12,6 +12,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<i>(Once per turn, as an Absent Engage, move your unbowed Personality in a Cavalry unit to the battle.)</i>"
 Hida_Iguchi = Personality(
     card_id=10575,
     title="Hida Iguchi",

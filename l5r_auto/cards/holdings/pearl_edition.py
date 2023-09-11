@@ -10,6 +10,7 @@ from l5r_auto.legality import (
 
 from .common import Holding
 
+"<b>:bow::</b> When paying for a Human Shugenja, he enters play for 0 Gold."
 School_of_Wizardry = Holding(
     card_id=6494,
     title="School of Wizardry",

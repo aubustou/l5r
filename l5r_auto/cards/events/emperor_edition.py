@@ -15,6 +15,7 @@ from l5r_auto.legality import (
 
 from .common import Event
 
+"<b>Open:</b> Starting with you, each player may search his discard pile and Fate deck for a Ring, show it, and put it in his hand."
 Wisdom_Gained = Event(
     card_id=9356,
     title="Wisdom Gained",

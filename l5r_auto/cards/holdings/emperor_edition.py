@@ -26,6 +26,7 @@ from l5r_auto.legality import (
 
 from .common import Holding
 
+"<b>:bow::</b> Produce 2 Gold, or 3 Gold if you are a Lion Clan player."
 Copper_Mine = Holding(
     card_id=1497,
     title="Copper Mine",
@@ -48,6 +49,7 @@ Copper_Mine = Holding(
         ModernEdition,
     ],
 )
+"<b>:bow::</b> Produce 2 Gold. <br><b>Interrupt:</b> If it is the Action Phase, reduce one of the Honor gains or losses from the action to 0. Destroy this Holding."
 Deeds_and_Words = Holding(
     card_id=1914,
     title="Deeds and Words",
@@ -64,6 +66,7 @@ Deeds_and_Words = Holding(
         ModernEdition,
     ],
 )
+"<b>:bow::</b> Produce 2 Gold. <br><b>Limited:</b> Discard a face-up card from one of your Provinces. Refill the Province with your target discarded <i>(not dead)</i> Personality. Destroy this Holding."
 Family_Library = Holding(
     card_id=2463,
     title="Family Library",
@@ -82,6 +85,7 @@ Family_Library = Holding(
         ModernEdition,
     ],
 )
+"<b>:bow::</b> Produce 2 Gold, or 3 Gold if you are a Scorpion Clan player."
 Geisha_House = Holding(
     card_id=2784,
     title="Geisha House",
@@ -104,6 +108,7 @@ Geisha_House = Holding(
         ModernEdition,
     ],
 )
+"<b>:bow::</b> Produce 2 Gold, or 3 Gold if you are a Dragon Clan player."
 Gold_Mine = Holding(
     card_id=2867,
     title="Gold Mine",
@@ -126,6 +131,7 @@ Gold_Mine = Holding(
         ModernEdition,
     ],
 )
+"<b>:bow::</b> Produce 2 Gold, or 3 Gold if you are a Crab Clan player."
 Iron_Mine = Holding(
     card_id=3808,
     title="Iron Mine",
@@ -148,6 +154,7 @@ Iron_Mine = Holding(
         ModernEdition,
     ],
 )
+"<b>:bow::</b> Produce 2 Gold, or 3 Gold if you are a Mantis Clan player."
 Kobune_Port = Holding(
     card_id=4496,
     title="Kobune Port",
@@ -168,6 +175,7 @@ Kobune_Port = Holding(
         ModernEdition,
     ],
 )
+"<b>:bow::</b> Produce 2 Gold, or 3 Gold if you are a Crane Clan player."
 Marketplace = Holding(
     card_id=4840,
     title="Marketplace",
@@ -190,6 +198,7 @@ Marketplace = Holding(
         ModernEdition,
     ],
 )
+"<b>:bow::</b> Produce 2 Gold, or 3 Gold if you are a Spider Clan player."
 Shinomen_Marsh = Holding(
     card_id=6984,
     title="Shinomen Marsh",
@@ -207,6 +216,7 @@ Shinomen_Marsh = Holding(
         ModernEdition,
     ],
 )
+"<b>:bow::</b> Produce 2 Gold. <br><b>Battle/Open:</b> Straighten a target attachment."
 Shrine_to_Hachiman = Holding(
     card_id=7223,
     title="Shrine to Hachiman",
@@ -222,6 +232,7 @@ Shrine_to_Hachiman = Holding(
         ModernEdition,
     ],
 )
+"<b>:bow::</b> Produce 2 Gold, or 3 Gold if you are a Phoenix Clan player."
 Silver_Mine = Holding(
     card_id=7266,
     title="Silver Mine",
@@ -244,6 +255,7 @@ Silver_Mine = Holding(
         ModernEdition,
     ],
 )
+"<b>:bow::</b> Produce 2 Gold, or 3 Gold if you are a Unicorn Clan player."
 Stables = Holding(
     card_id=7443,
     title="Stables",

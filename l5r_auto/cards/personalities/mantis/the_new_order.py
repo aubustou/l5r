@@ -17,6 +17,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 
 from ..common import Personality
 
+"After you Recruit Gorikki, if you are Crane Clan, take the Imperial Favor."
 Kitsune_Gorikki = Personality(
     card_id=11909,
     title="Kitsune Gorikki",
@@ -31,6 +32,7 @@ Kitsune_Gorikki = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+'<b>Interrupt:</b> After you Recruit Yoshioka, create a 4F/2C/3PH <b>Elephant &#149; Nonhuman &#149; Spirit &#149; Cavalry</b> Personality with the ability, "<b>Battle:</b> Fear 3, or Fear 4 if the target is Cavalry."'
 Kitsune_Yoshioka = Personality(
     card_id=11908,
     title="Kitsune Yoshioka",
@@ -45,6 +47,7 @@ Kitsune_Yoshioka = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Battle, :bow::</b> Ranged 4 Attack <i>(Destroy a target enemy Follower or Personality without Followers with 4 or lower Force)</i>."
 Tsuruchi_Satou = Personality(
     card_id=11911,
     title="Tsuruchi Satou",
@@ -59,6 +62,7 @@ Tsuruchi_Satou = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"Courtesy: Nishigori enters play for 1 less Gold.<br>Once per turn, if Nishigori is unbowed, produce 3 Gold which can only pay for a single Strategy's action."
 Yoritomo_Nishigori = Personality(
     card_id=11910,
     title="Yoritomo Nishigori",
@@ -73,6 +77,7 @@ Yoritomo_Nishigori = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Unstoppable Battle:</b> Fear 3, or Fear 4 if the target is Phoenix Clan. <i>(Other players cannot Interrupt Unstoppable actions.)</i>"
 Yoritomo_Raiden = Personality(
     card_id=11912,
     title="Yoritomo Raiden",
@@ -87,6 +92,7 @@ Yoritomo_Raiden = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Once a turn, the Attacker gets the first Battle action, if it's from a Naval Personality's unit.)</i>"
 Yoritomo_Yakuwa = Personality(
     card_id=11913,
     title="Yoritomo Yakuwa",

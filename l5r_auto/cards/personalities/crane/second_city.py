@@ -12,6 +12,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"Dainagon may Lobby as an Open action."
 Doji_Dainagon = Personality(
     card_id=2070,
     title="Doji Dainagon",

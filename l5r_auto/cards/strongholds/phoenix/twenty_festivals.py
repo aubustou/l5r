@@ -6,6 +6,7 @@ from l5r_auto.legality import ModernEdition, TwentyFestivalsEdition
 
 from ..common import Stronghold
 
+"<b>Dynasty, :g*::</b> Recruit your target dead <i>(not discarded)</i> Phoenix Clan Personality; you may Proclaim him. Gain 1 Honor.<br><i>(When going second, you get +1PS and Personalities you Proclaim enter play for two less Gold.)</i>"
 The_Majestic_Temple_of_the_Phoenix = Stronghold(
     card_id=12261,
     title="The Majestic Temple of the Phoenix",

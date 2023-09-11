@@ -12,6 +12,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<i>(Kensai may attach two Weapons, as long as neither is Two-Handed.)</i> <br><b>Battle:</b> Bow a target enemy card without attachments. If Toshimo has a Weapon or you control a Courtier, the card cannot straighten."
 Bayushi_Toshimo = Personality(
     card_id=916,
     title="Bayushi Toshimo",

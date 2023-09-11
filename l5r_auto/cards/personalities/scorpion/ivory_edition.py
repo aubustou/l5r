@@ -22,6 +22,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 
 from ..common import Personality
 
+"<b>Political Home Battle, :bow::</b> Target a Personality. His controller may dishonor him. If he did not become dishonorable <i>(or was already dishonorable)</i>, give him -3F."
 Bayushi_Akane = Personality(
     card_id=11210,
     title="Bayushi Akane",
@@ -36,6 +37,7 @@ Bayushi_Akane = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"After another player's Battle action targets a Courtier at Dakatsu's location, the player loses 2 Honor."
 Bayushi_Dakatsu = Personality(
     card_id=11211,
     title="Bayushi Dakatsu",
@@ -50,6 +52,7 @@ Bayushi_Dakatsu = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Battle:</b> Fear 2. This may target a Personality with Followers if he has 0 Personal Honor <i>(Bow a target enemy Follower, or Personality without Followers, with 2 or lower Force)</i>."
 Bayushi_Masashi = Personality(
     card_id=11212,
     title="Bayushi Masashi",
@@ -64,6 +67,7 @@ Bayushi_Masashi = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"Ranged Attacks targeting Meiko have -3 strength.<br><b>Battle:</b> Give a target enemy Personality -3F. Dishonor him if his Force is now 0."
 Bayushi_Meiko = Personality(
     card_id=11213,
     title="Bayushi Meiko",
@@ -78,6 +82,7 @@ Bayushi_Meiko = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"You may use your Stronghold's abilities twice per turn.<br><b>Political Limited/Engage:</b> Dishonor a target Personality."
 Bayushi_Nitoshi_the_Poison_Mask_Experienced_2 = Personality(
     card_id=11214,
     title="Bayushi Nitoshi, the Poison Mask",
@@ -103,6 +108,7 @@ Bayushi_Nitoshi_the_Poison_Mask_Experienced_2 = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Political Open:</b> Target a Personality. After the next time <i>(this turn)</i> his controller assigns him, targets him, or resolves an action on a card in his unit, his controller loses Honor equal to his Personal Honor, then dishonor him."
 Bayushi_Shizuka = Personality(
     card_id=11215,
     title="Bayushi Shizuka",
@@ -117,6 +123,7 @@ Bayushi_Shizuka = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Invest :g2::</b> Discard a card from your hand to make a target player lose Honor equal to half the Focus Value, rounded up."
 Shosuro_Hotaka = Personality(
     card_id=11216,
     title="Shosuro Hotaka",
@@ -131,6 +138,7 @@ Shosuro_Hotaka = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Ninja Battle, :bow::</b> Ranged 3 Attack. You may discard a card to straighten Keiichi."
 Shosuro_Keiichi = Personality(
     card_id=11217,
     title="Shosuro Keiichi",
@@ -145,6 +153,7 @@ Shosuro_Keiichi = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Ninja Battle:</b> Discard a card from this Province. If the card is a Personality, give Tagiso +2F."
 Shosuro_Tagiso = Personality(
     card_id=11218,
     title="Shosuro Tagiso",
@@ -159,6 +168,7 @@ Shosuro_Tagiso = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Limited:</b> Choose a Province and turn its card face-up <i>(if necessary)</i>. Reduce the Province's strength by the Personal Honor of any Personality in it."
 Shosuro_Tosaku = Personality(
     card_id=11219,
     title="Shosuro Tosaku",

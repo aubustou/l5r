@@ -11,6 +11,7 @@ from l5r_auto.legality import (
 
 from .common import Holding
 
+"<b>:bow::</b> Produce 3 Gold. <br><b>Battle, :bow::</b> Give your target Personality +2F."
 Heavy_Infantry_Dojo = Holding(
     card_id=3044,
     title="Heavy Infantry Dojo",
@@ -27,6 +28,7 @@ Heavy_Infantry_Dojo = Holding(
         ModernEdition,
     ],
 )
+"<b>:bow::</b> Produce 2 Gold. <br><b>Limited, :bow::</b> Give a target Personality a +1F <b>Sake </b>token. Remove it after your next turn begins."
 Humble_House = Holding(
     card_id=3510,
     title="Humble House",
@@ -42,6 +44,7 @@ Humble_House = Holding(
         ModernEdition,
     ],
 )
+"Your Provinces have +1 strength. <br><b>:bow::</b> Produce 5 Gold."
 Merchant_Atoll = Holding(
     card_id=5027,
     title="Merchant Atoll",

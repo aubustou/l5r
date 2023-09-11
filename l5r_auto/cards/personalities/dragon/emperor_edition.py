@@ -12,6 +12,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"Korimi has +2F while defending. <br><b>Interrupt, :bow::</b> After you Recruit Korimi, draw a card."
 Togashi_Korimi = Personality(
     card_id=8545,
     title="Togashi Korimi",

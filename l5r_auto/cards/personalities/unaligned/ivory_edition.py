@@ -17,6 +17,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 
 from ..common import Personality
 
+"After you Recruit Dainiko, give her four +1F <b>Fire</b> tokens."
 Dainiko = Personality(
     card_id=11229,
     title="Dainiko",
@@ -31,6 +32,7 @@ Dainiko = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i><i>(Duelists win tied duels versus non-Duelists. Kensai may attach two Weapons, as long as neither is Two-Handed.)</i></i>"
 Horobei = Personality(
     card_id=11230,
     title="Horobei",
@@ -45,6 +47,7 @@ Horobei = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Open:</b> Myuken copies one keyword from your target Personality."
 Myuken = Personality(
     card_id=11231,
     title="Myuken",
@@ -59,6 +62,7 @@ Myuken = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Shugenja may attach and cast Spells.)</i><br><b>Battle, :bow::</b> Ranged Attack with strength equal to Shinzai's Chi."
 Yotsu_Shinzai = Personality(
     card_id=11232,
     title="Yotsu Shinzai",

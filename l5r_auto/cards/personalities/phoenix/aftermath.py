@@ -20,6 +20,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<i>(Draw a card after your Expendable card dies. Shugenja may attach and cast Spells.)</i>"
 Asako_Misora = Personality(
     card_id=10861,
     title="Asako Misora",
@@ -41,6 +42,7 @@ Asako_Misora = Personality(
         ModernEdition,
     ],
 )
+"<i>(You may Recruit a Reserve Personality, if they would be opposed, as an Absent Battle action.)</i><br><b>Fire Battle:</b> Ranged Attack equal to the number of Spells in this unit."
 Isawa_Ikariya = Personality(
     card_id=10862,
     title="Isawa Ikariya",

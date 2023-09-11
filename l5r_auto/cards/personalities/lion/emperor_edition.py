@@ -31,6 +31,7 @@ Ikoma_Shika = Personality(
         ModernEdition,
     ],
 )
+"<b>Limited:</b> Each player who controls an Ancestor gains 1 Honor. For any player who controls no Ancestors and has higher Honor than his starting Family Honor, you may choose to have him lose 1 Honor."
 Kitsu_Suki = Personality(
     card_id=4396,
     title="Kitsu Suki",

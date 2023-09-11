@@ -11,6 +11,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<b>Iaijutsu Battle:</b> Target your unbowed Personality and bow him unless he has won a duel this turn. Bow a target enemy Personality with equal or lower Chi than your Personality."
 Shune = Personality(
     card_id=7236,
     title="Shune",

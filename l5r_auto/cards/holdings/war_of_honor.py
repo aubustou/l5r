@@ -11,6 +11,7 @@ from l5r_auto.legality import (
 
 from .common import Holding
 
+"<b>:bow::</b> Produce 2 Gold. <br><b>:bow::</b> When paying for a Monk, he enters play for 3 less Gold."
 Temple_of_Harmony = Holding(
     card_id=7874,
     title="Temple of Harmony",

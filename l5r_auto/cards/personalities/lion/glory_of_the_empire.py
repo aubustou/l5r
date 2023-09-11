@@ -12,6 +12,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<b>Battle, :bow::</b> Ranged 3 Attack with +1 strength for every 10 points of Family Honor you have."
 Matsu_Misato = Personality(
     card_id=4956,
     title="Matsu Misato",

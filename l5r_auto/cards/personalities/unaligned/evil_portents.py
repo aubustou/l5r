@@ -20,6 +20,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 
 from ..common import Personality
 
+"After Akuma enters play, lose 4 Honor. Will not attach cards.<br><b>Battle:</b> Destroy a target enemy attachment with equal or lower Force."
 Akuma_no_Obake = Personality(
     card_id=12488,
     title="Akuma no Obake",
@@ -34,6 +35,7 @@ Akuma_no_Obake = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Once per game per card, a Resilient card does not die in battle resolution.)</i><br>Keisho will not attach Spells with Focus Value greater than her Chi."
 Keisho = Personality(
     card_id=12489,
     title="Keisho",
@@ -48,6 +50,7 @@ Keisho = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"Will not join a Spider Clan player.<br><b>Battle, :bow::</b> Melee 4 Attack. You may bow Tetsuo's Polearm to straighten him."
 Tetsuo_Experienced_2 = Personality(
     card_id=12490,
     title="Tetsuo",
@@ -62,6 +65,7 @@ Tetsuo_Experienced_2 = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"After The Crimson Mountain Oni enters play, lose 7 Honor. Will not attach cards or issue challenges.<br><b>Interrupt:</b> Negate The Crimson Mountain Oni's movement from the action.<br><b>Battle:</b> Melee 6 Attack. If this destroys an attachment on a Crab Clan Personality, you may make a Melee 6 Attack."
 The_Crimson_Mountain_Oni = Personality(
     card_id=12491,
     title="The Crimson Mountain Oni",
@@ -76,6 +80,7 @@ The_Crimson_Mountain_Oni = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Once a turn, the Attacker gets the first Battle action, if it's from a Naval Personality's unit.)</i><br>After Umikaiju enters play, lose 2 Honor. Will not attach cards.<br><b>Battle, :bow::</b> Fear 5."
 Umikaiju = Personality(
     card_id=12492,
     title="Umikaiju",

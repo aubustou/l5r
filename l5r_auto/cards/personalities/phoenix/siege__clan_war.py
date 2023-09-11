@@ -16,6 +16,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 
 from ..common import Personality
 
+"Tadaka need not bow for your Kiho or Spell actions.<br><b>Interrupt:</b> Negate an action from another Shugenja or Spell.<br><b>Earth Jade Unstoppable Battle:</b> Tadaka casts Jade Strike. Bow a target card. Destroy it if it is Shadowlands or has no attachments."
 Isawa_Tadaka_Seven_Thunder_Experienced_2CW = Personality(
     card_id=12646,
     title="Isawa Tadaka, Seven Thunder",

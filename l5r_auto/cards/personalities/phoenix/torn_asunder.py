@@ -11,6 +11,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<i>(Shugenja may attach and cast Spells.)</i><br><b>Fire Battle/Open:</b> Give Hibana -3F. Give your target non-Water Personality +3F."
 Isawa_Hibana = Personality(
     card_id=10305,
     title="Isawa Hibana",

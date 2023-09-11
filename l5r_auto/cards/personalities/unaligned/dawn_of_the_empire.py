@@ -12,6 +12,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"After you Recruit Hatsu Suru, lose 5 Honor.<br>After another player's card destroys Hatsu Suru, remove it from the game, lose 4 Honor, and create two 2F/2C/0PH <b>Nonhuman &#149; Oni &#149; Shadowlands</b> Personalities at Hatsu Suru's former location."
 Hatsu_Suru_no_Oni = Personality(
     card_id=5734,
     title="Hatsu Suru no Oni",

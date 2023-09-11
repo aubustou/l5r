@@ -19,6 +19,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 
 from ..common import Personality
 
+"After Ashigaru Gunso enters play, if your Sensei is Hikahime, create a 0F/1C/0PH Ashigaru &#149; Conscript Personality.<br><b>Battle:</b> Bow one or more of your target unbowed Ashigaru Conscripts. Ranged Attack equal to the number this bowed."
 Ashigaru_Gunso = Personality(
     card_id=12332,
     title="Ashigaru Gunso",
@@ -33,6 +34,7 @@ Ashigaru_Gunso = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"After Banished enters play, lose 2 Honor. Will not join a Phoenix Clan player.<br><b>Void Battle:</b> Ranged 3 Attack. If this destroys a Phoenix Clan Personality, you may move Banished home."
 Banished_Experienced = Personality(
     card_id=12333,
     title="Banished",
@@ -47,6 +49,7 @@ Banished_Experienced = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"After Kenturo enters play, if your Sensei is Hikahime, create a 0F/1C/0PH <b>Ashigaru &#149; Conscript</b> Personality. <br><b>Battle:</b> Bow one or more of your target unbowed Ashigaru Conscripts. Give a target enemy Follower or Personality a Force penalty equal to the number this bowed."
 Kenturo = Personality(
     card_id=12334,
     title="Kenturo",
@@ -75,6 +78,7 @@ Seppun_Omihiru = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Battle:</b> Straighten one or two of your target Conscripts. <br><b>Battle:</b> Bow one or more of your target unbowed Ashigaru Conscripts. Fear equal to the number this bowed."
 Venerable_Spirit = Personality(
     card_id=12336,
     title="Venerable Spirit",

@@ -11,6 +11,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<b>Home Battle, :bow::</b> Create a 2F/2C/3PH Lion <b>Clan &#149; Ancestor &#149; Samurai &#149; Spirit</b> Personality at the current battlefield. Remove him from the game after the battle ends. <i>(Home actions can be taken from home.)</i>"
 Kitsu_Miro = Personality(
     card_id=4386,
     title="Kitsu Miro",

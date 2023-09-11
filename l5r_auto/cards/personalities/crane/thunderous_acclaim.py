@@ -20,6 +20,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 
 from ..common import Personality
 
+"Kuraou has +1F/+1C while he has a Spear or opposes a Crab Clan Personality.<br><b>Battle:</b> Give a target enemy Personality -3F."
 Daidoji_Kuraou = Personality(
     card_id=12290,
     title="Daidoji Kuraou",
@@ -34,6 +35,7 @@ Daidoji_Kuraou = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"Compassion: Buredo has +1F/+1C/+1PH. <i>(Compassion takes effect while you have fewer Provinces than anyone else.)</i><br>Phoenix Clan players may Proclaim Buredo."
 Doji_Buredo = Personality(
     card_id=12291,
     title="Doji Buredo",
@@ -48,6 +50,7 @@ Doji_Buredo = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"Compassion: Hoshihana has Destined. <i>(Compassion takes effect while you have fewer Provinces than anyone else.)</i><br><b>Tireless Open:</b> If you have resolved an action from a Political Strategy this turn, straighten Hoshihana."
 Doji_Hoshihana = Personality(
     card_id=12292,
     title="Doji Hoshihana",
@@ -62,6 +65,7 @@ Doji_Hoshihana = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Once per game per card, a Resilient card does not die in battle resolution.)</i> <br><b>Iaijutsu Battle:</b> Fear 2. If this bowed a Personality with lower Personal Honor, give Moro +1F."
 Doji_Moro = Personality(
     card_id=12293,
     title="Doji Moro",
@@ -76,6 +80,7 @@ Doji_Moro = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Political Open:</b> Target another player's Personality. After the first time <i>(this turn)</i> the target assigns or moves to a battlefield, move Iwari there, and if the target is attacking, his player loses 1 Honor, or 2 Honor if the target is Crab Clan."
 Kakita_Iwari = Personality(
     card_id=12294,
     title="Kakita Iwari",
@@ -90,6 +95,7 @@ Kakita_Iwari = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"Shinichi's focused cards have +1FV while you control, or he is dueling, Kakita Daitsu.<br><b>Iaijutsu Unstoppable Battle:</b> Shinichi challenges a target enemy Personality, who may move home to refuse. Bow the loser."
 Kakita_Shinichi_Experienced = Personality(
     card_id=12295,
     title="Kakita Shinichi",

@@ -22,6 +22,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 
 from ..common import Personality
 
+"Cannot attach Followers.<br><b>Battle:</b> <i>Zaiberu is belligerent.</i> Give a target enemy Follower or Personality -2F."
 Hida_Zaiberu = Personality(
     card_id=11728,
     title="Hida Zaiberu",
@@ -36,6 +37,7 @@ Hida_Zaiberu = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(You may Recruit a Reserve Personality, if they would be opposed, as an <b>Absent Battle</b> action.)</i><br>Maiko enters play for 1 less Gold if you are Lion Clan."
 Hiruma_Maiko = Personality(
     card_id=11729,
     title="Hiruma Maiko",
@@ -50,6 +52,7 @@ Hiruma_Maiko = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Jade Battle:</b> Fear 3, or 5 if the target is Shadowlands, that may target a Personality with Followers."
 Kuni_Shinoda_Advisor_to_the_Jade_Champion_Experienced_2 = Personality(
     card_id=11730,
     title="Kuni Shinoda, Advisor to the Jade Champion",
@@ -74,6 +77,7 @@ Kuni_Shinoda_Advisor_to_the_Jade_Champion_Experienced_2 = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Battle, :bow::</b> Bow a target enemy card."
 Toritaka_Isai = Personality(
     card_id=11731,
     title="Toritaka Isai",
@@ -88,6 +92,7 @@ Toritaka_Isai = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+'Invest :g3:, or :g2: if another player is Dragon Clan: Permanently give your target Holding the ability, "<b>Economic Open, :bow::</b> A target player loses 1 Honor."'
 Yasuki_Aitoko = Personality(
     card_id=11732,
     title="Yasuki Aitoko",
@@ -102,6 +107,7 @@ Yasuki_Aitoko = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Economic Open, :bow::</b> Target a Personality with lower Personal Honor than printed. His controller may pay Gold equal to the difference plus 1. If he does not, he loses Honor equal to the difference."
 Yasuki_Shairei = Personality(
     card_id=11733,
     title="Yasuki Shairei",

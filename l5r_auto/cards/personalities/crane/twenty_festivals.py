@@ -25,6 +25,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 
 from ..common import Personality
 
+"<i>(Shugenja may attach and cast Spells.)</i><br><b>Open:</b> Target another player's Personality. After the next time this turn he is destroyed during a battle, gain 2 Honor."
 Asahina_Hirakane = Personality(
     card_id=12091,
     title="Asahina Hirakane",
@@ -39,6 +40,7 @@ Asahina_Hirakane = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"Hiroteru has +1F for each bowed card in the enemy army.<br><b>Battle:</b> Fear 3."
 Daidoji_Hiroteru = Personality(
     card_id=12092,
     title="Daidoji Hiroteru",
@@ -53,6 +55,7 @@ Daidoji_Hiroteru = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"After Taenaru is destroyed, gain 2 Honor.<br><b>Battle:</b> Once per battle, move home a target enemy Personality with lower current Force than his own printed Force. Bow him as he moves."
 Daidoji_Taenaru = Personality(
     card_id=12093,
     title="Daidoji Taenaru",
@@ -67,6 +70,7 @@ Daidoji_Taenaru = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Draw a card after your Expendable card dies.)</i><br><b>Interrupt:</b> After Masachika enters play, dishonor a target Personality with equal or lower Personal Honor."
 Doji_Masachika = Personality(
     card_id=12094,
     title="Doji Masachika",
@@ -81,6 +85,7 @@ Doji_Masachika = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Absent Home Battle:</b> Move Norime into your defending army. After this moves her, you may target and bow an enemy dishonorable Personality. <i>(Absent actions may be taken without presence. Home actions may be taken from home.)</i>"
 Doji_Norime = Personality(
     card_id=12095,
     title="Doji Norime",
@@ -95,6 +100,7 @@ Doji_Norime = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Political Engage:</b> If Senkiku opposes a dishonorable Personality, gain 2 Honor."
 Doji_Senkiku = Personality(
     card_id=12096,
     title="Doji Senkiku",
@@ -109,6 +115,7 @@ Doji_Senkiku = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Political Interrupt:</b> Before another player loses Honor from the action, Tashihime's poems immortalize the shame; increase the loss by 1 and gain 1 Honor."
 Doji_Tashihime = Personality(
     card_id=12097,
     title="Doji Tashihime",
@@ -123,6 +130,7 @@ Doji_Tashihime = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Political Interrupt, :bow::</b> If the action is yours, before you gain Honor from it, negate the gain to make a target player lose 1 Honor."
 Kakita_Akitomo = Personality(
     card_id=12098,
     title="Kakita Akitomo",
@@ -137,6 +145,7 @@ Kakita_Akitomo = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Draw a card after your Expendable card dies.)</i><br>After you Proclaim Hikai or he is destroyed, a target player loses 1 Honor."
 Kakita_Hikai = Personality(
     card_id=12099,
     title="Kakita Hikai",
@@ -151,6 +160,7 @@ Kakita_Hikai = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"Ikura will not attack or issue challenges, and cannot be challenged from Iaijutsu actions.<br><b>Favor Political Open:</b> Discard the Imperial Favor to make a target player lose 1 Honor."
 Kakita_Ikura = Personality(
     card_id=12100,
     title="Kakita Ikura",
@@ -165,6 +175,7 @@ Kakita_Ikura = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Duelists win tied duels versus non-Duelists.)</i> <br>Mitsumichi will not refuse challenges. If Mitsumichi is honorable, the first card another player focuses in each duel against him is focused face-up."
 Kakita_Mitsumichi = Personality(
     card_id=12101,
     title="Kakita Mitsumichi",
@@ -179,6 +190,7 @@ Kakita_Mitsumichi = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"After Ujirou enters play, you may take an additional action. While you are the Defender, you Recruit Ujirou for 5 less Gold.<br><b>Battle:</b> Fear 4 that destroys attachments and dishonorable Personalities after it bows them."
 Kakita_Ujirou_Experienced = Personality(
     card_id=12102,
     title="Kakita Ujirou",

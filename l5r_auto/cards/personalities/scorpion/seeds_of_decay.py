@@ -11,6 +11,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"After Kodanshi enters play from a Province, create a 0F/2C/0PH Ninja Scorpion Clan Personality."
 Soshi_Kodanshi = Personality(
     card_id=10082,
     title="Soshi Kodanshi",

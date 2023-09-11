@@ -6,6 +6,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 
 from ..common import Stronghold
 
+"<b>Limited, :g3::</b> Draw a card.<br><i>(When going second, you may, once per game, produce 2 Gold)</i>"
 The_Fruitful_Port_of_the_Mantis = Stronghold(
     card_id=11299,
     title="The Fruitful Port of the Mantis",

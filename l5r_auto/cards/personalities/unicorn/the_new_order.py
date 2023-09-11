@@ -21,6 +21,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 
 from ..common import Personality
 
+"Hideshi's Invest is :g0: if another player is Phoenix Clan.<br><b>Invest :g2::</b> Permanently give another player's target Holding the trait, \"After this Holding bows, each player gains 1 Honor.\""
 Ide_Hideshi_Topaz_Champion = Personality(
     card_id=11938,
     title="Ide Hideshi, Topaz Champion",
@@ -35,6 +36,7 @@ Ide_Hideshi_Topaz_Champion = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"Courtesy: Igo has <b>Destined</b>. <i>(Courtesy traits do not take effect if you went first. Draw a card after you Recruit a Destined card.)</i>"
 Ide_Igo = Personality(
     card_id=11939,
     title="Ide Igo",
@@ -49,6 +51,7 @@ Ide_Igo = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(A Conqueror's unit doesn't bow after battle. Shugenja may attach and cast Spells.)</i>"
 Moto_Chizura = Personality(
     card_id=11942,
     title="Moto Chizura",
@@ -63,6 +66,7 @@ Moto_Chizura = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Interrupt, :bow::</b> After the action resolves, if its Fear effects bowed any cards without attachments, destroy them."
 Moto_Nergui = Personality(
     card_id=11940,
     title="Moto Nergui",
@@ -77,6 +81,7 @@ Moto_Nergui = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"Tadasu has +1F while you control a Death Priest.<br><b>Unstoppable Battle:</b> Fear 3 that may target Spells. Destroy any Spells this bowed. <i>(Spells have 0 Force.)</i>"
 Moto_Tadasu = Personality(
     card_id=11941,
     title="Moto Tadasu",
@@ -91,6 +96,7 @@ Moto_Tadasu = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"Saeki has +1F while in an army with any Ronin.<br><b>Battle:</b> Give a target enemy Personality -2F. If he has lower Personal Honor, give Saeki +1F."
 Shinjo_Saeki = Personality(
     card_id=11943,
     title="Shinjo Saeki",

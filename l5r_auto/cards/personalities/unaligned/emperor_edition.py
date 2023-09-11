@@ -11,6 +11,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<b>Political Interrupt:</b> After you Recruit Demiyah, a target player gains or loses 1 Honor."
 Otomo_Demiyah = Personality(
     card_id=5812,
     title="Otomo Demiyah",

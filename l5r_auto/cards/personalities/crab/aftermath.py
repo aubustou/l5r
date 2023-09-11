@@ -20,6 +20,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<i>(Draw a card after you Recruit a Destined card. You may Recruit a Reserve Personality, if they would be opposed, as an Absent Battle action.)</i>"
 Hida_Kurabi = Personality(
     card_id=10832,
     title="Hida Kurabi",
@@ -41,6 +42,7 @@ Hida_Kurabi = Personality(
         ModernEdition,
     ],
 )
+"<b>Battle:</b> Discard a card to bow a target enemy card with Force equal to or lower than the discarded card's Focus Value."
 Kaiu_Gorobei = Personality(
     card_id=10835,
     title="Kaiu Gorobei",

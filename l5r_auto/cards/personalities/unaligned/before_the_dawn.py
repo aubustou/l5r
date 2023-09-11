@@ -12,6 +12,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<i>(Shugenja may attach and cast Spells.)</i><br><b>Air Tireless Open:</b> Straighten Taruko. <i>(Tireless actions can be taken even while bowed.)</i>"
 Komori_Taruko = Personality(
     card_id=4537,
     title="Komori Taruko",

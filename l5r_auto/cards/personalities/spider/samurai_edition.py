@@ -12,6 +12,7 @@ from l5r_auto.legality import (
 
 from ..common import Personality
 
+"<b>Battle, :bow::</b> Ranged 2 Attack. <br><b>Battle, :bow::</b> Give a target enemy Personality a -2F token."
 Daigotsu_Meguro = Personality(
     card_id=1745,
     title="Daigotsu Meguro",

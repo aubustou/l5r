@@ -21,6 +21,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 
 from ..common import Personality
 
+"After a card enters another player's hand from his or her own card's effect, target your Personality with fewer Omen tokens than his Personal Honor, and give him a +1F/+1C Omen token."
 Kitsune_Narako = Personality(
     card_id=12308,
     title="Kitsune Narako",
@@ -35,6 +36,7 @@ Kitsune_Narako = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Battle, :bow::</b> Ranged 2 Attack. Straighten Kyan if you have <b>Compassion </b>or the target was Dragon Clan. <i>(Compassion takes effect while you have fewer Provinces than anyone else.)</i>"
 Moshi_Kyan = Personality(
     card_id=12309,
     title="Moshi Kyan",
@@ -49,6 +51,7 @@ Moshi_Kyan = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"Positive numerals in the text box of Akira's Bow Items have +1. <i>(2 is a numeral, two is not.)</i><br><b>Battle, :bow::</b> Ranged 4 Attack. If this is not increased or combined, it can target a Province and reduce its strength by the Ranged Attack's strength."
 Tsuruchi_Akira = Personality(
     card_id=12310,
     title="Tsuruchi Akira",
@@ -63,6 +66,7 @@ Tsuruchi_Akira = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"Compassion: Kinshikirai's printed ability has no Gold Cost. <i>(Compassion takes effect while you have fewer Provinces than anyone else.)</i><br><b>Interrupt, :g2::</b> If the action is yours or you are Lion Clan, after it resolves, straighten Kinshikirai."
 Yoritomo_Kinshikirai = Personality(
     card_id=12311,
     title="Yoritomo Kinshikirai",
@@ -77,6 +81,7 @@ Yoritomo_Kinshikirai = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(You may Recruit a Reserve Personality, if they would be opposed, as an Absent Battle action.)</i> <br>After Kyunan enters play, you may take one or two additional actions to Equip Peasant Weapons to him."
 Yoritomo_Kyunan = Personality(
     card_id=12312,
     title="Yoritomo Kyunan",
@@ -91,6 +96,7 @@ Yoritomo_Kyunan = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"Minoko has Naval while she has a Peasant Weapon.<br><b>Battle, :bow::</b> Melee 3 Attack. If this does not destroy a Personality, straighten Minoko."
 Yoritomo_Minoko = Personality(
     card_id=12313,
     title="Yoritomo Minoko",

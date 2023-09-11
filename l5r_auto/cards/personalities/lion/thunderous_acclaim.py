@@ -18,6 +18,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 
 from ..common import Personality
 
+"Increase Kano's Force bonuses from the rulebook Tactical Advantage action by 2 if he has a Tessen.<br><b>Battle:</b> Give a target Battle Strategy without Discipline in your discard pile Discipline :g2:."
 Akodo_Kano_Master_Tactician_Experienced_2 = Personality(
     card_id=12302,
     title="Akodo Kano, Master Tactician",
@@ -32,6 +33,7 @@ Akodo_Kano_Master_Tactician_Experienced_2 = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Iaijutsu Battle:</b> Naotaka challenges a target enemy Personality. Give the winner +2F."
 Akodo_Naotaka = Personality(
     card_id=12303,
     title="Akodo Naotaka",
@@ -46,6 +48,7 @@ Akodo_Naotaka = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"Toshigure has -1C while dueling Doji Moro. Toshigure has +1PH if he won a duel this turn or you are Mantis Clan."
 Akodo_Toshigure = Personality(
     card_id=12304,
     title="Akodo Toshigure",
@@ -60,6 +63,7 @@ Akodo_Toshigure = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Once per game per card, a Resilient card does not die in battle resolution.)</i><br><b>Battle:</b> Give a target enemy Personality -2F. If he is Scorpion Clan, give Kiyomako +1F."
 Ikoma_Kiyomako = Personality(
     card_id=12305,
     title="Ikoma Kiyomako",
@@ -74,6 +78,7 @@ Ikoma_Kiyomako = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"Compassion: Equipping Nonhuman Followers to Hideyuki is a Battle/Open for you, for 1 less gold if Hideyuki entered play this battle. <i>(Compassion takes effect while you have fewer Provinces than anyone else.)</i>"
 Matsu_Hideyuki = Personality(
     card_id=12306,
     title="Matsu Hideyuki",
@@ -88,6 +93,7 @@ Matsu_Hideyuki = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"You may destroy one of Kaori's unbowed Nonhuman Followers to refuse a challenge targeting her and negate all effects of refusing.<br><b>Earth Battle:</b> Fear 2."
 Matsu_Kaori = Personality(
     card_id=12307,
     title="Matsu Kaori",

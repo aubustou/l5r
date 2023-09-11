@@ -16,6 +16,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 
 from ..common import Personality
 
+"<b>Earth Open, :bow:, [*]:</b> Recruit a target Fortification in your discard pile <i>(attach it to any of your Provinces)</i>. Give its Province a +1 strength <b>Wall </b>token."
 Agasha_Beiru = Personality(
     card_id=11592,
     title="Agasha Beiru",
@@ -30,6 +31,7 @@ Agasha_Beiru = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition],
 )
+"<b>Air Open, :bow::</b> If it is not your turn, target one of your Provinces. It is consecrated. Before the turn ends, if it hasn't been destroyed, gain 1 Honor."
 Isawa_Kaisei = Personality(
     card_id=11593,
     title="Isawa Kaisei",
@@ -44,6 +46,7 @@ Isawa_Kaisei = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+'Orinoko enters play for 1 less Gold if your Allegiance is Traditionalist.<br>Invest :g10:: Give Orinoko three +1F/+1C tokens, then permanently give her <b>Conqueror</b> and the ability, "<b>Fire Battle:</b> Fear 5." This Invest cost cannot be reduced.'
 Isawa_Orinoko = Personality(
     card_id=11594,
     title="Isawa Orinoko",
@@ -58,6 +61,7 @@ Isawa_Orinoko = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Once per game per card, a Resilient card does not die in battle resolution.)</i><br><b>Fire Battle:</b> If Waiko has a Fire Spell, Ranged 2 Attack."
 Isawa_Waiko = Personality(
     card_id=11595,
     title="Isawa Waiko",
@@ -72,6 +76,7 @@ Isawa_Waiko = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Once per game per card, a Resilient card does not die in battle resolution.)</i><br><b>Interrupt:</b> After you Recruit Tuoko, create a 0F/2C/2PH Phoenix <b>Clan &#149; Void &#149; Shugenja</b> Personality."
 Shiba_Tuoko = Personality(
     card_id=11596,
     title="Shiba Tuoko",
@@ -86,6 +91,7 @@ Shiba_Tuoko = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Battle, :bow::</b> Melee 2 Attack, or 3 if you took a Kharmic action this turn."
 Shiba_Yinfuo = Personality(
     card_id=11597,
     title="Shiba Yinfuo",

@@ -16,6 +16,7 @@ from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEditio
 
 from ..common import Personality
 
+"<b>Battle:</b> Target one or two of your unbowed Personalities at another battlefield. If they would be opposed, move them to this battlefield."
 Akodo_Iketsu = Personality(
     card_id=11746,
     title="Akodo Iketsu",
@@ -30,6 +31,7 @@ Akodo_Iketsu = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition],
 )
+"Keisuke's printed ability has <b>Tireless</b> while you control a Terrain or Crab Clan Personality at his battlefield.<br><b>Battle:</b> Straighten a target attachment."
 Ikoma_Keisuke = Personality(
     card_id=11747,
     title="Ikoma Keisuke",
@@ -44,6 +46,7 @@ Ikoma_Keisuke = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Once per turn, as an <b>Absent Engage</b>, move your unbowed Personality in a Cavalry unit to the battle. You may Recruit a Reserve Personality, if they would be opposed, as an <b>Absent Battle</b> action.)</i><br>Shungo has +1F, or +2F if the Defender is Spider Clan, while attacking."
 Ikoma_Shungo = Personality(
     card_id=11748,
     title="Ikoma Shungo",
@@ -58,6 +61,7 @@ Ikoma_Shungo = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Shugenja may attach and cast Spells.)</i><br>Scorpion Clan players ignore Asato's Honor Requirement.<br><b>Home Water Battle, :bow::</b> Give a target enemy Follower or Personality -2F."
 Kitsu_Asato = Personality(
     card_id=11749,
     title="Kitsu Asato",
@@ -72,6 +76,7 @@ Kitsu_Asato = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<i>(Shugenja may attach and cast Spells.)</i><br><b>Open, :bow::</b> Create a 2F/2C/3PH Lion <b>Clan &#149; Ancestor &#149; Samurai &#149; Spirit</b> Personality."
 Kitsu_Leiko = Personality(
     card_id=11750,
     title="Kitsu Leiko",
@@ -86,6 +91,7 @@ Kitsu_Leiko = Personality(
     abilities=[],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
 )
+"<b>Battle, :g3::</b> Create a 1F <b>Cat &#149; Nonhuman</b> Follower and attach it to your target Personality."
 Matsu_Marii = Personality(
     card_id=11751,
     title="Matsu Marii",

@@ -16,6 +16,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 
 from ..common import Personality
 
+"<i>(Once per game per card, a Resilient card does not die in battle resolution.)</i> <br><b>Jade Battle, :bow::</b> Melee 3 Attack. Straighten Toranosuke if he has a Heavy Weapon or if the target is Shadowlands."
 Hida_Toranosuke_Experienced = Personality(
     card_id=12284,
     title="Hida Toranosuke",
@@ -30,6 +31,7 @@ Hida_Toranosuke_Experienced = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Draw a card after you Recruit a Destined card.)</i><br>Compassion: Gizen has +1F for each Fortification at his battlefield, to a maximum of 3 Fortifications. <i>(Compassion takes effect while you have fewer Provinces than anyone else.)</i>"
 Kaiu_Gizen = Personality(
     card_id=12285,
     title="Kaiu Gizen",
@@ -44,6 +46,7 @@ Kaiu_Gizen = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+'<b>Invest :g1::</b> Create a Fortification Holding with the trait "This Province has +1 strength" and attach it to your target Province.<br><b>Open:</b> If it is not your turn, target your Fortification. Before this turn ends, if it is still in play, gain 1 Honor.'
 Kaiu_Otogou = Personality(
     card_id=12286,
     title="Kaiu Otogou",
@@ -58,6 +61,7 @@ Kaiu_Otogou = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"Invest :g5:, or :g3: if any other player is Crane Clan: Give Igarasu two +1F/+1C tokens."
 Kuni_Igarasu = Personality(
     card_id=12287,
     title="Kuni Igarasu",
@@ -72,6 +76,7 @@ Kuni_Igarasu = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Earth Battle:</b> Melee 3 Attack <i>(Destroy a target enemy Follower or Personality without Followers with 3 or lower Force)</i>."
 Kuni_Soseki = Personality(
     card_id=12288,
     title="Kuni Soseki",
@@ -86,6 +91,7 @@ Kuni_Soseki = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Battle, :bow::</b> Fear 4. Straighten Suppon if you are Scorpion Clan or if your army has fewer units than the enemy army."
 Toritaka_Suppon = Personality(
     card_id=12289,
     title="Toritaka Suppon",

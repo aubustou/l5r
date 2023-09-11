@@ -27,6 +27,7 @@ from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
 
 from ..common import Personality
 
+"<i>(Shugenja may attach and cast Spells.)</i>"
 Agasha_Shikeno = Personality(
     card_id=12140,
     title="Agasha Shikeno",
@@ -41,6 +42,7 @@ Agasha_Shikeno = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Shugenja may attach and cast Spells.)</i> <br><b>Water Interrupt:</b> After the action Equips a Spell to Tameko, take an additional action."
 Agasha_Tameko = Personality(
     card_id=12141,
     title="Agasha Tameko",
@@ -55,6 +57,7 @@ Agasha_Tameko = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Earth Open:</b> Target a Personality. You suspect him of the taint. If he has <b>Shadowlands, </b>give him -2F. He has <b>Shadowlands </b>while you are taking actions <i>(this turn)</i>."
 Asako_Hiribe = Personality(
     card_id=12142,
     title="Asako Hiribe",
@@ -69,6 +72,7 @@ Asako_Hiribe = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Earth Battle:</b> Bow a target enemy Personality. If he is Shadowlands, give each Shugenja in this army +1F."
 Asako_Tsunefusa_Experienced = Personality(
     card_id=12143,
     title="Asako Tsunefusa",
@@ -92,6 +96,7 @@ Asako_Tsunefusa_Experienced = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Air Open, :bow::</b> Target a Phoenix Clan Personality in your discard pile. The rebirth begins. He becomes honorably dead."
 Isawa_Akime = Personality(
     card_id=12144,
     title="Isawa Akime",
@@ -106,6 +111,7 @@ Isawa_Akime = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Earth Battle, :bow::</b> You may bow one of Haruge's Spells to straighten her. Bow a target enemy Personality. If it is an Oni, it will not straighten until the next turn ends."
 Isawa_Haruge = Personality(
     card_id=12145,
     title="Isawa Haruge",
@@ -120,6 +126,7 @@ Isawa_Haruge = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Loyal Personalities will not join other Clans. Once a turn, the Attacker gets the first Battle action, if it's from a Naval Personality's unit. Shugenja may attach and cast Spells.)</i>"
 Isawa_Kageharu = Personality(
     card_id=12146,
     title="Isawa Kageharu",
@@ -134,6 +141,7 @@ Isawa_Kageharu = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Once per turn, as an Absent Engage, move your unbowed Personality in a Cavalry unit to the battle.)</i><br><b>Water Battle:</b> If he would be opposed, move your target Personality at any location to a battlefield <i>(not necessarily this one)</i>."
 Isawa_Mochiko = Personality(
     card_id=12147,
     title="Isawa Mochiko",
@@ -148,6 +156,7 @@ Isawa_Mochiko = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Water Battle:</b> If he would be opposed, move to this battlefield a target Personality at any location. Straighten his unit as he moves."
 Isawa_Uzuyumi_Experienced = Personality(
     card_id=12148,
     title="Isawa Uzuyumi",
@@ -162,6 +171,7 @@ Isawa_Uzuyumi_Experienced = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<b>Battle, :bow::</b> Ranged Attack equal to Danjiro's Force."
 Shiba_Danjiro = Personality(
     card_id=12149,
     title="Shiba Danjiro",
@@ -176,6 +186,7 @@ Shiba_Danjiro = Personality(
     abilities=[],
     legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition],
 )
+"<i>(Duelists win tied duels versus non-Duelists.)</i><br>After the first time each turn Kiyomichi assigns to an army with a Shugenja, gain 1 Honor.<br><b>Battle:</b> Move your target Shugenja at any location to Kiyomichi's battlefield."
 Shiba_Kiyomichi = Personality(
     card_id=12150,
     title="Shiba Kiyomichi",
