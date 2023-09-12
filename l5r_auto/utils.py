@@ -4,7 +4,7 @@ import importlib
 import logging
 import pkgutil
 from dataclasses import dataclass
-from typing import TYPE_CHECKING, Type, TypeGuard, TypeVar
+from typing import TYPE_CHECKING, Type, TypeGuard, TypeVar, dataclass_transform
 
 if TYPE_CHECKING:
     from .cards import Entity
@@ -27,4 +27,4 @@ def is_entity_of_type(entity: Entity, entity_type: Type[T]) -> TypeGuard[T]:
     return isinstance(entity, entity_type)
 
 
-dataclass_ = dataclass(repr=False, kw_only=True)
+dataclass_ = dataclass_transform()(dataclass(repr=False, kw_only=True))

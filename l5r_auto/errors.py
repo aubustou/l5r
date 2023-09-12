@@ -23,3 +23,7 @@ class EndOfFateDeckError(EndOfGame):
 
 class EndOfDynastyDeckError(EndOfGame):
     """Exception raised when the dynasty deck is empty."""
+
+
+class MaximumNumberOfTurnsReached(EndOfGame):
+    """Exception raised when the maximum number of turns is reached."""

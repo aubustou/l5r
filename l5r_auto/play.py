@@ -5,13 +5,12 @@ import logging
 import random
 import time
 import uuid
-from dataclasses import field
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import TYPE_CHECKING, Type
 
-from l5r_auto.errors import EndOfDynastyDeckError
+from l5r_auto.errors import EndOfDynastyDeckError, MaximumNumberOfTurnsReached
 from l5r_auto.locations import PlayArea
-from l5r_auto.utils import dataclass_ as dataclass
 
 from .deck import Deck
 from .legality import Legality
@@ -27,7 +26,7 @@ DECK_PATH = Path(__file__).parent / "decks"
 REPORT_FOLDER = Path(__file__).parent / "reports"
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class Game:
     id: uuid.UUID = field(default_factory=uuid.uuid4)
     players: list[Player]
@@ -154,7 +153,7 @@ def main():
 
         try:
             game.start()
-        except EndOfDynastyDeckError:
+        except (EndOfDynastyDeckError, MaximumNumberOfTurnsReached):
             logging.info("Finished game: %s", game.id)
             game.end_report()
             break

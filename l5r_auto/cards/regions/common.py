@@ -2,15 +2,15 @@
 
 from __future__ import annotations
 
+from dataclasses import dataclass
 from typing import Type
 
 from l5r_auto.cards import DynastyCard, Entity
 from l5r_auto.legality import Legality
 from l5r_auto.locations import Deck, Location
-from l5r_auto.utils import dataclass_ as dataclass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class Region(DynastyCard):
     def __post_init__(self, *args, **kwargs):
         self.entity_type = RegionEntity
@@ -18,7 +18,7 @@ class Region(DynastyCard):
         super().__post_init__(*args, **kwargs)
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class RegionEntity(Entity, Region):
     location: Type[Location] = Deck
 

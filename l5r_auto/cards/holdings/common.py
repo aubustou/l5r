@@ -1,15 +1,18 @@
 from __future__ import annotations
 
-from dataclasses import field
-from typing import Type
+from dataclasses import dataclass, field
+from typing import TYPE_CHECKING, Type
 
+from l5r_auto.abilities import ProduceGold
 from l5r_auto.cards import DynastyCard, Entity
 from l5r_auto.legality import Legality
 from l5r_auto.locations import Deck, Location
-from l5r_auto.utils import dataclass_ as dataclass
+
+if TYPE_CHECKING:
+    pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class Holding(DynastyCard):
     gold_cost: int = field(metadata={"is_written": True})
     gold_production: str | None = field(metadata={"is_written": True})
@@ -18,14 +21,15 @@ class Holding(DynastyCard):
         self.entity_type = HoldingEntity
 
         super().__post_init__(*args, **kwargs)
+        if self.gold_production and not any(
+            isinstance(x, ProduceGold) for x in self.abilities
+        ):
+            self.abilities.append(ProduceGold(base_gold_amount=self.gold_production))
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class HoldingEntity(Entity, Holding):
     location: Type[Location] = Deck
-
-    def __post_init__(self, *args, **kwargs):
-        super().__post_init__(*args, **kwargs)
 
 
 def get_cards(legality: Type[Legality]) -> list[Holding]:

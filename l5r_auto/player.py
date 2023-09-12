@@ -3,7 +3,7 @@ from __future__ import annotations
 import logging
 import random
 import uuid
-from dataclasses import field
+from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Sequence, Type
 
 from l5r_auto.cards.holdings.common import HoldingEntity
@@ -12,7 +12,6 @@ from l5r_auto.clans import Clan
 from .cards import DynastyCard, FateCard, SenseiEntity, StrongholdEntity
 from .errors import EndOfDynastyDeckError, EndOfFateDeckError
 from .locations import Hand, PlayArea, ProvinceLocation, StrongholdLocation
-from .utils import dataclass_ as dataclass
 
 if TYPE_CHECKING:
     from .abilities import Ability
@@ -41,7 +40,7 @@ STARTING_NUMBER_OF_PROVINCES = 4
 SUCCESSIVE_BATTLE_ACTIONS = 1
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class Player:
     name: str = field(default="")
     deck: Deck

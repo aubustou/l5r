@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 import logging
 import uuid
-from dataclasses import field, fields
+from dataclasses import dataclass, field, fields
 from functools import cached_property
 from operator import attrgetter
 from typing import TYPE_CHECKING, Sequence, Type, TypedDict
@@ -11,7 +11,6 @@ from typing import TYPE_CHECKING, Sequence, Type, TypedDict
 from .cards import Card, get_card
 from .clans import Clan, clans
 from .legality import Legality, legalities
-from .utils import dataclass_ as dataclass
 
 if TYPE_CHECKING:
     from .cards import (
@@ -58,7 +57,7 @@ class DeckJSON(TypedDict):
     events: list[int]
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class Deck:
     clan: Type[Clan]
     legality: Type[Legality]

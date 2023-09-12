@@ -2,11 +2,10 @@ from __future__ import annotations
 
 import logging
 import uuid
-from dataclasses import field
+from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Generator
 
 from .locations import PlayArea, ProvinceLocation
-from .utils import dataclass_ as dataclass
 from .utils import is_entity_of_type
 
 if TYPE_CHECKING:
@@ -17,12 +16,12 @@ if TYPE_CHECKING:
 ABILITIES: dict[uuid.UUID, Ability] = {}
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class Action:
     id: uuid.UUID = field(default_factory=uuid.uuid4)
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class Ability(Action):
     repeatable: bool = field(default=False, init=False)
     tireless: bool = field(default=False, init=False)
@@ -52,26 +51,26 @@ class Ability(Action):
     def on_start_phase(self, game: Game):
         self.done_once_per_turn = False
 
-    def on_pay(self, entity: Entity) -> int:
+    def on_pay(self, game: Game, player: Player, entity: Entity) -> int:
         return 0
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class Trait(Action):
     pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class ProduceGold(Ability):
     """Bow: Produce X Gold."""
 
-    base_gold_amount: str
+    base_gold_amount: str | int = 0
 
-    def on_pay(self, entity: Entity) -> int:
+    def on_pay(self, game: Game, player: Player, entity: Entity) -> int:
         return int(self.base_gold_amount)
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class RecruitAction(Ability):
     """Repeatable Dynasty, : Bring into play a target face-up Personality or Holding from
     your Province with Gold Cost equal to the amount you paid, paying 2 more Gold if the
@@ -96,7 +95,7 @@ class RecruitAction(Ability):
         gold_cost = entity.gold_cost
 
         if hasattr(entity, "clan") and entity.owner.clan not in entity.clan:
-            # Managent of out-of-clan personalities and unaligned personalities
+            # Management of out-of-clan personalities and unaligned personalities
             gold_cost += 2
 
         gold_producing_entities = [
@@ -111,7 +110,9 @@ class RecruitAction(Ability):
                 if not gold_producing_entities:
                     raise ValueError("Not enough gold to pay cost.")
                 gold_producing_entity = gold_producing_entities.pop()
-                produced_gold += sum(gold_producing_entity.on_pay(entity))
+                produced_gold += sum(
+                    gold_producing_entity.on_pay(game, entity.owner, entity)
+                )
                 bowed_entities.append(gold_producing_entity)
         except ValueError:
             logging.info(
@@ -171,7 +172,7 @@ def once_per_turn(method):
     return wrapper
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class ProclaimAction(Ability):
     """Once during your own turn, after
     you announce a Recruit action or an
@@ -206,7 +207,7 @@ class ProclaimAction(Ability):
         self.done_once_per_turn = False
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class DynastyDiscardAction(Ability):
     """Repeatable Dynasty: Discard a face-up card from one of your Provinces."""
 

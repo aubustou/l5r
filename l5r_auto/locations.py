@@ -1,17 +1,15 @@
 from __future__ import annotations
 
 import logging
-from dataclasses import field
+from dataclasses import dataclass, field
 from typing import TYPE_CHECKING
-
-from .utils import dataclass_ as dataclass
 
 if TYPE_CHECKING:
     from .cards import DynastyCard, FateCard
     from .player import Player
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class Location:
     player: Player
 
@@ -23,17 +21,17 @@ class Location:
         return self.__class__.__name__
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class Deck(Location):
     pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class Hand(Location):
     pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class ProvinceLocation(Location):
     dynasty_cards: list[DynastyCard] = field(default_factory=list)
     attachments: list[DynastyCard] = field(default_factory=list)
@@ -48,46 +46,46 @@ class ProvinceLocation(Location):
         self.dynasty_cards.append(card)
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class PlayArea(Location):
     pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class Discard(Location):
     pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class RemovedFromGame(Location):
     pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class StrongholdLocation(Location):
     pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class DynastyDeck(Deck):
     pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class FateDeck(Deck):
     pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class DynastyDiscard(Discard):
     pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class FateDiscard(Discard):
     pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class Battlefield(Location):
     terrain: FateCard = field(init=False)

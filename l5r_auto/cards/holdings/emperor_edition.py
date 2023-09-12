@@ -1,5 +1,21 @@
 from __future__ import annotations
 
+from dataclasses import dataclass
+from typing import Type
+
+from l5r_auto.cards import Entity
+from l5r_auto.clans import (
+    Clan,
+    CrabClan,
+    CraneClan,
+    DragonClan,
+    LionClan,
+    MantisClan,
+    PhoenixClan,
+    ScorpionClan,
+    SpiderClan,
+    UnicornClan,
+)
 from l5r_auto.keywords import (
     GeishaHouse,
     Library,
@@ -23,8 +39,25 @@ from l5r_auto.legality import (
     SamuraiEdition,
     TwentyFestivalsEdition,
 )
+from l5r_auto.play import Game
+from l5r_auto.player import Player
 
+from ...abilities import ProduceGold
 from .common import Holding
+
+
+@dataclass(repr=False, kw_only=True)
+class ClanHoldingAbility(ProduceGold):
+    """Bow: Produce 2 Gold, or 3 Gold if you are a {clan} Clan player."""
+
+    clan: Type[Clan]
+
+    def on_pay(self, game: Game, player: Player, entity: Entity) -> int:
+        if player.clan == self.clan:
+            return 3
+        else:
+            return 2
+
 
 "<b>:bow::</b> Produce 2 Gold, or 3 Gold if you are a Lion Clan player."
 Copper_Mine = Holding(
@@ -33,7 +66,7 @@ Copper_Mine = Holding(
     gold_cost=2,
     keywords=[Mine],
     traits=[],
-    abilities=[],
+    abilities=[ClanHoldingAbility(clan=LionClan)],
     legality=[
         IvoryEdition,
         TwentyFestivalsEdition,
@@ -56,7 +89,7 @@ Deeds_and_Words = Holding(
     title="Deeds and Words",
     gold_cost=2,
     traits=[],
-    abilities=[],
+    abilities=[ClanHoldingAbility(clan=CrabClan)],
     legality=[
         IvoryEdition,
         TwentyFestivalsEdition,
@@ -75,7 +108,7 @@ Family_Library = Holding(
     gold_cost=2,
     keywords=[Library],
     traits=[],
-    abilities=[],
+    abilities=[ProduceGold(base_gold_amount=2)],
     legality=[
         IvoryEdition,
         TwentyFestivalsEdition,
@@ -95,7 +128,7 @@ Geisha_House = Holding(
     gold_cost=2,
     keywords=[GeishaHouse],
     traits=[],
-    abilities=[],
+    abilities=[ClanHoldingAbility(clan=ScorpionClan)],
     legality=[
         IvoryEdition,
         TwentyFestivalsEdition,
@@ -119,7 +152,7 @@ Gold_Mine = Holding(
     gold_cost=2,
     keywords=[Mine],
     traits=[],
-    abilities=[],
+    abilities=[ClanHoldingAbility(clan=DragonClan)],
     legality=[
         IvoryEdition,
         TwentyFestivalsEdition,
@@ -143,7 +176,7 @@ Iron_Mine = Holding(
     gold_cost=2,
     keywords=[Mine],
     traits=[],
-    abilities=[],
+    abilities=[ClanHoldingAbility(clan=CrabClan)],
     legality=[
         IvoryEdition,
         TwentyFestivalsEdition,
@@ -167,7 +200,7 @@ Kobune_Port = Holding(
     gold_cost=2,
     keywords=[Port],
     traits=[],
-    abilities=[],
+    abilities=[ClanHoldingAbility(clan=MantisClan)],
     legality=[
         IvoryEdition,
         TwentyFestivalsEdition,
@@ -189,7 +222,7 @@ Marketplace = Holding(
     gold_cost=2,
     keywords=[Market],
     traits=[],
-    abilities=[],
+    abilities=[ClanHoldingAbility(clan=CraneClan)],
     legality=[
         IvoryEdition,
         TwentyFestivalsEdition,
@@ -213,7 +246,7 @@ Shinomen_Marsh = Holding(
     gold_cost=2,
     keywords=[Swamp],
     traits=[],
-    abilities=[],
+    abilities=[ClanHoldingAbility(clan=SpiderClan)],
     legality=[
         IvoryEdition,
         TwentyFestivalsEdition,
@@ -249,7 +282,7 @@ Silver_Mine = Holding(
     gold_cost=2,
     keywords=[Mine],
     traits=[],
-    abilities=[],
+    abilities=[ClanHoldingAbility(clan=PhoenixClan)],
     legality=[
         IvoryEdition,
         TwentyFestivalsEdition,
@@ -273,7 +306,7 @@ Stables = Holding(
     gold_cost=2,
     keywords=[Stables],
     traits=[],
-    abilities=[],
+    abilities=[ClanHoldingAbility(clan=UnicornClan)],
     legality=[
         IvoryEdition,
         TwentyFestivalsEdition,

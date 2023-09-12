@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from l5r_auto.abilities import Ability
+from l5r_auto.cards import Entity
 from l5r_auto.keywords import (
     Dojo,
     Fortification,
@@ -12,6 +14,9 @@ from l5r_auto.keywords import (
     Temple,
 )
 from l5r_auto.legality import IvoryEdition, ModernEdition, TwentyFestivalsEdition
+from l5r_auto.play import Game
+from l5r_auto.player import Player
+from l5r_auto.utils import is_entity_of_type
 
 from .common import Holding
 
@@ -81,14 +86,27 @@ House_of_Loose_Silk = Holding(
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
     gold_production="5",
 )
-"<b>:bow::</b> Produce 2 Gold, or 4 Gold if you control two or more other Geisha Houses."
+
+
+class HouseOfTheFloatingLotusAbility(Ability):
+    "<b>:bow::</b> Produce 2 Gold, or 4 Gold if you control two or more other Geisha Houses."
+
+    gold_amount: int = 2
+
+    def on_pay(self, game: Game, player: Player, entity: Entity) -> int:
+        if len([x for x in player.play_area if is_entity_of_type(x, GeishaHouse)]) >= 2:
+            return self.gold_amount + 2
+        else:
+            return self.gold_amount
+
+
 House_of_the_Floating_Lotus = Holding(
     card_id=11553,
     title="House of the Floating Lotus",
     gold_cost=3,
     keywords=[GeishaHouse],
     traits=[],
-    abilities=[],
+    abilities=[HouseOfTheFloatingLotusAbility()],
     legality=[IvoryEdition, TwentyFestivalsEdition, ModernEdition, ModernEdition],
     gold_production="2",
 )

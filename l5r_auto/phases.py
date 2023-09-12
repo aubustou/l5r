@@ -4,12 +4,12 @@ import abc
 import itertools
 import logging
 import random
-from dataclasses import field
+from dataclasses import dataclass, field
 from typing import TYPE_CHECKING
 
 from l5r_auto.abilities import ABILITIES, Ability, DynastyDiscardAction, RecruitAction
 from l5r_auto.cards.events.common import Event
-from l5r_auto.utils import dataclass_ as dataclass
+from l5r_auto.errors import MaximumNumberOfTurnsReached
 
 if TYPE_CHECKING:
     from .play import Game
@@ -18,7 +18,7 @@ if TYPE_CHECKING:
 MAX_NUMBER_OF_TURNS = 50
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class Step:
     game: Game
 
@@ -31,7 +31,7 @@ class Step:
         pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class StartOfGame(Step):
     """After a game of L5R starts, follow steps A through F in sequence."""
 
@@ -141,7 +141,7 @@ class StartOfGame(Step):
             step(game=self.game).start()
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class TurnSequences(Step):
     """A game of L5R is divided into turns.
 
@@ -157,12 +157,13 @@ class TurnSequences(Step):
         ):
             if turn_number >= MAX_NUMBER_OF_TURNS:
                 logging.info("Reached maximum number of turns: %d", turn_number)
-                break
+                raise MaximumNumberOfTurnsReached()
+
             self.game.current_player = player
             self.game.take_turn(number=turn_number, active_player=player)
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class Phase(Step):
     turn: Turn
     active_player: Player
@@ -181,7 +182,7 @@ class Phase(Step):
 
 # Turn Sequence
 # Start Phase - Straighten Phase - Event Phase - Action Phase - Attack/Battle Phase (optional) - Dynasty Phase - Discard Phase - Draw Phase - End Phase
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class StartPhase(Phase):
     def _start(self):
         for ability in ABILITIES.values():
@@ -194,7 +195,7 @@ class StartPhase(Phase):
                     card.turn_face_up()
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class StraightenPhase(Phase):
     def _start(self):
         logging.info(
@@ -208,7 +209,7 @@ class StraightenPhase(Phase):
             card.straighten()
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class EventPhase(Phase):
     def _start(self):
         for province in self.active_player.provinces:
@@ -226,18 +227,18 @@ class EventPhase(Phase):
                 province.fill()
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class ActionPhase(Phase):
     pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class AttackPhase(Phase):
     optional: bool = field(default=True, init=False)
     current_segment: AttackPhaseSegment | None = field(default=None, init=False)
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class DynastyPhase(Phase):
     abilities = [
         RecruitAction(),
@@ -259,22 +260,22 @@ class DynastyPhase(Phase):
                 ability.get_effect(self.game, entity)
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class DiscardPhase(Phase):
     pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class DrawPhase(Phase):
     pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class EndPhase(Phase):
     pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class Turn:
     game: Game
     number: int
@@ -308,47 +309,47 @@ class Turn:
 
 
 # Attack phase
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class AttackPhaseSegment(Phase):
     pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class Declaration(AttackPhaseSegment):
     pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class Maneuver(AttackPhaseSegment):
     pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class Fight(AttackPhaseSegment):
     pass
 
 
 # Battles
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class BattlePhase(Phase):
     pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class EngageSegment(BattlePhase):
     pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class CombatSegment(BattlePhase):
     pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class ResolutionSegment(BattlePhase):
     pass
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class AftermathSegment(BattlePhase):
     pass

@@ -2,10 +2,9 @@ from __future__ import annotations
 
 import logging
 import uuid
-from dataclasses import InitVar, field, fields
+from dataclasses import InitVar, dataclass, field, fields
 from typing import TYPE_CHECKING, Any, Generator, Type
 
-from ..abilities import ProduceGold
 from ..clans import Clan
 from ..locations import (
     DynastyDiscard,
@@ -16,8 +15,7 @@ from ..locations import (
     RemovedFromGame,
     StrongholdLocation,
 )
-from ..utils import dataclass_ as dataclass
-from ..utils import import_submodules
+from ..utils import dataclass_, import_submodules
 
 if TYPE_CHECKING:
     from ..abilities import Ability, Trait
@@ -52,7 +50,7 @@ def get_cards(card_type: Type[Card]) -> list[Card]:
     return list(CARDS[card_type].values())
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class BaseCard:
     id: uuid.UUID = field(default_factory=uuid.uuid4)
     title: str = field(metadata={"is_written": True})
@@ -66,7 +64,7 @@ class BaseCard:
     )
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class Card(BaseCard):
     card_id: int = field(metadata={"is_written": True})
     id: uuid.UUID = field(default_factory=uuid.uuid4)
@@ -96,12 +94,12 @@ class Card(BaseCard):
         return f"{self.title} ({self.id})"
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class DynastyCard(Card):
     province: ProvinceLocation | None = field(default=None)
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class FateCard(Card):
     gold_cost: int = field(metadata={"is_written": True})
     focus_value: int = field(metadata={"is_written": True})
@@ -120,7 +118,7 @@ def log_state_change(method):
     return wrapper
 
 
-@dataclass
+@dataclass(repr=False, kw_only=True)
 class Entity(BaseCard):
     game: Game
     base_card: Type[Card]
@@ -137,9 +135,6 @@ class Entity(BaseCard):
     def __post_init__(self, current_legality: Type[Legality] | None = None):
         if current_legality and hasattr(self, "clan"):
             self.clan = [x for x in self.clan if x in current_legality.legal_clans]
-
-        if (gold_production := getattr(self, "gold_production", None)) is not None:
-            self.abilities.append(ProduceGold(base_gold_amount=gold_production))
 
     def __repr__(self):
         return self.to_string()
@@ -242,8 +237,10 @@ class Entity(BaseCard):
     def turn_face_up(self):
         self.face_down = False
 
-    def on_pay(self, entity: Entity) -> Generator[int, None, None]:
-        yield from (x.on_pay(entity) for x in self.abilities)
+    def on_pay(
+        self, game: Game, player: Player, entity: Entity
+    ) -> Generator[int, None, None]:
+        yield from (x.on_pay(game, player, entity) for x in self.abilities)
 
     gold_amount: int = 0
 
