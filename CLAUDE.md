@@ -166,23 +166,37 @@ Game.start()
         ├── StartPhase       Reveal provinces, trigger start-phase abilities
         ├── StraightenPhase  Straighten stronghold, sensei, and all play area cards
         ├── EventPhase       Activate face-up events in provinces
-        ├── ActionPhase      (stub — AI logic to be added)
-        ├── AttackPhase      (optional stub)
-        ├── DynastyPhase     Recruit personalities / discard from provinces
-        ├── DiscardPhase     (stub)
-        ├── DrawPhase        (stub)
-        └── EndPhase         (stub)
+        ├── ActionPhase      Play affordable Strategy cards; attach Followers/Items to Personalities
+        ├── AttackPhase      Attack a random opponent province with all unbowed Personalities;
+        │                    resolve battle (force comparison); destroy province if attacker wins
+        ├── DynastyPhase     Recruit affordable Personalities and Holdings from provinces
+        ├── DiscardPhase     Discard random hand cards down to hand_size (5)
+        ├── DrawPhase        Draw fate cards back up to hand_size
+        └── EndPhase         Check honor ≥ 40 (HonorVictory) or honor < 0 (dishonor loss)
 ```
 
-Game ends when `EndOfDynastyDeckError` or `MaximumNumberOfTurnsReached` is raised.
+Game ends when any of:
+- `HonorVictory` — a player reaches 40 honor, or drops below 0 (opponent wins)
+- `ProvinceConquestVictory` — all 4 opponent provinces destroyed
+- `EndOfDynastyDeckError` — dynasty deck exhausted
+- `MaximumNumberOfTurnsReached` — 50 turn cap (`MAX_NUMBER_OF_TURNS` in `phases.py`)
+- `EndOfFateDeckError` — gracefully handled mid-game; draw phase simply stops drawing
+
+### Victory Conditions
+
+Three ways a game ends by design:
+
+- **Honor Victory** (`HONOR_VICTORY_THRESHOLD = 40` in `phases.py`): checked each `EndPhase`. If any player's honor reaches 40 or higher, they win immediately.
+- **Dishonor Loss** (honor `< 0`): also checked each `EndPhase`. If a player's honor drops below zero, their opponent wins.
+- **Province Conquest** (`player.remaining_provinces <= 0`): checked in `AttackPhase._destroy_province()` after each successful attack. Destroying all 4 opponent provinces wins the game.
 
 ### Deck System (`deck.py`)
 
 A `Deck` contains:
 - `stronghold`: one `Stronghold` card
-- `personalities`, `holdings`, `events`: lists of dynasty cards
-- `fate_cards`: fate deck cards
-- `sensei`: optional sensei card
+- `sensei`: optional `Sensei` card
+- Dynasty deck: `personalities`, `holdings`, `events`, `regions`
+- Fate deck: `strategies`, `followers`, `items`, `spells`, `rings`
 - `legality`: the `Legality` edition format
 - `version`: semantic version string
 
@@ -218,7 +232,7 @@ Factions: `BrotherhoodOfShinsei`, `ShadowlandsFaction`, `NinjaFaction`, `SpiritF
 The generator fetches card data from `api.oracleofthevoid.com`, parses it, and uses Python's `ast` module to write card definition files:
 
 1. Reads `generate/cards.json` (cached card data)
-2. Filters cards to a specific legality (currently Twenty Festivals)
+2. Filters cards to three target editions: `EmperorEdition`, `OnyxEdition`, `TwentyFestivalsEdition`
 3. Groups cards by type and clan/edition
 4. Generates Python files using `ast.Assign` nodes — card instances are module-level variable assignments, not classes
 
@@ -265,16 +279,41 @@ Abilities live in `abilities.py`. Each has:
 
 The global `ABILITIES` dict (populated by `__init_subclass__`) allows phase-level ability queries.
 
+Action abilities used by `ActionPhase`:
+- `PlayStrategyAbility` — plays a `Strategy` card from hand, paying its gold cost; bows gold-producing Holdings/Stronghold
+- `AttachFollowerAbility` — attaches a `Follower` from hand to a `PersonalityEntity` in play area
+- `AttachItemAbility` — attaches an `Item` from hand to a `PersonalityEntity` in play area
+
+Gold payment uses the `_pay_gold(game, player, gold_cost)` helper (in `abilities.py`), which bows the minimum set of unbowed gold-producing entities to cover the cost.
+
+> **Pitfall — phase ability initialization**: `Phase` is a `@dataclass` with `abilities: list[Ability] = field(default_factory=list)`. A class-level `abilities = [...]` assignment on a subclass will be silently overwritten by `__init__`. Always initialize phase abilities in `__post_init__`, not as a class attribute:
+> ```python
+> def __post_init__(self, *args, **kwargs):
+>     self.abilities = [PlayStrategyAbility(), ...]
+> ```
+
 ---
 
 ## Known Limitations / TODOs (from code comments)
 
-- `ActionPhase`, `DiscardPhase`, `DrawPhase`, `EndPhase` are stubs — AI/game logic not yet implemented
-- `AttackPhase` / battle phases are defined but not wired into gameplay
 - `play.main()` has a TODO for CLI argument parsing and player name handling
 - Deck building only produces decks for clans with enough cards for the selected legality
-- Only 2-player games are supported at runtime (enforced assertion in `play.py`)
+- Only 2-player games are supported at runtime
 - The card generator's Oracle API fetch code is commented out; only local JSON re-generation is active
+- `DynastyDiscardAction` is excluded from the AI — cards stay in provinces until a player can afford to recruit them (discarding all face-up cards regardless of cost prevented personalities from ever being recruited)
+- Onyx Edition has no dedicated strongholds in the card data; `build.py` falls back to Emperor Edition strongholds
+- Restricted card list is not implemented — any card legal for the edition can appear up to 3 copies
+- Iaijutsu duels, Ring mechanics, and the Open/Interrupt ability stack are out of scope
+- `Experienced` keyword overlay (transferring attachments from lower-XP to higher-XP personality) is implemented in `RecruitAction` but not fully tested
+
+### Implemented Keyword Mechanics
+
+| Keyword | Where enforced | Behaviour |
+|---|---|---|
+| `Unique` | `RecruitAction.gather_legal_target_entities` | Blocks recruiting if a personality with the same title is already in the play area |
+| `Experienced` | `RecruitAction.get_effect` | Recruiting an Experienced personality replaces the lower-XP version already in play, transferring all attachments |
+| `Resilient` | `AttackPhase._destroy_with_resilient` | Entity bows instead of being destroyed the first time; tracked per-entity via `_resilient_used` flag |
+| `Expendable` | `PersonalityEntity.destroy` | Entity draws a fate card for its owner when destroyed |
 
 ---
 
