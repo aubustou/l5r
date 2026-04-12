@@ -1,0 +1,19 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import BrotherhoodOfShinsei, DragonClan
+from l5r_auto.keywords import Air, Courtier, Duelist, Expendable, Experienced, Fallen, Fire, ForgiverOfSins, HareClan, Inexperienced, Kensai, Magistrate, Monk, Samurai, Tattooed, TheShatteredStar, TheUntouchable, Unique
+from l5r_auto.legality import EmperorEdition, IvoryEdition, ModernEdition
+"Kimura enters play ignoring Gold Cost if you control the Ring of Air.<br><b>Air Limited:</b> Discard a card. Increase the Honor you gain from your next Proclaim this turn to equal the card's Focus Value."
+Kimura_Forgiver_of_Sins = Personality(card_id=10451, title='Kimura, Forgiver of Sins', force=2, chi=4, personal_honor=3, gold_cost=7, honor_requirement=4, clan=[DragonClan, BrotherhoodOfShinsei], keywords=[Unique, Air, ForgiverOfSins, Monk], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'<b>Limited:</b> Look at the top three cards of your Fate deck. If you find an Iaijutsu Strategy, you may show it, put it into your hand, then discard a card. Put the remaining cards back in any order.'
+Kitsuki_Daisuke_Experienced_2 = Personality(card_id=10452, title='Kitsuki Daisuke', force=4, chi=4, personal_honor=4, gold_cost=8, honor_requirement=10, clan=[DragonClan], keywords=[Duelist, Experienced('2'), Unique, Courtier, Magistrate], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'<b>Iaijutsu Open, :bow::</b> Bow a target Personality with lower Personal Honor. Gain 1 Honor if you control Kakita Ichigiku.'
+Kitsuki_Kinaro_Experienced = Personality(card_id=10453, title='Kitsuki Kinaro', force=0, chi=4, personal_honor=3, gold_cost=7, honor_requirement=5, clan=[DragonClan], keywords=[Duelist, Unique, Courtier, Experienced('1'), Magistrate], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'<i><i><i><i>(Draw a card after your Expendable card is destroyed.)</i></i></i></i><br>After Kazuya enters play, lose 2 Honor.'
+Mirumoto_Kazuya = Personality(card_id=10454, title='Mirumoto Kazuya', force=3, chi=3, personal_honor=0, gold_cost=5, honor_requirement=None, clan=[DragonClan], keywords=[Expendable, Kensai, Fallen, Samurai], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'<b>Fire Battle/Open:</b> Give Mitsu +1F <b>Fire </b>tokens until he has exactly five.<br><b>Fire Battle:</b> Destroy zero or more Fire tokens on Mitsu. Ranged Attack with strength equal to the number of tokens destroyed.'
+Togashi_Mitsu_Inexperienced = Personality(card_id=10455, title='Togashi Mitsu', force=0, chi=4, personal_honor=1, gold_cost=7, honor_requirement=5, clan=[DragonClan, BrotherhoodOfShinsei], keywords=[Unique, Fire, Inexperienced, Monk, Samurai, Tattooed], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+"After Noboru enters play, lose 3 Honor.<br><b>Fire Battle:</b> Bow a target enemy Personality. Give Noboru a Force bonus equal to the target's Force."
+Togashi_Noboru_the_Shattered_Star_Experienced = Personality(card_id=10456, title='Togashi Noboru, the Shattered Star', force=3, chi=4, personal_honor=0, gold_cost=9, honor_requirement=None, clan=[DragonClan, BrotherhoodOfShinsei], keywords=[Unique, Experienced('1'), Fallen, Fire, Monk, Tattooed, TheShatteredStar], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+"Seki has +5F while other players' actions are resolving."
+Usagi_Seki_the_Untouchable = Personality(card_id=10457, title='Usagi Seki, the Untouchable', force=2, chi=2, personal_honor=2, gold_cost=4, honor_requirement=2, clan=[DragonClan], keywords=[Unique, HareClan, Samurai, TheUntouchable], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])

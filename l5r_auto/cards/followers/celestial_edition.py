@@ -1,0 +1,16 @@
+from __future__ import annotations
+from .common import Follower
+from l5r_auto.keywords import Berserker, Cavalry, Goblin, Gunso, Nonhuman, Shadowlands, Wyrm
+from l5r_auto.legality import CelestialEdition, DiamondEdition, GoldEdition, ImperialEdition, IvoryEdition, JadeEdition, LotusEdition, ModernEdition, OnyxEdition, SamuraiEdition, TwentyFestivalsEdition
+"<b>Battle:</b> Give this Follower +2F. After the current battle ends, destroy this Follower if it was at the battlefield in resolution and its side's total Force was not greater than twice the opposing side's."
+Berserkers = Follower(card_id=962, title='Berserkers', force=2, chi=0, gold_cost=4, focus_value=1, keywords=[Berserker], traits=[], abilities=[], legality=[LotusEdition, ImperialEdition, CelestialEdition, SamuraiEdition, ModernEdition, OnyxEdition, TwentyFestivalsEdition])
+'After this Follower enters play, lose 2 Honor.<br><b>Battle, :bow::</b> Ranged 2 Attack <i>(Destroy a target enemy Follower or Personality without Followers with 2 or lower Force)</i>.'
+Goblin_Chuckers = Follower(card_id=2829, title='Goblin Chuckers', force=2, chi=0, gold_cost=2, focus_value=2, keywords=[Goblin, Nonhuman, Shadowlands], traits=[], abilities=[], legality=[TwentyFestivalsEdition, LotusEdition, ImperialEdition, CelestialEdition, OnyxEdition, SamuraiEdition, ModernEdition])
+'All other Followers in this unit have +1F. After this Follower is destroyed, give -1F to all Followers in its former unit.'
+Gunso = Follower(card_id=2925, title='Gunso', force=2, chi=0, gold_cost=3, focus_value=2, keywords=[Gunso], traits=[], abilities=[], legality=[TwentyFestivalsEdition, CelestialEdition, GoldEdition, OnyxEdition, DiamondEdition, ModernEdition])
+Heavy_Infantry = Follower(card_id=3043, title='Heavy Infantry', force=5, chi=0, gold_cost=8, focus_value=2, traits=[], abilities=[], legality=[IvoryEdition, TwentyFestivalsEdition, LotusEdition, ImperialEdition, CelestialEdition, GoldEdition, JadeEdition, OnyxEdition, SamuraiEdition, DiamondEdition, ModernEdition])
+Light_Infantry = Follower(card_id=4734, title='Light Infantry', force=2, chi=0, gold_cost=1, focus_value=1, traits=[], abilities=[], legality=[IvoryEdition, TwentyFestivalsEdition, ImperialEdition, CelestialEdition, GoldEdition, JadeEdition, OnyxEdition, SamuraiEdition, ModernEdition])
+'<b>Battle, :bow::</b> Ranged 2 Attack <i>(Destroy a target enemy Follower, or Personality without Followers, with 2 or lower Force)</i>.'
+Spearmen = Follower(card_id=7399, title='Spearmen', force=2, chi=0, gold_cost=3, focus_value=2, traits=[], abilities=[], legality=[IvoryEdition, TwentyFestivalsEdition, LotusEdition, ImperialEdition, CelestialEdition, GoldEdition, JadeEdition, DiamondEdition, ModernEdition])
+'After you Equip this Follower, lose 2 Honor. <br><b>Battle:</b> Ranged 2 Attack <i>(Destroy a target enemy Follower, or Personality without Followers, with 2 or lower Force)</i>.'
+Wyrm_Riders = Follower(card_id=9413, title='Wyrm Riders', force=2, chi=0, gold_cost=5, focus_value=2, keywords=[Cavalry, Nonhuman, Wyrm], traits=[], abilities=[], legality=[IvoryEdition, TwentyFestivalsEdition, ImperialEdition, CelestialEdition, ModernEdition])

@@ -1,0 +1,19 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import BrotherhoodOfShinsei, CraneClan
+from l5r_auto.keywords import ClanChampion, Conqueror, Duelist, Earth, Experienced, Fallen, FirstMagistrate, Imperial, Inexperienced, KeeperOfObsidian, Loyal, Magistrate, Monk, Samurai, Scout, SparrowClan, TheFallenKeeper, TheFinalBlade, TheTireless, Unique
+from l5r_auto.legality import EmperorEdition, IvoryEdition, ModernEdition
+"Asukai enters play ignoring Gold Cost if you control the Ring of Earth.<br>Other players' cards will not affect your Provinces' strengths."
+Asukai_the_Tireless = Personality(card_id=10444, title='Asukai, the Tireless', force=3, chi=3, personal_honor=2, gold_cost=4, honor_requirement=2, clan=[CraneClan, BrotherhoodOfShinsei], keywords=[Conqueror, Unique, Earth, Monk, TheTireless], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+"After Adachi enters play, lose 2 Honor.<br>After an action from a card opposing Adachi resolves, if its unit's Personality has more Madness tokens than printed Personal Honor, his controller discards a card."
+Daidoji_Adachi = Personality(card_id=10449, title='Daidoji Adachi', force=3, chi=3, personal_honor=0, gold_cost=5, honor_requirement=None, clan=[CraneClan], keywords=[Fallen, Samurai, Scout], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+"After you Proclaim another Personality: Gain 1 Honor.<br><b>Iaijutsu Battle:</b> Hakuseki challenges a target enemy Personality. Bow the duel's loser. Destroy the duel's loser if the duel was against The Dark Naga."
+Doji_Hakuseki_Experienced_3 = Personality(card_id=10445, title='Doji Hakuseki', force=2, chi=5, personal_honor=4, gold_cost=9, honor_requirement=10, clan=[CraneClan], keywords=[Duelist, Experienced('3'), Unique, FirstMagistrate, Imperial, Magistrate, Samurai], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+"<b>Iaijutsu Battle:</b> Hoturi challenges a target Personality. If the target is honorable, his controller may dishonor him and move him home to refuse the duel. Destroy the duel's loser."
+Doji_Hoturi_Inexperienced = Personality(card_id=10448, title='Doji Hoturi', force=3, chi=6, personal_honor=4, gold_cost=11, honor_requirement=10, clan=[CraneClan], keywords=[Duelist, Loyal, Unique, ClanChampion, Inexperienced, Samurai], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'After Hideo enters play, lose 3 Honor.<br>After Hideo wins a duel, give him two +1F tokens.'
+Kakita_Hideo_the_Fallen_Keeper_Experienced_2 = Personality(card_id=10446, title='Kakita Hideo, the Fallen Keeper', force=3, chi=4, personal_honor=0, gold_cost=5, honor_requirement=None, clan=[CraneClan], keywords=[Duelist, Experienced('2'), Unique, Fallen, KeeperOfObsidian, Samurai, TheFallenKeeper], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'<b>Battle:</b> If no other player has more Family Honor than you, give Ichigiku +3F, or +4F if you control Kitsuki Kinaro.'
+Kakita_Ichigiku_Experienced = Personality(card_id=10447, title='Kakita Ichigiku', force=3, chi=4, personal_honor=3, gold_cost=9, honor_requirement=5, clan=[CraneClan], keywords=[Duelist, Unique, Experienced('1'), Magistrate, Samurai], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'Shindo will not join a Spider Clan player.<br>You have the first opportunity to focus or strike in duels where Shindo is the challenger.'
+Suzume_Shindo_the_Final_Blade = Personality(card_id=10450, title='Suzume Shindo, the Final Blade', force=3, chi=2, personal_honor=3, gold_cost=5, honor_requirement=4, clan=[CraneClan], keywords=[Duelist, Unique, Samurai, SparrowClan, TheFinalBlade], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])

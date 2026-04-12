@@ -1,0 +1,19 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import MantisClan
+from l5r_auto.keywords import Brash, Cavalry, Dragon, Earth, Experienced, Hero, Kensai, Loyal, Magistrate, Mercenary, Naval, Nonhuman, RubyChampion, Samurai, Scout, Sensei, Shugenja, Thunder, Unique
+from l5r_auto.legality import EmperorEdition, ModernEdition
+'<b>Reaction:</b> After Merihiko enters play: Create a 0F/2C/3PH <b>Mantis Clan &#149; Nonhuman &#149; Bee &#149; Cavalry &#149; Spirit &#149; Swarm</b> Personality with the ability, "<b>Battle:</b> Bow this card: Ranged 4 Attack."'
+Kitsune_Merihiko = Personality(card_id=10065, title='Kitsune Merihiko', force=3, chi=4, personal_honor=3, gold_cost=7, honor_requirement=3, clan=[MantisClan], keywords=[Earth, Shugenja], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Battle:</b> Ino summons a storm. After the next action not performed by a Thunder Personality resolves this battle, the player who took it chooses to discard a card or bow the performer. You may take an additional Battle action.'
+Moshi_Ino = Personality(card_id=10066, title='Moshi Ino', force=3, chi=3, personal_honor=2, gold_cost=7, honor_requirement=None, clan=[MantisClan], keywords=[Naval, Shugenja, Thunder], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'After Thunder Dragon performs an action: Other players may not take Reactions until it ends.<br>The Thunder Dragon inspires. Your Mantis Clan Personalities have +1F and the ability, "<b>Battle:</b> Target an enemy card without unbowed attachments: Bow it."'
+Thunder_Dragon_Experienced_2 = Personality(card_id=10067, title='Thunder Dragon', force=8, chi=5, personal_honor=4, gold_cost=13, honor_requirement=10, clan=[MantisClan], keywords=[Cavalry, Experienced('2'), Loyal, Naval, Unique, Dragon, Hero, Nonhuman, Shugenja, Thunder], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<i>(The Defender may draw a card after a Brash card is assigned to attack.)</i><br><b>Battle:</b> Ranged 2 Attack.'
+Tsuruchi_Kohrogi = Personality(card_id=10068, title='Tsuruchi Kohrogi', force=4, chi=3, personal_honor=2, gold_cost=6, honor_requirement=None, clan=[MantisClan], keywords=[Brash, Naval, Samurai, Scout], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'After Nobukatsu enters play or overlays: Discard all your other Sensei Personalities.<br>Your Mantis Clan Samurai in and out of play have <b>Magistrate</b>.<br><b>Battle:</b> Target a Personality at any location: Bow him.'
+Tsuruchi_Nobukatsu_Experienced = Personality(card_id=10069, title='Tsuruchi Nobukatsu', force=4, chi=4, personal_honor=2, gold_cost=9, honor_requirement=0, clan=[MantisClan], keywords=[Naval, Unique, Experienced('1'), Magistrate, RubyChampion, Samurai, Sensei], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Battle:</b> Target a Weapon in your hand: Attach it to Akukiho, paying all costs. You may take an additional Battle action.'
+Yoritomo_Akukiho = Personality(card_id=10070, title='Yoritomo Akukiho', force=4, chi=4, personal_honor=1, gold_cost=8, honor_requirement=None, clan=[MantisClan], keywords=[Kensai, Naval, Mercenary, Samurai], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Limited:</b> If Iwashi has been in an attacking army when it won a battle since your last turn began, target a Personality: Bow him.'
+Yoritomo_Iwashi = Personality(card_id=10071, title='Yoritomo Iwashi', force=4, chi=3, personal_honor=1, gold_cost=7, honor_requirement=None, clan=[MantisClan], keywords=[Naval, Magistrate, Samurai], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])

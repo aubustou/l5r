@@ -1,0 +1,19 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import BrotherhoodOfShinsei, NinjaFaction, ShadowlandsFaction, SpiderClan
+from l5r_auto.keywords import Cavalry, Commander, Conqueror, DarkProphet, Dragon, Experienced, Kensai, Loyal, Monk, Ninja, Nonhuman, OrderOfTheSpider, Paragon, Samurai, Sensei, Shadowlands, Shugenja, Unique
+from l5r_auto.legality import EmperorEdition, ModernEdition
+"After Kazuko enters play: Lose 1 Honor.<br><b>Fear Battle:</b> You may destroy one of Kazuko's Followers: Melee 3 Attack, or Melee 6 Attack if you destroyed a Follower."
+Daigotsu_Kazuko = Personality(card_id=1734, title='Daigotsu Kazuko', force=4, chi=2, personal_honor=0, gold_cost=7, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[Conqueror, Commander, Samurai, Shadowlands], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'After Susaiken enters play: Discard all your other Sensei Personalities.<br>Once per turn, you may refill one of your provinces face-up.'
+Daigotsu_Susaiken = Personality(card_id=1771, title='Daigotsu Susaiken', force=4, chi=3, personal_honor=0, gold_cost=7, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[Conqueror, Loyal, Samurai, Sensei, Shadowlands], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'After Takayasu enters play: Lose 1 Honor.<br><b>Maho Battle:</b> Melee 6 Attack.'
+Daigotsu_Takayasu_Experienced = Personality(card_id=1777, title='Daigotsu Takayasu', force=5, chi=4, personal_honor=0, gold_cost=9, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[Conqueror, Unique, Commander, Experienced('1'), Samurai, Shadowlands], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<b>Reaction:</b> After engaging at Tenbatsu's battlefield: Look at the top three cards of your Fate deck. Put them back in any order. You may discard a Dark Virtue; if you did, draw a card."
+Daigotsu_Tenbatsu = Personality(card_id=1778, title='Daigotsu Tenbatsu', force=3, chi=2, personal_honor=0, gold_cost=6, honor_requirement=None, clan=[SpiderClan], keywords=[DarkProphet, Paragon, Samurai], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'After Gochiso enters play: Lose 2 Honor.'
+Goju_Gochiso = Personality(card_id=2849, title='Goju Gochiso', force=6, chi=3, personal_honor=0, gold_cost=8, honor_requirement=None, clan=[SpiderClan, NinjaFaction, ShadowlandsFaction], keywords=[Ninja, Shadowlands, Shugenja], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"After Shadow Dragon enters play: Lose 5 Honor.<br>Shadow Dragon's abilities will not be copied.<br><b>Battle:</b> Target an enemy Personality: Permanently give him <b>Ninja </b>and<b> Shadowlands</b>. Take control of him. Return control of him to his owner after the next time this game this ability is announced.<br><b>Open:</b> If Shadow Dragon is dead: Bring it into play, paying all costs."
+Shadow_Dragon_Experienced_2 = Personality(card_id=6653, title='Shadow Dragon', force=10, chi=5, personal_honor=0, gold_cost=20, honor_requirement=None, clan=[SpiderClan, NinjaFaction, ShadowlandsFaction], keywords=[Cavalry, Conqueror, Experienced('2'), Unique, Dragon, Ninja, Nonhuman, Shadowlands, Shugenja], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Battle:</b> Target an enemy Personality: Give him -4F. If his Force is now 0, you may take an additional Battle action which Sugihara must perform.'
+Sugihara = Personality(card_id=7615, title='Sugihara', force=6, chi=3, personal_honor=0, gold_cost=9, honor_requirement=None, clan=[SpiderClan, BrotherhoodOfShinsei], keywords=[Kensai, Monk, OrderOfTheSpider], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])

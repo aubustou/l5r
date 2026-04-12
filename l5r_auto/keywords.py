@@ -1111,3 +1111,1503 @@ class Winter(Keyword):
 @dataclass(repr=False, kw_only=True)
 class Festival(Keyword):
     pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Abomination(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Acolyte(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Acrobat(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class AdvisorToTheAmethystChampion(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class AdvisorToTheEmeraldChampion(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class AdvisorToTheJadeChampion(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class AdvisorToTheRubyChampion(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class AkkuaiUo(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class AllClans(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Allegiance(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Ambassador(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class AmbassadorToTheEmpire(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class AmethystChampion(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Apprentice(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Archivist(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Atemi(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class BadgerClan(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class BakeKujira(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Bandit(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Banker(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Bashe(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Blacksmith(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class BlessedOfTheFortuneOfPersistence(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class BlindPhoenix(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class BloodOfKinuye(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class BoarClan(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Boat(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Bow(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Brash(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class BreakerOfWills(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class BrothersOfRebirth(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Brute(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Bushido(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class BushidoVirtue(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Camel(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class CaptainOfTheTachikaze(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class CaptainOfTheThirdKama(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class CaptainOfitheFourthStormi(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Cat(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Chain(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Champion(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Charitable(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Chui(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Churetsu(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class ClaySoldier(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class CommanderOfThe9thLegion(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Compassion(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Conscript(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Consumer(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Control(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Corrupter(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Courtesy(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Crab(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Crane(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class CrimeBoss(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Cultist(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Damned(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class DarkConquest(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class DarkDeath(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class DarkDementia(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class DarkFistOfIron(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class DarkPerfection(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class DarkProphet(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class DarkResolve(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class DarkScionOfFire(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class DarkStalker(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class DarkVirtue(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class DarkWill(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class DemonSlayer(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Determination(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class DevourerOfGods(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class DiscipleOfPanKu(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class DisciplesOfPanKu(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Displacer(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Djinn(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Doomseeker(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class DrunkenMaster(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Duty(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Economic(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Elephant(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Elite(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class EmeraldChampion(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class EmeraldChampionsAdvisor(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class EmeraldMagistrate(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Emperor(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class EmptyHand(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Enginoshi(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Enigma(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Enlightened(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Extortionist(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class EyeOfShadow(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class FaceOfGhosts(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Favor(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class FavoredOfTheAirDragon(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class FavoredOfTheCelestialDragon(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class FavoredOfTheEarthDragon(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class FavoredOfTheFireDragon(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class FavoredOfTheVoidDragon(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class FavoredOfTheWaterDragon(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Fear(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Fenghuang(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class FinalStudent(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class FirestormLegion(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class FirstMagistrate(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class FistOfStone(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Forest(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class ForgiverOfSins(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class FriendOfThunder(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Gaijin(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Gaijin149Yodotai(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Gamekeeper(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Gardener(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class GhostGuard(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class GoMaster(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class GoldenArm(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Golem(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class GrandMasterOfTheElements(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Gunso(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class HalfNaga(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class HareClan(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class HeadLibrarian(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class HeadOfTheSecondCityGuardsmen(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class HeavyWeapon(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Henshin(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Herald(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Heroic(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Honesty(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Honor(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Horse(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Iaijutsu(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Immortal(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class ImperialBankOfRokugan(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class ImperialExplorer(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class ImperialTreasurer(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class IncenseMaster(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Insight(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class IronFlower(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class IvoryChampion(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class IvoryChampionsAdvisor(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Jackal(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class JadeChampion(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class JadeHand(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Justicar(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Kata(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class KeeperOfObsidian(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Keitaku(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Khadi(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Kiho(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Knife(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Knowledge(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Koan(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Kodama(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Kshatriya(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Legendary(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class LegionOfFlame(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Legionnaire(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Liaison(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Lion(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class LionsPride(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class LittleBear(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Lost(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class MadDragon(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Maho(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Maiko(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Mantis(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class MasterBowman(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class MasterOfCeremonies(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class MasterOfGuile(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class MasterOfScrolls(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class MasterOfTheBlade(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class MasterOfTheSwiftWaves(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class MasterSensei(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class MasterTactician(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Megumi(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Mempo(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Messenger(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class MonkeyClan(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class MoonBlessed(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Mountain(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Mujina(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Mutant(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Nemuranai(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Nikutai(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class NoboriRaiu(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class ObsidianChampion(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class ObsidianClaw(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class OneHanded(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class OnyxChampion(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Oracle(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class OrderOfDeath(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class OrderOfStrength(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class OrioleClan(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Overconfident(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class OxClan(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Oyabun(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Pack(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Peasant(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Perfection(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Phoenix(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Plague(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Polearm(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Political(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Prodigy(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Prophet(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Protector(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class ProtectorOfTheSecondCity(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class QueenOfFools(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Recon(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class RecruitmentOfficer(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Resourceful(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Revenge(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Riddle(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Ritual(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class RubyChampion(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Ryu(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Sacrosanct(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class SakeWorks(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Scorpion(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class ScourgeOfThePlains(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class ScourgeOfTheScorpion(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Sculptor(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class SecondCityGovernor(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Sensei(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Settler(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Shadowspawn(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Shapeshifter(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Shinrai(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Ship(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Shogun(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Shåjå(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class SilkFever(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Sincerity(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Singular(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Skirmisher(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Sober(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class SparrowClan(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class SpawnOfVritra(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Spear(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Spider(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Staff(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Stalwart(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Standard(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class SteelLion(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Strength(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Student(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class StudentOfKinuye(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Suryn(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Sword(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Tactical(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TamamoNoMae(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TasusSorrow(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Tattoo(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TaxCollector(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Tejina(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Terrain(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Tessen(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TheBenevolent(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TheEyeOfTomorrow(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TheFallenKeeper(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TheFinalBlade(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TheFleshEater(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TheHandOfSteel(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TheJaggedTuskOfDeath(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TheKhan(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TheMetalStorm(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TheRazorsEdge(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TheShadowWing(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TheShatteredStar(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TheSkullTaker(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TheSteelEyed(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TheStoneBreaker(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TheTireless(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TheUnbreakable(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TheUntouchable(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TheWhisper(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TheWise(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TigersClaw(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TopazChampion(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TortoiseClan(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Troll(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TurquoiseChampion(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class TwoHanded(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Unbreakable(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Unicorn(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Veteran(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Vicious(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Villain(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Virtue(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Wani(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class WardMaster(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Warden(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class WaspClan(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class WhiteGuard(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Will(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class WorkerOfFlesh(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Wyrm(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class WyrmRider(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Yodotai(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Yuruginai(Keyword):
+    pass
+
+
+@dataclass(repr=False, kw_only=True)
+class Zokujin(Keyword):
+    pass

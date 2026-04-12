@@ -1,58 +1,31 @@
 from __future__ import annotations
-
-from l5r_auto.clans import MantisClan, SpiritFaction
-from l5r_auto.keywords import (
-    Earth,
-    Kitsune,
-    Naval,
-    Nonhuman,
-    Shugenja,
-    SoulOf,
-    Spirit,
-    Thunder,
-)
-from l5r_auto.legality import (
-    EmperorEdition,
-    IvoryEdition,
-    ModernEdition,
-    OnyxEdition,
-    TwentyFestivalsEdition,
-)
-
 from ..common import Personality
-
-Kitsune_Kohaki = Personality(
-    card_id=4467,
-    title="Kitsune Kohaki",
-    force=3,
-    chi=4,
-    personal_honor=3,
-    gold_cost=6,
-    honor_requirement=2,
-    clan=[MantisClan, SpiritFaction],
-    keywords=[Earth, Kitsune, Nonhuman, Shugenja, Spirit],
-    traits=[],
-    abilities=[],
-    legality=[
-        IvoryEdition,
-        TwentyFestivalsEdition,
-        EmperorEdition,
-        ModernEdition,
-        ModernEdition,
-    ],
-)
+from l5r_auto.clans import MantisClan, SpiritFaction
+from l5r_auto.keywords import ClanChampion, Earth, Extortionist, Kitsune, Loyal, Magistrate, Naval, Nonhuman, Samurai, Scout, Shapeshifter, Shugenja, Skirmisher, SoulOf, Spirit, Thunder, Unique, Yojimbo
+from l5r_auto.legality import DiamondEdition, EmperorEdition, IvoryEdition, LotusEdition, ModernEdition, OnyxEdition, TwentyFestivalsEdition
+'<b>Reaction:</b> After Denhei enters play: Create a 2F/2C/3PH <b>Mantis Clan &#149; Nonhuman &#149; Snake &#149; Spirit</b> Personality with the ability, "<b>Open:</b> Target a Personality: He is bitten. His base abilities may not be used."'
+Kitsune_Denhei = Personality(card_id=4456, title='Kitsune Denhei', force=1, chi=4, personal_honor=3, gold_cost=8, honor_requirement=4, clan=[MantisClan], keywords=[Earth, Shugenja], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Reaction:</b> After Gina enters play: Create a 2F/2C/3PH <b>Mantis Clan &#149; Nonhuman &#149; Fox &#149; Spirit</b> Personality with the trait, "Enemy attacking Personalities and Followers at this card\'s battlefield have -1F".'
+Kitsune_Gina = Personality(card_id=4460, title='Kitsune Gina', force=1, chi=3, personal_honor=4, gold_cost=7, honor_requirement=2, clan=[MantisClan], keywords=[Earth, Shugenja], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+Kitsune_Kohaki = Personality(card_id=4467, title='Kitsune Kohaki', force=3, chi=4, personal_honor=3, gold_cost=6, honor_requirement=2, clan=[MantisClan, SpiritFaction], keywords=[Earth, Kitsune, Nonhuman, Shugenja, Spirit], traits=[], abilities=[], legality=[IvoryEdition, TwentyFestivalsEdition, EmperorEdition, ModernEdition])
+Moshi_Madoka = Personality(card_id=5271, title='Moshi Madoka', force=2, chi=2, personal_honor=2, gold_cost=4, honor_requirement=0, clan=[MantisClan], keywords=[Scout, Shugenja, Thunder], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
 "<i>(Once a turn, the Attacker gets the first Battle action, if it's from a Naval Personality's unit. Shugenja may attach and cast Spells.)</i><br><b>Thunder Battle:</b> Bow a target enemy card without attachments."
-Moshi_Yokohime = Personality(
-    card_id=5290,
-    title="Moshi Yokohime",
-    force=3,
-    chi=3,
-    personal_honor=1,
-    gold_cost=7,
-    honor_requirement=None,
-    clan=[MantisClan],
-    keywords=[Naval, Shugenja, SoulOf("Moshi Yuriko"), Thunder],
-    traits=[],
-    abilities=[],
-    legality=[TwentyFestivalsEdition, EmperorEdition, OnyxEdition, ModernEdition],
-)
+Moshi_Yokohime = Personality(card_id=5290, title='Moshi Yokohime', force=3, chi=3, personal_honor=1, gold_cost=7, honor_requirement=None, clan=[MantisClan], keywords=[Naval, Shugenja, SoulOf('Moshi Yuriko'), Thunder], traits=[], abilities=[], legality=[TwentyFestivalsEdition, EmperorEdition, OnyxEdition, ModernEdition])
+'<b>Battle:</b> Bow Isas: Ranged 3 Attack. Move Isas home.'
+Tsuruchi_Isas = Personality(card_id=8840, title='Tsuruchi Isas', force=0, chi=2, personal_honor=1, gold_cost=5, honor_requirement=None, clan=[MantisClan], keywords=[Naval, Skirmisher, SoulOf('Mukami')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Battle:</b> Ranged 5 Attack.'
+Tsuruchi_Kosoko = Personality(card_id=8852, title='Tsuruchi Kosoko', force=3, chi=3, personal_honor=2, gold_cost=7, honor_requirement=0, clan=[MantisClan], keywords=[Samurai, SoulOf('Tsuruchi Saya')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Battle:</b> Ranged 6 Attack that you compare against Gold Cost.'
+Tsuruchi_Samuru = Personality(card_id=8874, title='Tsuruchi Samuru', force=4, chi=4, personal_honor=3, gold_cost=7, honor_requirement=2, clan=[MantisClan], keywords=[Unique, Magistrate, Samurai, SoulOf('Tsuruchi Mochisa Experienced'), Yojimbo], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Battle:</b> Twice per turn: Ranged 3 Attack.'
+Tsuruchi_Tomaru = Personality(card_id=8893, title='Tsuruchi Tomaru', force=4, chi=3, personal_honor=2, gold_cost=7, honor_requirement=0, clan=[MantisClan], keywords=[Samurai, Scout], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Unmei has <b>Earth, Thunder, Courtier, Samurai, Shugenja, Cavalry, Duelist, Magistrate, Naval, Scout,</b> and/or <b>Tactician</b> while you control another Mantis Clan Personality with the same keyword.<br>While Unmei has Samurai or Shugenja, it has +3F and "<b>Battle:</b> Bow Unmei: Ranged 5 Attack."'
+Unmei = Personality(card_id=8995, title='Unmei', force=2, chi=3, personal_honor=1, gold_cost=8, honor_requirement=None, clan=[MantisClan, SpiritFaction], keywords=[Unique, Nonhuman, Shapeshifter, Spirit], traits=[], abilities=[], legality=[EmperorEdition, LotusEdition, DiamondEdition, ModernEdition])
+Yoritomo_Doho = Personality(card_id=9539, title='Yoritomo Doho', force=3, chi=2, personal_honor=1, gold_cost=5, honor_requirement=None, clan=[MantisClan], keywords=[Naval, Magistrate, Samurai], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Battle:</b> Target a card with lower Gold Cost in a unit: Bow or straighten the target.'
+Yoritomo_Hama = Personality(card_id=9552, title='Yoritomo Hama', force=4, chi=4, personal_honor=2, gold_cost=8, honor_requirement=0, clan=[MantisClan], keywords=[Naval, Extortionist, Magistrate, Samurai, SoulOf('Yoritomo Manzo')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"Bowing, destruction, and movement from Battle actions Hiromi performs will not be negated or delayed.<br><b>Battle:</b> Target an enemy card without attachments, or an enemy unit, with a lower total Gold Cost than Hiromi's unit: Hiromi strikes with the power of Thunder. Destroy the target."
+Yoritomo_Hiromi = Personality(card_id=9558, title='Yoritomo Hiromi', force=8, chi=5, personal_honor=3, gold_cost=13, honor_requirement=2, clan=[MantisClan], keywords=[Loyal, Naval, Unique, ClanChampion, Samurai, Thunder], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+Yoritomo_Nakoshi = Personality(card_id=9610, title='Yoritomo Nakoshi', force=3, chi=2, personal_honor=1, gold_cost=5, honor_requirement=None, clan=[MantisClan], keywords=[Naval, Samurai, Scout, SoulOf('Yoritomo Saburo')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Battle:</b> Target an enemy unit: Until this battle ends, abilities on cards now in that unit may not be used.'
+Yoritomo_Naoto = Personality(card_id=9611, title='Yoritomo Naoto', force=6, chi=3, personal_honor=2, gold_cost=9, honor_requirement=0, clan=[MantisClan], keywords=[Naval, Samurai, SoulOf('Yoritomo Isoshi')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])

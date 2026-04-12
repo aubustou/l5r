@@ -1,0 +1,32 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import NinjaFaction, ScorpionClan
+from l5r_auto.keywords import Air, BitterLies, Cavalry, ClanChampion, Courtier, FinalStudent, Loyal, Magistrate, Martyr, Ninja, Paragon, Samurai, Seductress, ShojusSoul, Shugenja, Sociopath, SoulOf, Tactician, Unique, Yojimbo
+from l5r_auto.legality import CelestialEdition, EmperorEdition, ModernEdition
+'<b>Open:</b> Remove <b>Ninja</b> from Hurunayi.'
+Bayushi_Hurunayi = Personality(card_id=790, title='Bayushi Hurunayi', force=2, chi=2, personal_honor=1, gold_cost=4, honor_requirement=0, clan=[ScorpionClan, NinjaFaction], keywords=[Courtier, Ninja, SoulOf('Bayushi Muraisan')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Home Battle:</b> If Irezu is at home, move home another target Scorpion Clan Personality you control. Move Irezu to the current battlefield.<br><b>Reaction, :bow::</b> Before your Scorpion Clan Personality enters a duel, Irezu enters the duel instead.'
+Bayushi_Irezu = Personality(card_id=793, title='Bayushi Irezu', force=0, chi=1, personal_honor=1, gold_cost=2, honor_requirement=None, clan=[ScorpionClan], keywords=[BitterLies, Martyr, SoulOf('Bayushi Kwanchai')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Kahoku has +2F while another player controls a dishonorable Personality.<br><b>Battle:</b> Ranged 3 Attack, with +2 strength if the target is dishonorable.'
+Bayushi_Kahoku = Personality(card_id=806, title='Bayushi Kahoku', force=3, chi=4, personal_honor=1, gold_cost=8, honor_requirement=None, clan=[ScorpionClan], keywords=[FinalStudent, Magistrate, Samurai], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+Bayushi_Manami = Personality(card_id=836, title='Bayushi Manami', force=3, chi=2, personal_honor=1, gold_cost=5, honor_requirement=None, clan=[ScorpionClan], keywords=[Loyal, Paragon, Samurai, Yojimbo], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Reaction:</b> After the resolution of a Battle action that moved Mitsuo: Take an additional Battle action.'
+Bayushi_Mitsuo = Personality(card_id=840, title='Bayushi Mitsuo', force=3, chi=4, personal_honor=1, gold_cost=7, honor_requirement=None, clan=[ScorpionClan, NinjaFaction], keywords=[Ninja, Samurai, SoulOf('Bayushi Muhito')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Political Limited:</b> Target a Personality and destroy a different one of your Personalities: Nitoshi kills his own and blames another. Dishonor the target. His controller loses 3 Honor.<br><b>Political Battle:</b> Target a dishonorable Personality or a card without attachments in a unit: Destroy it.'
+Bayushi_Nitoshi = Personality(card_id=850, title='Bayushi Nitoshi', force=8, chi=5, personal_honor=1, gold_cost=13, honor_requirement=None, clan=[ScorpionClan, NinjaFaction], keywords=[Loyal, Unique, ClanChampion, Courtier, Ninja, Samurai, ShojusSoul, Sociopath], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Limited:</b> Bow Rentatsu: While Rentatsu remains bowed, you may negate his straightening and after each of your turns begins, choose a player; he loses 2 Honor.'
+Bayushi_Rentatsu = Personality(card_id=866, title='Bayushi Rentatsu', force=0, chi=3, personal_honor=1, gold_cost=7, honor_requirement=None, clan=[ScorpionClan], keywords=[Unique, Courtier, SoulOf('Bayushi Goshiu Experienced 3')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Battle/Limited:</b> If you control a Courtier or this is a Combat Segment, target a Personality: Bow him.'
+Bayushi_Waru = Personality(card_id=923, title='Bayushi Waru', force=4, chi=3, personal_honor=2, gold_cost=8, honor_requirement=None, clan=[ScorpionClan], keywords=[Loyal, Paragon, Samurai, Yojimbo], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+Bayushi_Yasashiku = Personality(card_id=925, title='Bayushi Yasashiku', force=4, chi=4, personal_honor=2, gold_cost=8, honor_requirement=None, clan=[ScorpionClan], keywords=[Cavalry, Tactician, Samurai, SoulOf('Bayushi Himaru')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Political Limited:</b> Target a Personality: If he is dishonorable, his controller loses 1 Honor, or 2 Honor if his base Personal Honor is 3 or higher. Dishonor him.'
+Shosuro_Kameyoi = Personality(card_id=7117, title='Shosuro Kameyoi', force=2, chi=4, personal_honor=1, gold_cost=7, honor_requirement=None, clan=[ScorpionClan], keywords=[Loyal, Courtier, Seductress], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Battle:</b> Ranged 5 Attack.'
+Shosuro_Konishi = Personality(card_id=7121, title='Shosuro Konishi', force=5, chi=3, personal_honor=0, gold_cost=9, honor_requirement=None, clan=[ScorpionClan, NinjaFaction], keywords=[Ninja], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+Shosuro_Koshiba = Personality(card_id=7122, title='Shosuro Koshiba', force=3, chi=3, personal_honor=1, gold_cost=5, honor_requirement=None, clan=[ScorpionClan], keywords=[Magistrate, Samurai], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Reaction:</b> After the resolution of a battle, or an action or trait from a card that another player owns, if the resolution or card destroyed Rokuta: Create a 0F/2C/1PH <b>Scorpion Clan &#149; Courtier &#149; Apprentice</b> Personality <i>(in your home)</i>. Choose a player, who loses 3 Honor.'
+Shosuro_Rokuta = Personality(card_id=7156, title='Shosuro Rokuta', force=1, chi=4, personal_honor=1, gold_cost=7, honor_requirement=None, clan=[ScorpionClan], keywords=[Courtier, SoulOf('Shosuro Takuro')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Political Open:</b> Target another Personality: Give him +4F.'
+Shosuro_Tanzaki = Personality(card_id=7169, title='Shosuro Tanzaki', force=2, chi=4, personal_honor=2, gold_cost=7, honor_requirement=None, clan=[ScorpionClan], keywords=[Courtier], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Twice per turn, you may ignore the cost of bowing Yorimi, if it is the cost of a Political action or an action on a Spell.'
+Soshi_Yorimi = Personality(card_id=7371, title='Soshi Yorimi', force=2, chi=4, personal_honor=1, gold_cost=7, honor_requirement=None, clan=[ScorpionClan], keywords=[Unique, Air, Courtier, Shugenja, SoulOf('Shosuro Dazai Experienced')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])

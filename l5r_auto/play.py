@@ -9,7 +9,12 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import TYPE_CHECKING, Type
 
-from l5r_auto.errors import EndOfDynastyDeckError, MaximumNumberOfTurnsReached
+from l5r_auto.errors import (
+    EndOfDynastyDeckError,
+    HonorVictory,
+    MaximumNumberOfTurnsReached,
+    ProvinceConquestVictory,
+)
 from l5r_auto.locations import PlayArea
 
 from .deck import Deck
@@ -122,42 +127,60 @@ def main():
 
     from .player import Player
 
-    for paths in itertools.pairwise(deck_paths):
-        if len(paths) != 2:
-            raise ValueError("Only 2 players are supported")
-        players = []
-        decks = []
-        legalities = set()
-
-        for path in paths:
-            logging.info("Loading deck: %s", path)
-            deck = Deck.from_json(path.read_text())
-            logging.info("Loaded deck %s:", deck.id)
-            decks.append(deck)
-            legalities.add(deck.legality)
-
-        if len(legalities) > 1:
-            raise ValueError("Decks must have the same legality")
-        legality = legalities.pop()
-
-        for deck in decks:
-            logging.info("\tDeck version: %s", deck.version)
-            logging.info("\tDeck stronghold: %s", deck.stronghold.title)
-
-            player = Player(name=name or "", deck=deck)
-            logging.info("Created player: %s", player.name)
-            players.append(player)
-
-        game = Game(players=players, legality=legality)
-        logging.info("Created game: %s", game.id)
-
+    # Group decks by legality so we only pair same-edition decks
+    decks_by_legality: dict[str, list] = {}
+    for path in deck_paths:
         try:
-            game.start()
-        except (EndOfDynastyDeckError, MaximumNumberOfTurnsReached):
-            logging.info("Finished game: %s", game.id)
-            game.end_report()
-            break
+            deck = Deck.from_json(path.read_text())
+        except Exception as e:
+            logging.warning("Skipping deck %s: %s", path, e)
+            continue
+        key = deck.legality.name
+        decks_by_legality.setdefault(key, []).append((path, deck))
 
+    # Pick a legality that has at least 2 decks
+    eligible = [(k, v) for k, v in decks_by_legality.items() if len(v) >= 2]
+    if not eligible:
+        logging.error("No legality has at least 2 decks. Build decks first.")
+        return
+    legality_name, available_decks = random.choice(eligible)
+    random.shuffle(available_decks)
+    path1, deck1 = available_decks[0]
+    path2, deck2 = available_decks[1]
+    legality = deck1.legality
+
+    logging.info("Playing %s vs %s (legality: %s)", path1.name, path2.name, legality_name)
+
+    players = []
+    for deck in (deck1, deck2):
+        logging.info("\tDeck stronghold: %s", deck.stronghold.title)
+        player = Player(name=name or "", deck=deck)
+        logging.info("Created player: %s", player.name)
+        players.append(player)
+
+    game = Game(players=players, legality=legality)
+    logging.info("Created game: %s", game.id)
+
+    try:
+        game.start()
+    except HonorVictory as e:
+        logging.info(
+            "Game %s ended: %s wins by honor over %s.",
+            game.id,
+            e.winner.name,
+            e.loser.name,
+        )
+    except ProvinceConquestVictory as e:
+        logging.info(
+            "Game %s ended: %s wins by province conquest over %s.",
+            game.id,
+            e.winner.name,
+            e.loser.name,
+        )
+    except (EndOfDynastyDeckError, MaximumNumberOfTurnsReached):
+        logging.info("Finished game: %s", game.id)
+
+    game.end_report()
     logging.info("Finished in %1.2f seconds", time.time() - start_time)
 
 

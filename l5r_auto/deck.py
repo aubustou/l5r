@@ -46,6 +46,10 @@ class DeckDict(TypedDict):
     personalities: list[Personality]
     holdings: list[Holding]
     events: list[Event]
+    followers: list[Follower]
+    items: list[Item]
+    strategies: list[Strategy]
+    spells: list[Spell]
 
 
 class DeckJSON(TypedDict):
@@ -55,6 +59,10 @@ class DeckJSON(TypedDict):
     personalities: list[int]
     holdings: list[int]
     events: list[int]
+    followers: list[int]
+    items: list[int]
+    strategies: list[int]
+    spells: list[int]
 
 
 @dataclass(repr=False, kw_only=True)
@@ -107,6 +115,10 @@ class Deck:
             "personalities": self.personalities,
             "holdings": self.holdings,
             "events": self.events,
+            "followers": self.followers,
+            "items": self.items,
+            "strategies": self.strategies,
+            "spells": self.spells,
         }
 
     def to_json(self) -> str:
@@ -149,6 +161,26 @@ class Deck:
                 raise ValueError(f"Unknown event: {event_id}")
             deck.events.append(event_card)
 
+        for follower_id in deck_list.get("followers", []):
+            if not (follower_card := get_card(follower_id)):
+                raise ValueError(f"Unknown follower: {follower_id}")
+            deck.followers.append(follower_card)
+
+        for item_id in deck_list.get("items", []):
+            if not (item_card := get_card(item_id)):
+                raise ValueError(f"Unknown item: {item_id}")
+            deck.items.append(item_card)
+
+        for strategy_id in deck_list.get("strategies", []):
+            if not (strategy_card := get_card(strategy_id)):
+                raise ValueError(f"Unknown strategy: {strategy_id}")
+            deck.strategies.append(strategy_card)
+
+        for spell_id in deck_list.get("spells", []):
+            if not (spell_card := get_card(spell_id)):
+                raise ValueError(f"Unknown spell: {spell_id}")
+            deck.spells.append(spell_card)
+
         return deck
 
     def __str__(self) -> str:
@@ -162,6 +194,14 @@ class Deck:
                 self.holdings.append(card)
             case "Event":
                 self.events.append(card)
+            case "Follower":
+                self.followers.append(card)
+            case "Item":
+                self.items.append(card)
+            case "Strategy":
+                self.strategies.append(card)
+            case "Spell":
+                self.spells.append(card)
             case _:
                 raise ValueError(f"Unknown card type: {card.__class__.__name__}")
 

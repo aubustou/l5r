@@ -1,66 +1,17 @@
 from __future__ import annotations
-
-from l5r_auto.clans import BrotherhoodOfShinsei, ShadowlandsFaction, SpiderClan
-from l5r_auto.keywords import (
-    Destined,
-    Fallen,
-    Kensai,
-    Monk,
-    Paragon,
-    Samurai,
-    Shadowlands,
-)
-from l5r_auto.legality import (
-    EmperorEdition,
-    IvoryEdition,
-    ModernEdition,
-    OnyxEdition,
-    TwentyFestivalsEdition,
-)
-
 from ..common import Personality
-
-"<i>(Draw a card after you Recruit a Destined card.)</i><br>After Ryuko enters play, lose 1 Honor.<br><b>Battle, :bow::</b> Melee 2 Attack."
-Daigotsu_Ryuko = Personality(
-    card_id=10660,
-    title="Daigotsu Ryuko",
-    force=3,
-    chi=2,
-    personal_honor=0,
-    gold_cost=7,
-    honor_requirement=None,
-    clan=[SpiderClan, ShadowlandsFaction],
-    keywords=[Destined, Fallen, Paragon, Samurai, Shadowlands],
-    traits=[],
-    abilities=[],
-    legality=[
-        IvoryEdition,
-        TwentyFestivalsEdition,
-        EmperorEdition,
-        OnyxEdition,
-        ModernEdition,
-        ModernEdition,
-    ],
-)
-"<i>(Kensai may attach two One-Handed Weapons.)</i><br><b>Home Battle:</b> If Lao-she would be opposed, move him to the current battlefield. <i>(Home actions may be taken from home.)</i>"
-Laoshe = Personality(
-    card_id=10663,
-    title="Lao-she",
-    force=2,
-    chi=2,
-    personal_honor=1,
-    gold_cost=4,
-    honor_requirement=None,
-    clan=[SpiderClan, BrotherhoodOfShinsei],
-    keywords=[Kensai, Monk],
-    traits=[],
-    abilities=[],
-    legality=[
-        IvoryEdition,
-        TwentyFestivalsEdition,
-        EmperorEdition,
-        OnyxEdition,
-        ModernEdition,
-        ModernEdition,
-    ],
-)
+from l5r_auto.clans import BrotherhoodOfShinsei, NinjaFaction, ShadowlandsFaction, SpiderClan
+from l5r_auto.keywords import Artisan, BogHag, Cavalry, Commander, Courtier, Destined, Experienced, Fallen, Imperial, ImperialExplorer, Kensai, Loyal, Monk, Ninja, Nonhuman, Paragon, Samurai, Scout, Shadowlands, Shugenja, Unique
+from l5r_auto.legality import EmperorEdition, IvoryEdition, ModernEdition, OnyxEdition, TwentyFestivalsEdition
+"If you are a Dragon Clan player, Kikumura's Invest is :g2:.<br>Invest :g4:: Create two 1F Followers attach them to Kikumura. <i>(After this card enters play, you may also pay the Invest cost to get the effect, once.)</i>"
+Daigotsu_Kikumura = Personality(card_id=10659, title='Daigotsu Kikumura', force=2, chi=3, personal_honor=0, gold_cost=4, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[Commander, Samurai, Shadowlands], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'<i>(Draw a card after you Recruit a Destined card.)</i><br>After Ryuko enters play, lose 1 Honor.<br><b>Battle, :bow::</b> Melee 2 Attack.'
+Daigotsu_Ryuko = Personality(card_id=10660, title='Daigotsu Ryuko', force=3, chi=2, personal_honor=0, gold_cost=7, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[Destined, Fallen, Paragon, Samurai, Shadowlands], traits=[], abilities=[], legality=[IvoryEdition, TwentyFestivalsEdition, EmperorEdition, OnyxEdition, ModernEdition])
+'<i>(Kensai may attach two One-Handed Weapons.)</i><br><b>Home Battle:</b> If Lao-she would be opposed, move him to the current battlefield. <i>(Home actions may be taken from home.)</i>'
+Laoshe = Personality(card_id=10663, title='Lao-she', force=2, chi=2, personal_honor=1, gold_cost=4, honor_requirement=None, clan=[SpiderClan, BrotherhoodOfShinsei], keywords=[Kensai, Monk], traits=[], abilities=[], legality=[IvoryEdition, TwentyFestivalsEdition, EmperorEdition, OnyxEdition, ModernEdition])
+'<b>Open, :bow::</b> Bow a target Personality.'
+Mrika_Experienced = Personality(card_id=10661, title="M'rika", force=1, chi=4, personal_honor=3, gold_cost=8, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[Loyal, Unique, Artisan, BogHag, Experienced('1'), Nonhuman, Shadowlands, Shugenja], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+"After Onchi enters play, lose 2 Honor.<br>Actions from cards in other players' units may not target Onchi."
+Ninube_Onchi_Experienced = Personality(card_id=10662, title='Ninube Onchi', force=4, chi=3, personal_honor=0, gold_cost=9, honor_requirement=None, clan=[SpiderClan, NinjaFaction, ShadowlandsFaction], keywords=[Cavalry, Unique, Experienced('1'), Imperial, ImperialExplorer, Ninja, Scout, Shadowlands, Shugenja], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+"Negate Haikaro's destruction from battle resolution."
+Susumu_Haikaro = Personality(card_id=10664, title='Susumu Haikaro', force=1, chi=3, personal_honor=2, gold_cost=5, honor_requirement=None, clan=[SpiderClan], keywords=[Courtier], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])

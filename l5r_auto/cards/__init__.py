@@ -101,8 +101,8 @@ class DynastyCard(Card):
 
 @dataclass(repr=False, kw_only=True)
 class FateCard(Card):
-    gold_cost: int = field(metadata={"is_written": True})
-    focus_value: int = field(metadata={"is_written": True})
+    gold_cost: int = field(default=0, metadata={"is_written": True})
+    focus_value: int = field(default=0, metadata={"is_written": True})
 
 
 def log_state_change(method):
@@ -226,8 +226,26 @@ class Entity(BaseCard):
 
     @log_state_change
     def destroy(self):
+        from ..keywords import Expendable
+
+        has_expendable = any(
+            (isinstance(kw, type) and issubclass(kw, Expendable)) or kw is Expendable
+            for kw in self.keywords
+        )
         self.bowed = False
         self.move_to(DynastyDiscard if isinstance(self, DynastyCard) else FateDiscard)
+        if has_expendable:
+            logging.debug(
+                "%s: %s has Expendable — drawing a fate card.",
+                self.owner.name,
+                self.title,
+            )
+            from ..errors import EndOfFateDeckError
+
+            try:
+                self.owner.draw_fate_card()
+            except EndOfFateDeckError:
+                pass
 
     @log_state_change
     def turn_face_down(self):

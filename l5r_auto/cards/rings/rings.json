@@ -2422,5 +2422,310 @@
         "type": [
             "Ring"
         ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Falseness</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "107"
+                ],
+                "artnumber": [
+                    "10130184"
+                ],
+                "set": [
+                    "Coils of Madness"
+                ],
+                "artist": [
+                    "Shen Fei"
+                ],
+                "printimagehash": [
+                    "5c/65"
+                ],
+                "designernotes": [
+                    "A false Fudo Ring"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Does not count towards an Enlightenment Victory.<br>After you win a battle in which there was ever a unit on the opposing side, you may put this Ring into play and lose 2 Honor.<br><b>Absent Battle, :bow::</b> Give a target Personality -3F. <i><i><i>(Absent actions can be taken without presence.)</i></i></i>"
+        ],
+        "formattedtitle": "False Ring of Air",
+        "cardid": 10531,
+        "focus": [
+            "3"
+        ],
+        "imagehash": "5c/65",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Fate"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Air",
+            "Fudo"
+        ],
+        "title": [
+            "False Ring of Air"
+        ],
+        "type": [
+            "Ring"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Pride</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "108"
+                ],
+                "artnumber": [
+                    "10130185"
+                ],
+                "set": [
+                    "Coils of Madness"
+                ],
+                "artist": [
+                    "Shen Fei"
+                ],
+                "printimagehash": [
+                    "fc/b9"
+                ],
+                "designernotes": [
+                    "A false Fudo Ring"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Does not count towards an Enlightenment Victory.<br>After you win a duel against a Personality who shared no keywords with your Personality in the duel, you may put this Ring into play and lose 2 Honor.<br>Other players have -1 maximum hand size."
+        ],
+        "formattedtitle": "False Ring of Earth",
+        "cardid": 10532,
+        "focus": [
+            "3"
+        ],
+        "imagehash": "fc/b9",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Fate"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Earth",
+            "Fudo"
+        ],
+        "title": [
+            "False Ring of Earth"
+        ],
+        "type": [
+            "Ring"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Passion</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "109"
+                ],
+                "artnumber": [
+                    "10130186"
+                ],
+                "set": [
+                    "Coils of Madness"
+                ],
+                "artist": [
+                    "Shen Fei"
+                ],
+                "printimagehash": [
+                    "f3/c6"
+                ],
+                "designernotes": [
+                    "A false Fudo Ring"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Does not count towards an Enlightenment Victory.<br><b>Open:</b> If your maximum hand size is 10 or more, put this Ring into play and lose 2 Honor.<br><b>Interrupt, :bow::</b> Reduce all Honor gains and losses from an action by 2."
+        ],
+        "formattedtitle": "False Ring of Fire",
+        "cardid": 10533,
+        "focus": [
+            "3"
+        ],
+        "imagehash": "f3/c6",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Fate"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Fire",
+            "Fudo"
+        ],
+        "title": [
+            "False Ring of Fire"
+        ],
+        "type": [
+            "Ring"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Hatred</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "110"
+                ],
+                "artnumber": [
+                    "10130187"
+                ],
+                "set": [
+                    "Coils of Madness"
+                ],
+                "artist": [
+                    "Shen Fei"
+                ],
+                "printimagehash": [
+                    "88/e4"
+                ],
+                "designernotes": [
+                    "A false Fudo Ring"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Does not count towards an Enlightenment Victory.<br>After a battle resolves where you destroyed a Province, you may put this Ring into play and lose 2 Honor.<br><b>Engage, :bow::</b> A target Personality at any location will not move this turn."
+        ],
+        "formattedtitle": "False Ring of the Void",
+        "cardid": 10534,
+        "focus": [
+            "3"
+        ],
+        "imagehash": "88/e4",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Fate"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Fudo",
+            "Void"
+        ],
+        "title": [
+            "False Ring of the Void"
+        ],
+        "type": [
+            "Ring"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Envy</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "111"
+                ],
+                "artnumber": [
+                    "10130188"
+                ],
+                "set": [
+                    "Coils of Madness"
+                ],
+                "artist": [
+                    "Shen Fei"
+                ],
+                "printimagehash": [
+                    "17/35"
+                ],
+                "designernotes": [
+                    "A false Fudo Ring"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Does not count towards an enlightenment victory.<br><b>Battle:</b> If the current battlefield's Province Strength is 11 or greater, put this Ring into play and lose 2 Honor.<br><b>Battle, :bow::</b> Ranged 3 Attack."
+        ],
+        "formattedtitle": "False Ring of Water",
+        "cardid": 10535,
+        "focus": [
+            "3"
+        ],
+        "imagehash": "17/35",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Fate"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Fudo",
+            "Water"
+        ],
+        "title": [
+            "False Ring of Water"
+        ],
+        "type": [
+            "Ring"
+        ]
     }
 ]

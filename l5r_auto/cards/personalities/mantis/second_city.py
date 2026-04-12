@@ -1,0 +1,18 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import MantisClan
+from l5r_auto.keywords import Bully, CaptainOfTheThirdKama, Commander, Courtier, Earth, HalfNaga, Loyal, Magistrate, Merchant, Naval, Samurai, Scout, Shugenja, Thunder, Unique
+from l5r_auto.legality import CelestialEdition, EmperorEdition, ModernEdition
+'<b>Reaction:</b> After Ohsuki enters play: Create a 0F/2C/3PH <b>Mantis Clan &#149; Nonhuman &#149; Sparrow &#149; Cavalry &#149; Spirit</b> Personality with the ability, "<b>Limited:</b> If none of your provinces were destroyed since your last turn ended: Gain 3 Honor."'
+Kitsune_Ohsuki = Personality(card_id=4469, title='Kitsune Ohsuki', force=3, chi=4, personal_honor=3, gold_cost=7, honor_requirement=5, clan=[MantisClan], keywords=[Loyal, Unique, Earth, Shugenja], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+'<b>Reaction:</b> After Tokoru enters play: Create a 4F/2C/3PH <b>Mantis Clan &#149; Nonhuman &#149; Bear &#149; Spirit</b> Personality with the ability, "<b>Battle:</b> Target an attacking enemy card: Bow it. Destroy it if it is an attachment."'
+Kitsune_Tokoru = Personality(card_id=4474, title='Kitsune Tokoru', force=0, chi=3, personal_honor=3, gold_cost=8, honor_requirement=2, clan=[MantisClan], keywords=[Earth, Shugenja], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+Moshi_Tomeno = Personality(card_id=5285, title='Moshi Tomeno', force=3, chi=3, personal_honor=2, gold_cost=4, honor_requirement=4, clan=[MantisClan], keywords=[Loyal, Naval, Shugenja, Thunder], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+"<b>Reaction:</b> After you announce an action, if Yakusho is at the current battlefield: Ranged Attacks from the action's effects will not have their strength reduced."
+Tsuruchi_Yakusho = Personality(card_id=8895, title='Tsuruchi Yakusho', force=4, chi=3, personal_honor=1, gold_cost=7, honor_requirement=None, clan=[MantisClan], keywords=[Naval, Samurai, Scout], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+'<b>Battle:</b> Bow your performing Follower and target an enemy card without attachments: Destroy it.'
+Yoritomo_Emoto = Personality(card_id=9544, title='Yoritomo Emoto', force=6, chi=3, personal_honor=1, gold_cost=10, honor_requirement=None, clan=[MantisClan], keywords=[Naval, CaptainOfTheThirdKama, Commander, Samurai], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+'Minori has +1F for each other Magistrate in her army.'
+Yoritomo_Minori = Personality(card_id=9605, title='Yoritomo Minori', force=4, chi=3, personal_honor=1, gold_cost=7, honor_requirement=None, clan=[MantisClan], keywords=[Naval, HalfNaga, Magistrate, Samurai], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+"<b>Reaction:</b> When paying a Gold Cost, bow Sakuma: Produce 2 Gold.<br><b>Political Reaction:</b> After another player's Political action targets one of your Personalities, bow Sakuma: The player may pay 2 Gold. If he did not, negate the action's effects."
+Yoritomo_Sakuma = Personality(card_id=9624, title='Yoritomo Sakuma', force=1, chi=3, personal_honor=1, gold_cost=8, honor_requirement=None, clan=[MantisClan], keywords=[Bully, Courtier, Merchant], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])

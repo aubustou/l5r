@@ -1,0 +1,16 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import NinjaFaction, ScorpionClan
+from l5r_auto.keywords import AdvisorToTheJadeChampion, Air, Assassin, Courtier, Experienced, Loyal, Magistrate, Ninja, Paragon, Samurai, Sensei, Shugenja, TasusSorrow, Unique, Yojimbo
+from l5r_auto.legality import EmperorEdition, ModernEdition
+"After Kazutoshi enters play or overlays, discard all your other Sensei Personalities.<br>Other players' Personalities in and out of play have their Honor Requirements increased by 10, and they may pay 2 additional Gold when paying for Personalities with their Clan Alignment to ignore their Honor Requirements."
+Bayushi_Kazutoshi_Experienced = Personality(card_id=820, title='Bayushi Kazutoshi', force=4, chi=3, personal_honor=1, gold_cost=7, honor_requirement=None, clan=[ScorpionClan], keywords=[Experienced('The Student'), Loyal, Courtier, Samurai, Sensei], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Political Battle:</b> Even if Nomen is not at the current battlefield, bow her and target a Personality: Move him home.'
+Bayushi_Nomen_Experienced_2 = Personality(card_id=853, title='Bayushi Nomen', force=2, chi=4, personal_honor=1, gold_cost=7, honor_requirement=None, clan=[ScorpionClan], keywords=[Experienced('2'), Courtier], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Battle/Limited:</b> Target a Personality, or one or two Personalities if you control a Courtier: You may target a Shadowlands Personality. Give each target -3F. If this is the Combat Segment, dishonor them.'
+Bayushi_Tenzan = Personality(card_id=910, title='Bayushi Tenzan', force=4, chi=3, personal_honor=3, gold_cost=7, honor_requirement=0, clan=[ScorpionClan], keywords=[Loyal, Magistrate, Paragon, Samurai, TasusSorrow, Yojimbo], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"After a card from a deck refills Ietsuno's battlefield's province: Look at it. You may switch it with a card owned by the same player in another province.<br><b>Battle:</b> Target an enemy card without attachments: Bow it."
+Shosuro_Ietsuno = Personality(card_id=7110, title='Shosuro Ietsuno', force=4, chi=3, personal_honor=0, gold_cost=7, honor_requirement=None, clan=[ScorpionClan, NinjaFaction], keywords=[Assassin, Ninja], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+Shosuro_Ryoichi = Personality(card_id=7157, title='Shosuro Ryoichi', force=3, chi=1, personal_honor=0, gold_cost=4, honor_requirement=None, clan=[ScorpionClan], keywords=[Magistrate, Samurai], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Political Open:</b> Target a Holding or Personality: Its base abilities may not be used.<br><b>Political Open:</b> Bow Yoshihara and target a Personality: Dishonor him. If you are a Scorpion Clan or Crab Clan player, his controller loses 1 Honor.'
+Soshi_Yoshihara_Experienced = Personality(card_id=7373, title='Soshi Yoshihara', force=2, chi=5, personal_honor=1, gold_cost=8, honor_requirement=None, clan=[ScorpionClan], keywords=[Unique, AdvisorToTheJadeChampion, Air, Courtier, Experienced('1'), Magistrate, Shugenja], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])

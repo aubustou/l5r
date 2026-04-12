@@ -1,49 +1,30 @@
 from __future__ import annotations
-
-from l5r_auto.clans import BrotherhoodOfShinsei, DragonClan
-from l5r_auto.keywords import Earth, Monk, SoulOf, Tattooed, Void
-from l5r_auto.legality import (
-    EmperorEdition,
-    IvoryEdition,
-    ModernEdition,
-    OnyxEdition,
-    TwentyFestivalsEdition,
-)
-
 from ..common import Personality
-
-"Korimi has +2F while defending. <br><b>Interrupt, :bow::</b> After you Recruit Korimi, draw a card."
-Togashi_Korimi = Personality(
-    card_id=8545,
-    title="Togashi Korimi",
-    force=3,
-    chi=3,
-    personal_honor=2,
-    gold_cost=5,
-    honor_requirement=4,
-    clan=[DragonClan, BrotherhoodOfShinsei],
-    keywords=[Earth, Monk, SoulOf("Togashi Oki"), Tattooed],
-    traits=[],
-    abilities=[],
-    legality=[
-        IvoryEdition,
-        TwentyFestivalsEdition,
-        EmperorEdition,
-        ModernEdition,
-        ModernEdition,
-    ],
-)
-Togashi_Tsukagi = Personality(
-    card_id=8591,
-    title="Togashi Tsukagi",
-    force=4,
-    chi=4,
-    personal_honor=1,
-    gold_cost=7,
-    honor_requirement=None,
-    clan=[DragonClan, BrotherhoodOfShinsei],
-    keywords=[Monk, SoulOf("Togashi Akagi"), Tattooed, Void],
-    traits=[],
-    abilities=[],
-    legality=[TwentyFestivalsEdition, EmperorEdition, OnyxEdition, ModernEdition],
-)
+from l5r_auto.clans import BrotherhoodOfShinsei, DragonClan, NagaFaction
+from l5r_auto.keywords import Alchemist, Cavalry, ClanChampion, Courtier, Duelist, Earth, Experienced, Fire, Justicar, Kensai, Loyal, Magistrate, Monk, Naga, Nonhuman, Poet, Ryu, Samurai, Shugenja, SoulOf, Tactician, Tattooed, Unique, Void
+from l5r_auto.legality import CelestialEdition, EmperorEdition, IvoryEdition, ModernEdition, OnyxEdition, TwentyFestivalsEdition
+"<b>Iaijutsu Battle:</b> Target an enemy Personality: Daisuke duels him. Move the duel's loser home; if he is dishonorable, this movement will not be negated."
+Kitsuki_Daisuke = Personality(card_id=4406, title='Kitsuki Daisuke', force=3, chi=4, personal_honor=3, gold_cost=7, honor_requirement=5, clan=[DragonClan], keywords=[Duelist, Courtier, Magistrate], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+Kitsuki_Kinaro = Personality(card_id=4420, title='Kitsuki Kinaro', force=0, chi=4, personal_honor=3, gold_cost=6, honor_requirement=5, clan=[DragonClan], keywords=[Duelist, Courtier, Magistrate, SoulOf('Kitsuki Nakai')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<b>Political Reaction:</b> After an action targets a target Samurai, bow Yataku: The Samurai's controller may not choose to refuse any challenge created by the action."
+Kitsuki_Yataku = Personality(card_id=4446, title='Kitsuki Yataku', force=1, chi=4, personal_honor=4, gold_cost=7, honor_requirement=10, clan=[DragonClan], keywords=[Justicar, Samurai, SoulOf('Kitsuki Yasu')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+Mirumoto_Gobashi = Personality(card_id=5087, title='Mirumoto Gobashi', force=3, chi=3, personal_honor=2, gold_cost=5, honor_requirement=5, clan=[DragonClan], keywords=[Kensai, Samurai, SoulOf('Mirumoto Ino')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<b>Iaijutsu Battle:</b> Target an enemy Personality: Ichizo duels him. Destroy the duel's loser."
+Mirumoto_Ichizo_Experienced = Personality(card_id=5104, title='Mirumoto Ichizo', force=3, chi=4, personal_honor=3, gold_cost=8, honor_requirement=5, clan=[DragonClan], keywords=[Duelist, Loyal, Unique, Experienced('1'), Samurai], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+'Weapons attached to Katagi will not be transferred.<br>Non-Unique Weapons attaching to Katagi from your hand enter play paying 4 less Gold.'
+Mirumoto_Katagi = Personality(card_id=5112, title='Mirumoto Katagi', force=4, chi=4, personal_honor=3, gold_cost=9, honor_requirement=6, clan=[DragonClan], keywords=[Kensai, Unique, Samurai], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<b>Battle:</b> Target an enemy Personality or Follower: Give it a Force penalty equal to Reiyu's Force."
+Mirumoto_Reiyu = Personality(card_id=5138, title='Mirumoto Reiyu', force=4, chi=3, personal_honor=2, gold_cost=7, honor_requirement=3, clan=[DragonClan], keywords=[Kensai, Poet, Samurai, SoulOf('Mirumoto Tsubasa')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<b>Limited:</b> Shikei meditates. Draw a card.<br><b>Iaijutsu Battle:</b> Target an enemy personality: Shikei duels him. Destroy the duel's loser."
+Mirumoto_Shikei = Personality(card_id=5148, title='Mirumoto Shikei', force=8, chi=5, personal_honor=4, gold_cost=12, honor_requirement=10, clan=[DragonClan, BrotherhoodOfShinsei, NagaFaction], keywords=[Duelist, Kensai, Loyal, Unique, ClanChampion, Monk, Naga, Samurai, Tattooed], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<b>Battle:</b> Even if Kusugi is not at the current battlefield, bow him: Raise or lower the current battlefield's province's strength by 4."
+Tamori_Kusugi = Personality(card_id=7780, title='Tamori Kusugi', force=3, chi=3, personal_honor=2, gold_cost=7, honor_requirement=0, clan=[DragonClan], keywords=[Earth, Shugenja, SoulOf('Tamori Sugi')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Your other Earth Personalities have +1F while defending.<br><b>Battle:</b> Target an enemy card: Bow it if it is attacking or has no attachments. Gain 1 Honor.'
+Tamori_Muzu = Personality(card_id=7783, title='Tamori Muzu', force=3, chi=4, personal_honor=2, gold_cost=7, honor_requirement=5, clan=[DragonClan], keywords=[Alchemist, Earth, Shugenja], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+Tamori_Tomaru = Personality(card_id=7800, title='Tamori Tomaru', force=1, chi=3, personal_honor=3, gold_cost=4, honor_requirement=5, clan=[DragonClan], keywords=[Alchemist, Earth, Shugenja], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Korimi has +2F while defending. <br><b>Interrupt, :bow::</b> After you Recruit Korimi, draw a card.'
+Togashi_Korimi = Personality(card_id=8545, title='Togashi Korimi', force=3, chi=3, personal_honor=2, gold_cost=5, honor_requirement=4, clan=[DragonClan, BrotherhoodOfShinsei], keywords=[Earth, Monk, SoulOf('Togashi Oki'), Tattooed], traits=[], abilities=[], legality=[IvoryEdition, TwentyFestivalsEdition, EmperorEdition, ModernEdition])
+'<b>Reaction:</b> After Torazu enters play: Give him three +1F <b>Fire </b>tokens.<br><b>Battle:</b> Destroy a Fire token on Torazu: Ranged 3 Attack.'
+Togashi_Torazu = Personality(card_id=8590, title='Togashi Torazu', force=0, chi=3, personal_honor=2, gold_cost=6, honor_requirement=3, clan=[DragonClan, BrotherhoodOfShinsei], keywords=[Fire, Monk, SoulOf('Togashi Shintaro'), Tattooed], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+Togashi_Tsukagi = Personality(card_id=8591, title='Togashi Tsukagi', force=4, chi=4, personal_honor=1, gold_cost=7, honor_requirement=None, clan=[DragonClan, BrotherhoodOfShinsei], keywords=[Monk, SoulOf('Togashi Akagi'), Tattooed, Void], traits=[], abilities=[], legality=[TwentyFestivalsEdition, EmperorEdition, OnyxEdition, ModernEdition])
+Tsaitsu = Personality(card_id=8763, title='Tsai-tsu', force=3, chi=4, personal_honor=2, gold_cost=7, honor_requirement=None, clan=[DragonClan], keywords=[Cavalry, Tactician, Nonhuman, Ryu], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])

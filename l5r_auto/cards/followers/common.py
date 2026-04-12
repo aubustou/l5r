@@ -14,10 +14,10 @@ from ..personalities.common import PersonalityEntity
 
 @dataclass(repr=False, kw_only=True)
 class Follower(FateCard):
-    force: str = field(metadata={"is_written": True})
-    chi: str = field(metadata={"is_written": True})
-    honor_requirement: int | None = field(metadata={"is_written": True})
-    personal_honor: int = field(metadata={"is_written": True})
+    force: int = field(default=0, metadata={"is_written": True})
+    chi: int = field(default=0, metadata={"is_written": True})
+    honor_requirement: int | None = field(default=None, metadata={"is_written": True})
+    personal_honor: int = field(default=0, metadata={"is_written": True})
 
     def __post_init__(self, *args, **kwargs):
         self.entity_type = FollowerEntity

@@ -1,0 +1,17 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import BrotherhoodOfShinsei, PhoenixClan, ShadowlandsFaction
+from l5r_auto.keywords import Air, BloodOfKinuye, Cavalry, Duelist, Earth, ElementalMaster, Experienced, FavoredOfTheEarthDragon, Fire, GoldenArm, Henshin, Inquisitor, Loyal, Magistrate, Monk, Overconfident, Samurai, Shadowlands, Shugenja, Unique, Void, Water, Yojimbo
+from l5r_auto.legality import EmperorEdition, ModernEdition
+'<b>Limited:</b> Bow your target Ring: Draw a card.<br><b>Battle:</b> Even if Chukage is bowed: If he would be opposed, move him to the current battlefield. If he moved, straighten his unit. If there are now more units there on the enemy side than on yours, you may target an enemy unit and move it home.'
+Asako_Chukage_Experienced = Personality(card_id=10072, title='Asako Chukage', force=6, chi=5, personal_honor=3, gold_cost=12, honor_requirement=6, clan=[PhoenixClan, BrotherhoodOfShinsei], keywords=[Cavalry, Loyal, Unique, ElementalMaster, Experienced('1'), Henshin, Monk, Shugenja, Water], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<b>Battle/Open:</b> Target a Personality with 1 Force or greater: Switch his Force and Chi. You may switch Jukko's Force and Chi."
+Asako_Jukko = Personality(card_id=10073, title='Asako Jukko', force=2, chi=5, personal_honor=2, gold_cost=8, honor_requirement=0, clan=[PhoenixClan, BrotherhoodOfShinsei], keywords=[Henshin, Monk, Void], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<i>(Each other player may draw a card after an Overconfident card enters or leaves play.)</i> <br>Other players' maximum hand sizes are increased by 1."
+Asako_Kijo = Personality(card_id=10074, title='Asako Kijo', force=0, chi=2, personal_honor=2, gold_cost=2, honor_requirement=6, clan=[PhoenixClan], keywords=[Overconfident, Air, Inquisitor, Magistrate, Shugenja], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Battle:</b> Target an enemy Personality: Reduce his Force to 0. Give him -2C.'
+Asako_Rikate_Experienced = Personality(card_id=10075, title='Asako Rikate', force=5, chi=3, personal_honor=2, gold_cost=9, honor_requirement=0, clan=[PhoenixClan, BrotherhoodOfShinsei, ShadowlandsFaction], keywords=[Unique, BloodOfKinuye, Earth, Experienced('1'), FavoredOfTheEarthDragon, GoldenArm, Henshin, Monk, Shadowlands], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<b>Battle/Open:</b> After the next time this turn you announce an action on one of Momoko's Spells, ignore the action's bowing costs. You may take an additional action."
+Isawa_Momoko = Personality(card_id=10076, title='Isawa Momoko', force=5, chi=3, personal_honor=2, gold_cost=9, honor_requirement=0, clan=[PhoenixClan], keywords=[Fire, Shugenja], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<b>Battle:</b> Target an enemy Personality or Follower: Give it -4F. If its Force is now 0 and you control a Shugenja, you may target and destroy a card without attachments in the target's unit."
+Shiba_Iaimiko = Personality(card_id=10077, title='Shiba Iaimiko', force=3, chi=4, personal_honor=2, gold_cost=7, honor_requirement=4, clan=[PhoenixClan], keywords=[Duelist, Samurai, Yojimbo], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])

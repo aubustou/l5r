@@ -1,0 +1,19 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import BrotherhoodOfShinsei, LionClan
+from l5r_auto.keywords import Cavalry, ClanChampion, Commander, Courtier, Duelist, Earth, Expendable, Experienced, Fallen, FistOfStone, Loyal, Magistrate, Monk, OxClan, Samurai, ScourgeOfThePlains, Tactician, Unique, Warden
+from l5r_auto.legality import EmperorEdition, IvoryEdition, ModernEdition
+'After Tsudoken enters play, lose 3 Honor.<br><b>Tireless Battle/Open:</b> Straighten your target Lion Clan or Fallen Personality. <i>(You may use Tireless abilities even if bowed.)</i>'
+Akodo_Tsudoken_Experienced_2 = Personality(card_id=10458, title='Akodo Tsudoken', force=5, chi=2, personal_honor=0, gold_cost=7, honor_requirement=None, clan=[LionClan], keywords=[Experienced('2'), Unique, Commander, Fallen, Samurai], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'<b>Political Limited, :bow::</b> Discard a card. Gain Honor equal to its Focus Value, plus 1 if Shiba Iaimiko is in play.'
+Ikoma_Aimi_Experienced = Personality(card_id=10459, title='Ikoma Aimi', force=3, chi=4, personal_honor=3, gold_cost=8, honor_requirement=15, clan=[LionClan], keywords=[Unique, Courtier, Experienced('1'), Samurai], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'<i><i><i><i>(Draw a card after your Expendable card is destroyed.)</i></i></i></i><br>After Ayumi enters play, lose 2 Honor.'
+Ikoma_Ayumi = Personality(card_id=10462, title='Ikoma Ayumi', force=4, chi=3, personal_honor=0, gold_cost=7, honor_requirement=None, clan=[LionClan], keywords=[Cavalry, Expendable, Fallen, Magistrate, Samurai], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'Natsu will not join a Unicorn Clan player.<br><b>Open:</b> Give a target Personality <b>Cavalry</b>.'
+Ikoma_Natsu_Experienced = Personality(card_id=10460, title='Ikoma Natsu', force=3, chi=3, personal_honor=3, gold_cost=6, honor_requirement=8, clan=[LionClan], keywords=[Cavalry, Unique, Experienced('1'), Magistrate, Samurai, Warden], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+"Jikoji enters play ignoring Gold Cost if you control the Ring of Earth.<br><b>Earth Battle:</b> Give each of your attacking Lion Clan Samurai in Jikoji's army +1F."
+Jikoji_Fist_of_Stone = Personality(card_id=10461, title='Jikoji, Fist of Stone', force=3, chi=3, personal_honor=2, gold_cost=6, honor_requirement=3, clan=[LionClan, BrotherhoodOfShinsei], keywords=[Unique, Earth, FistOfStone, Monk], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+"Nimuro's printed ability will not be copied.<br><b>Limited:</b> Once per game, create a Personality titled The False Nimuro with Nimuro's printed Force, Chi, Personal Honor, and keywords."
+Matsu_Nimuro_Experienced_2 = Personality(card_id=10463, title='Matsu Nimuro', force=5, chi=5, personal_honor=4, gold_cost=14, honor_requirement=15, clan=[LionClan], keywords=[Duelist, Experienced('2'), Loyal, Tactician, Unique, ClanChampion, Samurai], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+"<b>Limited:</b> Straighten another player's target Holding whose Gold Cost is lower than Inoue's Force. You, and not its owner, may use its Gold-producing traits <i>(this turn)</i> as if you controlled it."
+Morito_Inoue_Scourge_of_the_Plains = Personality(card_id=10464, title='Morito Inoue, Scourge of the Plains', force=3, chi=3, personal_honor=1, gold_cost=6, honor_requirement=None, clan=[LionClan], keywords=[Cavalry, Unique, OxClan, Samurai, ScourgeOfThePlains], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])

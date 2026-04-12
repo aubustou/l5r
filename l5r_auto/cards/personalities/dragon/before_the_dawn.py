@@ -1,0 +1,19 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import BrotherhoodOfShinsei, DragonClan
+from l5r_auto.keywords import Alchemist, Archivist, DrunkenMaster, Duelist, Earth, Experienced, Fire, Imperial, JadeHand, Justicar, Kensai, Loyal, Magistrate, MasterOfTheBlade, Monk, Mountaineer, Nonhuman, Samurai, ScourgeOfTheScorpion, Shugenja, Tattooed, Unbreakable, Unique, Zokujin
+from l5r_auto.legality import CelestialEdition, EmperorEdition, ModernEdition
+'<b>Limited:</b> Bow Fujimura and target a dishonorable Personality: Fujimura exposes his crimes. His controller loses 2 Honor.'
+Kitsuki_Fujimura = Personality(card_id=4409, title='Kitsuki Fujimura', force=3, chi=4, personal_honor=3, gold_cost=7, honor_requirement=5, clan=[DragonClan], keywords=[Duelist, Loyal, Justicar, Magistrate, Samurai, ScourgeOfTheScorpion], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+'<b>Battle/Open:</b> Target a Personality with a Weapon: Straighten his unit.'
+Mirumoto_Houken = Personality(card_id=5101, title='Mirumoto Houken', force=4, chi=3, personal_honor=2, gold_cost=8, honor_requirement=4, clan=[DragonClan], keywords=[Kensai, MasterOfTheBlade, Samurai], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+"<b>Battle:</b> Even if Inokuchi is bowed: Straighten him. You may take an additional Battle action, which must be Iaijutsu and which Inokuchi must perform. If you don't, bow him."
+Mirumoto_Inokuchi = Personality(card_id=5106, title='Mirumoto Inokuchi', force=4, chi=4, personal_honor=2, gold_cost=8, honor_requirement=4, clan=[DragonClan], keywords=[Duelist, Samurai, Unbreakable], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+'<b>Iaijutsu Battle:</b> Target an enemy Follower or Personality without attachments: Destroy it. Remove it from the game if it is a Lion Clan Personality.'
+Mirumoto_Yozo_Experienced = Personality(card_id=5178, title='Mirumoto Yozo', force=5, chi=4, personal_honor=2, gold_cost=9, honor_requirement=4, clan=[DragonClan], keywords=[Duelist, Unique, Experienced('1'), Samurai], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+'<b>Limited:</b> If you control a Temple, bow Shosei or one of your Temple Holdings: Shosei prays to the Fortunes. Gain 1 Honor.'
+Tamori_Shosei = Personality(card_id=7797, title='Tamori Shosei', force=3, chi=4, personal_honor=3, gold_cost=7, honor_requirement=0, clan=[DragonClan], keywords=[Alchemist, Archivist, Earth, Imperial, JadeHand, Shugenja], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+'<b>Limited:</b> Give Sakata a +1F <b>Fire</b> or <b>Sake </b>token. <br><b>Battle:</b> Sakata breathes fire. Ranged 4 Attack, with +1 strength for each Sake token on Sakata.'
+Togashi_Sakata = Personality(card_id=8570, title='Togashi Sakata', force=4, chi=4, personal_honor=2, gold_cost=9, honor_requirement=0, clan=[DragonClan, BrotherhoodOfShinsei], keywords=[DrunkenMaster, Fire, Monk, Tattooed], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+'If you are the Defender, Xijkt may be targeted by the rulebook Cavalry player ability. <br><b>Battle, :bow::</b> Bow a target enemy card without attachments. You may bow one of your Mines to ignore the cost of bowing Xijkt.'
+Xijkt = Personality(card_id=9415, title='Xijkt', force=3, chi=2, personal_honor=1, gold_cost=6, honor_requirement=0, clan=[DragonClan], keywords=[Mountaineer, Nonhuman, Zokujin], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])

@@ -1,5 +1,5269 @@
 [
     {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"If war were a thing you could touch and feel, this is where it would be made.\" - Kaiu Iemasa</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "392"
+                ],
+                "artnumber": [
+                    "10040402"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "c7/4f"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "keywords": [
+                    "Castle"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "70/31"
+                ],
+                "personalhonor": [
+                    "4"
+                ],
+                "title": [
+                    "Carpenter Castle"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040402"
+                ],
+                "clan": [
+                    "Crab"
+                ],
+                "force": [
+                    "9"
+                ],
+                "text": [
+                    "Siege Battle: Bow your target Castle or Siege card: Ranged 5 Attack. If this targeted a card, gain 2 Honor."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Siege Battle:</b> Bow your target Castle or Siege card: Ranged 5 Attack. If this targeted a card, gain 2 Honor."
+        ],
+        "clan": [
+            "Crab"
+        ],
+        "strength": [
+            "9"
+        ],
+        "formattedtitle": "Carpenter Castle",
+        "cardid": 1218,
+        "imagehash": "c7/4f",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Castle"
+        ],
+        "startinghonor": [
+            "4"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Carpenter Castle"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "printingid": "1",
+                "number": [
+                    "400"
+                ],
+                "artnumber": [
+                    "10040410"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "9b/c4"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "number": [
+                    "154"
+                ],
+                "set": [
+                    "Second City"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "d2/79"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "3",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "1f/08"
+                ],
+                "personalhonor": [
+                    "5"
+                ],
+                "title": [
+                    "Dragon's Breath Castle"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040410"
+                ],
+                "clan": [
+                    "Dragon"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "After another player's Dynasty Phase begins, if he controls any Personalities and he assigned none of them to an attacking army this turn: Gain 2 Honor.<br>Reaction: Even if this card is bowed, after engaging at a battlefield at one of your provinces: The Attacker targets and bows one of his Personalities there."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After another player's Dynasty Phase begins, if he controls any Personalities and he assigned none of them to an attacking army this turn: Gain 2 Honor.<br><b>Reaction:</b> Even if this card is bowed, after engaging at a battlefield at one of your provinces: The Attacker targets and bows one of his Personalities there."
+        ],
+        "clan": [
+            "Dragon"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Dragon's Breath Castle",
+        "cardid": 2219,
+        "imagehash": "9b/c4",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "5"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Dragon's Breath Castle"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The Lion train for war even during decades of peace. I find them both great and terrible.\" - Asahina Michiru</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "404"
+                ],
+                "artnumber": [
+                    "10040414"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "2a/64"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "3"
+                ],
+                "keywords": [
+                    "Dojo"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "08/60"
+                ],
+                "personalhonor": [
+                    "7"
+                ],
+                "title": [
+                    "Eternal Victory Dojo"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040414"
+                ],
+                "clan": [
+                    "Lion"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "Your deck may include four copies each of one or two non-Unique Strategies with Battle abilities.<br>Reaction: After your Tactical action resolves: Draw a card after the next End Phase begins."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your deck may include four copies each of one or two non-Unique Strategies with Battle abilities.<br><b>Reaction:</b> After your Tactical action resolves: Draw a card after the next End Phase begins."
+        ],
+        "clan": [
+            "Lion"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Eternal Victory Dojo",
+        "cardid": 2388,
+        "imagehash": "2a/64",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Dojo"
+        ],
+        "startinghonor": [
+            "7"
+        ],
+        "production": [
+            "3"
+        ],
+        "title": [
+            "Eternal Victory Dojo"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"It is a humble name for a school of exceptionally dangerous enemies.\" - Matsu Hachiro</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "401"
+                ],
+                "artnumber": [
+                    "10040408"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "38/75"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "1b/5e"
+                ],
+                "personalhonor": [
+                    "5"
+                ],
+                "title": [
+                    "Foothills Keep"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040408"
+                ],
+                "clan": [
+                    "Dragon"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "Equipping Weapons is a <br>Battle/Open action for you.<br>Battle/Open: Choose your performing Kensai and target a Weapon in your discard pile: Attach it to him, paying all costs."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Equipping Weapons is a <b>Battle/Open</b> action for you.<br><b>Battle/Open, :gstar::</b> Choose your performing Kensai and Equip a target Weapon in your discard pile to him."
+        ],
+        "clan": [
+            "Dragon"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Foothills Keep",
+        "cardid": 2626,
+        "imagehash": "38/75",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "5"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Foothills Keep"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Here the Kitsu remember their ancestors&#8230;</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "405"
+                ],
+                "artnumber": [
+                    "10040412"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "05/20"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "3"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "6d/bb"
+                ],
+                "personalhonor": [
+                    "7"
+                ],
+                "title": [
+                    "Halls of Memory"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040412"
+                ],
+                "clan": [
+                    "Lion"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "Your Ancestor Personalities have -1F while attacking.<br>Your Shugenja may use their base Battle abilities even if they are not at the current battlefield.<br>After your Ancestor Personality is destroyed during a Combat Segment: Gain 1 Honor."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Ancestor Personalities have -1F while attacking.<br>Your Shugenja may use their base Battle abilities even if they are not at the current battlefield.<br>After your Ancestor Personality is destroyed during a Combat Segment: Gain 1 Honor."
+        ],
+        "clan": [
+            "Lion"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Halls of Memory",
+        "cardid": 2949,
+        "imagehash": "05/20",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "7"
+        ],
+        "production": [
+            "3"
+        ],
+        "title": [
+            "Halls of Memory"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"It is much like a tomb, cold and quiet. It only comes alive in times of war, which its denizens not only embrace, but celebrate. Were they turned upon the Empire, it would tremble.\" - Akodo Dairuko</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "393"
+                ],
+                "artnumber": [
+                    "10040400"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "d7/63"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Emperor Edition Demo Decks"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "3a/23"
+                ],
+                "personalhonor": [
+                    "3"
+                ],
+                "title": [
+                    "Halls of the Forgotten"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "number": [
+                    "119"
+                ],
+                "artnumber": [
+                    "10040400"
+                ],
+                "clan": [
+                    "Crab"
+                ],
+                "force": [
+                    "8"
+                ],
+                "text": [
+                    "Reaction: After another player's Battle action targets your Berserker: Delay its effects on him until after this battle ends."
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "3",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "7f/4a"
+                ],
+                "personalhonor": [
+                    "3"
+                ],
+                "title": [
+                    "Halls of the Forgotten"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040400"
+                ],
+                "clan": [
+                    "Crab"
+                ],
+                "force": [
+                    "8"
+                ],
+                "text": [
+                    "Reaction: After another player's Battle action targets your Berserker: Delay its effects on him until after this battle ends."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Reaction:</b> After another player's Battle action targets your Berserker: Delay its effects on him until after this battle ends."
+        ],
+        "clan": [
+            "Crab"
+        ],
+        "strength": [
+            "8"
+        ],
+        "formattedtitle": "Halls of the Forgotten",
+        "cardid": 2950,
+        "imagehash": "d7/63",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "3"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Halls of the Forgotten"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "printingid": "1",
+                "number": [
+                    "396"
+                ],
+                "artnumber": [
+                    "10040405"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "d7/7a"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "keywords": [
+                    "Dojo"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "f9/26"
+                ],
+                "personalhonor": [
+                    "5"
+                ],
+                "title": [
+                    "Hidden Falls Dojo"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040405"
+                ],
+                "clan": [
+                    "Crane"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "Recon Open: Target one or two provinces: You have Reconnaissance at their battlefields. After each Cavalry Maneuvers Segment there is an additional Infantry Maneuvers Segment in which only your Scout Personalities may be assigned and only to the targeted provinces' battlefields."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Recon Open:</b> Target one or two Provinces. You have Reconnaissance at their battlefields. After each Maneuvers Segment <i>(this turn)</i> there is an additional Maneuvers Segment in which only your Scout Personalities may be assigned and only to the targeted Provinces' battlefields."
+        ],
+        "clan": [
+            "Crane"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Hidden Falls Dojo",
+        "cardid": 3257,
+        "imagehash": "d7/7a",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Dojo"
+        ],
+        "startinghonor": [
+            "5"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Hidden Falls Dojo"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Here the Unicorn welcome their brothers to the Colonies after weeks of traveling. The celebrations they hold are legendary.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "425"
+                ],
+                "artnumber": [
+                    "10040434"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "3c/08"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Emperor Edition Demo Decks"
+                ],
+                "cost": [
+                    "5"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "8f/7c"
+                ],
+                "personalhonor": [
+                    "4"
+                ],
+                "title": [
+                    "Journey's End Keep"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "number": [
+                    "127"
+                ],
+                "artnumber": [
+                    "10040434"
+                ],
+                "clan": [
+                    "Unicorn"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "Battle: Choose your performing unbowed Personality and target a Personality with as many or fewer Followers attached: Move him home; this will not be negated or delayed."
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "3",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "5"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "ae/2c"
+                ],
+                "personalhonor": [
+                    "4"
+                ],
+                "title": [
+                    "Journey's End Keep"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040434"
+                ],
+                "clan": [
+                    "Unicorn"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "Battle: Choose your performing unbowed Personality and target a Personality with as many or fewer Followers attached: Move him home; this will not be negated or delayed."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Battle:</b> Target your performing unbowed Personality to move home a target Personality with as many or fewer Followers attached; this will not be negated or delayed."
+        ],
+        "clan": [
+            "Unicorn"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Journey's End Keep",
+        "cardid": 4059,
+        "imagehash": "3c/08",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "4"
+        ],
+        "production": [
+            "5"
+        ],
+        "title": [
+            "Journey's End Keep"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"This land is dead, but we will resurrect it.\" - Daigotsu Kanpeki</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "420"
+                ],
+                "artnumber": [
+                    "10040429"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "29/51"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "c9/55"
+                ],
+                "personalhonor": [
+                    "0"
+                ],
+                "title": [
+                    "Keep of the Dead"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040429"
+                ],
+                "clan": [
+                    "Spider"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "You do not lose Honor from Spider Clan and Fate cards you own. You ignore Honor Requirements on your Followers.<br>Battle: Choose your performing Commander: If any enemy units are at the current battlefield or he assigned there, move him there. Straighten his unit if he moved."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "You do not lose Honor from Spider Clan and Fate cards you own. You ignore Honor Requirements on your Followers.<br><b>Battle:</b> Choose your performing Commander: If any enemy units are at the current battlefield or he assigned there, move him there. Straighten his unit if he moved."
+        ],
+        "clan": [
+            "Spider"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Keep of the Dead",
+        "cardid": 4310,
+        "imagehash": "29/51",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "0"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Keep of the Dead"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Naming it for the Fortune of Roads was a bit of irony.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "409"
+                ],
+                "artnumber": [
+                    "10040418"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "91/0a"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Emperor Edition Demo Decks"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "66/bb"
+                ],
+                "personalhonor": [
+                    "2"
+                ],
+                "title": [
+                    "Koshin Keep"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "number": [
+                    "123"
+                ],
+                "artnumber": [
+                    "10040418"
+                ],
+                "clan": [
+                    "Mantis"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "Recon Reaction: After engaging: You have Reconnaissance at the current battlefield. Until this battle ends, your Ranged Attacks that do not destroy their target have the additional effects, \"reduce the target's Force by the Ranged Attack's strength and you may take an additional Ranged Attack Battle action that may only target the same card\"."
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "3",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "aa/2e"
+                ],
+                "personalhonor": [
+                    "2"
+                ],
+                "title": [
+                    "Koshin Keep"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040418"
+                ],
+                "clan": [
+                    "Mantis"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "Recon Reaction: After engaging: You have Reconnaissance at the current battlefield. Until this battle ends, your Ranged Attacks that do not destroy their target have the additional effects, \"reduce the target's Force by the Ranged Attack's strength and you may take an additional Ranged Attack Battle action that may only target the same card\"."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Recon Reaction:</b> After engaging: You have Reconnaissance at the current battlefield. Until this battle ends, your Ranged Attacks that do not destroy their target have the additional effects, \"reduce the target's Force by the Ranged Attack's strength and you may take an additional Ranged Attack Battle action that may only target the same card\"."
+        ],
+        "clan": [
+            "Mantis"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Koshin Keep",
+        "cardid": 4541,
+        "imagehash": "91/0a",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "2"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Koshin Keep"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "mrp": [
+            "Kyuden Hida has been cleansed of the Shadowlands taint. HIDAAAAA!!!"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Rebuilt, stronger than ever.\" - Hida Kisada</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "394"
+                ],
+                "artnumber": [
+                    "10040401"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "97/9a"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "number": [
+                    "154"
+                ],
+                "set": [
+                    "Before the Dawn"
+                ],
+                "artist": [
+                    "Charles Urbach"
+                ],
+                "printimagehash": [
+                    "01/a2"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Recon Reaction:</b> After engaging: You have Reconnaissance at the current battlefield. Create and attach a 0F <B>Scout</B> Follower to each of one to three of your Personalities in your current army. Remove those Followers from the game after the battle ends."
+        ],
+        "clan": [
+            "Crab"
+        ],
+        "strength": [
+            "8"
+        ],
+        "formattedtitle": "Kyuden Hida &#149; Experienced",
+        "cardid": 4638,
+        "puretexttitle": "Kyuden Hida - exp",
+        "imagehash": "97/9a",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Experienced"
+        ],
+        "startinghonor": [
+            "3"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Kyuden Hida"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "updatelog": [
+            {
+                "newdata": {
+                    "text": [
+                        "<i>Your forests are maddening.</i> Negate the first movement each battle into attacking armies at your provinces' battlefields from other players' actions.<br><b>Limited:</b> Bow your target Forest: Gain 1 Honor."
+                    ]
+                },
+                "op": "update",
+                "uid": 20431,
+                "uname": "Brook Cunningham",
+                "olddata": {
+                    "text": [
+                        "Your forests are maddening. Negate the first movement each battle into attacking armies at your provinces' battlefields from other players' actions.<br><b>Limited:</b> Bow your target Forest: Gain 1 Honor."
+                    ]
+                },
+                "timestamp": 1633642252154
+            },
+            {
+                "newdata": {
+                    "text": [
+                        "<i>Your forests are maddening.</i> Negate the first movement each battle into attacking armies at your provinces' battlefields from other players' actions.<br><b>Limited:</b> Bow your target Forest to gain 1 Honor."
+                    ]
+                },
+                "op": "update",
+                "uid": 20431,
+                "uname": "Brook Cunningham",
+                "olddata": {
+                    "text": [
+                        "<i>Your forests are maddening.</i> Negate the first movement each battle into attacking armies at your provinces' battlefields from other players' actions.<br><b>Limited:</b> Bow your target Forest: Gain 1 Honor."
+                    ]
+                },
+                "timestamp": 1633642297658
+            }
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"We are never alone.\" - Mantra of the Kitsune</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "410"
+                ],
+                "artnumber": [
+                    "10040416"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "d7/80"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Second City"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "f3/02"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "3",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "f8/66"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<i>Your forests are maddening.</i> Negate the first movement each battle into attacking armies at your provinces' battlefields from other players' actions.<br><b>Limited:</b> Bow your target Forest to gain 1 Honor."
+        ],
+        "clan": [
+            "Mantis"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Kyuden Kitsune &#149; Experienced",
+        "cardid": 4642,
+        "puretexttitle": "Kyuden Kitsune - exp",
+        "imagehash": "d7/80",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Experienced",
+            "Forest"
+        ],
+        "startinghonor": [
+            "4"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Kyuden Kitsune"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "printingid": "1",
+                "number": [
+                    "397"
+                ],
+                "artnumber": [
+                    "10040407"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "35/af"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "You may substitute discarding a Favor token from this card for discarding the Imperial Favor as a cost.<br>After you take the Imperial Favor: You may discard it; if you did, add a <b>Favor</b> token to this card.<br><b>Political Open:</b> Bow your performing honorable Courtier: Add a <b>Favor</b> token to this card."
+        ],
+        "clan": [
+            "Crane"
+        ],
+        "strength": [
+            "6"
+        ],
+        "formattedtitle": "Kyuden Otomo &#149; Experienced",
+        "cardid": 4646,
+        "puretexttitle": "Kyuden Otomo - exp",
+        "imagehash": "35/af",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Experienced",
+            "Imperial"
+        ],
+        "startinghonor": [
+            "6"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Kyuden Otomo"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "printingid": "1",
+                "number": [
+                    "416"
+                ],
+                "artnumber": [
+                    "10040424"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "23/b4"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "number": [
+                    "156"
+                ],
+                "set": [
+                    "Second City"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "0c/4d"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "3",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "keywords": [
+                    "Dojo"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "1b/87"
+                ],
+                "personalhonor": [
+                    "1"
+                ],
+                "title": [
+                    "Law of Darkness Dojo"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040424"
+                ],
+                "clan": [
+                    "Scorpion"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "After another player loses Honor from your Battle action: He loses 1 Honor.<br>Battle: Even if this card is bowed, target an enemy Personality: Give him -4F. Bow him if he is dishonorable."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After another player loses Honor from your Battle action: He loses 1 Honor.<br><b>Battle:</b> Even if this card is bowed, target an enemy Personality: Give him -4F. Bow him if he is dishonorable."
+        ],
+        "clan": [
+            "Scorpion"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Law of Darkness Dojo",
+        "cardid": 4676,
+        "imagehash": "23/b4",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Dojo"
+        ],
+        "startinghonor": [
+            "1"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Law of Darkness Dojo"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Within the Second City, the Phoenix delved into all manner of lore once overlooked.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "412"
+                ],
+                "artnumber": [
+                    "10040422"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "5a/a2"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Emperor Edition Demo Decks"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "54/33"
+                ],
+                "personalhonor": [
+                    "6"
+                ],
+                "title": [
+                    "Library of Rebirth"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "number": [
+                    "124"
+                ],
+                "artnumber": [
+                    "10040422"
+                ],
+                "clan": [
+                    "Phoenix"
+                ],
+                "force": [
+                    "6"
+                ],
+                "text": [
+                    "Reaction: Even if this card is bowed, when paying for a Spell during the Combat Segment: Produce 4 Gold.<br>Battle: Choose your performing Shugenja: Straighten him. You may take an additional Battle action."
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "3",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "8d/03"
+                ],
+                "personalhonor": [
+                    "6"
+                ],
+                "title": [
+                    "Library of Rebirth"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040422"
+                ],
+                "clan": [
+                    "Phoenix"
+                ],
+                "force": [
+                    "6"
+                ],
+                "text": [
+                    "Reaction: Even if this card is bowed, when paying for a Spell during the Combat Segment: Produce 4 Gold.<br>Battle: Choose your performing Shugenja: Straighten him. You may take an additional Battle action."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Reaction:</b> Even if this card is bowed, when paying for a Spell attaching to an opposed Personality: Produce 4 Gold.<br><b>Battle:</b> Choose your performing Shugenja: Straighten him. You may take an additional Battle action."
+        ],
+        "clan": [
+            "Phoenix"
+        ],
+        "strength": [
+            "6"
+        ],
+        "formattedtitle": "Library of Rebirth",
+        "cardid": 4724,
+        "imagehash": "5a/a2",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "notes": [
+            "Erratum effective October 11th."
+        ],
+        "startinghonor": [
+            "6"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Library of Rebirth"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"If you meet a friendly Scorpion, run.\" - Munemori's Memoirs</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "417"
+                ],
+                "artnumber": [
+                    "10040427"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "26/67"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "2c/98"
+                ],
+                "personalhonor": [
+                    "1"
+                ],
+                "title": [
+                    "Midday Shadow Court"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040427"
+                ],
+                "clan": [
+                    "Scorpion"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "When a Lobby action checks Family Honor, your Honor is treated as 20 points higher.<br>Political Open: Even if this card is bowed, target another player's Personality: After the next time this turn he is assigned, or an action that he performed ends, dishonor him and his controller loses 1 Honor."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "When a Lobby action checks Family Honor, your Honor is treated as 20 points higher.<br><b>Political Open:</b> Even if this card is bowed, target another player's Personality: After the next time this turn he is assigned, or an action that he performed ends, dishonor him and his controller loses 1 Honor."
+        ],
+        "clan": [
+            "Scorpion"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Midday Shadow Court",
+        "cardid": 5037,
+        "imagehash": "26/67",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "1"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Midday Shadow Court"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Not since the Clan War have wave men been held in such esteem. The Legion of Two Thousand are men of honor indeed.\" - The Imperial Herald</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "424"
+                ],
+                "artnumber": [
+                    "10040612"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Jason Engle"
+                ],
+                "printimagehash": [
+                    "0c/98"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>Constructed by the masters of Sunrise Keep, it has been empty for centuries... until now.</i>"
+                ],
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Celestial"
+                ],
+                "artist": [
+                    "Jason Engle"
+                ],
+                "printimagehash": [
+                    "40/a1"
+                ],
+                "promoquantity": [
+                    "0"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Ronin cards enter play for 1 less Gold and ignoring Honor Requirements.<br><b>Tireless Battle:</b> Give your chosen performing opposed Ronin Personality +2F."
+        ],
+        "clan": [
+            "Unaligned"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Palace of the Breaking Dawn",
+        "cardid": 5863,
+        "imagehash": "0c/98",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "2"
+        ],
+        "production": [
+            "3"
+        ],
+        "title": [
+            "Palace of the Breaking Dawn"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The pillars themselves remain within the Empire. The pillars within our spirit remain with us no matter where we go.\" - Togashi Osawa</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "402"
+                ],
+                "artnumber": [
+                    "10040411"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "1f/29"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>To truly seek the wisdom of the universe, one must be surrounded by its strength and serenity</i>"
+                ],
+                "printingid": "2",
+                "number": [
+                    "382"
+                ],
+                "set": [
+                    "Celestial Edition"
+                ],
+                "artist": [
+                    "Charles Urbach"
+                ],
+                "printimagehash": [
+                    "27/7b"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>To truly seek the wisdom of the universe, one must be surrounded by its strength and serenity</i>"
+                ],
+                "printingid": "3",
+                "number": [
+                    "89"
+                ],
+                "set": [
+                    "Battle of Kyuden Tonbo"
+                ],
+                "artist": [
+                    "Charles Urbach"
+                ],
+                "printimagehash": [
+                    "d4/1d"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "4",
+                "set": [
+                    "Emperor Edition Demo Decks"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "c6/c9"
+                ],
+                "personalhonor": [
+                    "5"
+                ],
+                "title": [
+                    "Pillars of Virtue"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "number": [
+                    "121"
+                ],
+                "artnumber": [
+                    "10040411"
+                ],
+                "clan": [
+                    "Dragon"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "Reaction: After the resolution of a Kiho Battle action you took: Take an additional Battle action."
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "5",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "2b/42"
+                ],
+                "personalhonor": [
+                    "5"
+                ],
+                "title": [
+                    "Pillars of Virtue"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040411"
+                ],
+                "clan": [
+                    "Dragon"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "Reaction: After the resolution of a Kiho Battle action you took: Take an additional Battle action."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Reaction:</b> After the resolution of a Kiho Battle action you took: Take an additional Battle action."
+        ],
+        "clan": [
+            "Dragon"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Pillars of Virtue",
+        "cardid": 5957,
+        "imagehash": "1f/29",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "5"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Pillars of Virtue"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The other families can devote their time to the Colonies if they wish. They know Rokugan is well protected.\" - Utaku Ryoko</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "426"
+                ],
+                "artnumber": [
+                    "10040433"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "78/93"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "5"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "3d/fe"
+                ],
+                "personalhonor": [
+                    "5"
+                ],
+                "title": [
+                    "Plains of the Maiden"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040433"
+                ],
+                "clan": [
+                    "Unicorn"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "After you destroy a province or army in battle resolution as the Attacker: Gain Honor equal to the number of your Battle Maidens at the current battlefield."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you destroy a province or army in battle resolution as the Attacker: Gain Honor equal to the number of your Battle Maidens at the current battlefield."
+        ],
+        "clan": [
+            "Unicorn"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Plains of the Maiden",
+        "cardid": 5982,
+        "imagehash": "78/93",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "5"
+        ],
+        "production": [
+            "5"
+        ],
+        "title": [
+            "Plains of the Maiden"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "mrp": [
+            "This card's trait has changed slightly"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The Destroyers are gone, but we would be foolish to assume we will never be threatened.\" - Matsu Kenji</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "406"
+                ],
+                "artnumber": [
+                    "10040415"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "00/87"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"Sometimes an enemy cannot be tactically overcome. They can only be crushed.\" - Matsu Kenji</i>"
+                ],
+                "printingid": "2",
+                "number": [
+                    "155"
+                ],
+                "set": [
+                    "Before the Dawn"
+                ],
+                "artist": [
+                    "Charles Urbach"
+                ],
+                "printimagehash": [
+                    "f3/26"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "3",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "3"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "c9/60"
+                ],
+                "personalhonor": [
+                    "7"
+                ],
+                "title": [
+                    "Shamate Keep"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040415"
+                ],
+                "clan": [
+                    "Lion"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "Your dishonorable Paragons do not have a maximum Personal Honor of 0 from the rulebook.<br>Battle: Choose your performing unbowed Personality and target a Personality with equal or lower Personal Honor: Move him home. Gain 2 Honor if you do not control him."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your dishonorable Paragons do not have a maximum Personal Honor of 0 from the rulebook.<br><b>Battle:</b> Choose your performing unbowed Personality and move home a target Personality with equal or lower Personal Honor. Gain 2 Honor if you do not control him."
+        ],
+        "clan": [
+            "Lion"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Shamate Keep",
+        "cardid": 6691,
+        "imagehash": "00/87",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "7"
+        ],
+        "production": [
+            "3"
+        ],
+        "title": [
+            "Shamate Keep"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Here, all is serenity and truth.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "398"
+                ],
+                "artnumber": [
+                    "10040406"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "b1/ba"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "keywords": [
+                    "Temple"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "45/9e"
+                ],
+                "personalhonor": [
+                    "6"
+                ],
+                "title": [
+                    "Shinden Asahina"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040406"
+                ],
+                "clan": [
+                    "Crane"
+                ],
+                "force": [
+                    "6"
+                ],
+                "text": [
+                    "Open: Even if this card is bowed, bow your performing Shugenja and target another player's unbowed Personality: His controller may choose to bow him and negate his straightening (this turn). If he did not choose this, gain 1 Honor."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Open:</b> Even if this card is bowed, bow your performing Shugenja and target another player's unbowed Personality: His controller may choose to bow him and negate his straightening <i>(this turn)</i>. If he did not choose this, gain 1 Honor."
+        ],
+        "clan": [
+            "Crane"
+        ],
+        "strength": [
+            "6"
+        ],
+        "formattedtitle": "Shinden Asahina",
+        "cardid": 6855,
+        "imagehash": "b1/ba",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Temple"
+        ],
+        "startinghonor": [
+            "6"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Shinden Asahina"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"All I ask for is your life.\" - Bayushi Nitoshi</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "418"
+                ],
+                "artnumber": [
+                    "10040425"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "c8/07"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "6a/28"
+                ],
+                "personalhonor": [
+                    "1"
+                ],
+                "title": [
+                    "Shiro Chugo"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040425"
+                ],
+                "clan": [
+                    "Scorpion"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "Political Reaction: Before an action's resolution, choose your performing unbowed Courtier: Reduce any Honor gain or loss from the action's effects by 2.<br>Battle: Choose your performing unbowed Personality: Melee 4 Attack, with +1 strength if he is Loyal."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Political Reaction:</b> Before an action's resolution, choose your performing unbowed Courtier: Reduce any Honor gain or loss from the action's effects by 2.<br><b>Battle:</b> Choose your performing unbowed Personality: Melee 4 Attack, with +1 strength if he is Loyal."
+        ],
+        "clan": [
+            "Scorpion"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Shiro Chugo",
+        "cardid": 7008,
+        "imagehash": "c8/07",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "1"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Shiro Chugo"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"An unassuming home for an unassuming people. They are what all warriors should strive to become.\" - Isawa Tamaki</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "413"
+                ],
+                "artnumber": [
+                    "10040421"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "df/4d"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "90/5e"
+                ],
+                "personalhonor": [
+                    "6"
+                ],
+                "title": [
+                    "Shiro Shiba"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040421"
+                ],
+                "clan": [
+                    "Phoenix"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "Battle: Choose your performing unbowed Samurai: Melee 4 Attack, with +2 strength if you control a Shugenja."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Battle:</b> Choose your performing unbowed Samurai: Melee 4 Attack, with +2 strength if you control a Shugenja."
+        ],
+        "clan": [
+            "Phoenix"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Shiro Shiba",
+        "cardid": 7017,
+        "imagehash": "df/4d",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "6"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Shiro Shiba"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Serve your lord until you are strong enough to take his place. It is the way of the Spider.\" - Daigotsu Kanpeki</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "421"
+                ],
+                "artnumber": [
+                    "10040431"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "8c/0b"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Emperor Edition Demo Decks"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "keywords": [
+                    "Dojo"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "7d/03"
+                ],
+                "personalhonor": [
+                    "0"
+                ],
+                "title": [
+                    "Steel Soul Dojo"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "number": [
+                    "126"
+                ],
+                "artnumber": [
+                    "10040431"
+                ],
+                "clan": [
+                    "Spider"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "You do not lose Honor from Spider Clan and Fate cards you own.<br>After the resolution of the first Dark Virtue action you took each phase: Draw a card."
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "3",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "keywords": [
+                    "Dojo"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "6b/39"
+                ],
+                "personalhonor": [
+                    "0"
+                ],
+                "title": [
+                    "Steel Soul Dojo"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040431"
+                ],
+                "clan": [
+                    "Spider"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "You do not lose Honor from Spider Clan and Fate cards you own.<br>After the resolution of the first Dark Virtue action you took each phase: Draw a card."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "You do not lose Honor from Spider Clan and Fate cards you own.<br>After the resolution of the first Dark Virtue action you took each phase: Draw a card."
+        ],
+        "clan": [
+            "Spider"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Steel Soul Dojo",
+        "cardid": 7484,
+        "imagehash": "8c/0b",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Dojo"
+        ],
+        "startinghonor": [
+            "0"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Steel Soul Dojo"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The sea can be harnessed, but never controlled&#8230;</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "411"
+                ],
+                "artnumber": [
+                    "10040419"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "85/6f"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "keywords": [
+                    "Thunder"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "6f/cb"
+                ],
+                "personalhonor": [
+                    "2"
+                ],
+                "title": [
+                    "Suitengu's Torch"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040419"
+                ],
+                "clan": [
+                    "Mantis"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "Reaction: After you announce a Thunder Battle action: Its effects will not be negated or delayed.<br>Battle: Choose your performing unbowed Personality and target an enemy Personality: Move him home."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Reaction:</b> After you announce a Thunder Battle action: Its effects will not be negated or delayed.<br><b>Battle:</b> Choose your performing unbowed Personality and target an enemy Personality: Move him home."
+        ],
+        "clan": [
+            "Mantis"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Suitengu's Torch",
+        "cardid": 7623,
+        "imagehash": "85/6f",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Thunder"
+        ],
+        "startinghonor": [
+            "2"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Suitengu's Torch"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "printingid": "1",
+                "number": [
+                    "414"
+                ],
+                "artnumber": [
+                    "10040423"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "db/f2"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "number": [
+                    "156"
+                ],
+                "set": [
+                    "Before the Dawn"
+                ],
+                "artist": [
+                    "Charles Urbach"
+                ],
+                "printimagehash": [
+                    "81/e1"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "3",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "keywords": [
+                    "Temple"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "12/51"
+                ],
+                "personalhonor": [
+                    "6"
+                ],
+                "title": [
+                    "Temple of Purity"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040423"
+                ],
+                "clan": [
+                    "Phoenix"
+                ],
+                "force": [
+                    "6"
+                ],
+                "text": [
+                    "Open: Even if this card is bowed, target another player's Personality: Give him -4F, which will not be negated. If he is Kolat, Ninja, or Shadowlands, you control an Inquisitor, and it is not your turn, choose a player, who gains or loses 2 Honor."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Open:</b> Even if this card is bowed, target another player's Personality: Give him -4F, which will not be negated. If he is Kolat, Ninja, or Shadowlands, you control an Inquisitor, and it is not your turn, choose a player, who gains or loses 2 Honor."
+        ],
+        "clan": [
+            "Phoenix"
+        ],
+        "strength": [
+            "6"
+        ],
+        "formattedtitle": "Temple of Purity",
+        "cardid": 7879,
+        "imagehash": "db/f2",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Temple"
+        ],
+        "startinghonor": [
+            "6"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Temple of Purity"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"It is said the masters of the Doji Magistrates can see to the Mantis Islands.\" - Kakita Mitohime</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "399"
+                ],
+                "artnumber": [
+                    "10040404"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "72/2b"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "06/b8"
+                ],
+                "personalhonor": [
+                    "6"
+                ],
+                "title": [
+                    "The Aerie"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040404"
+                ],
+                "clan": [
+                    "Crane"
+                ],
+                "force": [
+                    "6"
+                ],
+                "text": [
+                    "Iaijutsu Battle: Even if this card is bowed, choose your performing unbowed Samurai and target another player's Personality: Your Samurai duels the Personality. Bow and dishonor the duel's loser. The winner's controller gains 1 Honor."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Iaijutsu Battle:</b> Even if this card is bowed, choose your performing unbowed Samurai and target another player's Personality: Your Samurai duels the Personality. Bow and dishonor the duel's loser. The winner's controller gains 1 Honor."
+        ],
+        "clan": [
+            "Crane"
+        ],
+        "strength": [
+            "6"
+        ],
+        "formattedtitle": "The Aerie",
+        "cardid": 7949,
+        "imagehash": "72/2b",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "6"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "The Aerie"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "printingid": "1",
+                "number": [
+                    "90"
+                ],
+                "artnumber": [
+                    "10020090"
+                ],
+                "set": [
+                    "Forgotten Legacy"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "96/f4"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "You do not gain Honor. You may not take Political actions. You do not lose Honor from cards you own. Before you lose Honor: Reduce the loss to 1, which may not be increased.<br><b>Limited:</b> Target your discarded Nonhuman Personality and discard a card in one of your provinces: Refill the province face-up with the Personality."
+        ],
+        "clan": [
+            "Unaligned"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "The Forgotten Temple",
+        "cardid": 8094,
+        "imagehash": "96/f4",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Forest",
+            "Temple"
+        ],
+        "startinghonor": [
+            "-1"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "The Forgotten Temple"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"I have traveled farther than any Lion in history, but nothing is so beautiful as home.\" - Ikoma Shika</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "407"
+                ],
+                "artnumber": [
+                    "10040413"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "c4/84"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Emperor Edition Demo Decks"
+                ],
+                "cost": [
+                    "3"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "e7/e4"
+                ],
+                "personalhonor": [
+                    "7"
+                ],
+                "title": [
+                    "The Golden Plains"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "number": [
+                    "122"
+                ],
+                "artnumber": [
+                    "10040413"
+                ],
+                "clan": [
+                    "Lion"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "Recon Reaction: After engaging: You have Reconnaissance at the current battlefield. Create a Terrain Strategy with the ability, \"Battle: If this card is in play, destroy it and target a Terrain in your hand: Take an additional Battle action to play it.\" Put it into play there."
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "3",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "3"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "1a/a9"
+                ],
+                "personalhonor": [
+                    "7"
+                ],
+                "title": [
+                    "The Golden Plains"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040413"
+                ],
+                "clan": [
+                    "Lion"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "Recon Reaction: After engaging: You have Reconnaissance at the current battlefield. Create a Terrain Strategy with the ability, \"Battle: If this card is in play, destroy it and target a Terrain in your hand: Take an additional Battle action to play it.\" Put it into play there."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Recon Reaction:</b> After engaging: You have Reconnaissance at the current battlefield. Create a Terrain Strategy with the ability, \"<b>Battle:</b> If this card is in play, destroy it and target a Terrain in your hand: Take an additional Battle action to play it.\" Put it into play there."
+        ],
+        "clan": [
+            "Lion"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "The Golden Plains",
+        "cardid": 8105,
+        "imagehash": "c4/84",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "7"
+        ],
+        "production": [
+            "3"
+        ],
+        "title": [
+            "The Golden Plains"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The division of Unicorn Champion and Khan was done to decentralize the clan's power, to ensure that the tragedy of Chagatai might never be repeated.\" - Miya Histories</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "427"
+                ],
+                "artnumber": [
+                    "10040435"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "b2/48"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "5"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "10/d8"
+                ],
+                "personalhonor": [
+                    "4"
+                ],
+                "title": [
+                    "The Khan's Estate"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040435"
+                ],
+                "clan": [
+                    "Unicorn"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "Tactical Limited: Choose your performing Tactician: He may not be assigned to attack this turn. Draw a card."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Tactical Limited:</b> Choose your performing Tactician: He may not be assigned to attack this turn. Draw a card."
+        ],
+        "clan": [
+            "Unicorn"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "The Khan's Estate",
+        "cardid": 8182,
+        "imagehash": "b2/48",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "4"
+        ],
+        "production": [
+            "5"
+        ],
+        "title": [
+            "The Khan's Estate"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The sea routes of the Mantis took less time, but the distance between the Colonies' ports and the Second City made the overland route more practical. Thus the Unicorn maintained their prestige in the Colonies.\" - The Ikoma Records</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "159"
+                ],
+                "artnumber": [
+                    "10050159"
+                ],
+                "set": [
+                    "Embers of War"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "use": [
+                    "Honorable Paragon (PH based Paragon card)"
+                ],
+                "printimagehash": [
+                    "bb/ab"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Tacticians have the ability, \"<b>Tactical Open:</b> Give this Personality +1F and <b>Cavalry</b>.\""
+        ],
+        "clan": [
+            "Unicorn"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "The Ki-Rin's Path",
+        "cardid": 8187,
+        "imagehash": "bb/ab",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "4"
+        ],
+        "production": [
+            "5"
+        ],
+        "title": [
+            "The Ki-Rin's Path"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Here we enact the largest-scale maneuvers learned from the gaijin book. For such to be needed, we would be indeed threatened.\" - Ikoma Shika</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "157"
+                ],
+                "artnumber": [
+                    "10050157"
+                ],
+                "set": [
+                    "Embers of War"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "use": [
+                    "Honorable Paragon (PH based Paragon card)"
+                ],
+                "printimagehash": [
+                    "73/7c"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you announce a Terrain action: Once per battle, you may ignore any of its restrictions that are based on another Terrain being in play. <br>After the first time each turn one of your Terrain actions resolves: Draw a card."
+        ],
+        "clan": [
+            "Lion"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "The Marshalling Fields",
+        "cardid": 8211,
+        "imagehash": "73/7c",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "7"
+        ],
+        "production": [
+            "3"
+        ],
+        "title": [
+            "The Marshalling Fields"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Scorpion holdings are rarely obvious to others.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "419"
+                ],
+                "artnumber": [
+                    "10040426"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "c3/e5"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Emperor Edition Demo Decks"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "8a/8b"
+                ],
+                "personalhonor": [
+                    "0"
+                ],
+                "title": [
+                    "The Otoro Estate"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "number": [
+                    "125"
+                ],
+                "artnumber": [
+                    "10040426"
+                ],
+                "clan": [
+                    "Scorpion"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "You do not lose Honor from Ninja cards you own.<br>Ninja Open: Look at all face-down cards in one player's provinces.<br>Ninja Battle: Choose your performing unbowed Ninja Personality: Ranged 4 Attack. You may move your Ninja home."
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "3",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "f9/05"
+                ],
+                "personalhonor": [
+                    "0"
+                ],
+                "title": [
+                    "The Otoro Estate"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040426"
+                ],
+                "clan": [
+                    "Scorpion"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "You do not lose Honor from Ninja cards you own.<br>Ninja Open: Look at all face-down cards in one player's provinces.<br>Ninja Battle: Choose your performing unbowed Ninja Personality: Ranged 4 Attack. You may move your Ninja home."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "You do not lose Honor from Ninja cards you own.<br><b>Ninja Open:</b> Look at all face-down cards in one player's provinces.<br><b>Ninja Battle:</b> Choose your performing unbowed Ninja Personality: Ranged 4 Attack. You may move your Ninja home."
+        ],
+        "clan": [
+            "Scorpion"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "The Otoro Estate",
+        "cardid": 8246,
+        "imagehash": "c3/e5",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "0"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "The Otoro Estate"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Far to the west, on the desolate plains plagued by storms, the Spider held dominion of the ruined lands.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "158"
+                ],
+                "artnumber": [
+                    "10050158"
+                ],
+                "set": [
+                    "Embers of War"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "use": [
+                    "Honorable Paragon (PH based Paragon card)"
+                ],
+                "printimagehash": [
+                    "ef/0f"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "You do not lose Honor from Spider Clan and Fate cards you own.<br>You may use the rulebook Conquest ability twice per turn during the same battle.<br>Equipping Followers is a Battle/Limited ability for you."
+        ],
+        "clan": [
+            "Spider"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "The Plain of Glass",
+        "cardid": 8260,
+        "imagehash": "ef/0f",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "0"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "The Plain of Glass"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "printingid": "1",
+                "number": [
+                    "422"
+                ],
+                "artnumber": [
+                    "10040428"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "65/2b"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "c5/45"
+                ],
+                "personalhonor": [
+                    "0"
+                ],
+                "title": [
+                    "The Shadow's Lair"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040428"
+                ],
+                "clan": [
+                    "Spider"
+                ],
+                "force": [
+                    "0"
+                ],
+                "text": [
+                    "You do not lose Honor from Ninja and Fate cards you own.<br>Ninja Battle: Once per battle, even if this card is bowed and even if you control no units at the current battlefield, target one or more unopposed units with combined total Force of 9 or lower, or one opposed unit: Move each target home; this will not be negated or delayed if you control a Ninja."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "You do not lose Honor from Ninja and Fate cards you own.<br><b>Ninja Battle:</b> Once per battle, even if this card is bowed and even if you control no units at the current battlefield, target one or more unopposed units with combined total Force of 9 or lower, or one opposed unit: Move each target home; this will not be negated or delayed if you control a Ninja."
+        ],
+        "clan": [
+            "Spider"
+        ],
+        "strength": [
+            "0"
+        ],
+        "formattedtitle": "The Shadow's Lair",
+        "cardid": 8316,
+        "imagehash": "65/2b",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "0"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "The Shadow's Lair"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Those who bear the Spider's mon and who are without the touch of Jigoku may remain within the Empire as monks.\" - Voice of the Emperor</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "423"
+                ],
+                "artnumber": [
+                    "10040430"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "7e/94"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "3a/6f"
+                ],
+                "personalhonor": [
+                    "1"
+                ],
+                "title": [
+                    "The Spider's Web"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040430"
+                ],
+                "clan": [
+                    "Spider"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "After your Personality enters play: You may attach a Weapon to him from your hand, paying all costs but, once per turn, paying 4 less Gold if he is a Kensai."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After your Personality enters play: You may attach a Weapon to him from your hand, paying all costs but, once per turn, paying 4 less Gold if he is a Kensai."
+        ],
+        "clan": [
+            "Spider"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "The Spider's Web",
+        "cardid": 8352,
+        "imagehash": "7e/94",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "1"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "The Spider's Web"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "printingid": "1",
+                "number": [
+                    "428"
+                ],
+                "artnumber": [
+                    "10040432"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "92/57"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Target a discarded Personality: He becomes honorably dead.<br><b>Battle/Open:</b> If you own a dead Personality, choose your performing unbowed Shugenja and target a Personality: Straighten him. You may bow him if this is the Combat Segment."
+        ],
+        "clan": [
+            "Unicorn"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "The Temple of Death &#149; Experienced",
+        "cardid": 8373,
+        "puretexttitle": "The Temple of Death - exp",
+        "imagehash": "92/57",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Experienced",
+            "Temple"
+        ],
+        "startinghonor": [
+            "4"
+        ],
+        "production": [
+            "5"
+        ],
+        "title": [
+            "The Temple of Death"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "updatelog": [
+            {
+                "newdata": {
+                    "images": [
+                        "https://images.oracleofthevoid.com/l5r/48/20/printing_8392_4_",
+                        "https://images.oracleofthevoid.com/l5r/11/83/printing_8392_4_"
+                    ]
+                },
+                "op": "updateinstance",
+                "uid": 21069,
+                "uname": "Don Eisele",
+                "olddata": {
+                    "printing": [
+                        {
+                            "printingid": "1",
+                            "number": [
+                                "468"
+                            ],
+                            "set": [
+                                "Diamond Edition"
+                            ],
+                            "artist": [
+                                "Ellym Sirac"
+                            ],
+                            "printimagehash": [
+                                "fe/4e"
+                            ],
+                            "text": [
+                                "All of your Scorpion Clan Samurai have the ability: \"Battle: Bow this Samurai to bow an opposing Follower or an opposing Personality without Followers.\""
+                            ],
+                            "rarity": [
+                                "Fixed"
+                            ]
+                        },
+                        {
+                            "printingid": "2",
+                            "set": [
+                                "Honor Bound"
+                            ],
+                            "artist": [
+                                "Ellym Sirac"
+                            ],
+                            "printimagehash": [
+                                "65/04"
+                            ],
+                            "rarity": [
+                                "Fixed"
+                            ]
+                        },
+                        {
+                            "printingid": "3",
+                            "number": [
+                                "463"
+                            ],
+                            "set": [
+                                "Gold Edition"
+                            ],
+                            "artist": [
+                                "Ellym Sirac"
+                            ],
+                            "printimagehash": [
+                                "eb/a3"
+                            ],
+                            "rarity": [
+                                "Fixed"
+                            ]
+                        },
+                        {
+                            "flavor": [
+                                "<i></i>"
+                            ],
+                            "printingid": "4",
+                            "set": [
+                                "Soul of the Empire"
+                            ],
+                            "artist": [
+                                "Ellym Sirac"
+                            ],
+                            "printimagehash": [
+                                "11/83",
+                                "48/20"
+                            ],
+                            "rarity": [
+                                "Uncommon"
+                            ]
+                        },
+                        {
+                            "printingid": "5",
+                            "set": [
+                                "Promotional&ndash;Diamond"
+                            ],
+                            "promoquantity": [
+                                "0"
+                            ],
+                            "artist": [
+                                "Ellym Sirac"
+                            ],
+                            "printimagehash": [
+                                "90/59"
+                            ],
+                            "rarity": [
+                                "Promo"
+                            ]
+                        },
+                        {
+                            "printingid": "6",
+                            "set": [
+                                "L5R Experience"
+                            ],
+                            "artist": [
+                                "Ellym Sirac"
+                            ],
+                            "printimagehash": [
+                                "42/2e"
+                            ],
+                            "rarity": [
+                                "Fixed"
+                            ]
+                        },
+                        {
+                            "printingid": "7",
+                            "set": [
+                                "Promotional&ndash;Jade"
+                            ],
+                            "promoquantity": [
+                                "0"
+                            ],
+                            "artist": [
+                                "Ellym Sirac"
+                            ],
+                            "printimagehash": [
+                                "4c/84",
+                                "e5/61"
+                            ],
+                            "rarity": [
+                                "Promo"
+                            ]
+                        },
+                        {
+                            "printingid": "8",
+                            "set": [
+                                "Honor and Treachery"
+                            ],
+                            "cost": [
+                                "4"
+                            ],
+                            "artist": [
+                                "Ellym Sirac"
+                            ],
+                            "printimagehash": [
+                                "be/9e"
+                            ],
+                            "personalhonor": [
+                                "1"
+                            ],
+                            "title": [
+                                "The Towers of the Yogo"
+                            ],
+                            "type": [
+                                "Stronghold"
+                            ],
+                            "flavor": [
+                                "The Scorpion lands lie in the center of the Empire, like a blade held close to the heart, ever ready for the killing blow."
+                            ],
+                            "artnumber": [
+                                "10257"
+                            ],
+                            "clan": [
+                                "Scorpion"
+                            ],
+                            "force": [
+                                "7"
+                            ],
+                            "text": [
+                                "Each of your Scorpion Clan Personalities has the ability, \"Battle: :bow: and target an enemy Follower or Personality without Followers: Bow it.\""
+                            ],
+                            "rarity": [
+                                "Fixed"
+                            ]
+                        }
+                    ]
+                },
+                "timestamp": 1634148281700
+            }
+        ],
+        "printing": [
+            {
+                "printingid": "1",
+                "number": [
+                    "468"
+                ],
+                "set": [
+                    "Diamond Edition"
+                ],
+                "artist": [
+                    "Ellym Sirac"
+                ],
+                "printimagehash": [
+                    "fe/4e"
+                ],
+                "text": [
+                    "All of your Scorpion Clan Samurai have the ability: \"Battle: Bow this Samurai to bow an opposing Follower or an opposing Personality without Followers.\""
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Honor Bound"
+                ],
+                "artist": [
+                    "Ellym Sirac"
+                ],
+                "printimagehash": [
+                    "65/04"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "3",
+                "number": [
+                    "463"
+                ],
+                "set": [
+                    "Gold Edition"
+                ],
+                "artist": [
+                    "Ellym Sirac"
+                ],
+                "printimagehash": [
+                    "eb/a3"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i></i>"
+                ],
+                "printingid": "4",
+                "images": [
+                    "https://images.oracleofthevoid.com/l5r/48/20/printing_8392_4_",
+                    "https://images.oracleofthevoid.com/l5r/11/83/printing_8392_4_"
+                ],
+                "set": [
+                    "Soul of the Empire"
+                ],
+                "artist": [
+                    "Ellym Sirac"
+                ],
+                "printimagehash": [
+                    "11/83",
+                    "48/20"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "printingid": "5",
+                "set": [
+                    "Promotional&ndash;Diamond"
+                ],
+                "promoquantity": [
+                    "0"
+                ],
+                "artist": [
+                    "Ellym Sirac"
+                ],
+                "printimagehash": [
+                    "90/59"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            },
+            {
+                "printingid": "6",
+                "set": [
+                    "L5R Experience"
+                ],
+                "artist": [
+                    "Ellym Sirac"
+                ],
+                "printimagehash": [
+                    "42/2e"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "7",
+                "set": [
+                    "Promotional&ndash;Jade"
+                ],
+                "promoquantity": [
+                    "0"
+                ],
+                "artist": [
+                    "Ellym Sirac"
+                ],
+                "printimagehash": [
+                    "4c/84",
+                    "e5/61"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            },
+            {
+                "printingid": "8",
+                "set": [
+                    "Honor and Treachery"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "artist": [
+                    "Ellym Sirac"
+                ],
+                "printimagehash": [
+                    "be/9e"
+                ],
+                "personalhonor": [
+                    "1"
+                ],
+                "title": [
+                    "The Towers of the Yogo"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "flavor": [
+                    "The Scorpion lands lie in the center of the Empire, like a blade held close to the heart, ever ready for the killing blow."
+                ],
+                "artnumber": [
+                    "10257"
+                ],
+                "clan": [
+                    "Scorpion"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "Each of your Scorpion Clan Personalities has the ability, \"Battle: :bow: and target an enemy Follower or Personality without Followers: Bow it.\""
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "8",
+        "text": [
+            "Each of your Scorpion Clan Personalities has the ability, \"<b>Battle, :bow::</b> Bow a target enemy Follower or Personality without Followers.\""
+        ],
+        "clan": [
+            "Scorpion"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "The Towers of the Yogo",
+        "cardid": 8392,
+        "imagehash": "ec/20",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Four Winds (Gold)",
+            "Hidden Emperor (Jade)",
+            "Rain of Blood (Diamond)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "1"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "The Towers of the Yogo"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "printingid": "1",
+                "number": [
+                    "403"
+                ],
+                "artnumber": [
+                    "10040409"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "29/40"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "keywords": [
+                    "Dojo"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "de/26"
+                ],
+                "personalhonor": [
+                    "5"
+                ],
+                "title": [
+                    "Watchful Eye Dojo"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040409"
+                ],
+                "clan": [
+                    "Dragon"
+                ],
+                "force": [
+                    "7"
+                ],
+                "text": [
+                    "Iaijutsu Open: Even if this card is bowed, choose your performing unbowed Personality and target another player's Personality: Your performer challenges the target. He may refuse; if he did, dishonor him and gain 1 Honor. Bow the duel's loser."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Iaijutsu Tireless Open:</b> Choose your performing unbowed Personality. He challenges another player's target Personality. He may refuse; if he does, dishonor him and gain 1 Honor. Bow the duel's loser."
+        ],
+        "clan": [
+            "Dragon"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Watchful Eye Dojo",
+        "cardid": 9246,
+        "imagehash": "29/40",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Dojo"
+        ],
+        "startinghonor": [
+            "5"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Watchful Eye Dojo"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "printingid": "1",
+                "number": [
+                    "415"
+                ],
+                "artnumber": [
+                    "10040420"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "3e/fb"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "cost": [
+                    "4"
+                ],
+                "keywords": [
+                    "Temple"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "21/6f"
+                ],
+                "personalhonor": [
+                    "6"
+                ],
+                "title": [
+                    "Waystation of the Path"
+                ],
+                "type": [
+                    "Stronghold"
+                ],
+                "artnumber": [
+                    "10040420"
+                ],
+                "clan": [
+                    "Phoenix"
+                ],
+                "force": [
+                    "6"
+                ],
+                "text": [
+                    "Reaction: After another player's action targets your performing Henshin, target another of your Personalities: The Henshin is reborn. Transfer his attachments and tokens to the other Personality. The action's effects that would destroy your Henshin instead overlay him onto the Personality."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Reaction:</b> After another player's action targets your performing Henshin, target another of your Personalities. <i>The Henshin is reborn.</i> Transfer his attachments and tokens to the other Personality. The action's effects that would destroy your Henshin instead overlay him onto the Personality."
+        ],
+        "clan": [
+            "Phoenix"
+        ],
+        "strength": [
+            "6"
+        ],
+        "formattedtitle": "Waystation of the Path",
+        "cardid": 9267,
+        "imagehash": "3e/fb",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Temple"
+        ],
+        "startinghonor": [
+            "6"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Waystation of the Path"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "printingid": "1",
+                "number": [
+                    "395"
+                ],
+                "artnumber": [
+                    "10040403"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "89/08"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "This Stronghold produces 1 less Gold when paying for a Personality.<br><b>Absent Tireless Battle, :g3::</b> Move home a target attacking Personality. If he moves, his controller loses 1 Honor."
+        ],
+        "clan": [
+            "Crab"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Yasuki Palaces &#149; Experienced",
+        "cardid": 9459,
+        "puretexttitle": "Yasuki Palaces - exp",
+        "imagehash": "89/08",
+        "legality": [
+            "Age of Conquest (Emperor)"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Experienced"
+        ],
+        "startinghonor": [
+            "3"
+        ],
+        "production": [
+            "5"
+        ],
+        "title": [
+            "Yasuki Palaces"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"I will oversee the Colonies for you if you wish, brother, but I will require vassals of great strength and determination to do so.\" - Kuni Renyu</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "157"
+                ],
+                "artnumber": [
+                    "10060157"
+                ],
+                "set": [
+                    "The Shadow's Embrace"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "a5/11"
+                ],
+                "text": [
+                    "Battle: Choose your performing Berserker or unbowed Personality and target an enemy card with lower Force and no attachments: Destroy it."
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "[Art Note: A Berserk Fortress]"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Battle:</b> Target your performing Berserker or unbowed Personality. Destroy a target enemy card with lower Force and no attachments."
+        ],
+        "clan": [
+            "Crab"
+        ],
+        "strength": [
+            "8"
+        ],
+        "formattedtitle": "Bishamon's Tower",
+        "cardid": 9945,
+        "imagehash": "a5/11",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "3"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Bishamon's Tower"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"It is an essential link between the coast and the Second City. We must protect it from the Mantis at all costs.\" - Daidoji Sosuke</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "158"
+                ],
+                "artnumber": [
+                    "10060158"
+                ],
+                "set": [
+                    "The Shadow's Embrace"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "b8/94"
+                ],
+                "text": [
+                    "After an action resolves that created a duel your Personality won during a Combat Segment, once per Personality per battle: Negate his next bowing, movement, or destruction from other players' cards' effects."
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "[Art Note: A dueling stronghold, possibly the Experienced Kakita Dueling Academy"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After an action resolves that created a duel your Personality won during a Combat Segment, once per Personality per battle, negate his next bowing, movement, or destruction from other players' cards' effects."
+        ],
+        "clan": [
+            "Crane"
+        ],
+        "strength": [
+            "6"
+        ],
+        "formattedtitle": "Twin Forks City",
+        "cardid": 9946,
+        "imagehash": "b8/94",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "6"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Twin Forks City"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"As in the Empire, so in the Colonies.\" - Agasha Kurou</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "159"
+                ],
+                "artnumber": [
+                    "10060159"
+                ],
+                "set": [
+                    "The Shadow's Embrace"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "6e/7c"
+                ],
+                "text": [
+                    "Limited: Put a Spell from your hand face-up underneath this card.<br>Battle: Any number of times per turn, discard a Spell from under this card: Either straighten one to three Shugenja at the current battlefield if the Spell is Air or Water, or Ranged 4 Attack if it is Earth or Fire, or draw a card if it is Void."
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "[Art Note: A spell based Stronghold]"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Put a Spell from your hand face-up underneath this card.<br><b>Battle:</b> Any number of times per turn, discard a Spell from under this card: Either straighten one to three Shugenja at the current battlefield if the Spell is Air or Water, or Ranged 4 Attack if it is Earth or Fire, or draw a card if it is Void."
+        ],
+        "clan": [
+            "Phoenix"
+        ],
+        "strength": [
+            "6"
+        ],
+        "formattedtitle": "The New Foundries",
+        "cardid": 9947,
+        "imagehash": "6e/7c",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "6"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "The New Foundries"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Their methods and actions are as indecipherable as ever, yes, but I believe we have no choice. We must trust in the Togashi to be our eyes and hands throughout the Colonies.\" - Kitsuki Daisuke</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "157"
+                ],
+                "artnumber": [
+                    "10070158"
+                ],
+                "set": [
+                    "Seeds of Decay"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "a9/24"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Target your Tattooed Personality: Give him a +1F <b>Fire </b>token.<br><b>Battle:</b> Destroy a Fire token on your performing Personality: Ranged 5 Attack."
+        ],
+        "clan": [
+            "Dragon"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Monastery of New Thought",
+        "cardid": 10183,
+        "imagehash": "a9/24",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "5"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Monastery of New Thought"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "printingid": "1",
+                "number": [
+                    "158"
+                ],
+                "artnumber": [
+                    "10070157"
+                ],
+                "set": [
+                    "Seeds of Decay"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "a8/7a"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Create an additional Attack Phase, during which battle resolution does not destroy defending armies or Provinces and does not bow your Mantis Clan Magistrates or your attachments. After it ends, if you won any of its battles <i>(even against no units at resolution)</i>, you may target a Personality or Holding, bow it, and negate its straightening until after your next turn begins."
+        ],
+        "clan": [
+            "Mantis"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Aramasu's Legacy",
+        "cardid": 10184,
+        "imagehash": "a8/7a",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "2"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "Aramasu's Legacy"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Men speak of law and order as if they were one and the same. One cannot achieve the other.\" - Soshi Kodanshi</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "159"
+                ],
+                "artnumber": [
+                    "10070159"
+                ],
+                "set": [
+                    "Seeds of Decay"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "15/c8"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "You do not lose Honor from Ninja cards you own.<br>When another player's Battle action would target your Ninja: He is a master of the art of Ninjutsu. Once per battle, you may choose your Ninja at the same location. If you did, the action targets it instead, if legal."
+        ],
+        "clan": [
+            "Scorpion"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "The Castle of Order",
+        "cardid": 10185,
+        "imagehash": "15/c8",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "0"
+        ],
+        "production": [
+            "4"
+        ],
+        "title": [
+            "The Castle of Order"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>In the northeastern reaches of the Empire, the Phoenix delve into the secrets of the universe with their wisdom, and some say with their arrogance as well.</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "22420"
+                ],
+                "set": [
+                    "Honor and Treachery"
+                ],
+                "artist": [
+                    "Mike Raabe (miscredited Aaron Boyd)"
+                ],
+                "printimagehash": [
+                    "bc/71"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            ":bow:: When paying for a Spell or Shugenja, produce 5 Gold which may only pay for that card."
+        ],
+        "clan": [
+            "Phoenix"
+        ],
+        "strength": [
+            "5"
+        ],
+        "formattedtitle": "The Sacred Temple of the Phoenix &#149; Inexperienced",
+        "cardid": 10256,
+        "puretexttitle": "The Sacred Temple of the Phoenix - inexp",
+        "imagehash": "bc/71",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Inexperienced",
+            "Temple"
+        ],
+        "startinghonor": [
+            "6"
+        ],
+        "production": [
+            "3"
+        ],
+        "title": [
+            "The Sacred Temple of the Phoenix"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "playtestname": [
+            "Journey's End Keep"
+        ],
+        "printing": [
+            {
+                "printingid": "1",
+                "number": [
+                    "150"
+                ],
+                "artnumber": [
+                    "10110153"
+                ],
+                "set": [
+                    "Torn Asunder"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "use": [
+                    "Design a few options for each theme and we will go over them on the forums"
+                ],
+                "printimagehash": [
+                    "5d/f3"
+                ],
+                "designer": [
+                    "Thomas"
+                ],
+                "designernotes": [
+                    "The extravagant temples in the Second City."
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "\"Imperial\" is a Clan Alignment, and it is your Clan Alignment. If no other player has an Imperial Stronghold, you begin the game with the Imperial Favor. After this card produces gold, you may not Recruit Personalities until the end of the Phase. You may not buy Personalities with Clan discount if Imperial is their only Clan Alignment <i>(this trait only has effect when using the Clan Discount optional rule)</i>. "
+        ],
+        "clan": [
+            "Unaligned"
+        ],
+        "strength": [
+            "7"
+        ],
+        "formattedtitle": "Journey's End Keep &#149; Experienced",
+        "cardid": 10406,
+        "puretexttitle": "Journey's End Keep - exp",
+        "imagehash": "5d/f3",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "keywords": [
+            "Experienced",
+            "Imperial"
+        ],
+        "startinghonor": [
+            "8"
+        ],
+        "production": [
+            "5"
+        ],
+        "title": [
+            "Journey's End Keep"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Truth to oneself, at the cost of honor.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "138"
+                ],
+                "artnumber": [
+                    "10130142"
+                ],
+                "set": [
+                    "Coils of Madness"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "bf/d3"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "[Note: This is the Cult of Fudo who have a different means of achieving enlightenment and are fighting the forces of P'an Ku.]"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your non-Unique Monk and Fudo Personalities in and out of play have <b><b>Monk &#149; Fudo</b></b>. Fudo Personalities join you for 2 less Gold. You ignore Honor Requirements of your Fudo cards. You do not lose Honor from Fudo cards you own. You may not win by Enlightenment. <br><b>Limited, :bow::</b> Search your discard pile or deck for a Fudo Ring, show it, and put it in your hand."
+        ],
+        "clan": [
+            "Unaligned"
+        ],
+        "strength": [
+            "9"
+        ],
+        "formattedtitle": "The False Path",
+        "cardid": 10561,
+        "imagehash": "bf/d3",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "0"
+        ],
+        "production": [
+            "3"
+        ],
+        "title": [
+            "The False Path"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>All is lost.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "137"
+                ],
+                "artnumber": [
+                    "10130143"
+                ],
+                "set": [
+                    "Coils of Madness"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "46/7d"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "[Note: This is the Cult of P'an Ku. They are bat nut crazy. They are warring with the Cult of Fudo."
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "If there is no other Foothold of the Mad player, you go first. You do not lose Honor from cards you own. Fallen Personalities join you for 2 less Gold. Personalities and Followers have -1F for each of their Madness tokens.<br><b>Limited, :bow:</b>: Give a target card a <b>Madness </b>token.<br><b>Limited, :bow:</b>: Your Holdings enter play paying 2 less Gold <i>(this turn)</i>."
+        ],
+        "clan": [
+            "Unaligned"
+        ],
+        "strength": [
+            "0"
+        ],
+        "formattedtitle": "Foothold of the Mad",
+        "cardid": 10562,
+        "imagehash": "46/7d",
+        "legality": [
+            "Age of Conquest (Emperor)"
+        ],
+        "deck": [
+            "Pre-Game"
+        ],
+        "startinghonor": [
+            "0"
+        ],
+        "production": [
+            "0"
+        ],
+        "title": [
+            "Foothold of the Mad"
+        ],
+        "type": [
+            "Stronghold"
+        ]
+    },
+    {
         "playtestname": [
             "[New Draft Stronghold]"
         ],

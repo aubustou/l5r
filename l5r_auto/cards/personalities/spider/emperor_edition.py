@@ -1,59 +1,34 @@
 from __future__ import annotations
-
-from l5r_auto.clans import BrotherhoodOfShinsei, ShadowlandsFaction, SpiderClan
-from l5r_auto.keywords import (
-    Commander,
-    Conqueror,
-    Kensai,
-    Monk,
-    OrderOfTheSpider,
-    Samurai,
-    Shadowlands,
-    SoulOf,
-)
-from l5r_auto.legality import (
-    EmperorEdition,
-    IvoryEdition,
-    ModernEdition,
-    OnyxEdition,
-    TwentyFestivalsEdition,
-)
-
 from ..common import Personality
-
+from l5r_auto.clans import BrotherhoodOfShinsei, NinjaFaction, ShadowlandsFaction, SpiderClan
+from l5r_auto.keywords import Cavalry, ClanChampion, Commander, Conqueror, Consumer, DarkPerfection, DarkResolve, Experienced, Gunso, Kensai, Loyal, Monk, Ninja, ObsidianClaw, OrderOfTheSpider, Paragon, Samurai, Shadowlands, Shugenja, SoulOf, Unique
+from l5r_auto.legality import EmperorEdition, IvoryEdition, ModernEdition, OnyxEdition, SamuraiEdition, TwentyFestivalsEdition
+'After Aya enters play: Lose 2 Honor and you may put a Dark Virtue from your discard pile into your hand.<br><b>Open:</b> Give Aya <b>Cavalry</b>, <b>Duelist</b>, or <b>Tactician</b>.'
+Daigotsu_Aya = Personality(card_id=1704, title='Daigotsu Aya', force=5, chi=4, personal_honor=0, gold_cost=9, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[Unique, DarkPerfection, Paragon, Samurai, Shadowlands, SoulOf('Daigotsu Setsuko Experienced')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'After Gyoken enters play: Lose 1 Honor.'
+Daigotsu_Gyoken = Personality(card_id=1720, title='Daigotsu Gyoken', force=4, chi=3, personal_honor=0, gold_cost=6, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[Samurai, Shadowlands], traits=[], abilities=[], legality=[EmperorEdition, SamuraiEdition, ModernEdition])
+"<b>Fear Battle:</b> Show a Dark Virtue card in your hand: Ranged Attack with strength equal to the card's Focus Value plus one."
+Daigotsu_Ishibashi = Personality(card_id=1728, title='Daigotsu Ishibashi', force=4, chi=3, personal_honor=0, gold_cost=7, honor_requirement=None, clan=[SpiderClan], keywords=[DarkResolve, Gunso, Paragon, Samurai, SoulOf('Daigotsu Shiraki')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Reaction:</b> After the resolution of a Battle action from a Strategy, if Kanpeki performed it: Take an additional Battle action.<br><b>Battle:</b> Target an enemy Personality with lower Force. <i>Kanpeki snaps him like a twig.</i> Destroy him.'
+Daigotsu_Kanpeki_Experienced = Personality(card_id=1733, title='Daigotsu Kanpeki', force=9, chi=5, personal_honor=0, gold_cost=15, honor_requirement=None, clan=[SpiderClan, BrotherhoodOfShinsei], keywords=[Kensai, Loyal, Unique, ClanChampion, Experienced('1'), Monk, Paragon, Samurai], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
 "<i>(A Conqueror's unit doesn't bow after battle.)</i>"
-Daigotsu_Kendo = Personality(
-    card_id=1736,
-    title="Daigotsu Kendo",
-    force=3,
-    chi=2,
-    personal_honor=0,
-    gold_cost=5,
-    honor_requirement=None,
-    clan=[SpiderClan, ShadowlandsFaction],
-    keywords=[Conqueror, Commander, Samurai, Shadowlands],
-    traits=[],
-    abilities=[],
-    legality=[TwentyFestivalsEdition, EmperorEdition, OnyxEdition, ModernEdition],
-)
-"<i>(Kensai may attach two Weapons, as long as neither is Two-Handed.)</i> <br><b>Battle/Open:</b> Straighten a target Personality with a Weapon."
-Sandayu = Personality(
-    card_id=6467,
-    title="Sandayu",
-    force=3,
-    chi=2,
-    personal_honor=0,
-    gold_cost=5,
-    honor_requirement=None,
-    clan=[SpiderClan, BrotherhoodOfShinsei],
-    keywords=[Kensai, Monk, OrderOfTheSpider, SoulOf("Torao")],
-    traits=[],
-    abilities=[],
-    legality=[
-        IvoryEdition,
-        TwentyFestivalsEdition,
-        EmperorEdition,
-        ModernEdition,
-        ModernEdition,
-    ],
-)
+Daigotsu_Kendo = Personality(card_id=1736, title='Daigotsu Kendo', force=3, chi=2, personal_honor=0, gold_cost=5, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[Conqueror, Commander, Samurai, Shadowlands], traits=[], abilities=[], legality=[TwentyFestivalsEdition, EmperorEdition, OnyxEdition, ModernEdition])
+'After Matsuda enters play, lose 1 Honor.'
+Daigotsu_Matsuda = Personality(card_id=1744, title='Daigotsu Matsuda', force=5, chi=4, personal_honor=0, gold_cost=7, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[ObsidianClaw, Paragon, Samurai, Shadowlands, SoulOf('Daigotsu Kurai')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"Followers attaching to Misaki enter play paying 2 less Gold.<br><b>Battle:</b> Bow Misaki's performing Follower: Melee Attack with strength equal to the Follower's Force."
+Daigotsu_Misaki = Personality(card_id=1749, title='Daigotsu Misaki', force=6, chi=4, personal_honor=0, gold_cost=10, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[Conqueror, Commander, Samurai, Shadowlands], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'After Negishi enters play: Lose 1 Honor.<br><b>Battle/Open:</b> Target your Personality: Straighten him.'
+Daigotsu_Negishi = Personality(card_id=1751, title='Daigotsu Negishi', force=5, chi=2, personal_honor=0, gold_cost=7, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[Samurai, Shadowlands, SoulOf('Daigotsu Arima')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'After Kobashi enters play: Lose 1 Honor.<br><b>Battle:</b> Target an enemy attachment: Kobashi consumes it. Destroy it. You may target one of your Ninja, create a 1F <b>Shadowlands &#149; Ninja</b> Follower, and attach it to him.'
+Goju_Kobashi = Personality(card_id=2853, title='Goju Kobashi', force=4, chi=3, personal_honor=0, gold_cost=7, honor_requirement=None, clan=[SpiderClan, NinjaFaction, ShadowlandsFaction], keywords=[Consumer, Ninja, Shadowlands], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'After Oyoto enters play: Lose 3 Honor.'
+Goju_Oyoto = Personality(card_id=2855, title='Goju Oyoto', force=1, chi=3, personal_honor=0, gold_cost=4, honor_requirement=None, clan=[SpiderClan, NinjaFaction, ShadowlandsFaction], keywords=[Ninja, Shadowlands, Shugenja, SoulOf('Goju Utsuei')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"After Onchi enters play, lose 2 Honor. <br><b>Ninja Open:</b> Remove a target Personality's abilities <i>(until the turn ends)</i>."
+Ninube_Onchi = Personality(card_id=5590, title='Ninube Onchi', force=4, chi=3, personal_honor=0, gold_cost=8, honor_requirement=None, clan=[SpiderClan, NinjaFaction, ShadowlandsFaction], keywords=[Cavalry, Ninja, Shadowlands, Shugenja], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Battle:</b> Bow a target enemy card without attachments. You may discard a Kiho or Weapon from your hand to draw a card.'
+Nishimura = Personality(card_id=5595, title='Nishimura', force=4, chi=2, personal_honor=0, gold_cost=7, honor_requirement=None, clan=[SpiderClan, BrotherhoodOfShinsei], keywords=[Kensai, Monk, OrderOfTheSpider, SoulOf('The Dread Kar')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+Ohaba = Personality(card_id=5685, title='Ohaba', force=6, chi=3, personal_honor=0, gold_cost=8, honor_requirement=None, clan=[SpiderClan, BrotherhoodOfShinsei], keywords=[Kensai, Monk, OrderOfTheSpider, SoulOf('Momiji')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<i>(Kensai may attach two Weapons, as long as neither is Two-Handed.)</i> <br><b>Battle/Open:</b> Straighten a target Personality with a Weapon.'
+Sandayu = Personality(card_id=6467, title='Sandayu', force=3, chi=2, personal_honor=0, gold_cost=5, honor_requirement=None, clan=[SpiderClan, BrotherhoodOfShinsei], keywords=[Kensai, Monk, OrderOfTheSpider, SoulOf('Torao')], traits=[], abilities=[], legality=[IvoryEdition, TwentyFestivalsEdition, EmperorEdition, ModernEdition])
+'<b>Battle:</b> Target an attachment: Destroy it.<br><b>Battle:</b> Target an enemy Personality with fewer Weapons: Destroy him.'
+Tetsuo_Experienced = Personality(card_id=7943, title='Tetsuo', force=5, chi=3, personal_honor=0, gold_cost=9, honor_requirement=None, clan=[SpiderClan, BrotherhoodOfShinsei], keywords=[Kensai, Unique, Experienced('1'), Monk, OrderOfTheSpider], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])

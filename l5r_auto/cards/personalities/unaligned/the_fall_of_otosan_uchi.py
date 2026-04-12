@@ -1,35 +1,7 @@
 from __future__ import annotations
-
+from ..common import Personality
 from l5r_auto.clans import NagaFaction, Unaligned
 from l5r_auto.keywords import Constrictor, Naga, Nonhuman
-from l5r_auto.legality import (
-    DiamondEdition,
-    GoldEdition,
-    ModernEdition,
-    OnyxEdition,
-    TwentyFestivalsEdition,
-)
-
-from ..common import Personality
-
-"<b>Battle:</b> Bow a target enemy Personality with lower Force and with either no unbowed Followers or Shadowlands."
-Chaldera = Personality(
-    card_id=1289,
-    title="Chaldera",
-    force=4,
-    chi=2,
-    personal_honor=2,
-    gold_cost=7,
-    honor_requirement=2,
-    clan=[Unaligned, NagaFaction],
-    keywords=[Constrictor, Naga, Nonhuman],
-    traits=[],
-    abilities=[],
-    legality=[
-        TwentyFestivalsEdition,
-        GoldEdition,
-        OnyxEdition,
-        DiamondEdition,
-        ModernEdition,
-    ],
-)
+from l5r_auto.legality import DiamondEdition, GoldEdition, ModernEdition, OnyxEdition, TwentyFestivalsEdition
+'<b>Battle:</b> Bow a target enemy Personality with lower Force and with either no unbowed Followers or Shadowlands.'
+Chaldera = Personality(card_id=1289, title='Chaldera', force=4, chi=2, personal_honor=2, gold_cost=7, honor_requirement=2, clan=[Unaligned, NagaFaction], keywords=[Constrictor, Naga, Nonhuman], traits=[], abilities=[], legality=[TwentyFestivalsEdition, GoldEdition, OnyxEdition, DiamondEdition, ModernEdition])

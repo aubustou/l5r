@@ -1,36 +1,13 @@
 from __future__ import annotations
-
-from l5r_auto.clans import NinjaFaction, ShadowlandsFaction, SpiderClan
-from l5r_auto.keywords import Ninja, Shadowlands, Shugenja, Unmaker
-from l5r_auto.legality import (
-    CelestialEdition,
-    EmperorEdition,
-    IvoryEdition,
-    ModernEdition,
-    TwentyFestivalsEdition,
-)
-
 from ..common import Personality
-
+from l5r_auto.clans import BrotherhoodOfShinsei, NinjaFaction, ShadowlandsFaction, SpiderClan
+from l5r_auto.keywords import Commander, Conqueror, DarkDeath, DarkStalker, Experienced, Kensai, Monk, Ninja, OrderOfVenom, Paragon, Samurai, Shadowlands, Shugenja, Unique, Unmaker
+from l5r_auto.legality import CelestialEdition, EmperorEdition, IvoryEdition, ModernEdition, TwentyFestivalsEdition
+"After Gyoken enters play: Lose 2 Honor.<br><b>Battle/Open:</b> Target your Personality and a non-Unique attachment in any player's discard pile: Attach it to the Personality, paying all costs and ignoring Honor Requirements. You may take an additional action appropriate to this phase."
+Daigotsu_Gyoken_Experienced_2 = Personality(card_id=1719, title='Daigotsu Gyoken', force=7, chi=3, personal_honor=0, gold_cost=10, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[Conqueror, Experienced('2'), Unique, Commander, DarkDeath, Paragon, Samurai, Shadowlands], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+'After Murota enters play: Lose 2 Honor.<br><b>Battle:</b> Target an enemy card, which must have no attachments unless Murota has performed a Dark Virtue action this turn: Bow it.'
+Daigotsu_Murota = Personality(card_id=1750, title='Daigotsu Murota', force=4, chi=3, personal_honor=0, gold_cost=7, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[Conqueror, DarkStalker, Paragon, Samurai, Shadowlands], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
 "After you Recruit Shiho, lose 1 Honor. <br><b>Ninja Battle:</b> Put Shiho on top of your Dynasty deck <i>(face-down)</i>. Put all cards without attachments in a target enemy Personality's unit on the bottom of their appropriate deck."
-Ninube_Shiho = Personality(
-    card_id=5591,
-    title="Ninube Shiho",
-    force=3,
-    chi=3,
-    personal_honor=0,
-    gold_cost=4,
-    honor_requirement=None,
-    clan=[SpiderClan, NinjaFaction, ShadowlandsFaction],
-    keywords=[Ninja, Shadowlands, Shugenja, Unmaker],
-    traits=[],
-    abilities=[],
-    legality=[
-        IvoryEdition,
-        TwentyFestivalsEdition,
-        EmperorEdition,
-        CelestialEdition,
-        ModernEdition,
-        ModernEdition,
-    ],
-)
+Ninube_Shiho = Personality(card_id=5591, title='Ninube Shiho', force=3, chi=3, personal_honor=0, gold_cost=4, honor_requirement=None, clan=[SpiderClan, NinjaFaction, ShadowlandsFaction], keywords=[Ninja, Shadowlands, Shugenja, Unmaker], traits=[], abilities=[], legality=[IvoryEdition, TwentyFestivalsEdition, EmperorEdition, CelestialEdition, ModernEdition])
+'<b>Open:</b> Target your Holding: Yamazaki threatens the workers. Straighten it.'
+Yamazaki = Personality(card_id=9430, title='Yamazaki', force=4, chi=3, personal_honor=1, gold_cost=7, honor_requirement=None, clan=[SpiderClan, BrotherhoodOfShinsei], keywords=[Kensai, Monk, OrderOfVenom], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])

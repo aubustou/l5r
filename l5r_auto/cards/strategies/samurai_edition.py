@@ -1,0 +1,22 @@
+from __future__ import annotations
+from .common import Strategy
+from l5r_auto.keywords import Kiho, Terrain
+from l5r_auto.legality import DiamondEdition, GoldEdition, ImperialEdition, IvoryEdition, JadeEdition, LotusEdition, ModernEdition, OnyxEdition, SamuraiEdition, TwentyFestivalsEdition
+'<b>Interrupt:</b> The action will not move your target Personality <i>(at this battlefield)</i>. You may not use his abilities or target him with actions <i>(this turn)</i>.'
+A_Test_of_Courage = Strategy(card_id=87, title='A Test of Courage', focus_value=2, traits=[], abilities=[], legality=[TwentyFestivalsEdition, LotusEdition, ImperialEdition, GoldEdition, OnyxEdition, SamuraiEdition, DiamondEdition, ModernEdition])
+'<b>Kiho Limited:</b> Bow your target unbowed Monk or Shugenja. Look at the top four cards of your Fate deck. Put one in your hand. Shuffle the deck.'
+Banish_All_Shadows = Strategy(card_id=691, title='Banish All Shadows', gold_cost=0, focus_value=3, keywords=[Kiho], traits=[], abilities=[], legality=[IvoryEdition, TwentyFestivalsEdition, LotusEdition, JadeEdition, SamuraiEdition, ModernEdition])
+'<b>Battle:</b> After this battle resolves, if you won it and destroyed one or more Provinces or units during its resolution, gain 3 Honor.'
+Brilliant_Victory = Strategy(card_id=1146, title='Brilliant Victory', focus_value=2, traits=[], abilities=[], legality=[ImperialEdition, JadeEdition, SamuraiEdition, ModernEdition, OnyxEdition, TwentyFestivalsEdition])
+"<b>Battle:</b> Take an additional Ranged Attack action from your target card in a unit not at this battlefield. Each of the action's Ranged Attacks has +1 strength if the unit's Personality is Naga. Lose 2 Honor."
+Concealed_Archers = Strategy(card_id=1444, title='Concealed Archers', focus_value=3, traits=[], abilities=[], legality=[TwentyFestivalsEdition, JadeEdition, OnyxEdition, SamuraiEdition, ModernEdition])
+"Before the first time, while this card is in play, another player's action destroys one of your cards at this battlefield, other than this Terrain, negate the destruction and draw a card.<br><b>Battle:</b> Destroy a Terrain <i>(if able)</i>. Put this Terrain into play."
+Explored_Territory = Strategy(card_id=2414, title='Explored Territory', focus_value=1, keywords=[Terrain], traits=[], abilities=[], legality=[TwentyFestivalsEdition, LotusEdition, OnyxEdition, SamuraiEdition, DiamondEdition, ModernEdition])
+'As a Focus Effect, if the last Battle Strategy you played this game is in your discard pile, put it into your hand.<br><b>Battle, :g2::</b> Move a target enemy Personality at any battlefield to another unresolved battlefield.'
+False_Trail = Strategy(card_id=2459, title='False Trail', focus_value=2, traits=[], abilities=[], legality=[TwentyFestivalsEdition, LotusEdition, OnyxEdition, SamuraiEdition, DiamondEdition, ModernEdition])
+'<b>Favor Political Open:</b> Discard the Imperial Favor to bow a target Personality.<br><b>Political Open:</b> Bow your target unbowed Stronghold to bow a target Personality.'
+Imperial_Summons = Strategy(card_id=3710, title='Imperial Summons', focus_value=1, traits=[], abilities=[], legality=[IvoryEdition, TwentyFestivalsEdition, LotusEdition, JadeEdition, OnyxEdition, SamuraiEdition, ModernEdition])
+"<b>Political Open:</b> Target one of the active player's unbowed Human Personalities. That player may choose to bow the Personality and gain 1 Honor. If he does not choose this, dishonor the Personality, and the player loses Honor equal to the Personality's printed Personal Honor."
+Unrequited_Love = Strategy(card_id=9007, title='Unrequited Love', focus_value=2, traits=[], abilities=[], legality=[TwentyFestivalsEdition, LotusEdition, JadeEdition, OnyxEdition, SamuraiEdition, DiamondEdition, ModernEdition])
+'<b>Battle:</b> Target a Personality who has not been targeted by a Wounded in Battle this turn. Until the battle ends, if he is a Samurai, he is not destroyed for having 0 Chi. Give him -2C.'
+Wounded_in_Battle = Strategy(card_id=9380, title='Wounded in Battle', gold_cost=0, focus_value=2, traits=[], abilities=[], legality=[IvoryEdition, TwentyFestivalsEdition, LotusEdition, ImperialEdition, JadeEdition, SamuraiEdition, DiamondEdition, ModernEdition])
