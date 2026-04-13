@@ -18,7 +18,7 @@ from l5r_auto.errors import (
 from l5r_auto.locations import PlayArea
 
 from .deck import Deck
-from .legality import Legality
+from .legality import GameRules, Legality
 from .phases import StartOfGame, Turn, TurnSequences
 
 if TYPE_CHECKING:
@@ -62,6 +62,11 @@ class Game:
         for player in self.players:
             # Generate card entities before starting game
             player.create_entities(game=self)
+            player.apply_rules(self.rules)
+
+    @property
+    def rules(self) -> GameRules:
+        return self.legality.rules
 
     @property
     def current_turn(self) -> Turn:

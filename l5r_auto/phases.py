@@ -30,8 +30,6 @@ if TYPE_CHECKING:
     from .play import Game
     from .player import Player
 
-MAX_NUMBER_OF_TURNS = 50
-
 
 @dataclass(repr=False, kw_only=True)
 class Step:
@@ -170,7 +168,7 @@ class TurnSequences(Step):
         for turn_number, player in enumerate(
             itertools.cycle(self.game.players), start=1
         ):
-            if turn_number >= MAX_NUMBER_OF_TURNS:
+            if turn_number >= self.game.rules.max_number_of_turns:
                 logging.info("Reached maximum number of turns: %d", turn_number)
                 raise MaximumNumberOfTurnsReached()
 
@@ -445,15 +443,12 @@ class DrawPhase(Phase):
                 break
 
 
-HONOR_VICTORY_THRESHOLD = 40
-
-
 @dataclass(repr=False, kw_only=True)
 class EndPhase(Phase):
     def _start(self):
         for player in self.game.players:
             other_players = [p for p in self.game.players if p is not player]
-            if player.honor >= HONOR_VICTORY_THRESHOLD:
+            if player.honor >= self.game.rules.honor_victory_threshold:
                 logging.info(
                     "%s: Wins by honor (%d).",
                     player.name,
