@@ -17,16 +17,13 @@ from .cards.personalities.common import get_cards as get_personalities
 from .cards.strongholds.common import get_cards as get_strongholds
 from .clans import Clan, Unaligned, clans
 from .deck import Deck
-from .legality import Legality, legalities
+from .legality import GameRules, Legality, legalities
 
 if TYPE_CHECKING:
     from .cards import Card
 
 
 DECK_FOLDER = Path(__file__).parent / "decks"
-
-MAX_COPIES_PER_CARD = 3
-MIN_GOLD_PRODUCERS = 6
 
 
 def _is_unique(card: Card) -> bool:
@@ -49,7 +46,8 @@ def _get_experienced_base_title(card: Card) -> str | None:
 
 
 def fetch_cards(
-    deck: Deck, legality: Type[Legality], clan: Type[Clan], type_: str, number: int
+    deck: Deck, legality: Type[Legality], clan: Type[Clan], type_: str, number: int,
+    rules: GameRules,
 ):
     cards: Sequence[Card]
     match type_:
@@ -88,7 +86,7 @@ def fetch_cards(
     for _ in range(number):
         eligible = [
             c for c in cards
-            if copy_counts[c.card_id] < (_is_unique(c) and 1 or MAX_COPIES_PER_CARD)
+            if copy_counts[c.card_id] < (1 if _is_unique(c) else rules.max_copies_per_card)
         ]
         if not eligible:
             eligible = cards
@@ -97,10 +95,10 @@ def fetch_cards(
         copy_counts[card.card_id] += 1
 
 
-def _ensure_gold_distribution(deck: Deck, legality: Type[Legality]):
-    """Ensure the deck has at least MIN_GOLD_PRODUCERS gold-producing holdings."""
+def _ensure_gold_distribution(deck: Deck, legality: Type[Legality], rules: GameRules):
+    """Ensure the deck has at least rules.min_gold_producers gold-producing holdings."""
     gold_producers = [h for h in deck.holdings if getattr(h, "gold_production", 0)]
-    shortfall = MIN_GOLD_PRODUCERS - len(gold_producers)
+    shortfall = rules.min_gold_producers - len(gold_producers)
     if shortfall <= 0:
         return
 
@@ -147,6 +145,7 @@ def build_deck(legality: str, clan: str) -> Deck:
 
     logging.info("Building %s %s deck...", legality_.name, clan_.name)
 
+    rules = legality_.rules
     deck = Deck(clan=clan_, legality=legality_)
     logging.info("Fetching stronghold...")
 
@@ -164,24 +163,24 @@ def build_deck(legality: str, clan: str) -> Deck:
 
     logging.info("Fetching dynasty cards...")
     logging.info("Fetching personalities...")
-    fetch_cards(deck, legality_, clan_, "personalities", 12)
+    fetch_cards(deck, legality_, clan_, "personalities", rules.deck_personalities, rules)
 
     logging.info("Fetching holdings...")
-    fetch_cards(deck, legality_, clan_, "holdings", 11)
-    _ensure_gold_distribution(deck, legality_)
+    fetch_cards(deck, legality_, clan_, "holdings", rules.deck_holdings, rules)
+    _ensure_gold_distribution(deck, legality_, rules)
 
     logging.info("Fetching events...")
-    fetch_cards(deck, legality_, clan_, "events", 2)
+    fetch_cards(deck, legality_, clan_, "events", rules.deck_events, rules)
 
     logging.info("Fetching fate cards...")
     logging.info("Fetching strategies...")
-    fetch_cards(deck, legality_, clan_, "strategies", 10)
+    fetch_cards(deck, legality_, clan_, "strategies", rules.deck_strategies, rules)
 
     logging.info("Fetching followers...")
-    fetch_cards(deck, legality_, clan_, "followers", 5)
+    fetch_cards(deck, legality_, clan_, "followers", rules.deck_followers, rules)
 
     logging.info("Fetching items...")
-    fetch_cards(deck, legality_, clan_, "items", 5)
+    fetch_cards(deck, legality_, clan_, "items", rules.deck_items, rules)
 
     return deck
 

@@ -17,6 +17,7 @@ if TYPE_CHECKING:
     from .abilities import Ability
     from .cards import Entity, Sensei, Stronghold
     from .deck import Deck
+    from .legality import GameRules
     from .models import PlayerReport
     from .play import Game
 
@@ -102,6 +103,12 @@ class Player:
             removed_from_game=[x.title for x in self.removed_from_game],
             play_area=[x.title for x in self.play_area],
         )
+
+    def apply_rules(self, rules: GameRules) -> None:
+        self.hand_size = rules.starting_hand_size
+        self.number_of_provinces = rules.starting_number_of_provinces
+        self.remaining_provinces = rules.starting_number_of_provinces
+        self.successive_battle_actions = rules.successive_battle_actions
 
     def create_entities(self, game: Game):
         self.entities = [
