@@ -1,0 +1,16 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import BrotherhoodOfShinsei, NinjaFaction, ShadowlandsFaction, SpiderClan
+from l5r_auto.keywords import Commander, Conqueror, DarkConquest, DarkScionOfFire, Experienced, Imperial, ImperialExplorer, Kensai, Loyal, Monk, Ninja, OrderOfTheSpider, Paragon, RecruitmentOfficer, Samurai, Scout, Shadowlands, Shugenja, Unique
+from l5r_auto.legality import EmperorEdition, ModernEdition
+Daigotsu_Arare = Personality(card_id=10314, title='Daigotsu Arare', force=2, chi=2, personal_honor=0, gold_cost=3, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[Samurai, Shadowlands], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'After Bofana enters play: Lose 2 Honor and all other players must discard a card, or two cards if they are Crab Clan.<br><b>Battle:</b> Target a Dark Virtue in your discard pile: Take an additional action to play it for one of its Battle actions. After it resolves, remove the card from the game.'
+Daigotsu_Bofana_Experienced = Personality(card_id=10315, title='Daigotsu Bofana', force=7, chi=4, personal_honor=0, gold_cost=11, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[Loyal, Unique, DarkScionOfFire, Experienced('1'), Imperial, ImperialExplorer, Paragon, Samurai, Scout, Shadowlands], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Fear Open:</b> Bow Hashibei and target your Personality: Create a 1F Follower and attach it to him.'
+Daigotsu_Hashibei = Personality(card_id=10316, title='Daigotsu Hashibei', force=1, chi=3, personal_honor=0, gold_cost=5, honor_requirement=None, clan=[SpiderClan], keywords=[Commander, RecruitmentOfficer, Samurai], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'After Shiraume enters play: Lose 1 Honor.'
+Daigotsu_Shiraume = Personality(card_id=10317, title='Daigotsu Shiraume', force=4, chi=1, personal_honor=0, gold_cost=6, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[Conqueror, DarkConquest, Paragon, Samurai, Shadowlands], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Enters play paying 1 less Gold if you are a Dragon Clan player.<br><b>Battle:</b> Take an additional action to play a Kiho Strategy in your discard pile, which Fubuko must perform, for one of its Battle actions. After it resolves, remove the Strategy from the game.'
+Fubuko = Personality(card_id=10318, title='Fubuko', force=4, chi=4, personal_honor=1, gold_cost=8, honor_requirement=1, clan=[SpiderClan, BrotherhoodOfShinsei], keywords=[Kensai, Monk, OrderOfTheSpider], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'After Tsukau enters play, lose 3 Honor.<br><b>Ninja Open:</b> Once per game, target a non-Unique Human Personality. Tsukau permanently copies his Force, one of his keywords, and one of his printed abilities which does not itself copy abilities.'
+Ninube_Tsukau = Personality(card_id=10319, title='Ninube Tsukau', force=0, chi=3, personal_honor=0, gold_cost=7, honor_requirement=None, clan=[SpiderClan, NinjaFaction, ShadowlandsFaction], keywords=[Ninja, Shadowlands, Shugenja], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])

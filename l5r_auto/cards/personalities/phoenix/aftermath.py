@@ -1,66 +1,17 @@
 from __future__ import annotations
-
-from l5r_auto.clans import PhoenixClan
-from l5r_auto.keywords import (
-    Earth,
-    Expendable,
-    Fire,
-    Inquisitor,
-    Magistrate,
-    Reserve,
-    Shugenja,
-)
-from l5r_auto.legality import (
-    EmperorEdition,
-    IvoryEdition,
-    ModernEdition,
-    OnyxEdition,
-    TwentyFestivalsEdition,
-)
-
 from ..common import Personality
-
-"<i>(Draw a card after your Expendable card dies. Shugenja may attach and cast Spells.)</i>"
-Asako_Misora = Personality(
-    card_id=10861,
-    title="Asako Misora",
-    force=1,
-    chi=4,
-    personal_honor=3,
-    gold_cost=5,
-    honor_requirement=6,
-    clan=[PhoenixClan],
-    keywords=[Expendable, Earth, Inquisitor, Magistrate, Shugenja],
-    traits=[],
-    abilities=[],
-    legality=[
-        IvoryEdition,
-        TwentyFestivalsEdition,
-        EmperorEdition,
-        OnyxEdition,
-        ModernEdition,
-        ModernEdition,
-    ],
-)
-"<i>(You may Recruit a Reserve Personality, if they would be opposed, as an Absent Battle action.)</i><br><b>Fire Battle:</b> Ranged Attack equal to the number of Spells in this unit."
-Isawa_Ikariya = Personality(
-    card_id=10862,
-    title="Isawa Ikariya",
-    force=4,
-    chi=4,
-    personal_honor=2,
-    gold_cost=9,
-    honor_requirement=4,
-    clan=[PhoenixClan],
-    keywords=[Reserve, Fire, Shugenja],
-    traits=[],
-    abilities=[],
-    legality=[
-        IvoryEdition,
-        TwentyFestivalsEdition,
-        EmperorEdition,
-        OnyxEdition,
-        ModernEdition,
-        ModernEdition,
-    ],
-)
+from l5r_auto.clans import BrotherhoodOfShinsei, PhoenixClan
+from l5r_auto.keywords import Air, Cavalry, Conqueror, Earth, ElementalMaster, Expendable, Experienced, Fire, Henshin, Inquisitor, Loyal, Magistrate, Monk, Nonhuman, Phoenix, Reserve, Ryu, Samurai, Shugenja, Tejina, Unique, Water, Yojimbo
+from l5r_auto.legality import EmperorEdition, IvoryEdition, ModernEdition, OnyxEdition, TwentyFestivalsEdition
+'<i>(Draw a card after your Expendable card dies. Shugenja may attach and cast Spells.)</i>'
+Asako_Misora = Personality(card_id=10861, title='Asako Misora', force=1, chi=4, personal_honor=3, gold_cost=5, honor_requirement=6, clan=[PhoenixClan], keywords=[Expendable, Earth, Inquisitor, Magistrate, Shugenja], traits=[], abilities=[], legality=[IvoryEdition, TwentyFestivalsEdition, EmperorEdition, OnyxEdition, ModernEdition])
+'<i>(You may Recruit a Reserve Personality, if they would be opposed, as an Absent Battle action.)</i><br><b>Fire Battle:</b> Ranged Attack equal to the number of Spells in this unit.'
+Isawa_Ikariya = Personality(card_id=10862, title='Isawa Ikariya', force=4, chi=4, personal_honor=2, gold_cost=9, honor_requirement=4, clan=[PhoenixClan], keywords=[Reserve, Fire, Shugenja], traits=[], abilities=[], legality=[IvoryEdition, TwentyFestivalsEdition, EmperorEdition, OnyxEdition, ModernEdition])
+"<b>Air Home Engage:</b> Move your target Air Shugenja home. Create a 0F/3C/0PH <b>Air &#149; Illusion &#149; Shugenja</b> Personality at the current battlefield; remove him from the game after the battle ends. While the Illusion is there, abilities on the target's spells have <b>Home</b>."
+Isawa_Tsumaro = Personality(card_id=10863, title='Isawa Tsumaro', force=2, chi=5, personal_honor=4, gold_cost=9, honor_requirement=10, clan=[PhoenixClan], keywords=[Loyal, Unique, Air, ElementalMaster, Shugenja, Tejina], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'Will not attach Followers or Items.'
+Natsumi_Experienced = Personality(card_id=10864, title='Natsumi', force=4, chi=5, personal_honor=3, gold_cost=10, honor_requirement=5, clan=[PhoenixClan], keywords=[Cavalry, Conqueror, Unique, Experienced('1'), Nonhuman, Ryu, Shugenja, Water], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+"<b>Battle:</b> If Heirai is opposed, discard a card to give him a Force bonus equal to the card's Focus Value."
+Shiba_Heirai = Personality(card_id=10865, title='Shiba Heirai', force=3, chi=3, personal_honor=3, gold_cost=5, honor_requirement=7, clan=[PhoenixClan], keywords=[Phoenix, Samurai, Yojimbo], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'Invest :g5:: Give The Broken Man two +1F tokens. <i>(After this card enters play, you may also pay the Invest cost to get the effect, once.)</i><br><b>Earth Battle:</b> Bow a target enemy card with lower Force.'
+The_Broken_Man = Personality(card_id=10866, title='The Broken Man', force=3, chi=3, personal_honor=2, gold_cost=5, honor_requirement=0, clan=[PhoenixClan, BrotherhoodOfShinsei], keywords=[Earth, Henshin, Monk], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])

@@ -1,0 +1,16 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import MantisClan
+from l5r_auto.keywords import CaptainOfitheFourthStormi, Conqueror, Earth, Experienced, Imperial, ImperialExplorer, Loyal, Magistrate, Naval, Samurai, Scout, Shugenja, Stalwart, Thunder, Unique
+from l5r_auto.legality import EmperorEdition, ModernEdition
+'<b>Reaction:</b> After Yuribara enters play: Create a 0F/2C/3PH <b>Mantis Clan &#149; Nonhuman &#149; Butterfly &#149; Cavalry &#149; Spirit</b> Personality with the traits, "Other player\'s Battle actions must target a Butterfly Personality at this battlefield, if legal," and "After another player\'s Battle action targets this card: Destroy this card."'
+Kitsune_Yuribara = Personality(card_id=10296, title='Kitsune Yuribara', force=1, chi=4, personal_honor=4, gold_cost=7, honor_requirement=4, clan=[MantisClan], keywords=[Earth, Shugenja], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<b>Reaction:</b> After an action targets a card in this unit: Give the action's performer <i>(if any)</i> -3F after the action resolves."
+Moshi_Ira = Personality(card_id=10297, title='Moshi Ira', force=4, chi=4, personal_honor=2, gold_cost=8, honor_requirement=None, clan=[MantisClan], keywords=[Naval, Shugenja, Thunder], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Once per battle, Harumi may perform the Equip Battle action even if bowed and even if unopposed.<br><b>Battle:</b> Target an enemy Follower or Personality without Followers: Give it -5F. Gain 2 Honor. If its Force is now 0 or you control Yoritomo Hiromi, destroy it. If it is still in play, you may take an additional Battle action.'
+Yoritomo_Harumi = Personality(card_id=10298, title='Yoritomo Harumi', force=4, chi=5, personal_honor=4, gold_cost=11, honor_requirement=2, clan=[MantisClan], keywords=[Loyal, Naval, Unique, Earth, Shugenja, Thunder], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+Yoritomo_Hofu = Personality(card_id=10299, title='Yoritomo Hofu', force=4, chi=3, personal_honor=1, gold_cost=7, honor_requirement=None, clan=[MantisClan], keywords=[Conqueror, Naval, CaptainOfitheFourthStormi, Magistrate, Samurai], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Battle:</b> Target an enemy Personality: Actions he or his Followers perform must target Naoto, if legal. You may take an additional Battle action.'
+Yoritomo_Naoto_Experienced = Personality(card_id=10300, title='Yoritomo Naoto', force=6, chi=4, personal_honor=2, gold_cost=10, honor_requirement=0, clan=[MantisClan], keywords=[Naval, Stalwart, Unique, Experienced('1'), Imperial, ImperialExplorer, Samurai, Scout], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<b>Battle:</b> Ranged 3 Attack or give the current battlefield's province's -3 strength."
+Yoritomo_Tansen = Personality(card_id=10301, title='Yoritomo Tansen', force=2, chi=3, personal_honor=1, gold_cost=6, honor_requirement=None, clan=[MantisClan], keywords=[Naval, Samurai, Scout], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])

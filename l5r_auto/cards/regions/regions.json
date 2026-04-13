@@ -1,0 +1,1725 @@
+[
+    {
+        "imagehash": "4f/5a",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Race for the Throne (Samurai)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Singular</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The area around the new Shadowlands would yield no crops, and none would eat them if it did.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "202"
+                ],
+                "artnumber": [
+                    "10040587"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Aaron Acevedo"
+                ],
+                "printimagehash": [
+                    "4f/5a"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"Sometimes the earth remembers, and sometimes there are wounds that cannot be healed.\" - Isawa Emori</i>"
+                ],
+                "printingid": "2",
+                "number": [
+                    "81"
+                ],
+                "set": [
+                    "The Heaven's Will"
+                ],
+                "artist": [
+                    "Aaron Acevedo"
+                ],
+                "printimagehash": [
+                    "d5/c2"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Absent Battle, :bow::</b> If you are the Defender, move your target performing Personality to the current battlefield. If this moved him and he is now opposed, straighten him and gain 2 Honor."
+        ],
+        "formattedtitle": "Blighted Region",
+        "cardid": 1042,
+        "title": [
+            "Blighted Region"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "printingid": "1",
+                "artnumber": [
+                    "10040447"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Arkady Roytman"
+                ],
+                "use": [
+                    "Kotei Pack Card 8 - non-unique - 24000"
+                ],
+                "printimagehash": [
+                    "7a/4c"
+                ],
+                "promoquantity": [
+                    "0"
+                ],
+                "designernotes": [
+                    "Legal July 1"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Open, :bow:, :gstar::</b> Target your performing Personality to Equip a target non-Unique Follower or Item in your discard pile to him."
+        ],
+        "formattedtitle": "Border Market",
+        "cardid": 1108,
+        "imagehash": "7a/4c",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal July 1st, 2012",
+            "Released in the 2012 Kotei pack"
+        ],
+        "keywords": [
+            "Forest",
+            "Market"
+        ],
+        "title": [
+            "Border Market"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Once green and lush, the God-Beast left the lands scarred and wounded.</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "9027"
+                ],
+                "set": [
+                    "Promotional&ndash;Celestial"
+                ],
+                "artist": [
+                    "Jon Hodgson"
+                ],
+                "printimagehash": [
+                    "4a/2e"
+                ],
+                "promoquantity": [
+                    "122"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After this card enters play: Lose 4 Honor.<br><b>Limited:</b> If there are any cards in this province, discard this card: Discard a card from the province, refilling it face-up with an Undead Personality in your discard pile."
+        ],
+        "formattedtitle": "Deadlands",
+        "cardid": 1879,
+        "imagehash": "4a/2e",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal August 1st, 2011",
+            "Released in the 2011 Kotei pack"
+        ],
+        "keywords": [
+            "Shadowlands"
+        ],
+        "title": [
+            "Deadlands"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "mrp": [
+            "Both actions are now performed"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Rebuilding, one stone at a time.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "203"
+                ],
+                "artnumber": [
+                    "10040210"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Malcolm McClinton"
+                ],
+                "printimagehash": [
+                    "7a/21"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "printingid": "2",
+                "number": [
+                    "59"
+                ],
+                "set": [
+                    "Lotus Edition"
+                ],
+                "artist": [
+                    "Malcolm McClinton"
+                ],
+                "printimagehash": [
+                    "a6/f9"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>The Crab want for jade, but never steel.</i>"
+                ],
+                "printingid": "3",
+                "number": [
+                    "77"
+                ],
+                "set": [
+                    "Winds of Change"
+                ],
+                "artist": [
+                    "Malcolm McClinton"
+                ],
+                "printimagehash": [
+                    "6b/32"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Reaction, :g2::</b> After your performing Personality enters play from a Province, create a +1F/+1C <b>Weapon</b> Item and attach it to him.<br><b>Reaction, :g2::</b> After your performing Personality enters play from a province, create a +1F <b>Armor</b> Item and attach it to him."
+        ],
+        "formattedtitle": "Kaiu Village",
+        "cardid": 4148,
+        "imagehash": "7a/21",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Age of Enlightenment (Lotus)",
+            "Four Winds (Gold)",
+            "Rain of Blood (Diamond)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "Kaiu Village"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Even in the new kingdom, there are places that the samurai choose not to acknowledge.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "77"
+                ],
+                "artnumber": [
+                    "10050078"
+                ],
+                "set": [
+                    "Embers of War"
+                ],
+                "artist": [
+                    "Alex Drummond"
+                ],
+                "use": [
+                    "The safe zone"
+                ],
+                "printimagehash": [
+                    "fa/86"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "[Note: This is a Market inside the \"Safe Zone\" in the colonies.]"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Open:</b> Bow this card, choose your performing Personality and target an attachment in your hand: Attach it to him, paying 2 less Gold, to a minimum of 1."
+        ],
+        "formattedtitle": "Low Market",
+        "cardid": 4777,
+        "imagehash": "fa/86",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Erratum effective October 11th."
+        ],
+        "keywords": [
+            "Market"
+        ],
+        "title": [
+            "Low Market"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "imagehash": "fc/34",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "Forest"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>As the Empire grew, new areas became the subject of conflict between the Great Clans. Although it took great effort to accurately survey new lands, those who did enjoyed great benefits during times of conflict.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "76"
+                ],
+                "artnumber": [
+                    "10030076"
+                ],
+                "set": [
+                    "Second City"
+                ],
+                "artist": [
+                    "Alex Tooth"
+                ],
+                "printimagehash": [
+                    "fc/34"
+                ],
+                "rarity": [
+                    "Common"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Battle:</b> Discard the top 3 cards of your Fate deck and target an attacking Personality: Move him home."
+        ],
+        "formattedtitle": "Overgrown Grove",
+        "cardid": 5841,
+        "title": [
+            "Overgrown Grove"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "mrp": [
+            "If this card is destroyed, the extra Dynasty card no longer automatically goes away (though the next time the province refills, it only holds one card like normal).",
+            "This card no longer reveals one of its two Dynasty cards the turn it comes into play"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Once the seat of power for an Empire, it became overgrown and neglected over the course of years.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "204"
+                ],
+                "artnumber": [
+                    "10040212"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Pia Guerra"
+                ],
+                "printimagehash": [
+                    "f0/71"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Forbidden Knowledge"
+                ],
+                "artist": [
+                    "Christina Wald"
+                ],
+                "printimagehash": [
+                    "6b/d6"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "printingid": "3",
+                "number": [
+                    "214"
+                ],
+                "set": [
+                    "Diamond Edition"
+                ],
+                "artist": [
+                    "Pia Guerra"
+                ],
+                "printimagehash": [
+                    "a3/d4"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"Throne of our ancestors; crossroads of the future. My heart lightens when I see your walls across the fields.\" - Toturi Tsudao</i>"
+                ],
+                "printingid": "4",
+                "number": [
+                    "325"
+                ],
+                "set": [
+                    "Gold Edition"
+                ],
+                "artist": [
+                    "Pia Guerra"
+                ],
+                "printimagehash": [
+                    "f7/ad"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"Amazing that such beauty can be found so close to the fallen city.\" - Ikoma Otemi</i>"
+                ],
+                "printingid": "5",
+                "number": [
+                    "62"
+                ],
+                "set": [
+                    "Lotus Edition"
+                ],
+                "artist": [
+                    "Pia Guerra"
+                ],
+                "printimagehash": [
+                    "14/8d"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "printingid": "6",
+                "number": [
+                    "Shadowlands 15"
+                ],
+                "set": [
+                    "Training Grounds"
+                ],
+                "artist": [
+                    "Pia Guerra"
+                ],
+                "printimagehash": [
+                    "17/6a"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "This province holds two Dynasty cards; do not reveal the second card in the Events Phase this card enters play. You decide each time which card slot is revealed, resolved, or refilled first. <br>Before this province is destroyed: Lose 10 Honor."
+        ],
+        "formattedtitle": "Plains of Otosan Uchi",
+        "cardid": 5979,
+        "imagehash": "f0/71",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Age of Enlightenment (Lotus)",
+            "Clan Wars (Imperial)",
+            "Four Winds (Gold)",
+            "Rain of Blood (Diamond)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Imperial"
+        ],
+        "title": [
+            "Plains of Otosan Uchi"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "imagehash": "ca/82",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "Swamp"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Swamps are home to many threats: disease, bogs, and predators&#8230;</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "77"
+                ],
+                "artnumber": [
+                    "10030078"
+                ],
+                "set": [
+                    "Second City"
+                ],
+                "artist": [
+                    "Thomas Denmark"
+                ],
+                "printimagehash": [
+                    "ca/82"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Reaction:</b> After the resolution of an action that bowed a Personality at a battlefield at this province or an adjacent province, target him and bow this card: Negate his next straightening <i>(this turn)</i>."
+        ],
+        "formattedtitle": "Quagmire",
+        "cardid": 6123,
+        "title": [
+            "Quagmire"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "imagehash": "25/4a",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Age of Enlightenment (Lotus)",
+            "Hidden Emperor (Jade)",
+            "Rain of Blood (Diamond)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Singular</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The sisters abide there still. Are they the original sisters, or newcomers? Does it matter?\" - Togashi Osawa</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "205"
+                ],
+                "artnumber": [
+                    "10040213"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Lisa Hunt"
+                ],
+                "printimagehash": [
+                    "25/4a"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Hidden Emperor 4"
+                ],
+                "artist": [
+                    "Eric David Anderson"
+                ],
+                "printimagehash": [
+                    "d4/e4"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "printingid": "3",
+                "number": [
+                    "216"
+                ],
+                "set": [
+                    "Diamond Edition"
+                ],
+                "artist": [
+                    "Lisa Hunt"
+                ],
+                "printimagehash": [
+                    "87/b5"
+                ],
+                "rarity": [
+                    "Common"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"The Dark Prophet conspires to destroy the wisdom Rokugan has earned.\"</i>"
+                ],
+                "printingid": "4",
+                "number": [
+                    "64"
+                ],
+                "set": [
+                    "Lotus Edition"
+                ],
+                "artist": [
+                    "Lisa Hunt"
+                ],
+                "printimagehash": [
+                    "79/34"
+                ],
+                "rarity": [
+                    "Common"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Destroy this card and remove your performing unbowed Personality from the game: Search your Fate deck for a card with a lower Focus Value than your Personality's Chi. Show it and put it in your hand."
+        ],
+        "formattedtitle": "Refuge of the Three Sisters",
+        "cardid": 6226,
+        "title": [
+            "Refuge of the Three Sisters"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "imagehash": "4c/4d",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"I am sorry to interrupt you, but your services are required.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "78"
+                ],
+                "artnumber": [
+                    "10030077"
+                ],
+                "set": [
+                    "Second City"
+                ],
+                "artist": [
+                    "Stu Barnes"
+                ],
+                "printimagehash": [
+                    "4c/4d"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> If it is not your first or second turn: Bring a face-up Personality in this province into play, paying all costs. You may ignore the Personality's Honor Requirement if he is Lion Clan."
+        ],
+        "formattedtitle": "Shinden Shorai",
+        "cardid": 6857,
+        "title": [
+            "Shinden Shorai"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "imagehash": "75/cc",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "Mountain",
+            "Temple"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Chosai left little unharmed.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "77"
+                ],
+                "artnumber": [
+                    "10010077"
+                ],
+                "set": [
+                    "Before the Dawn"
+                ],
+                "artist": [
+                    "Jon Hodgson"
+                ],
+                "printimagehash": [
+                    "75/cc"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Defending Earth Personalities have +1F while at this province's battlefield. <br><b>Battle:</b> Even if you control no units at the current battlefield, bow your performing Earth Personality at any location: Give the current battlefield's province +3 strength."
+        ],
+        "formattedtitle": "Stone-Hewed Shrine",
+        "cardid": 7502,
+        "title": [
+            "Stone-Hewed Shrine"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "imagehash": "da/eb",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Singular</b>",
+            "Temple"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Rokugan must stand together to survive. How often must we learn this simple lesson?\" - Asako Bare</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "78"
+                ],
+                "artnumber": [
+                    "10010078"
+                ],
+                "set": [
+                    "Before the Dawn"
+                ],
+                "artist": [
+                    "Gong Studios"
+                ],
+                "printimagehash": [
+                    "da/eb"
+                ],
+                "rarity": [
+                    "Common"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Open:</b> If it is not your turn, choose your two unbowed performing Personalities with Clan alignments that do not share a Clan alignment, and bow one of them: Gain 1 Honor. Give your provinces +2 strength."
+        ],
+        "formattedtitle": "Temple of the Seven Fortunes",
+        "cardid": 7890,
+        "title": [
+            "Temple of the Seven Fortunes"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "imagehash": "19/53",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Age of Enlightenment (Lotus)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Singular</b>",
+            "Temple"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Some called it the Temple of the Builders, as there was always a shrine under construction.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "206"
+                ],
+                "artnumber": [
+                    "10040557"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Stephanie Pui-Mun Law"
+                ],
+                "printimagehash": [
+                    "19/53"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "printingid": "2",
+                "number": [
+                    "70"
+                ],
+                "set": [
+                    "Path of Hope"
+                ],
+                "artist": [
+                    "Stephanie Pui-Mun Law"
+                ],
+                "printimagehash": [
+                    "d5/f9"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "printingid": "3",
+                "number": [
+                    "Crane 02"
+                ],
+                "set": [
+                    "Training Grounds 2"
+                ],
+                "artist": [
+                    "Stephanie Pui-Mun Law"
+                ],
+                "printimagehash": [
+                    "0e/c6"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Before you lose Honor, destroy this Region to negate the Honor loss.<br><b>Limited, :bow::</b> If your Family Honor is 9 or lower, gain 1 Honor."
+        ],
+        "formattedtitle": "Ten Thousand Temples",
+        "cardid": 7908,
+        "title": [
+            "Ten Thousand Temples"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "imagehash": "f9/28",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Singular</b>",
+            "Forest"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The light places had fallen to darkness. <br>The dark places had become something much worse.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "78"
+                ],
+                "artnumber": [
+                    "10050077"
+                ],
+                "set": [
+                    "Embers of War"
+                ],
+                "artist": [
+                    "Alex Drummond"
+                ],
+                "use": [
+                    "The dangerous zone"
+                ],
+                "printimagehash": [
+                    "f9/28"
+                ],
+                "designer": [
+                    "Duncan"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Open, :bow::</b> Bow one or two target attachments."
+        ],
+        "formattedtitle": "The Distant Reaches",
+        "cardid": 8030,
+        "title": [
+            "The Distant Reaches"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Most of the coast is in ruins. We will not disturb it, other than to harvest what resources remain within. The gods frown upon the wasteful.\" - Yoritomo Naizen</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "10010171"
+                ],
+                "set": [
+                    "Promotional&ndash;Celestial"
+                ],
+                "artist": [
+                    "Jon Hodgson"
+                ],
+                "printimagehash": [
+                    "4d/af"
+                ],
+                "promoquantity": [
+                    "0"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Battle:</b> Choose your performing Personality and bow this card: Move him home. Straighten his unit if he moved."
+        ],
+        "formattedtitle": "The Ivory Coast",
+        "cardid": 8161,
+        "imagehash": "4d/af",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal December 1st, 2011",
+            "Released in the 2011 Summer Con pack"
+        ],
+        "keywords": [
+            "<b>Singular</b>"
+        ],
+        "title": [
+            "The Ivory Coast"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "imagehash": "0c/2b",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>A shining jewel amid the wilderness.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "48"
+                ],
+                "artnumber": [
+                    "10020048"
+                ],
+                "set": [
+                    "Forgotten Legacy"
+                ],
+                "artist": [
+                    "Gong Studios"
+                ],
+                "printimagehash": [
+                    "0c/2b"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Each of your cards that is Courtier or Magistrate has +1F.<br><b>Political Open, :bow::</b> Target a face-down card in a Province. <i>You claim a new tract of land.</i> Turn the face-down card face-up. You may increase the Province's strength by 2."
+        ],
+        "formattedtitle": "The Second City",
+        "cardid": 8303,
+        "title": [
+            "The Second City"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "printingid": "1",
+                "artnumber": [
+                    "10050167"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Gong Studios"
+                ],
+                "use": [
+                    "Sept Herald Card 2 15000"
+                ],
+                "printimagehash": [
+                    "9c/82"
+                ],
+                "designer": [
+                    "Duncan"
+                ],
+                "promoquantity": [
+                    "0"
+                ],
+                "designernotes": [
+                    "Legal TBA"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Nonhuman Personalities enter play from this Province for 1 less Gold.<br><b>Reaction, :bow::</b> Before an action resolves, negate its effects that move any Personalities into an attacking army at this Province's battlefield."
+        ],
+        "formattedtitle": "Verdant Jungle",
+        "cardid": 9142,
+        "imagehash": "9c/82",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal November 5th, 2012",
+            "Released to the 2012 Level 1 GST participants"
+        ],
+        "keywords": [
+            "Forest"
+        ],
+        "title": [
+            "Verdant Jungle"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "imagehash": "71/f0",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal July 1st, 2011",
+            "Released to the Before the Dawn pre-release participants"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>There were those that thought that Rokugan would never be the same after this war. Where the dead fell, the Lion hard to burn, leaving nothing but destruction behind.</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "9034"
+                ],
+                "set": [
+                    "Promotional&ndash;Celestial"
+                ],
+                "artist": [
+                    "Jon Hodgson"
+                ],
+                "printimagehash": [
+                    "71/f0"
+                ],
+                "promoquantity": [
+                    "7,500"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Discard this Region to destroy a target Region."
+        ],
+        "formattedtitle": "War-ravaged Plain",
+        "cardid": 9224,
+        "title": [
+            "War-ravaged Plain"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "imagehash": "39/e5",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The kami here are strong. I do not know what caused the devastation, but I believe the land can be renewed.\" - Agasha Kurou</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "77"
+                ],
+                "artnumber": [
+                    "10060078"
+                ],
+                "set": [
+                    "The Shadow's Embrace"
+                ],
+                "artist": [
+                    "Aaron Miller"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "39/e5"
+                ],
+                "text": [
+                    "This province has +2 strength.<br>Reaction: After a Melee or Ranged Attack is targeted: Give it -2 strength."
+                ],
+                "designer": [
+                    "Thomas"
+                ],
+                "designernotes": [
+                    "The long, treacherous overland route to the Ivory Kingdoms"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "This province has +2 strength.<br><b>Reaction:</b> After a Melee or Ranged Attack is targeted: Give it -2 strength."
+        ],
+        "formattedtitle": "Fallow Lands",
+        "cardid": 9865,
+        "title": [
+            "Fallow Lands"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "imagehash": "70/e8",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "Forest"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Magnificent, are they not? I would not see their home despoiled by conflict.\" - Kitsune Kichi</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "78"
+                ],
+                "artnumber": [
+                    "10060077"
+                ],
+                "set": [
+                    "The Shadow's Embrace"
+                ],
+                "artist": [
+                    "Gong Studios"
+                ],
+                "use": [
+                    "Designers Choice"
+                ],
+                "printimagehash": [
+                    "70/e8"
+                ],
+                "text": [
+                    "Limited: Pay 2 Gold and target your Personality: Create a 1F Nonhuman &#149; Falcon &#149; Cavalry Follower and attach it to him."
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "[Art Note: A section of jungle in the Ivory Kingdoms which is being used as a Falconry.]"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited, :g2::</b> Create a 1F <b>Nonhuman &#149; Falcon &#149; Cavalry</b> Follower and attach it to your target Personality."
+        ],
+        "formattedtitle": "Natural Aviary",
+        "cardid": 9866,
+        "title": [
+            "Natural Aviary"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"It is called such because, allegedly, there is always something&#8230; interesting&#8230; happening there. The definition of interesting varies, of course.\" - Miya Kitori</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "10070171"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "use": [
+                    "[Q4 OP Kit Participation]"
+                ],
+                "printimagehash": [
+                    "61/14"
+                ],
+                "text": [
+                    "Reaction: After a Personality enters play from this province: Refill the province face-up."
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "promoquantity": [
+                    "0"
+                ],
+                "designernotes": [
+                    "[Art Note: A place where it is easy for Personalities to prep for war, allowing the province to be more productive.]"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Reaction:</b> After a Personality enters play from this Province, refill the Province face-up."
+        ],
+        "formattedtitle": "Interesting Plains",
+        "cardid": 9961,
+        "imagehash": "61/14",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal January 1st, 2013",
+            "Released to the 2012 Quarter 4 Organized Play participants"
+        ],
+        "keywords": [
+            "<b>Singular</b>"
+        ],
+        "title": [
+            "Interesting Plains"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "imagehash": "61/70",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal December 1st, 2012",
+            "Released in the 2012 Summer Con pack"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The domestication of the Colonies proceeded slowly for many years, and for good reason. The rapid expansion authorized by the new governor came with a number of deadly perils that claimed many lives.</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "10060174"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Alex Drummond"
+                ],
+                "use": [
+                    "[Summer Con Pack Card 14] 8100"
+                ],
+                "printimagehash": [
+                    "61/70"
+                ],
+                "text": [
+                    "Battle: Destroy this card and target a Follower or Personality without Followers at this province's battlefield: Destroy it."
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "promoquantity": [
+                    "0"
+                ],
+                "designernotes": [
+                    "Legal December 1, 2012"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Battle:</b> Destroy this card and target a Follower or Personality without Followers at this province's battlefield: Destroy it."
+        ],
+        "formattedtitle": "Quicksand",
+        "cardid": 9962,
+        "title": [
+            "Quicksand"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "imagehash": "51/d9",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"These lands were not like this the last time I came through. It is as if they have been cursed by all Seven Fortunes, and not even mold will grow now.\" - From the last, unsubmitted report of a missing Tsuruchi scout</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "78"
+                ],
+                "artnumber": [
+                    "10070078"
+                ],
+                "set": [
+                    "Seeds of Decay"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "51/d9"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "[Art Note: This Region represents the bad land your opponent has been forced to build his fortifications on, making them weaker. The land is weak enough to even affect adjacent lands, though admittedly for a lesser effect]"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After this Region enters play, attach it to another player's Province <i>(that can attach a Region; that player now controls it.)</i><br>After a Holding is revealed in this Province, discard it and this Region."
+        ],
+        "formattedtitle": "Tested Land",
+        "cardid": 10104,
+        "title": [
+            "Tested Land"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"These bandits have preyed upon too many caravans already. Spread word of a new caravan, one loaded with riches bound for the Empire. When they throw open the carts, the bandits will find only justice awaiting them within.\" - Shinjo Tselu</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "169"
+                ],
+                "artnumber": [
+                    "10070170"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Noah Bradley"
+                ],
+                "printimagehash": [
+                    "9d/87"
+                ],
+                "designernotes": [
+                    "Art Note: A secret pass that only Bandits know about which allows them to quickly and safely retreat if necessary."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Ronin have +1F."
+        ],
+        "formattedtitle": "Ambush Pass",
+        "cardid": 10195,
+        "imagehash": "9d/87",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal July 1st, 2013",
+            "Released in the special Imperial Assembly pack in May 2013"
+        ],
+        "keywords": [
+            "<b>Singular</b>"
+        ],
+        "title": [
+            "Ambush Pass"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "imagehash": "d2/dc",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal July 1st, 2013",
+            "Released in the 2013 Kotei pack"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"I do not understand. A year ago this land was dead.\" - Matsu Koyama</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "10110163"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Gong Studios"
+                ],
+                "use": [
+                    "[Kotei pack card 3]"
+                ],
+                "printimagehash": [
+                    "d2/dc"
+                ],
+                "designernotes": [
+                    "[Note: These are the Lion Lands that the Spider nuked and are now more fertile.]"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After a Farm Holding enters play from this province: Give it a +1 Gold <b>Production </b>token and refill this province face-up."
+        ],
+        "formattedtitle": "Renewed Lands",
+        "cardid": 10234,
+        "title": [
+            "Renewed Lands"
+        ],
+        "type": [
+            "Region"
+        ]
+    },
+    {
+        "playtestname": [
+            "Land Outside Second City"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The lands approaching the Second City have been fortified by the local lord, Mirumoto Kokure. It seems he too has embraced the corrupting influences of this foreign land.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "75"
+                ],
+                "artnumber": [
+                    "10110078"
+                ],
+                "set": [
+                    "Torn Asunder"
+                ],
+                "artist": [
+                    "Mark Poole"
+                ],
+                "use": [
+                    "Defensive Region outside the walls of the Second City, all prepped and ready for the oncoming legions"
+                ],
+                "printimagehash": [
+                    "6a/37"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "[Note: This is the region outside of the Second City walls, fortified up and ready to fight off the incoming army. Because it is being used for defenses, it no longer is producing resources, but it is giving you extra cards]"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "This Province does not hold Dynasty cards.<br><b>Limited, :bow::</b> Draw a card."
+        ],
+        "formattedtitle": "Kokure's Lands",
+        "cardid": 10331,
+        "imagehash": "6a/37",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "Kokure's Lands"
+        ],
+        "type": [
+            "Region"
+        ]
+    }
+]

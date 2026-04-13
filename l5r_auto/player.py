@@ -35,7 +35,7 @@ NAMES = [
 ]
 NAMES_BACKUP = NAMES.copy()
 MINIMUM_HONOR = -20
-STARTING_HAND_SIZE = 0
+STARTING_HAND_SIZE = 5
 STARTING_NUMBER_OF_PROVINCES = 4
 SUCCESSIVE_BATTLE_ACTIONS = 1
 
@@ -70,6 +70,7 @@ class Player:
 
     honor: int = MINIMUM_HONOR
     number_of_provinces: int = STARTING_NUMBER_OF_PROVINCES
+    remaining_provinces: int = STARTING_NUMBER_OF_PROVINCES
     hand_size: int = STARTING_HAND_SIZE
     successive_battle_actions: int = SUCCESSIVE_BATTLE_ACTIONS
 

@@ -1,34 +1,31 @@
 from __future__ import annotations
-
-from l5r_auto.clans import CraneClan
-from l5r_auto.keywords import Commander, IronCrane, Samurai, Scout, SoulOf
-from l5r_auto.legality import (
-    EmperorEdition,
-    IvoryEdition,
-    ModernEdition,
-    TwentyFestivalsEdition,
-)
-
 from ..common import Personality
-
-"<b>Battle:</b> Give a target enemy Follower or Personality -4F. You may target your Personality and move him home."
-Daidoji_Tametaka = Personality(
-    card_id=1682,
-    title="Daidoji Tametaka",
-    force=4,
-    chi=3,
-    personal_honor=2,
-    gold_cost=8,
-    honor_requirement=4,
-    clan=[CraneClan],
-    keywords=[Commander, IronCrane, Samurai, Scout, SoulOf("Daidoji Zoushi")],
-    traits=[],
-    abilities=[],
-    legality=[
-        IvoryEdition,
-        TwentyFestivalsEdition,
-        EmperorEdition,
-        ModernEdition,
-        ModernEdition,
-    ],
-)
+from l5r_auto.clans import CraneClan
+from l5r_auto.keywords import Air, Artisan, Cavalry, ClanChampion, Commander, Courtier, Duelist, IronCrane, Loyal, Magistrate, MasterOfCeremonies, Samurai, Scout, Shugenja, SoulOf, Unique
+from l5r_auto.legality import EmperorEdition, IvoryEdition, ModernEdition, TwentyFestivalsEdition
+'<b>Reaction:</b> When paying a Gold cost, bow Keigo and discard a card: Produce Gold equal to its Focus Value.'
+Asahina_Keigo = Personality(card_id=497, title='Asahina Keigo', force=1, chi=3, personal_honor=2, gold_cost=8, honor_requirement=3, clan=[CraneClan], keywords=[Air, Shugenja, SoulOf('Asahina Yoshino')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Political Open:</b> Target a Personality: Kitiaru copies one of his Political abilities that does not itself copy abilities.'
+Asahina_Kitiaru = Personality(card_id=501, title='Asahina Kitiaru', force=0, chi=4, personal_honor=4, gold_cost=6, honor_requirement=10, clan=[CraneClan], keywords=[Unique, Courtier, Samurai, SoulOf('Konetsu')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<b>Open:</b> Target your Personality: Michiru creates a barrier of air. Before the next time <i>(this turn)</i> another player's action destroys the Personality, negate that destruction and move him home."
+Asahina_Michiru = Personality(card_id=503, title='Asahina Michiru', force=2, chi=4, personal_honor=3, gold_cost=7, honor_requirement=6, clan=[CraneClan], keywords=[Air, Shugenja], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+Asahina_Yasutora = Personality(card_id=521, title='Asahina Yasutora', force=0, chi=3, personal_honor=3, gold_cost=4, honor_requirement=0, clan=[CraneClan], keywords=[Air, Shugenja], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+Daidoji_Kenshi = Personality(card_id=1645, title='Daidoji Kenshi', force=3, chi=3, personal_honor=2, gold_cost=5, honor_requirement=4, clan=[CraneClan], keywords=[IronCrane, Samurai, Scout], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Battle:</b> Give a target enemy Follower or Personality -4F. You may target your Personality and move him home.'
+Daidoji_Tametaka = Personality(card_id=1682, title='Daidoji Tametaka', force=4, chi=3, personal_honor=2, gold_cost=8, honor_requirement=4, clan=[CraneClan], keywords=[Commander, IronCrane, Samurai, Scout, SoulOf('Daidoji Zoushi')], traits=[], abilities=[], legality=[IvoryEdition, TwentyFestivalsEdition, EmperorEdition, ModernEdition])
+'<b>Battle:</b> Target a Personality with lower Personal Honor: Bow or straighten him.'
+Doji_Atsumichi = Personality(card_id=2060, title='Doji Atsumichi', force=3, chi=4, personal_honor=4, gold_cost=8, honor_requirement=4, clan=[CraneClan], keywords=[Cavalry, Samurai, SoulOf('Doji Tadanori')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+Doji_Genshin = Personality(card_id=2078, title='Doji Genshin', force=3, chi=5, personal_honor=4, gold_cost=7, honor_requirement=6, clan=[CraneClan], keywords=[Duelist, Magistrate, Samurai], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Political Open:</b> <i>Makoto uses his mastery of politics.</i> Take the Imperial Favor.<br><b>Iaijutsu Battle:</b> Makoto challenges a target enemy Personality. Destroy the loser.'
+Doji_Makoto = Personality(card_id=2118, title='Doji Makoto', force=5, chi=6, personal_honor=5, gold_cost=10, honor_requirement=10, clan=[CraneClan], keywords=[Duelist, Loyal, Unique, ClanChampion, Courtier, Samurai], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Favor Political Limited:</b> Discard the Imperial Favor to gain 2 Honor.'
+Doji_Shunya = Personality(card_id=2158, title='Doji Shunya', force=1, chi=3, personal_honor=3, gold_cost=7, honor_requirement=5, clan=[CraneClan], keywords=[Courtier, SoulOf('Doji Yoshiaga')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+Doji_Tatsuki = Personality(card_id=2166, title='Doji Tatsuki', force=2, chi=4, personal_honor=4, gold_cost=6, honor_requirement=10, clan=[CraneClan], keywords=[Courtier, Samurai, SoulOf('Doji Ayano')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<b>Iaijutsu Limited:</b> Target another player's Personality. His controller may dishonor him. If he did not choose to dishonor him, gain 1 Honor and choose one of the Personality's abilities; it may not be used until your next turn begins."
+Kakita_Genshi = Personality(card_id=4166, title='Kakita Genshi', force=3, chi=3, personal_honor=3, gold_cost=7, honor_requirement=6, clan=[CraneClan], keywords=[Duelist, Artisan, MasterOfCeremonies, Samurai, SoulOf('Kakita Yosuga')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Battle:</b> Target an enemy dishonorable Personality: Bow him. His controller loses 2 Honor. Gain 2 Honor.'
+Kakita_Kazan = Personality(card_id=4185, title='Kakita Kazan', force=4, chi=4, personal_honor=4, gold_cost=9, honor_requirement=5, clan=[CraneClan], keywords=[Duelist, Commander, Magistrate, Samurai, SoulOf('Kakita Idzuki')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Open:</b> Bow Seishi and target a dishonorable Personality: Rehonor him.'
+Kakita_Seishi = Personality(card_id=4220, title='Kakita Seishi', force=0, chi=2, personal_honor=2, gold_cost=2, honor_requirement=2, clan=[CraneClan], keywords=[Artisan, SoulOf('Kakita Ariteko')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Favor Political Reaction:</b> After the resolution of an action that created a duel that Tadanobu won, discard the Imperial Favor to draw two cards.'
+Kakita_Tadanobu = Personality(card_id=4224, title='Kakita Tadanobu', force=2, chi=4, personal_honor=3, gold_cost=8, honor_requirement=9, clan=[CraneClan], keywords=[Duelist, Unique, Samurai, SoulOf('Kakita Soichi')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])

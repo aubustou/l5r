@@ -1,0 +1,19 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import BrotherhoodOfShinsei, PhoenixClan
+from l5r_auto.keywords import Cavalry, DragonflyClan, Duelist, ElementalMaster, EmeraldChampionsAdvisor, Experienced, Fallen, Fire, Henshin, Inquisitor, Loyal, Magistrate, Monk, Samurai, Shugenja, TheEyeOfTomorrow, TheWise, Unique, Void, Water, Yojimbo
+from l5r_auto.legality import EmperorEdition, IvoryEdition, ModernEdition
+'After Chukage enters play, lose 3 Honor.<br><b>Water Battle:</b> Straighten or bow a target card without attachments in a unit. If you control a Ring, you may remove both it and the target from the game.'
+Asako_Chukage_Experienced_2 = Personality(card_id=10472, title='Asako Chukage', force=5, chi=4, personal_honor=0, gold_cost=10, honor_requirement=None, clan=[PhoenixClan, BrotherhoodOfShinsei], keywords=[Cavalry, Experienced('2'), Unique, ElementalMaster, Fallen, Henshin, Monk, Shugenja, Water], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'Personalities with Fallen, Kolat, Ninja, Nonhuman, or Shadowlands opposing Kaitoko have a maximum Force of 3, and actions from cards in their units may not target Kaitoko.'
+Asako_Kaitoko_Experienced = Personality(card_id=10473, title='Asako Kaitoko', force=4, chi=4, personal_honor=4, gold_cost=8, honor_requirement=0, clan=[PhoenixClan], keywords=[Unique, EmeraldChampionsAdvisor, Experienced('1'), Inquisitor, Magistrate, Shugenja, Void], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'Hamuro enters play ignoring Gold Cost if you control the Ring of the Void.<br><b>Void Limited:</b> Draw three cards. Remove Hamuro from the game.'
+Hamuro_the_Wise = Personality(card_id=10474, title='Hamuro, the Wise', force=0, chi=5, personal_honor=1, gold_cost=10, honor_requirement=0, clan=[PhoenixClan, BrotherhoodOfShinsei], keywords=[Cavalry, Unique, Monk, TheWise, Void], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'After Ryuzo enters play, lose 2 Honor.<br><b>Fire Open:</b> Target two Personalities, each with more Madness tokens than printed Personal Honor. They will not attack or defend in the same army.'
+Isawa_Ryuzo = Personality(card_id=10476, title='Isawa Ryuzo', force=3, chi=3, personal_honor=0, gold_cost=5, honor_requirement=None, clan=[PhoenixClan], keywords=[Fallen, Fire, Shugenja], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+"<b>Fire Limited, :bow::</b> Tsuke challenges a target Personality. Both players must focus at least once in the duel. Destroy the duel's loser."
+Isawa_Tsuke_ExperiencedCoM = Personality(card_id=10475, title='Isawa Tsuke', force=4, chi=2, personal_honor=1, gold_cost=12, honor_requirement=None, clan=[PhoenixClan], keywords=[Duelist, Loyal, Unique, ElementalMaster, Experienced('1'), Fire, Shugenja], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'<b>Open:</b> Bow your target unbowed Shugenja or Ikoma Aimi to give Iaimiko +1F, <b>Cavalry</b>, or <b>Conqueror</b>. You may use this action three times per turn.'
+Shiba_Iaimiko_Experienced = Personality(card_id=10477, title='Shiba Iaimiko', force=5, chi=4, personal_honor=2, gold_cost=8, honor_requirement=4, clan=[PhoenixClan], keywords=[Duelist, Unique, Experienced('1'), Samurai, Yojimbo], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'<b>Void Limited:</b> Look at the top card of a deck. You may put it on the bottom.'
+Tonbo_Inuyama_the_Eye_of_Tomorrow = Personality(card_id=10478, title='Tonbo Inuyama, the Eye of Tomorrow', force=0, chi=3, personal_honor=2, gold_cost=4, honor_requirement=1, clan=[PhoenixClan], keywords=[Unique, DragonflyClan, Shugenja, TheEyeOfTomorrow, Void], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])

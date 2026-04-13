@@ -1,0 +1,19 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import CrabClan, ShadowlandsFaction
+from l5r_auto.keywords import Berserker, BlessedOfTheFortuneOfPersistence, Cavalry, Chui, Commander, Courtier, Daimyo, Damned, Enigma, Experienced, Hero, JadeHand, Kolat, Loyal, Merchant, Mujina, Nonhuman, Samurai, Scout, Shadowlands, Siege, Tactician, Unique
+from l5r_auto.legality import CelestialEdition, EmperorEdition, ModernEdition
+"<b>Reaction:</b> Before the resolution of another player's action, if Fujita is at the current battlefield: Negate the destruction of your Followers from its effects."
+Hida_Fujita = Personality(card_id=3093, title='Hida Fujita', force=5, chi=3, personal_honor=1, gold_cost=8, honor_requirement=None, clan=[CrabClan], keywords=[BlessedOfTheFortuneOfPersistence, Commander, Samurai], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+'<b>Reaction:</b> After Yamadera enters play from a province: Refill it face-up.<br><b>Battle:</b> Target an enemy card with lower Force: Bow it.'
+Hida_Yamadera = Personality(card_id=3242, title='Hida Yamadera', force=8, chi=3, personal_honor=0, gold_cost=11, honor_requirement=None, clan=[CrabClan, ShadowlandsFaction], keywords=[Berserker, Damned, Shadowlands], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+"Your Followers at Akio's location have +1F while you have Reconnaissance.<br><b>Battle:</b> Bow your performing Personality or Follower: Ranged 5 Attack."
+Hiruma_Akio_Experienced = Personality(card_id=3287, title='Hiruma Akio', force=4, chi=3, personal_honor=3, gold_cost=7, honor_requirement=4, clan=[CrabClan], keywords=[Unique, Chui, Commander, Experienced('1'), Samurai, Scout], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+"<b>Limited:</b> You help rebuild another clan's defenses. Gain 3 Honor. You may not declare an attack.<br><b>Battle:</b> Target an enemy card with Force lower than or equal to this battlefield's province's strength: Bow it."
+Kaiu_Iemasa = Personality(card_id=4119, title='Kaiu Iemasa', force=6, chi=4, personal_honor=3, gold_cost=9, honor_requirement=3, clan=[CrabClan], keywords=[Loyal, Tactician, Unique, Daimyo, JadeHand, Samurai, Siege], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+'<b>Tactical Battle/Open:</b> Nakano has +3F while he is in an army and while all Personalities in that army are Siege.'
+Kaiu_Nakano = Personality(card_id=4127, title='Kaiu Nakano', force=4, chi=3, personal_honor=2, gold_cost=7, honor_requirement=3, clan=[CrabClan], keywords=[Tactician, Hero, Samurai, Siege], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+'<b>Battle:</b> Bow your performing Follower to move home a target enemy Personality. After this moves him, and you have Reconnaissance or you are a Unicorn Clan player, negate his <i>(further)</i> movement.'
+Nijugun = Personality(card_id=5560, title='Nijugun', force=4, chi=3, personal_honor=0, gold_cost=8, honor_requirement=None, clan=[CrabClan], keywords=[Cavalry, Enigma, Mujina, Nonhuman, Scout], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+'<b>Kolat Reaction, :bow::</b> When paying for a Holding, produce 2 Gold which may only pay for that card.'
+Yasuki_Dokansuto = Personality(card_id=9437, title='Yasuki Dokansuto', force=1, chi=3, personal_honor=1, gold_cost=6, honor_requirement=None, clan=[CrabClan], keywords=[Courtier, Kolat, Merchant], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])

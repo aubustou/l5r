@@ -1,33 +1,32 @@
 from __future__ import annotations
-
-from l5r_auto.clans import CrabClan
-from l5r_auto.keywords import Courtier, Merchant
-from l5r_auto.legality import (
-    EmperorEdition,
-    IvoryEdition,
-    ModernEdition,
-    TwentyFestivalsEdition,
-)
-
 from ..common import Personality
-
-Yasuki_Tono = Personality(
-    card_id=9467,
-    title="Yasuki Tono",
-    force=0,
-    chi=3,
-    personal_honor=1,
-    gold_cost=2,
-    honor_requirement=None,
-    clan=[CrabClan],
-    keywords=[Courtier, Merchant],
-    traits=[],
-    abilities=[],
-    legality=[
-        IvoryEdition,
-        TwentyFestivalsEdition,
-        EmperorEdition,
-        ModernEdition,
-        ModernEdition,
-    ],
-)
+from l5r_auto.clans import CrabClan
+from l5r_auto.keywords import Berserker, Cavalry, ClanChampion, Courtier, Earth, Hero, JadeHand, Kensai, LittleBear, Loyal, Merchant, Samurai, Scout, Shugenja, Siege, SoulOf, Tactician, Unique, Veteran, WyrmRider
+from l5r_auto.legality import EmperorEdition, IvoryEdition, ModernEdition, TwentyFestivalsEdition
+Hida_Bushotsu = Personality(card_id=3079, title='Hida Bushotsu', force=7, chi=2, personal_honor=0, gold_cost=8, honor_requirement=None, clan=[CrabClan], keywords=[Berserker], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Horu does not contribute Force to his army during battle resolution while there are two or more units in his army.'
+Hida_Horu = Personality(card_id=3108, title='Hida Horu', force=8, chi=3, personal_honor=1, gold_cost=9, honor_requirement=None, clan=[CrabClan], keywords=[Berserker, SoulOf('Hida Hebi')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<b>Reaction:</b> When another player's Battle action would target Kisada: He outmaneuvers it. Choose another Personality you control at Kisada's location. The action targets the Personality instead, if legal.<br><b>Battle:</b> Target an enemy card with lower Force: Destroy it."
+Hida_Kisada_Emperor = Personality(card_id=3127, title='Hida Kisada (Emperor)', force=7, chi=5, personal_honor=3, gold_cost=12, honor_requirement=0, clan=[CrabClan], keywords=[Kensai, Loyal, Tactician, Unique, ClanChampion, LittleBear, Samurai, Siege], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Battle:</b> Target an enemy Follower or Personality with lower Force and no attachments: Bow it.<br><b>Battle:</b> Target an enemy attachment: Destroy it.'
+Hida_Komatsu = Personality(card_id=3130, title='Hida Komatsu', force=6, chi=2, personal_honor=1, gold_cost=8, honor_requirement=None, clan=[CrabClan], keywords=[Unique, Berserker, Hero, SoulOf('Hida Rikyu Experienced')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Reaction:</b> After the resolution of an action that attached a Follower from your hand to Takeuchi: Draw a card.'
+Hida_Takeuchi = Personality(card_id=3200, title='Hida Takeuchi', force=3, chi=2, personal_honor=1, gold_cost=6, honor_requirement=0, clan=[CrabClan], keywords=[Samurai, SoulOf('Hida Kosedo')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'While Watari has exactly one Follower, that Follower has <b>Cavalry</b>.<br><b>Fear Battle:</b> Target an enemy unit: Bow all Followers with 3 or lower Force in it.'
+Hida_Watari = Personality(card_id=3227, title='Hida Watari', force=5, chi=2, personal_honor=1, gold_cost=8, honor_requirement=0, clan=[CrabClan], keywords=[Cavalry, Unique, Samurai, SoulOf('Hida Tobashi'), Veteran, WyrmRider], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Battle:</b> Bow Nitani unless you have Reconnaissance: Ranged 4 Attack, with +2 strength if the target is Shadowlands.'
+Hiruma_Nitani = Personality(card_id=3311, title='Hiruma Nitani', force=4, chi=3, personal_honor=3, gold_cost=7, honor_requirement=3, clan=[CrabClan], keywords=[JadeHand, Samurai, Scout, SoulOf('Hiruma Hidora')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<b>Battle:</b> Ranged 4 Attack. If this targeted a card, give the current battlefield's province +2 or -2 strength."
+Kaiu_Esumi = Personality(card_id=4109, title='Kaiu Esumi', force=3, chi=3, personal_honor=2, gold_cost=7, honor_requirement=0, clan=[CrabClan], keywords=[Tactician, Samurai, Siege], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<b>Reaction:</b> After engaging at Hideaki's battlefield: Increase its province's strength by 3 until the battle's resolution begins."
+Kaiu_Hideaki = Personality(card_id=4115, title='Kaiu Hideaki', force=3, chi=2, personal_honor=2, gold_cost=4, honor_requirement=3, clan=[CrabClan], keywords=[Samurai, Siege, SoulOf('Kaiu Seison')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+Kaiu_Kawachi = Personality(card_id=4122, title='Kaiu Kawachi', force=5, chi=4, personal_honor=3, gold_cost=8, honor_requirement=3, clan=[CrabClan], keywords=[Tactician, Samurai, Siege], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<b>Battle:</b> If any enemy units are at the current battlefield and Shinoda is at another battlefield: You may target another Crab Clan Personality at Shinoda's battlefield. Move Shinoda and the target, if any, to the current battlefield."
+Kuni_Shinoda = Personality(card_id=4587, title='Kuni Shinoda', force=2, chi=2, personal_honor=2, gold_cost=4, honor_requirement=0, clan=[CrabClan], keywords=[Earth, Shugenja, SoulOf('Kuni Yasashii')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"Ranged Attacks from actions performed by cards in Shishido's army have +1 strength."
+Toritaka_Shishido = Personality(card_id=8651, title='Toritaka Shishido', force=3, chi=3, personal_honor=3, gold_cost=6, honor_requirement=3, clan=[CrabClan], keywords=[Samurai, Scout, SoulOf('Toritaka Okabe')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<b>Political Limited:</b> Pay Gold equal to a target Personality's base Personal Honor minus 1: Dishonor him. His controller loses 1 Honor, or 2 Honor if his base Personal Honor is 3 or greater."
+Yasuki_Jekku = Personality(card_id=9443, title='Yasuki Jekku', force=2, chi=4, personal_honor=0, gold_cost=7, honor_requirement=None, clan=[CrabClan], keywords=[Loyal, Courtier, Merchant], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<b>Reaction:</b> When paying for an action, produce 3 Gold which may only pay for that action.<br><b>Political Reaction:</b> After another player's Battle action targets Tanimura, the player may pay 4 Gold. If he does not pay the Gold, he loses 3 Honor."
+Yasuki_Tanimura = Personality(card_id=9464, title='Yasuki Tanimura', force=2, chi=4, personal_honor=1, gold_cost=8, honor_requirement=None, clan=[CrabClan], keywords=[Courtier, Merchant], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+Yasuki_Tono = Personality(card_id=9467, title='Yasuki Tono', force=0, chi=3, personal_honor=1, gold_cost=2, honor_requirement=None, clan=[CrabClan], keywords=[Courtier, Merchant], traits=[], abilities=[], legality=[IvoryEdition, TwentyFestivalsEdition, EmperorEdition, ModernEdition])

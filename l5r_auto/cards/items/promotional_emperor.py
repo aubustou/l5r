@@ -1,0 +1,64 @@
+from __future__ import annotations
+from .common import Item
+from l5r_auto.keywords import Armor, Expendable, Experienced, Fudo, Gaijin, Imperial, Nemuranai, Pearl, Standard, Unique, Weapon
+from l5r_auto.legality import EmperorEdition, IvoryEdition, ModernEdition
+"Will only attach to a Crab Clan or Naga Personality.<br>Negate any destruction of this card, except for its Personality being destroyed.<br><b>Reaction:</b> After another player's action targets this Personality, negate his destruction from the action's effects."
+Ancient_Armor_of_the_Qamar_Experienced = Item(card_id=9970, title='Ancient Armor of the Qamar', force=4, chi=0, gold_cost=6, focus_value=4, keywords=[Armor, Unique, Experienced('1')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"Will only attach to a Lion Clan or Naga Personality.<br>Your other Personalities and Followers at this card's battlefield have +1F."
+Battle_Standard_of_the_Naga_Experienced = Item(card_id=9973, title='Battle Standard of the Naga', force=2, chi=0, gold_cost=2, focus_value=4, keywords=[Unique, Experienced('1'), Standard], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Attaches to a Ruby Champion ignoring costs.<br><b>Battle:</b> Target one or two enemy Personalities or Followers with 6 or lower Force each: Bow them.'
+Bokken_of_the_Ruby_Champion = Item(card_id=9963, title='Bokken of the Ruby Champion', force=2, chi=1, gold_cost=4, focus_value=4, keywords=[Unique, Weapon], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Limited:</b> Discard your hand to draw a number of cards equal to the number you discarded. Destroy this Item.'
+Enigmatic_Pendant = Item(card_id=10411, title='Enigmatic Pendant', force=0, chi=0, gold_cost=2, focus_value=3, keywords=[Nemuranai], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'After this card bows: Straighten it.<br><b>Battle:</b> Melee 6 Attack.'
+Exquisite_Blade = Item(card_id=2418, title='Exquisite Blade', force=5, chi=1, gold_cost=8, focus_value=3, keywords=[Unique, Weapon], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Tireless Open:</b> Transfer this card to your target Personality with the same Family Name as this Personality.'
+Family_Sword = Item(card_id=10412, title='Family Sword', force=3, chi=1, gold_cost=4, focus_value=4, keywords=[Weapon], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'<b>Limited:</b> Give this Personality one <b>Charging </b>token, or two if any other player has 20 or higher Family Honor or more provinces than you.'
+Heart_of_Fudo_Experienced = Item(card_id=3015, title='Heart of Fudo', force=1, chi=0, gold_cost=2, focus_value=4, keywords=[Unique, Experienced('1'), Fudo], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'This Personality has +1F while he is Imperial.'
+Imperial_Sword = Item(card_id=10594, title='Imperial Sword', force=2, chi=1, gold_cost=2, focus_value=3, keywords=[Weapon, Imperial], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'This Personality has +1PH while he is a Turquoise Champion.<br><b>Reaction:</b> Before an action resolves, bow this card: You silence your enemies with your creative genius. Negate any Honor losses until the action ends.'
+Kimono_of_the_Turquoise_Champion = Item(card_id=9965, title='Kimono of the Turquoise Champion', force=0, chi=0, gold_cost=0, focus_value=4, keywords=[Unique], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Limited:</b> Look at the top card of one of your decks. You may put it at the bottom.'
+Lantern_of_Revelation = Item(card_id=10413, title='Lantern of Revelation', force=0, chi=0, gold_cost=0, focus_value=2, keywords=[Nemuranai], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'Attaches to a Jade Champion ignoring costs.<br>This card has a Force bonus equal to the highest Focus Value among Spells in its unit.<br><b>Reaction:</b> Even if this card is bowed, when paying for a Spell: Produce 4 Gold.'
+Mantle_of_the_Jade_Champion_Experienced_2 = Item(card_id=9967, title='Mantle of the Jade Champion', force=0, chi=1, gold_cost=6, focus_value=4, keywords=[Experienced('2'), Unique], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Attaches to an Onyx Champion ignoring costs.<br>This Personality has <b>Shadowlands</b>. This card has a Force bonus equal to the highest Focus Value among Spells in its unit. Spells in this unit have Maho.<br><b>Maho Battle:</b> Ranged 5 Attack.'
+Mantle_of_the_Onyx_Champion = Item(card_id=9969, title='Mantle of the Onyx Champion', force=0, chi=1, gold_cost=6, focus_value=4, keywords=[Unique], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"Attaches to an Amethyst Champion ignoring costs.<br>You may use Favor abilities one additional time per turn. <br>After you announce the rulebook Favor Political Battle action: It may target any player's unit, and even if it is not attacking.<br><b>Reaction:</b> After you discard the Imperial Favor: Take the Imperial Favor."
+Mempo_of_the_Amethyst_Champion = Item(card_id=9971, title='Mempo of the Amethyst Champion', force=0, chi=0, gold_cost=3, focus_value=4, keywords=[Unique], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'As a Focus Effect: After this duel ends, bow its winner.'
+Patchwork_Armor = Item(card_id=5886, title='Patchwork Armor', force=4, chi=0, gold_cost=4, focus_value=2, keywords=[Armor], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Limited:</b> If there are more than two players, choose a player. He may choose to sign a a peace treaty with you. If he chose this, then until your next Events Phase begins, neither of you may declare an attack against, or ally against, the other. If he did not choose this, you gain 3 Honor and he loses 3 Honor.'
+Peace_Treaty = Item(card_id=10237, title='Peace Treaty', force=0, chi=0, gold_cost=0, focus_value=4, traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"After this card enters play: Lose 1 Honor.<br><b>Battle:</b> Destroy this card: Melee Attack with strength equal to this Personality's Force before you destroyed this card."
+Ritual_Dagger = Item(card_id=6354, title='Ritual Dagger', force=1, chi=0, gold_cost=0, focus_value=0, keywords=[Weapon, Gaijin], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<i><i><i><i>(Draw a card after your Expendable card is destroyed.)</i></i></i></i>'
+Simple_Spears = Item(card_id=10593, title='Simple Spears', force=2, chi=0, gold_cost=2, focus_value=2, keywords=[Expendable, Weapon], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+"Before the first time each turn another player's effect from a card destroys this card: Negate this card's destruction."
+SixRing_Sword = Item(card_id=9968, title='Six-Ring Sword', force=4, chi=1, gold_cost=6, focus_value=3, keywords=[Weapon], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Will only attach to a Scorpion Clan or Naga Personality.<br>Other players may not target cards in this unit with actions if there are any other legal targets in this army.<br><b>Battle:</b> Move this Personality home.'
+The_Arcane_Cloak_of_the_Chameleons = Item(card_id=9972, title='The Arcane Cloak of the Chameleons', force=2, chi=0, gold_cost=3, focus_value=4, keywords=[Unique], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Will only attach to a Dragon Clan or Naga Personality.<br><b>Battle:</b> Bow this card or, if you are a Dragon Clan player, discard it from your hand: Melee 5 Attack.'
+The_Blade_of_the_Balash = Item(card_id=9975, title='The Blade of the Balash', force=4, chi=1, gold_cost=6, focus_value=4, keywords=[Unique, Weapon], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Will only attach to a Unicorn Clan or Naga Personality.<br>When a Lobby action checks Family Honor, your Honor is treated as 20 points higher.<br>Lobbying does not bow this Personality.<br><b>Favor Limited, :bow::</b> Discard the Imperial Favor to draw a card.'
+The_Blessed_Mantle_of_the_Greensnakes = Item(card_id=9977, title='The Blessed Mantle of the Greensnakes', force=1, chi=0, gold_cost=0, focus_value=4, keywords=[Unique], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Attaches to an Emerald Champion ignoring costs.<br>This Personality has +1PH and <b>Imperial &#149; Magistrate</b>.<br>Other players may not target this Personality with actions while there is another Personality at his location who is a legal target for the action.'
+The_Emerald_Armor_Experienced_2 = Item(card_id=9974, title='The Emerald Armor', force=3, chi=1, gold_cost=6, focus_value=4, keywords=[Armor, Experienced('2'), Unique], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Will only attach to a Mantis Clan or Naga Personality.<br><b>Battle:</b> Bow this card or, if you are a Mantis Clan player, discard it from your hand: Ranged 6 Attack.'
+The_Ishas_Yumi_Experienced = Item(card_id=9979, title="The Isha's Yumi", force=4, chi=0, gold_cost=6, focus_value=4, keywords=[Unique, Weapon, Experienced('1')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Attaches to an Ivory Champion ignoring costs.<br>This Personality has <b>Magistrate</b>.<br>After an action resolves that was performed by a dishonorable Personality while he opposed this card: His controller chooses and discards a card.'
+The_Ivory_Sword = Item(card_id=9976, title='The Ivory Sword', force=4, chi=1, gold_cost=6, focus_value=4, keywords=[Unique, Weapon], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Attaches to an Obsidian Champion ignoring costs.<br>This Personality has <b>Shadowlands</b>.<br><b>Fear Battle:</b> Target an enemy unit: Bow each Personality and Follower in it with 5 Force or lower.'
+The_Obsidian_Armor = Item(card_id=9978, title='The Obsidian Armor', force=3, chi=0, gold_cost=6, focus_value=4, keywords=[Armor, Unique], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"Will only attach to a Spider Clan or Naga Personality.<br><b>Reaction:</b> Before a Battle action resolves, target a Personality: Negate his movement from the action's effects."
+The_PearlEncrusted_Staff_of_the_Cobras_Experienced = Item(card_id=9981, title='The Pearl-Encrusted Staff of the Cobras', force=1, chi=1, gold_cost=2, focus_value=4, keywords=[Experienced('Pearl-Encrusted Staff'), Unique, Pearl], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Will only attach to a Phoenix Clan or Naga Personality.<br><b>Limited:</b> Discard all your Celestials in play. Search your Dynasty deck or discard pile for a Celestial. Put it into play. If you searched your discard pile for it, remove this card from the game.'
+The_Sacred_Rosary_of_the_Constrictors = Item(card_id=9982, title='The Sacred Rosary of the Constrictors', force=0, chi=1, gold_cost=0, focus_value=4, keywords=[Unique], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Attaches to a Topaz Champion ignoring costs.<br>After this card enters play: Choose two keywords; <b>Courtier, Samurai, Archer, Artisan, Cavalry, Duelist, Elite, Historian, Kensai, Magistrate, Stalwart</b>. <br>This Personality has the two keywords last chosen from the previous trait.'
+The_Topaz_Armor_Experienced = Item(card_id=9980, title='The Topaz Armor', force=2, chi=0, gold_cost=4, focus_value=4, keywords=[Armor, Unique, Experienced('1')], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Will only attach to a Crane Clan or Naga Personality.<br><b>Reaction:</b> After engaging, target a Personality opposing this card: While this card remains in play, actions he performs this battle may not target cards in its unit <i>(when the action is performed)</i>.<br><b>Battle:</b> Destroy this card: Ranged 4 Attack. You may put this card into your hand after this battle ends.'
+The_Yari_of_the_Shabura = Item(card_id=9984, title='The Yari of the Shabura', force=2, chi=0, gold_cost=3, focus_value=4, keywords=[Unique, Weapon], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"While you control a Winter card, other players' cards' effects will not negate this Personality's movement.<br><b>Reaction:</b> After engaging, if any enemy units are at the current battlefield, bow this card: Move this Personality there."
+Winter_Sled = Item(card_id=9350, title='Winter Sled', force=0, chi=0, gold_cost=0, focus_value=3, traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])

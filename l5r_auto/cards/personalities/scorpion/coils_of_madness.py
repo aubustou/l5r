@@ -1,0 +1,17 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import BrotherhoodOfShinsei, NinjaFaction, ScorpionClan
+from l5r_auto.keywords import ClanChampion, Courtier, Empress, Experienced, Fallen, FinalStudent, Imperial, Loyal, Magistrate, MasterOfScrolls, Monk, Ninja, Samurai, Seductress, ShojusSoul, Sociopath, Unique, Void, Yojimbo
+from l5r_auto.legality import EmperorEdition, IvoryEdition, ModernEdition
+'Personalities and Followers have -1F while they are Fallen, Nonhuman, or attacking you.<br><b>Political Open, :bow::</b> After the next time this turn a target Personality attacks, his controller loses 2 Honor.'
+Bayushi_Kachiko_ExperiencedCoM = Personality(card_id=10481, title='Bayushi Kachiko', force=0, chi=3, personal_honor=1, gold_cost=8, honor_requirement=None, clan=[ScorpionClan], keywords=[Unique, Courtier, Empress, Experienced('1'), Imperial, Seductress], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'<b>Limited:</b> Look at the top three cards of your Fate deck. You may show one of them that is a Political Strategy and put it in your hand. Put the remaining cards back in any order.'
+Bayushi_Kahoku_Experienced_2 = Personality(card_id=10479, title='Bayushi Kahoku', force=5, chi=4, personal_honor=2, gold_cost=9, honor_requirement=0, clan=[ScorpionClan], keywords=[Experienced('2'), Unique, FinalStudent, Magistrate, Samurai], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'After Nitoshi enters play, all players lose 3 Honor.<br><b>Ninja Battle:</b> Melee 6 Attack.'
+Bayushi_Nitoshi_Experienced = Personality(card_id=10480, title='Bayushi Nitoshi', force=7, chi=5, personal_honor=0, gold_cost=12, honor_requirement=None, clan=[ScorpionClan, NinjaFaction], keywords=[Unique, ClanChampion, Courtier, Experienced('1'), Fallen, Ninja, Samurai, ShojusSoul, Sociopath], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'Rokkaku enters play ignoring Gold Cost if you control the Ring of the Void.<br><b>Void Limited, :bow::</b> Look at the top four cards of your Fate deck. You may put one on the bottom. Put the rest back in any order.'
+Rokkaku_Master_of_Scrolls = Personality(card_id=10483, title='Rokkaku, Master of Scrolls', force=1, chi=4, personal_honor=2, gold_cost=5, honor_requirement=None, clan=[ScorpionClan, BrotherhoodOfShinsei], keywords=[Unique, MasterOfScrolls, Monk, Void], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'<b>Political Open, :bow::</b> A target player loses 1 Honor.<br><b>Political Limited, :bow::</b> Dishonor a target Personality not named Yasuki Tono.'
+Shosuro_Kameyoi_Experienced = Personality(card_id=10484, title='Shosuro Kameyoi', force=2, chi=4, personal_honor=1, gold_cost=8, honor_requirement=None, clan=[ScorpionClan], keywords=[Loyal, Unique, Courtier, Experienced('1')], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'After Katsuta enters play, lose 2 Honor.<br>After a Personality commits seppuku, his controller loses 1 Honor.'
+Yogo_Katsuta = Personality(card_id=10482, title='Yogo Katsuta', force=2, chi=3, personal_honor=0, gold_cost=5, honor_requirement=None, clan=[ScorpionClan], keywords=[Fallen, Samurai, Yojimbo], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])

@@ -1,0 +1,19 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import BrotherhoodOfShinsei, UnicornClan
+from l5r_auto.keywords import Air, BatClan, Cavalry, Commander, Conqueror, DeathPriest, Doomseeker, Expendable, Experienced, Fallen, Imperial, Inexperienced, IvoryChampion, Magistrate, Monk, MoonBlessed, Samurai, Shugenja, TheBenevolent, TheShadowWing, TheSkullTaker, Unique, Water
+from l5r_auto.legality import EmperorEdition, IvoryEdition, ModernEdition
+'<b>Home Battle:</b> Target two Personalities at any location controlled by the same player. Switch their locations. Straighten each one of them that is not Fallen or Nonhuman. <i>(Home actions may be used from home.)</i>'
+Iuchi_Karasu_Inexperienced = Personality(card_id=10506, title='Iuchi Karasu', force=3, chi=3, personal_honor=3, gold_cost=7, honor_requirement=4, clan=[UnicornClan], keywords=[Unique, Doomseeker, Inexperienced, Shugenja], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'<b>Air Limited:</b> Create a 0F/2C/0PH <b>Bat &#149; Nonhuman &#149; Cavalry</b> Personality. Remove it from the game after your next turn begins.'
+Komori_Miyano_the_Shadow_Wing = Personality(card_id=10507, title='Komori Miyano, the Shadow Wing', force=1, chi=3, personal_honor=1, gold_cost=4, honor_requirement=None, clan=[UnicornClan], keywords=[Unique, Air, BatClan, Shugenja, TheShadowWing], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'<b>Water Battle:</b> If there is a dead Personality in any discard pile, Ranged 3 Attack.<br><b>Open:</b> Bow or straighten a target Ring or Moshi Tomiko.'
+Moto_MingGwok_Experienced = Personality(card_id=10509, title='Moto Ming-Gwok', force=4, chi=5, personal_honor=1, gold_cost=9, honor_requirement=0, clan=[UnicornClan], keywords=[Cavalry, Unique, DeathPriest, Experienced('1'), MoonBlessed, Shugenja, Water], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'After Taigo enters play, lose 3 Honor.<br><b>Interrupt, :bow::</b> If the action moves any units, you may destroy a target card without attachments in one of them.'
+Moto_Taigo_the_Skull_Taker_Experienced = Personality(card_id=10510, title='Moto Taigo, the Skull Taker', force=4, chi=4, personal_honor=0, gold_cost=11, honor_requirement=None, clan=[UnicornClan], keywords=[Cavalry, Conqueror, Unique, Commander, Experienced('1'), Fallen, Samurai, TheSkullTaker], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'<i><i><i><i>(Draw a card after your Expendable card is destroyed.)</i></i></i></i><br>After Xin enters play, lose 2 Honor.'
+Moto_Xin = Personality(card_id=10508, title='Moto Xin', force=4, chi=1, personal_honor=0, gold_cost=7, honor_requirement=None, clan=[UnicornClan], keywords=[Cavalry, Expendable, Fallen, Samurai], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'<b>Limited:</b> Search your Fate deck for a non-Unique Cavalry Follower, show it, and put it in your hand. Then, discard a card.'
+Shinjo_Tselu_Experienced = Personality(card_id=10511, title='Shinjo Tselu', force=5, chi=5, personal_honor=3, gold_cost=9, honor_requirement=6, clan=[UnicornClan], keywords=[Cavalry, Unique, Commander, Experienced('1'), Imperial, IvoryChampion, Magistrate, Samurai], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'Tsiang enters play ignoring Gold Cost if you control the Ring of Water.<br><b>Home Water Battle, :bow::</b> Straighten one or two target cards in units. <i><i><i>(Home actions may be used from home.)</i></i></i>'
+Tsiang_the_Benevolent = Personality(card_id=10512, title='Tsiang, the Benevolent', force=1, chi=5, personal_honor=3, gold_cost=6, honor_requirement=3, clan=[UnicornClan, BrotherhoodOfShinsei], keywords=[Unique, Monk, TheBenevolent, Water], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])

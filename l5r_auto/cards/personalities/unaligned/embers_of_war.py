@@ -1,0 +1,19 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import BrotherhoodOfShinsei, ShadowlandsFaction, Unaligned
+from l5r_auto.keywords import Berserker, Bloodspeaker, BrothersOfRebirth, Cultist, Experienced, Gaijin, Monk, Nonhuman, Oni, OrderOfDeath, OrderOfStrength, Paragon, Shadowlands, Shugenja, StudentOfKinuye, Tactician, Unique, Void, Zealot
+from l5r_auto.legality import EmperorEdition, ModernEdition
+'After Gozaru enters play: Lose 5 Honor.<br>After Gozaru is destroyed: It becomes discarded <i>(not dead)</i>.<br><b>Battle:</b> Target one or two enemy cards: Bow them. If you only targeted one card, destroy it.'
+Gozaru_no_Oni = Personality(card_id=2880, title='Gozaru no Oni', force=15, chi=5, personal_honor=0, gold_cost=15, honor_requirement=None, clan=[Unaligned, ShadowlandsFaction], keywords=[Nonhuman, Oni, Shadowlands], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Itoku has +1F while a Lion Clan player controls him.<br><b>Reaction:</b> After an action resolves which bowed your non-Void Ring: Straighten it. You may use each of its abilities an additional time this turn.'
+Itoku_Experienced = Personality(card_id=3972, title='Itoku', force=3, chi=3, personal_honor=4, gold_cost=6, honor_requirement=0, clan=[Unaligned, BrotherhoodOfShinsei], keywords=[Experienced('Akodo Itoku'), Tactician, Unique, Monk, OrderOfStrength, Paragon], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Makito has +1F while a Phoenix Clan player controls him.<br>After a card is destroyed: Give Makito +1F.<br><b>Maho Battle:</b> Target an enemy Personality with equal or lower Chi: Destroy a card without attachments in his unit; this destruction will not be negated or delayed.'
+Makito_Experienced = Personality(card_id=4806, title='Makito', force=4, chi=4, personal_honor=0, gold_cost=7, honor_requirement=None, clan=[Unaligned, BrotherhoodOfShinsei, ShadowlandsFaction], keywords=[Experienced('Asako Makito'), Unique, Bloodspeaker, Monk, OrderOfDeath, Shadowlands, StudentOfKinuye], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<b>Reaction:</b> After an action resolves that Rata performed and that destroyed a Personality: Rata sacrifices his victim's corpse. Draw a card."
+Rata = Personality(card_id=6165, title='Rata', force=3, chi=3, personal_honor=0, gold_cost=4, honor_requirement=None, clan=[Unaligned], keywords=[Cultist, Gaijin], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Rokku has +1F while a Lion Clan player controls him.<br><b>Reaction:</b> Even if Rokku is bowed, after engaging, if any enemy units are at the current battlefield: Move Rokku there. Straighten his unit if he moved.'
+Rokku_Experienced = Personality(card_id=6376, title='Rokku', force=4, chi=3, personal_honor=3, gold_cost=6, honor_requirement=None, clan=[Unaligned, BrotherhoodOfShinsei], keywords=[Experienced('Akodo Rokku'), Tactician, Unique, Monk, OrderOfStrength, Zealot], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Battle:</b> Target an enemy card with lower Force: Bow it. If it is a Personality, you may move it home.'
+Sakti = Personality(card_id=6454, title='Sakti', force=8, chi=1, personal_honor=0, gold_cost=9, honor_requirement=None, clan=[Unaligned], keywords=[Berserker, Gaijin], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Tokiko has +1F while a Phoenix Clan player controls her.<br><b>Battle/Open:</b> Destroy Tokiko and target your dead Personality: Bring him into play in your home or at the current battlefield, paying all costs but paying 7 less Gold.'
+Tokiko_Experienced = Personality(card_id=8613, title='Tokiko', force=2, chi=5, personal_honor=3, gold_cost=7, honor_requirement=0, clan=[Unaligned, BrotherhoodOfShinsei], keywords=[Experienced('Isawa Tokiko'), Unique, BrothersOfRebirth, Monk, Shugenja, Void], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])

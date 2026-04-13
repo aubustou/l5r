@@ -1,0 +1,19 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import ShadowlandsFaction, Unaligned
+from l5r_auto.keywords import Air, Alchemist, Courtier, Earth, EmeraldMagistrate, Experienced, Fire, Fudo, GrandMasterOfTheElements, Imperial, Ishiken, Magistrate, Plague, Ronin, Samurai, SecondCityGovernor, Sensei, Shadowlands, Shugenja, Thunder, Unique, Void, Water
+from l5r_auto.legality import EmperorEdition, ModernEdition
+'After Seki enters play: Lose 3 Honor.<br><b>Reaction:</b> After Seki enters play, target a Personality: Give him a -1C <b>Plague </b>token.'
+Chuda_Seki = Personality(card_id=10091, title='Chuda Seki', force=0, chi=3, personal_honor=0, gold_cost=3, honor_requirement=None, clan=[Unaligned, ShadowlandsFaction], keywords=[Plague, Shadowlands, Shugenja], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'After Mukudori enters play, discard all your other Sensei Personalities.<br>Your other Fudo cards enter play for 1 less Gold.<br><b>Limited:</b> Bow three of your Fudo cards to draw a card.'
+Mukudori = Personality(card_id=10092, title='Mukudori', force=0, chi=5, personal_honor=2, gold_cost=7, honor_requirement=None, clan=[Unaligned], keywords=[Unique, Fudo, Sensei], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Reaction:</b> If it is the Action Phase or Mahatsu is at the current battlefield, before an action with Thunder or an element keyword resolve, negate its effects.<br><b>Limited:</b> Search your Fate deck for a card with Thunder or an element keyword. Show it. Put it in your hand.'
+Naka_Mahatsu_Experienced = Personality(card_id=10093, title='Naka Mahatsu', force=5, chi=6, personal_honor=2, gold_cost=12, honor_requirement=4, clan=[Unaligned], keywords=[Experienced('Mahatsu'), Unique, Air, Alchemist, Earth, Fire, GrandMasterOfTheElements, Ronin, Shugenja, Thunder, Void, Water], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"You may not assign, and will not move, Suikihime to battlefields. Suikihime will not become dishonorable. Other players' Political actions may not target Suikihime.<br><b>Reaction:</b> Once per game, after Suikihime enters play, if no other player controls The Forgotten Temple: Suikihime grants you new lands in the Colonies. Gain a province to the left of your leftmost province. After the next time this game Suikihime leaves play, destroy your leftmost province."
+Otomo_Suikihime = Personality(card_id=10094, title='Otomo Suikihime', force=0, chi=3, personal_honor=4, gold_cost=10, honor_requirement=8, clan=[Unaligned], keywords=[Unique, Courtier, Imperial, SecondCityGovernor], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'After Nagi enters play: Discard all your other Sensei Personalities.<br>Your other non-Loyal Magistrate Personalities in and out of play have your Clan alignment.'
+Seppun_Nagi = Personality(card_id=10095, title='Seppun Nagi', force=3, chi=4, personal_honor=2, gold_cost=5, honor_requirement=None, clan=[Unaligned], keywords=[EmeraldMagistrate, Imperial, Magistrate, Sensei], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"Tanemono will not be controlled by a Phoenix Clan player.<br><b>Battle/Open:</b> Switch Tanemono's Force and Chi."
+Tanemono = Personality(card_id=10096, title='Tanemono', force=1, chi=6, personal_honor=1, gold_cost=6, honor_requirement=None, clan=[Unaligned], keywords=[Ishiken, Ronin, Shugenja, Void], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'After Zansho enters play: Discard all your other Sensei Personalities.<br>Your Followers have +1F or a Force bonus equal to their Honor Requirement, whichever is greater.'
+Zansho = Personality(card_id=10097, title='Zansho', force=3, chi=3, personal_honor=3, gold_cost=3, honor_requirement=3, clan=[Unaligned], keywords=[Samurai, Sensei], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])

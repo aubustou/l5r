@@ -328,6 +328,76 @@
         ]
     },
     {
+        "imagehash": "0a/1d",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Hidden Emperor (Jade)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"This land is fraught with peril, and not only the physical. Our souls must remain pure.\" - Yung</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "10"
+                ],
+                "artnumber": [
+                    "10040010"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "James Hall"
+                ],
+                "printimagehash": [
+                    "0a/1d"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "printingid": "2",
+                "text": [
+                    "Until the end of the game, any player whose Dynasty Deck is depleted and cannot refill his or her Provinces must destroy one of his or her Personalities or holdings in play for each Province left empty at the end of that player's turn."
+                ],
+                "set": [
+                    "Hidden Emperor 3"
+                ],
+                "artist": [
+                    "Craig Maher"
+                ],
+                "printimagehash": [
+                    "95/9c"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until the game ends, before each player's turn ends, if his Dynasty deck has no cards, he chooses and destroys one Personality or Holding he controls for each of his Provinces without a Dynasty card in it."
+        ],
+        "formattedtitle": "Abandoning the Fortunes",
+        "cardid": 105,
+        "title": [
+            "Abandoning the Fortunes"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
         "updatelog": [
             {
                 "newdata": {
@@ -541,6 +611,467 @@
         ]
     },
     {
+        "imagehash": "fe/e6",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Ambitious men might succumb to temptation. Our duty is to record without bias. We alone can do so.\" - Miya Shoin</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "11"
+                ],
+                "artnumber": [
+                    "10040562"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Patrick McEvoy"
+                ],
+                "printimagehash": [
+                    "fe/e6"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"The winners choose what the histories will say,\" Ikoma Hagio said softly. \"And we shall ensure that history remembers the true heroes of this war.\"</i>"
+                ],
+                "printingid": "2",
+                "number": [
+                    "3"
+                ],
+                "set": [
+                    "Empire at War"
+                ],
+                "artist": [
+                    "Patrick McEvoy"
+                ],
+                "printimagehash": [
+                    "c1/7f"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, after the next time this game you destroy a Province as the Attacker, the Defender loses 5 Honor."
+        ],
+        "formattedtitle": "Alter History",
+        "cardid": 336,
+        "title": [
+            "Alter History"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "2e/77",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The air was filled with flames, smoke, battle cries, the screams of the dying. It was glorious. Few escaped our righteous blades.\" - Yamazaki</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "2"
+                ],
+                "artnumber": [
+                    "10020002"
+                ],
+                "set": [
+                    "Forgotten Legacy"
+                ],
+                "artist": [
+                    "Matt Zeilinger"
+                ],
+                "printimagehash": [
+                    "2e/77"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until your turn two turns from now begins, all players have the ability, \"<b>Battle:</b> Target your performing unbowed attacking Personality and bow all unbowed cards in his unit to destroy a target enemy card without attachments.\""
+        ],
+        "formattedtitle": "Assault in the Jungle",
+        "cardid": 628,
+        "title": [
+            "Assault in the Jungle"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "8c/bf",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Hidden Emperor (Jade)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Imperial"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Iweko Setai often represents his wife in court.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "12"
+                ],
+                "artnumber": [
+                    "10040011"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Oliver Specht"
+                ],
+                "printimagehash": [
+                    "8c/bf"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Honor Bound"
+                ],
+                "artist": [
+                    "Jim Pavelec"
+                ],
+                "printimagehash": [
+                    "c2/bd"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, each player in turn order starting with you may choose a card in his hand. Discard all chosen cards. If exactly one player's card has the lowest Focus Value of all those cards, he gains a Province to the left of his leftmost province. If exactly one player's card has the highest Focus Value of all those cards, permanently give him +3 maximum hand size, and he draws three cards."
+        ],
+        "formattedtitle": "Benefices of the Emperor",
+        "cardid": 956,
+        "title": [
+            "Benefices of the Emperor"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "fb/b8",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Age of Enlightenment (Lotus)",
+            "Four Winds (Gold)",
+            "Rain of Blood (Diamond)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"You will die waiting for us to surrender, dogs!\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "13"
+                ],
+                "artnumber": [
+                    "10040012"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Erich Schreiner"
+                ],
+                "printimagehash": [
+                    "fb/b8"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "printingid": "2",
+                "number": [
+                    "35"
+                ],
+                "set": [
+                    "Dark Allies"
+                ],
+                "artist": [
+                    "Mark Smylie"
+                ],
+                "printimagehash": [
+                    "66/f8"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "printingid": "3",
+                "number": [
+                    "4"
+                ],
+                "set": [
+                    "Diamond Edition"
+                ],
+                "artist": [
+                    "Mark Smylie"
+                ],
+                "printimagehash": [
+                    "bc/c2"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "4",
+                "number": [
+                    "1"
+                ],
+                "set": [
+                    "Lotus Edition"
+                ],
+                "artist": [
+                    "Mark Smylie"
+                ],
+                "printimagehash": [
+                    "5f/9f"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "printingid": "5",
+                "number": [
+                    "Lion 42"
+                ],
+                "set": [
+                    "Training Grounds"
+                ],
+                "artist": [
+                    "Mark Symlie"
+                ],
+                "printimagehash": [
+                    "e8/5c"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            },
+            {
+                "printingid": "6",
+                "number": [
+                    "Crane 35"
+                ],
+                "set": [
+                    "Training Grounds 2"
+                ],
+                "artist": [
+                    "Mark Smylie"
+                ],
+                "printimagehash": [
+                    "81/8a"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, if any other player controls a Personality, then at the start of your next turn, if this Province still exists, permanently give it +3 strength and gain 3 Honor, and until then, after battle resolution destroys this Province, give each Personality in the attacking army a +1F token and the Attacker may draw a card."
+        ],
+        "formattedtitle": "Boastful Proclamation",
+        "cardid": 1086,
+        "title": [
+            "Boastful Proclamation"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "68/05",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Mara's body was not recovered from the ruins.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "3"
+                ],
+                "artnumber": [
+                    "10020003"
+                ],
+                "set": [
+                    "Forgotten Legacy"
+                ],
+                "artist": [
+                    "Asier Martinez Lopez"
+                ],
+                "printimagehash": [
+                    "68/05"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, any player who controls the Imperial Favor discards it, until your turn two turns from now begins, actions that discard the Imperial Favor as a condition upon further effects have their effects negated if they target a Nonhuman Personality, and until the game ends, Nonhumans may not perform Political actions."
+        ],
+        "formattedtitle": "Burning Dreams",
+        "cardid": 1185,
+        "title": [
+            "Burning Dreams"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "b4/43",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Four Winds (Gold)",
+            "Hidden Emperor (Jade)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Festival"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Rokugan is a land of festivals. It is necessary for the common people to have release from the tedium of their honorable labors. They serve the Empress loyally, and in return she offers them grand celebrations.\" - Voice of the Emperor</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "14"
+                ],
+                "artnumber": [
+                    "10040508"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Glen Osterberger"
+                ],
+                "printimagehash": [
+                    "b4/43"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>Blown in from the west,<br> Fallen petals gathering.<br> To the east, they fall.<br> - Rezan the Ronin Poet</i>"
+                ],
+                "printingid": "2",
+                "set": [
+                    "Heroes of Rokugan"
+                ],
+                "artist": [
+                    "Christopher Rush"
+                ],
+                "printimagehash": [
+                    "82/94"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, no players may take Reactions until your next turn begins."
+        ],
+        "formattedtitle": "Cherry Blossom Festival",
+        "cardid": 1314,
+        "title": [
+            "Cherry Blossom Festival"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
         "imagehash": "33/6e",
         "legality": [
             "Destroyer War (Celestial)",
@@ -646,6 +1177,127 @@
         "cardid": 1400,
         "title": [
             "Claiming the Throne"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "0b/2f",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"I see the festivities began without me. Just as well, I suppose. You would need a short practice to have any chance against me.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "16"
+                ],
+                "artnumber": [
+                    "10040014"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Jason Juta"
+                ],
+                "printimagehash": [
+                    "0b/2f"
+                ],
+                "rarity": [
+                    "Common"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"It is unfortunate that you were delayed, my lord, but regrettably we cannot admit you until the Empress' court is concluded.\"</i>"
+                ],
+                "printingid": "2",
+                "number": [
+                    "1"
+                ],
+                "set": [
+                    "The Imperial Gift 2"
+                ],
+                "artist": [
+                    "Jason Juta"
+                ],
+                "printimagehash": [
+                    "dd/a6"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them,, choose a Personality in play. He may not be assigned to attack you until your next turn begins."
+        ],
+        "formattedtitle": "Delayed Arrival",
+        "cardid": 1939,
+        "title": [
+            "Delayed Arrival"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "19/43",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Your actions have brought shame to your entire family. Others will shoulder a share of your burden until such time as your disgrace can be forgotten.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "17"
+                ],
+                "artnumber": [
+                    "10040340"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Grzegorz Pedrycz"
+                ],
+                "printimagehash": [
+                    "19/43"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until your turn two turns from now begins, other players may not target your Personalities with Limited actions."
+        ],
+        "formattedtitle": "Disgrace",
+        "cardid": 2017,
+        "title": [
+            "Disgrace"
         ],
         "type": [
             "Event"
@@ -952,6 +1604,179 @@
         ]
     },
     {
+        "printing": [
+            {
+                "printingid": "1",
+                "artnumber": [
+                    "10040437"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "James Hall"
+                ],
+                "use": [
+                    "Kotei Pack Card 11 - unique - 8000"
+                ],
+                "printimagehash": [
+                    "37/e2"
+                ],
+                "promoquantity": [
+                    "0"
+                ],
+                "designernotes": [
+                    "Legal July 1"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until your next turn begins, before the first time each turn another player's card's effect destroys one or more of your Personalities, negate the destruction."
+        ],
+        "formattedtitle": "Expansion",
+        "cardid": 2409,
+        "imagehash": "37/e2",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal July 1st, 2012",
+            "Released in the 2012 Kotei pack"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Forest"
+        ],
+        "title": [
+            "Expansion"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "b9/81",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Five magistrates died! An entire district was burned to the ground!\" \"Yes, Shiba-san, and we shall address the consequences in time. Please, let us discuss how we might make amends&#8230;\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "3"
+                ],
+                "artnumber": [
+                    "10030006"
+                ],
+                "set": [
+                    "Second City"
+                ],
+                "artist": [
+                    "Heather V. Kreiter"
+                ],
+                "printimagehash": [
+                    "b9/81"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, after the next time this game your Honor is below its starting value, <i>you have a tea ceremony</i>; gain 5 Honor."
+        ],
+        "formattedtitle": "Formal Apology",
+        "cardid": 2660,
+        "title": [
+            "Formal Apology"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "64/3e",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Political",
+            "Winter"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The Crane sought clear dominance with every small victory.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "3"
+                ],
+                "artnumber": [
+                    "10050003"
+                ],
+                "set": [
+                    "Embers of War"
+                ],
+                "artist": [
+                    "Sam Kennedy"
+                ],
+                "use": [
+                    "Winter Court themed"
+                ],
+                "printimagehash": [
+                    "64/3e"
+                ],
+                "designer": [
+                    "Duncan"
+                ],
+                "designernotes": [
+                    "[Art Notes: A typical scene at winter court, involving a Scorpion courtier.]"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, you may search your Fate deck for a non-Unique Strategy with a Political ability, show it, put it in your hand, and discard a card."
+        ],
+        "formattedtitle": "Gaining Advantage",
+        "cardid": 2759,
+        "title": [
+            "Gaining Advantage"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
         "imagehash": "89/ef",
         "legality": [
             "A Brother's Destiny (Ivory Edition)",
@@ -1192,6 +2017,450 @@
         ]
     },
     {
+        "imagehash": "fa/15",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Age of Enlightenment (Lotus)",
+            "Race for the Throne (Samurai)",
+            "Rain of Blood (Diamond)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Shogun"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"In times when the Emperor cannot defend the Empire, the Shogun must do so in his place.\" - Sun Tao</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "18"
+                ],
+                "artnumber": [
+                    "10040015"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Miguel Coimbra"
+                ],
+                "printimagehash": [
+                    "fa/15"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>The Shogun is dead, but many of his officers are ready to bring glory to his memory.</i>"
+                ],
+                "printingid": "2",
+                "number": [
+                    "5"
+                ],
+                "set": [
+                    "Samurai Edition"
+                ],
+                "artist": [
+                    "Miguel Coimbra"
+                ],
+                "printimagehash": [
+                    "1e/16"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"Kaneka is the first Shogun. It falls to him to define that title's role and purpose. I pity an who would impede his pursuit of that purpose.\" - Kakita Munemori</i>"
+                ],
+                "printingid": "3",
+                "number": [
+                    "2"
+                ],
+                "set": [
+                    "Web of Lies"
+                ],
+                "artist": [
+                    "Llyn Hunter"
+                ],
+                "printimagehash": [
+                    "77/77"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until the game ends, Equipping is a <b>Battle/Open</b> action <i>(for all players)</i>, and after the first time each turn each player Equips a card with a printed Gold Cost of 5 or more from his hand, that player may draw a card."
+        ],
+        "formattedtitle": "Glory of the Shogun",
+        "cardid": 2824,
+        "title": [
+            "Glory of the Shogun"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "a1/db",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The Spider were the victims, but they were not the only ones to suffer.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "4"
+                ],
+                "artnumber": [
+                    "10050005"
+                ],
+                "set": [
+                    "Embers of War"
+                ],
+                "artist": [
+                    "John Moriarty"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "a1/db"
+                ],
+                "designer": [
+                    "Thomas"
+                ],
+                "designernotes": [
+                    "A burning fortress."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, destroy all non-Unique Holdings with a printed Gold Cost of 0 and, until the game ends, Holdings in and out of play have a minimum Gold Cost of 1."
+        ],
+        "formattedtitle": "Growing Hostility",
+        "cardid": 2911,
+        "title": [
+            "Growing Hostility"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "ed/cc",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Take what we are owed. Leave the rest for the crows.\" - Kakita Idzuki</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "4"
+                ],
+                "artnumber": [
+                    "10030170"
+                ],
+                "set": [
+                    "Second City"
+                ],
+                "artist": [
+                    "Gong Studios"
+                ],
+                "printimagehash": [
+                    "ed/cc"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, you may destroy this Province to draw three cards."
+        ],
+        "formattedtitle": "Harsh Choices",
+        "cardid": 2978,
+        "title": [
+            "Harsh Choices"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "1d/06",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Clan Wars (Imperial)",
+            "Four Winds (Gold)",
+            "Hidden Emperor (Jade)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Imperial"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"I bear a gift for you, commander, to commemorate your service and glorious victory for the Empress.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "19"
+                ],
+                "artnumber": [
+                    "10040016"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Mike Raabe"
+                ],
+                "printimagehash": [
+                    "1d/06"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Imperial Edition"
+                ],
+                "artist": [
+                    "Mike Raabe"
+                ],
+                "printimagehash": [
+                    "31/69"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "printingid": "3",
+                "set": [
+                    "Emerald Edition"
+                ],
+                "artist": [
+                    "Mike Raabe"
+                ],
+                "printimagehash": [
+                    "0c/b9"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "printingid": "4",
+                "set": [
+                    "Obsidian Edition"
+                ],
+                "artist": [
+                    "Mike Raabe"
+                ],
+                "printimagehash": [
+                    "04/34"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "printingid": "5",
+                "set": [
+                    "Jade Edition"
+                ],
+                "artist": [
+                    "Mike Raabe"
+                ],
+                "printimagehash": [
+                    "7a/8b"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"What weapon is stronger than a gift?\" - Doji Tanitsu</i>"
+                ],
+                "printingid": "6",
+                "number": [
+                    "200"
+                ],
+                "set": [
+                    "Gold Edition"
+                ],
+                "artist": [
+                    "William O'Connor"
+                ],
+                "printimagehash": [
+                    "23/43"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "printingid": "7",
+                "set": [
+                    "Pearl Edition"
+                ],
+                "artist": [
+                    "Mike Raabe"
+                ],
+                "printimagehash": [
+                    "5f/1d"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>Katsutoshi was looking for the best time to present the Empress with the Sword of the Hantei.</i>"
+                ],
+                "printingid": "8",
+                "number": [
+                    "4"
+                ],
+                "set": [
+                    "Celestial Edition 15th Anniversary"
+                ],
+                "artist": [
+                    "Mike Raabe"
+                ],
+                "printimagehash": [
+                    "9a/5c"
+                ],
+                "promoquantity": [
+                    "0"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, gain 2 Honor and search your Fate deck for an Item, show it, and put it into your hand."
+        ],
+        "formattedtitle": "Imperial Gift",
+        "cardid": 3694,
+        "title": [
+            "Imperial Gift"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "fa/0b",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"When seeking a teacher, first find those who know what you know, then those who know what you do not.\" - The Tao of Shinsei</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "5"
+                ],
+                "artnumber": [
+                    "10050004"
+                ],
+                "set": [
+                    "Embers of War"
+                ],
+                "artist": [
+                    "Raymond Guastadnes"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "fa/0b"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "[Note: This is someone searching for a Sensei.]"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, search your Dynasty deck for a Sensei Personality. Refill this Province with him, face-up."
+        ],
+        "formattedtitle": "In Search of Guidance",
+        "cardid": 3723,
+        "title": [
+            "In Search of Guidance"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
         "imagehash": "9b/d5",
         "legality": [
             "A Brother's Destiny (Ivory Edition)",
@@ -1306,6 +2575,455 @@
         ]
     },
     {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Just take your filthy money and go.\" \"There is no reason to be hostile. One could imagine how much every koku helps the Scorpion defend the southern borders.\"</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "8858"
+                ],
+                "set": [
+                    "Promotional&ndash;Celestial"
+                ],
+                "artist": [
+                    "Beth Trott"
+                ],
+                "printimagehash": [
+                    "46/6e"
+                ],
+                "promoquantity": [
+                    "122"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, choose another player's Personality in play. After the next time this game his unit is assigned or an action resolves that he performed, dishonor him, and his controller loses 2 Honor."
+        ],
+        "formattedtitle": "Minor Blackmail",
+        "cardid": 5061,
+        "imagehash": "46/6e",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal August 1st, 2011",
+            "Released in the 2011 Kotei pack"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "Minor Blackmail"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "a5/4e",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Hidden Emperor (Jade)",
+            "Rain of Blood (Diamond)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Onnotangu and Amaterasu gave way to Hitomi and Yakamo, who gave way to the Obsidian Moon and the Jade Sun. The Heavens are complete and their blessings are showered upon the mortal realm.\" - Matsu Kasei</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "20"
+                ],
+                "artnumber": [
+                    "10040537"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Chris Seaman"
+                ],
+                "printimagehash": [
+                    "a5/4e"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"The blood of Lord Sun flows through the Crab, and Lady Moon protects the Dragon.\" - Naka Tokei</i>"
+                ],
+                "printingid": "2",
+                "number": [
+                    "16"
+                ],
+                "set": [
+                    "Diamond Edition"
+                ],
+                "artist": [
+                    "Chris Seaman"
+                ],
+                "printimagehash": [
+                    "33/6d"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"&#8230;And ever after, the Moon and the Sun circled in the heavens, always seeking to finish their final duel. The cycle of Atman has begun again, and again the world has found peace.\" - from Fall and Rebirth, Part VI</i>"
+                ],
+                "printingid": "3",
+                "set": [
+                    "Soul of the Empire"
+                ],
+                "artist": [
+                    "William O'Connor"
+                ],
+                "printimagehash": [
+                    "4c/d7"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, each player may shuffle an Event in his discard pile into his deck."
+        ],
+        "formattedtitle": "Moon and Sun",
+        "cardid": 5233,
+        "title": [
+            "Moon and Sun"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "95/93",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Winter"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Naoharu is long since gone, but his lessons endure for a new generation to learn.\" - Doji Shunya</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "21"
+                ],
+                "artnumber": [
+                    "10040017"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Randy Liu"
+                ],
+                "printimagehash": [
+                    "95/93"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>Every gift comes with a price.</i>"
+                ],
+                "printingid": "2",
+                "set": [
+                    "Promotional&ndash;Celestial"
+                ],
+                "artist": [
+                    "Randy Liu"
+                ],
+                "printimagehash": [
+                    "c2/55"
+                ],
+                "promoquantity": [
+                    "0"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, show a card in your hand to another player. <i>You offer it as a gift.</i> He may put it in his hand; if he does, you gain Honor equal to its printed Focus Value. If you showed a card and he does not put it in his hand, discard the card and draw two cards."
+        ],
+        "formattedtitle": "Naoharu's Gift",
+        "cardid": 5510,
+        "title": [
+            "Naoharu's Gift"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "e6/b1",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Reiha-sama, a unit of men has appeared, and they bear the Spider mon.\" \"Do they have oni or goblins with them? If not, put them on the left flank. The line is getting thin.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "3"
+                ],
+                "artnumber": [
+                    "10010003"
+                ],
+                "set": [
+                    "Before the Dawn"
+                ],
+                "artist": [
+                    "David Horne"
+                ],
+                "printimagehash": [
+                    "e6/b1"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until your turn three turns from now begins, you may target Followers in your discard pile with the Equip rulebook action."
+        ],
+        "formattedtitle": "Never Enough Soldiers",
+        "cardid": 5534,
+        "title": [
+            "Never Enough Soldiers"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The stresses of the Destroyer War drove many clans to offer fealty to ronin, something they had never before done.</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "10010159"
+                ],
+                "set": [
+                    "Promotional&ndash;Celestial"
+                ],
+                "artist": [
+                    "Edwin David"
+                ],
+                "printimagehash": [
+                    "38/4d"
+                ],
+                "promoquantity": [
+                    "0"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until your turn two turns from now begins, after each time an Unaligned Human Personality turns face-up in one of your Provinces, permanently give him your Clan Alignment. <i>He has sworn fealty to you.</i>"
+        ],
+        "formattedtitle": "Open Recruitment",
+        "cardid": 5762,
+        "imagehash": "38/4d",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal December 1st, 2011",
+            "Released in the 2011 Summer Con pack"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "Open Recruitment"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "d4/09",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"I cannot promise that it shall never fall again. But the Crab shall always be here to rebuild it.\" - Hida Kisada</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "5"
+                ],
+                "artnumber": [
+                    "10030003"
+                ],
+                "set": [
+                    "Second City"
+                ],
+                "artist": [
+                    "Jason Juta"
+                ],
+                "printimagehash": [
+                    "d4/09"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until your second turn from now begins, the Attacker may not announce a Battle action before the Defender's first normal opportunity to act or pass in a battle."
+        ],
+        "formattedtitle": "Rebuilding Kyuden Hida",
+        "cardid": 6200,
+        "title": [
+            "Rebuilding Kyuden Hida"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "c9/be",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Hidden Emperor (Jade)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The end of an era, the beginning of another.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "22"
+                ],
+                "artnumber": [
+                    "10040522"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "J. Edwin Stevens"
+                ],
+                "printimagehash": [
+                    "c9/be"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "printingid": "2",
+                "set": [
+                    "Hidden Emperor 1"
+                ],
+                "artist": [
+                    "Heather Bruton"
+                ],
+                "printimagehash": [
+                    "65/3d"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, any player with three or fewer Provinces may gain a Province to the right of his rightmost Province. Each player who gained a Province from this has his Family Honor lowered to its starting value, and he may not declare an attack until your next turn begins. This Honor loss will not be negated or given to another player instead."
+        ],
+        "formattedtitle": "Rebuilding the Empire",
+        "cardid": 6201,
+        "title": [
+            "Rebuilding the Empire"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
         "imagehash": "49/a3",
         "legality": [
             "A Brother's Destiny (Twenty Festivals)",
@@ -1386,6 +3104,68 @@
         "cardid": 6292,
         "title": [
             "Return of Myth"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "printingid": "1",
+                "artnumber": [
+                    "10050160"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Lake Hurwitz"
+                ],
+                "use": [
+                    "Q3 OP Participation - non-unique 14000"
+                ],
+                "printimagehash": [
+                    "40/dd"
+                ],
+                "designer": [
+                    "Loki"
+                ],
+                "promoquantity": [
+                    "0"
+                ],
+                "designernotes": [
+                    "Legal October 1st, 2012"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, <i>the cultists of Ruhmal are restless</i>; until your next turn begins, after each time a card effect destroys a Personality, the player who last controlled him discards a card."
+        ],
+        "formattedtitle": "Ritual of Sacrifice",
+        "cardid": 6356,
+        "imagehash": "40/dd",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal October 1st, 2012",
+            "Released to the 2012 Quarter 3 Organized Play winners"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Ritual"
+        ],
+        "title": [
+            "Ritual of Sacrifice"
         ],
         "type": [
             "Event"
@@ -1713,6 +3493,436 @@
         ]
     },
     {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"It is a marvel,\" Tsukimi said. \"A painfully costly marvel,\" Bairei replied. \"But it will allow us to contact the Mantis.\"</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "9032"
+                ],
+                "set": [
+                    "Promotional&ndash;Celestial"
+                ],
+                "artist": [
+                    "Patrick McEvoy"
+                ],
+                "printimagehash": [
+                    "90/07"
+                ],
+                "promoquantity": [
+                    "122"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, look at the top four cards of any Fate deck. You may discard one of them. Put the rest back in any order."
+        ],
+        "formattedtitle": "Signs and Portents",
+        "cardid": 7253,
+        "imagehash": "90/07",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal August 1st, 2011",
+            "Released in the 2011 Kotei pack"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "Signs and Portents"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "5b/2d",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Good day, Champion. I am pleased to surrender this fugitive to you for justice. I believe there is a stipend for his capture?\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "23"
+                ],
+                "artnumber": [
+                    "10040020"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Sam Kennedy"
+                ],
+                "printimagehash": [
+                    "5b/2d"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>There are few who can escape a Tsuruchi magistrate's long reach. In the end, all criminals must face their fate.</i>"
+                ],
+                "printingid": "2",
+                "number": [
+                    "8"
+                ],
+                "set": [
+                    "The Plague War"
+                ],
+                "artist": [
+                    "Sam Kennedy"
+                ],
+                "printimagehash": [
+                    "d9/9e"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until your turn three turns from now begins, after each time a Personality opposing a Magistrate or Courtier becomes dishonorable from an action, the Personality's controller loses 2 Honor."
+        ],
+        "formattedtitle": "Successful Bounty",
+        "cardid": 7608,
+        "title": [
+            "Successful Bounty"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "fd/20",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Four Winds (Gold)",
+            "Hidden Emperor (Jade)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The greatest dramas always leave the matter of guilt or innocence slightly ambivalent. Is it any surprise the Scorpion feature prominently in so many?\" - Bayushi Hurunayi</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "24"
+                ],
+                "artnumber": [
+                    "10040021"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Mark A.W. Jackson"
+                ],
+                "printimagehash": [
+                    "fd/20"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>Beware lest you lose the substance by grasping at shadows.</i>"
+                ],
+                "printingid": "2",
+                "set": [
+                    "Hidden Emperor 2"
+                ],
+                "artist": [
+                    "Jim Pavelec"
+                ],
+                "printimagehash": [
+                    "6a/f8"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            },
+            {
+                "flavor": [
+                    "<i>\"Utagu's death is a tragedy for Rokugan and his clan. For those of who truly revere the kami, his death is a lesson, one which must be heeded if the future of Rokugan is to flourish.\" - Isawa Taeruko</i>"
+                ],
+                "printingid": "3",
+                "number": [
+                    "422"
+                ],
+                "set": [
+                    "Gold Edition"
+                ],
+                "artist": [
+                    "Mark A.W. Jackson"
+                ],
+                "printimagehash": [
+                    "22/4f"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until the game ends, before each of your Action Phases begins, each player in turn order starting with you loses 1 Honor."
+        ],
+        "formattedtitle": "Suspicions",
+        "cardid": 7675,
+        "title": [
+            "Suspicions"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "updatelog": [
+            {
+                "newdata": {
+                    "artist": [
+                        "H\u00e9ctor Herrera"
+                    ]
+                },
+                "op": "updateinstance",
+                "uid": 21069,
+                "uname": "Don Eisele",
+                "olddata": {
+                    "printing": [
+                        {
+                            "flavor": [
+                                "<i>\"Finally, the Destroyer and her elite took to the battlefield. Some hearts shattered, unable to bear her presence. Others were kindled to consuming rage.\" - Chronicles of the Bitter Spring</i>"
+                            ],
+                            "printingid": "1",
+                            "number": [
+                                "4"
+                            ],
+                            "artnumber": [
+                                "10010004"
+                            ],
+                            "set": [
+                                "Before the Dawn"
+                            ],
+                            "artist": [
+                                "H\u017dctor Herrera"
+                            ],
+                            "printimagehash": [
+                                "5c/3f"
+                            ],
+                            "rarity": [
+                                "Rare"
+                            ]
+                        }
+                    ]
+                },
+                "timestamp": 1634274975338
+            }
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Finally, the Destroyer and her elite took to the battlefield. Some hearts shattered, unable to bear her presence. Others were kindled to consuming rage.\" - Chronicles of the Bitter Spring</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "4"
+                ],
+                "artnumber": [
+                    "10010004"
+                ],
+                "set": [
+                    "Before the Dawn"
+                ],
+                "artist": [
+                    "H\u00e9ctor Herrera"
+                ],
+                "printimagehash": [
+                    "5c/3f"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until your turn two turns from now begins, after the resolution of any Battle action, give each of your Nonhumans who performed it a +1F Frenzy token."
+        ],
+        "formattedtitle": "The Agony of Her Gaze",
+        "cardid": 7954,
+        "imagehash": "5c/3f",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "The Agony of Her Gaze"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Go and bring the Imperial presence to the lesser courts.\" - Mandate of the Amethyst Champion</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "10030157"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Conceptopolis"
+                ],
+                "printimagehash": [
+                    "86/9d"
+                ],
+                "promoquantity": [
+                    "16,450"
+                ],
+                "designernotes": [
+                    "Legal January 1st, 2012"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, choose one of your Courtiers in play. Permanently give him +1PH and the ability, \"<b>Political Open:</b> This Personality copies one of another target Personality's Political abilities which does not itself copy abilities.\""
+        ],
+        "formattedtitle": "The Amethyst Championship",
+        "cardid": 7955,
+        "imagehash": "86/9d",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal January 1st, 2012",
+            "Released to the 2011 Amethyst Championship participants"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "The Amethyst Championship"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Shosuro Jimen brought both glory and shame to the position. Let us see what his successors can offer the Empire.\" - Bayushi Nitoshi</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "10030158"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Conceptopolis"
+                ],
+                "printimagehash": [
+                    "ef/27"
+                ],
+                "promoquantity": [
+                    "17,625"
+                ],
+                "designernotes": [
+                    "Legal January 1st, 2012"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, choose one of your Personalities in play. Permanently give him Imperial &#149; Magistrate and the ability, \"<b>Tireless Battle/Open:</b> Straighten a target Personality.\""
+        ],
+        "formattedtitle": "The Emerald Championship",
+        "cardid": 8049,
+        "imagehash": "ef/27",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal January 1st, 2012",
+            "Released to the 2011 Emerald Championship participants"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "The Emerald Championship"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
         "imagehash": "ae/09",
         "legality": [
             "A Brother's Destiny (Twenty Festivals)",
@@ -1799,6 +4009,82 @@
         "cardid": 8123,
         "title": [
             "The Heavens Are Watching"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "updatelog": [
+            {
+                "newdata": {
+                    "text": [
+                        "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, choose one of your Shugenja in play. Permanently give him the traits, \"Shadowlands Personalities and Followers have -1F while at this Personality's location\" and \"After the resolution of an action from a Spell, straighten this Personality.\""
+                    ]
+                },
+                "op": "update",
+                "uid": 20431,
+                "uname": "Brook Cunningham",
+                "olddata": {
+                    "text": [
+                        "Choose one of your Shugenja in play. Permanently give him the traits, \"Shadowlands Personalities and Followers have -1F while at this Personality's location\" and \"After the resolution of an action from a Spell: Straighten this Personality.\""
+                    ]
+                },
+                "timestamp": 1690922858480
+            }
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>To follow in the footsteps of the legendary Kuni Daigo is a burden covered by many.</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "10030159"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Conceptopolis"
+                ],
+                "printimagehash": [
+                    "95/80"
+                ],
+                "promoquantity": [
+                    "6,000"
+                ],
+                "designernotes": [
+                    "Legal January 1st, 2012"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, choose one of your Shugenja in play. Permanently give him the traits, \"Shadowlands Personalities and Followers have -1F while at this Personality's location\" and \"After the resolution of an action from a Spell, straighten this Personality.\""
+        ],
+        "formattedtitle": "The Jade Championship",
+        "cardid": 8163,
+        "imagehash": "95/80",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal January 1st, 2012",
+            "Released to the 2011 Jade Championship participants"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "The Jade Championship"
         ],
         "type": [
             "Event"
@@ -1920,6 +4206,691 @@
         ],
         "title": [
             "The New Order"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "updatelog": [
+            {
+                "newdata": {
+                    "text": [
+                        "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, choose one of your Personalities in play. Permanently give him +1F, Shadowlands, and the ability, \"<b>Battle:</b> Target an enemy card with lower Force. Bow it. Destroy it if it is an attachment.\""
+                    ]
+                },
+                "op": "update",
+                "uid": 20431,
+                "uname": "Brook Cunningham",
+                "olddata": {
+                    "text": [
+                        "Choose one of your Personalities in play. Permanently give him +1F, <b>Shadowlands</b>, and the ability, \"<b>Battle:</b> Target an enemy card with lower Force: Bow it. Destroy it if it is an attachment.\""
+                    ]
+                },
+                "timestamp": 1690928837114
+            }
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Stand firm and let us see which of us is worthy of service.\" - Daigotsu Hotako</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "10030160"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Conceptopolis"
+                ],
+                "printimagehash": [
+                    "62/9a"
+                ],
+                "promoquantity": [
+                    "800"
+                ],
+                "designernotes": [
+                    "Legal January 1st, 2012"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, choose one of your Personalities in play. Permanently give him +1F, Shadowlands, and the ability, \"<b>Battle:</b> Target an enemy card with lower Force. Bow it. Destroy it if it is an attachment.\""
+        ],
+        "formattedtitle": "The Obsidian Championship",
+        "cardid": 8238,
+        "imagehash": "62/9a",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal January 1st, 2012",
+            "Released to the 2011 Obsidian Championship participants"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "The Obsidian Championship"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "updatelog": [
+            {
+                "newdata": {
+                    "text": [
+                        "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, choose one of your Shugenja in play. Permanently give him Shadowlands and the ability, \"<b>Maho Limited, :bow::</b> Destroy your target Personality to search your discard pile, then deck, then Provinces for an Oni Personality, Recruit it <i>(paying all costs)</i>, and lose 3 Honor.\""
+                    ]
+                },
+                "op": "update",
+                "uid": 20431,
+                "uname": "Brook Cunningham",
+                "olddata": {
+                    "text": [
+                        "Choose one of your Shugenja in play. Permanently give him <b>Shadowlands </b>and the ability, \"<b>Maho Limited:</b> Bow this Shugenja and destroy your target Personality: Search your discard pile, then deck, then provinces for an Oni Personality. Bring him into play, paying all costs. Lose 3 Honor.\""
+                    ]
+                },
+                "timestamp": 1690929124260
+            },
+            {
+                "newdata": {
+                    "text": [
+                        "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, choose one of your Shugenja in play. Permanently give him Shadowlands and the ability, \"<b>Maho Limited, :bow::</b> Destroy your other target Personality to search your discard pile, then deck, then Provinces for an Oni Personality, Recruit it <i>(paying all costs)</i>, and lose 3 Honor.\""
+                    ]
+                },
+                "op": "update",
+                "uid": 20431,
+                "uname": "Brook Cunningham",
+                "olddata": {
+                    "text": [
+                        "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, choose one of your Shugenja in play. Permanently give him Shadowlands and the ability, \"<b>Maho Limited, :bow::</b> Destroy your target Personality to search your discard pile, then deck, then Provinces for an Oni Personality, Recruit it <i>(paying all costs)</i>, and lose 3 Honor.\""
+                    ]
+                },
+                "timestamp": 1690929159815
+            }
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Stand aside or die, fools!\" - Takasho</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "10030161"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Conceptopolis"
+                ],
+                "printimagehash": [
+                    "12/a3"
+                ],
+                "promoquantity": [
+                    "6,900"
+                ],
+                "designernotes": [
+                    "Legal January 1st, 2012"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, choose one of your Shugenja in play. Permanently give him Shadowlands and the ability, \"<b>Maho Limited, :bow::</b> Destroy your other target Personality to search your discard pile, then deck, then Provinces for an Oni Personality, Recruit it <i>(paying all costs)</i>, and lose 3 Honor.\""
+        ],
+        "formattedtitle": "The Onyx Championship",
+        "cardid": 8242,
+        "imagehash": "12/a3",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal January 1st, 2012",
+            "Released to the 2011 Only Championship participants"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "The Onyx Championship"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "updatelog": [
+            {
+                "newdata": {
+                    "text": [
+                        "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, choose one of your Personalities in play. Permanently give him Imperial, Magistrate, and the ability, \"<b>Battle:</b> Bow a target enemy Personality; if he is dishonorable, destroy a card without attachments in his unit.\""
+                    ]
+                },
+                "op": "update",
+                "uid": 20431,
+                "uname": "Brook Cunningham",
+                "olddata": {
+                    "text": [
+                        "Choose one of your Personalities in play. Permanently give him <b><b>Imperial &#149; Magistrate</b> </b>and the ability, \"<b>Battle:</b> Target an enemy Personality: Bow him. If he is dishonorable, destroy a card without attachments in his unit.\""
+                    ]
+                },
+                "timestamp": 1690930713701
+            }
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"I served the dojo with honor to the best of my abilities. Do the same, and stand tall.\" - Yasuki Miliko</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "10030162"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Conceptopolis"
+                ],
+                "printimagehash": [
+                    "e5/5d"
+                ],
+                "promoquantity": [
+                    "4,800"
+                ],
+                "designernotes": [
+                    "Legal January 1st, 2012"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, choose one of your Personalities in play. Permanently give him Imperial, Magistrate, and the ability, \"<b>Battle:</b> Bow a target enemy Personality; if he is dishonorable, destroy a card without attachments in his unit.\""
+        ],
+        "formattedtitle": "The Ruby Championship",
+        "cardid": 8288,
+        "imagehash": "e5/5d",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal January 1st, 2012",
+            "Released to the 2011 Ruby Championship participants"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "The Ruby Championship"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "updatelog": [
+            {
+                "newdata": {
+                    "text": [
+                        "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until the game ends, other players' actions will not discard cards from your hand, and if a player has resolved two actions that put cards in his hand in one phase, no more cards will be put into his hand that phase."
+                    ]
+                },
+                "op": "update",
+                "uid": 20431,
+                "uname": "Brook Cunningham",
+                "olddata": {
+                    "text": [
+                        "Until the game ends, other players' actions will not discard cards from your hand, and if a player has resolved two actions that put cards in his hand in one phase, no more cards will be put into his hand that phase."
+                    ]
+                },
+                "timestamp": 1690930841551
+            }
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The Scorpion readily accepted the aid of the Crab - together they held a dark secret.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "6"
+                ],
+                "artnumber": [
+                    "10050006"
+                ],
+                "set": [
+                    "Embers of War"
+                ],
+                "artist": [
+                    "J. Edwin Stevens"
+                ],
+                "use": [
+                    "Military or Enlightenment Event"
+                ],
+                "printimagehash": [
+                    "07/80"
+                ],
+                "designer": [
+                    "Loki"
+                ],
+                "designernotes": [
+                    "The Wall being built around the Second Shadowlands is finally complete."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until the game ends, other players' actions will not discard cards from your hand, and if a player has resolved two actions that put cards in his hand in one phase, no more cards will be put into his hand that phase."
+        ],
+        "formattedtitle": "The Scorpion Wall is Finished",
+        "cardid": 8298,
+        "imagehash": "07/80",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "erratum": [
+            "The word \"after\" changed to \"if\" via technical erratum."
+        ],
+        "title": [
+            "The Scorpion Wall is Finished"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "updatelog": [
+            {
+                "newdata": {
+                    "text": [
+                        "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, choose one of your Personalities in play without abilities. Permanently give him +1F/+1C, the trait \"Before the first time each turn another player's card effect destroys this Personality, negate the destruction\", and the ability, \"<b>Battle:</b> Destroy a target enemy card without attachments.\""
+                    ]
+                },
+                "op": "update",
+                "uid": 20431,
+                "uname": "Brook Cunningham",
+                "olddata": {
+                    "text": [
+                        "Choose one of your Personalities in play without abilities. Permanently give him +1F/+1C, the trait \"Before the first time each turn another player's card effect destroys this Personality: Negate the destruction\", and the ability, \"<b>Battle:</b> Target an enemy card without attachments: Destroy it.\""
+                    ]
+                },
+                "timestamp": 1690931866410
+            }
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The Empire's finest gather in Tsuma every year...</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "10030163"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Conceptopolis"
+                ],
+                "printimagehash": [
+                    "42/d7"
+                ],
+                "promoquantity": [
+                    "2,400"
+                ],
+                "designernotes": [
+                    "Legal January 1st, 2012"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, choose one of your Personalities in play without abilities. Permanently give him +1F/+1C, the trait \"Before the first time each turn another player's card effect destroys this Personality, negate the destruction\", and the ability, \"<b>Battle:</b> Destroy a target enemy card without attachments.\""
+        ],
+        "formattedtitle": "The Topaz Championship",
+        "cardid": 8387,
+        "imagehash": "42/d7",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal January 1st, 2012",
+            "Released to the 2011 Topaz Championship participants"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "The Topaz Championship"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "updatelog": [
+            {
+                "newdata": {
+                    "text": [
+                        "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, choose one of your Personalities in play. Permanently give him Artisan and the ability, \"<b>Limited:</b> Choose a player. He gains or loses 1 Honor.\""
+                    ]
+                },
+                "op": "update",
+                "uid": 20431,
+                "uname": "Brook Cunningham",
+                "olddata": {
+                    "text": [
+                        "Choose one of your Personalities in play. Permanently give him <b>Artisan </b>and the ability, \"<b>Limited:</b> Choose a player. He gains or loses 1 Honor.\""
+                    ]
+                },
+                "timestamp": 1690931920891
+            }
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The arts are as important as steel or prayers. They sustain and uplift us when out spirits are at their lowest point.\" - Doji Rengetsu</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "10030164"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Conceptopolis"
+                ],
+                "printimagehash": [
+                    "58/9e"
+                ],
+                "promoquantity": [
+                    "3,750"
+                ],
+                "designernotes": [
+                    "Legal January 1st, 2012"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, choose one of your Personalities in play. Permanently give him Artisan and the ability, \"<b>Limited:</b> Choose a player. He gains or loses 1 Honor.\""
+        ],
+        "formattedtitle": "The Turquoise Championship",
+        "cardid": 8399,
+        "imagehash": "58/9e",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal January 1st, 2012",
+            "Released to the 2011 Turquoise Championship participants"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "The Turquoise Championship"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "b6/c4",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>With the ranks of the Great Clans depleted, it was difficult to enforce the Empress' laws.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "6"
+                ],
+                "artnumber": [
+                    "10030004"
+                ],
+                "set": [
+                    "Second City"
+                ],
+                "artist": [
+                    "Stu Barnes"
+                ],
+                "printimagehash": [
+                    "b6/c4"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Until your second turn from now begins, all provinces have a maximum strength equal to their base strength, and after each time another player who controls no units at the current battlefield announces a Battle action, he discards a card."
+        ],
+        "formattedtitle": "Times of Strife",
+        "cardid": 8494,
+        "title": [
+            "Times of Strife"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "09/28",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Toson, I know the commander of that legion, and he is inept. Dispose of him so that Shigetoshi can put someone competent in his place.\" \"Your will, Lady Miyoko.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "5"
+                ],
+                "artnumber": [
+                    "10010005"
+                ],
+                "set": [
+                    "Before the Dawn"
+                ],
+                "artist": [
+                    "Jarreau Wimberly"
+                ],
+                "printimagehash": [
+                    "09/28"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "You may choose and destroy a Region. Until your next turn begins, negate all movement to and from battlefields."
+        ],
+        "formattedtitle": "Too Close to Home",
+        "cardid": 8633,
+        "title": [
+            "Too Close to Home"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "97/d0",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>By the end of the Destroyer War, many had perished, much land went fallow, and even samurai learned the despair that comes with months of hunger.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "7"
+                ],
+                "artnumber": [
+                    "10030007"
+                ],
+                "set": [
+                    "Second City"
+                ],
+                "artist": [
+                    "Heather V. Kreiter"
+                ],
+                "printimagehash": [
+                    "97/d0"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Until your second turn from now begins, after the resolution of the first action each phase that one or more Personalities performed, bow them."
+        ],
+        "formattedtitle": "War Weariness",
+        "cardid": 9222,
+        "title": [
+            "War Weariness"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The people of the Empire, willing to uproot themselves and move across the world to enact the will of the Empress, are blessed among all mortal people.\" - The Voice of the Empress</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "4"
+                ],
+                "artnumber": [
+                    "10020004"
+                ],
+                "set": [
+                    "Forgotten Legacy"
+                ],
+                "artist": [
+                    "Jeff Himmelman"
+                ],
+                "printimagehash": [
+                    "05/fa"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After your next turn begins, permanently give each of your provinces +2 strength."
+        ],
+        "story": [
+            "To all of our volunteers who make this game great."
+        ],
+        "formattedtitle": "Willing Spirits",
+        "cardid": 9337,
+        "imagehash": "05/fa",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "Willing Spirits"
         ],
         "type": [
             "Event"
@@ -2240,6 +5211,2312 @@
         ]
     },
     {
+        "imagehash": "b3/21",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>In the jungle depths, the Spider uncovered the Temple of Ruhmal. In the jungle depths, it was waiting for them.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "3"
+                ],
+                "artnumber": [
+                    "10060006"
+                ],
+                "set": [
+                    "The Shadow's Embrace"
+                ],
+                "artist": [
+                    "Franz Vohwinkel"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "b3/21"
+                ],
+                "text": [
+                    "Search your Fate deck or discard pile for a card titled Blood of the Preserver, show it, and put it into your hand."
+                ],
+                "designer": [
+                    "Loki"
+                ],
+                "designernotes": [
+                    "A group of Spider explorers entering the Temple of Kali-Ma and discovering the Blood of the Destroyer."
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, search your Fate deck or discard pile for a card titled Blood of the Preserver, show it, and put it into your hand."
+        ],
+        "formattedtitle": "Discovering the Temple",
+        "cardid": 9791,
+        "title": [
+            "Discovering the Temple"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "49/ed",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>As the colonies spread, events unfolding at the heart of the Empire seemed to matter less and less.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "4"
+                ],
+                "artnumber": [
+                    "10060003"
+                ],
+                "set": [
+                    "The Shadow's Embrace"
+                ],
+                "artist": [
+                    "Erich Schreiner"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "49/ed"
+                ],
+                "text": [
+                    "Until your third turn from now ends, you have the trait, \"In your Dynasty Phase, one time for each of your provinces destroyed this game, you may refill one of your provinces face-up.\""
+                ],
+                "designer": [
+                    "Duncan"
+                ],
+                "designernotes": [
+                    "Claim a Province and develop it.  It's vulnerable to attack when you first move in and it is slow to produce"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until your third turn from now ends, you have the trait, \"In your Dynasty Phase, one time for each of your Provinces destroyed this game, you may refill one of your Provinces face-up.\""
+        ],
+        "formattedtitle": "Distant Expansion",
+        "cardid": 9792,
+        "title": [
+            "Distant Expansion"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "78/51",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>On is the face one presents to all others in Rokugan. To allow this to slip, to show emotion or otherwise act inappropriately, is a great dishonor.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "5"
+                ],
+                "artnumber": [
+                    "10060004"
+                ],
+                "set": [
+                    "The Shadow's Embrace"
+                ],
+                "artist": [
+                    "Glen Osterberger"
+                ],
+                "use": [
+                    "Honor or Dishonor Event"
+                ],
+                "printimagehash": [
+                    "78/51"
+                ],
+                "text": [
+                    "Until the game ends, at the end of each phase, lower each player's Honor to what it was at the start of that phase plus 3 plus any Honor he gained from battle resolution that phase; this Honor loss will not be negated, substituted or reduced."
+                ],
+                "designer": [
+                    "Duncan"
+                ],
+                "designernotes": [
+                    "Dishonor or dishonor-meta; while honor is internal, \"face\" is not, and one can lose face by witnessing dishonorable behavior as well as by participating; Art Notes: others turn away ashamed of two men arguing"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until the game ends, at the end of phase, lower each player's Honor to what it was at the start of that phase plus 3 plus any Honor he gained from battle resolution that phase; this Honor loss will not be negated, substituted, or reduced."
+        ],
+        "formattedtitle": "On",
+        "cardid": 9793,
+        "title": [
+            "On"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "b5/35",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Political"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>She thought their happiness would bring two clans together. Instead, his pride tore them apart.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "6"
+                ],
+                "artnumber": [
+                    "10060005"
+                ],
+                "set": [
+                    "The Shadow's Embrace"
+                ],
+                "artist": [
+                    "Douglas Shuler"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "b5/35"
+                ],
+                "text": [
+                    "Choose two Personalities controlled by the same player. Until the game ends, they may not be assigned, and will not move, to each other's battlefields."
+                ],
+                "designer": [
+                    "Thomas"
+                ],
+                "designernotes": [
+                    "Shikei refusing to marry Naleesh."
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, choose two Personalities controlled by the same player. Until the game ends, they may not be assigned, and will not move, to each other's battlefields."
+        ],
+        "formattedtitle": "Star-Crossed Lovers",
+        "cardid": 9794,
+        "title": [
+            "Star-Crossed Lovers"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "78/56",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Even in times of peace, a samurai's duty is to prepare for war.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "7"
+                ],
+                "artnumber": [
+                    "10060007"
+                ],
+                "set": [
+                    "The Shadow's Embrace"
+                ],
+                "artist": [
+                    "Shen Fei"
+                ],
+                "use": [
+                    "Military or Enlightenment Event"
+                ],
+                "printimagehash": [
+                    "78/56"
+                ],
+                "text": [
+                    "Until the game ends, before the second or later time each turn another player's card's effect bows any of your Personalities during the Action Phase, negate that effect, and before the second or later time each turn another player's card's effect prevents any of your Personalities from assigning, negate that effect."
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "[Art Note: With clan feuding resuming, this shows a Personality ignoring whatever is holding him back and prepping for war.]"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Until the game ends, before the second or later time each turn another player's card's effect bows any of your Personalities during the Action Phase, negate that effect, and before the second or later time each turn another player's card's effect prevents any of your Personalities from assigning, negate that effect."
+        ],
+        "formattedtitle": "Wartime Preparations",
+        "cardid": 9795,
+        "title": [
+            "Wartime Preparations"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Over the course of decades, the quiet intensity and visceral starkness of the Turquoise Champion's poems gained an incredible following among the people of Rokugan.</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "10060178"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Dan Masso"
+                ],
+                "use": [
+                    "[Summer Con Pack Card 19] 2700"
+                ],
+                "printimagehash": [
+                    "b4/4a"
+                ],
+                "text": [
+                    "After your next End Phase begins, if you did not put any cards in your hand since the resolution of this Event, draw two cards."
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "Legal December 1, 2012"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, after your next Dynasty Phase ends, if you did not put any cards in your hand since the resolution of this Event, draw two cards."
+        ],
+        "formattedtitle": "Tales of Valor",
+        "cardid": 9949,
+        "imagehash": "b4/4a",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal December 1st, 2012",
+            "Released in the 2012 Summer Con pack"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "Tales of Valor"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "91/f1",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"What an interesting effect this item has.\" - Daigotsu Kanpeki</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "3"
+                ],
+                "artnumber": [
+                    "10070005"
+                ],
+                "set": [
+                    "Seeds of Decay"
+                ],
+                "artist": [
+                    "Shen Fei"
+                ],
+                "printimagehash": [
+                    "91/f1"
+                ],
+                "designer": [
+                    "Duncan"
+                ],
+                "designernotes": [
+                    "That's probably too long, but my idea is an Event that acts like The Blasted Lands until the land recovers (ie, you get a Region).  It hoses the Province all around since it has a get-out clause (for some decks)."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, choose a Province. Permanently give it -2 strength and destroy any Region attached to it. Until the game ends, after a Region attaches to it, destroy the Region, and after a Holding enters play from it, give the Holding a -1GP token."
+        ],
+        "formattedtitle": "Dark Experiments",
+        "cardid": 10029,
+        "title": [
+            "Dark Experiments"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "06/6d",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The changes in climate, the slight difference in diet, and a dozen other things made the horses skittish. When the wildfire broke out, many were already so anxious that they could not recover from it.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "4"
+                ],
+                "artnumber": [
+                    "10070006"
+                ],
+                "set": [
+                    "Seeds of Decay"
+                ],
+                "artist": [
+                    "Stefano Baldo"
+                ],
+                "printimagehash": [
+                    "06/6d"
+                ],
+                "designer": [
+                    "Thomas"
+                ],
+                "designernotes": [
+                    "Piles of dead horses."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until your second turn from now begins, Personalities may not be targeted by the rulebook Cavalry player ability."
+        ],
+        "formattedtitle": "Incredible Tragedy",
+        "cardid": 10030,
+        "title": [
+            "Incredible Tragedy"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "c7/4a",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Festival"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Even peasants honor their ancestors. No samurai should ever neglect these rituals.\" - Kitsu Kagako</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "5"
+                ],
+                "artnumber": [
+                    "10070003"
+                ],
+                "set": [
+                    "Seeds of Decay"
+                ],
+                "artist": [
+                    "J. Edwin Stevens"
+                ],
+                "printimagehash": [
+                    "c7/4a"
+                ],
+                "designer": [
+                    "Loki"
+                ],
+                "designernotes": [
+                    "A group of peasants celebrating a festival for the dead."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, for each dead Personality in your discard pile, create a 2F/2C/3PH Samurai &#149; Ancestor &#149; Spirit Personality with your Clan Alignment. If this created no Personalities, you may shuffle this Event into your deck instead of discarding it normally."
+        ],
+        "formattedtitle": "Offering Reverence",
+        "cardid": 10031,
+        "title": [
+            "Offering Reverence"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "cf/6b",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Other monks talk to hear themselves talking. Mukudori-sensei says only what needs to be said.\" - Hiruma Sawai</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "6"
+                ],
+                "artnumber": [
+                    "10070004"
+                ],
+                "set": [
+                    "Seeds of Decay"
+                ],
+                "artist": [
+                    "Sergio Camarena"
+                ],
+                "printimagehash": [
+                    "cf/6b"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "[Art Note: This shows Fudo's path to finding enlightenment, which is easier but not the true path (You play Rings easily, but they don't count towards enlightenment)]"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until your second turn from now begins, you have the ability, \"<b>Limited:</b> Put a target Ring in your hand into play. While it remains in play, it does not count towards an Enlightenment Victory.\""
+        ],
+        "formattedtitle": "Starting on the Path",
+        "cardid": 10032,
+        "title": [
+            "Starting on the Path"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The Crane are masters of diplomacy, but have encountered few foes as recalcitrant as the Mantis. Still, in the aftermath of the battle, even the Mantis desired peace.\" - Asako Kikugoro</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "10110158"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Christopher Appel"
+                ],
+                "use": [
+                    "[Kotei pack card 1]"
+                ],
+                "printimagehash": [
+                    "b6/d9"
+                ],
+                "designernotes": [
+                    "[Note: The Crane-Mantis war ends.]"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until your next turn begins, after each time a player creates an Attack Phase, destroy his rightmost Province."
+        ],
+        "formattedtitle": "Diplomacy Talks",
+        "cardid": 10230,
+        "imagehash": "b6/d9",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal July 1st, 2013",
+            "Released in the 2013 Kotei pack"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "Diplomacy Talks"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "playtestname": [
+            "Russian Roulette"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>He reached for the results with a trembling hand. If the Moon Die showed Void, his entire fortune was lost.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "3"
+                ],
+                "artnumber": [
+                    "10110006"
+                ],
+                "set": [
+                    "Torn Asunder"
+                ],
+                "artist": [
+                    "Veronica V. Jones"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "e4/89"
+                ],
+                "designer": [
+                    "Loki"
+                ],
+                "designernotes": [
+                    "Bandits playing a game of dice."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, you may discard your hand <i>(even if it is empty)</i> to draw four cards."
+        ],
+        "formattedtitle": "A Dangerous Game",
+        "cardid": 10259,
+        "imagehash": "e4/89",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "A Dangerous Game"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "playtestname": [
+            "Get Ready!"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"How could they march against us?\" \"I do not know, but the Second City must know that the Legions are on the way!\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "4"
+                ],
+                "artnumber": [
+                    "10110004"
+                ],
+                "set": [
+                    "Torn Asunder"
+                ],
+                "artist": [
+                    "Felipe Gaona"
+                ],
+                "use": [
+                    "Should have something to do with the Lion warning the Second City that the two Imperial legions are coming to the Second City"
+                ],
+                "printimagehash": [
+                    "cc/f7"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "[Note: Two Imperial Legions have been spotted by the Lion and they come back to the Second City to warn them.]"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until the game ends, Equipping Followers and Items from your hand with a printed Gold Cost of 1 to 4 is a <b>Battle/Open</b> action for you and, after the first time each turn you do so, draw a card."
+        ],
+        "formattedtitle": "Harbingers of War",
+        "cardid": 10260,
+        "imagehash": "cc/f7",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "Harbingers of War"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "playtestname": [
+            "Failed Diplomacy"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Sukihime's serene mask slipped for a brief moment as she read the missive. \"Prepare our defenses,\" she ordered. \"They are coming.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "5"
+                ],
+                "artnumber": [
+                    "10110003"
+                ],
+                "set": [
+                    "Torn Asunder"
+                ],
+                "artist": [
+                    "David Horne"
+                ],
+                "use": [
+                    "Should have something to do with the failed diplomacy between the Colonies and the Empire"
+                ],
+                "printimagehash": [
+                    "a5/4d"
+                ],
+                "designer": [
+                    "Thomas"
+                ],
+                "designernotes": [
+                    "Otomo Sukihime crumpling up a missive from the empire. Diplomacy has failed and the Imperial Legion amrches."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, any player who controls the Imperial Favor discards it and, until your second turn from now begins, negate the effects of the first Political action taken each turn."
+        ],
+        "formattedtitle": "Rejected Mediation",
+        "cardid": 10261,
+        "imagehash": "a5/4d",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "Rejected Mediation"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "playtestname": [
+            "Shaggy"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>A sense of bemusement filled the air. \"These trifling actions of men have nothing to do with me,\" the dragon said.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "6"
+                ],
+                "artnumber": [
+                    "10110007"
+                ],
+                "set": [
+                    "Torn Asunder"
+                ],
+                "artist": [
+                    "Jason Engle"
+                ],
+                "use": [
+                    "Should have something to reflect the fact the Shadow Dragon reveals to the Scorpion that it is not involved in the conflict. As for the title Shaggy, \"It wasn't me\". Get it? :)"
+                ],
+                "printimagehash": [
+                    "15/13"
+                ],
+                "designer": [
+                    "Duncan"
+                ],
+                "designernotes": [
+                    "Should have something to reflect the fact the Shadow Dragon reveals to the Scorpion that it is not involved in the conflict. As for the title Shaggy, \"It wasn't me\". Get it? :)"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, show the top five cards of your Dynasty deck. Choose another player who may discard one of the cards, put the rest back in any order, and refill this Province face-up."
+        ],
+        "formattedtitle": "Revelations",
+        "cardid": 10262,
+        "imagehash": "15/13",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "Revelations"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "playtestname": [
+            "Monsoon"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Neither side wished to let loose the first blood, and the constant rain only served to further dampen the mood.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "7"
+                ],
+                "artnumber": [
+                    "10110005"
+                ],
+                "set": [
+                    "Torn Asunder"
+                ],
+                "artist": [
+                    "David Horne"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "57/75"
+                ],
+                "designer": [
+                    "Thomas"
+                ],
+                "designernotes": [
+                    "A Monsoon drenching the Second City and those attacking it."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Until your next turn begins, after each time a Personality is assigned to attack, negate his straightening during his controller's next Straighten Phase <i>(after he assigns)</i>."
+        ],
+        "formattedtitle": "Unseasonable Weather",
+        "cardid": 10263,
+        "imagehash": "57/75",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "Unseasonable Weather"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"There is no greater strength, no greater resource, than those who share your bloodline. A family's abilities can be harnessed in war to tremendous effect, and should be.\" - Akodo's Leadership</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "151"
+                ],
+                "artnumber": [
+                    "22617"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Conceptopolis"
+                ],
+                "use": [
+                    "[April Herald Card 1]"
+                ],
+                "printimagehash": [
+                    "7d/b6"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Until your next turn begins, your Personalities have +1F while in an army with another Personality with the same Family Name."
+        ],
+        "formattedtitle": "Family Maneuvers",
+        "cardid": 10407,
+        "imagehash": "7d/b6",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal July 1st, 2013",
+            "Released in the special Imperial Assembly pack in May 2013"
+        ],
+        "erratum": [
+            "Errata effective upon Ivory Edition release."
+        ],
+        "title": [
+            "Family Maneuvers"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "09/62",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Even in the simplest of activities, the madness began to manifest itself among those who seemed most unlikely&#8230;</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "11"
+                ],
+                "artnumber": [
+                    "10130004"
+                ],
+                "set": [
+                    "Coils of Madness"
+                ],
+                "artist": [
+                    "Sergio Camarena"
+                ],
+                "use": [
+                    "[Samurai in the Colonies are going mad and performing their duties in strange and unusual ways.]"
+                ],
+                "printimagehash": [
+                    "09/62"
+                ],
+                "designer": [
+                    "Duncan"
+                ],
+                "designernotes": [
+                    "[Samurai in the Colonies are going mad and performing their duties in strange and unusual ways.]"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Until your second turn from now begins, once per turn, you may take a Limited action on a Strategy as an <b>Open</b> action."
+        ],
+        "formattedtitle": "The Madness Spreads",
+        "cardid": 10419,
+        "title": [
+            "The Madness Spreads"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "d7/b8",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>With the truth behind the Blood revealed, the other clans sent their finest to petition the Spider for its use.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "6"
+                ],
+                "artnumber": [
+                    "10130005"
+                ],
+                "set": [
+                    "Coils of Madness"
+                ],
+                "artist": [
+                    "Mark Poole"
+                ],
+                "use": [
+                    "Magistrates meet with Kanpeki and try to convince him to let them use the Blood of the Destroyer"
+                ],
+                "printimagehash": [
+                    "d7/b8"
+                ],
+                "designer": [
+                    "Thomas"
+                ],
+                "designernotes": [
+                    "Magistrates meet with Kanpeki and try to convince him to let them use the Blood of the Preserver"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Search your Fate deck for two attachments with different titles. Show them. Another player chooses one of them and removes it from the game. Put the other attachment in your hand."
+        ],
+        "formattedtitle": "Dark Audience",
+        "cardid": 10420,
+        "title": [
+            "Dark Audience"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "d3/55",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Commander, how can we know if those outside the gates are corrupted?\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "7"
+                ],
+                "artnumber": [
+                    "10130006"
+                ],
+                "set": [
+                    "Coils of Madness"
+                ],
+                "artist": [
+                    "Bob Stevlic"
+                ],
+                "use": [
+                    "Non-unique"
+                ],
+                "printimagehash": [
+                    "25/e1",
+                    "d3/55"
+                ],
+                "designer": [
+                    "Thomas"
+                ],
+                "designernotes": [
+                    "Sentries nervously guarding the Second City."
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Until your next turn begins, other players' cards will not destroy your Personalities in a defending army."
+        ],
+        "formattedtitle": "Rampant Paranoia",
+        "cardid": 10421,
+        "title": [
+            "Rampant Paranoia"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "93/43",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>In the year 1199 according to the Isawa calendar, the previously unseen influence of the mad dragon, P'an Ku, reached into the hearts of many within the Colonies, and the result was madness and suffering on an undreamt of scale.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "8"
+                ],
+                "artnumber": [
+                    "10130007"
+                ],
+                "set": [
+                    "Coils of Madness"
+                ],
+                "artist": [
+                    "Jeff Hill"
+                ],
+                "use": [
+                    "A riot breaks out in the Second City"
+                ],
+                "printimagehash": [
+                    "93/43"
+                ],
+                "designer": [
+                    "Loki"
+                ],
+                "designernotes": [
+                    "A riot breaks out in the Second City."
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Each player targets and bows an unbowed Samurai."
+        ],
+        "formattedtitle": "Riot in the Second City",
+        "cardid": 10422,
+        "title": [
+            "Riot in the Second City"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "00/ac",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Doji Hakuseki looked upon the face of the being that had threatened her Empire, and she felt the sin of hate in her heart.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "10"
+                ],
+                "artnumber": [
+                    "10130008"
+                ],
+                "set": [
+                    "Coils of Madness"
+                ],
+                "artist": [
+                    "Aurelien Hubert"
+                ],
+                "use": [
+                    "Unique"
+                ],
+                "printimagehash": [
+                    "00/ac"
+                ],
+                "designer": [
+                    "Loki"
+                ],
+                "designernotes": [
+                    "Magistrates taking on the Dark Naga."
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Target two Unique Personalities in play, exactly one of which is yours. Your Personality challenges the other Personality. Destroy the duel's loser."
+        ],
+        "formattedtitle": "The Empire's Foe Exposed",
+        "cardid": 10423,
+        "title": [
+            "The Empire's Foe Exposed"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "updatelog": [
+            {
+                "newdata": {
+                    "legality": [
+                        "A&nbsp;Brother's&nbsp;Destiny&nbsp;(Ivory&nbsp;Edition)",
+                        "Age&nbsp;of&nbsp;Conquest&nbsp;(Emperor)",
+                        "Modern"
+                    ]
+                },
+                "op": "update",
+                "uid": 21069,
+                "uname": "Don Eisele",
+                "olddata": {
+                    "legality": [
+                        "A&nbsp;Brother's&nbsp;Destiny&nbsp;(Ivory&nbsp;Edition)",
+                        "Age&nbsp;of&nbsp;Conquest&nbsp;(Emperor)",
+                        "Modern",
+                        "Modern"
+                    ]
+                },
+                "timestamp": 1634265155822
+            }
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>With the news of P'an Ku's involvement, the Governor and the Commander agreed to set aside their conflict in the interest of a greater threat.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "5"
+                ],
+                "artnumber": [
+                    "10130009"
+                ],
+                "set": [
+                    "Coils of Madness"
+                ],
+                "artist": [
+                    "Lino Drieghe"
+                ],
+                "use": [
+                    "This represents the temporary truce between Suikihime and the Imperial Commander while they figure out what is going on"
+                ],
+                "printimagehash": [
+                    "ff/79"
+                ],
+                "designer": [
+                    "Duncan"
+                ],
+                "designernotes": [
+                    "This represents the temporary truce between Suikihime and the Imperial Commander while they figure out what is going on"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Until the game ends, each player draws two cards instead of one at the end of his turn if he put no other cards in his hand that turn."
+        ],
+        "formattedtitle": "An End to Hostilities",
+        "cardid": 10424,
+        "imagehash": "ff/79",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "An End to Hostilities"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "0b/0f",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"There are times in history when madness has inspired incredible victories,\" Ikoma Natsu said. \"How am I to feel about this?\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "9"
+                ],
+                "artnumber": [
+                    "10130010"
+                ],
+                "set": [
+                    "Coils of Madness"
+                ],
+                "artist": [
+                    "Sergio Camarena"
+                ],
+                "use": [
+                    "An Event of some point in the past"
+                ],
+                "printimagehash": [
+                    "0b/0f"
+                ],
+                "designer": [
+                    "Thomas"
+                ],
+                "designernotes": [
+                    "A flashback to Bieden Pass being destroyed to kill the spirit armies."
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Until the game ends, this Province does not hold Dynasty cards and has +10 Province Strength."
+        ],
+        "formattedtitle": "The Second Battle of Beiden Pass",
+        "cardid": 10425,
+        "title": [
+            "The Second Battle of Beiden Pass"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "a4/d2",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Through the haze and the veil of time, the magistrates beheld a terrible sight&#8230; a land ruled by fear and madness.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "4"
+                ],
+                "artnumber": [
+                    "10130011"
+                ],
+                "set": [
+                    "Coils of Madness"
+                ],
+                "artist": [
+                    "Hannah B\u00f6ving"
+                ],
+                "use": [
+                    "An Event prophesizing about the Colonies devolving into complete madness."
+                ],
+                "printimagehash": [
+                    "a4/d2"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "[Note: This is an event where we see into the future and see that the Colonies have devolved into complete madness and many heroes have been lost. Some of the fallen heroes should be featured in this art showing that they are lost to madness.]"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until the game ends, each player has the ability, \"<b>Open:</b> Your target Personality with a Madness token commits Seppuku\" and any player who ends his turn with 20 or more Madness tokens on his Personalities loses the game."
+        ],
+        "formattedtitle": "An Empire of Madness",
+        "cardid": 10426,
+        "title": [
+            "An Empire of Madness"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Punishment to the wicked. Vengeance for the just.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "155"
+                ],
+                "artnumber": [
+                    "10130181"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Chris Burdett"
+                ],
+                "use": [
+                    "[Level 15/20 Participation]"
+                ],
+                "printimagehash": [
+                    "b0/d0"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "http://l5r.wikia.com/wiki/Yozo"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Until your second turn from now begins, your Personalities have +1F while attacking a player who declared an attack against you since your last turn ended."
+        ],
+        "formattedtitle": "Yozo's Inspiration",
+        "cardid": 10564,
+        "imagehash": "b0/d0",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal January 1st, 2014",
+            "Released to the Level 15, Level 20, and Jewel Event participants"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "Yozo's Inspiration"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Seen through the lessons of Fudo, many things in the Colonies seemed reasonable and righteous. Consequences were ignored in favor of a new freedom.</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "10130147"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Nikolay Stoyanov"
+                ],
+                "use": [
+                    "[Summer Con Dynasty 4]"
+                ],
+                "printimagehash": [
+                    "86/ee"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "This is the massive confrontation with Fudo"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Until your turn begins three turns from now begins, each player may put no more than one Ring into play per turn."
+        ],
+        "formattedtitle": "Losing the Way",
+        "cardid": 10565,
+        "imagehash": "86/ee",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal December 1st, 2013",
+            "Released in the 2013 Summer Con pack"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "Losing the Way"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"We will restore order!\" the commander cried over the shouts of the chaos. \"For the Empress. For Rokugan!\"</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "10130146"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Albert Tavira"
+                ],
+                "use": [
+                    "[Summer Con Dynasty 3]"
+                ],
+                "printimagehash": [
+                    "46/95"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "The aftermath of a battle leaves all of the Samurai psyched and ready for more fighting."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Permanently give your target Personality <b>Conqueror</b>."
+        ],
+        "formattedtitle": "Legionnaire's Appointment",
+        "cardid": 10566,
+        "imagehash": "46/95",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal December 1st, 2013",
+            "Released in the 2013 Summer Con pack"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "Legionnaire's Appointment"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>In the chaos, it was the Phoenix who began to understand what was happening. The Second City and everything near it was engulfed in chaos, but not even the Isawa knew who was gripped by madness and who was simply acting of their free will.</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "10130145"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "IFS"
+                ],
+                "use": [
+                    "[Summer Con Dynasty 2]"
+                ],
+                "printimagehash": [
+                    "93/79"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "The Empire and Colonies realize P'an Ku and Fudo are to blame for the havoc."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Destroy all Madness tokens."
+        ],
+        "formattedtitle": "The Fever Breaks",
+        "cardid": 10567,
+        "imagehash": "93/79",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal December 1st, 2013",
+            "Released in the 2013 Summer Con pack"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "The Fever Breaks"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "updatelog": [
+            {
+                "newdata": {
+                    "legality": [
+                        "A&nbsp;Brother's&nbsp;Destiny&nbsp;(Ivory&nbsp;Edition)",
+                        "Age&nbsp;of&nbsp;Conquest&nbsp;(Emperor)",
+                        "Modern"
+                    ]
+                },
+                "op": "update",
+                "uid": 21069,
+                "uname": "Don Eisele",
+                "olddata": {
+                    "legality": [
+                        "A&nbsp;Brother's&nbsp;Destiny&nbsp;(Ivory&nbsp;Edition)",
+                        "Age&nbsp;of&nbsp;Conquest&nbsp;(Emperor)",
+                        "Modern",
+                        "Modern"
+                    ]
+                },
+                "timestamp": 1634264508226
+            }
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"I never thought I would want to share a victory with you,\" Tsudoken said over the cheers. \"I never thought I would let you,\" Yuri replied with a grin.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "149"
+                ],
+                "artnumber": [
+                    "10130166"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Albert Tavira"
+                ],
+                "use": [
+                    "[Q4 OP Kit Prize]"
+                ],
+                "printimagehash": [
+                    "0c/b0"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "Samurai have defeated their enemies on a field of battle and are celebrating (this is the scene after 10130167)"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> After each battle resolution <i>(this turn)</i> in which your army destroyed an enemy army or Province, give each of your Personalities in that army a +1F/+1C token."
+        ],
+        "formattedtitle": "A Great Victory",
+        "cardid": 10568,
+        "imagehash": "0c/b0",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal January 1st, 2014",
+            "Released to the 2013 Q4 Organized Play winners"
+        ],
+        "title": [
+            "A Great Victory"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>A celebration of the Fortune of Rice's merciful aspect leads to long celebrations of bounty and generosity.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "151"
+                ],
+                "artnumber": [
+                    "10130182"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "A.C. Swedberg"
+                ],
+                "use": [
+                    "[August Pre-Release]"
+                ],
+                "printimagehash": [
+                    "6e/7d"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "I have no idea what this event should be. I think it would be cool to have this art tied to 10130183 since they are similar cards and both pre-releases."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Give your non-Unique Holdings +1 Gold Production until your next turn begins."
+        ],
+        "formattedtitle": "Inari's Festival",
+        "cardid": 10569,
+        "imagehash": "6e/7d",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal November 1st, 2013",
+            "Released to the Gates of Chaos Pre-Release participants"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Festival"
+        ],
+        "title": [
+            "Inari's Festival"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The Fortune of Rice's wrathful aspect is not celebrated so much as begged for mercy and a swift departure.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "150"
+                ],
+                "artnumber": [
+                    "10130183"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "A.C. Swedberg"
+                ],
+                "use": [
+                    "[November Pre-Release]"
+                ],
+                "printimagehash": [
+                    "69/a7"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "I have no idea what this event should be. I think it would be cool to have this art tied to 10130182 since they are similar cards and both pre-releases."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Give all other players' non-Unique Holdings -1 Gold Production until your next turn begins."
+        ],
+        "formattedtitle": "Frost Dragon Festival",
+        "cardid": 10570,
+        "imagehash": "69/a7",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal February 1st, 2014",
+            "Released to the Aftermath Pre-Release participants"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Festival"
+        ],
+        "title": [
+            "Frost Dragon Festival"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "updatelog": [
+            {
+                "newdata": {
+                    "legality": [
+                        "A&nbsp;Brother's&nbsp;Destiny&nbsp;(Ivory&nbsp;Edition)",
+                        "Age&nbsp;of&nbsp;Conquest&nbsp;(Emperor)",
+                        "Modern"
+                    ]
+                },
+                "op": "update",
+                "uid": 21069,
+                "uname": "Don Eisele",
+                "olddata": {
+                    "legality": [
+                        "A&nbsp;Brother's&nbsp;Destiny&nbsp;(Ivory&nbsp;Edition)",
+                        "Age&nbsp;of&nbsp;Conquest&nbsp;(Emperor)",
+                        "Modern",
+                        "Modern"
+                    ]
+                },
+                "timestamp": 1634264343267
+            }
+        ],
+        "playtestname": [
+            "[Minor Epidemic]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The land itself added to the conflict, as loyal samurai and Fallen alike found themselves beset with fever and weakness. True-hearted samurai drew on the strength of honor and forged on. The Fallen had no such resources.\" - Chronicle of the Heretic War, Part I</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "2"
+                ],
+                "artnumber": [
+                    "10140002"
+                ],
+                "set": [
+                    "Gates of Chaos"
+                ],
+                "artist": [
+                    "Shen Fei"
+                ],
+                "use": [
+                    "Honor or Dishonor Event"
+                ],
+                "printimagehash": [
+                    "46/b4"
+                ],
+                "designer": [
+                    "Loki"
+                ],
+                "designernotes": [
+                    "A samurai, visibly weakened by some tropical malady, fighting against a Fallen."
+                ],
+                "rarity": [
+                    "Common"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Personalities and Followers have -1F while attacking.<br><b>Limited:</b> Put this Event into play. Discard it after your next turn begins."
+        ],
+        "formattedtitle": "A Fever in the Blood",
+        "cardid": 10603,
+        "imagehash": "46/b4",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "title": [
+            "A Fever in the Blood"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Siege]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"This is a simple problem. We are going to take back Journey's End City, and anyone who tries to stop us can die beneath our charge.\" - Shinjo Tselu</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "3"
+                ],
+                "artnumber": [
+                    "10140003"
+                ],
+                "set": [
+                    "Gates of Chaos"
+                ],
+                "artist": [
+                    "Lino Drieghe"
+                ],
+                "use": [
+                    "Military or Enlightenment Event"
+                ],
+                "printimagehash": [
+                    "be/ef"
+                ],
+                "designer": [
+                    "Thomas"
+                ],
+                "designernotes": [
+                    "Fallen forces attacking Journey's End Keep"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Defending players may not play Terrains <i>(this turn)</i>. After the first time you destroy a Province in battle this turn, if you do not have more Provinces than the Defender <i>(at that time)</i>, gain a Province."
+        ],
+        "formattedtitle": "Journey's End Siege",
+        "cardid": 10604,
+        "imagehash": "be/ef",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "Journey's End Siege"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "19/15",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern",
+            "Modern"
+        ],
+        "playtestname": [
+            "[The Unicorn Attack!]"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Not content to let the honorless retain Journey's End City, the children of Shinjo assembled their forces and rode to battle. With bushido in their hearts and steel in their hands, they engaged the Fallen.\" - Chronicle of the Heretic War, Part III</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "4"
+                ],
+                "artnumber": [
+                    "10140004"
+                ],
+                "set": [
+                    "Gates of Chaos"
+                ],
+                "artist": [
+                    "David Horne"
+                ],
+                "use": [
+                    "Designer's Choice"
+                ],
+                "printimagehash": [
+                    "19/15"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "Art Note: The Unicorn attack the Fallen at Journey's End Keep."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Your Cavalry Personalities and Followers have +1F while attacking and opposed <i>(this turn)</i>."
+        ],
+        "formattedtitle": "Riding to the Rescue",
+        "cardid": 10605,
+        "title": [
+            "Riding to the Rescue"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "3d/1a",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern",
+            "Modern"
+        ],
+        "playtestname": [
+            "Blood Gift"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Unfortunate circumstances prevent me from presenting this to your mother, as would be my wish,\" Kanpeki said with a low bow. \"In her stead, naturally, I sought out the most worthy scion of the Imperial families to serve as her representative.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "4"
+                ],
+                "artnumber": [
+                    "10150003"
+                ],
+                "set": [
+                    "Aftermath"
+                ],
+                "artist": [
+                    "Albert Tavira"
+                ],
+                "use": [
+                    "In which Kanpeki gifts the Blood of the Preserver to Iweko Shibatsu."
+                ],
+                "printimagehash": [
+                    "3d/1a"
+                ],
+                "designer": [
+                    "Duncan"
+                ],
+                "designernotes": [
+                    "Art: Daigotsu Kanpeki bowing before Iweko Shibatsu, presenting the gift.<br>Design: The Spider seek glory by turning over the Blood."
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Search your hand, then your discard pile, and then your Fate deck for a card titled Blood of the Preserver. Show it. Remove it from the game to gain 2 Honor."
+        ],
+        "formattedtitle": "Changing the Game",
+        "cardid": 10819,
+        "title": [
+            "Changing the Game"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
         "imagehash": "09/20",
         "legality": [
             "A Brother's Destiny (Ivory Edition)",
@@ -2339,6 +7616,130 @@
         "cardid": 10820,
         "title": [
             "Into the Wastes"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "playtestname": [
+            "Marriage of the Emerald Champ"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The wedding of an individual like the Emerald Champion is an occasion of rare gravity indeed. The intended's family gains incredible wealth and renown, and typically hosts a celebration of enormous scope.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "6"
+                ],
+                "artnumber": [
+                    "10150006"
+                ],
+                "set": [
+                    "Aftermath"
+                ],
+                "artist": [
+                    "Wenjuinn"
+                ],
+                "printimagehash": [
+                    "c9/53"
+                ],
+                "designer": [
+                    "Thomas"
+                ],
+                "designernotes": [
+                    "An extravagant wedding."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Put this Event into play. Target your Personality. While this Event remains in play, he will not be dishonored and you will not lose Honor from other players' actions that have targeted him . After your second turn from now begins, discard this Event."
+        ],
+        "story": [
+            "2012 Name an Event - Jacob Hampton"
+        ],
+        "formattedtitle": "Marriage of the Emerald Champion",
+        "cardid": 10821,
+        "imagehash": "c9/53",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "title": [
+            "Marriage of the Emerald Champion"
+        ],
+        "type": [
+            "Event"
+        ]
+    },
+    {
+        "imagehash": "8b/3c",
+        "legality": [
+            "A Brother's Destiny (Ivory Edition)",
+            "Age of Conquest (Emperor)",
+            "Modern",
+            "Modern"
+        ],
+        "playtestname": [
+            "The Hunt"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Throughout the Colonies, the monasteries and hidden strongholds of the Fudo cult were sought out and put to the torch. Those who had embraced the blasphemous philosophy either recanted and were taken into custody, or refused, and were slain outright.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "7"
+                ],
+                "artnumber": [
+                    "10150008"
+                ],
+                "set": [
+                    "Aftermath"
+                ],
+                "artist": [
+                    "Dieter Miller"
+                ],
+                "use": [
+                    "Imperial Legions hunting the Fudo cultists"
+                ],
+                "printimagehash": [
+                    "8b/3c"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "Art Note: This is the Imperial Legions hunting the Fudo cultists"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Starting with you, each player targets <i>(if possible)</i> and destroys a card with the printed Fallen, Fudo, or Shadowlands keyword."
+        ],
+        "formattedtitle": "Purge of Fudoism",
+        "cardid": 10822,
+        "title": [
+            "Purge of Fudoism"
         ],
         "type": [
             "Event"

@@ -1,0 +1,19 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import MantisClan
+from l5r_auto.keywords import Ambassador, Commander, Courtier, Experienced, Extortionist, Loyal, Magistrate, Naval, Nonhuman, Prophet, Samurai, Scout, Seductress, Shugenja, Shåjå, StormRider, Thunder, Unique
+from l5r_auto.legality import CelestialEdition, EmperorEdition, ModernEdition
+"As an additional cost of En'you entering play, either remove a card in your hand from the game or destroy one of your Sake tokens."
+Enyou = Personality(card_id=2331, title="En'you", force=2, chi=2, personal_honor=0, gold_cost=2, honor_requirement=None, clan=[MantisClan], keywords=[Nonhuman, Prophet, Shåjå], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+'Umiko has +2F while she has a Spell.<br><b>Reaction:</b> After a Ranged Attack is targeted: Give the Ranged Attack +2 or -2 strength.'
+Moshi_Umiko = Personality(card_id=5287, title='Moshi Umiko', force=4, chi=4, personal_honor=1, gold_cost=9, honor_requirement=None, clan=[MantisClan], keywords=[Naval, Shugenja, StormRider, Thunder], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+'Enters play paying 2 less Gold if you are a Lion Clan or Scorpion Clan player.<br><b>Battle:</b> Bow Yashiro unless you have Reconnaissance: Ranged 4 Attack.'
+Tsuruchi_Yashiro = Personality(card_id=8896, title='Tsuruchi Yashiro', force=4, chi=3, personal_honor=2, gold_cost=7, honor_requirement=0, clan=[MantisClan], keywords=[Samurai, Scout], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+"Sachina's base ability will not be copied.<br><b>Political Limited:</b> Once per game, target a Personality, pay Gold equal to his unit's total Gold Cost plus four, and bow Sachina: Take control of him. After the next time this game Sachina leaves play, give control of him to his owner."
+Yoritomo_Sachina_Experienced = Personality(card_id=9623, title='Yoritomo Sachina', force=1, chi=5, personal_honor=1, gold_cost=8, honor_requirement=None, clan=[MantisClan], keywords=[Loyal, Unique, Courtier, Experienced('1'), Seductress], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+"<b>Reaction:</b> When paying an action's Gold cost: Produce 3 Gold.<br><b>Battle:</b> Target an enemy card without attachments and pay Gold equal to its Gold Cost: Destroy it."
+Yoritomo_Singh_Experienced_2 = Personality(card_id=9630, title='Yoritomo Singh', force=3, chi=4, personal_honor=1, gold_cost=8, honor_requirement=None, clan=[MantisClan], keywords=[Experienced('2'), Loyal, Naval, Unique, Ambassador, Courtier, Magistrate, Samurai], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+'<b>Open:</b> Pay 2 Gold: Choose a player. He targets one of his unbowed Personalities or Holdings or a card in his hand. If the targeted card is in his hand, discard it. Otherwise, bow it.'
+Yoritomo_Tarao = Personality(card_id=9642, title='Yoritomo Tarao', force=4, chi=3, personal_honor=1, gold_cost=8, honor_requirement=None, clan=[MantisClan], keywords=[Naval, Extortionist, Magistrate, Samurai], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+"<b>Battle:</b> Target an attachment: Put it in its owner's hand."
+Yoritomo_Zinan = Personality(card_id=9659, title='Yoritomo Zinan', force=5, chi=3, personal_honor=1, gold_cost=8, honor_requirement=None, clan=[MantisClan], keywords=[Naval, Commander, Samurai], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])

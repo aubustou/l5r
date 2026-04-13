@@ -17,10 +17,10 @@ if TYPE_CHECKING:
 
 @dataclass(repr=False, kw_only=True)
 class StrongholdStats(Card):
-    province_strength: int = field(metadata={"is_written": True})
-    gold_production: str = field(metadata={"is_written": True})
-    starting_family_honor: int = field(metadata={"is_written": True})
-    clan: list[type[Clan]] = field(metadata={"is_written": True})
+    province_strength: int = field(default=0, metadata={"is_written": True})
+    gold_production: str = field(default="0", metadata={"is_written": True})
+    starting_family_honor: int = field(default=0, metadata={"is_written": True})
+    clan: list[type[Clan]] = field(default_factory=list, metadata={"is_written": True})
 
 
 @dataclass(repr=False, kw_only=True)

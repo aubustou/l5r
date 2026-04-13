@@ -1,0 +1,24 @@
+from __future__ import annotations
+from .common import Sensei
+from l5r_auto.keywords import AllClans
+from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
+'Your Personalities cannot Equip Shadowlands Followers. <br><b>Battle/Engage, :bow::</b> Fear equal to the Force of your target Nonhuman Follower, which must be a Cat attached to a Beastmaster if this is an Engage action.'
+Benika_Sensei = Sensei(card_id=12576, title='Benika Sensei', traits=[], abilities=[], legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition])
+"Before you gain Honor, reduce the gain to 1. Your Artisans have -5HR.<br><b>Political Interrupt, :bow::</b> Target a dishonorable Personality. Before your first Honor gain from the action, negate the gain, and the target's controller loses 1 Honor, or 2 Honor if the target has 3 or more printed Personal Honor."
+Bukita_Sensei = Sensei(card_id=12577, title='Bukita Sensei', traits=[], abilities=[], legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition])
+"Reduce your Honor losses from your Ninja cards by 2. You Recruit non-Ninja Personalities for 1 more Gold. After a Fear effect from your Stronghold bows a card without abilities, destroy it.<br><b>Open, :bow::</b> Remove your Stronghold's ability. Remove the ability of a target card in a unit."
+Goju_Sensei = Sensei(card_id=12578, title='Goju Sensei', traits=[], abilities=[], legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition])
+'You may not take Political Actions. After your Bitter Lies Personality Equips a Weapon, if it has a non-boldface keyword that is not on other cards in the unit, give him or her a Madness token.<br><b>Battle/Open, :bow::</b> Discard a Madness token from your Personality to give him or her Conqueror or +2F.'
+Hisako_Sensei = Sensei(card_id=12579, title='Hisako Sensei', traits=[], abilities=[], legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition])
+'Negate your current and new Province Strength bonuses unless a Cavalry unit is attacking the Province or your unit has defended the Province this turn. Your Stronghold has no abilities.<br><b>Dynasty, :bow:, :g*::</b> Recruit a target non-Gold-producing Fortification for 2 less Gold. Refill the Province face-up.'
+Iemasa_Sensei = Sensei(card_id=12580, title='Iemasa Sensei', traits=[], abilities=[], legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition])
+"Your Stronghold has a maximum of 3GP. Your Oni may attach Shadowlands Followers. You do not lose Honor from your cards. You cannot gain Honor, issue challenges, or take Political actions. Before you lose Honor from another player's card, reduce the loss to 1.<br><b>Battle, :bow::</b> Straighten your target Oni. Give it Conqueror."
+Ikikashi_Sensei = Sensei(card_id=12581, title='Ikikashi Sensei', keywords=[AllClans], traits=[], abilities=[], legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition])
+"<b>Open :bow::</b> <i>You suspect a secret most foul!</i> Another player's target Personality has Shadowlands while you are taking actions this turn. The player must declare an attack and assign the target, if possible <i>(this turn)</i>. Straighten him or her before this phase ends."
+Izuna_Sensei = Sensei(card_id=12582, title='Izuna Sensei', traits=[], abilities=[], legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition])
+'The Ring you start with must be Earth.<br><b>Interrupt, :bow:, :g*::</b> After the action Equips your Spell, create a 2F/3GC <b>Earth &#149; Nonhuman &#149; Spirit</b> Follower and Equip it <i>(paying its 3 Gold Cost)</i> to the same Personality, paying 1 more gold if the Spell is not Earth.'
+Jinai_Sensei = Sensei(card_id=12583, title='Jinai Sensei', traits=[], abilities=[], legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition])
+'Your Personalities will not move to battlefields without enemy units. You gain 1 more Honor for each card you destroy during battle resolution. <br><b>Battle, :bow::</b> Straighten your target Follower. If you have the highest Family Honor, you may take an additional action.'
+MinHee_Sensei = Sensei(card_id=12584, title='Min-Hee Sensei', traits=[], abilities=[], legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition])
+'Your Stronghold has no abilities. Your Peasant Weapons do not dishonor Personalities for attaching them.<br><b>Economic Battle/Open, :bow:, :g*::</b> Equip a target Weapon in your discard pile to your target Kensai, paying 2 more Gold unless it is a Peasant Weapon.'
+Minori_Sensei = Sensei(card_id=12585, title='Minori Sensei', traits=[], abilities=[], legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition])

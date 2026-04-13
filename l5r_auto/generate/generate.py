@@ -250,12 +250,20 @@ def to_ast(
         ("chi", "chi", "int"),
         ("ph", "personal_honor", "int"),
         ("cost", "gold_cost", "int"),
+        ("focus", "focus_value", "int"),
         ("production", "gold_production", "str"),
         ("startinghonor", "starting_family_honor", "int"),
         ("strength", "province_strength", "int"),
     ]:
         if key in card:
-            value = int(card[key][0]) if type_ == "int" else card[key][0]
+            raw = card[key][0]
+            if type_ == "int":
+                try:
+                    value = int(raw)
+                except (ValueError, TypeError):
+                    value = 0  # variable (*) or unknown values default to 0
+            else:
+                value = raw
             attributes.append(
                 ast.keyword(
                     arg=attribute,
@@ -367,19 +375,21 @@ def to_valid_var_name(s):
     return s
 
 
-# function for removing <b> and </b> from text
+# function for removing <b> and </b> from text (case-insensitive)
 def remove_bold(text: str) -> str:
-    return text.replace("<b>", "").replace("</b>", "")
+    import re
+    return re.sub(r"</?[Bb]>", "", text)
 
 
 def get_legalities(legalities: list[str]) -> list[str]:
     found_legalities = []
     for legality in legalities:
-        if legality in found_legalities:
+        if legality not in LEGALITY_TO_AST:
             continue
-        found_legalities.append(
-            LEGALITY_TO_AST[legality],
-        )
+        mapped = LEGALITY_TO_AST[legality]
+        if mapped in found_legalities:
+            continue
+        found_legalities.append(mapped)
     return found_legalities
 
 
@@ -388,7 +398,13 @@ def get_honor(honor: str) -> int | None:
 
 
 def to_import(name: str) -> str:
-    return "".join(word.capitalize().replace("'", "") for word in name.split(" "))
+    # Split on spaces and hyphens, capitalize each part, remove non-identifier chars
+    import re
+    parts = re.split(r"[\s\-]+", name)
+    result = "".join(part.capitalize().replace("'", "") for part in parts)
+    # Strip any remaining non-identifier characters
+    result = re.sub(r"[^\w]", "", result)
+    return result if result.isidentifier() else ""
 
 
 def get_keywords(keywords: list[str]) -> tuple[list[str], list[ast.AST]]:
@@ -436,6 +452,8 @@ def get_keywords(keywords: list[str]) -> tuple[list[str], list[ast.AST]]:
             )
         else:
             keyword = to_import(keyword)
+            if not keyword:
+                continue
             ast_ = ast.Name(
                 id=keyword,
                 ctx=ast.Load(),
@@ -468,6 +486,12 @@ def main():
 
     # print("Done")
 
+    TARGET_LEGALITIES = {
+        "A Brother's Destiny (Twenty Festivals)",
+        "Age of Conquest (Emperor)",
+        "Onyx Edition",
+    }
+
     cards_by_type: dict[str, list[Card]] = {}
 
     for card in cards:
@@ -476,11 +500,12 @@ def main():
             formatted_legalities.append(legality.replace("&nbsp;", " "))
         card["legality"] = formatted_legalities
 
-        # check legality contains twenty festival
-        if "A Brother's Destiny (Twenty Festivals)" not in card.get("legality", []):
+        if not TARGET_LEGALITIES.intersection(card.get("legality", [])):
             continue
 
         card_type = card["type"][0].lower()
+        if card_type not in TYPES_TO_AST:
+            continue
 
         cards_by_type.setdefault(plural(card_type), []).append(card)
 
@@ -490,10 +515,21 @@ def main():
 
         json.dump(cards_, open(save_path / f"{type_}.json", "w"), indent=4)
 
-    get_card_modules(cards_by_type["personalities"], "personality")
-    get_card_modules(cards_by_type["holdings"], "holding")
-    get_card_modules(cards_by_type["events"], "event")
-    get_card_modules(cards_by_type["strongholds"], "stronghold")
+    for type_plural, type_singular in [
+        ("personalities", "personality"),
+        ("holdings", "holding"),
+        ("events", "event"),
+        ("strongholds", "stronghold"),
+        ("strategies", "strategy"),
+        ("followers", "follower"),
+        ("items", "item"),
+        ("spells", "spell"),
+        ("senseis", "sensei"),
+    ]:
+        if type_plural in cards_by_type:
+            get_card_modules(cards_by_type[type_plural], type_singular)
+        else:
+            print(f"No {type_plural} found for target legalities.")
 
 
 def plural(s: str) -> str:
@@ -597,21 +633,8 @@ def get_module_ast(
 ):
     for clan, editions in ast_objects_per_edition_per_clan.items():
         for edition, ast_objects in editions.items():
-            if (module_path := get_module(type_, clan, edition)).exists():
-                module_ast = ast.parse(module_path.read_text())
-            else:
-                module_path.parent.mkdir(exist_ok=True, parents=True)
-                module_ast = ast.Module(
-                    body=[
-                        *COMMON_IMPORTS,
-                        ast.ImportFrom(
-                            module="common",
-                            names=[ast.alias(name=TYPES_TO_AST[type_], asname=None)],
-                            level=2 if clan else 1,
-                        ),
-                    ],
-                    type_ignores=[],
-                )
+            module_path = get_module(type_, clan, edition)
+            module_path.parent.mkdir(exist_ok=True, parents=True)
             module_path.parent.mkdir(exist_ok=True, parents=True)
             (module_path.parent / "__init__.py").touch()
             module_ast = ast.Module(

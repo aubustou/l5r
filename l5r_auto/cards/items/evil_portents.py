@@ -1,0 +1,24 @@
+from __future__ import annotations
+from .common import Item
+from l5r_auto.keywords import Armor, Chain, Courage, Destined, HeavyWeapon, Honor, Jade, Ninja, OneHanded, Peasant, Polearm, Reserve, Standard, Sword, TwoHanded, Weapon
+from l5r_auto.legality import ModernEdition, OnyxEdition, TwentyFestivalsEdition
+'After this Item enters play, lose 1 Honor.<br><b>Ninja Battle, :bow::</b> Bow a target enemy card. If this bowed a Personality with attachments, destroy this Item.'
+Bakuhatsugama = Item(card_id=12512, title='Bakuhatsugama', force=3, chi=1, gold_cost=5, focus_value=3, keywords=[Weapon, Chain, Ninja, TwoHanded], traits=[], abilities=[], legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition])
+'<b>Invest :g2::</b> Draw a card. <i>(Upon being played, permanently increase the Gold Cost by the Invest cost to get the effect.)</i><br>This Personality cannot issue challenges.<br><b>Battle, :bow::</b> Draw a card. Discard a card.'
+Box_of_Mysteries = Item(card_id=12513, title='Box of Mysteries', force=0, chi=1, gold_cost=0, focus_value=4, traits=[], abilities=[], legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition])
+'<b>Invest :g2::</b> Draw a card.<br>You may include any number of copies of this card in your deck. Can only attach to a Samurai without a Standard. Followers in this unit have +1F.<br><b>Battle:</b> Fear equal to the number of Standards in this army.'
+Clan_Mon = Item(card_id=12514, title='Clan Mon', force=0, chi=1, gold_cost=0, focus_value=0, keywords=[Courage, Standard], traits=[], abilities=[], legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition])
+'<i>(You may Equip a Reserve attachment, if it would be opposed, as a Battle action.)</i><br>After this Item enters play, straighten its Personality.<br><b>Open, :bow::</b> If this Personality does not have a Madness token, give him or her one.'
+Light_Tetsubo = Item(card_id=12515, title='Light Tetsubo', force=2, chi=1, gold_cost=4, focus_value=4, keywords=[Reserve, Weapon, HeavyWeapon, OneHanded], traits=[], abilities=[], legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition])
+'<b>Jade Battle, :bow::</b> Melee 3 Attack with -1 strength if the target has a Two-Handed Weapon and +1 strength if the target is Shadowlands.'
+Puritys_Fist = Item(card_id=12516, title="Purity's Fist", force=3, chi=0, gold_cost=5, focus_value=1, keywords=[Weapon, HeavyWeapon, Jade, TwoHanded], traits=[], abilities=[], legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition])
+'<i>(Repeatable Interrupt: Discard an Honor card to give an Honor gain or loss +1 or -1.)</i><br>After you Equip this Item, gain 1 Honor for each Province you have destroyed this game. This Personality has +1PH.'
+Revered_Blade = Item(card_id=12517, title='Revered Blade', force=2, chi=1, gold_cost=4, focus_value=4, keywords=[Weapon, Honor, OneHanded, Sword], traits=[], abilities=[], legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition])
+'<i>(Repeatable Interrupt: Discard an Honor card to give an Honor gain or loss +1 or -1.)</i> <br>This Personality has +1PH. Increase by 1 the first of your Honor gains each turn from actions from or targeting this Personality.'
+Ritual_Armor = Item(card_id=12518, title='Ritual Armor', force=2, chi=1, gold_cost=3, focus_value=1, keywords=[Armor, Honor], traits=[], abilities=[], legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition])
+'Equips to Tetsuo for 2 less Gold. After the first time each turn this Weapon bows, straighten it.<br><b>Battle, :bow::</b> Melee 3 Attack <i>(Destroy a target enemy Follower or Personality without Followers with 3 or lower Force)</i>.'
+Tetsuos_Nagamaki = Item(card_id=12519, title="Tetsuo's Nagamaki", force=3, chi=2, gold_cost=7, focus_value=1, keywords=[Weapon, Polearm, TwoHanded], traits=[], abilities=[], legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition])
+'<i>(Draw a card after you Equip a Destined card.)</i><br>After this Weapon attaches, dishonor its Personality.<br><b>Battle, :bow::</b> Fear 3.'
+Threshing_Flail = Item(card_id=12520, title='Threshing Flail', force=1, chi=1, gold_cost=4, focus_value=1, keywords=[Destined, Weapon, OneHanded, Peasant], traits=[], abilities=[], legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition])
+'Actions cannot move this Personality.<br><b>Tireless Battle:</b> Put this Item into your hand. <i>(Tireless actions may be taken even while bowed.)</i>'
+Weathered_Armor = Item(card_id=12521, title='Weathered Armor', force=3, chi=-1, gold_cost=4, focus_value=2, keywords=[Armor], traits=[], abilities=[], legality=[TwentyFestivalsEdition, OnyxEdition, ModernEdition])

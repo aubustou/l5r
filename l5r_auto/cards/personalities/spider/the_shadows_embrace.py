@@ -1,0 +1,16 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import BrotherhoodOfShinsei, NinjaFaction, ShadowlandsFaction, SpiderClan
+from l5r_auto.keywords import Artisan, BogHag, Commander, Conqueror, DarkDementia, Displacer, Experienced, Kensai, Loyal, Monk, Ninja, Nonhuman, OrderOfTheSpider, Paragon, Samurai, Shadowlands, Shugenja, Unique
+from l5r_auto.legality import EmperorEdition, ModernEdition
+'After Arakan enters play: Lose 1 Honor.<br><b>Battle:</b> Target an enemy Personality or Follower: Give it -4F. Bow it if its Force is now 0 or it is Lion Clan.'
+Daigotsu_Arakan = Personality(card_id=9848, title='Daigotsu Arakan', force=5, chi=3, personal_honor=0, gold_cost=8, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[Conqueror, Commander, Samurai, Shadowlands], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'After Rafu enters play: Lose 1 Honor.<br><b>Battle:</b> Melee 4 Attack.'
+Daigotsu_Rafu = Personality(card_id=9849, title='Daigotsu Rafu', force=4, chi=3, personal_honor=0, gold_cost=7, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[DarkDementia, Paragon, Samurai, Shadowlands], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"After Bunoro enters play: Lose 2 Honor.<br><b>Battle:</b> Target a non-Unique enemy Personality: Turn all cards in his controller's provinces face-up. You may overlay a face-up Personality in one of the provinces on the target, refilling the province with the target."
+Goju_Bunoro = Personality(card_id=9850, title='Goju Bunoro', force=4, chi=2, personal_honor=0, gold_cost=7, honor_requirement=None, clan=[SpiderClan, NinjaFaction, ShadowlandsFaction], keywords=[Displacer, Ninja, Shadowlands], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+Kenta = Personality(card_id=9851, title='Kenta', force=5, chi=2, personal_honor=0, gold_cost=7, honor_requirement=None, clan=[SpiderClan, BrotherhoodOfShinsei], keywords=[Conqueror, Kensai, Monk, OrderOfTheSpider], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"You may ignore M'rika's Loyal restriction if your Stronghold is The Forgotten Temple.<br>After M'rika enters play: Gain 2 Honor."
+Mrika = Personality(card_id=9852, title="M'rika", force=1, chi=3, personal_honor=3, gold_cost=4, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[Loyal, Artisan, BogHag, Nonhuman, Shadowlands, Shugenja], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'Once per phase, before you lose exactly 1 Honor: Negate the loss.<br><b>Fear Battle:</b> Target another Personality: Yamazaki threatens him. Straighten him. If Yamazaki has a Weapon, you may target and bow an enemy card.'
+Yamazaki_Experienced = Personality(card_id=9853, title='Yamazaki', force=5, chi=3, personal_honor=1, gold_cost=9, honor_requirement=0, clan=[SpiderClan, BrotherhoodOfShinsei], keywords=[Kensai, Unique, Experienced('1'), Monk, OrderOfTheSpider], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])

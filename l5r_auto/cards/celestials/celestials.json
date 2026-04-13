@@ -1,0 +1,2207 @@
+[
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The Steel Lion is new to the Championship, but her swordsmanship and tactical prowess are reminiscent of Akodo One-Eye.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "1"
+                ],
+                "artnumber": [
+                    "10040004"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Conceptopolis"
+                ],
+                "printimagehash": [
+                    "e2/2f"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Lion Clan players may target defending enemy Personalities with the rulebook Favor Political Battle action.<br><b>Battle:</b> If you are a Lion Clan player, discard this Celestial and target your performing Personality to make a Melee 4 Attack."
+        ],
+        "formattedtitle": "Akodo's Guidance &#149; Experienced",
+        "cardid": 311,
+        "puretexttitle": "Akodo's Guidance - exp",
+        "imagehash": "e2/2f",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Experienced",
+            "Kami"
+        ],
+        "title": [
+            "Akodo's Guidance"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Nitoshi, the Poison Mask, strikes in the night against the Empire's enemies.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "2"
+                ],
+                "artnumber": [
+                    "10040007"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Conceptopolis"
+                ],
+                "printimagehash": [
+                    "63/b3"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After a player's turn begins, if he is Scorpion Clan: Each other player loses 1 Honor.<br><b>Open:</b> If you are a Scorpion Clan player, discard this card and target one or more face-up Personalities in provinces: Put each one at the bottom of its owner's deck in any order. Refill the provinces face-up."
+        ],
+        "formattedtitle": "Bayushi's Guidance &#149; Experienced",
+        "cardid": 934,
+        "puretexttitle": "Bayushi's Guidance - exp",
+        "imagehash": "63/b3",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Experienced",
+            "Kami"
+        ],
+        "title": [
+            "Bayushi's Guidance"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "printingid": "1",
+                "artnumber": [
+                    "10010157"
+                ],
+                "set": [
+                    "Promotional&ndash;Celestial"
+                ],
+                "artist": [
+                    "Viktor Fetsch"
+                ],
+                "printimagehash": [
+                    "f8/40"
+                ],
+                "promoquantity": [
+                    "1,500"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After this Celestial enters play, choose zero to two face-up Personalities in or out of play. They have +1PH while this Celestial remains in play.<br><b>Reaction:</b> When another player's action would target one of your Personalities, target your performing Personality and discard this Celestial to have the action target him instead, if legal."
+        ],
+        "formattedtitle": "Benten's Blessing",
+        "cardid": 959,
+        "imagehash": "f8/40",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal February 1st, 2012",
+            "Released to 2011 Level 15, Level 20, and Jewel Event participants"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Fortune"
+        ],
+        "title": [
+            "Benten's Blessing"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "imagehash": "37/d9",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Fortune"
+        ],
+        "printing": [
+            {
+                "printingid": "1",
+                "number": [
+                    "1"
+                ],
+                "artnumber": [
+                    "10030001"
+                ],
+                "set": [
+                    "Second City"
+                ],
+                "artist": [
+                    "Asier Martinez Lopez"
+                ],
+                "printimagehash": [
+                    "37/d9"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After your turn begins, you may choose your dead Personality and put him at the top of your deck.<br><b>Battle:</b> Target your performing opposed Personality and discard this Celestial to give him +1F for each dead Personality in all players' discard piles. <i>The Lords of Death have granted him strength.</i> Negate the next card effect that bows, destroys, or moves him."
+        ],
+        "formattedtitle": "Blessings of the Shi-Tien Yen-Wang",
+        "cardid": 1040,
+        "title": [
+            "Blessings of the Shi-Tien Yen-Wang"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "imagehash": "dc/bc",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Father&#8230; I wait. I will lead our people to victory.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "3"
+                ],
+                "artnumber": [
+                    "10040008"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Conceptopolis"
+                ],
+                "printimagehash": [
+                    "dc/bc"
+                ],
+                "designernotes": [
+                    "We may need to do one that features both Fu Leng and Daigotsu, depending on which winds up in the heavens."
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After a Celestial enters play <i>(including this one)</i>: Discard all Kami Celestials in play.<br><b>Battle:</b> If you are a Spider Clan player, discard this card and target an enemy unit: Destroy all bowed cards in it. Bow it."
+        ],
+        "formattedtitle": "Daigotsu's Guidance",
+        "cardid": 1788,
+        "title": [
+            "Daigotsu's Guidance"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Makoto, the Smiling Blade, is graceful, calm and focused in court and battle.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "4"
+                ],
+                "artnumber": [
+                    "10040002"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Conceptopolis"
+                ],
+                "printimagehash": [
+                    "95/f3"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Crane Clan players may take the rulebook Favor Political Battle action even if they control no units at the current battlefield.<br><b>Open:</b> If you are a Crane Clan player, discard this card: Put a non-Unique Strategy with a Political ability in your discard pile into your hand."
+        ],
+        "formattedtitle": "Doji's Guidance &#149; Experienced",
+        "cardid": 2181,
+        "puretexttitle": "Doji's Guidance - exp",
+        "imagehash": "95/f3",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Experienced",
+            "Kami"
+        ],
+        "title": [
+            "Doji's Guidance"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "imagehash": "15/0c",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Fortune"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The plague is a perversion of everything he represents. We shall work harder and pray more diligently that his blessings fall upon us.\" - Phoenix peasent</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "1"
+                ],
+                "artnumber": [
+                    "10010001"
+                ],
+                "set": [
+                    "Before the Dawn"
+                ],
+                "artist": [
+                    "Viktor Fetsch"
+                ],
+                "printimagehash": [
+                    "15/0c"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your provinces have +2 strength.<br><b>Limited:</b> Destroy your rightmost province and discard this card: Gain 4 Honor; this gain will not be negated."
+        ],
+        "formattedtitle": "Ebisu's Honesty",
+        "cardid": 2276,
+        "title": [
+            "Ebisu's Honesty"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The Seven Fortunes will never abandon Rokugan. Now, more than ever, we should be beseeching their aid.\" - Seppun Kiharu</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "9031"
+                ],
+                "set": [
+                    "Promotional&ndash;Celestial"
+                ],
+                "artist": [
+                    "Stephanie Pui-Mun Law"
+                ],
+                "printimagehash": [
+                    "3f/c4"
+                ],
+                "promoquantity": [
+                    "122"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "You have +1 maximum hand size.<br><b>Battle:</b> Discard this card and choose one or more of your performing Personalities: Move them home. Straighten the unit of each of them who moved."
+        ],
+        "formattedtitle": "Fukurokujin's Wisdom",
+        "cardid": 2727,
+        "imagehash": "3f/c4",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal August 1st, 2011",
+            "Released in the 2011 Kotei pack"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Fortune"
+        ],
+        "title": [
+            "Fukurokujin's Wisdom"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The Little Bear carries his great-grandfather's spirit.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "5"
+                ],
+                "artnumber": [
+                    "10040001"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Conceptopolis"
+                ],
+                "printimagehash": [
+                    "28/5f"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Before the first straightening each battle of a Personality whose enemy leader is a Crab Clan player: Negate that straightening.<br><b>Battle:</b> If you are a Crab Clan player, discard this card and target a Personality: Bow him. Bow his unit if he is attacking."
+        ],
+        "formattedtitle": "Hida's Guidance &#149; Experienced",
+        "cardid": 3250,
+        "puretexttitle": "Hida's Guidance - exp",
+        "imagehash": "28/5f",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Experienced",
+            "Kami"
+        ],
+        "title": [
+            "Hida's Guidance"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>It is not wise to take the curse of a Fortune lightly.</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "10040436"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Jeff Hill"
+                ],
+                "use": [
+                    "Kotei Pack Card 10 - unique - 8000"
+                ],
+                "printimagehash": [
+                    "f9/52"
+                ],
+                "promoquantity": [
+                    "0"
+                ],
+                "designernotes": [
+                    "Legal July 1"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Reaction:</b> After the end of an Attack Phase in which you were the Defender, discard this card: Declare an additional Attack Phase against that phase's Attacker, in which you may only assign one Personality."
+        ],
+        "formattedtitle": "Hofukushu's Vengeance",
+        "cardid": 3401,
+        "imagehash": "f9/52",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal July 1st, 2012",
+            "Released in the 2012 Kotei pack"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Fortune"
+        ],
+        "title": [
+            "Hofukushu's Vengeance"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "imagehash": "5f/62",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Fortune"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The moments of peace are few, and thus must be savored all the more.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "1"
+                ],
+                "artnumber": [
+                    "10050001"
+                ],
+                "set": [
+                    "Embers of War"
+                ],
+                "artist": [
+                    "Edwin David"
+                ],
+                "use": [
+                    "Designers Choice"
+                ],
+                "printimagehash": [
+                    "5f/62"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "[Note: Is the Fortune of Contentment, Hotei]"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Before you gain Honor from the Proclaim action, if the Personality's base PH is 3 or lower: Increase the Honor gain by 1.<br><b>Open:</b> Discard this card and target a Personality: He may not assign to, and will not move into, an attacking army."
+        ],
+        "formattedtitle": "Hotei's Contentment",
+        "cardid": 3484,
+        "title": [
+            "Hotei's Contentment"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "imagehash": "01/ee",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Fortune"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The blessings of a long life can be considerable. Unfortunately, the burden that accompanies such a blessing is considerable as well.\" - Asako Moeru</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "2"
+                ],
+                "artnumber": [
+                    "10030002"
+                ],
+                "set": [
+                    "Second City"
+                ],
+                "artist": [
+                    "Diego Gisbert Llorens"
+                ],
+                "printimagehash": [
+                    "01/ee"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Look at the top card of your Fate deck. You may discard it.<br><b>Open:</b> Discard this card and target a non-Unique Strategy in your Fate discard pile: Put the Strategy into your hand."
+        ],
+        "formattedtitle": "Jurojin's Blessing",
+        "cardid": 4070,
+        "title": [
+            "Jurojin's Blessing"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Let the Akodo plan. The Matsu will destroy.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "2"
+                ],
+                "artnumber": [
+                    "10050002"
+                ],
+                "set": [
+                    "Embers of War"
+                ],
+                "artist": [
+                    "Edwin David"
+                ],
+                "use": [
+                    "Designers Choice"
+                ],
+                "printimagehash": [
+                    "c6/96"
+                ],
+                "designer": [
+                    "Thomas"
+                ],
+                "designernotes": [
+                    "An enraged Lion Samurai."
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After your action resolves that destroyed any Personalities: Remove them from the game.<br><b>Battle:</b> Choose your performing unbowed attacking Personality, target an enemy card, and discard this card: Bow the target. After the next time <i>(this turn)</i> it straightens, destroy it."
+        ],
+        "story": [
+            "2010 Name a Card - Diego Lastorta"
+        ],
+        "formattedtitle": "Lady Matsu's Rage",
+        "cardid": 4658,
+        "imagehash": "c6/96",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "Lady Matsu's Rage"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "printingid": "1",
+                "artnumber": [
+                    "10010158"
+                ],
+                "set": [
+                    "Promotional&ndash;Celestial"
+                ],
+                "artist": [
+                    "Viktor Fetsch"
+                ],
+                "printimagehash": [
+                    "dd/5a"
+                ],
+                "promoquantity": [
+                    "0"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After this card enters play: You may choose a Personality. While this card remains in play, battle resolution does not bow cards in that Personality's unit.<br><b>Battle:</b> If there are any enemy units at the current battlefield, choose your performing Personality and discard this card: Move him to the current battlefield. If he moved, straighten his unit."
+        ],
+        "formattedtitle": "Natsu-Togumara's Guidance",
+        "cardid": 5518,
+        "imagehash": "dd/5a",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal December 1st, 2011",
+            "Misprinted with the Uncommon rarity symbol",
+            "Released in the 2011 Summer Con pack"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Fortune"
+        ],
+        "title": [
+            "Natsu-Togumara's Guidance"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "imagehash": "39/63",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Kami"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"He guards the dead and guides the living.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "1"
+                ],
+                "artnumber": [
+                    "10020001"
+                ],
+                "set": [
+                    "Forgotten Legacy"
+                ],
+                "artist": [
+                    "Aurelien Hubert"
+                ],
+                "printimagehash": [
+                    "39/63"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Personalities have +1C while they are not involved in a duel. <br><b>Reaction:</b> When another player's action would target one of your cards, discard this card: Choose another of your non-Stronghold cards at the same location. The action targets it instead, if legal."
+        ],
+        "formattedtitle": "Ryoshun's Guidance",
+        "cardid": 6425,
+        "title": [
+            "Ryoshun's Guidance"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "imagehash": "c7/95",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Destroyer War (Celestial)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Fortune"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"The Scorpion laid the foundations for the legal system still in place today. He was an honest, upright, and honorable man. Pity few of his ilk can be found among his clan today.\" - Akodo Kobi</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "2"
+                ],
+                "artnumber": [
+                    "10010002"
+                ],
+                "set": [
+                    "Before the Dawn"
+                ],
+                "artist": [
+                    "Viktor Fetsch"
+                ],
+                "printimagehash": [
+                    "c7/95"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Other players may not lobby.<br><b>Open:</b> Target one or two Personalities controlled by the same player and discard this card: Dishonor them."
+        ],
+        "formattedtitle": "Saibankan's Justice",
+        "cardid": 6446,
+        "title": [
+            "Saibankan's Justice"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The Soul of Shiba has been Tsukimi's constant companion for decades.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "6"
+                ],
+                "artnumber": [
+                    "10040006"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Conceptopolis"
+                ],
+                "printimagehash": [
+                    "68/84"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After a battle resolution ends in which a Phoenix Clan player destroyed one or more provinces or enemy cards: He draws a card.<br><b>Battle/Open:</b> If you are a Phoenix Clan player, discard this card: Put a non-Unique Spell or Kiho in your discard pile into your hand."
+        ],
+        "formattedtitle": "Shiba's Guidance &#149; Experienced",
+        "cardid": 6836,
+        "puretexttitle": "Shiba's Guidance - exp",
+        "imagehash": "68/84",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Experienced",
+            "Kami"
+        ],
+        "title": [
+            "Shiba's Guidance"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"They say I am Shinjo reborn. Why do I not feel different?\" - Moto Naleesh</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "7"
+                ],
+                "artnumber": [
+                    "10040009"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Conceptopolis"
+                ],
+                "printimagehash": [
+                    "64/35"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Unicorn Clan Personalities have +1F while they have an attachment.<br><b>Limited:</b> Discard this card: Search your discard pile, then Dynasty deck, for Moto Naleesh and put her into one of your provinces, face-up, discarding the card that was there."
+        ],
+        "formattedtitle": "Shinjo's Guidance &#149; Experienced",
+        "cardid": 6978,
+        "puretexttitle": "Shinjo's Guidance - exp",
+        "imagehash": "64/35",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Experienced",
+            "Kami"
+        ],
+        "title": [
+            "Shinjo's Guidance"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The Laughing Dragon balances the Togashi and Mirumoto.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "8"
+                ],
+                "artnumber": [
+                    "10040003"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Conceptopolis"
+                ],
+                "printimagehash": [
+                    "76/21"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Dragon Clan players have +2 maximum hand size.<br><b>Battle/Open:</b> If you are a Dragon Clan player, discard this card to either put a Ring in your hand into play, or search your discard pile, then Fate deck, for a Ring and put it into your hand. If this put a Ring into play, while it remains in play, it does not count towards an Enlightenment Victory."
+        ],
+        "formattedtitle": "Togashi's Guidance &#149; Experienced",
+        "cardid": 8603,
+        "puretexttitle": "Togashi's Guidance - exp",
+        "imagehash": "76/21",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Experienced",
+            "Kami"
+        ],
+        "title": [
+            "Togashi's Guidance"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The Growing Storm's reign shall shake the Empire.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "9"
+                ],
+                "artnumber": [
+                    "10040005"
+                ],
+                "set": [
+                    "Emperor Edition"
+                ],
+                "artist": [
+                    "Conceptopolis"
+                ],
+                "printimagehash": [
+                    "f8/cf"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "After engaging, if the Attacker is a Mantis Clan player: Reduce the current battlefield's province's strength to 5.<br><b>Limited:</b> If you are a Mantis Clan player, discard this card and target your discarded Port Holding: Put it into play <i>(bowed)</i>, paying all costs but paying 2 less Gold."
+        ],
+        "formattedtitle": "Yoritomo's Guidance &#149; Experienced",
+        "cardid": 9662,
+        "puretexttitle": "Yoritomo's Guidance - exp",
+        "imagehash": "f8/cf",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Experienced",
+            "Kami"
+        ],
+        "title": [
+            "Yoritomo's Guidance"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "imagehash": "c9/9b",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Obsidian"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Weakness is to be overcome.\" - The Voice of the Obsidian Moon</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "1"
+                ],
+                "artnumber": [
+                    "10060001"
+                ],
+                "set": [
+                    "The Shadow's Embrace"
+                ],
+                "artist": [
+                    "Edwin David"
+                ],
+                "use": [
+                    "Designers Choice"
+                ],
+                "printimagehash": [
+                    "c9/9b"
+                ],
+                "text": [
+                    "Open: Target a non-Unique Holding: It produces 1 less Gold when it bows to produce Gold.<br>Open: Remove this card from the game and target one to three face-up Personalities in provinces: Discard them, refilling the provinces face-up."
+                ],
+                "designer": [
+                    "Loki"
+                ],
+                "designernotes": [
+                    "The Moon as a heavenly being."
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Open:</b> Target a non-Unique Holding: It produces 1 less Gold when it bows to produce Gold.<br><b>Open:</b> Remove this card from the game and target one to three face-up Personalities in provinces: Discard them, refilling the provinces face-up."
+        ],
+        "formattedtitle": "The Moon's Imperative",
+        "cardid": 9789,
+        "title": [
+            "The Moon's Imperative"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "imagehash": "17/af",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Jade"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Virtue is to be nurtured.\" - The Voice of the Jade Sun</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "2"
+                ],
+                "artnumber": [
+                    "10060002"
+                ],
+                "set": [
+                    "The Shadow's Embrace"
+                ],
+                "artist": [
+                    "Edwin David"
+                ],
+                "use": [
+                    "Designers Choice"
+                ],
+                "printimagehash": [
+                    "17/af"
+                ],
+                "text": [
+                    "Open: Target a non-Unique Holding: It produces 1 more Gold when it bows to produce Gold.<br>Open: Remove this card from the game and target one to three cards in your discard piles: Shuffle them into their appropriate decks."
+                ],
+                "designer": [
+                    "Thomas"
+                ],
+                "designernotes": [
+                    "The Sun beaming down."
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Open:</b> Target a non-Unique Holding: It produces 1 more Gold when it bows to produce Gold.<br><b>Open:</b> Remove this card from the game and target one to three cards in your discard piles: Shuffle them into their appropriate decks."
+        ],
+        "formattedtitle": "The Sun's Aspiration",
+        "cardid": 9790,
+        "title": [
+            "The Sun's Aspiration"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "printingid": "1",
+                "artnumber": [
+                    "10060160"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Gemma Tegelaers"
+                ],
+                "use": [
+                    "[Summer Con Pack Card 16] 2700"
+                ],
+                "printimagehash": [
+                    "78/ba"
+                ],
+                "text": [
+                    "Limited: Once per game, target a Personality: Give him Naval while this card remains in play.<br>Battle: Discard this card and choose your performing Personality: If he would be opposed, move him to the current battlefield. Straighten his unit if he moved."
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "Legal December 1, 2012"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Once per game, target a Personality: Give him <b>Naval</b> while this card remains in play.<br><b>Battle:</b> Discard this card and choose your performing Personality: If he would be opposed, move him to the current battlefield. Straighten his unit if he moved."
+        ],
+        "formattedtitle": "Suitengu's Blessing",
+        "cardid": 9948,
+        "imagehash": "78/ba",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal December 1st, 2012",
+            "Released in the 2012 Summer Con pack"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Fortune"
+        ],
+        "title": [
+            "Suitengu's Blessing"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Means and ends. Weak souls can mistake one for another, but the strong will always triumph.\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "1"
+                ],
+                "artnumber": [
+                    "10070001"
+                ],
+                "set": [
+                    "Seeds of Decay"
+                ],
+                "artist": [
+                    "Drew Baker"
+                ],
+                "printimagehash": [
+                    "51/02"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "[Art Note: Isawa Akuma, the recent Dark Fortune of Power, continues"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Destroy your target performing unbowed Shugenja, destroy your leftmost province, and discard this Celestial to create a 9F/5C/0PH <b>Shadowlands &#149; Nonhuman &#149; Oni</b> Personality with the performer's title and printed Gold Cost; it enters play ignoring costs. Lose 3 Honor."
+        ],
+        "story": [
+            "2011 A Soul Ascends - Paul Clute"
+        ],
+        "formattedtitle": "Akuma's Power",
+        "cardid": 10027,
+        "imagehash": "51/02",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Dark Fortune",
+            "Shadowlands"
+        ],
+        "title": [
+            "Akuma's Power"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "imagehash": "20/15",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Fortune"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The Fortune of Heroic Guidance is a benevolent being.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "2"
+                ],
+                "artnumber": [
+                    "10070002"
+                ],
+                "set": [
+                    "Seeds of Decay"
+                ],
+                "artist": [
+                    "Alayna Lemmer"
+                ],
+                "printimagehash": [
+                    "20/15"
+                ],
+                "designer": [
+                    "Duncan"
+                ],
+                "designernotes": [
+                    "The Fortune of Heroic Guidance usually appears as a crane or a well-dressed man in blue"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "While your army is opposed, it has +2 total Force, or +3 if you are the Defender.<br><b>Battle/Open:</b> Discard this card and choose your performing Personality: Negate his destruction from other players' cards' effects <i>(until the turn ends)</i>."
+        ],
+        "formattedtitle": "Megumi's Guidance",
+        "cardid": 10028,
+        "title": [
+            "Megumi's Guidance"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "printingid": "1",
+                "artnumber": [
+                    "10070160"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Gemma Tegelaers"
+                ],
+                "printimagehash": [
+                    "c5/b9"
+                ],
+                "designernotes": [
+                    "Sadahako is the Celestial of Geisha and Artisans"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> If your Family Honor is 10 or lower: Gain 1 Honor.<br><b>Limited:</b> Discard this card and target a card in your hand: You offer it as a gift. Show it to another player. He may accept, putting it into his hand; if he did, you gain Honor equal to its Focus Value. If he did not, discard it and draw 3 cards."
+        ],
+        "formattedtitle": "Sadahako's Artistry",
+        "cardid": 10186,
+        "imagehash": "c5/b9",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal April 1st, 2013",
+            "Released to the Torn Asunder pre-release participants"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Fortune"
+        ],
+        "title": [
+            "Sadahako's Artistry"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Few samurai regularly pay homage to the Fortune of Soil, but all should. His largesse permits our very survival.\" - Agasha Kurou</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "10110157"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Hannah B\u00f6ving"
+                ],
+                "use": [
+                    "[Kotei pack card 4]"
+                ],
+                "printimagehash": [
+                    "09/1b"
+                ],
+                "designernotes": [
+                    "[Note: Kenro-ji-jin is the Fortune of Soil, and I imagine he is pretty stoked at the soil left by the Blood of the Preserver.]"
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Reaction:</b> When paying for a Farm: Produce 1 Gold.<br><b>Limited:</b> Discard this card: Your Farms produce 1 additional Gold when they bow to produce Gold <i>(this turn)</i>."
+        ],
+        "formattedtitle": "Kenro-ji-jin's Bounty",
+        "cardid": 10229,
+        "imagehash": "09/1b",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal July 1st, 2013",
+            "Released in the 2013 Kotei pack"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Fortune"
+        ],
+        "title": [
+            "Kenro-ji-jin's Bounty"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "playtestname": [
+            "Hachiman's (Strenght)"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Stand up, there is still glory to win!\"</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "1"
+                ],
+                "artnumber": [
+                    "10110001"
+                ],
+                "set": [
+                    "Torn Asunder"
+                ],
+                "artist": [
+                    "Aurelien Hubert"
+                ],
+                "use": [
+                    "Designers Choice"
+                ],
+                "printimagehash": [
+                    "ff/36"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Once per game, target your Personality: While this card remains in play, he has <b>Elite </b>and the trait, \"May assign even if bowed.\" <i>(Elite cards contribute Force even if bowed)</i>.<br><b>Battle:</b> Discard this card and target your Personality: Straighten his unit."
+        ],
+        "story": [
+            "2011 Name a Celestial - Kailam Dale"
+        ],
+        "formattedtitle": "Hachiman's Prowess",
+        "cardid": 10257,
+        "imagehash": "ff/36",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Fortune"
+        ],
+        "title": [
+            "Hachiman's Prowess"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "playtestname": [
+            "Kurohito's Perfection"
+        ],
+        "printing": [
+            {
+                "printingid": "1",
+                "number": [
+                    "2"
+                ],
+                "artnumber": [
+                    "10110002"
+                ],
+                "set": [
+                    "Torn Asunder"
+                ],
+                "artist": [
+                    "April Lee"
+                ],
+                "use": [
+                    "Designers Choice"
+                ],
+                "printimagehash": [
+                    "50/e5"
+                ],
+                "designer": [
+                    "Duncan"
+                ],
+                "designernotes": [
+                    "Doji Kurohito raised to Fortune of Perfection"
+                ],
+                "rarity": [
+                    "Rare"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "When paying the cost of the rulebook Favor Political Limited action: You may ignore the cost of discarding a card; if you did, delay its effects until your End Phase begins.<br><b>Limited:</b> Discard this card and target a Personality: Permanently give him <b>Cavalry, Duelist, </b>or<b> Tactician</b>."
+        ],
+        "story": [
+            "2011 A Soul Ascends II - Ermis Pyrlis"
+        ],
+        "formattedtitle": "Kurohito's Perfection",
+        "cardid": 10258,
+        "imagehash": "50/e5",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Fortune"
+        ],
+        "title": [
+            "Kurohito's Perfection"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "imagehash": "3f/49",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Fudo"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Seek your own path. Ignore the philosophies thrust upon you by others. Only you can choose that which is right for you.\" - The writings of Fudo</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "1"
+                ],
+                "artnumber": [
+                    "10130001"
+                ],
+                "set": [
+                    "Coils of Madness"
+                ],
+                "artist": [
+                    "Wenjuinn"
+                ],
+                "printimagehash": [
+                    "3f/49"
+                ],
+                "designer": [
+                    "Loki"
+                ],
+                "designernotes": [
+                    "Fudo as a Celestial."
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Battle/Open:</b> Straighten a Ring.<br><b>Open:</b> If you control five Fudo Rings that last entered play by their own text, destroy a Province.<br>"
+        ],
+        "formattedtitle": "Fudo's Assurances",
+        "cardid": 10416,
+        "title": [
+            "Fudo's Assurances"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "imagehash": "4d/62",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Kami"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The resolve of Rokugan's first Emperor was unshakable.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "2"
+                ],
+                "artnumber": [
+                    "10130002"
+                ],
+                "set": [
+                    "Coils of Madness"
+                ],
+                "artist": [
+                    "Andrew Olson"
+                ],
+                "printimagehash": [
+                    "4d/62"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "[Note: This is original Hantei.]"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "The rulebook's Favor Political Battle action has <b>Absent</b> for you, and you may target any Personality with it. <i>(Absent actions can be taken without presence.)</i><br><b>Political Interrupt:</b> Discard this Celestial. Negate a Political action.<br>"
+        ],
+        "formattedtitle": "Hantei's Guidance",
+        "cardid": 10417,
+        "title": [
+            "Hantei's Guidance"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "imagehash": "88/70",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Dragon"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>Power of Heaven / Essence of the mortal world / All lost to madness</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "3"
+                ],
+                "artnumber": [
+                    "10130003"
+                ],
+                "set": [
+                    "Coils of Madness"
+                ],
+                "artist": [
+                    "Chris Burdett"
+                ],
+                "use": [
+                    "P'an Ku as a Celestial"
+                ],
+                "printimagehash": [
+                    "88/70"
+                ],
+                "designer": [
+                    "Duncan"
+                ],
+                "designernotes": [
+                    "P'an Ku as a Celestial"
+                ],
+                "rarity": [
+                    "Fixed"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> Give a target card a <b>Madness </b>token.<br><b>Open:</b> Discard this Celestial. A target Personality with a Madness token cannot attack or defend.<br>"
+        ],
+        "formattedtitle": "P'an Ku's Madness",
+        "cardid": 10418,
+        "title": [
+            "P'an Ku's Madness"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "printing": [
+            {
+                "flavor": [
+                    "<i>The merciful act with gentleness and compassion. In the eyes of samurai, even an act of mercy can seem like cruelty.</i>"
+                ],
+                "printingid": "1",
+                "artnumber": [
+                    "10130144"
+                ],
+                "set": [
+                    "Promotional&ndash;Emperor"
+                ],
+                "artist": [
+                    "Greg Lambrakis"
+                ],
+                "use": [
+                    "[Summer Con Dynasty 1]"
+                ],
+                "printimagehash": [
+                    "c2/bb"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "designernotes": [
+                    "This is Jizo, the fortune of Mercy."
+                ],
+                "rarity": [
+                    "Promo"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Battle:</b> Move a target attacking Personality home.<br><b>Battle:</b> Discard this Celestial. In this battle's resolution, before you destroy the Province, gain 4 Honor instead.<br>"
+        ],
+        "formattedtitle": "Jizo's Mercy",
+        "cardid": 10563,
+        "imagehash": "c2/bb",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "notes": [
+            "Legal December 1st, 2013",
+            "Released in the 2013 Summer Con pack"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Fortune"
+        ],
+        "title": [
+            "Jizo's Mercy"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "playtestname": [
+            "[Blood of Shahai]"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"Learn this lesson well: Blood and power are the only truths. All else is illusion.\" - Shahai</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "1"
+                ],
+                "artnumber": [
+                    "10140001"
+                ],
+                "set": [
+                    "Gates of Chaos"
+                ],
+                "artist": [
+                    "Mario Wibisono"
+                ],
+                "use": [
+                    "Designers Choice &#149; This card represents Shahai, the Dark Fortune of Blood."
+                ],
+                "printimagehash": [
+                    "75/4a"
+                ],
+                "designer": [
+                    "Duncan"
+                ],
+                "designernotes": [
+                    "Shahai standing in/above a pool of blood in Jigoku."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Maho Battle/Open:</b> Give -1C to a target Personality with lower Chi than his printed Chi.<br><b>Maho Battle:</b> Discard this Celestial. Give each Personality at this battlefield a -1C <b>Blood </b>token."
+        ],
+        "story": [
+            "2011 GenCon AEG Game Night - Stephen Franklin"
+        ],
+        "formattedtitle": "Blood of Shahai",
+        "cardid": 10602,
+        "imagehash": "75/4a",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Dark Fortune"
+        ],
+        "title": [
+            "Blood of Shahai"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "updatelog": [
+            {
+                "newdata": {
+                    "artist": [
+                        "Jazz Siy"
+                    ],
+                    "notes": [
+                        "Artist miscredited as \"Jazzy\" instead of \"Jazz\"."
+                    ]
+                },
+                "op": "updateinstance",
+                "uid": 20431,
+                "uname": "Brook Cunningham",
+                "olddata": {
+                    "printing": [
+                        {
+                            "flavor": [
+                                "<i>\"I do not care what the reality of the situation is. I care only that my father is remembered as the great man he was. If it is only the peasants who remember him, that is a start.\" - Moto Taigo</i>"
+                            ],
+                            "printingid": "1",
+                            "number": [
+                                "1"
+                            ],
+                            "artnumber": [
+                                "10150151"
+                            ],
+                            "set": [
+                                "Aftermath"
+                            ],
+                            "artist": [
+                                "Jazzy Siy"
+                            ],
+                            "use": [
+                                "Designers Choice"
+                            ],
+                            "printimagehash": [
+                                "56/23"
+                            ],
+                            "designer": [
+                                "Bryan"
+                            ],
+                            "rarity": [
+                                "Uncommon"
+                            ]
+                        }
+                    ]
+                },
+                "timestamp": 1636492846813
+            }
+        ],
+        "playtestname": [
+            "Chagatai's Wrath"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"I do not care what the reality of the situation is. I care only that my father is remembered as the great man he was. If it is only the peasants who remember him, that is a start.\" - Moto Taigo</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "1"
+                ],
+                "artnumber": [
+                    "10150151"
+                ],
+                "set": [
+                    "Aftermath"
+                ],
+                "notes": [
+                    "Artist miscredited as \"Jazzy\" instead of \"Jazz\"."
+                ],
+                "artist": [
+                    "Jazz Siy"
+                ],
+                "use": [
+                    "Designers Choice"
+                ],
+                "printimagehash": [
+                    "56/23"
+                ],
+                "designer": [
+                    "Bryan"
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Limited:</b> End the Action Phase. Discard this Celestial."
+        ],
+        "story": [
+            "2011 Name a Celestial - Mike Valliere"
+        ],
+        "formattedtitle": "Chagatai's Wrath",
+        "cardid": 10816,
+        "imagehash": "56/23",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>"
+        ],
+        "title": [
+            "Chagatai's Wrath"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "playtestname": [
+            "The Inevitable Grasp of Conquest"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>As the threat of the Yodotai lingered in the mortal world, so too did it begin to manifest in the worlds beyond.</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "2"
+                ],
+                "artnumber": [
+                    "10150001"
+                ],
+                "set": [
+                    "Aftermath"
+                ],
+                "artist": [
+                    "Joshua Pinkas"
+                ],
+                "use": [
+                    "Designers Choice"
+                ],
+                "printimagehash": [
+                    "c2/78"
+                ],
+                "designer": [
+                    "Thomas"
+                ],
+                "designernotes": [
+                    "A battle of spirits and ghosts in the realm of thwarted destiny."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "Your Personalities have <b>Conqueror</b>.<br><b>Battle:</b> Destroy one of your Provinces. Other players' cards will not destroy your Personalities this battle. Discard this Celestial."
+        ],
+        "story": [
+            "2012 Name a Celestial - Alex Nagelvoort"
+        ],
+        "formattedtitle": "The Inevitable Grasp of Conquest",
+        "cardid": 10817,
+        "imagehash": "c2/78",
+        "legality": [
+            "Age of Conquest (Emperor)"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Maigo no Musha"
+        ],
+        "title": [
+            "The Inevitable Grasp of Conquest"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    },
+    {
+        "playtestname": [
+            "The Way of Sensei Wun"
+        ],
+        "printing": [
+            {
+                "flavor": [
+                    "<i>\"A sensei from the early Empire, a man who studied the ways of Akodo and Sun Tao. He sits amid the Heavens as a Fortune, and we venerate him.\" - Akodo Dairuko</i>"
+                ],
+                "printingid": "1",
+                "number": [
+                    "3"
+                ],
+                "artnumber": [
+                    "10150002"
+                ],
+                "set": [
+                    "Aftermath"
+                ],
+                "artist": [
+                    "Dieter Miller"
+                ],
+                "use": [
+                    "Designers Choice"
+                ],
+                "printimagehash": [
+                    "fd/16"
+                ],
+                "designer": [
+                    "Loki"
+                ],
+                "designernotes": [
+                    "A Celestial based on a famous military leader."
+                ],
+                "rarity": [
+                    "Uncommon"
+                ]
+            }
+        ],
+        "printingprimary": "1",
+        "text": [
+            "<b>Battle:</b> Put a target Battle Strategy from your discard pile into your hand. Discard this Celestial."
+        ],
+        "story": [
+            "2012 Name a Celestial - Case Kiyonaga"
+        ],
+        "formattedtitle": "The Ways of Sensei Wu",
+        "cardid": 10818,
+        "imagehash": "fd/16",
+        "legality": [
+            "Age of Conquest (Emperor)",
+            "Modern"
+        ],
+        "deck": [
+            "Dynasty"
+        ],
+        "keywords": [
+            "<b>Unique</b>",
+            "Fortune"
+        ],
+        "title": [
+            "The Ways of Sensei Wu"
+        ],
+        "type": [
+            "Celestial"
+        ]
+    }
+]

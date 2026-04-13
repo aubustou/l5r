@@ -1,37 +1,34 @@
 from __future__ import annotations
-
-from l5r_auto.keywords import Unique
-from l5r_auto.legality import (
-    CelestialEdition,
-    DiamondEdition,
-    EmperorEdition,
-    IvoryEdition,
-    JadeEdition,
-    LotusEdition,
-    ModernEdition,
-    SamuraiEdition,
-    TwentyFestivalsEdition,
-)
-
 from .common import Event
-
-"<b>Open:</b> Starting with you, each player may search his discard pile and Fate deck for a Ring, show it, and put it in his hand."
-Wisdom_Gained = Event(
-    card_id=9356,
-    title="Wisdom Gained",
-    keywords=[Unique],
-    traits=[],
-    abilities=[],
-    legality=[
-        IvoryEdition,
-        TwentyFestivalsEdition,
-        EmperorEdition,
-        LotusEdition,
-        CelestialEdition,
-        JadeEdition,
-        SamuraiEdition,
-        DiamondEdition,
-        ModernEdition,
-        ModernEdition,
-    ],
-)
+from l5r_auto.keywords import Festival, Imperial, Shogun, Unique, Winter
+from l5r_auto.legality import CelestialEdition, DiamondEdition, EmperorEdition, GoldEdition, ImperialEdition, IvoryEdition, JadeEdition, LotusEdition, ModernEdition, SamuraiEdition, TwentyFestivalsEdition
+"After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until the game ends, before each player's turn ends, if his Dynasty deck has no cards, he chooses and destroys one Personality or Holding he controls for each of his Provinces without a Dynasty card in it."
+Abandoning_the_Fortunes = Event(card_id=105, title='Abandoning the Fortunes', keywords=[Unique], traits=[], abilities=[], legality=[EmperorEdition, JadeEdition, ModernEdition])
+'After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, after the next time this game you destroy a Province as the Attacker, the Defender loses 5 Honor.'
+Alter_History = Event(card_id=336, title='Alter History', keywords=[Unique], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+"After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, each player in turn order starting with you may choose a card in his hand. Discard all chosen cards. If exactly one player's card has the lowest Focus Value of all those cards, he gains a Province to the left of his leftmost province. If exactly one player's card has the highest Focus Value of all those cards, permanently give him +3 maximum hand size, and he draws three cards."
+Benefices_of_the_Emperor = Event(card_id=956, title='Benefices of the Emperor', keywords=[Unique, Imperial], traits=[], abilities=[], legality=[EmperorEdition, JadeEdition, ModernEdition])
+'After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, if any other player controls a Personality, then at the start of your next turn, if this Province still exists, permanently give it +3 strength and gain 3 Honor, and until then, after battle resolution destroys this Province, give each Personality in the attacking army a +1F token and the Attacker may draw a card.'
+Boastful_Proclamation = Event(card_id=1086, title='Boastful Proclamation', keywords=[Unique], traits=[], abilities=[], legality=[EmperorEdition, LotusEdition, GoldEdition, DiamondEdition, ModernEdition])
+'After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, no players may take Reactions until your next turn begins.'
+Cherry_Blossom_Festival = Event(card_id=1314, title='Cherry Blossom Festival', keywords=[Unique, Festival], traits=[], abilities=[], legality=[EmperorEdition, GoldEdition, JadeEdition, ModernEdition])
+'After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them,, choose a Personality in play. He may not be assigned to attack you until your next turn begins.'
+Delayed_Arrival = Event(card_id=1939, title='Delayed Arrival', traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+'After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until your turn two turns from now begins, other players may not target your Personalities with Limited actions.'
+Disgrace = Event(card_id=2017, title='Disgrace', keywords=[Unique], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until the game ends, Equipping is a <b>Battle/Open</b> action <i>(for all players)</i>, and after the first time each turn each player Equips a card with a printed Gold Cost of 5 or more from his hand, that player may draw a card.'
+Glory_of_the_Shogun = Event(card_id=2824, title='Glory of the Shogun', keywords=[Unique, Shogun], traits=[], abilities=[], legality=[EmperorEdition, LotusEdition, SamuraiEdition, DiamondEdition, ModernEdition])
+'After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, gain 2 Honor and search your Fate deck for an Item, show it, and put it into your hand.'
+Imperial_Gift = Event(card_id=3694, title='Imperial Gift', keywords=[Unique, Imperial], traits=[], abilities=[], legality=[EmperorEdition, ImperialEdition, GoldEdition, JadeEdition, ModernEdition])
+'After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, each player may shuffle an Event in his discard pile into his deck.'
+Moon_and_Sun = Event(card_id=5233, title='Moon and Sun', keywords=[Unique], traits=[], abilities=[], legality=[EmperorEdition, JadeEdition, DiamondEdition, ModernEdition])
+'After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, show a card in your hand to another player. <i>You offer it as a gift.</i> He may put it in his hand; if he does, you gain Honor equal to its printed Focus Value. If you showed a card and he does not put it in his hand, discard the card and draw two cards.'
+Naoharus_Gift = Event(card_id=5510, title="Naoharu's Gift", keywords=[Unique, Winter], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+'After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, any player with three or fewer Provinces may gain a Province to the right of his rightmost Province. Each player who gained a Province from this has his Family Honor lowered to its starting value, and he may not declare an attack until your next turn begins. This Honor loss will not be negated or given to another player instead.'
+Rebuilding_the_Empire = Event(card_id=6201, title='Rebuilding the Empire', keywords=[Unique], traits=[], abilities=[], legality=[EmperorEdition, JadeEdition, ModernEdition])
+"After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until your turn three turns from now begins, after each time a Personality opposing a Magistrate or Courtier becomes dishonorable from an action, the Personality's controller loses 2 Honor."
+Successful_Bounty = Event(card_id=7608, title='Successful Bounty', keywords=[Unique], traits=[], abilities=[], legality=[EmperorEdition, CelestialEdition, ModernEdition])
+'After you reveal cards in your Provinces at the start of your turn, if this Event is face-up in one of them, until the game ends, before each of your Action Phases begins, each player in turn order starting with you loses 1 Honor.'
+Suspicions = Event(card_id=7675, title='Suspicions', keywords=[Unique], traits=[], abilities=[], legality=[EmperorEdition, GoldEdition, JadeEdition, ModernEdition])
+'<b>Open:</b> Starting with you, each player may search his discard pile and Fate deck for a Ring, show it, and put it in his hand.'
+Wisdom_Gained = Event(card_id=9356, title='Wisdom Gained', keywords=[Unique], traits=[], abilities=[], legality=[IvoryEdition, TwentyFestivalsEdition, EmperorEdition, LotusEdition, CelestialEdition, JadeEdition, SamuraiEdition, DiamondEdition, ModernEdition])

@@ -1,0 +1,17 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import BrotherhoodOfShinsei, NinjaFaction, ShadowlandsFaction, SpiderClan
+from l5r_auto.keywords import Brash, Commander, Conqueror, DarkWill, DragonChild, Experienced, Infiltrator, Kensai, Loyal, Monk, Ninja, OrderOfTheSpider, Paragon, Samurai, Shadowlands, Shugenja, Unique
+from l5r_auto.legality import EmperorEdition, ModernEdition
+'After Yamato enters play: Lose 1 Honor and if any other player is Scorpion Clan, permanently remove <b>Brash</b> from Yamato. <i>(The Defender may draw a card after a Brash card is assigned to attack.)</i><br><b>Battle/Open:</b> Target your Follower at any location: Transfer it to Yamato. You may take an additional action.'
+Daigotsu_Yamato = Personality(card_id=10085, title='Daigotsu Yamato', force=4, chi=2, personal_honor=0, gold_cost=6, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[Brash, Conqueror, Commander, Samurai, Shadowlands], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'After Yutaka enters play: Lose 1 Honor.<br>Yutaka may not perform Bushido Virtue actions.<br><b>Battle:</b> If Yutaka is dead and he would be opposed: Bring him into play at the current battlefield, paying 3 less Gold if you have taken a Dark Virtue action this phase.'
+Daigotsu_Yutaka = Personality(card_id=10086, title='Daigotsu Yutaka', force=5, chi=2, personal_honor=0, gold_cost=7, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[DarkWill, Paragon, Samurai, Shadowlands], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'After Asuka enters play: You may give control of her to another player.<br>Asuka may not assign, and will not move, into a defending army.<br>After a Straighten Phase begins: Choose your bowed non-Spider Clan Personality. Negate his straightening this phase.'
+Goju_Asuka = Personality(card_id=10087, title='Goju Asuka', force=1, chi=3, personal_honor=0, gold_cost=6, honor_requirement=None, clan=[SpiderClan], keywords=[Infiltrator], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'After Yurishi enters play: Lose 3 Honor.<br>Other players may not target Yurishi with actions if any other legal targets are available.'
+Goju_Yurishi_Experienced = Personality(card_id=10088, title='Goju Yurishi', force=5, chi=3, personal_honor=0, gold_cost=9, honor_requirement=None, clan=[SpiderClan, NinjaFaction, ShadowlandsFaction], keywords=[Loyal, Unique, DragonChild, Experienced('1'), Ninja, Shadowlands], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Reaction:</b> After Masayoshi enters play: Create a +4F/+1C <b>Weapon</b> Item and attach it to him.'
+Masayoshi = Personality(card_id=10089, title='Masayoshi', force=4, chi=3, personal_honor=0, gold_cost=10, honor_requirement=None, clan=[SpiderClan, BrotherhoodOfShinsei], keywords=[Kensai, Monk, OrderOfTheSpider], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'After Hajime enters play, lose 2 Honor.<br><b>Ninja Battle:</b> Target an enemy Personality at the current battlefield. <i>Hajime turns his mind to rice pudding and he wanders off.</i> Move him to a different location.'
+Ninube_Hajime = Personality(card_id=10090, title='Ninube Hajime', force=4, chi=4, personal_honor=0, gold_cost=8, honor_requirement=None, clan=[SpiderClan, NinjaFaction, ShadowlandsFaction], keywords=[Ninja, Shadowlands, Shugenja], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])

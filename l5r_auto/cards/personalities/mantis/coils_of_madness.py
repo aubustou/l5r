@@ -1,0 +1,19 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import BrotherhoodOfShinsei, MantisClan
+from l5r_auto.keywords import AmethystChampion, BoarClan, BreakerOfWills, Brute, Daimyo, Expendable, Experienced, Extortionist, Fallen, HalfNaga, Inexperienced, Magistrate, MasterBowman, Monk, Naval, Samurai, Scout, Shugenja, TheJaggedTuskOfDeath, Thunder, Unique, WaspClan, Water
+from l5r_auto.legality import EmperorEdition, IvoryEdition, ModernEdition
+'<b>Limited:</b> Bow your target unbowed Ring or Moto Ming-Gwok. Draw a card.'
+Moshi_Tomiko_Experienced = Personality(card_id=10466, title='Moshi Tomiko', force=5, chi=4, personal_honor=2, gold_cost=8, honor_requirement=None, clan=[MantisClan], keywords=[Naval, Unique, Experienced('1'), Shugenja, Thunder], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'Okazaki enters play ignoring Gold Cost if you control the Ring of Water.<br><b>Water Limited:</b> Give another target Mantis Clan Personality <b>Conqueror</b>.'
+Okazaki_Breaker_of_Wills = Personality(card_id=10467, title='Okazaki, Breaker of Wills', force=4, chi=3, personal_honor=1, gold_cost=6, honor_requirement=0, clan=[MantisClan, BrotherhoodOfShinsei], keywords=[Naval, Unique, BreakerOfWills, Monk, Water], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'Tochiko has +2F while opposing a Personality or Follower with lower Force.'
+Tochiko_the_Jagged_Tusk_of_Death = Personality(card_id=10468, title='Tochiko, the Jagged Tusk of Death', force=5, chi=1, personal_honor=0, gold_cost=6, honor_requirement=None, clan=[MantisClan], keywords=[Unique, BoarClan, Samurai, TheJaggedTuskOfDeath], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'<b>Open:</b> Give Tsuruchi <b>Arrow </b>tokens until he has exactly five.<br><b>Battle:</b> Destroy zero or more Arrow tokens on Tsuruchi. Ranged Attack with strength equal to twice the number of tokens destroyed. You may use this action three times per turn.'
+Tsuruchi_Inexperienced = Personality(card_id=10469, title='Tsuruchi', force=3, chi=3, personal_honor=2, gold_cost=8, honor_requirement=2, clan=[MantisClan], keywords=[Unique, Daimyo, Inexperienced, MasterBowman, Samurai, Scout, WaspClan], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'After Kanaye enters play, lose 3 Honor.<br>Actions on your Strategies cost 1 less Gold.'
+Yoritomo_Kanaye_Experienced = Personality(card_id=10470, title='Yoritomo Kanaye', force=4, chi=3, personal_honor=0, gold_cost=7, honor_requirement=None, clan=[MantisClan], keywords=[Naval, Unique, Brute, Experienced('1'), Extortionist, Fallen, Magistrate, Samurai], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'<b>Limited:</b> Put your target discarded <i>(not dead)</i> Personality face-up into one of your Provinces, discarding any card currently there. Discard a Fate card.'
+Yoritomo_Minori_Experienced = Personality(card_id=10471, title='Yoritomo Minori', force=4, chi=3, personal_honor=2, gold_cost=7, honor_requirement=0, clan=[MantisClan], keywords=[Naval, Unique, AmethystChampion, Experienced('1'), HalfNaga, Magistrate, Samurai], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'<i><i><i><i>(Draw a card after your Expendable card is destroyed.)</i></i></i></i><br>After Tonogi enters play, lose 2 Honor.'
+Yoritomo_Tonogi = Personality(card_id=10465, title='Yoritomo Tonogi', force=3, chi=3, personal_honor=0, gold_cost=5, honor_requirement=None, clan=[MantisClan], keywords=[Expendable, Naval, Fallen, Magistrate, Samurai], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])

@@ -16,6 +16,8 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
     "pdbpp",
+    "pytest",
+    "pytest-cov",
 ]
 
 [project.scripts]
@@ -52,3 +54,6 @@ exclude = '''
 
 [tool.isort]
 profile = 'black'
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,28 +1,19 @@
 from __future__ import annotations
-
-from l5r_auto.clans import NinjaFaction, ScorpionClan
-from l5r_auto.keywords import Ninja
-from l5r_auto.legality import (
-    EmperorEdition,
-    ModernEdition,
-    OnyxEdition,
-    TwentyFestivalsEdition,
-)
-
 from ..common import Personality
-
-"After Kodanshi enters play from a Province, create a 0F/2C/0PH Ninja Scorpion Clan Personality."
-Soshi_Kodanshi = Personality(
-    card_id=10082,
-    title="Soshi Kodanshi",
-    force=4,
-    chi=3,
-    personal_honor=0,
-    gold_cost=7,
-    honor_requirement=None,
-    clan=[ScorpionClan, NinjaFaction],
-    keywords=[Ninja],
-    traits=[],
-    abilities=[],
-    legality=[TwentyFestivalsEdition, EmperorEdition, OnyxEdition, ModernEdition],
-)
+from l5r_auto.clans import NinjaFaction, ScorpionClan
+from l5r_auto.keywords import Air, BitterLies, Courtier, Cursed, Experienced, Fudo, Imperial, ImperialExplorer, Kuroiban, Loyal, Magistrate, Ninja, Overconfident, Paragon, Resourceful, Samurai, Scout, Shadowspawn, Shugenja, Student, Unique, Yojimbo
+from l5r_auto.legality import EmperorEdition, ModernEdition, OnyxEdition, TwentyFestivalsEdition
+'After Makubesu enters play: Create two 1F Followers and attach them to one or two of your Personalities.'
+Bayushi_Makubesu = Personality(card_id=10078, title='Bayushi Makubesu', force=4, chi=3, personal_honor=2, gold_cost=8, honor_requirement=None, clan=[ScorpionClan], keywords=[BitterLies, Courtier, Imperial, Magistrate, Samurai], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<i>(Each other player may draw a card after an Overconfident card enters or leaves play.)</i><br><b>Political Reaction:</b> After Mugoshi enters play, choose a player: You slander him for not accepting the teachings of Fudo. He loses 1 Honor.'
+Bayushi_Mugoshi = Personality(card_id=10079, title='Bayushi Mugoshi', force=0, chi=3, personal_honor=1, gold_cost=3, honor_requirement=None, clan=[ScorpionClan], keywords=[Overconfident, Courtier, Fudo, Student], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<b>Battle:</b> Even if Shibata is not at the current battlefield, target an attacking Personality: Shibata draws on his knowledge of the land. Bow the target. Give the current battlefield's province +3 strength if the target is dishonorable."
+Bayushi_Shibata_Experienced = Personality(card_id=10080, title='Bayushi Shibata', force=1, chi=4, personal_honor=0, gold_cost=8, honor_requirement=None, clan=[ScorpionClan], keywords=[Unique, Courtier, Experienced('1'), Imperial, ImperialExplorer, Resourceful, Scout], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Reaction:</b> After a Battle action resolves, if Hawado is at the current battlefield, target a Personality that performed it: Move him from his current location to another.'
+Shosuro_Hawado_Experienced = Personality(card_id=10081, title='Shosuro Hawado', force=4, chi=3, personal_honor=0, gold_cost=8, honor_requirement=None, clan=[ScorpionClan, NinjaFaction], keywords=[Unique, Experienced('1'), Ninja, Shadowspawn], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'After Kodanshi enters play from a Province, create a 0F/2C/0PH Ninja Scorpion Clan Personality.'
+Soshi_Kodanshi = Personality(card_id=10082, title='Soshi Kodanshi', force=4, chi=3, personal_honor=0, gold_cost=7, honor_requirement=None, clan=[ScorpionClan, NinjaFaction], keywords=[Ninja], traits=[], abilities=[], legality=[TwentyFestivalsEdition, EmperorEdition, OnyxEdition, ModernEdition])
+"<b>Battle:</b> Target your Courtier and an enemy Personality: Move them to the current battlefield. Straighten the enemy Personality's unit."
+Yogo_Heijin = Personality(card_id=10083, title='Yogo Heijin', force=4, chi=2, personal_honor=1, gold_cost=7, honor_requirement=None, clan=[ScorpionClan], keywords=[Loyal, Cursed, Paragon, Samurai, Yojimbo], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Reaction:</b> After Ugimori enters play from a province, choose a player: He may not take the Proclaim action until your next turn begins.'
+Yogo_Ugimori = Personality(card_id=10084, title='Yogo Ugimori', force=3, chi=4, personal_honor=2, gold_cost=7, honor_requirement=None, clan=[ScorpionClan], keywords=[Air, Kuroiban, Shugenja], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])

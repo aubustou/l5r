@@ -27,3 +27,19 @@ class EndOfDynastyDeckError(EndOfGame):
 
 class MaximumNumberOfTurnsReached(EndOfGame):
     """Exception raised when the maximum number of turns is reached."""
+
+
+class HonorVictory(EndOfGame):
+    """Exception raised when a player wins or loses by honor."""
+
+    def __init__(self, winner: object, loser: object) -> None:
+        self.winner = winner
+        self.loser = loser
+
+
+class ProvinceConquestVictory(EndOfGame):
+    """Exception raised when a player destroys all of the opponent's provinces."""
+
+    def __init__(self, winner: object, loser: object) -> None:
+        self.winner = winner
+        self.loser = loser

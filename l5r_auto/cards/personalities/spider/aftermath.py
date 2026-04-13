@@ -1,0 +1,16 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import BrotherhoodOfShinsei, NinjaFaction, ShadowlandsFaction, SpiderClan
+from l5r_auto.keywords import ClanChampion, Commander, Conqueror, Courtier, Destined, Experienced, Kensai, Loyal, MasterOfGuile, Monk, Ninja, Nonhuman, Paragon, Reserve, Samurai, Shadowlands, Undead, Unique
+from l5r_auto.legality import EmperorEdition, IvoryEdition, ModernEdition
+'<i>(You may Recruit a Reserve card, if it would be opposed, as an Absent Battle action.)</i><br><b>Battle, :gstar::</b> Equip a Follower to Chiboshi. You may take an additional Battle action.'
+Daigotsu_Chiboshi = Personality(card_id=10874, title='Daigotsu Chiboshi', force=2, chi=3, personal_honor=0, gold_cost=5, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[Conqueror, Reserve, Commander, Samurai, Shadowlands], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'<i>(Draw a card after your Destined card enters play.)</i><br><b>Limited, :gstar::</b> If Endo is dead, Recruit him.'
+Daigotsu_Endo = Personality(card_id=10875, title='Daigotsu Endo', force=4, chi=2, personal_honor=0, gold_cost=8, honor_requirement=None, clan=[SpiderClan, ShadowlandsFaction], keywords=[Destined, Nonhuman, Samurai, Shadowlands, Undead], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'<b>Tireless Open:</b> Take the Imperial Favor. <i>(You may use Tireless abilities even if bowed.)</i>'
+Daigotsu_Kanpeki_Experienced_2 = Personality(card_id=10876, title='Daigotsu Kanpeki', force=6, chi=5, personal_honor=0, gold_cost=14, honor_requirement=None, clan=[SpiderClan, BrotherhoodOfShinsei], keywords=[Conqueror, Experienced('2'), Kensai, Loyal, Unique, ClanChampion, Monk, Paragon, Samurai], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'After Obayashi enters play, lose 2 Honor.<br><b>Ninja Tireless Battle:</b> Move Obayashi home. <i>(You may use Tireless abilities even if bowed.)</i>'
+Goju_Obayashi = Personality(card_id=10877, title='Goju Obayashi', force=4, chi=1, personal_honor=0, gold_cost=6, honor_requirement=None, clan=[SpiderClan, NinjaFaction, ShadowlandsFaction], keywords=[Ninja, Shadowlands], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+Nonaka = Personality(card_id=10878, title='Nonaka', force=3, chi=3, personal_honor=1, gold_cost=4, honor_requirement=None, clan=[SpiderClan, BrotherhoodOfShinsei], keywords=[Kensai, Monk], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])
+'Invest :g3:: Discard a card to gain Honor equal to its Focus Value. <i>(After this card enters play, you may also pay the Invest cost to get the effect, once.)</i>'
+Susumu_Takada = Personality(card_id=10879, title='Susumu Takada', force=2, chi=4, personal_honor=1, gold_cost=6, honor_requirement=None, clan=[SpiderClan], keywords=[Loyal, Courtier, MasterOfGuile], traits=[], abilities=[], legality=[IvoryEdition, EmperorEdition, ModernEdition])

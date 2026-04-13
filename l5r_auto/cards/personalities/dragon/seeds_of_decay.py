@@ -1,0 +1,19 @@
+from __future__ import annotations
+from ..common import Personality
+from l5r_auto.clans import BrotherhoodOfShinsei, DragonClan
+from l5r_auto.keywords import Alchemist, Artisan, Brash, Courtier, Duelist, Earth, Experienced, FavoredOfTheWaterDragon, Fire, IncenseMaster, Kensai, Magistrate, MasterOfTheBlade, Monk, Overconfident, Samurai, Shugenja, Tattooed, Unique
+from l5r_auto.legality import EmperorEdition, ModernEdition
+'Minori does not have Overconfident <i>(in and out of play)</i> if any other player is Lion Clan. <i>(Each other player may draw a card after an Overconfident card enters or leaves play.)</i>'
+Kitsuki_Minori = Personality(card_id=10052, title='Kitsuki Minori', force=1, chi=3, personal_honor=4, gold_cost=5, honor_requirement=6, clan=[DragonClan], keywords=[Duelist, Overconfident, Courtier, Magistrate], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Battle/Open:</b> Even if Houken is bowed: Straighten his unit. You may move him home, or, if he would be opposed, to the current battlefield.'
+Mirumoto_Houken_Experienced = Personality(card_id=10053, title='Mirumoto Houken', force=5, chi=4, personal_honor=2, gold_cost=9, honor_requirement=4, clan=[DragonClan], keywords=[Duelist, Kensai, Unique, Experienced('1'), FavoredOfTheWaterDragon, MasterOfTheBlade, Samurai], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Battle:</b> Even if Michi is bowed: If he would be opposed, move him to the current battlefield. If he moved, straighten his unit.'
+Mirumoto_Michi = Personality(card_id=10054, title='Mirumoto Michi', force=4, chi=3, personal_honor=1, gold_cost=7, honor_requirement=None, clan=[DragonClan], keywords=[Kensai, Samurai], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Open:</b> Target your Personality: Takeshi helps him meditate. Effects of actions the target performs will not be negated.'
+Tamori_Takeshi = Personality(card_id=10055, title='Tamori Takeshi', force=1, chi=3, personal_honor=3, gold_cost=5, honor_requirement=5, clan=[DragonClan], keywords=[Artisan, IncenseMaster], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<b>Open:</b> If it is not your turn, target an unbowed Personality controlled by the active player: Before the turn ends, gain 1 Honor if he was not assigned to attack your provinces this turn.<br><b>Reaction:</b> Before an action resolves, target a Personality: Negate either his movement or straightening from the action's effects."
+Tamori_Tamoko = Personality(card_id=10056, title='Tamori Tamoko', force=4, chi=4, personal_honor=2, gold_cost=8, honor_requirement=5, clan=[DragonClan], keywords=[Alchemist, Earth, Shugenja], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+'<b>Reaction:</b> After Hiroto enters play: Give him four +1F <b>Fire </b>tokens.<br><b>Battle:</b> Target an enemy card without attachments: Bow it. Destroy it if it is an attachment.'
+Togashi_Hiroto = Personality(card_id=10057, title='Togashi Hiroto', force=0, chi=4, personal_honor=2, gold_cost=8, honor_requirement=5, clan=[DragonClan, BrotherhoodOfShinsei], keywords=[Fire, Monk, Tattooed], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
+"<i>(The Defender may draw a card after a Brash card is assigned to attack.)</i><br><b>Battle:</b> Target an enemy Personality with lower Chi: Noboru pushes him to a new path. While you have at least one unit in your current army, the target's Force contributes to that army's total Force instead of his controller's."
+Togashi_Noboru = Personality(card_id=10058, title='Togashi Noboru', force=4, chi=5, personal_honor=3, gold_cost=8, honor_requirement=2, clan=[DragonClan, BrotherhoodOfShinsei], keywords=[Brash, Unique, Fire, Monk, Tattooed], traits=[], abilities=[], legality=[EmperorEdition, ModernEdition])
