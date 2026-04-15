@@ -12,7 +12,6 @@ from l5r_auto.abilities import (
     Ability,
     AttachFollowerAbility,
     AttachItemAbility,
-    DynastyDiscardAction,
     PlayStrategyAbility,
     RecruitAction,
 )
@@ -24,7 +23,6 @@ from l5r_auto.errors import (
     MaximumNumberOfTurnsReached,
     ProvinceConquestVictory,
 )
-from l5r_auto.locations import PlayArea
 
 if TYPE_CHECKING:
     from .play import Game
@@ -266,7 +264,8 @@ class AttackPhase(Phase):
 
     def _get_personalities(self, player) -> list[PersonalityEntity]:
         return [
-            e for e in player.play_area
+            e
+            for e in player.play_area
             if isinstance(e, PersonalityEntity) and e.face_up
         ]
 
@@ -299,9 +298,7 @@ class AttackPhase(Phase):
             return
 
         # Choose a random face-up province to attack
-        valid_provinces = [
-            prov for prov in defender.provinces if prov.dynasty_cards
-        ]
+        valid_provinces = [prov for prov in defender.provinces if prov.dynasty_cards]
         if not valid_provinces:
             logging.info("%s: No valid provinces to attack.", attacker.name)
             return
@@ -376,8 +373,7 @@ class AttackPhase(Phase):
 
         resilient_used = getattr(entity, "_resilient_used", False)
         has_resilient = any(
-            isinstance(kw, type) and issubclass(kw, Resilient)
-            or kw is Resilient
+            isinstance(kw, type) and issubclass(kw, Resilient) or kw is Resilient
             for kw in entity.keywords
         )
         if has_resilient and not resilient_used:

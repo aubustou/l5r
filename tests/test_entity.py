@@ -1,9 +1,8 @@
 """Tests for Entity state management and location movement."""
+
 from __future__ import annotations
 
-import pytest
-
-from l5r_auto.locations import DynastyDiscard, FateDiscard, Hand, PlayArea
+from l5r_auto.locations import Hand
 
 
 class TestBowStraighten:

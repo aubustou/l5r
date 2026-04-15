@@ -5,7 +5,7 @@ import uuid
 from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Generator
 
-from .locations import Hand, PlayArea, ProvinceLocation
+from .locations import PlayArea, ProvinceLocation
 from .utils import is_entity_of_type
 
 if TYPE_CHECKING:
@@ -86,9 +86,7 @@ class RecruitAction(Ability):
         from .keywords import Unique
 
         titles_in_play = {
-            e.title
-            for e in game.entities
-            if e.location is PlayArea and e.face_up
+            e.title for e in game.entities if e.location is PlayArea and e.face_up
         }
 
         for entity in game.entities:
@@ -179,9 +177,7 @@ class RecruitAction(Ability):
                     return 1
         return None
 
-    def _try_overlay_experienced(
-        self, game: Game, entity: PersonalityEntity
-    ) -> bool:
+    def _try_overlay_experienced(self, game: Game, entity: PersonalityEntity) -> bool:
         """Attempt to overlay an Experienced personality onto a lower-experience version.
 
         Returns True if overlay occurred (skip normal recruit), False otherwise.
@@ -318,9 +314,7 @@ def _pay_gold(game: Game, player: Player, gold_cost: int) -> bool:
             produced_gold += sum(gpe.on_pay(game, player, gpe))
             bowed_entities.append(gpe)
     except ValueError:
-        logging.info(
-            "%s: Not enough gold to pay %d.", player.name, gold_cost
-        )
+        logging.info("%s: Not enough gold to pay %d.", player.name, gold_cost)
         return False
     else:
         logging.info("%s: Paying %d gold.", player.name, produced_gold)
@@ -353,9 +347,7 @@ class PlayStrategyAbility(Ability):
     def get_effect(self, game: Game, card: Entity):
         from .locations import FateDiscard
 
-        logging.info(
-            "%s: Playing strategy %s.", card.owner.name, card.title
-        )
+        logging.info("%s: Playing strategy %s.", card.owner.name, card.title)
         card.move_to(FateDiscard)
 
 
@@ -370,7 +362,8 @@ class AttachFollowerAbility(Ability):
         from .cards.personalities.common import PersonalityEntity
 
         personalities_in_play = [
-            e for e in active_player.play_area
+            e
+            for e in active_player.play_area
             if isinstance(e, PersonalityEntity) and e.face_up
         ]
         if not personalities_in_play:
@@ -392,7 +385,8 @@ class AttachFollowerAbility(Ability):
         from .cards.personalities.common import PersonalityEntity
 
         personalities_in_play = [
-            e for e in card.owner.play_area
+            e
+            for e in card.owner.play_area
             if isinstance(e, PersonalityEntity) and e.face_up
         ]
         if not personalities_in_play:
@@ -419,7 +413,8 @@ class AttachItemAbility(Ability):
         from .cards.personalities.common import PersonalityEntity
 
         personalities_in_play = [
-            e for e in active_player.play_area
+            e
+            for e in active_player.play_area
             if isinstance(e, PersonalityEntity) and e.face_up
         ]
         if not personalities_in_play:
@@ -441,7 +436,8 @@ class AttachItemAbility(Ability):
         from .cards.personalities.common import PersonalityEntity
 
         personalities_in_play = [
-            e for e in card.owner.play_area
+            e
+            for e in card.owner.play_area
             if isinstance(e, PersonalityEntity) and e.face_up
         ]
         if not personalities_in_play:

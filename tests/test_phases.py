@@ -1,11 +1,11 @@
 """Tests for game phase execution."""
+
 from __future__ import annotations
 
 import pytest
 
 from l5r_auto.errors import HonorVictory, ProvinceConquestVictory
-from l5r_auto.locations import Deck as DeckLocation
-from l5r_auto.locations import Hand, PlayArea, ProvinceLocation
+from l5r_auto.locations import Hand, PlayArea
 from l5r_auto.phases import (
     AttackPhase,
     DiscardPhase,
@@ -14,7 +14,6 @@ from l5r_auto.phases import (
     StraightenPhase,
     Turn,
 )
-
 from tests.conftest import _PERSONALITY, _STRATEGY
 
 

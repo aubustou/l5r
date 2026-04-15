@@ -62,9 +62,11 @@ testpaths = ["tests"]
 [tool.ruff]
 line-length = 88
 target-version = "py311"
+exclude = [
+    "l5r_auto/cards",
+    "l5r_auto/generate/generate.py",
+]
 
 [tool.ruff.lint]
 select = ["E", "F", "W", "I"]
-
-[tool.ruff.lint.isort]
-profile = "black"
+ignore = ["E501"]
