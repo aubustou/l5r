@@ -73,6 +73,7 @@ class Player:
     number_of_provinces: int = STARTING_NUMBER_OF_PROVINCES
     remaining_provinces: int = STARTING_NUMBER_OF_PROVINCES
     hand_size: int = STARTING_HAND_SIZE
+    max_hand_size: int = 8
     successive_battle_actions: int = SUCCESSIVE_BATTLE_ACTIONS
 
     def __post_init__(self):
@@ -106,6 +107,7 @@ class Player:
 
     def apply_rules(self, rules: GameRules) -> None:
         self.hand_size = rules.starting_hand_size
+        self.max_hand_size = rules.max_hand_size
         self.number_of_provinces = rules.starting_number_of_provinces
         self.remaining_provinces = rules.starting_number_of_provinces
         self.successive_battle_actions = rules.successive_battle_actions

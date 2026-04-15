@@ -5,7 +5,7 @@ import uuid
 from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Generator
 
-from .locations import PlayArea, ProvinceLocation
+from .locations import Hand, PlayArea, ProvinceLocation
 from .utils import is_entity_of_type
 
 if TYPE_CHECKING:
@@ -67,7 +67,15 @@ class ProduceGold(Ability):
     base_gold_amount: str | int = 0
 
     def on_pay(self, game: Game, player: Player, entity: Entity) -> int:
-        return int(self.base_gold_amount)
+        try:
+            return int(self.base_gold_amount)
+        except (ValueError, TypeError):
+            # Handle non-numeric gold amounts like "2*" — use numeric prefix
+            raw = str(self.base_gold_amount).rstrip("*+GX")
+            try:
+                return int(raw) if raw else 0
+            except ValueError:
+                return 0
 
 
 @dataclass(repr=False, kw_only=True)
@@ -79,6 +87,11 @@ class RecruitAction(Ability):
 
     repeatable: bool = field(default=True, init=False)
     dynasty: bool = field(default=True, init=False)
+    _proclaim_used: bool = field(default=False, init=False)
+
+    def on_start_phase(self, game: Game):
+        super().on_start_phase(game)
+        self._proclaim_used = False
 
     def gather_legal_target_entities(
         self, game: Game, active_player: Player
@@ -94,6 +107,7 @@ class RecruitAction(Ability):
                 entity.owner == active_player
                 and entity.location is ProvinceLocation
                 and entity.face_up
+                and hasattr(entity, "gold_cost")
             ):
                 continue
             # Unique: skip if a card with the same title is already in play
@@ -106,6 +120,17 @@ class RecruitAction(Ability):
                     "%s: Skipping Unique card %s — already in play.",
                     active_player.name,
                     entity.title,
+                )
+                continue
+            # Honor Requirement: player's honor must be >= personality's HR
+            hr = getattr(entity, "honor_requirement", None)
+            if hr is not None and active_player.honor < hr:
+                logging.info(
+                    "%s: Skipping %s — Honor Requirement %d not met (honor: %d).",
+                    active_player.name,
+                    entity.title,
+                    hr,
+                    active_player.honor,
                 )
                 continue
             yield entity
@@ -159,6 +184,21 @@ class RecruitAction(Ability):
             personality,
         )
         personality.move_to(PlayArea)
+
+        # Proclaim: if personality has owner's clan alignment, add PH to family honor
+        if (
+            hasattr(personality, "clan")
+            and personality.owner.clan in personality.clan
+            and not self._proclaim_used
+        ):
+            self._proclaim_used = True
+            logging.info(
+                "%s: Proclaims %s — gains %d Honor.",
+                personality.owner.name,
+                personality.title,
+                personality.personal_honor,
+            )
+            personality.owner.honor += personality.personal_honor
 
     def _recruit_holding(self, game: Game, holding: HoldingEntity):
         logging.info(
@@ -327,6 +367,9 @@ def _pay_gold(game: Game, player: Player, gold_cost: int) -> bool:
 class PlayStrategyAbility(Ability):
     """Action: Play a Strategy card from your hand by paying its gold cost."""
 
+    open: bool = field(default=True, init=False)
+    repeatable: bool = field(default=True, init=False)
+
     def gather_legal_target_entities(
         self, game: Game, active_player: Player
     ) -> Generator[Entity, None, None]:
@@ -354,6 +397,9 @@ class PlayStrategyAbility(Ability):
 @dataclass(repr=False, kw_only=True)
 class AttachFollowerAbility(Ability):
     """Action: Attach a Follower card from hand to a Personality in play."""
+
+    open: bool = field(default=True, init=False)
+    repeatable: bool = field(default=True, init=False)
 
     def gather_legal_target_entities(
         self, game: Game, active_player: Player
@@ -406,6 +452,9 @@ class AttachFollowerAbility(Ability):
 class AttachItemAbility(Ability):
     """Action: Attach an Item card from hand to a Personality in play."""
 
+    open: bool = field(default=True, init=False)
+    repeatable: bool = field(default=True, init=False)
+
     def gather_legal_target_entities(
         self, game: Game, active_player: Player
     ) -> Generator[Entity, None, None]:
@@ -451,3 +500,116 @@ class AttachItemAbility(Ability):
         )
         card.attached_to = target
         card.move_to(PlayArea)
+
+
+@dataclass(repr=False, kw_only=True)
+class CycleAction(Ability):
+    """Limited (first turn only): Choose any number of face-up cards in your Provinces.
+    Put them on the bottom of your Dynasty deck, refill the Provinces face-up.
+    """
+
+    limited: bool = field(default=True, init=False)
+    _first_turn_only: bool = field(default=True, init=False)
+
+    def gather_legal_target_entities(
+        self, game: Game, active_player: Player
+    ) -> Generator[Entity, None, None]:
+        # Only available on turn 1 for this player
+        if game.current_phase and hasattr(game.current_phase, "turn"):
+            if game.current_phase.turn.number > 2:
+                # Turn 1 = first player, turn 2 = second player's first turn
+                return
+        for province in active_player.provinces:
+            for card in province.dynasty_cards:
+                if card.face_up:
+                    yield card
+
+    def pay_cost(self, game: Game, entity: Entity) -> bool:
+        return True
+
+    def get_effect(self, game: Game, card: Entity):
+        province = card.province
+        logging.info(
+            "%s: Cycling %s from province to bottom of dynasty deck.",
+            card.owner.name,
+            card.title,
+        )
+        province.dynasty_cards.remove(card)
+        card.owner.dynasty_deck.insert(0, card)
+        from .locations import Deck
+
+        card.location = Deck
+        card.turn_face_down()
+        province.fill()
+        # New card enters face-up
+        if province.dynasty_cards:
+            for new_card in province.dynasty_cards:
+                if new_card.face_down:
+                    new_card.turn_face_up()
+
+
+@dataclass(repr=False, kw_only=True)
+class KharmicAction(Ability):
+    """Kharmic Repeatable Limited: Discard a Kharmic card from your hand to draw a card,
+    or discard a Kharmic card from your Province to refill the Province face-up.
+    """
+
+    limited: bool = field(default=True, init=False)
+    repeatable: bool = field(default=True, init=False)
+
+    def gather_legal_target_entities(
+        self, game: Game, active_player: Player
+    ) -> Generator[Entity, None, None]:
+        from .keywords import Kharmic
+
+        # Kharmic cards in hand
+        for card in active_player.hand[:]:
+            if any(
+                (isinstance(kw, type) and issubclass(kw, Kharmic)) or kw is Kharmic
+                for kw in card.keywords
+            ):
+                yield card
+
+        # Kharmic cards in provinces
+        for province in active_player.provinces:
+            for card in province.dynasty_cards:
+                if card.face_up and any(
+                    (isinstance(kw, type) and issubclass(kw, Kharmic)) or kw is Kharmic
+                    for kw in card.keywords
+                ):
+                    yield card
+
+    def pay_cost(self, game: Game, entity: Entity) -> bool:
+        return True
+
+    def get_effect(self, game: Game, card: Entity):
+        from .errors import EndOfFateDeckError
+        from .locations import ProvinceLocation
+
+        if card.location is Hand:
+            # Discard from hand, draw a card
+            logging.info(
+                "%s: Kharmic — discarding %s from hand to draw a card.",
+                card.owner.name,
+                card.title,
+            )
+            card.discard()
+            try:
+                card.owner.draw_fate_card()
+            except EndOfFateDeckError:
+                logging.info("%s: Fate deck is empty.", card.owner.name)
+        elif card.location is ProvinceLocation:
+            # Discard from province, refill face-up
+            province = card.province
+            logging.info(
+                "%s: Kharmic — discarding %s from province to refill face-up.",
+                card.owner.name,
+                card.title,
+            )
+            province.dynasty_cards.remove(card)
+            card.discard()
+            province.fill()
+            if province.dynasty_cards:
+                for new_card in province.dynasty_cards:
+                    if new_card.face_down:
+                        new_card.turn_face_up()

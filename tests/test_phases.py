@@ -7,11 +7,9 @@ import pytest
 from l5r_auto.errors import HonorVictory, ProvinceConquestVictory
 from l5r_auto.locations import Hand, PlayArea
 from l5r_auto.phases import (
+    ActionPhase,
     AttackPhase,
-    DiscardPhase,
-    DrawPhase,
-    EndPhase,
-    StraightenPhase,
+    DynastyPhase,
     Turn,
 )
 from tests.conftest import _PERSONALITY, _STRATEGY
@@ -22,9 +20,10 @@ def _make_turn(game, player):
 
 
 class TestStraightenPhase:
+    """Straightening is now the first step of ActionPhase."""
+
     def test_straightens_play_area_cards(self, minimal_game):
         p1 = minimal_game.players[0]
-        # Recruit a personality into play area by manually placing one
         entity = _PERSONALITY(game=minimal_game, owner=p1)
         entity.location = PlayArea
         entity.face_down = False
@@ -32,7 +31,8 @@ class TestStraightenPhase:
         p1.play_area.append(entity)
 
         turn = _make_turn(minimal_game, p1)
-        StraightenPhase(game=minimal_game, turn=turn, active_player=p1).start()
+        phase = ActionPhase(game=minimal_game, turn=turn, active_player=p1)
+        phase._straighten()
 
         assert entity.bowed is False
 
@@ -41,19 +41,22 @@ class TestStraightenPhase:
         p1.stronghold_entity.bowed = True
 
         turn = _make_turn(minimal_game, p1)
-        StraightenPhase(game=minimal_game, turn=turn, active_player=p1).start()
+        phase = ActionPhase(game=minimal_game, turn=turn, active_player=p1)
+        phase._straighten()
 
         assert p1.stronghold_entity.bowed is False
 
 
-class TestEndPhase:
+class TestVictoryChecks:
+    """Honor Victory and Dishonor Loss are now checked on the Turn."""
+
     def test_no_exception_under_honor_threshold(self, minimal_game):
         p1 = minimal_game.players[0]
         p1.honor = 19  # below threshold of 40
 
         turn = _make_turn(minimal_game, p1)
         # Should not raise
-        EndPhase(game=minimal_game, turn=turn, active_player=p1)._start()
+        turn._check_honor_victory()
 
     def test_honor_victory_at_40(self, minimal_game):
         p1 = minimal_game.players[0]
@@ -61,85 +64,102 @@ class TestEndPhase:
 
         turn = _make_turn(minimal_game, p1)
         with pytest.raises(HonorVictory) as exc_info:
-            EndPhase(game=minimal_game, turn=turn, active_player=p1)._start()
+            turn._check_honor_victory()
 
         assert exc_info.value.winner is p1
 
-    def test_dishonor_below_zero(self, minimal_game):
+    def test_dishonor_at_minus_20(self, minimal_game):
         p1 = minimal_game.players[0]
         p2 = minimal_game.players[1]
-        p1.honor = -1
+        p1.honor = -20
 
         turn = _make_turn(minimal_game, p1)
         with pytest.raises(HonorVictory) as exc_info:
-            EndPhase(game=minimal_game, turn=turn, active_player=p1)._start()
+            turn._check_dishonor_loss()
 
         assert exc_info.value.winner is p2
 
+    def test_no_dishonor_at_minus_19(self, minimal_game):
+        p1 = minimal_game.players[0]
+        p1.honor = -19
 
-class TestDiscardPhase:
+        turn = _make_turn(minimal_game, p1)
+        # Should not raise
+        turn._check_dishonor_loss()
+
+
+class TestEndOfTurnDiscard:
+    """Discard is now part of DynastyPhase._end_of_turn_discard."""
+
     def test_discards_excess_cards(self, minimal_game):
         p1 = minimal_game.players[0]
 
-        # Add 2 extra strategy entities to hand (beyond hand_size)
-        for i in range(2):
+        for _ in range(4):
             extra = _STRATEGY(game=minimal_game, owner=p1)
             extra.location = Hand
             extra.face_down = False
             p1.hand.append(extra)
 
-        assert len(p1.hand) == p1.hand_size + 2
+        assert len(p1.hand) > p1.max_hand_size
 
         turn = _make_turn(minimal_game, p1)
-        DiscardPhase(game=minimal_game, turn=turn, active_player=p1)._start()
+        phase = DynastyPhase(game=minimal_game, turn=turn, active_player=p1)
+        phase._end_of_turn_discard()
 
-        assert len(p1.hand) == p1.hand_size
+        assert len(p1.hand) <= p1.max_hand_size
 
-    def test_no_discard_at_hand_size(self, minimal_game):
+    def test_no_discard_at_max_hand_size(self, minimal_game):
         p1 = minimal_game.players[0]
-        assert len(p1.hand) == p1.hand_size  # exactly at hand size
+        original_count = len(p1.hand)
+        assert original_count <= p1.max_hand_size
 
         turn = _make_turn(minimal_game, p1)
-        DiscardPhase(game=minimal_game, turn=turn, active_player=p1)._start()
+        phase = DynastyPhase(game=minimal_game, turn=turn, active_player=p1)
+        phase._end_of_turn_discard()
 
-        assert len(p1.hand) == p1.hand_size
+        assert len(p1.hand) == original_count
 
 
-class TestDrawPhase:
-    def test_draws_up_to_hand_size(self, minimal_game):
+class TestEndOfTurnDraw:
+    """Drawing is now part of DynastyPhase._end_of_turn_draw (draws exactly 1)."""
+
+    def test_draws_one_card(self, minimal_game):
+        from l5r_auto.locations import Deck
+
         p1 = minimal_game.players[0]
 
-        # Remove cards to leave exactly 2 in hand
-        for _ in range(p1.hand_size - 2):
+        # Ensure there's a card in the fate deck to draw
+        if not p1.fate_deck:
             card = p1.hand.pop()
-            card.location = type(card).location  # reset to Deck default
+            card.location = Deck
             p1.fate_deck.append(card)
 
-        assert len(p1.hand) == 2
+        initial_hand = len(p1.hand)
+        initial_deck = len(p1.fate_deck)
+        assert initial_deck >= 1
 
         turn = _make_turn(minimal_game, p1)
-        DrawPhase(game=minimal_game, turn=turn, active_player=p1)._start()
+        phase = DynastyPhase(game=minimal_game, turn=turn, active_player=p1)
+        phase._end_of_turn_draw()
 
-        assert len(p1.hand) == p1.hand_size
+        assert len(p1.hand) == initial_hand + 1
+        assert len(p1.fate_deck) == initial_deck - 1
 
     def test_stops_on_empty_fate_deck(self, minimal_game):
         p1 = minimal_game.players[0]
-        p1.hand_size = 5
-
-        # Empty the hand and fate deck
         p1.hand.clear()
         p1.fate_deck.clear()
 
         turn = _make_turn(minimal_game, p1)
-        # Should not raise, just draw nothing
-        DrawPhase(game=minimal_game, turn=turn, active_player=p1)._start()
+        phase = DynastyPhase(game=minimal_game, turn=turn, active_player=p1)
+        # Should not raise
+        phase._end_of_turn_draw()
 
         assert len(p1.hand) == 0
 
 
 class TestAttackPhaseHelpers:
     def _make_province(self, game, player):
-        """Create a minimal province-like object for testing _destroy_province."""
         from unittest.mock import MagicMock
 
         province = MagicMock()
@@ -188,11 +208,12 @@ class TestAttackPhaseHelpers:
 
         turn = _make_turn(minimal_game, p1)
         phase = AttackPhase(game=minimal_game, turn=turn, active_player=p1)
-        phase._destroy_with_resilient(resilient_card)
+        destroyed = phase._try_destroy(resilient_card)
 
         # First time: should bow, not destroy
+        assert destroyed is False
         assert resilient_card.bowed is True
-        assert resilient_card.location is PlayArea  # still in play
+        assert resilient_card.location is PlayArea
 
     def test_resilient_destroys_second_time(self, minimal_game):
         from l5r_auto.keywords import Resilient
@@ -208,7 +229,8 @@ class TestAttackPhaseHelpers:
 
         turn = _make_turn(minimal_game, p1)
         phase = AttackPhase(game=minimal_game, turn=turn, active_player=p1)
-        phase._destroy_with_resilient(resilient_card)
+        destroyed = phase._try_destroy(resilient_card)
 
-        # Second time: should be destroyed (moved to discard)
+        # Second time: should be destroyed
+        assert destroyed is True
         assert resilient_card.location is not PlayArea
