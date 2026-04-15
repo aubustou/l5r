@@ -1,17 +1,14 @@
 """Tests for Ability cost payment and target gathering."""
+
 from __future__ import annotations
 
-import pytest
-
 from l5r_auto.abilities import RecruitAction, _pay_gold
-from l5r_auto.cards.holdings.common import Holding, HoldingEntity
-from l5r_auto.cards.personalities.common import Personality, PersonalityEntity
-from l5r_auto.cards.strategies.common import Strategy, StrategyEntity
+from l5r_auto.cards.personalities.common import Personality
+from l5r_auto.cards.strategies.common import Strategy
 from l5r_auto.clans import CrabClan, CraneClan
 from l5r_auto.legality import TwentyFestivalsEdition
 from l5r_auto.locations import PlayArea, ProvinceLocation
-
-from tests.conftest import _CHEAP_PERS, _HOLDING, _HOLDING2, _PERSONALITY, _STRATEGY
+from tests.conftest import _CHEAP_PERS, _HOLDING, _HOLDING2, _PERSONALITY
 
 # Unique personality card used across Unique-related tests
 _UNIQUE_PERS = Personality(
@@ -239,15 +236,11 @@ class TestPlayStrategyAbility:
 
         assert strategy_entity in targets
 
-    def test_strategy_not_gathered_when_too_expensive(
-        self, mock_game, mock_player
-    ):
+    def test_strategy_not_gathered_when_too_expensive(self, mock_game, mock_player):
         from l5r_auto.abilities import PlayStrategyAbility
 
         expensive = _EXPENSIVE_STRAT(game=mock_game, owner=mock_player)
-        expensive.location = __import__(
-            "l5r_auto.locations", fromlist=["Hand"]
-        ).Hand
+        expensive.location = __import__("l5r_auto.locations", fromlist=["Hand"]).Hand
         expensive.face_down = False
         mock_player.hand = [expensive]
         mock_player.entities = []  # no gold producers

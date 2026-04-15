@@ -4,16 +4,15 @@ from unittest.mock import MagicMock
 
 import pytest
 
-from l5r_auto.cards.followers.common import Follower, FollowerEntity
-from l5r_auto.cards.holdings.common import Holding, HoldingEntity
-from l5r_auto.cards.personalities.common import Personality, PersonalityEntity
-from l5r_auto.cards.strategies.common import Strategy, StrategyEntity
-from l5r_auto.cards.strongholds.common import Stronghold, StrongholdEntity
+from l5r_auto.cards.followers.common import Follower
+from l5r_auto.cards.holdings.common import Holding
+from l5r_auto.cards.personalities.common import Personality
+from l5r_auto.cards.strategies.common import Strategy
+from l5r_auto.cards.strongholds.common import Stronghold
 from l5r_auto.clans import CrabClan
 from l5r_auto.deck import Deck
 from l5r_auto.legality import TwentyFestivalsEdition
-from l5r_auto.locations import Deck as DeckLocation
-from l5r_auto.locations import Hand, PlayArea, ProvinceLocation
+from l5r_auto.locations import Hand, PlayArea
 
 # ---------------------------------------------------------------------------
 # Module-level test card templates (registered in CARDS on import)

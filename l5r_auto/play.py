@@ -23,7 +23,6 @@ from .phases import StartOfGame, Turn, TurnSequences
 
 if TYPE_CHECKING:
     from .cards import Entity
-    from .models import GameReport
     from .phases import Phase, Step
     from .player import Player
 
@@ -93,10 +92,6 @@ class Game:
         report_folder.mkdir(parents=True, exist_ok=True)
         report_file = report_folder / f"{id}.json"
 
-        report = GameReport(
-            id=self.id,
-            players=[x.report() for x in self.players],
-        )
         report_file.write_text(self.to_json())
 
     def end_report(self):
@@ -154,7 +149,9 @@ def main():
     path2, deck2 = available_decks[1]
     legality = deck1.legality
 
-    logging.info("Playing %s vs %s (legality: %s)", path1.name, path2.name, legality_name)
+    logging.info(
+        "Playing %s vs %s (legality: %s)", path1.name, path2.name, legality_name
+    )
 
     players = []
     for deck in (deck1, deck2):

@@ -37,7 +37,6 @@ def _is_unique(card: Card) -> bool:
 
 def _get_experienced_base_title(card: Card) -> str | None:
     """Return the base title for an Experienced card, or None if not Experienced."""
-    from l5r_auto.keywords import Keyword
 
     for kw in card.keywords:
         if isinstance(kw, type) and hasattr(kw, "level"):
@@ -46,7 +45,11 @@ def _get_experienced_base_title(card: Card) -> str | None:
 
 
 def fetch_cards(
-    deck: Deck, legality: Type[Legality], clan: Type[Clan], type_: str, number: int,
+    deck: Deck,
+    legality: Type[Legality],
+    clan: Type[Clan],
+    type_: str,
+    number: int,
     rules: GameRules,
 ):
     cards: Sequence[Card]
@@ -71,8 +74,10 @@ def fetch_cards(
     # Filter clan-aligned cards: only own clan + unaligned
     if type_ == "personalities":
         cards = [
-            c for c in cards
-            if not hasattr(c, "clan") or not c.clan
+            c
+            for c in cards
+            if not hasattr(c, "clan")
+            or not c.clan
             or clan in c.clan
             or Unaligned in c.clan
         ]
@@ -81,12 +86,23 @@ def fetch_cards(
         logging.info("No %s cards found for %s %s.", type_, legality.name, clan.name)
         return
 
-    copy_counts: Counter = Counter(c.card_id for c in deck.personalities + deck.holdings + deck.events + deck.followers + deck.items + deck.strategies + deck.spells)
+    copy_counts: Counter = Counter(
+        c.card_id
+        for c in deck.personalities
+        + deck.holdings
+        + deck.events
+        + deck.followers
+        + deck.items
+        + deck.strategies
+        + deck.spells
+    )
 
     for _ in range(number):
         eligible = [
-            c for c in cards
-            if copy_counts[c.card_id] < (1 if _is_unique(c) else rules.max_copies_per_card)
+            c
+            for c in cards
+            if copy_counts[c.card_id]
+            < (1 if _is_unique(c) else rules.max_copies_per_card)
         ]
         if not eligible:
             eligible = cards
@@ -153,6 +169,7 @@ def build_deck(legality: str, clan: str) -> Deck:
     if not strongholds:
         # Onyx Edition reuses Emperor Edition strongholds
         from .legality import EmperorEdition
+
         strongholds = get_strongholds(EmperorEdition, clan_)
     if not strongholds:
         raise ValueError("No strongholds found")
@@ -163,7 +180,9 @@ def build_deck(legality: str, clan: str) -> Deck:
 
     logging.info("Fetching dynasty cards...")
     logging.info("Fetching personalities...")
-    fetch_cards(deck, legality_, clan_, "personalities", rules.deck_personalities, rules)
+    fetch_cards(
+        deck, legality_, clan_, "personalities", rules.deck_personalities, rules
+    )
 
     logging.info("Fetching holdings...")
     fetch_cards(deck, legality_, clan_, "holdings", rules.deck_holdings, rules)
@@ -192,7 +211,12 @@ def main():
 
     for legality_short in target_legalities:
         legality_ = next(
-            (x for x in legalities if legality_short.lower() in {x.name.lower(), x.acronym.lower(), x.short.lower()}),
+            (
+                x
+                for x in legalities
+                if legality_short.lower()
+                in {x.name.lower(), x.acronym.lower(), x.short.lower()}
+            ),
             None,
         )
         if not legality_:

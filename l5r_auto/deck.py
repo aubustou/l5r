@@ -98,9 +98,9 @@ class Deck:
     @cached_property
     def cards(self) -> Sequence[Card]:
         cards: Sequence[Card] = []
-        for field in fields(self):
-            if field.metadata.get("are_cards"):
-                if isinstance(value := getattr(self, field.name), list):
+        for f in fields(self):
+            if f.metadata.get("are_cards"):
+                if isinstance(value := getattr(self, f.name), list):
                     cards.extend(value)
                 elif value is not None:
                     cards.append(value)

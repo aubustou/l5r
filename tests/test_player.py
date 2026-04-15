@@ -1,11 +1,11 @@
 """Tests for Player initialization and deck-drawing mechanics."""
+
 from __future__ import annotations
 
 import pytest
 
 from l5r_auto.clans import CrabClan
 from l5r_auto.errors import EndOfDynastyDeckError, EndOfFateDeckError
-
 from tests.conftest import _STRONGHOLD, _make_test_deck
 
 
@@ -50,7 +50,6 @@ class TestPlayerDrawCards:
             p1.draw_dynasty_card()
 
     def test_draw_fate_card_moves_to_hand(self, minimal_game):
-        from l5r_auto.locations import Hand
 
         p1 = minimal_game.players[0]
         # Add a card back to fate deck for drawing

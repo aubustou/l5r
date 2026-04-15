@@ -1,4 +1,5 @@
 """Tests for Deck construction and JSON serialization."""
+
 from __future__ import annotations
 
 import json
@@ -8,7 +9,6 @@ import pytest
 from l5r_auto.clans import CrabClan
 from l5r_auto.deck import Deck
 from l5r_auto.legality import TwentyFestivalsEdition
-
 from tests.conftest import _HOLDING, _PERSONALITY, _STRATEGY, _STRONGHOLD
 
 
