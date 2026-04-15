@@ -8,10 +8,11 @@ from dataclasses import dataclass, field
 from typing import TYPE_CHECKING
 
 from l5r_auto.abilities import (
-    ABILITIES,
     Ability,
     AttachFollowerAbility,
     AttachItemAbility,
+    CycleAction,
+    KharmicAction,
     PlayStrategyAbility,
     RecruitAction,
 )
@@ -190,25 +191,100 @@ class Phase(Step):
     def _start(self):
         pass
 
+    def _run_action_round(
+        self,
+        abilities: list[Ability],
+        active_types: set[str],
+        other_types: set[str],
+    ):
+        """Run an action round with player alternation.
 
-# Turn Sequence
-# Start Phase - Straighten Phase - Event Phase - Action Phase - Attack/Battle Phase (optional) - Dynasty Phase - Discard Phase - Draw Phase - End Phase
-@dataclass(repr=False, kw_only=True)
-class StartPhase(Phase):
-    def _start(self):
-        for ability in ABILITIES.values():
+        Players take turns choosing one action. The active player may use
+        action types in active_types; other players may use types in
+        other_types. The round ends when all players pass consecutively.
+        """
+        for ability in abilities:
             ability.on_start_phase(self.game)
 
-        logging.info("%s: Revealing provinces", self.active_player.name)
-        for province in self.active_player.provinces:
-            for card in province.dynasty_cards:
-                if card.face_down:
-                    card.turn_face_up()
+        # Build turn order starting with active player
+        players = list(self.game.players)
+        start_idx = players.index(self.active_player)
+        ordered = players[start_idx:] + players[:start_idx]
+
+        consecutive_passes = 0
+        player_idx = 0
+        max_actions = 500  # Safety limit
+
+        while consecutive_passes < len(ordered) and player_idx < max_actions:
+            current = ordered[player_idx % len(ordered)]
+            allowed = active_types if current == self.active_player else other_types
+
+            took_action = self._try_player_action(current, abilities, allowed)
+
+            if took_action:
+                consecutive_passes = 0
+            else:
+                consecutive_passes += 1
+
+            player_idx += 1
+
+    def _try_player_action(
+        self,
+        player: Player,
+        abilities: list[Ability],
+        allowed_types: set[str],
+    ) -> bool:
+        """Attempt one action for a player. Returns True if an action was taken."""
+        for ability in abilities:
+            if not self._ability_type_allowed(ability, allowed_types):
+                continue
+            if ability.done_once_per_turn and not ability.repeatable:
+                continue
+
+            for entity in ability.gather_legal_target_entities(self.game, player):
+                if ability.pay_cost(self.game, entity):
+                    ability.get_effect(self.game, entity)
+                    if not ability.repeatable:
+                        ability.done_once_per_turn = True
+                    return True
+
+        return False
+
+    @staticmethod
+    def _ability_type_allowed(ability: Ability, allowed_types: set[str]) -> bool:
+        """Check if an ability's declared type is within the allowed set."""
+        for t in allowed_types:
+            if getattr(ability, t, False):
+                return True
+        return False
+
+
+# Turn Sequence (Twenty Festivals rules):
+# 1. Action Phase (straighten, reveal provinces, event activation, action round)
+# 2. Attack Phase (optional: declaration, maneuvers, fight battles)
+# 3. Dynasty Phase (recruit/discard action round, draw 1 card, discard to max hand size)
 
 
 @dataclass(repr=False, kw_only=True)
-class StraightenPhase(Phase):
-    def _start(self):
+class ActionPhase(Phase):
+    """Action Phase: straighten cards, reveal provinces, activate events, then action round.
+
+    At the start, straighten all bowed cards and reveal face-down Province cards.
+    Events in provinces are activated (discarded). Then an action round of
+    Limited actions (active player only) and Open actions (all players).
+    """
+
+    def __post_init__(self, *args, **kwargs):
+        self.abilities = [
+            CycleAction(),
+            KharmicAction(),
+            PlayStrategyAbility(),
+            AttachFollowerAbility(),
+            AttachItemAbility(),
+        ]
+
+    def _straighten(self):
+        """Straighten all bowed cards at the start of the Action Phase."""
         logging.info(
             "%s: Straightening cards in play.",
             self.active_player.name,
@@ -219,10 +295,16 @@ class StraightenPhase(Phase):
         for card in self.active_player.play_area:
             card.straighten()
 
+    def _reveal_provinces(self):
+        """Reveal face-down cards in provinces."""
+        logging.info("%s: Revealing provinces", self.active_player.name)
+        for province in self.active_player.provinces:
+            for card in province.dynasty_cards:
+                if card.face_down:
+                    card.turn_face_up()
 
-@dataclass(repr=False, kw_only=True)
-class EventPhase(Phase):
-    def _start(self):
+    def _activate_events(self):
+        """Activate face-up events in provinces (they are discarded on use)."""
         for province in self.active_player.provinces:
             for card in province.dynasty_cards[:]:
                 if isinstance(card, Event) and card.face_up:
@@ -237,43 +319,50 @@ class EventPhase(Phase):
             if not province.dynasty_cards:
                 province.fill()
 
-
-@dataclass(repr=False, kw_only=True)
-class ActionPhase(Phase):
-    def __post_init__(self, *args, **kwargs):
-        self.abilities = [
-            PlayStrategyAbility(),
-            AttachFollowerAbility(),
-            AttachItemAbility(),
-        ]
+    def _action_round(self):
+        """Action round: active player Limited + Open, other players Open."""
+        self._run_action_round(
+            self.abilities,
+            active_types={"limited", "open"},
+            other_types={"open"},
+        )
 
     def _start(self):
-        for ability in self.abilities:
-            for entity in ability.gather_legal_target_entities(
-                self.game, self.active_player
-            ):
-                if not ability.pay_cost(self.game, entity):
-                    continue
-                ability.get_effect(self.game, entity)
+        self._straighten()
+        self._reveal_provinces()
+        self._activate_events()
+        self._action_round()
 
 
 @dataclass(repr=False, kw_only=True)
 class AttackPhase(Phase):
-    optional: bool = field(default=True, init=False)
-    current_segment: AttackPhaseSegment | None = field(default=None, init=False)
+    """Attack Phase: Declaration, Maneuvers, Fight (Engage, Combat, Resolution, Aftermath).
 
-    def _get_personalities(self, player) -> list[PersonalityEntity]:
+    Per Twenty Festivals rules:
+    - Attacker declares which province to attack and assigns unbowed Personalities
+    - Defender assigns unbowed Personalities to defend
+    - Force is calculated from unbowed Personalities and their attachments
+    - Resolution: loser's units are destroyed; winner gains 2 Honor per enemy card destroyed
+    - Ties: both sides destroy each other
+    - Province destroyed only if attacker Force > defender Force + Province Strength
+    - After resolution: surviving attackers bow and return home (Conqueror skips bowing)
+    """
+
+    optional: bool = field(default=True, init=False)
+
+    def _get_unbowed_personalities(self, player) -> list[PersonalityEntity]:
         return [
             e
             for e in player.play_area
-            if isinstance(e, PersonalityEntity) and e.face_up
+            if isinstance(e, PersonalityEntity) and e.face_up and not e.bowed
         ]
 
     def _total_force(self, personalities: list[PersonalityEntity]) -> int:
+        """Calculate total force of personalities and their unbowed attachments."""
         total = 0
         for p in personalities:
-            total += getattr(p, "force", 0)
-            # Add force from attached followers/items
+            if not p.bowed:
+                total += getattr(p, "force", 0)
             for e in p.owner.play_area:
                 if getattr(e, "attached_to", None) is p:
                     force_val = getattr(e, "force", "0")
@@ -283,17 +372,29 @@ class AttackPhase(Phase):
                         pass
         return total
 
+    def _get_province_strength(self, province) -> int:
+        """Get Province Strength from the defender's Stronghold."""
+        defender = province.player
+        return getattr(defender.stronghold, "province_strength", 0)
+
+    def _has_keyword(self, entity, keyword_class) -> bool:
+        return any(
+            (isinstance(kw, type) and issubclass(kw, keyword_class))
+            or kw is keyword_class
+            for kw in entity.keywords
+        )
+
     def _start(self):
+        """Execute the Attack Phase: Declaration → Maneuvers → Fight."""
         attacker = self.active_player
         defenders = [p for p in self.game.players if p is not attacker]
         if not defenders:
             return
         defender = defenders[0]
 
-        unbowed_attackers = [
-            e for e in self._get_personalities(attacker) if not e.bowed
-        ]
-        if not unbowed_attackers:
+        # --- Declaration Segment ---
+        attacking_units = self._get_unbowed_personalities(attacker)
+        if not attacking_units:
             logging.info("%s: No unbowed personalities to attack with.", attacker.name)
             return
 
@@ -304,51 +405,186 @@ class AttackPhase(Phase):
             return
         target_province = random.choice(valid_provinces)
 
-        # Bow all unbowed attackers
-        for p in unbowed_attackers:
-            p.bow()
-        attacker_force = self._total_force(unbowed_attackers)
+        logging.info(
+            "%s: Declares attack on province %s with %d personalities.",
+            attacker.name,
+            target_province,
+            len(attacking_units),
+        )
 
-        # Defender bows all unbowed personalities
-        unbowed_defenders = [
-            e for e in self._get_personalities(defender) if not e.bowed
-        ]
-        for p in unbowed_defenders:
-            p.bow()
-        defender_force = self._total_force(unbowed_defenders)
+        # --- Maneuvers Segment ---
+        defending_units = self._get_unbowed_personalities(defender)
+        if defending_units:
+            logging.info(
+                "%s: Assigns %d personalities to defend.",
+                defender.name,
+                len(defending_units),
+            )
+
+        # --- Fight: Engage Segment (placeholder for Engage actions) ---
+
+        # --- Fight: Combat Segment ---
+        attacker_force = self._total_force(attacking_units)
+        defender_force = self._total_force(defending_units)
+        province_strength = self._get_province_strength(target_province)
 
         logging.info(
-            "%s attacks province %s with force %d vs defender force %d.",
+            "%s attacks province %s: attacker force %d vs defender force %d "
+            "(province strength %d).",
             attacker.name,
             target_province,
             attacker_force,
             defender_force,
+            province_strength,
         )
 
-        if not unbowed_defenders:
-            # Undefended attack: destroy province directly
-            self._destroy_province(target_province, attacker, defender)
+        # --- Fight: Resolution Segment ---
+        if not defending_units:
+            # Undefended province: destroyed if attacker force > province strength
+            if attacker_force > province_strength:
+                logging.info(
+                    "%s: Undefended province — force %d > province strength %d.",
+                    attacker.name,
+                    attacker_force,
+                    province_strength,
+                )
+                self._destroy_province(target_province, attacker, defender)
+            else:
+                logging.info(
+                    "%s: Undefended province survives — force %d <= province strength %d.",
+                    attacker.name,
+                    attacker_force,
+                    province_strength,
+                )
         elif attacker_force > defender_force:
-            # Attacker wins: destroy defending personalities and the province
+            # Attacker wins
+            destroyed_count = self._destroy_units(defending_units)
             logging.info(
-                "%s: Attacker wins battle (force %d > %d). Destroying defenders and province.",
+                "%s: Attacker wins battle (force %d > %d). Destroyed %d defender cards.",
                 attacker.name,
                 attacker_force,
                 defender_force,
+                destroyed_count,
             )
-            for p in unbowed_defenders:
-                self._destroy_with_resilient(p)
-            self._destroy_province(target_province, attacker, defender)
-        else:
-            # Defender wins: destroy all attacking personalities
+            # Winner gains 2 Honor per enemy card destroyed
+            if destroyed_count > 0:
+                honor_gain = 2 * destroyed_count
+                attacker.honor += honor_gain
+                logging.info(
+                    "%s: Gains %d Honor for destroying %d enemy cards.",
+                    attacker.name,
+                    honor_gain,
+                    destroyed_count,
+                )
+            # Check if province is destroyed (attacker force > defender force + province strength)
+            if attacker_force > defender_force + province_strength:
+                self._destroy_province(target_province, attacker, defender)
+            else:
+                logging.info(
+                    "%s: Province survives — attacker force %d <= defender force %d + "
+                    "province strength %d.",
+                    attacker.name,
+                    attacker_force,
+                    defender_force,
+                    province_strength,
+                )
+        elif defender_force > attacker_force:
+            # Defender wins
+            destroyed_count = self._destroy_units(attacking_units)
             logging.info(
-                "%s: Defender wins battle (force %d >= %d). Destroying attackers.",
+                "%s: Defender wins battle (force %d > %d). Destroyed %d attacker cards.",
                 defender.name,
                 defender_force,
                 attacker_force,
+                destroyed_count,
             )
-            for p in unbowed_attackers:
-                self._destroy_with_resilient(p)
+            if destroyed_count > 0:
+                honor_gain = 2 * destroyed_count
+                defender.honor += honor_gain
+                logging.info(
+                    "%s: Gains %d Honor for destroying %d enemy cards.",
+                    defender.name,
+                    honor_gain,
+                    destroyed_count,
+                )
+        else:
+            # Tie: both sides destroy each other
+            attacker_destroyed = self._destroy_units(defending_units)
+            defender_destroyed = self._destroy_units(attacking_units)
+            logging.info(
+                "Battle tied at force %d. Both sides destroyed "
+                "(%d defender, %d attacker cards).",
+                attacker_force,
+                attacker_destroyed,
+                defender_destroyed,
+            )
+            if attacker_destroyed > 0:
+                honor_gain = 2 * attacker_destroyed
+                attacker.honor += honor_gain
+                logging.info(
+                    "%s: Gains %d Honor for destroying %d enemy cards in tie.",
+                    attacker.name,
+                    honor_gain,
+                    attacker_destroyed,
+                )
+            if defender_destroyed > 0:
+                honor_gain = 2 * defender_destroyed
+                defender.honor += honor_gain
+                logging.info(
+                    "%s: Gains %d Honor for destroying %d enemy cards in tie.",
+                    defender.name,
+                    honor_gain,
+                    defender_destroyed,
+                )
+
+        # --- Fight: Aftermath Segment ---
+        self._return_home(attacking_units)
+
+    def _destroy_units(self, units: list[PersonalityEntity]) -> int:
+        """Destroy a list of units, respecting Resilient. Returns count destroyed."""
+        destroyed = 0
+        for entity in units[:]:
+            if self._try_destroy(entity):
+                destroyed += 1
+        return destroyed
+
+    def _try_destroy(self, entity: PersonalityEntity) -> bool:
+        """Attempt to destroy a personality, respecting Resilient.
+
+        Returns True if the entity was actually destroyed.
+        """
+        from l5r_auto.keywords import Resilient
+
+        resilient_used = getattr(entity, "_resilient_used", False)
+        if self._has_keyword(entity, Resilient) and not resilient_used:
+            logging.info(
+                "%s: %s uses Resilient — bowed instead of destroyed.",
+                entity.owner.name,
+                entity.title,
+            )
+            entity._resilient_used = True
+            entity.bow()
+            return False
+        else:
+            entity.destroy()
+            return True
+
+    def _return_home(self, units: list[PersonalityEntity]):
+        """Surviving attackers bow and return home. Conqueror skips bowing."""
+        from l5r_auto.keywords import Conqueror
+        from l5r_auto.locations import PlayArea
+
+        for entity in units[:]:
+            if entity.location is not PlayArea:
+                continue  # Already destroyed/moved
+            if self._has_keyword(entity, Conqueror):
+                logging.info(
+                    "%s: %s has Conqueror — returns home without bowing.",
+                    entity.owner.name,
+                    entity.title,
+                )
+            else:
+                entity.bow()
 
     def _destroy_province(self, province, attacker, defender):
         logging.info(
@@ -368,173 +604,124 @@ class AttackPhase(Phase):
         if defender.remaining_provinces <= 0:
             raise ProvinceConquestVictory(winner=attacker, loser=defender)
 
-    def _destroy_with_resilient(self, entity: PersonalityEntity):
-        from l5r_auto.keywords import Resilient
-
-        resilient_used = getattr(entity, "_resilient_used", False)
-        has_resilient = any(
-            isinstance(kw, type) and issubclass(kw, Resilient) or kw is Resilient
-            for kw in entity.keywords
-        )
-        if has_resilient and not resilient_used:
-            logging.info(
-                "%s: %s uses Resilient — bowed instead of destroyed.",
-                entity.owner.name,
-                entity.title,
-            )
-            entity._resilient_used = True
-            entity.bow()
-        else:
-            entity.destroy()
-
 
 @dataclass(repr=False, kw_only=True)
 class DynastyPhase(Phase):
+    """Dynasty Phase: recruit/discard action round, then draw 1 Fate card, discard to max hand size.
+
+    Per Twenty Festivals rules, at the end of the Dynasty Phase:
+    - Draw 1 Fate card
+    - If hand exceeds max hand size (8), discard down to max
+    """
+
     def __post_init__(self, *args, **kwargs):
         self.abilities = [
             RecruitAction(),
         ]
 
-    def _start(self):
-        # TODO: Here to add some IA logic
-        for ability in self.abilities:
-            for entity in ability.gather_legal_target_entities(
-                self.game, self.active_player
-            ):
-                if not ability.pay_cost(self.game, entity):
-                    continue
+    def _dynasty_action_round(self):
+        """Dynasty action round: active player takes Dynasty actions, others Open."""
+        self._run_action_round(
+            self.abilities,
+            active_types={"dynasty"},
+            other_types={"open"},
+        )
 
-                ability.get_effect(self.game, entity)
-
-
-@dataclass(repr=False, kw_only=True)
-class DiscardPhase(Phase):
-    def _start(self):
+    def _end_of_turn_draw(self):
+        """At the end of the Dynasty Phase, draw 1 Fate card."""
         player = self.active_player
-        while len(player.hand) > player.hand_size:
+        logging.info(
+            "%s: Drawing 1 fate card (end of turn).",
+            player.name,
+        )
+        try:
+            player.draw_fate_card()
+        except EndOfFateDeckError:
+            logging.info("%s: Fate deck is empty.", player.name)
+
+    def _end_of_turn_discard(self):
+        """After drawing, discard down to max hand size (8)."""
+        player = self.active_player
+        while len(player.hand) > player.max_hand_size:
             card = random.choice(player.hand)
             logging.info(
-                "%s: Discarding %s from hand (over hand size).",
+                "%s: Discarding %s from hand (over max hand size %d).",
                 player.name,
                 card.title,
+                player.max_hand_size,
             )
             card.discard()
 
-
-@dataclass(repr=False, kw_only=True)
-class DrawPhase(Phase):
     def _start(self):
-        player = self.active_player
-        cards_to_draw = max(0, player.hand_size - len(player.hand))
-        logging.info(
-            "%s: Drawing %d fate card(s).",
-            player.name,
-            cards_to_draw,
-        )
-        for _ in range(cards_to_draw):
-            try:
-                player.draw_fate_card()
-            except EndOfFateDeckError:
-                logging.info("%s: Fate deck is empty.", player.name)
-                break
-
-
-@dataclass(repr=False, kw_only=True)
-class EndPhase(Phase):
-    def _start(self):
-        for player in self.game.players:
-            other_players = [p for p in self.game.players if p is not player]
-            if player.honor >= self.game.rules.honor_victory_threshold:
-                logging.info(
-                    "%s: Wins by honor (%d).",
-                    player.name,
-                    player.honor,
-                )
-                raise HonorVictory(winner=player, loser=other_players[0])
-            if player.honor < 0:
-                logging.info(
-                    "%s: Loses by dishonor (%d).",
-                    player.name,
-                    player.honor,
-                )
-                raise HonorVictory(winner=other_players[0], loser=player)
+        self._dynasty_action_round()
+        self._end_of_turn_draw()
+        self._end_of_turn_discard()
 
 
 @dataclass(repr=False, kw_only=True)
 class Turn:
+    """A turn in L5R consists of:
+    - Honor Victory check at start of turn (>= 40)
+    - Action Phase
+    - Attack Phase (optional)
+    - Dynasty Phase (includes end-of-turn draw and discard)
+    - Dishonor Loss check at end of turn (<= -20)
+    """
+
     game: Game
     number: int
     active_player: Player
 
     phases = [
-        StartPhase,
-        StraightenPhase,
-        EventPhase,
         ActionPhase,
         AttackPhase,
         DynastyPhase,
-        DiscardPhase,
-        DrawPhase,
-        EndPhase,
     ]
+
+    def _check_honor_victory(self):
+        """Honor Victory: a player wins by starting his or her turn on 40+ Family Honor."""
+        player = self.active_player
+        if player.honor >= self.game.rules.honor_victory_threshold:
+            other_players = [p for p in self.game.players if p is not player]
+            logging.info(
+                "%s: Wins by Honor Victory (%d >= %d) at start of turn.",
+                player.name,
+                player.honor,
+                self.game.rules.honor_victory_threshold,
+            )
+            raise HonorVictory(winner=player, loser=other_players[0])
+
+    def _check_dishonor_loss(self):
+        """Dishonor Loss: if a player's Honor is -20 or below at the end of his turn, he loses."""
+        player = self.active_player
+        if player.honor <= self.game.rules.minimum_honor:
+            other_players = [p for p in self.game.players if p is not player]
+            logging.info(
+                "%s: Loses by Dishonor (%d <= %d) at end of turn.",
+                player.name,
+                player.honor,
+                self.game.rules.minimum_honor,
+            )
+            raise HonorVictory(winner=other_players[0], loser=player)
 
     def start(self):
         logging.info("%s: Starting turn #%d", self.active_player.name, self.number)
+
+        # Honor Victory check at start of turn
+        self._check_honor_victory()
+
+        # Run the three canonical phases
         for phase in self.phases:
             self.game.current_phase = phase(
                 game=self.game, turn=self, active_player=self.active_player
             )
             self.game.current_phase.start()
 
+        # Dishonor Loss check at end of turn
+        self._check_dishonor_loss()
+
     def to_dict(self):
         return {
             "number": self.number,
             "active_player": self.active_player.name,
         }
-
-
-# Attack phase
-@dataclass(repr=False, kw_only=True)
-class AttackPhaseSegment(Phase):
-    pass
-
-
-@dataclass(repr=False, kw_only=True)
-class Declaration(AttackPhaseSegment):
-    pass
-
-
-@dataclass(repr=False, kw_only=True)
-class Maneuver(AttackPhaseSegment):
-    pass
-
-
-@dataclass(repr=False, kw_only=True)
-class Fight(AttackPhaseSegment):
-    pass
-
-
-# Battles
-@dataclass(repr=False, kw_only=True)
-class BattlePhase(Phase):
-    pass
-
-
-@dataclass(repr=False, kw_only=True)
-class EngageSegment(BattlePhase):
-    pass
-
-
-@dataclass(repr=False, kw_only=True)
-class CombatSegment(BattlePhase):
-    pass
-
-
-@dataclass(repr=False, kw_only=True)
-class ResolutionSegment(BattlePhase):
-    pass
-
-
-@dataclass(repr=False, kw_only=True)
-class AftermathSegment(BattlePhase):
-    pass

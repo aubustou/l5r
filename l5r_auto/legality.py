@@ -28,6 +28,7 @@ class GameRules:
     # Player starting state
     minimum_honor: int = -20
     starting_hand_size: int = 5
+    max_hand_size: int = 8
     starting_number_of_provinces: int = 4
     successive_battle_actions: int = 1
 
