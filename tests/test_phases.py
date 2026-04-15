@@ -81,7 +81,6 @@ class TestEndPhase:
 class TestDiscardPhase:
     def test_discards_excess_cards(self, minimal_game):
         p1 = minimal_game.players[0]
-        p1.hand_size = 5
 
         # Add 2 extra strategy entities to hand (beyond hand_size)
         for i in range(2):
@@ -90,31 +89,29 @@ class TestDiscardPhase:
             extra.face_down = False
             p1.hand.append(extra)
 
-        assert len(p1.hand) == 7
+        assert len(p1.hand) == p1.hand_size + 2
 
         turn = _make_turn(minimal_game, p1)
         DiscardPhase(game=minimal_game, turn=turn, active_player=p1)._start()
 
-        assert len(p1.hand) == 5
+        assert len(p1.hand) == p1.hand_size
 
     def test_no_discard_at_hand_size(self, minimal_game):
         p1 = minimal_game.players[0]
-        p1.hand_size = 5
-        assert len(p1.hand) == 5  # exactly at hand size
+        assert len(p1.hand) == p1.hand_size  # exactly at hand size
 
         turn = _make_turn(minimal_game, p1)
         DiscardPhase(game=minimal_game, turn=turn, active_player=p1)._start()
 
-        assert len(p1.hand) == 5
+        assert len(p1.hand) == p1.hand_size
 
 
 class TestDrawPhase:
     def test_draws_up_to_hand_size(self, minimal_game):
         p1 = minimal_game.players[0]
-        p1.hand_size = 5
 
-        # Remove 3 cards from hand back into fate_deck
-        for _ in range(3):
+        # Remove cards to leave exactly 2 in hand
+        for _ in range(p1.hand_size - 2):
             card = p1.hand.pop()
             card.location = type(card).location  # reset to Deck default
             p1.fate_deck.append(card)
@@ -124,7 +121,7 @@ class TestDrawPhase:
         turn = _make_turn(minimal_game, p1)
         DrawPhase(game=minimal_game, turn=turn, active_player=p1)._start()
 
-        assert len(p1.hand) == 5
+        assert len(p1.hand) == p1.hand_size
 
     def test_stops_on_empty_fate_deck(self, minimal_game):
         p1 = minimal_game.players[0]
