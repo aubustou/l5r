@@ -74,6 +74,23 @@ Imperial, Jade, Gold, Diamond, Lotus, Samurai, Celestial, Emperor, Ivory, Twenty
 Crab, Crane, Dragon, Lion, Mantis, Phoenix, Scorpion, Spider, Unicorn  
 Factions: Brotherhood of Shinsei, Shadowlands, Ninja, Spirit, Naga, Ratling
 
+## Testing
+
+```bash
+pytest
+# With coverage:
+pytest --cov=l5r_auto --cov-report=term-missing
+```
+
+The `tests/` directory contains unit tests for abilities, phases, entities, players, and decks.
+
+## CI
+
+GitHub Actions runs three jobs on every push and pull request:
+- **lint** — `ruff check` and `ruff format --check`
+- **test** — `pytest --cov=l5r_auto --cov-report=term-missing`
+- **build** — `python -m build`
+
 ## Development
 
 ```bash
@@ -84,7 +101,8 @@ pre-commit install
 pre-commit run --all-files
 ```
 
-Code style: **black** (line length 88) + **isort** + **autoflake**
+Code style: **black** (line length 88) + **isort** + **autoflake** (pre-commit)  
+CI linting: **ruff** (`ruff check` + `ruff format --check`)
 
 ## License
 

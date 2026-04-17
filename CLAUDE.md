@@ -113,7 +113,33 @@ play
 
 ### Logging
 
-All simulation output uses Python's `logging` module. The `play` entry point sets `logging.basicConfig(level=logging.DEBUG)`. No separate test suite exists; behavior is validated via log output during simulation.
+All simulation output uses Python's `logging` module. The `play` entry point sets `logging.basicConfig(level=logging.DEBUG)`. When adding significant logic, add `logging.debug` / `logging.info` statements to trace execution.
+
+### Testing
+
+Tests live in `tests/` and use pytest:
+
+```bash
+pytest
+pytest --cov=l5r_auto --cov-report=term-missing   # with coverage
+```
+
+| File | Coverage |
+|---|---|
+| `tests/test_abilities.py` | Ability logic, gold payment, recruiting |
+| `tests/test_phases.py` | Phase sequencing, honor/dishonor checks |
+| `tests/test_entity.py` | Entity state transitions, location tracking |
+| `tests/test_player.py` | Player state and actions |
+| `tests/test_deck.py` | Deck serialization / deserialization |
+
+### GitHub CI
+
+`.github/workflows/ci.yml` runs three jobs on every push and PR:
+- **lint** — `ruff check .` + `ruff format --check .`
+- **test** — `pytest --cov=l5r_auto --cov-report=term-missing`
+- **build** — `python -m build`
+
+Note: pre-commit hooks use `black`/`isort`/`autoflake`; CI additionally enforces `ruff`.
 
 ---
 
@@ -163,20 +189,22 @@ Game.start()
 │   └── PlayGame             (F) Begin turn cycle
 └── TurnSequences (loops up to MAX_NUMBER_OF_TURNS=50)
     └── Turn
-        ├── StartPhase       Reveal provinces, trigger start-phase abilities
-        ├── StraightenPhase  Straighten stronghold, sensei, and all play area cards
-        ├── EventPhase       Activate face-up events in provinces
-        ├── ActionPhase      Play affordable Strategy cards; attach Followers/Items to Personalities
-        ├── AttackPhase      Attack a random opponent province with all unbowed Personalities;
-        │                    resolve battle (force comparison); destroy province if attacker wins
-        ├── DynastyPhase     Recruit affordable Personalities and Holdings from provinces
-        ├── DiscardPhase     Discard random hand cards down to hand_size (5)
-        ├── DrawPhase        Draw fate cards back up to hand_size
-        └── EndPhase         Check honor ≥ 40 (HonorVictory) or honor < 0 (dishonor loss)
+        ├── [Honor Victory check]  If active player's honor ≥ 40 → HonorVictory
+        ├── ActionPhase      Straighten all bowed cards; reveal face-down provinces;
+        │                    activate face-up Events (discard them); action round:
+        │                    Limited abilities for active player (CycleAction,
+        │                    KharmicAction, PlayStrategyAbility, AttachFollowerAbility,
+        │                    AttachItemAbility)
+        ├── AttackPhase      Attack a random opponent province with all unbowed
+        │                    Personalities; resolve battle (force comparison); destroy
+        │                    province if attacker wins; check ProvinceConquestVictory
+        ├── DynastyPhase     Recruit/discard action round; draw 1 fate card; discard
+        │                    random hand cards down to hand_size (5)
+        └── [Dishonor Loss check]  If active player's honor ≤ -20 → opponent wins
 ```
 
 Game ends when any of:
-- `HonorVictory` — a player reaches 40 honor, or drops below 0 (opponent wins)
+- `HonorVictory` — a player reaches 40 honor, or falls to -20 or below (opponent wins)
 - `ProvinceConquestVictory` — all 4 opponent provinces destroyed
 - `EndOfDynastyDeckError` — dynasty deck exhausted
 - `MaximumNumberOfTurnsReached` — 50 turn cap (`MAX_NUMBER_OF_TURNS` in `phases.py`)
@@ -186,8 +214,8 @@ Game ends when any of:
 
 Three ways a game ends by design:
 
-- **Honor Victory** (`HONOR_VICTORY_THRESHOLD = 40` in `phases.py`): checked each `EndPhase`. If any player's honor reaches 40 or higher, they win immediately.
-- **Dishonor Loss** (honor `< 0`): also checked each `EndPhase`. If a player's honor drops below zero, their opponent wins.
+- **Honor Victory** (`honor_victory_threshold = 40` from `game.rules`): checked at the **start of each Turn** (`Turn._check_honor_victory`). If the active player's honor is 40 or higher, they win immediately.
+- **Dishonor Loss** (`minimum_honor = -20` from `game.rules`): checked at the **end of each Turn** (`Turn._check_dishonor_loss`). If the active player's honor is -20 or below, their opponent wins.
 - **Province Conquest** (`player.remaining_provinces <= 0`): checked in `AttackPhase._destroy_province()` after each successful attack. Destroying all 4 opponent provinces wins the game.
 
 ### Deck System (`deck.py`)
@@ -283,6 +311,10 @@ Action abilities used by `ActionPhase`:
 - `PlayStrategyAbility` — plays a `Strategy` card from hand, paying its gold cost; bows gold-producing Holdings/Stronghold
 - `AttachFollowerAbility` — attaches a `Follower` from hand to a `PersonalityEntity` in play area
 - `AttachItemAbility` — attaches an `Item` from hand to a `PersonalityEntity` in play area
+- `CycleAction` — Limited, first-turn-only (turns 1–2). Move any face-up province cards to the bottom of your dynasty deck; provinces refill face-up
+- `KharmicAction` — Repeatable Limited. Discard a Kharmic card from hand → draw a card; or discard a Kharmic card from a province → refill the province face-up
+- `ProclaimAction` — Once per turn. After recruiting a personality whose clan matches your stronghold's clan (from your province), gain honor equal to that personality's `personal_honor`
+- `DynastyDiscardAction` — Repeatable Dynasty. Discard a face-up card from one of your provinces. (Excluded from AI to prevent blocking recruitment — see Known Limitations)
 
 Gold payment uses the `_pay_gold(game, player, gold_cost)` helper (in `abilities.py`), which bows the minimum set of unbowed gold-producing entities to cover the cost.
 
@@ -314,9 +346,6 @@ Gold payment uses the `_pay_gold(game, player, gold_cost)` helper (in `abilities
 | `Experienced` | `RecruitAction.get_effect` | Recruiting an Experienced personality replaces the lower-XP version already in play, transferring all attachments |
 | `Resilient` | `AttackPhase._destroy_with_resilient` | Entity bows instead of being destroyed the first time; tracked per-entity via `_resilient_used` flag |
 | `Expendable` | `PersonalityEntity.destroy` | Entity draws a fate card for its owner when destroyed |
+| `Conqueror` | `AttackPhase._return_home` | Personality and its unit do not bow when returning home after winning a battle |
+| `Kharmic` | `KharmicAction.gather_legal_target_entities` | Cards with this keyword are eligible for the `KharmicAction` cycling ability in `ActionPhase` |
 
----
-
-## No Test Suite
-
-There are no automated tests. Correctness is currently validated by running the simulation (`play`) and observing log output. When adding significant logic, add `logging.debug` / `logging.info` statements to trace execution.
