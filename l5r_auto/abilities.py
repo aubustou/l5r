@@ -288,7 +288,9 @@ class ProclaimAction(Ability):
         """AI always chooses to proclaim when eligible and the once-per-turn limit allows."""
         if self.done_once_per_turn:
             return False
-        if not (hasattr(personality, "clan") and personality.owner.clan in personality.clan):
+        if not (
+            hasattr(personality, "clan") and personality.owner.clan in personality.clan
+        ):
             return False
         self.done_once_per_turn = True
         logging.info(
