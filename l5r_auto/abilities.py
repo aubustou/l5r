@@ -87,11 +87,7 @@ class RecruitAction(Ability):
 
     repeatable: bool = field(default=True, init=False)
     dynasty: bool = field(default=True, init=False)
-    _proclaim_used: bool = field(default=False, init=False)
-
-    def on_start_phase(self, game: Game):
-        super().on_start_phase(game)
-        self._proclaim_used = False
+    _proclaim_action: Ability | None = field(default=None, init=False)
 
     def gather_legal_target_entities(
         self, game: Game, active_player: Player
@@ -202,20 +198,8 @@ class RecruitAction(Ability):
         )
         personality.move_to(PlayArea)
 
-        # Proclaim: if personality has owner's clan alignment, add PH to family honor
-        if (
-            hasattr(personality, "clan")
-            and personality.owner.clan in personality.clan
-            and not self._proclaim_used
-        ):
-            self._proclaim_used = True
-            logging.info(
-                "%s: Proclaims %s — gains %d Honor.",
-                personality.owner.name,
-                personality.title,
-                personality.personal_honor,
-            )
-            personality.owner.honor += personality.personal_honor
+        if self._proclaim_action is not None:
+            self._proclaim_action.try_proclaim(game, personality)
 
     def _recruit_holding(self, game: Game, holding: HoldingEntity):
         logging.info(
@@ -297,37 +281,24 @@ def once_per_turn(method):
 
 @dataclass(repr=False, kw_only=True)
 class ProclaimAction(Ability):
-    """Once during your own turn, after
-    you announce a Recruit action or an
-    action with Recruit as an effect, you
-    may choose to Proclaim the Personal-
-    ity being recruited. If he has your Clan
-    Alignment and is coming from your
-    Province, add his Personal Honor to
-    your Family Honor after he enters play."""
+    """Once per turn, after recruiting a personality whose clan matches your stronghold's clan
+    (from your province), you may gain honor equal to that personality's Personal Honor."""
 
-    def gather_legal_target_entities(
-        self, game: Game, active_player: Player
-    ) -> Generator[Entity, None, None]:
+    def try_proclaim(self, game: Game, personality: PersonalityEntity) -> bool:
+        """AI always chooses to proclaim when eligible and the once-per-turn limit allows."""
         if self.done_once_per_turn:
-            raise StopIteration
-
-        for entity in game.entities:
-            if entity.owner == active_player:
-                yield entity
-
-    @once_per_turn
-    def on_recruit(self, game: Game, personality: PersonalityEntity):
-        if personality.owner == game.current_player:
-            logging.info(
-                "%s: Proclaiming personality %s into play.",
-                personality.owner,
-                personality,
-            )
-            personality.owner.honor += personality.personal_honor
-
-    def on_start_phase(self, game: Game):
-        self.done_once_per_turn = False
+            return False
+        if not (hasattr(personality, "clan") and personality.owner.clan in personality.clan):
+            return False
+        self.done_once_per_turn = True
+        logging.info(
+            "%s: Proclaims %s — gains %d Honor.",
+            personality.owner.name,
+            personality.title,
+            personality.personal_honor,
+        )
+        personality.owner.honor += personality.personal_honor
+        return True
 
 
 @dataclass(repr=False, kw_only=True)
