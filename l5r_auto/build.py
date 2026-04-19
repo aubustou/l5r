@@ -204,6 +204,60 @@ def build_deck(legality: str, clan: str) -> Deck:
     return deck
 
 
+def generate_two_decks(legality_short: str | None = None) -> tuple[Deck, Deck]:
+    """Build two decks from different clans for the same legality."""
+    target_legalities = ["emperor", "onyx", "20f"]
+
+    if legality_short is None:
+        legality_short = random.choice(target_legalities)
+
+    legality_ = next(
+        (
+            x
+            for x in legalities
+            if legality_short.lower()
+            in {x.name.lower(), x.acronym.lower(), x.short.lower()}
+        ),
+        None,
+    )
+    if not legality_:
+        raise ValueError(f"Unknown legality: {legality_short}")
+
+    available_clans = list(legality_.legal_clans)
+    if len(available_clans) < 2:
+        raise ValueError(
+            f"Not enough clans in {legality_.name} to build two decks"
+        )
+
+    deck1 = deck2 = None
+    random.shuffle(available_clans)
+    for clan in available_clans:
+        try:
+            d = build_deck(legality_.short, clan.name)
+        except ValueError:
+            continue
+        if deck1 is None:
+            deck1 = d
+        else:
+            deck2 = d
+            break
+
+    if deck1 is None or deck2 is None:
+        raise ValueError(
+            f"Could not build two decks for legality {legality_.name}"
+        )
+
+    return deck1, deck2
+
+
+def _save_deck(deck: Deck) -> Path:
+    folder = DECK_FOLDER / deck.legality.name.lower() / deck.clan.name.lower()
+    folder.mkdir(parents=True, exist_ok=True)
+    path = folder / f"{deck.id}.json"
+    path.write_text(deck.to_json())
+    return path
+
+
 def main():
     logging.basicConfig(level=logging.DEBUG)
 
@@ -231,11 +285,18 @@ def main():
                 continue
 
             deck.show()
+            _save_deck(deck)
 
-            folder = DECK_FOLDER / deck.legality.name.lower() / deck.clan.name.lower()
-            folder.mkdir(parents=True, exist_ok=True)
 
-            (folder / f"{deck.id}.json").write_text(deck.to_json())
+def main_two_decks():
+    logging.basicConfig(level=logging.DEBUG)
+
+    deck1, deck2 = generate_two_decks()
+
+    for deck in (deck1, deck2):
+        deck.show()
+        path = _save_deck(deck)
+        logging.info("Saved deck to %s", path)
 
 
 if __name__ == "__main__":
