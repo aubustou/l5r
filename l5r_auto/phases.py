@@ -14,6 +14,7 @@ from l5r_auto.abilities import (
     CycleAction,
     KharmicAction,
     PlayStrategyAbility,
+    ProclaimAction,
     RecruitAction,
 )
 from l5r_auto.cards.events.common import Event
@@ -615,9 +616,10 @@ class DynastyPhase(Phase):
     """
 
     def __post_init__(self, *args, **kwargs):
-        self.abilities = [
-            RecruitAction(),
-        ]
+        proclaim = ProclaimAction()
+        recruit = RecruitAction()
+        recruit._proclaim_action = proclaim
+        self.abilities = [recruit, proclaim]
 
     def _dynasty_action_round(self):
         """Dynasty action round: active player takes Dynasty actions, others Open."""
