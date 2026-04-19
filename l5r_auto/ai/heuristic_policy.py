@@ -4,12 +4,12 @@ from dataclasses import dataclass
 from typing import TYPE_CHECKING
 
 from l5r_auto.ai.policy import (
-    PASS,
     KIND_ACTION_ROUND,
     KIND_ATTACH_TARGET,
     KIND_ATTACK_TARGET,
     KIND_DISCARD_HAND,
     KIND_PAY_GOLD,
+    PASS,
     Decision,
     Option,
 )

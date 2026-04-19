@@ -5,22 +5,18 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any
 
-import pytest
-
 from l5r_auto.ai.heuristic_policy import HeuristicPolicy
 from l5r_auto.ai.policy import (
-    PASS,
     KIND_ACTION_ROUND,
-    KIND_ATTACH_TARGET,
     KIND_ATTACK_TARGET,
     KIND_DISCARD_HAND,
     KIND_PAY_GOLD,
+    PASS,
     Decision,
     Option,
 )
 from l5r_auto.ai.random_policy import RandomPolicy
-from l5r_auto.cards.personalities.common import PersonalityEntity
-from l5r_auto.locations import PlayArea, ProvinceLocation
+from l5r_auto.locations import PlayArea
 from l5r_auto.phases import AttackPhase, DynastyPhase, Turn
 from tests.conftest import _PERSONALITY, _STRATEGY
 

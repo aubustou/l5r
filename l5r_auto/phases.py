@@ -17,10 +17,10 @@ from l5r_auto.abilities import (
     RecruitAction,
 )
 from l5r_auto.ai.policy import (
-    PASS,
     KIND_ACTION_ROUND,
     KIND_ATTACK_TARGET,
     KIND_DISCARD_HAND,
+    PASS,
     Decision,
     Option,
 )
