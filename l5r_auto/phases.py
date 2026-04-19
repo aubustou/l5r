@@ -16,6 +16,14 @@ from l5r_auto.abilities import (
     PlayStrategyAbility,
     RecruitAction,
 )
+from l5r_auto.ai.policy import (
+    PASS,
+    KIND_ACTION_ROUND,
+    KIND_ATTACK_TARGET,
+    KIND_DISCARD_HAND,
+    Decision,
+    Option,
+)
 from l5r_auto.cards.events.common import Event
 from l5r_auto.cards.personalities.common import PersonalityEntity
 from l5r_auto.errors import (
@@ -228,27 +236,72 @@ class Phase(Step):
 
             player_idx += 1
 
+    def legal_actions(
+        self,
+        player: Player,
+        abilities: list[Ability],
+        allowed_types: set[str],
+    ) -> list[tuple[Ability, object]]:
+        """Enumerate every (ability, target) pair the player can legally take.
+
+        Side-effect-free — used by :meth:`_try_player_action` to pose a
+        Decision to the policy, and will be the single expansion function
+        for any future tree-search policy.
+        """
+        pairs: list[tuple[Ability, object]] = []
+        for ability in abilities:
+            if not self._ability_type_allowed(ability, allowed_types):
+                continue
+            if ability.done_once_per_turn and not ability.repeatable:
+                continue
+            for entity in ability.gather_legal_target_entities(self.game, player):
+                if not ability.can_pay(self.game, entity):
+                    continue
+                pairs.append((ability, entity))
+        return pairs
+
     def _try_player_action(
         self,
         player: Player,
         abilities: list[Ability],
         allowed_types: set[str],
     ) -> bool:
-        """Attempt one action for a player. Returns True if an action was taken."""
-        for ability in abilities:
-            if not self._ability_type_allowed(ability, allowed_types):
-                continue
-            if ability.done_once_per_turn and not ability.repeatable:
-                continue
+        """Ask the player's policy to pick one legal action (or pass).
 
-            for entity in ability.gather_legal_target_entities(self.game, player):
-                if ability.pay_cost(self.game, entity):
-                    ability.get_effect(self.game, entity)
-                    if not ability.repeatable:
-                        ability.done_once_per_turn = True
-                    return True
+        Returns True if an action was actually taken.
+        """
+        pairs = self.legal_actions(player, abilities, allowed_types)
+        if not pairs:
+            return False
 
-        return False
+        options = [
+            Option(
+                id=f"act:{ability.__class__.__name__}:{getattr(entity, 'id', entity)}",
+                payload=(ability, entity),
+            )
+            for ability, entity in pairs
+        ]
+        options.append(PASS)
+        decision = Decision(
+            kind=KIND_ACTION_ROUND,
+            player=player,
+            options=options,
+            context={
+                "phase": self.__class__.__name__,
+                "allowed_types": sorted(allowed_types),
+            },
+        )
+        picked = player.policy.choose(decision, self.game)
+        if not picked or picked[0] is PASS or picked[0].payload is None:
+            return False
+
+        ability, entity = picked[0].payload
+        if not ability.pay_cost(self.game, entity):
+            return False
+        ability.get_effect(self.game, entity)
+        if not ability.repeatable:
+            ability.done_once_per_turn = True
+        return True
 
     @staticmethod
     def _ability_type_allowed(ability: Ability, allowed_types: set[str]) -> bool:
@@ -398,12 +451,30 @@ class AttackPhase(Phase):
             logging.info("%s: No unbowed personalities to attack with.", attacker.name)
             return
 
-        # Choose a random face-up province to attack
+        # Ask attacker's policy which province to attack (or to pass).
         valid_provinces = [prov for prov in defender.provinces if prov.dynasty_cards]
         if not valid_provinces:
             logging.info("%s: No valid provinces to attack.", attacker.name)
             return
-        target_province = random.choice(valid_provinces)
+        options = [
+            Option(id=f"province:{i}", payload=prov)
+            for i, prov in enumerate(valid_provinces)
+        ]
+        options.append(PASS)
+        decision = Decision(
+            kind=KIND_ATTACK_TARGET,
+            player=attacker,
+            options=options,
+            context={
+                "defender": defender,
+                "attacker_force_approx": self._total_force(attacking_units),
+            },
+        )
+        picked = attacker.policy.choose(decision, self.game)
+        if not picked or picked[0] is PASS or picked[0].payload is None:
+            logging.info("%s: Declines to attack.", attacker.name)
+            return
+        target_province = picked[0].payload
 
         logging.info(
             "%s: Declares attack on province %s with %d personalities.",
@@ -640,10 +711,34 @@ class DynastyPhase(Phase):
             logging.info("%s: Fate deck is empty.", player.name)
 
     def _end_of_turn_discard(self):
-        """After drawing, discard down to max hand size (8)."""
+        """After drawing, discard down to max hand size — policy picks which."""
         player = self.active_player
-        while len(player.hand) > player.max_hand_size:
-            card = random.choice(player.hand)
+        excess = len(player.hand) - player.max_hand_size
+        if excess <= 0:
+            return
+
+        options = [
+            Option(id=f"hand:{c.id}:{c.title}", payload=c) for c in player.hand
+        ]
+        decision = Decision(
+            kind=KIND_DISCARD_HAND,
+            player=player,
+            options=options,
+            min_picks=excess,
+            max_picks=excess,
+            context={"max_hand_size": player.max_hand_size},
+        )
+        picked = player.policy.choose(decision, self.game)
+
+        # Defensive: if the policy returned the wrong number of picks, pad
+        # or truncate to `excess` so the rules invariant holds.
+        picked_cards = [opt.payload for opt in picked if opt.payload is not None]
+        if len(picked_cards) < excess:
+            remaining = [c for c in player.hand if c not in picked_cards]
+            picked_cards.extend(remaining[: excess - len(picked_cards)])
+        picked_cards = picked_cards[:excess]
+
+        for card in picked_cards:
             logging.info(
                 "%s: Discarding %s from hand (over max hand size %d).",
                 player.name,

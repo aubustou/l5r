@@ -144,6 +144,8 @@ def _load_cards():
 
 @pytest.fixture
 def mock_player():
+    from l5r_auto.ai.heuristic_policy import HeuristicPolicy
+
     p = MagicMock()
     p.name = "TestPlayer"
     p.clan = CrabClan
@@ -155,6 +157,8 @@ def mock_player():
     p.dynasty_deck = []
     p.removed_from_game = []
     p.entities = []
+    # Real policy so decisions resolve to concrete picks (not MagicMock).
+    p.policy = HeuristicPolicy()
     return p
 
 

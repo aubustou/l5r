@@ -54,6 +54,15 @@ class Ability(Action):
     def on_pay(self, game: Game, player: Player, entity: Entity) -> int:
         return 0
 
+    def can_pay(self, game: Game, entity: Entity) -> bool:
+        """Side-effect-free affordability check.
+
+        Used by :func:`Phase.legal_actions` to enumerate plays without
+        mutating state. Defaults to ``True``; override in subclasses whose
+        ``gather_legal_target_entities`` does not already pre-filter by cost.
+        """
+        return True
+
 
 @dataclass(repr=False, kw_only=True)
 class Trait(Action):
@@ -152,47 +161,31 @@ class RecruitAction(Ability):
                 continue
             yield entity
 
-    def pay_cost(self, game: Game, entity: PersonalityEntity | HoldingEntity) -> bool:
+    def _effective_gold_cost(self, entity: Entity) -> int:
         gold_cost = entity.gold_cost
-
         if hasattr(entity, "clan") and entity.owner.clan not in entity.clan:
             # Management of out-of-clan personalities and unaligned personalities
             gold_cost += 2
+        return gold_cost
 
-        gold_producing_entities = [
-            x for x in game.current_player.entities if x.can_produce
-        ]
-        gold_producing_entities.sort(key=lambda x: x.gold_production, reverse=True)
+    def can_pay(self, game: Game, entity: Entity) -> bool:
+        player = entity.owner
+        producible = sum(
+            sum(e.on_pay(game, player, e)) for e in player.entities if e.can_produce
+        )
+        return producible >= self._effective_gold_cost(entity)
 
-        produced_gold = 0
-        bowed_entities = []
-        try:
-            while produced_gold < gold_cost:
-                if not gold_producing_entities:
-                    raise ValueError("Not enough gold to pay cost.")
-                gold_producing_entity = gold_producing_entities.pop()
-                produced_gold += sum(
-                    gold_producing_entity.on_pay(game, entity.owner, entity)
-                )
-                bowed_entities.append(gold_producing_entity)
-        except ValueError:
+    def pay_cost(self, game: Game, entity: PersonalityEntity | HoldingEntity) -> bool:
+        gold_cost = self._effective_gold_cost(entity)
+        result = _pay_gold(game, entity.owner, gold_cost, target=entity)
+        if not result:
             logging.info(
                 "%s: Not enough gold to pay cost (%s) of %s.",
                 game.current_player.name,
                 gold_cost,
                 entity,
             )
-            return False
-        else:
-            logging.info(
-                "%s: Paying %d gold for %s.",
-                game.current_player.name,
-                produced_gold,
-                entity,
-            )
-            for gold_producing_entity in bowed_entities:
-                gold_producing_entity.bow()
-            return True
+        return result
 
     def _recruit_personality(self, game: Game, personality: PersonalityEntity):
         logging.info(
@@ -353,31 +346,63 @@ class DynastyDiscardAction(Ability):
         card.discard()
 
 
-def _pay_gold(game: Game, player: Player, gold_cost: int) -> bool:
+def _pay_gold(
+    game: Game,
+    player: Player,
+    gold_cost: int,
+    target: Entity | None = None,
+) -> bool:
     """Bow gold-producing entities owned by player to cover gold_cost.
 
-    Returns True and bows the entities on success, False if insufficient gold.
+    The selection is mediated by ``player.policy`` one producer at a time:
+    the engine repeatedly asks the policy to pick the next producer to bow
+    until the cost is covered. Returns True and bows on success, False (and
+    does not bow anything) if insufficient gold is producible.
     """
-    gold_producing_entities = [x for x in player.entities if x.can_produce]
-    gold_producing_entities.sort(key=lambda x: x.gold_production, reverse=True)
+    from l5r_auto.ai.policy import KIND_PAY_GOLD, Decision, Option
 
-    produced_gold = 0
-    bowed_entities = []
-    try:
-        while produced_gold < gold_cost:
-            if not gold_producing_entities:
-                raise ValueError("Not enough gold.")
-            gpe = gold_producing_entities.pop()
-            produced_gold += sum(gpe.on_pay(game, player, gpe))
-            bowed_entities.append(gpe)
-    except ValueError:
+    available = [x for x in player.entities if x.can_produce]
+
+    # Up-front affordability check — side-effect free.
+    total_producible = sum(sum(e.on_pay(game, player, e)) for e in available)
+    if total_producible < gold_cost:
         logging.info("%s: Not enough gold to pay %d.", player.name, gold_cost)
         return False
-    else:
-        logging.info("%s: Paying %d gold.", player.name, produced_gold)
-        for gpe in bowed_entities:
-            gpe.bow()
-        return True
+
+    bowed: list[Entity] = []
+    produced = 0
+    remaining = list(available)
+    while produced < gold_cost and remaining:
+        options = [
+            Option(id=f"bow:{e.id}:{e.title}", payload=e) for e in remaining
+        ]
+        decision = Decision(
+            kind=KIND_PAY_GOLD,
+            player=player,
+            options=options,
+            context={
+                "gold_cost": gold_cost,
+                "produced": produced,
+                "remaining_cost": gold_cost - produced,
+                "target": target,
+            },
+        )
+        picked = player.policy.choose(decision, game)
+        if not picked:
+            # Policy declined to pay — abort without side effects.
+            return False
+        gpe = picked[0].payload
+        remaining.remove(gpe)
+        bowed.append(gpe)
+        produced += sum(gpe.on_pay(game, player, gpe))
+
+    if produced < gold_cost:
+        return False
+
+    logging.info("%s: Paying %d gold.", player.name, produced)
+    for gpe in bowed:
+        gpe.bow()
+    return True
 
 
 @dataclass(repr=False, kw_only=True)
@@ -401,8 +426,15 @@ class PlayStrategyAbility(Ability):
             if isinstance(card, StrategyEntity) and card.gold_cost <= gold_available:
                 yield card
 
+    def can_pay(self, game: Game, entity: Entity) -> bool:
+        player = entity.owner
+        producible = sum(
+            sum(e.on_pay(game, player, e)) for e in player.entities if e.can_produce
+        )
+        return producible >= getattr(entity, "gold_cost", 0)
+
     def pay_cost(self, game: Game, entity: FateCard) -> bool:
-        return _pay_gold(game, entity.owner, entity.gold_cost)
+        return _pay_gold(game, entity.owner, entity.gold_cost, target=entity)
 
     def get_effect(self, game: Game, card: Entity):
         from .locations import FateDiscard
@@ -441,10 +473,18 @@ class AttachFollowerAbility(Ability):
             if isinstance(card, FollowerEntity) and card.gold_cost <= gold_available:
                 yield card
 
+    def can_pay(self, game: Game, entity: Entity) -> bool:
+        player = entity.owner
+        producible = sum(
+            sum(e.on_pay(game, player, e)) for e in player.entities if e.can_produce
+        )
+        return producible >= getattr(entity, "gold_cost", 0)
+
     def pay_cost(self, game: Game, entity: FateCard) -> bool:
-        return _pay_gold(game, entity.owner, entity.gold_cost)
+        return _pay_gold(game, entity.owner, entity.gold_cost, target=entity)
 
     def get_effect(self, game: Game, card: Entity):
+        from .ai.policy import KIND_ATTACH_TARGET, Decision, Option
         from .cards.personalities.common import PersonalityEntity
 
         personalities_in_play = [
@@ -454,7 +494,18 @@ class AttachFollowerAbility(Ability):
         ]
         if not personalities_in_play:
             return
-        target = personalities_in_play[0]
+        options = [
+            Option(id=f"attach:{p.id}:{p.title}", payload=p)
+            for p in personalities_in_play
+        ]
+        decision = Decision(
+            kind=KIND_ATTACH_TARGET,
+            player=card.owner,
+            options=options,
+            context={"attachment": card, "attachment_kind": "follower"},
+        )
+        picked = card.owner.policy.choose(decision, game)
+        target = picked[0].payload if picked else personalities_in_play[0]
         logging.info(
             "%s: Attaching follower %s to %s.",
             card.owner.name,
@@ -495,10 +546,18 @@ class AttachItemAbility(Ability):
             if isinstance(card, ItemEntity) and card.gold_cost <= gold_available:
                 yield card
 
+    def can_pay(self, game: Game, entity: Entity) -> bool:
+        player = entity.owner
+        producible = sum(
+            sum(e.on_pay(game, player, e)) for e in player.entities if e.can_produce
+        )
+        return producible >= getattr(entity, "gold_cost", 0)
+
     def pay_cost(self, game: Game, entity: FateCard) -> bool:
-        return _pay_gold(game, entity.owner, entity.gold_cost)
+        return _pay_gold(game, entity.owner, entity.gold_cost, target=entity)
 
     def get_effect(self, game: Game, card: Entity):
+        from .ai.policy import KIND_ATTACH_TARGET, Decision, Option
         from .cards.personalities.common import PersonalityEntity
 
         personalities_in_play = [
@@ -508,7 +567,18 @@ class AttachItemAbility(Ability):
         ]
         if not personalities_in_play:
             return
-        target = personalities_in_play[0]
+        options = [
+            Option(id=f"attach:{p.id}:{p.title}", payload=p)
+            for p in personalities_in_play
+        ]
+        decision = Decision(
+            kind=KIND_ATTACH_TARGET,
+            player=card.owner,
+            options=options,
+            context={"attachment": card, "attachment_kind": "item"},
+        )
+        picked = card.owner.policy.choose(decision, game)
+        target = picked[0].payload if picked else personalities_in_play[0]
         logging.info(
             "%s: Attaching item %s to %s.",
             card.owner.name,
