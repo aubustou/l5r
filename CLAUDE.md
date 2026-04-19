@@ -343,9 +343,45 @@ Gold payment uses the `_pay_gold(game, player, gold_cost)` helper (in `abilities
 | Keyword | Where enforced | Behaviour |
 |---|---|---|
 | `Unique` | `RecruitAction.gather_legal_target_entities` | Blocks recruiting if a personality with the same title is already in the play area |
+| `Loyal` | `RecruitAction.gather_legal_target_entities` | Blocks recruiting if player's clan does not match the personality's clan alignment |
 | `Experienced` | `RecruitAction.get_effect` | Recruiting an Experienced personality replaces the lower-XP version already in play, transferring all attachments |
 | `Resilient` | `AttackPhase._destroy_with_resilient` | Entity bows instead of being destroyed the first time; tracked per-entity via `_resilient_used` flag |
 | `Expendable` | `PersonalityEntity.destroy` | Entity draws a fate card for its owner when destroyed |
 | `Conqueror` | `AttackPhase._return_home` | Personality and its unit do not bow when returning home after winning a battle |
 | `Kharmic` | `KharmicAction.gather_legal_target_entities` | Cards with this keyword are eligible for the `KharmicAction` cycling ability in `ActionPhase` |
 
+### Rules Gaps (not yet implemented)
+
+These are known deviations from the Twenty Festivals rules, confirmed by game simulation and code audit.
+
+#### Battle / Attack Phase
+
+| Gap | Description |
+|---|---|
+| Player assignment | Attacker/defender assignment is automatic (all unbowed personalities); players do not choose which personalities to send |
+| Engage segment | No Cavalry, Naval, or Reserve engage actions — placeholder only in `AttackPhase._start()` |
+| Battle actions | No battle action framework; `Tactician` Tactical Advantage and similar cannot fire |
+| `Duelist` keyword | Ties always result in mutual destruction; Duelist should win ties against non-Duelists |
+| Per-province strength | All 4 provinces share the same strength from the Stronghold; Fortifications cannot modify individual province strength |
+
+#### Dynasty Phase / Recruitment
+
+| Gap | Description |
+|---|---|
+| Proclaim is automatic | Proclaim honor gain triggers on every qualifying recruit; per rules it is an optional once-per-turn choice |
+
+#### Unimplemented Keywords
+
+| Keyword | Missing behaviour |
+|---|---|
+| `Cavalry` | Absent Engage action to move unbowed Cavalry unit to the battlefield |
+| `Naval` | Naval Invasion first-action opportunity in Engage segment |
+| `Reserve` | Absent Repeatable Battle action to recruit Reserve personality/attachment mid-battle |
+| `Tactician` | Repeatable Battle action to discard a card for a Force bonus (Tactical Advantage) |
+| `Fear` / `Courage` | Fear effects and Courage interrupt to reduce/negate them |
+| `Fortification` | Province-attachment system; Fortifications attach to Provinces, not Personalities |
+| `Destined` | No "enters play" trigger hook; Destined card should draw a fate card when it comes into play |
+
+#### Serialisation (dead code, now fixed)
+
+- `Player.report()` and `ProvinceLocation.report()` are now implemented; `Game.to_json()` exists and `game.report()` is called at the end of each game, writing a JSON snapshot to `l5r_auto/reports/`.

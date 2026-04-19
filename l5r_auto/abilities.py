@@ -96,7 +96,7 @@ class RecruitAction(Ability):
     def gather_legal_target_entities(
         self, game: Game, active_player: Player
     ) -> Generator[Entity, None, None]:
-        from .keywords import Unique
+        from .keywords import Loyal, Unique
 
         titles_in_play = {
             e.title for e in game.entities if e.location is PlayArea and e.face_up
@@ -118,6 +118,23 @@ class RecruitAction(Ability):
             if is_unique and entity.title in titles_in_play:
                 logging.info(
                     "%s: Skipping Unique card %s — already in play.",
+                    active_player.name,
+                    entity.title,
+                )
+                continue
+            # Loyal: skip if personality is loyal and belongs to a different clan
+            is_loyal = any(
+                (isinstance(kw, type) and issubclass(kw, Loyal)) or kw is Loyal
+                for kw in entity.keywords
+            )
+            if (
+                is_loyal
+                and hasattr(entity, "clan")
+                and entity.clan
+                and active_player.clan not in entity.clan
+            ):
+                logging.info(
+                    "%s: Skipping Loyal card %s — cannot recruit out-of-clan.",
                     active_player.name,
                     entity.title,
                 )

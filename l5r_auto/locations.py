@@ -45,6 +45,13 @@ class ProvinceLocation(Location):
         card.province = self
         self.dynasty_cards.append(card)
 
+    def report(self):
+        return dict(
+            dynasty_cards=[x.title for x in self.dynasty_cards],
+            attachments=[x.title for x in self.attachments],
+            face_down=self.dynasty_cards[0].face_down if self.dynasty_cards else False,
+        )
+
 
 @dataclass(repr=False, kw_only=True)
 class PlayArea(Location):

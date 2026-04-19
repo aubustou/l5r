@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import itertools
+import json
 import logging
 import random
 import time
@@ -85,6 +86,12 @@ class Game:
         turn = Turn(game=self, number=number, active_player=active_player)
         self.turns.append(turn)
         turn.start()
+
+    def to_json(self) -> str:
+        return json.dumps(
+            {"id": str(self.id), "players": [p.report() for p in self.players]},
+            indent=2,
+        )
 
     def report(self):
         id = str(self.id)
@@ -183,6 +190,7 @@ def main():
         logging.info("Finished game: %s", game.id)
 
     game.end_report()
+    game.report()
     logging.info("Finished in %1.2f seconds", time.time() - start_time)
 
 

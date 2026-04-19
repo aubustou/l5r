@@ -18,7 +18,6 @@ if TYPE_CHECKING:
     from .cards import Entity, Sensei, Stronghold
     from .deck import Deck
     from .legality import GameRules
-    from .models import PlayerReport
     from .play import Game
 
 
@@ -90,7 +89,7 @@ class Player:
         self.clan = self.deck.clan
 
     def report(self):
-        return PlayerReport(
+        return dict(
             name=self.name,
             deck=str(self.deck.id),
             stronghold=self.stronghold.title,

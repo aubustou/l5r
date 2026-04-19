@@ -73,6 +73,18 @@ class PersonalityEntity(Entity, Personality):
             )
             self.owner.honor -= printed_ph
 
+        # Attachments are discarded when their host is destroyed
+        for attached in [
+            e for e in self.owner.play_area if getattr(e, "attached_to", None) is self
+        ]:
+            logging.info(
+                "%s: %s discarded with %s.",
+                self.owner.name,
+                attached.title,
+                self.title,
+            )
+            attached.discard()
+
         has_expendable = any(
             (isinstance(kw, type) and issubclass(kw, Expendable)) or kw is Expendable
             for kw in self.keywords
