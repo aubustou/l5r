@@ -15,10 +15,18 @@ from .locations import Hand, PlayArea, ProvinceLocation, StrongholdLocation
 
 if TYPE_CHECKING:
     from .abilities import Ability
+    from .ai.policy import Policy
     from .cards import Entity, Sensei, Stronghold
     from .deck import Deck
     from .legality import GameRules
     from .play import Game
+
+
+def _default_policy() -> Policy:
+    # Imported lazily so importing player does not pull ai at module import.
+    from .ai.random_policy import RandomPolicy
+
+    return RandomPolicy()
 
 
 NAMES = [
@@ -74,6 +82,8 @@ class Player:
     hand_size: int = STARTING_HAND_SIZE
     max_hand_size: int = 8
     successive_battle_actions: int = SUCCESSIVE_BATTLE_ACTIONS
+
+    policy: Policy = field(default_factory=_default_policy)
 
     def __post_init__(self):
         if not self.name:
